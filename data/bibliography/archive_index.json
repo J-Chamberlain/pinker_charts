@@ -1,0 +1,29 @@
+[
+  {
+    "archive_id": "itopf_20161218",
+    "target_url": "http://www.itopf.com/knowledge-resources/data-statistics/statistics/",
+    "archive_url": "http://web.archive.org/web/20161218101412/http://www.itopf.com/knowledge-resources/data-statistics/statistics/",
+    "timestamp": "2016-12-18",
+    "related_citation_key": "Roser 2016r",
+    "status": "located",
+    "notes": "Internet Archive closest snapshot to 2017-01-01 for ITOPF statistics page."
+  },
+  {
+    "archive_id": "worldbank_er_ptd_totl_zs_20161006",
+    "target_url": "http://data.worldbank.org/indicator/ER.PTD.TOTL.ZS",
+    "archive_url": "http://web.archive.org/web/20161006192316/http://data.worldbank.org:80/indicator/ER.PTD.TOTL.ZS",
+    "timestamp": "2016-10-06",
+    "related_citation_key": "World Bank 2016h",
+    "status": "located",
+    "notes": "Internet Archive closest snapshot to 2017-01-01 for a combined protected-areas indicator page."
+  },
+  {
+    "archive_id": "owid_number_oil_spills_20170101",
+    "target_url": "https://ourworldindata.org/grapher/number-oil-spills.csv",
+    "archive_url": "",
+    "timestamp": "2017-01-01 probe",
+    "related_citation_key": "Roser 2016r",
+    "status": "not_located",
+    "notes": "Wayback availability probe returned no closest snapshot for this exact CSV URL."
+  }
+]

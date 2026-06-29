@@ -1,0 +1,583 @@
+{
+  "@odata.context": "http://datamart-api/US.SeaborneTrade/2231/$metadata#Facts(Economy/Code,CargoType/Code,Year,M2200)",
+  "value": [
+    {
+      "Year": 2000,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 1812767795.2968218,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2000,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1171171875.891357,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2001,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 1819231730.0721648,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2001,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1162475683.0953662,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2002,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 1788715299.823021,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2002,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1196825579.722026,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2003,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 1892011077.6177893,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2003,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1245992995.1001058,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2004,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 2014748092.8858469,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2004,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1355939070.490974,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2005,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 2076127248.1750429,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2005,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1516411693.8542829,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2006,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 2097135281.658146,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2006,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1645068967.0852149,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2007,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 2041757038.262106,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2007,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1573949666.478857,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2008,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 2063189354.156935,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2008,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1755768970.7638822,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2009,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 1926172490.3881018,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2009,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1532212084.9295847,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2010,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 2017411260.83402,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2010,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1691194282.991121,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2011,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 2031849840.573304,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2011,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1833083385.185968,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2012,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 2068762307.494164,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2012,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1812083633.2304053,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2013,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 1999613684.713754,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2013,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1872303426.337382,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2014,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 1886101473.236775,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2014,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1823201039.315626,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2015,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 1911536668.6005158,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2015,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 1922498648.369109,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2016,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "11"
+      },
+      "M2200": {
+        "Value": 2056375316.406374,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    },
+    {
+      "Year": 2016,
+      "Economy": {
+        "Code": "0000"
+      },
+      "CargoType": {
+        "Code": "12"
+      },
+      "M2200": {
+        "Value": 2029126653.7117252,
+        "Footnote": {
+          "Code": 0,
+          "Text": null
+        },
+        "MissingValue": null
+      }
+    }
+  ]
+}

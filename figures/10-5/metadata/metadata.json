@@ -1,0 +1,75 @@
+{
+  "figure_id": "10-5",
+  "title": "Oil spills, 1970-2016",
+  "status": "partial_match",
+  "source_fidelity": "B/C",
+  "best_current_reconstruction": "outputs/plots/figure_10_5_oil_spills.png",
+  "candidate_diagnostic_plot": "outputs/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png",
+  "comparison_image": "outputs/validation/figure_10_5_comparison.png",
+  "original_reference_image": "outputs/original_reference/figure_10_5_original_crop.png",
+  "raw_downloads": [
+    {
+      "path": "data/raw/owid_number_oil_spills.csv",
+      "url": "https://ourworldindata.org/grapher/number-oil-spills.csv",
+      "source_type": "live",
+      "role": "best-current reconstruction input"
+    },
+    {
+      "path": "data/candidates/unctad_oil_trade_2000_2016_raw.json",
+      "url": "https://unctadstat-api.unctad.org/datamart-api/US.SeaborneTrade/2231/Facts",
+      "source_type": "live",
+      "role": "diagnostic candidate only"
+    }
+  ],
+  "processed_data": "data/clean/figure_10_5_oil_spills_clean.csv",
+  "transformations": [
+    "Filtered OWID data to World, 1970-2016.",
+    "Computed oil_spills_7_plus_tonnes as medium plus large tanker spills.",
+    "Kept UNCTAD 2000-2016 cargo types 11 and 12 as diagnostic evidence only."
+  ],
+  "unresolved_issues": [
+    "Missing oil-shipped-by-sea values for 1970-1999.",
+    "Exact Roser 2016r data snapshot not located.",
+    "Annual UNCTADStat mirror recovers tanker trade through 2020; ITOPF-cited 2021-2023 UNCTADStat extension was not admitted because the accessible live API series does not match the book/RMT scale on overlap.",
+    "Annual UNCTADStat mirror recovers tanker trade through 2020; ITOPF-cited 2021-2023 UNCTADStat extension was not admitted because the accessible live API series does not match the book/RMT scale on overlap.",
+    "Annual UNCTADStat mirror recovers tanker trade through 2020; ITOPF-cited 2021-2023 UNCTADStat extension was not admitted because the accessible live API series does not match the book/RMT scale on overlap."
+  ],
+  "candidate_evidence": [
+    {
+      "path": "data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv",
+      "source": "UNCTAD Review of Maritime Transport 2020 Table 1.1",
+      "role": "historical selected-year diagnostic support",
+      "status": "accepted_diagnostic_only",
+      "limitation": "selected years only; not the exact annual 1970-2016 series"
+    }
+  ],
+  "search_metrics": "outputs/search_metrics/search_metrics.csv",
+  "book_style_outputs": {
+    "book_period": "outputs/book_style/book_period/figure_10_5_book_period_reconstruction.png",
+    "extended": "outputs/book_style/extended/figure_10_5_extended_reconstruction.png",
+    "book_comparison": "outputs/book_style/validation/figure_10_5_book_style_comparison.png",
+    "extended_comparison": "outputs/book_style/validation/figure_10_5_extended_comparison.png",
+    "caption": "outputs/book_style/captions/figure_10_5_caption.txt",
+    "anomaly_review": "outputs/book_style/anomaly_reviews/figure_10_5_anomaly_review.md",
+    "book_comparison_captioned": "outputs/book_style/validation/figure_10_5_book_style_comparison_captioned.png",
+    "extended_comparison_captioned": "outputs/book_style/validation/figure_10_5_extended_comparison_captioned.png"
+  },
+  "caption_text_file": "outputs/book_style/captions/figure_10_5_caption.txt",
+  "anomaly_review_file": "outputs/book_style/anomaly_reviews/figure_10_5_anomaly_review.md",
+  "caption": "Figure 10-5: Oil spills, 1970-2016, with post-publication updates. The solid black line shows oil spills of at least 7\ntonnes during the book period; the solid gray line shows oil shipped by sea / tanker trade during the book period.\nBook-period spill data come from ITOPF via OWID/Roser, and tanker-trade data come from a recovered annual UNCTADStat-\nstyle mirror for World crude oil loaded plus other tanker trade loaded. Dotted segments show post-publication updates:\nspill counts extend through 2025 and tanker-trade evidence extends through 2020. The tanker-trade extension is\ncontinuous with the recovered annual mirror through 2020, but ITOPF's current source trail indicates UNCTADStat data\nare available through 2023; the accessible live UNCTAD API was not used for 2021-2023 because its overlap values do\nnot match the book/RMT scale. Remaining uncertainty: the exact Roser 2016r/ITOPF data snapshot and a validated\n2021-2023 same-scale UNCTAD export remain unresolved.",
+  "visual_anomaly_review": [
+    "Visual review date: 2026-06-28",
+    "",
+    "Reviewer-visible issues:",
+    "- The extended reconstruction has two different update horizons: spill counts continue through 2025, while validated same-scale tanker-trade evidence stops at 2020.",
+    "- ITOPF's current Figure 4 source trail says UNCTADStat tanker-trade data are available through 2023, but the accessible live UNCTAD endpoint fails overlap validation against the book/RMT scale.",
+    "- The right-axis series is an updated-equivalent reconstruction rather than a proven exact Roser 2016r data snapshot.",
+    "- Solid-to-dotted transition at 2016 is intentional and marks the end of Pinker's book period.",
+    "",
+    "Disposition:",
+    "- Keep the 2021-2023 live UNCTAD candidate out of the publication-facing line until a same-scale source is recovered.",
+    "- Caption explicitly states the different update horizons and unresolved exact-source uncertainty."
+  ],
+  "extension_continuity": "continuous_through_validated_source_limit",
+  "extension_caveat": "Post-book spill counts extend through 2025, while validated same-scale tanker-trade evidence extends through 2020. The accessible live UNCTAD 2021-2023 endpoint is excluded because it does not match the book/RMT scale on overlapping years."
+}

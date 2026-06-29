@@ -1,0 +1,22 @@
+[
+  {
+    "figure_id": "10-5",
+    "figure_title": "Oil spills, 1970-2016",
+    "bibliography_keys": "Roser 2016r",
+    "bibliography_entries": "Roser, Max. Oil spills / Global number of oil spills from tankers. Our World in Data, 2016.",
+    "datasets": "owid_itopf_oil_spills; unctad_seaborne_oil_trade",
+    "source_fidelity": "B/C",
+    "initial_estimate": "Exact OWID publication candidate for spill counts; institutional successor only for UNCTAD oil-shipped series.",
+    "mapping_status": "partial"
+  },
+  {
+    "figure_id": "10-6",
+    "figure_title": "Protected areas, 1990-2014",
+    "bibliography_keys": "World Bank 2016h; World Bank 2017",
+    "bibliography_entries": "World Bank. World Development Indicators protected-area indicators, 2016/2017.",
+    "datasets": "world_bank_wdi_protected_areas; protected_planet_wdpa",
+    "source_fidelity": "C",
+    "initial_estimate": "Institutional successor identified; exact historical WDI release not yet located.",
+    "mapping_status": "partial"
+  }
+]

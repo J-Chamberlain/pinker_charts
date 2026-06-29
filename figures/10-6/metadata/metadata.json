@@ -1,0 +1,73 @@
+{
+  "figure_id": "10-6",
+  "title": "Protected areas, 1990-2014",
+  "status": "verified_reproduction",
+  "source_fidelity": "A/B",
+  "best_current_reconstruction": "outputs/plots/figure_10_6_protected_areas.png",
+  "candidate_diagnostic_plot": "outputs/diagnostics/figure_10_6_current_vs_archived_wdi_diagnostic.png",
+  "comparison_image": "outputs/validation/figure_10_6_comparison.png",
+  "original_reference_image": "outputs/original_reference/figure_10_6_original_crop.png",
+  "raw_downloads": [
+    {
+      "path": "data/candidates/wayback_WDI_csv_20171012170642.zip",
+      "url": "https://web.archive.org/web/20171012170642id_/http://databank.worldbank.org/data/download/WDI_csv.zip",
+      "source_type": "archived",
+      "role": "best-current reconstruction input"
+    },
+    {
+      "path": "data/candidates/world_bank_ER.LND.PTLD.ZS_indicator_csv.zip",
+      "url": "https://api.worldbank.org/v2/en/indicator/ER.LND.PTLD.ZS?downloadformat=csv",
+      "source_type": "live",
+      "role": "diagnostic rejected current source"
+    },
+    {
+      "path": "data/candidates/world_bank_ER.MRN.PTMR.ZS_indicator_csv.zip",
+      "url": "https://api.worldbank.org/v2/en/indicator/ER.MRN.PTMR.ZS?downloadformat=csv",
+      "source_type": "live",
+      "role": "diagnostic rejected current source"
+    }
+  ],
+  "processed_data": "data/clean/figure_10_6_protected_areas_clean.csv",
+  "transformations": [
+    "Extracted WLD rows for ER.LND.PTLD.ZS, ER.MRN.PTMR.ZS, and ER.PTD.TOTL.ZS from archived WDIData.csv.",
+    "Pivoted land and marine indicators into analysis-ready columns.",
+    "Plotted the 1990, 2000, and 2014 anchor values as continuous line segments."
+  ],
+  "unresolved_issues": [
+    "Book source line does not explicitly state whether WRI/Pinker plotted WDI anchor years directly or an intermediate annual table.",
+    "Current WDI post-2014 extension is shown as successor data; marine values are not continuous with the archived 2014 book-period release.",
+    "Current WDI post-2014 extension is shown as successor data; marine values are not continuous with the archived 2014 book-period release.",
+    "Current WDI post-2014 extension is shown as a visibly separated successor series; marine values are not continuous with the archived 2014 book-period release.",
+    "Current WDI post-2014 extension is shown as a visibly separated successor series; marine values are not continuous with the archived 2014 book-period release."
+  ],
+  "search_metrics": "outputs/search_metrics/search_metrics.csv",
+  "book_style_outputs": {
+    "book_period": "outputs/book_style/book_period/figure_10_6_book_period_reconstruction.png",
+    "extended": "outputs/book_style/extended/figure_10_6_extended_reconstruction.png",
+    "book_comparison": "outputs/book_style/validation/figure_10_6_book_style_comparison.png",
+    "extended_comparison": "outputs/book_style/validation/figure_10_6_extended_comparison.png",
+    "caption": "outputs/book_style/captions/figure_10_6_caption.txt",
+    "anomaly_review": "outputs/book_style/anomaly_reviews/figure_10_6_anomaly_review.md",
+    "book_comparison_captioned": "outputs/book_style/validation/figure_10_6_book_style_comparison_captioned.png",
+    "extended_comparison_captioned": "outputs/book_style/validation/figure_10_6_extended_comparison_captioned.png"
+  },
+  "caption_text_file": "outputs/book_style/captions/figure_10_6_caption.txt",
+  "anomaly_review_file": "outputs/book_style/anomaly_reviews/figure_10_6_anomaly_review.md",
+  "caption": "Figure 10-6: Protected areas, 1990-2014, with post-publication updates. Solid lines reproduce the book period from the\narchived World Bank WDI bulk ZIP captured by the Internet Archive on 2017-10-12; gray is terrestrial protected areas\nand black is marine protected areas. Dotted lines show current World Bank WDI successor values after the book period,\nbased on newer Protected Planet / WDPA / WD-OECM source metadata. The dotted extension is not continuous with the\narchived book-period source: the marine series visibly jumps downward because archived WDI reports 12.18% for 2014,\nwhile current WDI reports 8.30% for 2014 and 9.01% for 2015. This discontinuity reflects source revision or rebasing,\nnot a plotting error. Remaining uncertainty: a post-2014 release that is methodologically continuous with the archived\n2017 WDI book-period values has not been recovered.",
+  "visual_anomaly_review": [
+    "Visual review date: 2026-06-28",
+    "",
+    "Reviewer-visible issues:",
+    "- The dotted marine protected-area extension starts below the archived 2014 book-period endpoint.",
+    "- The break is caused by source-version disagreement: archived WDI 2017 reports 2014 marine protected areas as 12.18%, while current WDI reports 2014 as 8.30% and 2015 as 9.01%.",
+    "- Current WDI metadata uses newer Protected Planet / WDPA / WD-OECM source metadata, so the extension is a successor series rather than a continuous same-source continuation.",
+    "- The terrestrial series is much closer across the break, but it still uses current WDI successor metadata after the book period.",
+    "",
+    "Disposition:",
+    "- Do not connect the marine series as a smooth same-source continuation.",
+    "- Show a visible break and label the dotted segment as current WDI successor series.",
+    "- Caption explicitly says the discontinuity reflects source revision/rebasing, not plotting error."
+  ],
+  "extension_continuity": "successor_series_not_continuous",
+  "extension_caveat": "The post-2014 marine protected-area extension visibly jumps downward because the book-period reconstruction uses archived WDI 2017 values, while the dotted extension uses current WDI successor data with newer Protected Planet / WDPA / WD-OECM source metadata. The discontinuity reflects source revision or rebasing, not a plotting error."
+}

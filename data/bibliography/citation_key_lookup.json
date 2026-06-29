@@ -1,0 +1,29 @@
+[
+  {
+    "citation_key": "Roser 2016r",
+    "bibliography_record_id": "Roser_2016r",
+    "authors": "Roser, Max",
+    "year": "2016",
+    "title": "Oil spills / Global number of oil spills from tankers",
+    "url": "https://ourworldindata.org/grapher/number-oil-spills",
+    "resolution_status": "candidate"
+  },
+  {
+    "citation_key": "World Bank 2016h",
+    "bibliography_record_id": "World_Bank_2016h",
+    "authors": "World Bank",
+    "year": "2016",
+    "title": "World Development Indicators: protected areas indicators",
+    "url": "http://data.worldbank.org/indicator/ER.PTD.TOTL.ZS",
+    "resolution_status": "candidate"
+  },
+  {
+    "citation_key": "World Bank 2017",
+    "bibliography_record_id": "World_Bank_2017",
+    "authors": "World Bank",
+    "year": "2017",
+    "title": "World Development Indicators",
+    "url": "https://databank.worldbank.org/source/world-development-indicators",
+    "resolution_status": "candidate"
+  }
+]

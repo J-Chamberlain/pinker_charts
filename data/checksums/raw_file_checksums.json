@@ -1,0 +1,326 @@
+[
+  {
+    "path": "data/raw/figure_10_5_source_probe.json",
+    "sha256": "502ad4fc613d2dac1b46f09a8c6c4001516c6541b79e234e9d6e8f8e3b122427",
+    "bytes": 1090,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/raw/figure_10_6_source_probe.json",
+    "sha256": "134e5dc273df234cf474e017fba814a391067501307d58449312d11a7a8b0c10",
+    "bytes": 686,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/raw/owid_number_oil_spills.csv",
+    "sha256": "a39ca49271320294380817786bd36de0e6f790d9402dae9df4fc191cc0055850",
+    "bytes": 1482,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/raw/owid_number_oil_spills.metadata.json",
+    "sha256": "bf7d448c3492525356b6cf9b7cebcf56cdec762c6010c7870778e1f259da4bfb",
+    "bytes": 2585,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/raw/world_bank_marine_protected_areas.json",
+    "sha256": "5e5940c7e676c52f549f3aa79645c507b9efd88bc90c755b86d2f6977b007cb5",
+    "bytes": 15033,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/raw/world_bank_terrestrial_protected_areas.json",
+    "sha256": "43dbc29627ecdaf435f50cacf6bab8ddd5c2829289ec73d5984fb0c84c10cc77",
+    "bytes": 15164,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/raw/world_bank_wdi_2017_protected_areas_wld.csv",
+    "sha256": "e6faf4776cb2aacfe20cb8219d19ad60860291b982d24a186862d2b3f94a897f",
+    "bytes": 877,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/combined_protected_areas.xls",
+    "sha256": "bb12e4667f2f9334fd216e4f58c7c73ec06d90a036a01e133d47f9f6ea9fd3d5",
+    "bytes": 55808,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/current_WDI_CSV.zip",
+    "sha256": "1c8ccf64ccb9d502668aa8aa66fdae786d0994c3278b7ed377180021a5fc3bec",
+    "bytes": 280478558,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/itopf_201601.html",
+    "sha256": "5c0edc03658397b591f36cc626e673eb088463d7997b61b8bc90c6f86487889c",
+    "bytes": 39582,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/itopf_figure_4_2025_metadata.json",
+    "sha256": "341b6745a1933ce735ad99a4d74e932bcb7e2d68db2f12926d6341854c082c6a",
+    "bytes": 566,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/itopf_figure_4_decline_spills_vs_tanker_trade_2025.jpg",
+    "sha256": "4764fc5b363f8cf606f2af05e1d2ecfbbf37da64c71e2eb336ec9fd7eb0cd306",
+    "bytes": 42051,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/itopf_oil_tanker_spill_statistics_2025.html",
+    "sha256": "b96ee26917a00100f892b298b877b38e6921f7652b80b0d6ddd16772f4c3538d",
+    "bytes": 45944,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/medium_oil_spills_reproduction.html",
+    "sha256": "a55ba453218b5e7914c4cdb539de45c83e853323e94425aa3a456f886e65a4bd",
+    "bytes": 5485,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/oil_spill_stats_2017.pdf",
+    "sha256": "eb96cb3d12c5f61720accf06f11114d2e653987c6111689ae493d1636459685d",
+    "bytes": 755250,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/oil_spill_stats_2017.txt",
+    "sha256": "d4073bb28235ff9c1a44fe73f12adf1ba87c6a88daa4e89979886a374326dd2c",
+    "bytes": 60917,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/owid_201604.html",
+    "sha256": "df37270857974660934b2a68bc8afd386b5d9d0f921a31e8e99940abc3001005",
+    "bytes": 70963,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/owid_201701.html",
+    "sha256": "d69af744a8d6006fb2f355be78234b2eb9a600282292cd2645bf21ef56fdc202",
+    "bytes": 59620,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/owid_201706.html",
+    "sha256": "5b201ea991c972d1d3912720b494d8ca80ddf8ecee0949de2e510d5e7f3f3050",
+    "bytes": 52478,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/protected_planet_report_2014.pdf",
+    "sha256": "00f17f1263a8eba90fbbd1e693c41571e632a3780912e9e7255a8935988c91d7",
+    "bytes": 17339274,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/research_queries_figure_10_5.txt",
+    "sha256": "d1736ebf571c86c47ce73fa5d69f9318babdcb9fda72ece54e6abbeb806c0633",
+    "bytes": 304,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/rmt2016_en.pdf",
+    "sha256": "df5970ab47d2caac5f243295899cf188402fa14757d39723933403f731fb8d64",
+    "bytes": 2284668,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/rmt2016_en.txt",
+    "sha256": "b77d4ead5dc4f8f5fd0ff8e4550df024c189b8a6fc35395b8462f5110f5b9a2e",
+    "bytes": 589161,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/rmt2017_en_globalmaritimehub.pdf",
+    "sha256": "039662a05bf708a1dd1531c66675745560aa6454049f3328d347ffe4ed8642ee",
+    "bytes": 11304603,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/rmt2017_en_globalmaritimehub.txt",
+    "sha256": "e7f0a65801d613b0a57a7dc6bfdfd2c323039ff129654295a263aee865346553",
+    "bytes": 691124,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/rmt2019_en.pdf",
+    "sha256": "ea70ca7c0d22d5b8c1ffcdb7953372cf4c4357f66905d9b99d741061b6696ace",
+    "bytes": 7094016,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/rmt2019_en.txt",
+    "sha256": "ed1b99065405e56ff3ea6b1aeaa3563c987b70c8f45304b3afcbcc71b30cbbdb",
+    "bytes": 729334,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/rmt2020_en.pdf",
+    "sha256": "bf5433055f9575b1cc60c1a57a0e0868ab1baf335128dbbaf4b290ee96f878d7",
+    "bytes": 10916218,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/rmt2020_en.txt",
+    "sha256": "e3a396f9d26920d86e95b88761d83b256b0f067e6eb74067e5ba0cf248e46384",
+    "bytes": 824987,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/unctad_cargo_types.json",
+    "sha256": "0ccb0dca33c09af923af5e12597c279db27c44b05c36bd7f5e4f1994bd6638dd",
+    "bytes": 1275,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/unctad_oil_trade_2000_2016_raw.csv",
+    "sha256": "47c762149d0b692c9fbd9bb380c5c8a259c13ea5b38ddf5361136fbdf6f79d85",
+    "bytes": 926,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/unctad_oil_trade_2000_2016_raw.json",
+    "sha256": "05a08137e50f9d2b1552f9191568e8c04f537d09057ddd69adb7f4957ebbfa42",
+    "bytes": 10422,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/unctad_report_metadata.json",
+    "sha256": "edad82b2e2d30d30b3ad342809dc3f6f9cdc4dca67da7bceb82b92b4525633e1",
+    "bytes": 1415,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/unctad_report_metadata_2231.json",
+    "sha256": "edad82b2e2d30d30b3ad342809dc3f6f9cdc4dca67da7bceb82b92b4525633e1",
+    "bytes": 1415,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv",
+    "sha256": "55e464b8ae02bb271bc7cfb18461db97a0653e2a7ea9d1bf8db1ed7aec4f7197",
+    "bytes": 3583,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/unctad_viewer_html_current.html",
+    "sha256": "822c45bb5bbbbcbe3c539bc5fa9f56028c71c25fa7decf12d8b01f7c5b1ad9c0",
+    "bytes": 43517,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/unctad_years.json",
+    "sha256": "f300734f327b2dbcceaaec4aa8cf8264cd1fc8e6488ede4d19ee5df935286a54",
+    "bytes": 1754,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/wayback_WDI_csv_20171012170642.zip",
+    "sha256": "ce674633aaa1f937fdaf2b6d7ab7041a6847f1534250d881f29bd4159d47d658",
+    "bytes": 61992094,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/wayback_itopf_stats.json",
+    "sha256": "991592e9db1eee58fcedffdc12dbc47e7c6ac832b52ca1691ca9ed647ec53f31",
+    "bytes": 3261,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/wayback_owid_oil_page.json",
+    "sha256": "a977100a7fc4f5d9d44fef302ddd090d2411e2fefd9dcea2567aa313c1c2a4ef",
+    "bytes": 20407,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/wayback_unctad_US_SeaborneTrade_wild_urlkey.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/wayback_unctad_csv_wild.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/wayback_unctad_viewer.json",
+    "sha256": "036d7db29a0636c8011cc6c30516e00cb4590c445364eadafae789be44201ca4",
+    "bytes": 1500,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/wayback_wdi_csv_zip_cdx.json",
+    "sha256": "b2873a89081fd7a6b2144daf93b5f2cfd75a5bb39622a7def012aa4fc429aa2b",
+    "bytes": 6926,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/world_bank_ER.LND.PTLD.ZS_indicator_csv.zip",
+    "sha256": "e277d4a9d9b04a772229c050a8db51d9f9b9505c879ba2196829cffd629e83ad",
+    "bytes": 22521,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/world_bank_ER.LND.PTLD.ZS_wld_indicator_row.csv",
+    "sha256": "df8bd5be110f09ba1376d47811e11aef3e701e690e47ab11baedaba07b48dd77",
+    "bytes": 747,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/world_bank_ER.MRN.PTMR.ZS_indicator_csv.zip",
+    "sha256": "8bc26f4afd01d1d7d6a9016ca5ffb98dfa94cb6b805c4e41c3161893b69c493a",
+    "bytes": 21195,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/candidates/world_bank_ER.MRN.PTMR.ZS_wld_indicator_row.csv",
+    "sha256": "7eb880e87310c4a8316f6439d75959a60435a195ef8bbfff1f9dbeb7a6f8e0f9",
+    "bytes": 746,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/clean/figure_10_5_annual_tanker_trade_clean.csv",
+    "sha256": "e6b0b1c085d87667e0dd489ab5ded913ff742d0b305dd90b34bccc2d78c46330",
+    "bytes": 6098,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/clean/figure_10_5_book_style_extended.csv",
+    "sha256": "49408af23ce3edb1c0794d940d6a1cf1fdaf1ab01f4f23e79ffd366316f64e13",
+    "bytes": 801,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/clean/figure_10_5_oil_spills_clean.csv",
+    "sha256": "32bc4da3bba4159e2fd38ea45caac0a98a0afc74e889aee8f7d1ab7e07135e25",
+    "bytes": 1079,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/clean/figure_10_6_book_style_book_period.csv",
+    "sha256": "7f0d64fbb7da099b2cc9014c7168ba47fce3b8d7bc3d0c8e2d70f010b2a4521e",
+    "bytes": 315,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/clean/figure_10_6_book_style_current_wdi_extension.csv",
+    "sha256": "f9a8e469c9112af6012dc16d770edc0a6d68b5100828cfa58aec09bbf1a5c812",
+    "bytes": 614,
+    "modified_date": "2026-06-28"
+  },
+  {
+    "path": "data/clean/figure_10_6_protected_areas_clean.csv",
+    "sha256": "7f0d64fbb7da099b2cc9014c7168ba47fce3b8d7bc3d0c8e2d70f010b2a4521e",
+    "bytes": 315,
+    "modified_date": "2026-06-28"
+  }
+]

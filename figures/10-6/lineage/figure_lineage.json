@@ -1,0 +1,142 @@
+[
+  {
+    "figure_id": "10-5",
+    "figure_title": "Oil spills, 1970-2016",
+    "lineage": [
+      {
+        "figure_id": "10-5",
+        "figure_title": "Oil spills, 1970-2016",
+        "stage_order": 1,
+        "stage": "Book Figure",
+        "value": "Figure 10-5: Oil spills, 1970-2016",
+        "stage_status": "confirmed"
+      },
+      {
+        "figure_id": "10-5",
+        "figure_title": "Oil spills, 1970-2016",
+        "stage_order": 2,
+        "stage": "Book Citation",
+        "value": "OWID/Roser 2016r based on ITOPF",
+        "stage_status": "confirmed"
+      },
+      {
+        "figure_id": "10-5",
+        "figure_title": "Oil spills, 1970-2016",
+        "stage_order": 3,
+        "stage": "Original Paper",
+        "value": "Not cited as a paper in Kindle source line",
+        "stage_status": "not_applicable"
+      },
+      {
+        "figure_id": "10-5",
+        "figure_title": "Oil spills, 1970-2016",
+        "stage_order": 4,
+        "stage": "Original Dataset",
+        "value": "Roser 2016r OWID figure data plus ITOPF/UNCTAD inputs",
+        "stage_status": "not_located"
+      },
+      {
+        "figure_id": "10-5",
+        "figure_title": "Oil spills, 1970-2016",
+        "stage_order": 5,
+        "stage": "Modern Dataset",
+        "value": "https://ourworldindata.org/grapher/number-oil-spills.csv",
+        "stage_status": "located_partial"
+      },
+      {
+        "figure_id": "10-5",
+        "figure_title": "Oil spills, 1970-2016",
+        "stage_order": 6,
+        "stage": "Downloaded File",
+        "value": "data/raw/owid_number_oil_spills.csv",
+        "stage_status": "downloaded"
+      },
+      {
+        "figure_id": "10-5",
+        "figure_title": "Oil spills, 1970-2016",
+        "stage_order": 7,
+        "stage": "Transformation Script",
+        "value": "scripts/recreate_figures.py",
+        "stage_status": "implemented"
+      },
+      {
+        "figure_id": "10-5",
+        "figure_title": "Oil spills, 1970-2016",
+        "stage_order": 8,
+        "stage": "Generated Plot",
+        "value": "outputs/plots/figure_10_5_oil_spills.png",
+        "stage_status": "generated"
+      }
+    ]
+  },
+  {
+    "figure_id": "10-6",
+    "figure_title": "Protected areas, 1990-2014",
+    "lineage": [
+      {
+        "figure_id": "10-6",
+        "figure_title": "Protected areas, 1990-2014",
+        "stage_order": 1,
+        "stage": "Book Figure",
+        "value": "Figure 10-6: Protected areas, 1990-2014",
+        "stage_status": "confirmed"
+      },
+      {
+        "figure_id": "10-6",
+        "figure_title": "Protected areas, 1990-2014",
+        "stage_order": 2,
+        "stage": "Book Citation",
+        "value": "World Bank 2016h/2017 based on UNEP-WCMC; compiled by WRI",
+        "stage_status": "confirmed"
+      },
+      {
+        "figure_id": "10-6",
+        "figure_title": "Protected areas, 1990-2014",
+        "stage_order": 3,
+        "stage": "Original Paper",
+        "value": "Not cited as a paper in Kindle source line",
+        "stage_status": "not_applicable"
+      },
+      {
+        "figure_id": "10-6",
+        "figure_title": "Protected areas, 1990-2014",
+        "stage_order": 4,
+        "stage": "Original Dataset",
+        "value": "World Bank 2016h/2017 historical WDI release",
+        "stage_status": "not_located"
+      },
+      {
+        "figure_id": "10-6",
+        "figure_title": "Protected areas, 1990-2014",
+        "stage_order": 5,
+        "stage": "Modern Dataset",
+        "value": "https://api.worldbank.org/v2/en/indicator/ER.LND.PTLD.ZS?downloadformat=csv; https://api.worldbank.org/v2/en/indicator/ER.MRN.PTMR.ZS?downloadformat=csv",
+        "stage_status": "located_partial"
+      },
+      {
+        "figure_id": "10-6",
+        "figure_title": "Protected areas, 1990-2014",
+        "stage_order": 6,
+        "stage": "Downloaded File",
+        "value": "data/raw/world_bank_terrestrial_protected_areas_csv.zip; data/raw/world_bank_marine_protected_areas_csv.zip; JSON API evidence files also saved",
+        "stage_status": "downloaded_partial"
+      },
+      {
+        "figure_id": "10-6",
+        "figure_title": "Protected areas, 1990-2014",
+        "stage_order": 7,
+        "stage": "Transformation Script",
+        "value": "scripts/recreate_figures.py",
+        "stage_status": "implemented"
+      },
+      {
+        "figure_id": "10-6",
+        "figure_title": "Protected areas, 1990-2014",
+        "stage_order": 8,
+        "stage": "Generated Plot",
+        "value": "outputs/plots/figure_10_6_protected_areas.png",
+        "stage_status": "generated"
+      }
+    ]
+  }
+]

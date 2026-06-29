@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://unctadstat.unctad.org/datacentre/dataviewer/us.seabornetrade",
+    "status_code": 200,
+    "content_type": "text/html",
+    "content_length": "",
+    "final_url": "https://unctadstat.unctad.org/datacentre/dataviewer/us.seabornetrade"
+  },
+  {
+    "url": "https://unctadstat-api.unctad.org/datamart-api/US.SeaborneTrade/cur/Facts?culture=en",
+    "status_code": 400,
+    "content_type": "",
+    "content_length": "0",
+    "final_url": "https://unctadstat-api.unctad.org/datamart-api/US.SeaborneTrade/cur/Facts?culture=en"
+  },
+  {
+    "url": "https://www.itopf.org/knowledge-resources/data-statistics/oil-tanker-spill-statistics-2025/",
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8",
+    "content_length": "10339",
+    "final_url": "https://www.itopf.org/knowledge-resources/data-statistics/oil-tanker-spill-statistics-2025/"
+  },
+  {
+    "url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf",
+    "status_code": 200,
+    "content_type": "application/pdf",
+    "content_length": "1875525",
+    "final_url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf"
+  }
+]

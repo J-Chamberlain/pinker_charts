@@ -1,0 +1,121 @@
+{
+  "figure_id": "10-5",
+  "generated": "2026-06-28",
+  "direct_probes": [
+    {
+      "url": "https://unctadstat.unctad.org/datacentre/dataviewer/us.seabornetrade",
+      "status_code": 200,
+      "content_type": "text/html",
+      "content_length": "",
+      "final_url": "https://unctadstat.unctad.org/datacentre/dataviewer/us.seabornetrade"
+    },
+    {
+      "url": "https://unctadstat-api.unctad.org/datamart-api/US.SeaborneTrade/cur/Facts?culture=en",
+      "status_code": 400,
+      "content_type": "",
+      "content_length": "0",
+      "final_url": "https://unctadstat-api.unctad.org/datamart-api/US.SeaborneTrade/cur/Facts?culture=en"
+    },
+    {
+      "url": "https://www.itopf.org/knowledge-resources/data-statistics/oil-tanker-spill-statistics-2025/",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": "10339",
+      "final_url": "https://www.itopf.org/knowledge-resources/data-statistics/oil-tanker-spill-statistics-2025/"
+    },
+    {
+      "url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "content_length": "1875525",
+      "final_url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf"
+    }
+  ],
+  "internet_archive_cdx": [
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fourworldindata.org%2Fgrapher%2Fnumber-oil-spills.csv&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://ourworldindata.org/grapher/number-oil-spills.csv",
+      "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=3)\"))"
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fourworldindata.org%2Fgrapher%2Fnumber-oil-spills.metadata.json&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://ourworldindata.org/grapher/number-oil-spills.metadata.json",
+      "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=3)\"))"
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fourworldindata.org%2Fgrapher%2Fnumber-oil-spills&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://ourworldindata.org/grapher/number-oil-spills",
+      "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=3)\"))"
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Functadstat.unctad.org%2Fdatacentre%2Fdataviewer%2Fus.seabornetrade&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://unctadstat.unctad.org/datacentre/dataviewer/us.seabornetrade",
+      "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=3)\"))"
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fwww.itopf.org%2Fknowledge-resources%2Fdata-statistics%2Foil-tanker-spill-statistics-2025%2F&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://www.itopf.org/knowledge-resources/data-statistics/oil-tanker-spill-statistics-2025/",
+      "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=3)\"))"
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fwww.itopf.org%2Ffileadmin%2Fuploads%2Fitopf%2Fdata%2FStats%2FOil_Spill_Stats_brochure_2025_lo.pdf&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf",
+      "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=3)\"))"
+    }
+  ],
+  "github_repository_search": [
+    {
+      "url": "https://api.github.com/search/repositories?q=number-oil-spills+ourworldindata&per_page=5",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "content_length": "72",
+      "final_url": "https://api.github.com/search/repositories?q=number-oil-spills+ourworldindata&per_page=5",
+      "adapter": "github_repository_search",
+      "query": "number-oil-spills ourworldindata",
+      "total_count": 0,
+      "items": []
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=Roser+2016r+oil+spills&per_page=5",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "content_length": "72",
+      "final_url": "https://api.github.com/search/repositories?q=Roser+2016r+oil+spills&per_page=5",
+      "adapter": "github_repository_search",
+      "query": "Roser 2016r oil spills",
+      "total_count": 0,
+      "items": []
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=oil+shipped+by+sea+UNCTAD&per_page=5",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "content_length": "72",
+      "final_url": "https://api.github.com/search/repositories?q=oil+shipped+by+sea+UNCTAD&per_page=5",
+      "adapter": "github_repository_search",
+      "query": "oil shipped by sea UNCTAD",
+      "total_count": 0,
+      "items": []
+    }
+  ],
+  "github_code_search": [
+    {
+      "adapter": "github_code_search",
+      "query": "number-oil-spills ourworldindata",
+      "status": "skipped",
+      "reason": "Skipped in default pipeline because GitHub code search is often auth-gated and slow; run manually during deep discovery."
+    },
+    {
+      "adapter": "github_code_search",
+      "query": "Roser 2016r oil spills",
+      "status": "skipped",
+      "reason": "Skipped in default pipeline because GitHub code search is often auth-gated and slow; run manually during deep discovery."
+    }
+  ]
+}

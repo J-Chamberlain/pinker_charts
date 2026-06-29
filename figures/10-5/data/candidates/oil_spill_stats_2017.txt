@@ -1,0 +1,935 @@
+JANUARY 2018
+
+
+
+
+ THE INTERNATIONAL TANKER OWNERS POLLUTION FEDERATION LIMITED
+
+
+
+
+ OIL TANKER SPILL STATISTICS 2017
+Introduction to ITOPF
+Promoting effective spill response
+ITOPF is a not-for-profit organisation established on
+ behalf of the world’s shipowners and their insurers
+to promote effective response to marine spills of oil,
+                                                                Practical guidance on oil and chemical spill response
+                                                                and effects in the marine environment is available
+chemicals and other hazardous substances. Technical             through ITOPF’s Technical Information Papers (TIPs)
+services include emergency response, advice on clean-           and its Response to Marine Oil Spills film series.
+up techniques, damage assessment, claims analysis,
+assistance with spill response planning and the provision       ITOPF TIPs
+of training and information.                                    1 Aerial Observation of Marine Oil Spills
+                                                                2 Fate of Marine Oil Spills
+Since 1968, ITOPF technical staff have responded on-            3 Use of Booms in Oil Pollution Response
+site to almost 800 shipping incidents in 99 countries,          4 Use of Dispersants to Treat Oil Spills
+to provide scientific and objective advice on clean-up          5 Use of Skimmers in Oil Pollution Response
+measures, the effects of pollutants on the environment          6 Recognition of Oil on Shorelines
+and economic activities, and on compensation. ITOPF             7 Clean-up of Oil from Shorelines
+has also provided advice remotely for numerous other            8 Use of Sorbent Materials in Oil Spill Response
+incidents. These incidents can involve oil, chemical and        9 Disposal of Oil and Debris
+dry bulk and packaged cargoes, as well as bunker fuel           10 Leadership, Command & Management of Oil
+from all types of ship. Advice is also given occasionally in       Spills
+relation to oil spills from other potential sources of marine   11 Effects of Oil Pollution on Fisheries and
+pollution, including pipelines and offshore installations,         Mariculture
+and physical damage to coral reefs resulting from ship          12 Effects of Oil Pollution on Social and Economic
+groundings.                                                        Activities
+                                                                13 Effects of Oil Pollution on the Environment
+The first-hand experience gained by ITOPF’s staff               14 Sampling and Monitoring of Marine Oil Spills
+through direct involvement in pollution incidents               15 Preparation and Submission of Claims from Oil
+is utilised during damage assessment, contingency                  Pollution
+planning and training assignments, as well as in the            16 Contingency Planning for Marine Oil Spills
+production of technical publications and films.                 17 Response to Marine Chemical Incidents
+
+ITOPF’s membership comprises over 7,900 tanker                  ITOPF Film Series
+owners and bareboat charterers, who between them
+                                                                1   Introduction to Oil Spills
+own or operate almost 13,500 tankers, barges, LPG/
+                                                                2   Aerial Surveillance
+LNG carriers, FPSOs/FSUs and combination carriers,
+                                                                3   At-Sea Response
+with a total gross tonnage of about 426 million GT. This
+                                                                4   Shoreline Clean-up
+represents virtually all the world’s ocean-going bulk oil,
+                                                                5   Waste Management
+chemical and gas carrier tonnage and so it is extremely
+                                                                6   Environmental Impacts
+rare for the owner of any tanker engaged in international
+                                                                7   Oil Spill Compensation
+trade not to be a Member of ITOPF. Associates comprise
+                                                                8   Oil Spills in Cold Climates
+the owners and bareboat charterers of all other types of
+ship, currently totalling some 792 million GT.
+                                                                The TIPs and films are available in multiple languages
+                                                                on ITOPF’s website www.itopf.com.
+ITOPF’s activities are overseen by an international Board
+of Directors representing the organisation’s independent
+and oil company Members, its Associates and their P&I
+insurers.
+
+During the last half century, ITOPF has evolved into the
+maritime industry’s primary source of objective technical
+advice, expertise and information on effective response
+to ship-source pollution. It has observer status at both
+the International Maritime Organization (IMO) and the
+International Oil Pollution Compensation Funds (IOPC
+Funds) and regularly contributes to policy discussions
+and legal texts.
+
+2 02 OIL TANKER SPILL STATISTICS
+Oil Tanker Spill Statistics
+I TOPF’s annual statistics publication reports on
+  accidental spills of persistent and non-persistent oil
+from tankers, except those resulting from acts of war. It
+                                                                        ITOPF’s own experience at incidents. Unsurprisingly,
+                                                                        information from published sources generally relates to
+                                                                        large spills, often resulting from collisions, groundings,
+provides information on oil spills recorded in the last year            structural damage, fires or explosions.
+and an overview of the incidence and size of tanker oil
+spills since 1970.                                                      It should be noted that the figures for the amount
+                                                                        of oil spilt in an incident include all oil lost to the
+ITOPF maintains a database of oil spills from tank vessels,             environment, including that which burnt or remained in
+including combined carriers, FPSOs and barges. The data                 a sunken vessel. There is considerable annual variation
+held includes the location and cause of the incident, the               in both the incidence of oil spills and the amounts of
+vessel involved, the type of oil spilt and the spill amount.            oil lost. While we strive to maintain precise records
+For historical reasons, spills are generally categorised                for all spill information, we cannot guarantee that
+by size, <7 tonnes, 7–700 tonnes and >700 tonnes (<50                   the information taken from the shipping press and
+bbls, 50–5,000 bbls, >5,000 bbls), although the actual                  other sources is complete or accurate. The number of
+amount spilt is also recorded. Information is now held on               incidents and volumes of oil spilt are recorded based
+over 10,000 incidents, the vast majority of which fall into             on the most up to date information. From time to
+the smallest category i.e. <7 tonnes.                                   time, data is received after publication and, in which
+                                                                        case, adjustment to previous entries may be made.
+Information is gathered from published sources, such                    Consequently, the figures in the following tables, and
+as the shipping press and other specialist publications,                any averages derived from them, should be viewed
+as well as from vessel owners, their insurers and from                  with a degree of caution.
+
+
+
+Major Oil Spills in History
+A     summary of the top 20 major spills that have
+      occurred since the TORREY CANYON in 1967
+is given in Table 1 and their geographical locations
+                                                                        necessitated little or no response as the oil was spilt
+                                                                        some distance offshore and did not impact coastlines.
+                                                                        For this reason some of the names listed may be
+are shown in Figure 1. It is of note that 19 of the 20                  unfamiliar. EXXON VALDEZ and HEBEI SPIRIT are
+largest spills recorded occurred before the year 2000.                  included for comparison although these incidents are
+A number of these incidents, despite their large size,                  further down the list.
+
+
+    Position         Shipname                 Year                            Location                      Spill size (tonnes)
+        1       ATLANTIC EMPRESS              1979                  Off Tobago, West Indies                       287,000
+        2           ABT SUMMER                1991                700 nautical miles off Angola                   260,000
+        3      CASTILLO DE BELLVER            1983              Off Saldanha Bay, South Africa                    252,000
+        4           AMOCO CADIZ               1978                     Off Brittany, France                       223,000
+        5               HAVEN                 1991                         Genoa, Italy                           144,000
+        6              ODYSSEY                1988         700 nautical miles off Nova Scotia, Canada             132,000
+        7         TORREY CANYON               1967                        Scilly Isles, UK                        119,000
+        8              SEA STAR               1972                        Gulf of Oman                            115,000
+        9        IRENES SERENADE              1980                    Navarino Bay, Greece                        100,000
+       10             URQUIOLA                1976                      La Coruna, Spain                          100,000
+       11       HAWAIIAN PATRIOT              1977              300 nautical miles off Honolulu                    95,000
+       12          INDEPENDENTA               1979                     Bosphorus, Turkey                           95,000
+       13          JAKOB MAERSK               1975                      Oporto, Portugal                           88,000
+       14               BRAER                 1993                    Shetland Islands, UK                         85,000
+       15            AEGEAN SEA               1992                      La Coruna, Spain                           74,000
+       16            SEA EMPRESS              1996                     Milford Haven, UK                           72,000
+       17              KHARK 5                1989       120 nautical miles off Atlantic coast of Morocco          70,000
+       18               NOVA                  1985                Off Kharg Island, Gulf of Iran                   70,000
+       19              KATINA P               1992                 Off Maputo, Mozambique                         67,000
+       20              PRESTIGE               2002                      Off Galicia, Spain                        63,000
+       35          EXXON VALDEZ               1989            Prince William Sound, Alaska, USA                   37,000
+      131             HEBEI SPIRIT            2007                         South Korea                            11,000
+
+    Table 1: Major oil spills since 1967 (quantities have been rounded to nearest thousand)
+
+
+                                                                                              OIL TANKER SPILL STATISTICS 03
+                   Figure 1: Location of major spills
+
+
+
+
+Global Oil Spill Trend
+O                    ver the last 48 years, statistics for spills greater than 7 tonnes from tankers show a marked downward trend as
+                   140
+                     illustrated below.
+
+
+                   120
+
+
+
+                   100
+
+
+                                 78.8
+
+
+
+
+Number of spills
+                    80
+
+
+
+                    60
+                                                               45.4
+
+                    40                                                                 35.8
+
+
+                                                                                                                          18.1
+                    20
+                                                                                                                                             6.6
+
+                      0
+                          1970     1973   1976   1979   1982   1985   1988   1991    1994     1997    2000    2003     2006      2009    2012   2015
+
+
+                                                 >700 tonnes          7-700 tonnes             Average number of spills per year by decade
+
+
+
+                   Figure 2: Number of spills (>7 tonnes) from 1970–2017
+
+
+
+
+          04 OIL TANKER SPILL STATISTICS
+  Number of Oil Spills
+ T    he occurrence of large spills (>700 tonnes) is
+      relatively low and detailed statistical analysis is rarely
+  possible. Consequently emphasis is placed on identifying
+                                                                                           per year (Figure 3). It can be observed from Figure 4 that
+                                                                                           53% of all large spills recorded occurred in the 1970s.
+                                                                                           It is, however, interesting to note that the progressive
+  trends and revealing patterns in the data to present the                                 reduction in the number of large spills is significant when
+  best possible result.                                                                    data is analysed per decade rather than annually, as
+                                                                                           demonstrated in Figure 4. Data recorded from 1970 to
+  The number of large spills has decreased significantly                                   2017 illustrate fluctuations in the yearly values within a
+  over the last few decades and since 2010, averages 1.8                                   decade.
+
+
+                                       1970-79:
+                                       24.5 spills
+                    35                  per year
+                                          on
+                                        average
+                    30
+
+
+                    25
+
+
+
+
+Number of spills
+                                                               1980-89:
+                                                               9.4 spills                 1990-99:
+                    20                                                                    7.7 spills
+                                                               per year
+                                                                  on                      per year
+                                                               average                       on                          2000-09:
+                    15                                                                    average                        3.2 spills                   2010-17:
+                                                                                                                         per year                     1.8 spills
+                                                                                                                            on                        per year
+                                                                                                                         average                         on
+                    10                                                                                                                                average
+
+
+                     5
+
+
+                     0
+                         1970   1973      1976       1979   1982   1985     1988   1991   1994         1997   2000   2003       2006      2009    2012      2015
+
+
+                   Figure 3: Number of large spills (>700 tonnes) from 1970–2017
+
+
+
+                                                                                                    2010s
+                                                                                                 14 incidents
+                                                                                                      3%
+
+                                                                                                             2000s
+                                                                                                          32 incidents
+                                                                                                               7%
+
+                                                                                                                    1990s
+                                                                                                                 77 incidents
+                                                                                                                     17%
+
+
+                                                                                                                              1980s
+                                                                                                                           94 incidents
+                                                                                                                               20%
+
+
+                                                                                                                                         1970s
+                                                                                                                                      245 incidents
+                                                                                                                                          53%
+
+
+
+
+                   Figure 4: Large spills (>700 tonnes) as a percentage of those recorded from 1970–2017 per decade
+
+
+                                                                                                                     OIL TANKER SPILL STATISTICS 05
+A decline can also be observed with medium sized spills
+(7–700 tonnes) as shown in Table 2 and Figure 5. Here,             Year           7–700 Tonnes         >700 Tonnes
+the average number of spills per year in the 1990s was             1990                  50                  14
+28.1, reducing to 14.9 in the 2000s and is currently 4.9           1991                  30                  7
+for the 2010s (not a complete decade).                             1992                  31                  10
+                                                                   1993                  31                  11
+Over 80% of the incidents recorded since 1970 are small            1994                  26                  9
+spills (<7 tonnes). Unfortunately, reliable reporting of           1995                  20                  3
+this category of spills is often difficult to achieve as data      1996                  20                  3
+available is often incomplete.                                     1997                  28                  10
+                                                                   1998                  25                  5
+                                                                   1999                  20                  5
+    Year            7–700 Tonnes            >700 Tonnes
+                                                                   Total                281                  77
+    1970                    7                        29
+                                                                  Average              28.1                 7.7
+    1971                    18                       14
+    1972                    48                       27
+    1973                    28                       31
+    1974                    90                       27            Year           7–700 Tonnes         >700 Tonnes
+    1975                    96                       20            2000                  21                   4
+    1976                    67                       26            2001                  18                   3
+    1977                    70                       16            2002                  11                   3
+    1978                    59                       23            2003                  19                   4
+    1979                    60                       32            2004                  20                   5
+    Total                  543                   245               2005                  22                   3
+                                                                   2006                  12                   4
+   Average                54.3                   24.5
+                                                                   2007                  12                   3
+                                                                   2008                  7                    1
+                                                                   2009                  7                    2
+
+    Year            7–700 Tonnes            >700 Tonnes            Total                149                  32
+    1980                    52                       13           Average              14.9                 3.2
+    1981                    54                       7
+    1982                    46                       4
+    1983                    52                       13            Year           7–700 Tonnes         >700 Tonnes
+    1984                    26                       8
+                                                                   2010                  5                    4
+    1985                    33                       8
+                                                                   2011                  4                    1
+    1986                    27                       7
+                                                                   2012                  7                    0
+    1987                    27                       11
+                                                                   2013                  5                    3
+    1988                    11                       10
+                                                                   2014                  4                    1
+    1989                    32                       13
+                                                                   2015                  6                    2
+    Total                  360                       94            2016                  4                    1
+   Average                 36                        9.4           2017                  4                    2
+                                                                   Total                 39                  14
+  Table 2: Annual number of oil spills (>7 tonnes)                Average               4.9                 1.8
+
+
+
+Six spills (>7 tonnes) were recorded                            off the coast of Greece in September spilling about 700
+                                                                tonnes of oil.
+in 2017
+                                                                Of the four medium sized spills two were recorded in
+For the year 2017, we recorded two large spills (>700           January 2017 in South Asia and Southeast Asia; both
+tonnes) and four medium spills (7–700 tonnes).                  resulted from collisions and involved the release of
+                                                                bunker fuel. A third spill was reported in East Asia in
+The first large spill occurred in June when a tanker sank       August. This also involved bunker fuel and resulted from
+in the Indian Ocean with over 5,000 tonnes of oil on            a vessel grounding in bad weather. The fourth medium-
+board. The second incident involved a tanker which sank         sized spill occurred in October in the USA.
+
+
+ 06 OIL TANKER SPILL STATISTICS
+              543
+                                                                                                            7-700 tonnes
+                                                                                                            >700 tonnes
+
+
+                                       360
+
+
+                                                               281
+                       245
+
+
+                                                                                       149
+
+                                                  94
+                                                                       77
+                                                                                                32          39
+                                                                                                                    14
+
+
+              1970s                   1980s                   1990s                   2000s                2010s
+
+   Figure 5: Number of medium (7–700 tonnes) and large (>700 tonnes) spills per decade from 1970 to 2017*
+
+* Only 8 years of data for the period 2010–2017
+
+
+
+Quantities of Oil Spilt
+T   he vast majority of spills are small (i.e. less than 7
+    tonnes). However, there are inconsistencies in the
+quantities reported for these spills worldwide. Reports
+                                                                        been a significant reduction in volume of oil spilt through
+                                                                        the decades. Currently, the volume of oil lost in accidents
+                                                                        is a tiny fraction of the volume that is delivered safely to
+on spills of 7 tonnes and above tend to be more reliable,               its destination each year. From Table 3 it is interesting to
+and have been analysed to provide annual estimates of                   observe that an amount greater than the total quantity of
+the quantity of oil spilt (Table 3), which are rounded to               oil spilt in the decade 2000 to 2009 (196,000 tonnes) was
+the nearest thousand.                                                   spilt in several single years in earlier decades.
+
+Approximately 5.74 million tonnes of oil were lost as a                 The total volume of oil lost to the environment recorded
+result of tanker incidents from 1970 to 2017. There has                 in 2017 was approximately 7,000 tonnes, the majority of
+                                                                        which can be attributed to the large spill (>700 tonnes)
+                                                                        that occurred in the Indian Ocean in June (Table 3).
+
+
+
+
+                           1970s
+                            56%
+                                               1980s
+                                                20%
+                                                                   1990s
+                                                                    20%
+                                                                                       2000s
+                                                                                        3%
+                                                                                                        2010s
+                                                                                                         1%
+
+
+
+   Figure 6: Oil spilt per decade as a percentage of the total spilt between 1970 and 2017
+
+
+                                                                                               OIL TANKER SPILL STATISTICS 07
+  Year                  Quantity              Year              Quantity             Year                      Quantity
+ 		                     (Tonnes)             		                 (Tonnes)            		                         (Tonnes)
+   1970                  383,000               1990               61,000               2010                      12,000
+   1971                  144,000               1991              431,000               2011                      2,000
+   1972                  313,000               1992              167,000               2012                      1,000
+   1973                  159,000               1993              140,000               2013                      7,000
+   1974                  174,000               1994              130,000               2014                      5,000
+   1975                  352,000               1995              12,000                2015                      7,000
+   1976                  365,000               1996              80,000                2016                      6,000
+   1977                  276,000               1997              72,000                2017                      7,000
+   1978                  393,000               1998              13,000
+                                                                                       Total                    47,000
+   1979                  636,000               1999              28,000
+   Total               3,195,000               Total           1,134,000
+
+
+
+
+  Year                  Quantity              Year              Quantity
+ 		                     (Tonnes)             		                 (Tonnes)
+   1980                  206,000               2000              14,000
+   1981                   48,000               2001               9,000
+   1982                   12,000               2002              66,000
+   1983                  384,000               2003              43,000
+   1984                   29,000               2004              17,000
+   1985                   85,000               2005              15,000
+   1986                   19,000               2006              12,000
+   1987                   38,000               2007              15,000
+   1988                  190,000               2008              2,000
+   1989                  164,000               2009              3,000
+   Total               1,175,000               Total            196,000               Table 3: Annual quantity of oil spilt
+
+
+
+
+Influence of Large Spills on Quantities of Oil Spilt
+A    s demonstrated in Figures 7 and 8, when looking at
+     the frequency and quantities of oil spilt, it should
+be noted that a few very large spills are responsible for
+                                                               • In the eight year period 2010–2017 there have been
+                                                                 53 spills of 7 tonnes and over, resulting in 47,000
+                                                                 tonnes of oil lost; 80% of this amount was spilt in just
+a high percentage of the oil spilt. For example, in more         10 incidents.
+recent decades the following can be seen:
+                                                               In terms of the volume of oil spilt the figures for a
+• In the 1990s there were 358 spills of 7 tonnes and           particular year may be severely distorted by a single
+  over, resulting in 1,134,000 tonnes of oil lost; 73% of      large incident. This is clearly illustrated by incidents
+  this amount was spilt in just 10 incidents.                  such as ATLANTIC EMPRESS (1979), 287,000 tonnes
+• In the 2000s there were 181 spills of 7 tonnes and           spilt; CASTILLO DE BELLVER (1983), 252,000 tonnes
+  over, resulting in 196,000 tonnes of oil lost; 75% of this   spilt and ABT SUMMER (1991), 260,000 tonnes spilt
+  amount was spilt in just 10 incidents.                       (Figure 7).
+
+
+
+
+ 08 OIL TANKER SPILL STATISTICS
+                               700
+
+
+
+                               600                                                              ABT SUMMER
+                                           ATLANTIC EMPRESS                                    260,000 Tonnes
+                                             287,000 Tonnes
+                                                                       CASTILLO DE BELLVER
+                                                                         252,000 Tonnes
+
+
+
+
+ Thousand tonnes
+                               500
+
+
+
+                               400
+                                                                                                                 SEA EMPRESS
+                                                                                                                 72,000 Tonnes
+                                                                                        KHARK 5
+                               300                                                    70,000 Tonnes
+                                                                                                                                       PRESTIGE
+                                                                                    EXXON VALDEZ                                     63,000 Tonnes
+                                                                                     37,000 Tonnes
+                               200                                                                                               ERIKA
+                                                                                                                             20,000 Tonnes
+                                                                                                                                                      HEBEI SPIRIT
+                                                                                                                                                     11,000 Tonnes
+                               100
+
+
+
+                                    0
+                                        1970   1973      1976   1979     1982     1985      1988      1991     1994      1997      2000      2003    2006       2009    2012      2015
+
+
+
+                              Figure 7: Quantities of oil spilt 7 tonnes and over (rounded to nearest thousand), 1970–2017
+
+
+
+
+                              3.5
+
+
+
+                                3
+
+
+
+                              2.5               49% from
+                                               20 incidents
+
+
+
+
+Million tonnes of oil spilt
+                                2
+
+
+
+                              1.5
+
+
+
+                                1               51% from
+                                               768 incidents
+                                                                              71% from                        73% from                 75% from 10 incidents           80% from 10 incidents
+                                                                             10 incidents                    10 incidents
+                                                                                                                                       25% from 171 incidents          20% from 43 incidents
+                              0.5
+
+                                                                              29% from                         27% from
+                                                                            444 incidents                    348 incidents
+
+                                0
+                                                 1970s                        1980s                           1990s                           2000s                           2010s
+
+
+                              Figure 8: Spills 7 tonnes and over per decade showing the influence of a relatively small number of comparatively large spills
+                              on the overall figure
+
+
+
+
+                                                                                                                                             OIL TANKER SPILL STATISTICS 09
+Tanker Spills versus Seaborne Oil Trade
+A    part from a fall in the early 1980s during the
+     worldwide economic recession, seaborne oil trade
+has grown steadily from 1970 (Figure 9). While increased
+                                                                                                                                                                                      encouraging to observe that the downward trend in oil
+                                                                                                                                                                                      spills continues despite an overall increase in oil trading
+                                                                                                                                                                                      over the period.
+tanker movements might imply increased risk, it is
+3500                                                                                                                                                                                                                                                                                                                                            140
+
+
+3000                                                                                                                                                                                                                                                                                                                                            120
+
+
+2500                                                                                                                                                                                                                                                                                                                                            100
+
+
+2000                                                                                                                                                                                                                                                                                                                                            80
+
+
+1500                                                                                                                                                                                                                                                                                                                                            60
+
+
+1000                                                                                                                                                                                                                                                                                                                                            40
+
+
+ 500                                                                                                                                                                                                                                                                                                                                            20
+
+
+   0                                                                                                                                                                                                                                                                                                                                            0
+
+       1970   1971   1972   1973   1974   1975   1976   1977   1978   1979   1980   1981   1982   1983   1984   1985   1986   1987   1988   1989   1990   1991   1992   1993   1994   1995   1996   1997   1998   1999   2000   2001   2002   2003   2004   2005   2006   2007   2008   2009   2010   2011   2012   2013   2014   2015   2016
+
+                                          Number of spills >7 tonnes                                                     Total Crude Oil, Petroleum product and gas loaded (million metric tons) (Data source: UNCTADStat)
+
+
+
+   Figure 9: Decline in number of tanker spills vs growth in crude, petroleum and gas loaded
+
+
+
+Causes of Spills
+T   he causes and circumstances of oil spills are varied,
+    and their analyses provide valuable insights for
+managing risk. This information is, however, difficult to
+                                                                                                                                                                                      Hull Failures, Equipment Failures, Fires and Explosions,
+                                                                                                                                                                                      Others and Unknown. Events such as heavy weather
+                                                                                                                                                                                      damage and human error have been categorised as
+attain as data is sometimes inconsistent or not available,                                                                                                                            “Other” and spills where the relevant information is not
+particularly for small spills.                                                                                                                                                        available have been designated as Unknown and are
+                                                                                                                                                                                      reported but excluded from the analysis. Figure 10,
+For this analysis, the primary causes of the oil spills have                                                                                                                          below, provides an overview of the causes by size.
+been grouped into Allisions/Collisions, Groundings,
+
+
+
+
+   Figure 10: Incidence of spills by cause, 1970–2017
+
+
+2 10 OIL TANKER SPILL STATISTICS
+           The following analysis is based on spills over 7 tonnes for            Most oil spills (>7 tonnes) recorded between 1970
+           which the cause is known.                                              and 2017 were caused by Allisions/Collisions and
+                                                                                  Groundings. From Figure 11 below, it is evident that
+                                                                                  there has been a steady increase in the percentage of
+                                                                                  Allisions/Collisions over the decades, while Groundings
+           The most frequent causes of oil spills                                 have been declining. Figure 11 also demonstrates a
+           (>7 tonnes) from tankers are Allisions/                                decrease in percentage of spills caused by Hull Failure,
+           Collisions and Groundings.                                             with a significant drop after the 1990s.
+
+
+               ALLISION/COLLISION           GROUNDING          HULL FAILURE        EQUIPMENT FAILURE             FIRE/EXPLOSION               OTHER
+
+
+           2010s
+
+
+           2000s
+
+
+           1990s
+
+
+           1980s
+
+
+           1970s
+
+                   0%    20%    40%   0%     20%    40%   0%     20%    40%      0%     20%    40%          0%      20%     40%        0%     20%     40%
+
+
+
+               Figure 11: Percentage of spills by cause per decade, 1970–2017
+
+
+
+           In the following analysis the primary cause of the spill               greater accuracy, which has allowed further breakdown
+           and the operation that the vessel was undertaking at the               of vessel operations. Therefore, operations for large
+           time of the incident is explored.                                      spills have been grouped into Loading/Discharging,
+                                                                                  Bunkering, At Anchor (Inland/Restricted waters), At
+           The primary causes have been designated as above                       Anchor (Open water), Underway (Inland/Restricted
+           and unknown causes are excluded from the analysis of                   waters), Underway (Open water), Other Operations and
+           operations taking place at the time of the spill.                      Unknown Operations.
+
+           For small and medium sized spills, operations have been                Small and medium sized spills account for 95% of all the
+           grouped into Loading/Discharging, Bunkering, Other                     incidents recorded. While the cause of these spills is
+           Operations and Unknown Operations. Other Operations                    often unknown, a significant percentage, 40% and 29%
+           include activities such as ballasting, de-ballasting, tank             respectively, occurred during loading and discharging
+           cleaning and when the vessel is underway. Reporting                    operations which normally take place in ports and oil
+           of large spills tends to provide more information and                  terminals (Figures 11).
+
+
+
+
+                                                                                                 29%                       29%
+6%           36%                                                                                                                                   Loading/Discharg
+                                                                                                                                  Loading/Discharging
+                                40%                40%
+
+                                                                                                                                  Bunkering             Bunkering
+                                                                56%                   56%                                         Other Operations Other Operations
+                                                                                                       2%                         2%
+
+                                                                                                                                  Unknown               Unknown
+                                                                                               13%                        13%
+     17%            7%    17%          7%
+
+
+
+
+       <7 tonnes               <7 tonnes                                        7-700 tonnes         7-700 tonnes
+
+
+               Figure 12: Incidence of small (<7 tonnes) and medium (7-700 tonnes) spills by operation, 1970–2017
+
+
+
+
+                                                                                                            OIL TANKER SPILL STATISTICS 11
+  Based on spills for which the primary cause is known,                          considering Other Operations there is a significant
+  it can be seen from Figures 13 and 14 that equipment                           difference in the percentage of allisions, collisions and
+  failure accounts for approximately 50% of incidents                            groundings between these two size groups where we
+  occurring during loading and discharging for both                              see the percentage increasing from 4% for smaller spills
+  small and medium size categories. Nevertheless, when                           to 51% for medium spills.
+
+
+                                                               Cause of spill (%)
+
+                      0%       10%       20%       30%       40%       50%       60%       70%       80%       90%      100%
+
+
+
+              Unknown
+                                                                                                                                  Allision/Collision
+
+
+                                                                                                                                  Grounding
+               Other
+             operations
+
+
+
+Operation
+                                                                                                                                  Hull Failure
+
+
+             Bunkering                                                                                                            Equipment Failure
+
+
+                                                                                                                                  Fire/Explosion
+             Loading/
+            Discharging
+                                                                                                                                  Other
+
+
+
+             Figure 13: Incidence of spills <7 tonnes by operation at time of incident and primary cause of spill, 1974–2017
+
+
+
+
+                                                               Cause of spill (%)
+
+                      0%       10%       20%       30%       40%       50%       60%       70%       80%       90%      100%
+
+
+
+              Unknown
+                                                                                                                                  Allision/Collision
+
+
+                                                                                                                                  Grounding
+               Other
+             operations
+
+
+
+Operation
+                                                                                                                                  Hull Failure
+
+
+             Bunkering                                                                                                            Equipment Failure
+
+
+                                                                                                                                  Fire/Explosion
+             Loading/
+            Discharging
+                                                                                                                                  Other
+
+
+
+             Figure 14: Incidence of spills 7–700 tonnes by operation at time of incident and primary cause of spill, 1970–2017
+
+
+
+
+  2 12 OIL TANKER SPILL STATISTICS
+ Large spills account for the remaining 5% of all the                            include water areas in ports and harbours.
+ incidents recorded and the occurrence of these
+ incidents has significantly decreased over the past                             Activities during loading or discharging result in
+ 48 years. From Figure 15, it can be seen that 50% of                            significantly more small or medium sized spills than
+ large spills occurred while the vessels were underway                           large spills (Figures 12 & 15). For large spills that
+ in open water; allisions, collisions and groundings                             occurred during loading and discharging, 31% were
+ accounted for 59% of the causes of these spills (Figure                         caused by fires and explosions in contrast to less
+ 16). Perhaps unsurprisingly, these same causes account                          than 5% for small and medium sized spills. Also, 26%
+ for an even higher percentage of incidents when the                             resulted from equipment failures compared to the
+ vessel was underway in inland or restricted waters,                             48% and 50% for small and medium spills respectively
+ being linked to some 99% of spills. Restricted waters                           (Figures 13, 14 & 16).
+
+
+
+                                                            9%
+                                        18%                                                    Loading/Discharging
+                                                                    4%
+                                                                      2%
+                                                                                               Bunkering
+
+                                                     <1%                                       At Anchor (Inland/Restricted)
+                                                                            17%
+                                                                                               At Anchor (Open Water)
+
+                                                                                               Underway (Inland/Restricted)
+
+                                                                                               Underway (Open Water)
+
+                                            50%                                                Other/Unknown
+
+
+                                              >700 tonnes
+
+            Figure 15: Incidence of spills >700 tonnes by operation at time of incident, 1970–2017
+
+
+
+
+                                                                  Cause of spill (%)
+
+                               0%     10%      20%      30%       40%      50%      60%      70%      80%      90%      100%
+
+
+                   Other
+            operations/Unknown
+
+                                                                                                                                 Allision/Collision
+                     Loading/
+                    Discharging
+                                                                                                                                 Grounding
+
+                    Underway
+
+
+
+Operation
+                  (Open Water)                                                                                                   Hull Failure
+
+
+                  Underway                                                                                                       Equipment Failure
+             (Inland/Restricted)
+
+                                                                                                                                 Fire/Explosion
+                    At anchor
+                  (Open Water)
+                                                                                                                                 Other
+
+                  At anchor
+             (Inland/Restricted)
+
+
+
+
+             Figure 16: Incidence of spills >700 tonnes by operation at time of incident and primary cause of spill, 1970–2017
+
+
+
+
+                                                                                                       OIL TANKER SPILL STATISTICS 13
+Tables 4 and 5 show the frequency of spills by cause and operation for large and medium spills, illustrating the
+interrelation between the two variables.
+
+
+                                                                         Operations
+                               At anchor      At anchor   Underway       Underway                                   Other
+                                                                                        Loading/
+                                (Inland/       (Open       (Inland/       (Open                      Bunkering    Operations/       Total
+                                                                                       Discharging
+                               Restricted)     Water)     Restricted)     Water)                                   Unknown
+          Allision/Collision       6               5          34            66              2            0             23           136
+          Grounding                5               1          46            68              2            0             28           150
+          Hull Failure             2               1          0             49              0            0             8             60
+
+Causes
+          Equipment Failure        0               0          0              6              11           0             1             18
+          Fire/Explosion           2               2          1             25              13           1             9             53
+          Other                    2               0          0             15              8            0             7             32
+          Unknown                  0               0          0              1              6            0             6             13
+          Total                    17              9          81            230             42           1             82           462
+          Percentage (%)           4               2          17            50              9            0             18
+
+
+
+    Table 4: Incidence of spills >700 tonnes by operation at time of incident and primary cause of spill, 1970–2017
+
+
+
+
+                                                                       Operations
+                                         Loading/                                  Other
+                                                           Bunkering                                 Unknown                Total
+                                        Discharging                              Operations
+            Allision/Collision                5                    0                  60                299                 364
+            Grounding                         0                    0                  27                244                 271
+            Hull Failure                     37                    4                  15                45                  101
+
+ Causes
+            Equipment Failure                147                   6                  17                39                  209
+            Fire/Explosion                    9                    0                  14                26                   49
+            Other                            98                 13                    36                28                  175
+            Unknown                          99                    9                  14                81                  203
+            Total                            395               32                     183              762                  1,372
+            Percentage (%)                   29                    2                  13                56
+
+
+    Table 5: Incidence of spills 7–700 tonnes by operation at time of incident and primary cause of spill, 1970–2017
+
+
+
+
+2 14 OIL TANKER SPILL STATISTICS
+Information in this paper may be reproduced with the prior express permission of ITOPF. For further information, please
+contact Naa Sackeyfio, Information Data Analyst (naasackeyfio@itopf.com).
+
+
+
+
+                                                                                   OIL TANKER SPILL STATISTICS 15
+                                                                                                                             © 2018 ITOPF Ltd. Produced by Impact PR & Design Limited
+
+
+
+
+ITOPF is established on behalf of the world’s shipowners and their insurers to promote effective response to marine
+spills of oil, chemicals and other hazardous substances and operates on a not-for-profit basis. Technical services include
+emergency response, advice on clean-up techniques, pollution damage assessment, assistance with spill response
+planning and the provision of training. ITOPF supports research and development activities through its annual R&D
+Award and is also a source of comprehensive information on marine pollution. For further information please contact:
+
+
+
+                       THE INTERNATIONAL TANKER OWNERS
+                      POLLUTION FEDERATION LIMITED (ITOPF)
+                     1 Oliver’s Yard, 55 City Road, London EC1Y 1HQ, United Kingdom
+                     Tel: +44 (0)20 7566 6999           E-mail: central@itopf.com
+                     Fax: +44 (0)20 7566 6950           Web: www.itopf.com
+                     24hr: +44 (0)7623 984 606
+                           +44 (0)20 7566 6998
+

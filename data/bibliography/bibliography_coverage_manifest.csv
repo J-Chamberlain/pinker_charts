@@ -1,0 +1,3 @@
+scope,status,reason,next_step
+complete_book_bibliography,not_extracted,"No complete machine-readable bibliography source was available in the workspace, and Kindle keystroke automation was blocked by macOS accessibility permissions during this run.","Use Kindle/Computer Use OCR on the Bibliography section or locate an authorized bibliography export, then append all records to bibliography_database.csv/json."
+current_poc_figure_citations,partial_resolved,"The current two figures cite Roser 2016r, World Bank 2016h, and World Bank 2017. Candidate bibliographic records and dataset references were created for those keys.",Verify exact bibliography wording against the book bibliography before marking any record resolved.

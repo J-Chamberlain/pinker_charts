@@ -1,0 +1,14 @@
+[
+  {
+    "scope": "complete_book_bibliography",
+    "status": "not_extracted",
+    "reason": "No complete machine-readable bibliography source was available in the workspace, and Kindle keystroke automation was blocked by macOS accessibility permissions during this run.",
+    "next_step": "Use Kindle/Computer Use OCR on the Bibliography section or locate an authorized bibliography export, then append all records to bibliography_database.csv/json."
+  },
+  {
+    "scope": "current_poc_figure_citations",
+    "status": "partial_resolved",
+    "reason": "The current two figures cite Roser 2016r, World Bank 2016h, and World Bank 2017. Candidate bibliographic records and dataset references were created for those keys.",
+    "next_step": "Verify exact bibliography wording against the book bibliography before marking any record resolved."
+  }
+]

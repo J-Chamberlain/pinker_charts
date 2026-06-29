@@ -1,0 +1,153 @@
+{
+  "figure_id": "10-6",
+  "generated": "2026-06-28",
+  "direct_probes": [
+    {
+      "url": "https://databank.worldbank.org/source/world-development-indicators",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": "36421",
+      "final_url": "https://databank.worldbank.org/source/world-development-indicators"
+    },
+    {
+      "url": "https://api.worldbank.org/v2/en/source/2?downloadformat=csv",
+      "status_code": 200,
+      "content_type": "text/xml",
+      "content_length": "",
+      "final_url": "https://api.worldbank.org/v2/en/source/2?downloadformat=csv"
+    },
+    {
+      "url": "https://api.worldbank.org/v2/en/indicator/ER.LND.PTLD.ZS?downloadformat=csv",
+      "status_code": 200,
+      "content_type": "application/zip",
+      "content_length": "22521",
+      "final_url": "https://api.worldbank.org/v2/en/indicator/ER.LND.PTLD.ZS?downloadformat=csv"
+    },
+    {
+      "url": "https://api.worldbank.org/v2/en/indicator/ER.MRN.PTMR.ZS?downloadformat=csv",
+      "status_code": 200,
+      "content_type": "application/zip",
+      "content_length": "21195",
+      "final_url": "https://api.worldbank.org/v2/en/indicator/ER.MRN.PTMR.ZS?downloadformat=csv"
+    },
+    {
+      "url": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
+      "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datacatalog.worldbank.org', port=443): Read timed out. (read timeout=3)\"))"
+    },
+    {
+      "url": "https://www.protectedplanet.net/en",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": "",
+      "final_url": "https://www.protectedplanet.net/en"
+    }
+  ],
+  "internet_archive_cdx": [
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fapi.worldbank.org%2Fv2%2Fcountry%2FWLD%2Findicator%2FER.LND.PTLD.ZS%3Fformat%3Djson%26per_page%3D20000&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://api.worldbank.org/v2/country/WLD/indicator/ER.LND.PTLD.ZS?format=json&per_page=20000",
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'web.archive.org\\', port=443): Max retries exceeded with url: /cdx?url=https%3A%2F%2Fapi.worldbank.org%2Fv2%2Fcountry%2FWLD%2Findicator%2FER.LND.PTLD.ZS%3Fformat%3Djson%26per_page%3D20000&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10 (Caused by NewConnectionError(\"HTTPSConnection(host=\\'web.archive.org\\', port=443): Failed to establish a new connection: [Errno 61] Connection refused\"))'))"
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fapi.worldbank.org%2Fv2%2Fcountry%2FWLD%2Findicator%2FER.MRN.PTMR.ZS%3Fformat%3Djson%26per_page%3D20000&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "status_code": 200,
+      "content_type": "application/json",
+      "final_url": "https://web.archive.org/cdx/?url=https%3A%2F%2Fapi.worldbank.org%2Fv2%2Fcountry%2FWLD%2Findicator%2FER.MRN.PTMR.ZS%3Fformat%3Djson%26per_page%3D20000&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://api.worldbank.org/v2/country/WLD/indicator/ER.MRN.PTMR.ZS?format=json&per_page=20000",
+      "capture_count_returned": 0,
+      "captures": []
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fapi.worldbank.org%2Fv2%2Fen%2Findicator%2FER.LND.PTLD.ZS%3Fdownloadformat%3Dcsv&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://api.worldbank.org/v2/en/indicator/ER.LND.PTLD.ZS?downloadformat=csv",
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'web.archive.org\\', port=443): Max retries exceeded with url: /cdx?url=https%3A%2F%2Fapi.worldbank.org%2Fv2%2Fen%2Findicator%2FER.LND.PTLD.ZS%3Fdownloadformat%3Dcsv&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10 (Caused by NewConnectionError(\"HTTPSConnection(host=\\'web.archive.org\\', port=443): Failed to establish a new connection: [Errno 61] Connection refused\"))'))"
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fapi.worldbank.org%2Fv2%2Fen%2Findicator%2FER.MRN.PTMR.ZS%3Fdownloadformat%3Dcsv&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://api.worldbank.org/v2/en/indicator/ER.MRN.PTMR.ZS?downloadformat=csv",
+      "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=3)\"))"
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fdatabank.worldbank.org%2Fsource%2Fworld-development-indicators&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://databank.worldbank.org/source/world-development-indicators",
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'web.archive.org\\', port=443): Max retries exceeded with url: /cdx?url=https%3A%2F%2Fdatabank.worldbank.org%2Fsource%2Fworld-development-indicators&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10 (Caused by NewConnectionError(\"HTTPSConnection(host=\\'web.archive.org\\', port=443): Failed to establish a new connection: [Errno 61] Connection refused\"))'))"
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fdatacatalog.worldbank.org%2Fsearch%2Fdataset%2F0037712%2FWorld-Development-Indicators&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
+      "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=3)\"))"
+    },
+    {
+      "url": "https://web.archive.org/cdx?url=https%3A%2F%2Fwww.protectedplanet.net%2Fen&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10",
+      "adapter": "internet_archive_cdx",
+      "target_url": "https://www.protectedplanet.net/en",
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'web.archive.org\\', port=443): Max retries exceeded with url: /cdx?url=https%3A%2F%2Fwww.protectedplanet.net%2Fen&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest&limit=10 (Caused by NewConnectionError(\"HTTPSConnection(host=\\'web.archive.org\\', port=443): Failed to establish a new connection: [Errno 61] Connection refused\"))'))"
+    }
+  ],
+  "github_repository_search": [
+    {
+      "url": "https://api.github.com/search/repositories?q=ER.MRN.PTMR.ZS+protected+areas&per_page=5",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "content_length": "72",
+      "final_url": "https://api.github.com/search/repositories?q=ER.MRN.PTMR.ZS+protected+areas&per_page=5",
+      "adapter": "github_repository_search",
+      "query": "ER.MRN.PTMR.ZS protected areas",
+      "total_count": null,
+      "items": []
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=ER.LND.PTLD.ZS+protected+areas&per_page=5",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "content_length": "72",
+      "final_url": "https://api.github.com/search/repositories?q=ER.LND.PTLD.ZS+protected+areas&per_page=5",
+      "adapter": "github_repository_search",
+      "query": "ER.LND.PTLD.ZS protected areas",
+      "total_count": null,
+      "items": []
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=World+Bank+2016h+protected+areas&per_page=5",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "content_length": "72",
+      "final_url": "https://api.github.com/search/repositories?q=World+Bank+2016h+protected+areas&per_page=5",
+      "adapter": "github_repository_search",
+      "query": "World Bank 2016h protected areas",
+      "total_count": null,
+      "items": []
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=Protected+Planet+1990+2014+CSV&per_page=5",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "content_length": "72",
+      "final_url": "https://api.github.com/search/repositories?q=Protected+Planet+1990+2014+CSV&per_page=5",
+      "adapter": "github_repository_search",
+      "query": "Protected Planet 1990 2014 CSV",
+      "total_count": null,
+      "items": []
+    }
+  ],
+  "github_code_search": [
+    {
+      "adapter": "github_code_search",
+      "query": "ER.MRN.PTMR.ZS protected areas",
+      "status": "skipped",
+      "reason": "Skipped in default pipeline because GitHub code search is often auth-gated and slow; run manually during deep discovery."
+    },
+    {
+      "adapter": "github_code_search",
+      "query": "ER.LND.PTLD.ZS protected areas",
+      "status": "skipped",
+      "reason": "Skipped in default pipeline because GitHub code search is often auth-gated and slow; run manually during deep discovery."
+    }
+  ]
+}
