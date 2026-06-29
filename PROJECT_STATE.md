@@ -153,3 +153,8 @@ Before doing new reconstruction work:
 5. Whenever a figure plot, comparison image, caption, provenance file, anomaly
    review, metadata file, or status changes, update the corresponding paths and
    status in the `Canonical Figure Artifacts` section above.
+6. Whenever Codex updates or reviews a figure, the final response must render
+   the latest side-by-side comparison images inline, including both
+   book-period and extended comparisons where available. GitHub remains the
+   canonical archive, but rendered images in the Codex response are required
+   for ChatGPT visual QA.

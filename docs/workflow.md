@@ -38,6 +38,15 @@ When changing a figure status, update all of the following:
 Do not promote a figure to `verified_reproduction` unless the source chain and
 visual validation both support that classification.
 
+## Visual QA Responses
+
+Whenever Codex updates or reviews a figure, the final response must render the
+latest side-by-side comparison images inline, including both book-period and
+extended comparisons where available. Use the canonical repository-relative
+paths listed in [../PROJECT_STATE.md](../PROJECT_STATE.md) to identify the
+images. GitHub remains the canonical archive, but inline rendered images are
+required so ChatGPT can perform visual QA from the response.
+
 ## Commit Practice
 
 Use logical commits:
