@@ -25,6 +25,10 @@ List of Figures extraction is preserved at
   and next tasks.
 - [docs/](docs/): lifecycle, workflow, lessons learned, and source-adapter
   playbooks.
+- [docs/review_protocol.md](docs/review_protocol.md): permanent quality gate
+  for every figure.
+- [docs/review_checklist.md](docs/review_checklist.md): copyable acceptance
+  checklist for figure directories.
 - [data/figure_registry.csv](data/figure_registry.csv): canonical queue and
   status table for all captured book figures.
 - [figures/](figures/): independently reviewable figure packages.
@@ -55,3 +59,11 @@ and the per-figure metadata files as the authoritative status layer.
 Visual validation assets include cropped figure references and side-by-side
 comparison images for research audit purposes. Review copyright and fair-use
 constraints before publishing those images on a public website.
+
+## Completion Standard
+
+No figure is complete merely because a plausible source was found or a plot was
+generated. Every figure must pass the five-phase
+[Figure Review Protocol](docs/review_protocol.md), including the independent
+reviewer challenge, repository updates, registry updates, and `PROJECT_STATE.md`
+updates.

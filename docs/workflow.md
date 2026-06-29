@@ -6,11 +6,13 @@
 2. Read [figure registry documentation](figure_registry.md).
 3. Check [the figure registry](../data/figure_registry.csv) before selecting
    or continuing figure work.
-4. Read the relevant figure directory.
-5. Check [figure metadata](../data/metadata/figure_metadata.csv) for canonical
+4. Read the [review protocol](review_protocol.md) and
+   [review checklist](review_checklist.md).
+5. Read the relevant figure directory.
+6. Check [figure metadata](../data/metadata/figure_metadata.csv) for canonical
    status.
-6. Inspect the source log before running new searches.
-7. Confirm whether the task is architecture, research, reconstruction, or
+7. Inspect the source log before running new searches.
+8. Confirm whether the task is architecture, research, reconstruction, or
    publication packaging.
 
 ## Figure Directory Contract
@@ -40,6 +42,29 @@ When changing a figure status, update all of the following:
 
 Do not promote a figure to `verified_reproduction` unless the source chain and
 visual validation both support that classification.
+
+## Review Protocol
+
+Every figure must pass the five-phase
+[Figure Review Protocol](review_protocol.md) before it is considered complete:
+
+1. Evidence Review.
+2. Source Review.
+3. Reconstruction Review.
+4. Extension Review.
+5. Reviewer Challenge.
+
+Use [review_checklist.md](review_checklist.md) as the operational checklist.
+Each active figure directory should eventually include a completed copy or
+equivalent figure-specific review file.
+
+The burden of proof is that the original underlying data exist unless
+substantial evidence suggests otherwise. Codex must attempt to prove or
+disprove that assumption before accepting a proxy dataset.
+
+A figure is complete only when reconstruction, extension, discrepancy review,
+reviewer questions, repository updates, registry updates, and `PROJECT_STATE.md`
+updates are all done. Only then may Codex begin another figure.
 
 ## Iterative QA Loop
 

@@ -2,7 +2,7 @@
 
 Last update: 2026-06-29 00:00 America/Los_Angeles
 
-Project version: `0.1.1-figure-registry`
+Project version: `1.0-review-protocol`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -25,6 +25,21 @@ documented in [docs/figure_registry.md](docs/figure_registry.md).
 
 Future Codex runs must consult the registry before selecting or continuing
 figure work, then update the relevant registry rows before finishing.
+
+## Review Protocol
+
+The permanent figure quality gate is
+[docs/review_protocol.md](docs/review_protocol.md), with the operational
+checklist at [docs/review_checklist.md](docs/review_checklist.md).
+
+Every figure must pass the five-phase review protocol before it is considered
+complete. The burden of proof is that the original underlying data exist unless
+substantial evidence suggests otherwise; absence of immediate search results is
+not enough to accept a proxy dataset.
+
+A figure is complete only when reconstruction, extension, discrepancy review,
+reviewer challenge, repository updates, registry updates, and this file are all
+updated. Only then may Codex begin another figure.
 
 ## Active Figures
 
@@ -147,6 +162,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.0-review-protocol` | 2026-06-29 | Added permanent five-phase figure review protocol, acceptance checklist, burden-of-proof rule, reviewer confidence standard, and batch completion rule. |
 | `0.1.1-figure-registry` | 2026-06-29 | Added canonical figure registry, registry documentation, and stronger iterative QA/stopping rules for future batches. |
 | `0.1.0-repository-bootstrap` | 2026-06-29 | Imported two-figure proof of concept, provenance, source logs, data references, plots, comparisons, scripts, and canonical project documentation into GitHub layout. |
 
@@ -157,22 +173,24 @@ Before doing new reconstruction work:
 1. Read this file.
 2. Read [docs/figure_registry.md](docs/figure_registry.md) and consult
    [data/figure_registry.csv](data/figure_registry.csv).
-3. Read [docs/pipeline.md](docs/pipeline.md) and [docs/workflow.md](docs/workflow.md).
-4. Read the target figure directory, especially `metadata/metadata.json`,
+3. Read [docs/review_protocol.md](docs/review_protocol.md) and
+   [docs/review_checklist.md](docs/review_checklist.md).
+4. Read [docs/pipeline.md](docs/pipeline.md) and [docs/workflow.md](docs/workflow.md).
+5. Read the target figure directory, especially `metadata/metadata.json`,
    `provenance/provenance.md`, `source_logs/source_log.md`, and
    `discrepancy_logs/discrepancy_log.md`.
-5. Update the relevant figure registry rows, this file, and
+6. Update the relevant figure registry rows, this file, and
    [docs/lessons_learned.md](docs/lessons_learned.md)
    before finishing.
-6. Whenever a figure plot, comparison image, caption, provenance file, anomaly
+7. Whenever a figure plot, comparison image, caption, provenance file, anomaly
    review, metadata file, or status changes, update the corresponding paths and
    status in the `Canonical Figure Artifacts` section above.
-7. Whenever Codex updates or reviews a figure, the final response must render
+8. Whenever Codex updates or reviews a figure, the final response must render
    the latest side-by-side comparison images inline, including both
    book-period and extended comparisons where available. GitHub remains the
    canonical archive, but rendered images in the Codex response are required
    for ChatGPT visual QA.
-8. Codex must not stop after producing a side-by-side comparison if visible
+9. Codex must not stop after producing a side-by-side comparison if visible
    discrepancies remain that could plausibly be addressed through additional
    source recovery, transformation correction, styling correction, scaling
    correction, or extension-data review.
