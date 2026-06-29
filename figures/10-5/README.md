@@ -35,3 +35,25 @@ located.
 
 The public evidence has not yet established the exact annual right-axis series
 for oil shipped by sea from 1970 through 2016.
+
+## Canonical Artifacts
+
+These paths must match the Figure 10-5 entry in
+[../../PROJECT_STATE.md](../../PROJECT_STATE.md).
+
+Canonical visual artifacts:
+
+- Original reference: [plots/comparisons/corrected_figure_10_5_book_crop.png](plots/comparisons/corrected_figure_10_5_book_crop.png)
+- Book-period reconstruction: [plots/book_period/figure_10_5_book_period_reconstruction.png](plots/book_period/figure_10_5_book_period_reconstruction.png)
+- Extended reconstruction: [plots/extended/figure_10_5_extended_reconstruction.png](plots/extended/figure_10_5_extended_reconstruction.png)
+- Book-period comparison: [plots/comparisons/figure_10_5_book_style_comparison_captioned.png](plots/comparisons/figure_10_5_book_style_comparison_captioned.png)
+- Extended comparison: [plots/comparisons/figure_10_5_extended_comparison_captioned.png](plots/comparisons/figure_10_5_extended_comparison_captioned.png)
+- Diagnostic plot: [plots/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png](plots/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png)
+- Diagnostic plot: [plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png](plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png)
+
+Canonical documentation:
+
+- Caption: [captions/caption.txt](captions/caption.txt)
+- Provenance: [provenance/provenance.md](provenance/provenance.md)
+- Anomaly review: [anomaly_reviews/anomaly_review.md](anomaly_reviews/anomaly_review.md)
+- Metadata: [metadata/metadata.json](metadata/metadata.json)

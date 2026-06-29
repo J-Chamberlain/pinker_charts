@@ -47,6 +47,54 @@ transformation, plotting, and validation. Do not start chapter-scale expansion
 until this repository's metadata and workflow documents remain clean after a
 fresh-contributor review.
 
+## Canonical Figure Artifacts
+
+Future runs should use these repository-relative paths to find the current
+canonical visual and documentation artifacts. If a figure plot, comparison
+image, caption, provenance file, anomaly review, metadata file, or status
+changes, update this section in the same commit.
+
+### Figure 10-5 - Oil spills, 1970-2016
+
+Status: `partial_match`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/10-5/plots/comparisons/corrected_figure_10_5_book_crop.png`
+- Book-period reconstruction: `figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png`
+- Extended reconstruction: `figures/10-5/plots/extended/figure_10_5_extended_reconstruction.png`
+- Book-period comparison: `figures/10-5/plots/comparisons/figure_10_5_book_style_comparison_captioned.png`
+- Extended comparison: `figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png`
+- Diagnostic plot: `figures/10-5/plots/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png`
+- Diagnostic plot: `figures/10-5/plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png`
+
+Canonical documentation:
+
+- Caption: `figures/10-5/captions/caption.txt`
+- Provenance: `figures/10-5/provenance/provenance.md`
+- Anomaly review: `figures/10-5/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/10-5/metadata/metadata.json`
+
+### Figure 10-6 - Protected areas, 1990-2014
+
+Status: `verified_reproduction`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/10-6/plots/comparisons/corrected_figure_10_6_book_crop.png`
+- Book-period reconstruction: `figures/10-6/plots/book_period/figure_10_6_book_period_reconstruction.png`
+- Extended reconstruction: `figures/10-6/plots/extended/figure_10_6_extended_reconstruction.png`
+- Book-period comparison: `figures/10-6/plots/comparisons/figure_10_6_book_style_comparison_captioned.png`
+- Extended comparison: `figures/10-6/plots/comparisons/figure_10_6_extended_comparison_captioned.png`
+- Diagnostic plot: `figures/10-6/plots/diagnostics/figure_10_6_current_vs_archived_wdi_diagnostic.png`
+
+Canonical documentation:
+
+- Caption: `figures/10-6/captions/caption.txt`
+- Provenance: `figures/10-6/provenance/provenance.md`
+- Anomaly review: `figures/10-6/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/10-6/metadata/metadata.json`
+
 ## Current Blockers
 
 - Figure 10-5 needs the exact Roser 2016r/ITOPF source snapshot or a documented
@@ -102,3 +150,6 @@ Before doing new reconstruction work:
    `discrepancy_logs/discrepancy_log.md`.
 4. Update this file and [docs/lessons_learned.md](docs/lessons_learned.md)
    before finishing.
+5. Whenever a figure plot, comparison image, caption, provenance file, anomaly
+   review, metadata file, or status changes, update the corresponding paths and
+   status in the `Canonical Figure Artifacts` section above.

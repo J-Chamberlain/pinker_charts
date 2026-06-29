@@ -35,3 +35,24 @@ with the archived book-period release.
 Bibliographic cleanup should confirm whether the book/WRI source line used WDI
 anchor years directly or an intermediate WRI table derived from the same source
 chain.
+
+## Canonical Artifacts
+
+These paths must match the Figure 10-6 entry in
+[../../PROJECT_STATE.md](../../PROJECT_STATE.md).
+
+Canonical visual artifacts:
+
+- Original reference: [plots/comparisons/corrected_figure_10_6_book_crop.png](plots/comparisons/corrected_figure_10_6_book_crop.png)
+- Book-period reconstruction: [plots/book_period/figure_10_6_book_period_reconstruction.png](plots/book_period/figure_10_6_book_period_reconstruction.png)
+- Extended reconstruction: [plots/extended/figure_10_6_extended_reconstruction.png](plots/extended/figure_10_6_extended_reconstruction.png)
+- Book-period comparison: [plots/comparisons/figure_10_6_book_style_comparison_captioned.png](plots/comparisons/figure_10_6_book_style_comparison_captioned.png)
+- Extended comparison: [plots/comparisons/figure_10_6_extended_comparison_captioned.png](plots/comparisons/figure_10_6_extended_comparison_captioned.png)
+- Diagnostic plot: [plots/diagnostics/figure_10_6_current_vs_archived_wdi_diagnostic.png](plots/diagnostics/figure_10_6_current_vs_archived_wdi_diagnostic.png)
+
+Canonical documentation:
+
+- Caption: [captions/caption.txt](captions/caption.txt)
+- Provenance: [provenance/provenance.md](provenance/provenance.md)
+- Anomaly review: [anomaly_reviews/anomaly_review.md](anomaly_reviews/anomaly_review.md)
+- Metadata: [metadata/metadata.json](metadata/metadata.json)
