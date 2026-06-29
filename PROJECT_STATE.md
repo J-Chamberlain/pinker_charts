@@ -2,7 +2,7 @@
 
 Last update: 2026-06-29 00:00 America/Los_Angeles
 
-Project version: `0.1.0-repository-bootstrap`
+Project version: `0.1.1-figure-registry`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -15,6 +15,16 @@ publicly inspectable data, documented provenance, reproducible code, and visual
 comparison against the book figure.
 
 The repository, not the conversation history, is the authoritative record.
+
+## Figure Registry
+
+The canonical project-wide figure queue is
+[data/figure_registry.csv](data/figure_registry.csv), with a JSON mirror at
+[data/figure_registry.json](data/figure_registry.json). Registry rules are
+documented in [docs/figure_registry.md](docs/figure_registry.md).
+
+Future Codex runs must consult the registry before selecting or continuing
+figure work, then update the relevant registry rows before finishing.
 
 ## Active Figures
 
@@ -137,6 +147,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `0.1.1-figure-registry` | 2026-06-29 | Added canonical figure registry, registry documentation, and stronger iterative QA/stopping rules for future batches. |
 | `0.1.0-repository-bootstrap` | 2026-06-29 | Imported two-figure proof of concept, provenance, source logs, data references, plots, comparisons, scripts, and canonical project documentation into GitHub layout. |
 
 ## Rule For Future Sessions
@@ -144,17 +155,39 @@ Canonical documentation:
 Before doing new reconstruction work:
 
 1. Read this file.
-2. Read [docs/pipeline.md](docs/pipeline.md) and [docs/workflow.md](docs/workflow.md).
-3. Read the target figure directory, especially `metadata/metadata.json`,
+2. Read [docs/figure_registry.md](docs/figure_registry.md) and consult
+   [data/figure_registry.csv](data/figure_registry.csv).
+3. Read [docs/pipeline.md](docs/pipeline.md) and [docs/workflow.md](docs/workflow.md).
+4. Read the target figure directory, especially `metadata/metadata.json`,
    `provenance/provenance.md`, `source_logs/source_log.md`, and
    `discrepancy_logs/discrepancy_log.md`.
-4. Update this file and [docs/lessons_learned.md](docs/lessons_learned.md)
+5. Update the relevant figure registry rows, this file, and
+   [docs/lessons_learned.md](docs/lessons_learned.md)
    before finishing.
-5. Whenever a figure plot, comparison image, caption, provenance file, anomaly
+6. Whenever a figure plot, comparison image, caption, provenance file, anomaly
    review, metadata file, or status changes, update the corresponding paths and
    status in the `Canonical Figure Artifacts` section above.
-6. Whenever Codex updates or reviews a figure, the final response must render
+7. Whenever Codex updates or reviews a figure, the final response must render
    the latest side-by-side comparison images inline, including both
    book-period and extended comparisons where available. GitHub remains the
    canonical archive, but rendered images in the Codex response are required
    for ChatGPT visual QA.
+8. Codex must not stop after producing a side-by-side comparison if visible
+   discrepancies remain that could plausibly be addressed through additional
+   source recovery, transformation correction, styling correction, scaling
+   correction, or extension-data review.
+
+After each side-by-side comparison, Codex must self-review:
+
+1. What visibly differs from the original?
+2. Is the discrepancy due to missing data, wrong data, styling, scaling,
+   source-version change, or post-publication extension?
+3. Can the issue be addressed automatically?
+4. If yes, continue iterating.
+5. If no, document why not and classify the unresolved issue.
+
+Codex may stop only when the figure is visually and evidentially satisfactory,
+remaining discrepancies are explained in the caption and anomaly review, the
+source search space has been exhaustively documented, or manual input is
+genuinely required. Codex should not stop merely because it found a plausible
+source or generated a plot.

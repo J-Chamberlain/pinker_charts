@@ -25,6 +25,8 @@ List of Figures extraction is preserved at
   and next tasks.
 - [docs/](docs/): lifecycle, workflow, lessons learned, and source-adapter
   playbooks.
+- [data/figure_registry.csv](data/figure_registry.csv): canonical queue and
+  status table for all captured book figures.
 - [figures/](figures/): independently reviewable figure packages.
 - [data/](data/): cross-figure metadata, lineage, bibliography, checksums,
   and imported source data grouped by figure.
