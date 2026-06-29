@@ -1,0 +1,6 @@
+stage,value
+Book Figure,"Figure 5-2: Child mortality, 1751-2013"
+Book Citation,"Our World in Data, Roser 2016a, based on UN Child Mortality Estimates and the Human Mortality Database."
+Downloaded File,figures/5-2/data/raw/
+Transformation Script,scripts/reconstruct_5_1_5_2_8_4_19_1.py
+Generated Plot,figures/5-2/plots/

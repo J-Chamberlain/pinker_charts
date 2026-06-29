@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-06-29 00:00 America/Los_Angeles
+Last update: 2026-06-29 16:35 America/Los_Angeles
 
-Project version: `1.1-two-figure-batch-10-7-10-8`
+Project version: `1.2-four-figure-batch-5-1-5-2-8-4-19-1`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -45,10 +45,14 @@ updated. Only then may Codex begin another figure.
 
 | Figure | Title | Lifecycle stage | Status | Confidence | Current disposition |
 | --- | --- | --- | --- | --- | --- |
+| 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; no comparable regional successor extension plotted. |
+| 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Current reconstruction uses OWID Gapminder 2013 proxy; exact Roser 2016a UN/HMD assembled source remains unresolved. |
+| 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; successor extension needs better comparable world series handling. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
 | 10-8 | CO2 emissions, 1960-2015 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 regional CDIAC dataset matches the Kindle source chain; extension uses current OWID/GCB successor categories after 2015. |
+| 19-1 | Nuclear weapons, 1945-2015 | Source recovery and visual capture pending | `partial_match` | Medium-low | Current reconstruction uses a current OWID successor series; exact cited HumanProgress/FAS 2016 table and original chart-page capture remain unresolved. |
 
 ## Completed Figures
 
@@ -57,6 +61,12 @@ support a verified reconstruction.
 
 - Figure 10-6: archived World Bank WDI bulk CSV from the Internet Archive
   reproduces the book-period land and marine protected-area trends.
+- Figure 5-1: OWID/Roser 2016n-style historical life-expectancy dataset based
+  on Riley 2005 plus WHO/World Bank matches the Kindle source line and visual
+  trend.
+- Figure 8-4: OWID historical dataset based on Bourguignon & Morrison 2002 and
+  World Bank PovcalNet 2015 reproduces the book-period extreme-poverty
+  proportion chart.
 - Figure 10-7: OWID 2017 carbon-intensity dataset based on CDIAC, World Bank,
   and Maddison data reproduces the book-period line chart.
 - Figure 10-8: OWID 2017 regional CDIAC dataset reproduces the book-period
@@ -69,13 +79,21 @@ support a verified reconstruction.
   not been proven. A recovered UNCTADStat-style mirror supports a book-style
   reconstruction through 2020, but it remains an updated-equivalent or partial
   source rather than a verified book-era dataset.
+- Figure 5-2: the Kindle title/source and chart page were captured, but the
+  reconstruction currently uses an OWID Gapminder 2013 proxy rather than the
+  exact cited Roser 2016a UN Child Mortality/Human Mortality Database assembly.
+- Figure 19-1: the Kindle source-line result was captured, but the actual chart
+  page was not successfully captured during this batch. The reconstruction uses
+  current OWID nuclear-warhead successor data rather than the cited
+  HumanProgress/FAS 2016 table.
 
 ## Attempted But Not Expanded
 
 The initial Kindle List of Figures extraction captured 75 visible entries.
-Figures 10-5, 10-6, 10-7, and 10-8 have been carried through source recovery,
-transformation, plotting, and validation. Continue processing in small batches
-of no more than two figures unless explicitly directed otherwise.
+Figures 5-1, 5-2, 8-4, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
+through at least one source recovery, transformation, plotting, and validation
+pass. Continue processing in small batches of no more than two figures unless
+explicitly directed otherwise.
 
 ## Canonical Figure Artifacts
 
@@ -83,6 +101,66 @@ Future runs should use these repository-relative paths to find the current
 canonical visual and documentation artifacts. If a figure plot, comparison
 image, caption, provenance file, anomaly review, metadata file, or status
 changes, update this section in the same commit.
+
+### Figure 5-1 - Life expectancy, 1771-2015
+
+Status: `verified_reproduction`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/5-1/plots/comparisons/kindle_reference_figure_5_1.png`
+- Book-period reconstruction: `figures/5-1/plots/book_period/figure_5_1_book_period_reconstruction.png`
+- Extended reconstruction: `figures/5-1/plots/extended/figure_5_1_extended_reconstruction.png`
+- Book-period comparison: `figures/5-1/plots/comparisons/figure_5_1_book_period_comparison.png`
+- Extended comparison: `figures/5-1/plots/comparisons/figure_5_1_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/5-1/captions/caption.txt`
+- Provenance: `figures/5-1/provenance/provenance.md`
+- Anomaly review: `figures/5-1/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/5-1/metadata/metadata.json`
+- Review checklist: `figures/5-1/review_checklist.md`
+
+### Figure 5-2 - Child mortality, 1751-2013
+
+Status: `partial_match`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/5-2/plots/comparisons/kindle_reference_figure_5_2.png`
+- Book-period reconstruction: `figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png`
+- Extended reconstruction: `figures/5-2/plots/extended/figure_5_2_extended_reconstruction.png`
+- Book-period comparison: `figures/5-2/plots/comparisons/figure_5_2_book_period_comparison.png`
+- Extended comparison: `figures/5-2/plots/comparisons/figure_5_2_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/5-2/captions/caption.txt`
+- Provenance: `figures/5-2/provenance/provenance.md`
+- Anomaly review: `figures/5-2/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/5-2/metadata/metadata.json`
+- Review checklist: `figures/5-2/review_checklist.md`
+
+### Figure 8-4 - Extreme poverty (proportion), 1820-2015
+
+Status: `verified_reproduction`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/8-4/plots/comparisons/kindle_reference_figure_8_4.png`
+- Book-period reconstruction: `figures/8-4/plots/book_period/figure_8_4_book_period_reconstruction.png`
+- Extended reconstruction: `figures/8-4/plots/extended/figure_8_4_extended_reconstruction.png`
+- Book-period comparison: `figures/8-4/plots/comparisons/figure_8_4_book_period_comparison.png`
+- Extended comparison: `figures/8-4/plots/comparisons/figure_8_4_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/8-4/captions/caption.txt`
+- Provenance: `figures/8-4/provenance/provenance.md`
+- Anomaly review: `figures/8-4/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/8-4/metadata/metadata.json`
+- Review checklist: `figures/8-4/review_checklist.md`
 
 ### Figure 10-5 - Oil spills, 1970-2016
 
@@ -165,10 +243,34 @@ Canonical documentation:
 - Metadata: `figures/10-8/metadata/metadata.json`
 - Review checklist: `figures/10-8/review_checklist.md`
 
+### Figure 19-1 - Nuclear weapons, 1945-2015
+
+Status: `partial_match`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/19-1/plots/comparisons/kindle_reference_figure_19_1.png`
+- Book-period reconstruction: `figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png`
+- Extended reconstruction: `figures/19-1/plots/extended/figure_19_1_extended_reconstruction.png`
+- Book-period comparison: `figures/19-1/plots/comparisons/figure_19_1_book_period_comparison.png`
+- Extended comparison: `figures/19-1/plots/comparisons/figure_19_1_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/19-1/captions/caption.txt`
+- Provenance: `figures/19-1/provenance/provenance.md`
+- Anomaly review: `figures/19-1/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/19-1/metadata/metadata.json`
+- Review checklist: `figures/19-1/review_checklist.md`
+
 ## Current Blockers
 
 - Figure 10-5 needs the exact Roser 2016r/ITOPF source snapshot or a documented
   archival equivalent for the full 1970-2016 oil-shipped-by-sea series.
+- Figure 5-2 needs the exact Roser 2016a UN/HMD assembled dataset or an
+  archival copy before it can be promoted beyond `partial_match`.
+- Figure 19-1 needs an actual Kindle chart-page capture and the cited
+  HumanProgress/FAS 2016 table or archival equivalent.
 - The legacy file [data/metadata/figure_metadata_legacy.csv](data/metadata/figure_metadata_legacy.csv)
   is stale and kept only as an imported historical artifact. The canonical
   metadata is [data/metadata/figure_metadata.csv](data/metadata/figure_metadata.csv)
@@ -196,8 +298,8 @@ Canonical documentation:
    links resolve.
 2. Update scripts to use repository-relative paths and regenerate outputs from
    the imported data without Mac-specific paths.
-3. Keep Figure 10-5 open for targeted source recovery only; do not expand to
-   new figures until its status language is settled.
+3. Keep Figures 5-2, 10-5, and 19-1 open for targeted source recovery before
+   promoting their statuses.
 4. For Figure 10-6, complete bibliographic cleanup and document the WDI archive
    capture as the accepted source.
 5. Build reusable source adapters for OWID/GitHub datasets, World Bank bulk
@@ -209,6 +311,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.2-four-figure-batch-5-1-5-2-8-4-19-1` | 2026-06-29 | Processed Figures 5-1, 5-2, 8-4, and 19-1. Figures 5-1 and 8-4 reached verified book-period reconstructions; Figures 5-2 and 19-1 remain partial matches with documented source/capture blockers. |
 | `1.1-two-figure-batch-10-7-10-8` | 2026-06-29 | Processed Figures 10-7 and 10-8 through the full workflow, including Kindle evidence, OWID source recovery, book-period reconstruction, successor extension, review checklist, registry update, and canonical artifact paths. |
 | `1.0-review-protocol` | 2026-06-29 | Added permanent five-phase figure review protocol, acceptance checklist, burden-of-proof rule, reviewer confidence standard, and batch completion rule. |
 | `0.1.1-figure-registry` | 2026-06-29 | Added canonical figure registry, registry documentation, and stronger iterative QA/stopping rules for future batches. |

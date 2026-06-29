@@ -1,0 +1,20 @@
+{
+  "figure_id": "8-4",
+  "chapter": "8",
+  "title": "Extreme poverty (proportion), 1820-2015",
+  "book_page": "Kindle page 87 search result",
+  "claim_summary": "The proportion of the world population in extreme poverty fell sharply from the nineteenth century to 2015.",
+  "book_citation": "Our World in Data, Roser & Ortiz-Ospina 2017, based on Bourguignon & Morrisson 2002 and World Bank 2016g.",
+  "download_date": "2026-06-29",
+  "reproduction_status": "verified_reproduction",
+  "confidence_score": 0.84,
+  "visual_validation": "good",
+  "notes": "Processed in four-figure batch; see anomaly review and source log for limitations.",
+  "canonical_artifacts": {
+    "original_reference": "figures/8-4/plots/comparisons/kindle_reference_figure_8_4.png",
+    "book_period_reconstruction": "figures/8-4/plots/book_period/figure_8_4_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/8-4/plots/extended/figure_8_4_extended_reconstruction.png",
+    "book_period_comparison": "figures/8-4/plots/comparisons/figure_8_4_book_period_comparison.png",
+    "extended_comparison": "figures/8-4/plots/comparisons/figure_8_4_extended_comparison.png"
+  }
+}

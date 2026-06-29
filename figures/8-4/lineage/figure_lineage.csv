@@ -1,0 +1,6 @@
+stage,value
+Book Figure,"Figure 8-4: Extreme poverty (proportion), 1820-2015"
+Book Citation,"Our World in Data, Roser & Ortiz-Ospina 2017, based on Bourguignon & Morrisson 2002 and World Bank 2016g."
+Downloaded File,figures/8-4/data/raw/
+Transformation Script,scripts/reconstruct_5_1_5_2_8_4_19_1.py
+Generated Plot,figures/8-4/plots/

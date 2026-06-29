@@ -9,16 +9,20 @@ directory, before using chat history or doing new research.
 
 ## Current Scope
 
-The repository contains the hardened proof of concept for two Chapter 10
-figures:
+The repository contains a hardened proof of concept plus the first broader
+small-batch reconstructions:
 
+- [Figure 5-1](figures/5-1/README.md): Life expectancy, 1771-2015
+- [Figure 5-2](figures/5-2/README.md): Child mortality, 1751-2013
+- [Figure 8-4](figures/8-4/README.md): Extreme poverty (proportion), 1820-2015
 - [Figure 10-5](figures/10-5/README.md): Oil spills, 1970-2016
 - [Figure 10-6](figures/10-6/README.md): Protected areas, 1990-2014
 - [Figure 10-7](figures/10-7/README.md): Carbon intensity, 1820-2014
 - [Figure 10-8](figures/10-8/README.md): CO2 emissions, 1960-2015
+- [Figure 19-1](figures/19-1/README.md): Nuclear weapons, 1945-2015
 
-No additional book figures have been reconstructed yet beyond these Chapter 10
-figures. The initial Kindle List of Figures extraction is preserved at
+Figures 5-2, 10-5, and 19-1 remain partial matches with documented blockers.
+The initial Kindle List of Figures extraction is preserved at
 [data/metadata/kindle_list_of_figures_test.csv](data/metadata/kindle_list_of_figures_test.csv).
 
 ## Repository Layout

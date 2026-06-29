@@ -1,0 +1,4 @@
+# Discrepancy Log: Figure 5-2
+
+- Side-by-side generated for book-period and extended views.
+- Remaining discrepancies documented in anomaly review.

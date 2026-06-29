@@ -1,0 +1,6 @@
+stage,value
+Book Figure,"Figure 5-1: Life expectancy, 1771-2015"
+Book Citation,"Our World in Data, Roser 2016n, based on Riley 2005 before 2000 and WHO/World Bank after."
+Downloaded File,figures/5-1/data/raw/
+Transformation Script,scripts/reconstruct_5_1_5_2_8_4_19_1.py
+Generated Plot,figures/5-1/plots/

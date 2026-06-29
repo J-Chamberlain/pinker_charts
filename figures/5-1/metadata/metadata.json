@@ -1,0 +1,20 @@
+{
+  "figure_id": "5-1",
+  "chapter": "5",
+  "title": "Life expectancy, 1771-2015",
+  "book_page": "Kindle page 54 search result",
+  "claim_summary": "Average life expectancy increased across world regions from the Enlightenment era to 2015.",
+  "book_citation": "Our World in Data, Roser 2016n, based on Riley 2005 before 2000 and WHO/World Bank after.",
+  "download_date": "2026-06-29",
+  "reproduction_status": "verified_reproduction",
+  "confidence_score": 0.86,
+  "visual_validation": "good",
+  "notes": "Processed in four-figure batch; see anomaly review and source log for limitations.",
+  "canonical_artifacts": {
+    "original_reference": "figures/5-1/plots/comparisons/kindle_reference_figure_5_1.png",
+    "book_period_reconstruction": "figures/5-1/plots/book_period/figure_5_1_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/5-1/plots/extended/figure_5_1_extended_reconstruction.png",
+    "book_period_comparison": "figures/5-1/plots/comparisons/figure_5_1_book_period_comparison.png",
+    "extended_comparison": "figures/5-1/plots/comparisons/figure_5_1_extended_comparison.png"
+  }
+}

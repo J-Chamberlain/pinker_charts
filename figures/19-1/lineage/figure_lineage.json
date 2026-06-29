@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "Figure 19-1: Nuclear weapons, 1945-2015"
+  },
+  {
+    "stage": "Book Citation",
+    "value": "HumanProgress static 2927, based on Federation of Atomic Scientists, Kristensen & Norris 2016a, updated in Kristensen 2016."
+  },
+  {
+    "stage": "Downloaded File",
+    "value": "figures/19-1/data/raw/"
+  },
+  {
+    "stage": "Transformation Script",
+    "value": "scripts/reconstruct_5_1_5_2_8_4_19_1.py"
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/19-1/plots/"
+  }
+]

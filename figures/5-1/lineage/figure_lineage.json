@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "Figure 5-1: Life expectancy, 1771-2015"
+  },
+  {
+    "stage": "Book Citation",
+    "value": "Our World in Data, Roser 2016n, based on Riley 2005 before 2000 and WHO/World Bank after."
+  },
+  {
+    "stage": "Downloaded File",
+    "value": "figures/5-1/data/raw/"
+  },
+  {
+    "stage": "Transformation Script",
+    "value": "scripts/reconstruct_5_1_5_2_8_4_19_1.py"
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/5-1/plots/"
+  }
+]

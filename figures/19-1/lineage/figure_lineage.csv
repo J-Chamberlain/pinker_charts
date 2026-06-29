@@ -1,0 +1,6 @@
+stage,value
+Book Figure,"Figure 19-1: Nuclear weapons, 1945-2015"
+Book Citation,"HumanProgress static 2927, based on Federation of Atomic Scientists, Kristensen & Norris 2016a, updated in Kristensen 2016."
+Downloaded File,figures/19-1/data/raw/
+Transformation Script,scripts/reconstruct_5_1_5_2_8_4_19_1.py
+Generated Plot,figures/19-1/plots/

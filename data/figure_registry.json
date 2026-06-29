@@ -21,13 +21,13 @@
     "title": "Life expectancy, 1771-2015",
     "page": "",
     "year_range": "1771-2015",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
-    "source_type_guess": "health_demographic_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "current_status": "verified_reproduction",
+    "lifecycle_stage": "reviewed_book_period_reconstruction",
+    "source_type_guess": "OWID historical health dataset",
+    "priority": "high",
+    "current_owner": "Codex",
+    "next_action": "Publication review; consider regional successor extension only if comparable method is recovered.",
+    "notes": "Processed in four-figure batch on 2026-06-29; exact OWID/Roser 2016n-style historical dataset located in local OWID mirror."
   },
   {
     "figure_id": "5-2",
@@ -36,13 +36,13 @@
     "title": "Child mortality, 1751-2013",
     "page": "",
     "year_range": "1751-2013",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
-    "source_type_guess": "health_demographic_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "current_status": "partial_match",
+    "lifecycle_stage": "source_recovery_and_discrepancy_analysis",
+    "source_type_guess": "OWID/Gapminder/UN-HMD child mortality",
+    "priority": "high",
+    "current_owner": "Codex",
+    "next_action": "Recover exact Roser 2016a UN Child Mortality/HMD assembled file; current reconstruction uses OWID Gapminder 2013 proxy.",
+    "notes": "Processed in four-figure batch on 2026-06-29; visual discrepancies remain, especially South Korea/Ethiopia starts and country-series construction."
   },
   {
     "figure_id": "5-3",
@@ -201,13 +201,13 @@
     "title": "Extreme poverty (proportion), 1820-2015",
     "page": "",
     "year_range": "1820-2015",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
-    "source_type_guess": "economic_historical_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "current_status": "verified_reproduction",
+    "lifecycle_stage": "reviewed_book_period_reconstruction",
+    "source_type_guess": "OWID poverty historical dataset",
+    "priority": "high",
+    "current_owner": "Codex",
+    "next_action": "Improve extended successor handling; current book-period data match Bourguignon & Morrison/PovcalNet source chain.",
+    "notes": "Processed in four-figure batch on 2026-06-29; book-period reconstruction uses OWID historical dataset based on Bourguignon & Morrison 2002 and World Bank PovcalNet 2015."
   },
   {
     "figure_id": "8-5",
@@ -1101,13 +1101,13 @@
     "title": "Nuclear weapons, 1945-2015",
     "page": "",
     "year_range": "1945-2015",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
-    "source_type_guess": "conflict_security_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "current_status": "partial_match",
+    "lifecycle_stage": "source_recovery_and_visual_capture_pending",
+    "source_type_guess": "HumanProgress/FAS nuclear inventory",
+    "priority": "medium",
+    "current_owner": "Codex",
+    "next_action": "Capture actual Kindle chart page and recover cited HumanProgress/FAS 2016 table or archival copy.",
+    "notes": "Processed in four-figure batch on 2026-06-29 with current OWID nuclear-warhead successor data; original chart-page capture unresolved."
   },
   {
     "figure_id": "20-1",

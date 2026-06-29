@@ -57,3 +57,17 @@ Pinker figure closely while current OWID grapher exports use revised source
 versions or category definitions. For extensions, keep the book-era series
 solid through the book endpoint and show current successor data only after that
 endpoint with explicit caveats.
+
+## Source-Line Capture Is Not Chart Capture
+
+Figure 19-1 showed that a Kindle search result can confirm the title and source
+line without providing a usable chart-page visual reference. Treat this as
+evidence for citation extraction only; visual validation requires the actual
+figure page or a documented reason that manual recapture is required.
+
+## OWID Proxies Still Need Exact Vintage Proof
+
+Figure 5-2 showed that a plausible OWID/Gapminder country series can reproduce
+the concept while still diverging visibly from the book's chart. Do not upgrade
+such figures until the exact named source assembly, archival grapher snapshot,
+or data vintage is recovered.
