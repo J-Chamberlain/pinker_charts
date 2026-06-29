@@ -411,13 +411,13 @@
     "title": "Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014",
     "page": "",
     "year_range": "1820-2014",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "verified_reproduction",
+    "lifecycle_stage": "review_complete_book_period_with_successor_extension",
     "source_type_guess": "economic_historical_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "completed_monitor",
+    "current_owner": "repository",
+    "next_action": "Monitor source-version changes and improve typography only if preparing publication layout.",
+    "notes": "Book-period source and visual geometry closely match. Extension is useful but explicitly successor-series only."
   },
   {
     "figure_id": "10-8",
@@ -426,13 +426,13 @@
     "title": "CO2 emissions, 1960-2015",
     "page": "",
     "year_range": "1960-2015",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "verified_reproduction",
+    "lifecycle_stage": "review_complete_book_period_with_successor_extension",
     "source_type_guess": "environment_institutional_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "completed_monitor",
+    "current_owner": "repository",
+    "next_action": "Monitor source-version changes and improve typography only if preparing publication layout.",
+    "notes": "Book-period stack uses the exact OWID 2017 regional CDIAC dataset named by the source chain. Extension is visually separated by a 2015 boundary because source definitions changed."
   },
   {
     "figure_id": "11-1",

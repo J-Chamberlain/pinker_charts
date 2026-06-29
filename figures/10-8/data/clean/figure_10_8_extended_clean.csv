@@ -1,0 +1,651 @@
+Entity,Year,billion_tonnes_co2
+Africa,1960,0.1565708
+Africa,1961,0.16199434
+Africa,1962,0.16633496
+Africa,1963,0.17633493
+Africa,1964,0.19363934
+Africa,1965,0.2136344
+Africa,1966,0.22108216
+Africa,1967,0.2370452
+Africa,1968,0.25727149
+Africa,1969,0.27771658
+Africa,1970,0.30240957
+Africa,1971,0.33158237
+Africa,1972,0.35161507
+Africa,1973,0.3777039
+Africa,1974,0.38804627
+Africa,1975,0.38683258
+Africa,1976,0.4196848
+Africa,1977,0.43265232
+Africa,1978,0.4620458
+Africa,1979,0.4986714
+Africa,1980,0.5357071
+Africa,1981,0.5485107
+Africa,1982,0.5714225
+Africa,1983,0.5942891
+Africa,1984,0.64884896
+Africa,1985,0.66545965
+Africa,1986,0.68913466
+Africa,1987,0.689027
+Africa,1988,0.7238932
+Africa,1989,0.6966677
+Africa,1990,0.6558094
+Africa,1991,0.6842489
+Africa,1992,0.6637128
+Africa,1993,0.70458963
+Africa,1994,0.7887618
+Africa,1995,0.84229645
+Africa,1996,0.8707846
+Africa,1997,0.89264294
+Africa,1998,0.91115885
+Africa,1999,0.8975152
+Africa,2000,0.9278598
+Africa,2001,0.9173219
+Africa,2002,0.8969563
+Africa,2003,0.98811085
+Africa,2004,1.0435043
+Africa,2005,1.0557128
+Africa,2006,1.0848529
+Africa,2007,1.1138918
+Africa,2008,1.1661994
+Africa,2009,1.1608957
+Africa,2010,1.216281
+Africa,2011,1.2649062
+Africa,2012,1.2635158
+Africa,2013,1.280567
+Africa,2014,1.360819
+Africa,2015,1.3359457
+Africa,2016,1.3672323
+Africa,2017,1.3773176
+Africa,2018,1.3911868
+Africa,2019,1.4560832
+Africa,2020,1.3692488
+Africa,2021,1.4753494
+Africa,2022,1.4591139
+Africa,2023,1.4818144
+Africa,2024,1.5020987
+Americas (other),1960,0.49106716000000006
+Americas (other),1961,0.49932825
+Americas (other),1962,0.53121292
+Americas (other),1963,0.53553364
+Americas (other),1964,0.58742187
+Americas (other),1965,0.61235325
+Americas (other),1966,0.63699733
+Americas (other),1967,0.6889162900000001
+Americas (other),1968,0.73628614
+Americas (other),1969,0.77769073
+Americas (other),1970,0.86064226
+Americas (other),1971,0.89700506
+Americas (other),1972,0.95143894
+Americas (other),1973,1.00434861
+Americas (other),1974,1.04639714
+Americas (other),1975,1.0613715
+Americas (other),1976,1.10596776
+Americas (other),1977,1.1361501299999999
+Americas (other),1978,1.19773914
+Americas (other),1979,1.27805964
+Americas (other),1980,1.3198177800000002
+Americas (other),1981,1.2975447
+Americas (other),1982,1.30582838
+Americas (other),1983,1.2584352
+Americas (other),1984,1.28912016
+Americas (other),1985,1.31258057
+Americas (other),1986,1.31445811
+Americas (other),1987,1.3856988000000001
+Americas (other),1988,1.4333423
+Americas (other),1989,1.46327897
+Americas (other),1990,1.46587025
+Americas (other),1991,1.47734476
+Americas (other),1992,1.50450374
+Americas (other),1993,1.54549037
+Americas (other),1994,1.5801012
+Americas (other),1995,1.61323988
+Americas (other),1996,1.6761695
+Americas (other),1997,1.76474434
+Americas (other),1998,1.81560194
+Americas (other),1999,1.86197596
+Americas (other),2000,1.9004059
+Americas (other),2001,1.8933213000000002
+Americas (other),2002,1.9343690000000002
+Americas (other),2003,1.9846965
+Americas (other),2004,2.0153143
+Americas (other),2005,2.0680359999999998
+Americas (other),2006,2.113772
+Americas (other),2007,2.17608664
+Americas (other),2008,2.2026431
+Americas (other),2009,2.1284365
+Americas (other),2010,2.25472395
+Americas (other),2011,2.3065189999999998
+Americas (other),2012,2.3763319999999997
+Americas (other),2013,2.4410413999999996
+Americas (other),2014,2.4443721
+Americas (other),2015,2.4112377
+Americas (other),2016,2.350648
+Americas (other),2017,2.3274131000000002
+Americas (other),2018,2.2970879
+Americas (other),2019,2.3222856
+Americas (other),2020,2.09236554
+Americas (other),2021,2.2672754
+Americas (other),2022,2.2806488
+Americas (other),2023,2.2936622
+Americas (other),2024,2.2899977
+Asia and Pacific (other),1960,0.72828729
+Asia and Pacific (other),1961,0.80211043
+Asia and Pacific (other),1962,0.85312873
+Asia and Pacific (other),1963,0.9328531999999999
+Asia and Pacific (other),1964,1.02536228
+Asia and Pacific (other),1965,1.1246697399999999
+Asia and Pacific (other),1966,1.21977704
+Asia and Pacific (other),1967,1.34316452
+Asia and Pacific (other),1968,1.4910714999999999
+Asia and Pacific (other),1969,1.6572200300000002
+Asia and Pacific (other),1970,1.8734342199999998
+Asia and Pacific (other),1971,2.02197067
+Asia and Pacific (other),1972,2.13054741
+Asia and Pacific (other),1973,2.32685746
+Asia and Pacific (other),1974,2.35702423
+Asia and Pacific (other),1975,2.3563393500000003
+Asia and Pacific (other),1976,2.52606996
+Asia and Pacific (other),1977,2.6554226400000003
+Asia and Pacific (other),1978,2.68803882
+Asia and Pacific (other),1979,2.8163820999999998
+Asia and Pacific (other),1980,2.8399957000000002
+Asia and Pacific (other),1981,2.8167750000000003
+Asia and Pacific (other),1982,2.82599348
+Asia and Pacific (other),1983,2.88206394
+Asia and Pacific (other),1984,3.0071832300000003
+Asia and Pacific (other),1985,3.1177917199999996
+Asia and Pacific (other),1986,3.2088859000000003
+Asia and Pacific (other),1987,3.2745410699999997
+Asia and Pacific (other),1988,3.5376514400000003
+Asia and Pacific (other),1989,3.6821093
+Asia and Pacific (other),1990,3.83040686
+Asia and Pacific (other),1991,4.45053904
+Asia and Pacific (other),1992,4.13859625
+Asia and Pacific (other),1993,4.2648344
+Asia and Pacific (other),1994,4.4052247300000005
+Asia and Pacific (other),1995,4.48389366
+Asia and Pacific (other),1996,4.6219826600000005
+Asia and Pacific (other),1997,4.7095582
+Asia and Pacific (other),1998,4.614592
+Asia and Pacific (other),1999,4.836749500000001
+Asia and Pacific (other),2000,5.0901472000000005
+Asia and Pacific (other),2001,5.19304414
+Asia and Pacific (other),2002,5.3089602000000005
+Asia and Pacific (other),2003,5.54946346
+Asia and Pacific (other),2004,5.77123802
+Asia and Pacific (other),2005,5.9037311
+Asia and Pacific (other),2006,6.05086614
+Asia and Pacific (other),2007,6.19809037
+Asia and Pacific (other),2008,6.31341312
+Asia and Pacific (other),2009,6.33558276
+Asia and Pacific (other),2010,6.69944974
+Asia and Pacific (other),2011,6.93334667
+Asia and Pacific (other),2012,7.19643168
+Asia and Pacific (other),2013,7.192772349999999
+Asia and Pacific (other),2014,7.2800513
+Asia and Pacific (other),2015,7.4319250299999995
+Asia and Pacific (other),2016,7.56174734
+Asia and Pacific (other),2017,7.815190449999999
+Asia and Pacific (other),2018,7.89225175
+Asia and Pacific (other),2019,8.07082147
+Asia and Pacific (other),2020,7.8221833
+Asia and Pacific (other),2021,7.99941877
+Asia and Pacific (other),2022,8.1283628
+Asia and Pacific (other),2023,8.19550472
+Asia and Pacific (other),2024,8.34686964
+China,1960,0.79881094
+China,1961,0.57064115
+China,1962,0.4596254
+China,1963,0.45678678
+China,1964,0.4606444
+China,1965,0.5002937
+China,1966,0.5494667
+China,1967,0.4602332
+China,1968,0.4955139
+China,1969,0.60769434
+China,1970,0.80796365
+China,1971,0.90920986
+China,1972,0.9686358
+China,1973,1.0082686
+China,1974,1.0280635
+China,1975,1.1831535
+China,1976,1.2263395
+China,1977,1.3407153
+China,1978,1.4925175
+China,1979,1.5254173
+China,1980,1.4942979
+China,1981,1.47628
+China,1982,1.6062391
+China,1983,1.6937467
+China,1984,1.8442127
+China,1985,1.9971933
+China,1986,2.1034299
+China,1987,2.2566295
+China,1988,2.4244442
+China,1989,2.46215
+China,1990,2.4835343
+China,1991,2.6191434
+China,1992,2.7312904
+China,1993,2.9142845
+China,1994,3.0938908
+China,1995,3.3511972
+China,1996,3.4993106
+China,1997,3.51235
+China,1998,3.355336
+China,1999,3.549949
+China,2000,3.6438095
+China,2001,3.7241142
+China,2002,4.0981806
+China,2003,4.8352517
+China,2004,5.2109614
+China,2005,5.8819907
+China,2006,6.4861844
+China,2007,6.974663
+China,2008,7.492404
+China,2009,7.881491
+China,2010,8.610048
+China,2011,9.520154
+China,2012,9.76731
+China,2013,9.942371
+China,2014,9.976027
+China,2015,9.85804
+China,2016,9.748175
+China,2017,10.000013
+China,2018,10.34679
+China,2019,10.713515
+China,2020,10.89652
+China,2021,11.284401
+China,2022,11.711807
+China,2023,12.172008
+China,2024,12.289037
+EU-27,1960,2.1015826
+EU-27,1961,2.2014408
+EU-27,1962,2.3565586
+EU-27,1963,2.5147013
+EU-27,1964,2.6460083
+EU-27,1965,2.6786962
+EU-27,1966,2.7603023
+EU-27,1967,2.8221356
+EU-27,1968,2.995612
+EU-27,1969,3.194592
+EU-27,1970,3.334414
+EU-27,1971,3.42846
+EU-27,1972,3.5586721
+EU-27,1973,3.732199
+EU-27,1974,3.7129708
+EU-27,1975,3.6401226
+EU-27,1976,3.9160666
+EU-27,1977,3.8778445
+EU-27,1978,4.0079985
+EU-27,1979,4.1173952
+EU-27,1980,4.081316
+EU-27,1981,3.867043
+EU-27,1982,3.774743
+EU-27,1983,3.731654
+EU-27,1984,3.7666632
+EU-27,1985,3.8236493
+EU-27,1986,3.8071416
+EU-27,1987,3.8408886
+EU-27,1988,3.7983772
+EU-27,1989,3.836181
+EU-27,1990,3.8702528
+EU-27,1991,3.8045302
+EU-27,1992,3.6777364
+EU-27,1993,3.6081539
+EU-27,1994,3.5894543
+EU-27,1995,3.6358784
+EU-27,1996,3.7207096
+EU-27,1997,3.654451
+EU-27,1998,3.6446492
+EU-27,1999,3.5891607
+EU-27,2000,3.600416
+EU-27,2001,3.6571
+EU-27,2002,3.6573914
+EU-27,2003,3.736359
+EU-27,2004,3.7433838
+EU-27,2005,3.7348915
+EU-27,2006,3.7520046
+EU-27,2007,3.7018675
+EU-27,2008,3.625826
+EU-27,2009,3.3305044
+EU-27,2010,3.4243267
+EU-27,2011,3.3270587
+EU-27,2012,3.2586163
+EU-27,2013,3.176529
+EU-27,2014,3.0388613
+EU-27,2015,3.0949066
+EU-27,2016,3.0945155
+EU-27,2017,3.11846
+EU-27,2018,3.0494838
+EU-27,2019,2.9049492
+EU-27,2020,2.6270513
+EU-27,2021,2.801469
+EU-27,2022,2.736946
+EU-27,2023,2.4849966
+EU-27,2024,2.426166
+Europe (other),1960,1.865352
+Europe (other),1961,1.9106991
+Europe (other),1962,1.9828554
+Europe (other),1963,2.0976061
+Europe (other),1964,2.1962378
+Europe (other),1965,2.3057702
+Europe (other),1966,2.3957988
+Europe (other),1967,2.4480873
+Europe (other),1968,2.520332
+Europe (other),1969,2.6218148
+Europe (other),1970,2.7642755
+Europe (other),1971,2.8991288
+Europe (other),1972,2.9978808
+Europe (other),1973,3.117312
+Europe (other),1974,3.1547192
+Europe (other),1975,3.2669553
+Europe (other),1976,3.365919
+Europe (other),1977,3.46068
+Europe (other),1978,3.5626926
+Europe (other),1979,3.6327555
+Europe (other),1980,3.672411
+Europe (other),1981,3.6048323
+Europe (other),1982,3.6368287
+Europe (other),1983,3.686243
+Europe (other),1984,3.7021212
+Europe (other),1985,3.9693463
+Europe (other),1986,3.9983608
+Europe (other),1987,3.9860076
+Europe (other),1988,4.0672553
+Europe (other),1989,3.9949676
+Europe (other),1990,4.1686418
+Europe (other),1991,3.9352996
+Europe (other),1992,3.4165596
+Europe (other),1993,3.1982874
+Europe (other),1994,2.8564147
+Europe (other),1995,2.7865536
+Europe (other),1996,2.7513042
+Europe (other),1997,2.6121684
+Europe (other),1998,2.5959736
+Europe (other),1999,2.5675223
+Europe (other),2000,2.5550986
+Europe (other),2001,2.6258253
+Europe (other),2002,2.5920556
+Europe (other),2003,2.6547077
+Europe (other),2004,2.6759926
+Europe (other),2005,2.693057
+Europe (other),2006,2.7772214
+Europe (other),2007,2.7713638
+Europe (other),2008,2.7814052
+Europe (other),2009,2.5626222
+Europe (other),2010,2.693033
+Europe (other),2011,2.7172818
+Europe (other),2012,2.739982
+Europe (other),2013,2.66357
+Europe (other),2014,2.5702784
+Europe (other),2015,2.518539
+Europe (other),2016,2.5035315
+Europe (other),2017,2.51396
+Europe (other),2018,2.5643638
+Europe (other),2019,2.5322522
+Europe (other),2020,2.398624
+Europe (other),2021,2.4639777
+Europe (other),2022,2.358689
+Europe (other),2023,2.4021404
+Europe (other),2024,2.4543483
+India,1960,0.11132021
+India,1961,0.12039936
+India,1962,0.13257976
+India,1963,0.14243896
+India,1964,0.1394832
+India,1965,0.1536967
+India,1966,0.15937142
+India,1967,0.1595571
+India,1968,0.17407054
+India,1969,0.1774113
+India,1970,0.18172386
+India,1971,0.19196486
+India,1972,0.20303704
+India,1973,0.20909603
+India,1974,0.21585405
+India,1975,0.23420971
+India,1976,0.24474984
+India,1977,0.25896206
+India,1978,0.26314994
+India,1979,0.276285
+India,1980,0.29171443
+India,1981,0.31496928
+India,1982,0.32538307
+India,1983,0.35220486
+India,1984,0.3615688
+India,1985,0.39760112
+India,1986,0.42631805
+India,1987,0.45535472
+India,1988,0.4917001
+India,1989,0.5406619
+India,1990,0.57798656
+India,1991,0.61538816
+India,1992,0.65542355
+India,1993,0.6772621
+India,1994,0.7140428
+India,1995,0.7604802
+India,1996,0.8236022
+India,1997,0.85797574
+India,1998,0.87578336
+India,1999,0.96119386
+India,2000,0.9870651
+India,2001,1.0011984
+India,2002,1.03275034
+India,2003,1.06839795
+India,2004,1.134611
+India,2005,1.1953933
+India,2006,1.2933215
+India,2007,1.3934852
+India,2008,1.4903665
+India,2009,1.6133276
+India,2010,1.6785295
+India,2011,1.7656948
+India,2012,1.9269864
+India,2013,1.9953372
+India,2014,2.148052
+India,2015,2.2318175
+India,2016,2.3525402
+India,2017,2.4257219
+India,2018,2.5952271
+India,2019,2.6111747
+India,2020,2.422732
+India,2021,2.675778
+India,2022,2.8311316
+India,2023,3.0627564
+India,2024,3.1934781
+Intl air and sea,1960,0.23665246799999998
+Intl air and sea,1961,0.261515312
+Intl air and sea,1962,0.271046678
+Intl air and sea,1963,0.284038868
+Intl air and sea,1964,0.31136559599999997
+Intl air and sea,1965,0.32189832
+Intl air and sea,1966,0.348350186
+Intl air and sea,1967,0.37269787
+Intl air and sea,1968,0.394069146
+Intl air and sea,1969,0.412373896
+Intl air and sea,1970,0.43444398
+Intl air and sea,1971,0.45893172
+Intl air and sea,1972,0.48959240000000004
+Intl air and sea,1973,0.52377542
+Intl air and sea,1974,0.48637375000000005
+Intl air and sea,1975,0.44503701
+Intl air and sea,1976,0.436155206
+Intl air and sea,1977,0.44611066
+Intl air and sea,1978,0.45322008999999996
+Intl air and sea,1979,0.45485854000000003
+Intl air and sea,1980,0.44431538
+Intl air and sea,1981,0.41016876399999996
+Intl air and sea,1982,0.37138567
+Intl air and sea,1983,0.35675724
+Intl air and sea,1984,0.35815224
+Intl air and sea,1985,0.3658624
+Intl air and sea,1986,0.39218004
+Intl air and sea,1987,0.52610931
+Intl air and sea,1988,0.54430886
+Intl air and sea,1989,0.56395106
+Intl air and sea,1990,0.54786961
+Intl air and sea,1991,0.54266958
+Intl air and sea,1992,0.5538174
+Intl air and sea,1993,0.55743443
+Intl air and sea,1994,0.58482939
+Intl air and sea,1995,0.61725735
+Intl air and sea,1996,0.66851565
+Intl air and sea,1997,0.7032834299999999
+Intl air and sea,1998,0.7462545
+Intl air and sea,1999,0.7734192799999999
+Intl air and sea,2000,0.78351978
+Intl air and sea,2001,0.77750301
+Intl air and sea,2002,0.7968457200000001
+Intl air and sea,2003,0.8292595
+Intl air and sea,2004,0.9034663599999999
+Intl air and sea,2005,0.93922729
+Intl air and sea,2006,0.9905949599999999
+Intl air and sea,2007,1.048253
+Intl air and sea,2008,1.05818125
+Intl air and sea,2009,1.01404938
+Intl air and sea,2010,1.07203184
+Intl air and sea,2011,1.10605605
+Intl air and sea,2012,1.09409313
+Intl air and sea,2013,1.11019562
+Intl air and sea,2014,1.11584682
+Intl air and sea,2015,1.15261853
+Intl air and sea,2016,1.16907914
+Intl air and sea,2017,1.20111544
+Intl air and sea,2018,1.23637561
+Intl air and sea,2019,1.23957404
+Intl air and sea,2020,0.83955072
+Intl air and sea,2021,0.8790833
+Intl air and sea,2022,0.96566906
+Intl air and sea,2023,1.08275378
+Intl air and sea,2024,1.1924638
+Middle East,1960,0.090275656
+Middle East,1961,0.09448381
+Middle East,1962,0.10929523
+Middle East,1963,0.123593176
+Middle East,1964,0.14477259
+Middle East,1965,0.17279507
+Middle East,1966,0.19895094
+Middle East,1967,0.20553885
+Middle East,1968,0.23668274
+Middle East,1969,0.26846282
+Middle East,1970,0.2853601
+Middle East,1971,0.33443805
+Middle East,1972,0.36085094
+Middle East,1973,0.42852893
+Middle East,1974,0.44375267
+Middle East,1975,0.43449696
+Middle East,1976,0.5081308
+Middle East,1977,0.53450205
+Middle East,1978,0.53665955
+Middle East,1979,0.56975974
+Middle East,1980,0.5549046
+Middle East,1981,0.5528277
+Middle East,1982,0.5649956
+Middle East,1983,0.5955247
+Middle East,1984,0.6239528
+Middle East,1985,0.6725419
+Middle East,1986,0.7155036
+Middle East,1987,0.7317301
+Middle East,1988,0.779401
+Middle East,1989,0.82437894
+Middle East,1990,0.82325997
+Middle East,1991,0.89330323
+Middle East,1992,0.9849614
+Middle East,1993,1.0697886
+Middle East,1994,1.1289947
+Middle East,1995,1.1399095
+Middle East,1996,1.1588756
+Middle East,1997,1.142882
+Middle East,1998,1.1830696
+Middle East,1999,1.2727571
+Middle East,2000,1.4067598
+Middle East,2001,1.4422508
+Middle East,2002,1.4538081
+Middle East,2003,1.5487133
+Middle East,2004,1.6557773
+Middle East,2005,1.7245786
+Middle East,2006,1.8314282
+Middle East,2007,1.8430282
+Middle East,2008,1.9842843
+Middle East,2009,2.0656319
+Middle East,2010,2.1786522
+Middle East,2011,2.231887
+Middle East,2012,2.3814275
+Middle East,2013,2.34429
+Middle East,2014,2.3871808
+Middle East,2015,2.4715215
+Middle East,2016,2.520702
+Middle East,2017,2.6001098
+Middle East,2018,2.596707
+Middle East,2019,2.7109466
+Middle East,2020,2.6535882
+Middle East,2021,2.7875118
+Middle East,2022,2.7903708
+Middle East,2023,2.8943378
+Middle East,2024,2.968607
+United States,1960,2.897308
+United States,1961,2.8868618
+United States,1962,2.9938985
+United States,1963,3.126484
+United States,1964,3.2643064
+United States,1965,3.3995392
+United States,1966,3.5714176
+United States,1967,3.705461
+United States,1968,3.8409234
+United States,1969,4.0351562
+United States,1970,4.3397043
+United States,1971,4.3654835
+United States,1972,4.5730335
+United States,1973,4.777725
+United States,1974,4.6084623
+United States,1975,4.4144553
+United States,1976,4.621539
+United States,1977,4.749501
+United States,1978,4.897339
+United States,1979,4.908766
+United States,1980,4.7302185
+United States,1981,4.5436334
+United States,1982,4.3119186
+United States,1983,4.346381
+United States,1984,4.4793795
+United States,1985,4.4953784
+United States,1986,4.4981356
+United States,1987,4.69193
+United States,1988,4.897776
+United States,1989,4.9602376
+United States,1990,5.1317606
+United States,1991,5.0764124
+United States,1992,5.1787694
+United States,1993,5.2795203
+United States,1994,5.361863
+United States,1995,5.4258376
+United States,1996,5.601094
+United States,1997,5.673144
+United States,1998,5.73636
+United States,1999,5.800281
+United States,2000,6.023158
+United States,2001,5.903562
+United States,2002,5.9478195
+United States,2003,6.00644
+United States,2004,6.111545
+United States,2005,6.1269033
+United States,2006,6.0453263
+United States,2007,6.1215427
+United States,2008,5.919221
+United States,2009,5.486104
+United States,2010,5.66925
+United States,2011,5.538973
+United States,2012,5.3314673
+United States,2013,5.473436
+United States,2014,5.5313853
+United States,2015,5.3684966
+United States,2016,5.2453617
+United States,2017,5.1954176
+United States,2018,5.3612365
+United States,2019,5.235912
+United States,2020,4.689954
+United States,2021,5.020111
+United States,2022,5.055403
+United States,2023,4.9184067
+United States,2024,4.90412

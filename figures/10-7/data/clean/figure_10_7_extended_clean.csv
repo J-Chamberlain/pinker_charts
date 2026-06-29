@@ -1,0 +1,653 @@
+Entity,Code,Year,kg_co2_per_2011_int_dollar,period
+China,CHN,1911,0.063639104,current_owid_successor
+China,CHN,1913,0.056322664,current_owid_successor
+China,CHN,1929,0.09878942,current_owid_successor
+China,CHN,1930,0.100144796,current_owid_successor
+China,CHN,1931,0.10380317,current_owid_successor
+China,CHN,1932,0.09748451,current_owid_successor
+China,CHN,1933,0.11725066,current_owid_successor
+China,CHN,1934,0.13245486,current_owid_successor
+China,CHN,1935,0.14277087,current_owid_successor
+China,CHN,1936,0.13952042,current_owid_successor
+China,CHN,1937,0.13440987,current_owid_successor
+China,CHN,1938,0.11918504,current_owid_successor
+China,CHN,1950,0.1804403,current_owid_successor
+China,CHN,1951,0.19281353,current_owid_successor
+China,CHN,1952,0.21489675,current_owid_successor
+China,CHN,1953,0.19888927,current_owid_successor
+China,CHN,1954,0.25762388,current_owid_successor
+China,CHN,1955,0.27973238,current_owid_successor
+China,CHN,1956,0.29208452,current_owid_successor
+China,CHN,1957,0.3358118,current_owid_successor
+China,CHN,1958,0.68466955,current_owid_successor
+China,CHN,1959,0.9680547,current_owid_successor
+China,CHN,1960,1.1329157,current_owid_successor
+China,CHN,1961,0.9887594,current_owid_successor
+China,CHN,1962,0.7455363,current_owid_successor
+China,CHN,1963,0.64743376,current_owid_successor
+China,CHN,1964,0.57258123,current_owid_successor
+China,CHN,1965,0.5582845,current_owid_successor
+China,CHN,1966,0.5925195,current_owid_successor
+China,CHN,1967,0.49308324,current_owid_successor
+China,CHN,1968,0.54310465,current_owid_successor
+China,CHN,1969,0.6039645,current_owid_successor
+China,CHN,1970,0.70625925,current_owid_successor
+China,CHN,1971,0.74755925,current_owid_successor
+China,CHN,1972,0.7852329,current_owid_successor
+China,CHN,1973,0.755611,current_owid_successor
+China,CHN,1974,0.75171083,current_owid_successor
+China,CHN,1975,0.8099721,current_owid_successor
+China,CHN,1976,0.86746156,current_owid_successor
+China,CHN,1977,0.8977067,current_owid_successor
+China,CHN,1978,0.8950352,current_owid_successor
+China,CHN,1979,0.84680474,current_owid_successor
+China,CHN,1980,0.7890542,current_owid_successor
+China,CHN,1981,0.7570841,current_owid_successor
+China,CHN,1982,0.7545996,current_owid_successor
+China,CHN,1983,0.7432422,current_owid_successor
+China,CHN,1984,0.72778714,current_owid_successor
+China,CHN,1985,0.7255467,current_owid_successor
+China,CHN,1986,0.71751726,current_owid_successor
+China,CHN,1987,0.71023345,current_owid_successor
+China,CHN,1988,0.72275174,current_owid_successor
+China,CHN,1989,0.72832596,current_owid_successor
+China,CHN,1990,0.7336618,current_owid_successor
+China,CHN,1991,0.7464184,current_owid_successor
+China,CHN,1992,0.727367,current_owid_successor
+China,CHN,1993,0.706293,current_owid_successor
+China,CHN,1994,0.69701797,current_owid_successor
+China,CHN,1995,0.69671464,current_owid_successor
+China,CHN,1996,0.6824475,current_owid_successor
+China,CHN,1997,0.6637923,current_owid_successor
+China,CHN,1998,0.6284927,current_owid_successor
+China,CHN,1999,0.63636225,current_owid_successor
+China,CHN,2000,0.61212903,current_owid_successor
+China,CHN,2001,0.5883521,current_owid_successor
+China,CHN,2002,0.6013918,current_owid_successor
+China,CHN,2003,0.667058,current_owid_successor
+China,CHN,2004,0.6654313,current_owid_successor
+China,CHN,2005,0.6837187,current_owid_successor
+China,CHN,2006,0.68350863,current_owid_successor
+China,CHN,2007,0.67334664,current_owid_successor
+China,CHN,2008,0.69379586,current_owid_successor
+China,CHN,2009,0.68105084,current_owid_successor
+China,CHN,2010,0.6695836,current_owid_successor
+China,CHN,2011,0.6953318,current_owid_successor
+China,CHN,2012,0.66115254,current_owid_successor
+China,CHN,2013,0.6243065,current_owid_successor
+China,CHN,2014,0.5832587,current_owid_successor
+China,CHN,2015,0.5386546,current_owid_successor
+China,CHN,2016,0.49873734,current_owid_successor
+China,CHN,2017,0.47859865,current_owid_successor
+China,CHN,2018,0.46410057,current_owid_successor
+China,CHN,2019,0.4533489,current_owid_successor
+China,CHN,2020,0.4511672,current_owid_successor
+China,CHN,2021,0.4310215,current_owid_successor
+China,CHN,2022,0.4343173,current_owid_successor
+India,IND,1861,0.0022641302,current_owid_successor
+India,IND,1884,0.011691495,current_owid_successor
+India,IND,1885,0.010144472,current_owid_successor
+India,IND,1886,0.011728165,current_owid_successor
+India,IND,1887,0.012327867,current_owid_successor
+India,IND,1888,0.013506143,current_owid_successor
+India,IND,1889,0.016277691,current_owid_successor
+India,IND,1890,0.017022911,current_owid_successor
+India,IND,1891,0.02021046,current_owid_successor
+India,IND,1892,0.020549875,current_owid_successor
+India,IND,1893,0.021182429,current_owid_successor
+India,IND,1894,0.021131214,current_owid_successor
+India,IND,1895,0.027109552,current_owid_successor
+India,IND,1896,0.03167865,current_owid_successor
+India,IND,1897,0.029044274,current_owid_successor
+India,IND,1898,0.032056857,current_owid_successor
+India,IND,1899,0.038271833,current_owid_successor
+India,IND,1900,0.043906853,current_owid_successor
+India,IND,1901,0.04752312,current_owid_successor
+India,IND,1902,0.048275877,current_owid_successor
+India,IND,1903,0.048568346,current_owid_successor
+India,IND,1904,0.054106884,current_owid_successor
+India,IND,1905,0.056316175,current_owid_successor
+India,IND,1906,0.063272,current_owid_successor
+India,IND,1907,0.07490433,current_owid_successor
+India,IND,1908,0.08448589,current_owid_successor
+India,IND,1909,0.07198965,current_owid_successor
+India,IND,1910,0.06997809,current_owid_successor
+India,IND,1911,0.074261606,current_owid_successor
+India,IND,1912,0.08561444,current_owid_successor
+India,IND,1913,0.09656082,current_owid_successor
+India,IND,1914,0.092273116,current_owid_successor
+India,IND,1915,0.0989514,current_owid_successor
+India,IND,1916,0.097236976,current_owid_successor
+India,IND,1917,0.10341358,current_owid_successor
+India,IND,1918,0.1332672,current_owid_successor
+India,IND,1919,0.12796384,current_owid_successor
+India,IND,1920,0.11274216,current_owid_successor
+India,IND,1921,0.11279732,current_owid_successor
+India,IND,1922,0.10643503,current_owid_successor
+India,IND,1923,0.11316074,current_owid_successor
+India,IND,1924,0.11546654,current_owid_successor
+India,IND,1925,0.112580985,current_owid_successor
+India,IND,1926,0.108692005,current_owid_successor
+India,IND,1927,0.11406084,current_owid_successor
+India,IND,1928,0.108037055,current_owid_successor
+India,IND,1929,0.107938975,current_owid_successor
+India,IND,1930,0.10893419,current_owid_successor
+India,IND,1931,0.10055672,current_owid_successor
+India,IND,1932,0.0924594,current_owid_successor
+India,IND,1933,0.09061948,current_owid_successor
+India,IND,1934,0.10026128,current_owid_successor
+India,IND,1935,0.10589292,current_owid_successor
+India,IND,1936,0.10013425,current_owid_successor
+India,IND,1937,0.112714216,current_owid_successor
+India,IND,1938,0.12577523,current_owid_successor
+India,IND,1939,0.12038226,current_owid_successor
+India,IND,1940,0.12372773,current_owid_successor
+India,IND,1941,0.12424065,current_owid_successor
+India,IND,1942,0.12483465,current_owid_successor
+India,IND,1943,0.104534954,current_owid_successor
+India,IND,1944,0.10798143,current_owid_successor
+India,IND,1945,0.12177059,current_owid_successor
+India,IND,1946,0.12692302,current_owid_successor
+India,IND,1947,0.15603827,current_owid_successor
+India,IND,1948,0.154638,current_owid_successor
+India,IND,1949,0.15906838,current_owid_successor
+India,IND,1950,0.17199233,current_owid_successor
+India,IND,1951,0.1760425,current_owid_successor
+India,IND,1952,0.18023732,current_owid_successor
+India,IND,1953,0.17289667,current_owid_successor
+India,IND,1954,0.17490439,current_owid_successor
+India,IND,1955,0.18575029,current_owid_successor
+India,IND,1956,0.18221857,current_owid_successor
+India,IND,1957,0.20664565,current_owid_successor
+India,IND,1958,0.2008673,current_owid_successor
+India,IND,1959,0.20832258,current_owid_successor
+India,IND,1960,0.21374848,current_owid_successor
+India,IND,1961,0.22447826,current_owid_successor
+India,IND,1962,0.2417433,current_owid_successor
+India,IND,1963,0.24716628,current_owid_successor
+India,IND,1964,0.22480394,current_owid_successor
+India,IND,1965,0.25785226,current_owid_successor
+India,IND,1966,0.2649897,current_owid_successor
+India,IND,1967,0.24520238,current_owid_successor
+India,IND,1968,0.26049885,current_owid_successor
+India,IND,1969,0.24897629,current_owid_successor
+India,IND,1970,0.24270493,current_owid_successor
+India,IND,1971,0.25403735,current_owid_successor
+India,IND,1972,0.26944318,current_owid_successor
+India,IND,1973,0.26508117,current_owid_successor
+India,IND,1974,0.2708359,current_owid_successor
+India,IND,1975,0.26982373,current_owid_successor
+India,IND,1976,0.278587,current_owid_successor
+India,IND,1977,0.2733986,current_owid_successor
+India,IND,1978,0.26369843,current_owid_successor
+India,IND,1979,0.29158506,current_owid_successor
+India,IND,1980,0.28737366,current_owid_successor
+India,IND,1981,0.2923301,current_owid_successor
+India,IND,1982,0.2927265,current_owid_successor
+India,IND,1983,0.29293063,current_owid_successor
+India,IND,1984,0.28950748,current_owid_successor
+India,IND,1985,0.30617675,current_owid_successor
+India,IND,1986,0.3150665,current_owid_successor
+India,IND,1987,0.3222874,current_owid_successor
+India,IND,1988,0.3151742,current_owid_successor
+India,IND,1989,0.32497013,current_owid_successor
+India,IND,1990,0.33009073,current_owid_successor
+India,IND,1991,0.34797308,current_owid_successor
+India,IND,1992,0.35395557,current_owid_successor
+India,IND,1993,0.34832242,current_owid_successor
+India,IND,1994,0.34746158,current_owid_successor
+India,IND,1995,0.34732485,current_owid_successor
+India,IND,1996,0.35118204,current_owid_successor
+India,IND,1997,0.3535413,current_owid_successor
+India,IND,1998,0.34105664,current_owid_successor
+India,IND,1999,0.35463786,current_owid_successor
+India,IND,2000,0.3519603,current_owid_successor
+India,IND,2001,0.34045735,current_owid_successor
+India,IND,2002,0.34140682,current_owid_successor
+India,IND,2003,0.32862514,current_owid_successor
+India,IND,2004,0.32463622,current_owid_successor
+India,IND,2005,0.31854832,current_owid_successor
+India,IND,2006,0.31778064,current_owid_successor
+India,IND,2007,0.3164699,current_owid_successor
+India,IND,2008,0.32054007,current_owid_successor
+India,IND,2009,0.32308692,current_owid_successor
+India,IND,2010,0.3130784,current_owid_successor
+India,IND,2011,0.30865052,current_owid_successor
+India,IND,2012,0.31838238,current_owid_successor
+India,IND,2013,0.31058392,current_owid_successor
+India,IND,2014,0.31243548,current_owid_successor
+India,IND,2015,0.3019429,current_owid_successor
+India,IND,2016,0.29197025,current_owid_successor
+India,IND,2017,0.2837092,current_owid_successor
+India,IND,2018,0.282914,current_owid_successor
+India,IND,2019,0.27212596,current_owid_successor
+India,IND,2020,0.27083814,current_owid_successor
+India,IND,2021,0.27299342,current_owid_successor
+India,IND,2022,0.27024287,current_owid_successor
+United Kingdom,GBR,1820,0.60623085,current_owid_successor
+United Kingdom,GBR,1821,0.61008567,current_owid_successor
+United Kingdom,GBR,1822,0.62280005,current_owid_successor
+United Kingdom,GBR,1823,0.62829167,current_owid_successor
+United Kingdom,GBR,1824,0.61520404,current_owid_successor
+United Kingdom,GBR,1825,0.6201702,current_owid_successor
+United Kingdom,GBR,1826,0.66222227,current_owid_successor
+United Kingdom,GBR,1827,0.63909775,current_owid_successor
+United Kingdom,GBR,1828,0.64544374,current_owid_successor
+United Kingdom,GBR,1829,0.6484713,current_owid_successor
+United Kingdom,GBR,1830,0.79030806,current_owid_successor
+United Kingdom,GBR,1831,0.7445148,current_owid_successor
+United Kingdom,GBR,1832,0.7016565,current_owid_successor
+United Kingdom,GBR,1833,0.6899826,current_owid_successor
+United Kingdom,GBR,1834,0.7177294,current_owid_successor
+United Kingdom,GBR,1835,0.734683,current_owid_successor
+United Kingdom,GBR,1836,0.7758256,current_owid_successor
+United Kingdom,GBR,1837,0.7513447,current_owid_successor
+United Kingdom,GBR,1838,0.70809007,current_owid_successor
+United Kingdom,GBR,1839,0.7373592,current_owid_successor
+United Kingdom,GBR,1840,0.75181293,current_owid_successor
+United Kingdom,GBR,1841,0.77344406,current_owid_successor
+United Kingdom,GBR,1842,0.8201835,current_owid_successor
+United Kingdom,GBR,1843,0.81504387,current_owid_successor
+United Kingdom,GBR,1844,0.7965855,current_owid_successor
+United Kingdom,GBR,1845,0.81113094,current_owid_successor
+United Kingdom,GBR,1846,0.77934396,current_owid_successor
+United Kingdom,GBR,1847,0.8552839,current_owid_successor
+United Kingdom,GBR,1848,0.9026921,current_owid_successor
+United Kingdom,GBR,1849,0.9675087,current_owid_successor
+United Kingdom,GBR,1850,1.039084,current_owid_successor
+United Kingdom,GBR,1851,0.9650046,current_owid_successor
+United Kingdom,GBR,1852,0.9261022,current_owid_successor
+United Kingdom,GBR,1853,0.89430386,current_owid_successor
+United Kingdom,GBR,1854,1.0317658,current_owid_successor
+United Kingdom,GBR,1855,0.98984075,current_owid_successor
+United Kingdom,GBR,1856,0.99877,current_owid_successor
+United Kingdom,GBR,1857,0.97248626,current_owid_successor
+United Kingdom,GBR,1858,0.9723267,current_owid_successor
+United Kingdom,GBR,1859,1.0382451,current_owid_successor
+United Kingdom,GBR,1860,1.1431081,current_owid_successor
+United Kingdom,GBR,1861,1.1961782,current_owid_successor
+United Kingdom,GBR,1862,1.2099335,current_owid_successor
+United Kingdom,GBR,1863,1.1776403,current_owid_successor
+United Kingdom,GBR,1864,1.2365147,current_owid_successor
+United Kingdom,GBR,1865,1.280582,current_owid_successor
+United Kingdom,GBR,1866,1.281303,current_owid_successor
+United Kingdom,GBR,1867,1.3108842,current_owid_successor
+United Kingdom,GBR,1868,1.2265081,current_owid_successor
+United Kingdom,GBR,1869,1.2753973,current_owid_successor
+United Kingdom,GBR,1870,1.2483944,current_owid_successor
+United Kingdom,GBR,1871,1.3177222,current_owid_successor
+United Kingdom,GBR,1872,1.3867044,current_owid_successor
+United Kingdom,GBR,1873,1.40792,current_owid_successor
+United Kingdom,GBR,1874,1.3471583,current_owid_successor
+United Kingdom,GBR,1875,1.3894514,current_owid_successor
+United Kingdom,GBR,1876,1.3747416,current_owid_successor
+United Kingdom,GBR,1877,1.3873298,current_owid_successor
+United Kingdom,GBR,1878,1.3583634,current_owid_successor
+United Kingdom,GBR,1879,1.3736473,current_owid_successor
+United Kingdom,GBR,1880,1.4310015,current_owid_successor
+United Kingdom,GBR,1881,1.4545727,current_owid_successor
+United Kingdom,GBR,1882,1.4270757,current_owid_successor
+United Kingdom,GBR,1883,1.475871,current_owid_successor
+United Kingdom,GBR,1884,1.4360623,current_owid_successor
+United Kingdom,GBR,1885,1.4276633,current_owid_successor
+United Kingdom,GBR,1886,1.3944548,current_owid_successor
+United Kingdom,GBR,1887,1.3771211,current_owid_successor
+United Kingdom,GBR,1888,1.3718423,current_owid_successor
+United Kingdom,GBR,1889,1.3496704,current_owid_successor
+United Kingdom,GBR,1890,1.3758519,current_owid_successor
+United Kingdom,GBR,1891,1.4062502,current_owid_successor
+United Kingdom,GBR,1892,1.412642,current_owid_successor
+United Kingdom,GBR,1893,1.266635,current_owid_successor
+United Kingdom,GBR,1894,1.3601459,current_owid_successor
+United Kingdom,GBR,1895,1.3322271,current_owid_successor
+United Kingdom,GBR,1896,1.3166993,current_owid_successor
+United Kingdom,GBR,1897,1.3352293,current_owid_successor
+United Kingdom,GBR,1898,1.2774261,current_owid_successor
+United Kingdom,GBR,1899,1.3154773,current_owid_successor
+United Kingdom,GBR,1900,1.3430362,current_owid_successor
+United Kingdom,GBR,1901,1.315509,current_owid_successor
+United Kingdom,GBR,1902,1.3338621,current_owid_successor
+United Kingdom,GBR,1903,1.3603482,current_owid_successor
+United Kingdom,GBR,1904,1.359901,current_owid_successor
+United Kingdom,GBR,1905,1.3393294,current_owid_successor
+United Kingdom,GBR,1906,1.3435179,current_owid_successor
+United Kingdom,GBR,1907,1.3784387,current_owid_successor
+United Kingdom,GBR,1908,1.4032551,current_owid_successor
+United Kingdom,GBR,1909,1.3853576,current_owid_successor
+United Kingdom,GBR,1910,1.355016,current_owid_successor
+United Kingdom,GBR,1911,1.3504387,current_owid_successor
+United Kingdom,GBR,1912,1.2617289,current_owid_successor
+United Kingdom,GBR,1913,1.3293219,current_owid_successor
+United Kingdom,GBR,1914,1.2904679,current_owid_successor
+United Kingdom,GBR,1915,1.2226901,current_owid_successor
+United Kingdom,GBR,1916,1.252757,current_owid_successor
+United Kingdom,GBR,1917,1.2407935,current_owid_successor
+United Kingdom,GBR,1918,1.1614817,current_owid_successor
+United Kingdom,GBR,1919,1.2889032,current_owid_successor
+United Kingdom,GBR,1920,1.4624342,current_owid_successor
+United Kingdom,GBR,1921,1.109745,current_owid_successor
+United Kingdom,GBR,1922,1.3404596,current_owid_successor
+United Kingdom,GBR,1923,1.3774713,current_owid_successor
+United Kingdom,GBR,1924,1.3858126,current_owid_successor
+United Kingdom,GBR,1925,1.2478361,current_owid_successor
+United Kingdom,GBR,1926,0.7335677,current_owid_successor
+United Kingdom,GBR,1927,1.2517544,current_owid_successor
+United Kingdom,GBR,1928,1.1676888,current_owid_successor
+United Kingdom,GBR,1929,1.1936207,current_owid_successor
+United Kingdom,GBR,1930,1.1583953,current_owid_successor
+United Kingdom,GBR,1931,1.1421312,current_owid_successor
+United Kingdom,GBR,1932,1.0903147,current_owid_successor
+United Kingdom,GBR,1933,1.053642,current_owid_successor
+United Kingdom,GBR,1934,1.0674337,current_owid_successor
+United Kingdom,GBR,1935,1.0414491,current_owid_successor
+United Kingdom,GBR,1936,1.052142,current_owid_successor
+United Kingdom,GBR,1937,1.0491207,current_owid_successor
+United Kingdom,GBR,1938,0.9965969,current_owid_successor
+United Kingdom,GBR,1939,0.99006903,current_owid_successor
+United Kingdom,GBR,1940,0.9488995,current_owid_successor
+United Kingdom,GBR,1941,0.86917424,current_owid_successor
+United Kingdom,GBR,1942,0.8365527,current_owid_successor
+United Kingdom,GBR,1943,0.8139767,current_owid_successor
+United Kingdom,GBR,1944,0.8463959,current_owid_successor
+United Kingdom,GBR,1945,0.81908005,current_owid_successor
+United Kingdom,GBR,1946,0.8776865,current_owid_successor
+United Kingdom,GBR,1947,0.93083525,current_owid_successor
+United Kingdom,GBR,1948,0.9362395,current_owid_successor
+United Kingdom,GBR,1949,0.90981966,current_owid_successor
+United Kingdom,GBR,1950,0.9003937,current_owid_successor
+United Kingdom,GBR,1951,0.95236063,current_owid_successor
+United Kingdom,GBR,1952,0.9252687,current_owid_successor
+United Kingdom,GBR,1953,0.910038,current_owid_successor
+United Kingdom,GBR,1954,0.89536864,current_owid_successor
+United Kingdom,GBR,1955,0.90171784,current_owid_successor
+United Kingdom,GBR,1956,0.88689405,current_owid_successor
+United Kingdom,GBR,1957,0.8676629,current_owid_successor
+United Kingdom,GBR,1958,0.8477097,current_owid_successor
+United Kingdom,GBR,1959,0.8006627,current_owid_successor
+United Kingdom,GBR,1960,0.80908126,current_owid_successor
+United Kingdom,GBR,1961,0.789477,current_owid_successor
+United Kingdom,GBR,1962,0.78733855,current_owid_successor
+United Kingdom,GBR,1963,0.7715751,current_owid_successor
+United Kingdom,GBR,1964,0.73822397,current_owid_successor
+United Kingdom,GBR,1965,0.73634374,current_owid_successor
+United Kingdom,GBR,1966,0.7178529,current_owid_successor
+United Kingdom,GBR,1967,0.6725457,current_owid_successor
+United Kingdom,GBR,1968,0.66199327,current_owid_successor
+United Kingdom,GBR,1969,0.6736208,current_owid_successor
+United Kingdom,GBR,1970,0.6835091,current_owid_successor
+United Kingdom,GBR,1971,0.67731625,current_owid_successor
+United Kingdom,GBR,1972,0.6419135,current_owid_successor
+United Kingdom,GBR,1973,0.6121812,current_owid_successor
+United Kingdom,GBR,1974,0.5807169,current_owid_successor
+United Kingdom,GBR,1975,0.56826943,current_owid_successor
+United Kingdom,GBR,1976,0.55144334,current_owid_successor
+United Kingdom,GBR,1977,0.5449806,current_owid_successor
+United Kingdom,GBR,1978,0.526536,current_owid_successor
+United Kingdom,GBR,1979,0.5461418,current_owid_successor
+United Kingdom,GBR,1980,0.4988516,current_owid_successor
+United Kingdom,GBR,1981,0.4892882,current_owid_successor
+United Kingdom,GBR,1982,0.4712243,current_owid_successor
+United Kingdom,GBR,1983,0.4527992,current_owid_successor
+United Kingdom,GBR,1984,0.42849776,current_owid_successor
+United Kingdom,GBR,1985,0.43775207,current_owid_successor
+United Kingdom,GBR,1986,0.42602223,current_owid_successor
+United Kingdom,GBR,1987,0.40887552,current_owid_successor
+United Kingdom,GBR,1988,0.38852605,current_owid_successor
+United Kingdom,GBR,1989,0.38774967,current_owid_successor
+United Kingdom,GBR,1990,0.39977962,current_owid_successor
+United Kingdom,GBR,1991,0.40953076,current_owid_successor
+United Kingdom,GBR,1992,0.39808622,current_owid_successor
+United Kingdom,GBR,1993,0.37944952,current_owid_successor
+United Kingdom,GBR,1994,0.36207053,current_owid_successor
+United Kingdom,GBR,1995,0.3486505,current_owid_successor
+United Kingdom,GBR,1996,0.3527379,current_owid_successor
+United Kingdom,GBR,1997,0.3283271,current_owid_successor
+United Kingdom,GBR,1998,0.3218257,current_owid_successor
+United Kingdom,GBR,1999,0.30803308,current_owid_successor
+United Kingdom,GBR,2000,0.3011453,current_owid_successor
+United Kingdom,GBR,2001,0.29803538,current_owid_successor
+United Kingdom,GBR,2002,0.28239658,current_owid_successor
+United Kingdom,GBR,2003,0.27875337,current_owid_successor
+United Kingdom,GBR,2004,0.27312335,current_owid_successor
+United Kingdom,GBR,2005,0.2638343,current_owid_successor
+United Kingdom,GBR,2006,0.2566396,current_owid_successor
+United Kingdom,GBR,2007,0.24676253,current_owid_successor
+United Kingdom,GBR,2008,0.24197337,current_owid_successor
+United Kingdom,GBR,2009,0.22965954,current_owid_successor
+United Kingdom,GBR,2010,0.23364824,current_owid_successor
+United Kingdom,GBR,2011,0.21129596,current_owid_successor
+United Kingdom,GBR,2012,0.21615577,current_owid_successor
+United Kingdom,GBR,2013,0.20799597,current_owid_successor
+United Kingdom,GBR,2014,0.18517211,current_owid_successor
+United Kingdom,GBR,2015,0.17410754,current_owid_successor
+United Kingdom,GBR,2016,0.16112727,current_owid_successor
+United Kingdom,GBR,2017,0.15253386,current_owid_successor
+United Kingdom,GBR,2018,0.14701977,current_owid_successor
+United Kingdom,GBR,2019,0.13899149,current_owid_successor
+United Kingdom,GBR,2020,0.139739,current_owid_successor
+United Kingdom,GBR,2021,0.13628171,current_owid_successor
+United Kingdom,GBR,2022,0.11896389,current_owid_successor
+United States,USA,1820,0.029652817,current_owid_successor
+United States,USA,1821,0.02961209,current_owid_successor
+United States,USA,1822,0.02915627,current_owid_successor
+United States,USA,1823,0.0298194,current_owid_successor
+United States,USA,1824,0.0317344,current_owid_successor
+United States,USA,1825,0.033785045,current_owid_successor
+United States,USA,1826,0.03778771,current_owid_successor
+United States,USA,1827,0.04032096,current_owid_successor
+United States,USA,1828,0.043239374,current_owid_successor
+United States,USA,1829,0.049095582,current_owid_successor
+United States,USA,1830,0.051902585,current_owid_successor
+United States,USA,1831,0.051394723,current_owid_successor
+United States,USA,1832,0.06423759,current_owid_successor
+United States,USA,1833,0.07035809,current_owid_successor
+United States,USA,1834,0.06881442,current_owid_successor
+United States,USA,1835,0.08231098,current_owid_successor
+United States,USA,1836,0.08653857,current_owid_successor
+United States,USA,1837,0.097628295,current_owid_successor
+United States,USA,1838,0.09106422,current_owid_successor
+United States,USA,1839,0.09291076,current_owid_successor
+United States,USA,1840,0.10143336,current_owid_successor
+United States,USA,1841,0.10581162,current_owid_successor
+United States,USA,1842,0.11498011,current_owid_successor
+United States,USA,1843,0.122989245,current_owid_successor
+United States,USA,1844,0.13550101,current_owid_successor
+United States,USA,1845,0.15587789,current_owid_successor
+United States,USA,1846,0.17070946,current_owid_successor
+United States,USA,1847,0.19166823,current_owid_successor
+United States,USA,1848,0.20238945,current_owid_successor
+United States,USA,1849,0.219541,current_owid_successor
+United States,USA,1850,0.23112234,current_owid_successor
+United States,USA,1851,0.26713717,current_owid_successor
+United States,USA,1852,0.26738277,current_owid_successor
+United States,USA,1853,0.27180228,current_owid_successor
+United States,USA,1854,0.28996116,current_owid_successor
+United States,USA,1855,0.33094895,current_owid_successor
+United States,USA,1856,0.33031827,current_owid_successor
+United States,USA,1857,0.3364339,current_owid_successor
+United States,USA,1858,0.33032402,current_owid_successor
+United States,USA,1859,0.3407441,current_owid_successor
+United States,USA,1860,0.33847418,current_owid_successor
+United States,USA,1861,0.3241851,current_owid_successor
+United States,USA,1862,0.31835863,current_owid_successor
+United States,USA,1863,0.33703765,current_owid_successor
+United States,USA,1864,0.340913,current_owid_successor
+United States,USA,1865,0.35205492,current_owid_successor
+United States,USA,1866,0.34926128,current_owid_successor
+United States,USA,1867,0.40668052,current_owid_successor
+United States,USA,1868,0.44363064,current_owid_successor
+United States,USA,1869,0.48126817,current_owid_successor
+United States,USA,1870,0.51025176,current_owid_successor
+United States,USA,1871,0.5096276,current_owid_successor
+United States,USA,1872,0.6004756,current_owid_successor
+United States,USA,1873,0.6315157,current_owid_successor
+United States,USA,1874,0.6117961,current_owid_successor
+United States,USA,1875,0.5876999,current_owid_successor
+United States,USA,1876,0.56823385,current_owid_successor
+United States,USA,1877,0.60993916,current_owid_successor
+United States,USA,1878,0.5723351,current_owid_successor
+United States,USA,1879,0.62143826,current_owid_successor
+United States,USA,1880,0.62998694,current_owid_successor
+United States,USA,1881,0.6436565,current_owid_successor
+United States,USA,1882,0.6776957,current_owid_successor
+United States,USA,1883,0.7136637,current_owid_successor
+United States,USA,1884,0.73878133,current_owid_successor
+United States,USA,1885,0.7457794,current_owid_successor
+United States,USA,1886,0.76466835,current_owid_successor
+United States,USA,1887,0.78282386,current_owid_successor
+United States,USA,1888,0.9562228,current_owid_successor
+United States,USA,1889,0.8082616,current_owid_successor
+United States,USA,1890,0.9538548,current_owid_successor
+United States,USA,1891,0.9727961,current_owid_successor
+United States,USA,1892,0.9344673,current_owid_successor
+United States,USA,1893,0.9897404,current_owid_successor
+United States,USA,1894,0.954112,current_owid_successor
+United States,USA,1895,0.96115667,current_owid_successor
+United States,USA,1896,0.98302233,current_owid_successor
+United States,USA,1897,0.9337763,current_owid_successor
+United States,USA,1898,0.9970114,current_owid_successor
+United States,USA,1899,1.0487944,current_owid_successor
+United States,USA,1900,1.0816509,current_owid_successor
+United States,USA,1901,1.058682,current_owid_successor
+United States,USA,1902,1.110885,current_owid_successor
+United States,USA,1903,1.2392851,current_owid_successor
+United States,USA,1904,1.238142,current_owid_successor
+United States,USA,1905,1.2898357,current_owid_successor
+United States,USA,1906,1.2149192,current_owid_successor
+United States,USA,1907,1.3905503,current_owid_successor
+United States,USA,1908,1.3229678,current_owid_successor
+United States,USA,1909,1.3162988,current_owid_successor
+United States,USA,1910,1.4301617,current_owid_successor
+United States,USA,1911,1.3796649,current_owid_successor
+United States,USA,1912,1.4149932,current_owid_successor
+United States,USA,1913,1.4705632,current_owid_successor
+United States,USA,1914,1.4649141,current_owid_successor
+United States,USA,1915,1.4869086,current_owid_successor
+United States,USA,1916,1.4595217,current_owid_successor
+United States,USA,1917,1.6558245,current_owid_successor
+United States,USA,1918,1.5960344,current_owid_successor
+United States,USA,1919,1.3486428,current_owid_successor
+United States,USA,1920,1.6100619,current_owid_successor
+United States,USA,1921,1.3588127,current_owid_successor
+United States,USA,1922,1.3075284,current_owid_successor
+United States,USA,1923,1.5342681,current_owid_successor
+United States,USA,1924,1.3428637,current_owid_successor
+United States,USA,1925,1.3560594,current_owid_successor
+United States,USA,1926,1.388468,current_owid_successor
+United States,USA,1927,1.3517009,current_owid_successor
+United States,USA,1928,1.3217603,current_owid_successor
+United States,USA,1929,1.343629,current_owid_successor
+United States,USA,1930,1.3192805,current_owid_successor
+United States,USA,1931,1.199748,current_owid_successor
+United States,USA,1932,1.1965315,current_owid_successor
+United States,USA,1933,1.3282557,current_owid_successor
+United States,USA,1934,1.3050427,current_owid_successor
+United States,USA,1935,1.2056408,current_owid_successor
+United States,USA,1936,1.259952,current_owid_successor
+United States,USA,1937,1.2258766,current_owid_successor
+United States,USA,1938,1.1036415,current_owid_successor
+United States,USA,1939,1.1370819,current_owid_successor
+United States,USA,1940,1.177518,current_owid_successor
+United States,USA,1941,1.125881,current_owid_successor
+United States,USA,1942,1.0919415,current_owid_successor
+United States,USA,1943,1.0312328,current_owid_successor
+United States,USA,1944,1.0351709,current_owid_successor
+United States,USA,1945,1.0193911,current_owid_successor
+United States,USA,1946,1.0730038,current_owid_successor
+United States,USA,1947,1.2004846,current_owid_successor
+United States,USA,1948,1.1907101,current_owid_successor
+United States,USA,1949,1.0181667,current_owid_successor
+United States,USA,1950,1.0951798,current_owid_successor
+United States,USA,1951,1.048569,current_owid_successor
+United States,USA,1952,0.98472065,current_owid_successor
+United States,USA,1953,0.9642555,current_owid_successor
+United States,USA,1954,0.9248025,current_owid_successor
+United States,USA,1955,0.94666857,current_owid_successor
+United States,USA,1956,0.9733127,current_owid_successor
+United States,USA,1957,0.9472929,current_owid_successor
+United States,USA,1958,0.92696506,current_owid_successor
+United States,USA,1959,0.889654,current_owid_successor
+United States,USA,1960,0.88809747,current_owid_successor
+United States,USA,1961,0.8646965,current_owid_successor
+United States,USA,1962,0.8457949,current_owid_successor
+United States,USA,1963,0.84662753,current_owid_successor
+United States,USA,1964,0.83553195,current_owid_successor
+United States,USA,1965,0.8179557,current_owid_successor
+United States,USA,1966,0.8064985,current_owid_successor
+United States,USA,1967,0.81636435,current_owid_successor
+United States,USA,1968,0.80777776,current_owid_successor
+United States,USA,1969,0.82286817,current_owid_successor
+United States,USA,1970,0.88337594,current_owid_successor
+United States,USA,1971,0.861776,current_owid_successor
+United States,USA,1972,0.8572889,current_owid_successor
+United States,USA,1973,0.8475346,current_owid_successor
+United States,USA,1974,0.81981176,current_owid_successor
+United States,USA,1975,0.78748065,current_owid_successor
+United States,USA,1976,0.78336596,current_owid_successor
+United States,USA,1977,0.77015865,current_owid_successor
+United States,USA,1978,0.7512841,current_owid_successor
+United States,USA,1979,0.728285,current_owid_successor
+United States,USA,1980,0.7014789,current_owid_successor
+United States,USA,1981,0.65736717,current_owid_successor
+United States,USA,1982,0.6357693,current_owid_successor
+United States,USA,1983,0.6150913,current_owid_successor
+United States,USA,1984,0.5908608,current_owid_successor
+United States,USA,1985,0.57085097,current_owid_successor
+United States,USA,1986,0.5521876,current_owid_successor
+United States,USA,1987,0.5564059,current_owid_successor
+United States,USA,1988,0.557376,current_owid_successor
+United States,USA,1989,0.54560316,current_owid_successor
+United States,USA,1990,0.5547623,current_owid_successor
+United States,USA,1991,0.5503072,current_owid_successor
+United States,USA,1992,0.5421286,current_owid_successor
+United States,USA,1993,0.5379065,current_owid_successor
+United States,USA,1994,0.525096,current_owid_successor
+United States,USA,1995,0.5172954,current_owid_successor
+United States,USA,1996,0.51447767,current_owid_successor
+United States,USA,1997,0.4987133,current_owid_successor
+United States,USA,1998,0.48278573,current_owid_successor
+United States,USA,1999,0.46631885,current_owid_successor
+United States,USA,2000,0.46520147,current_owid_successor
+United States,USA,2001,0.45155635,current_owid_successor
+United States,USA,2002,0.44695768,current_owid_successor
+United States,USA,2003,0.43903798,current_owid_successor
+United States,USA,2004,0.43042353,current_owid_successor
+United States,USA,2005,0.4175396,current_owid_successor
+United States,USA,2006,0.4012785,current_owid_successor
+United States,USA,2007,0.39923492,current_owid_successor
+United States,USA,2008,0.3871669,current_owid_successor
+United States,USA,2009,0.36908656,current_owid_successor
+United States,USA,2010,0.37200812,current_owid_successor
+United States,USA,2011,0.3578637,current_owid_successor
+United States,USA,2012,0.3367763,current_owid_successor
+United States,USA,2013,0.33949113,current_owid_successor
+United States,USA,2014,0.33541194,current_owid_successor
+United States,USA,2015,0.3169567,current_owid_successor
+United States,USA,2016,0.3046075,current_owid_successor
+United States,USA,2017,0.2950915,current_owid_successor
+United States,USA,2018,0.29579738,current_owid_successor
+United States,USA,2019,0.28240323,current_owid_successor
+United States,USA,2020,0.26015756,current_owid_successor
+United States,USA,2021,0.2628416,current_owid_successor
+United States,USA,2022,0.25934228,current_owid_successor
+World,OWID_WRL,1820,0.043172903,current_owid_successor
+World,OWID_WRL,1850,0.1272707,current_owid_successor
+World,OWID_WRL,1870,0.27310827,current_owid_successor
+World,OWID_WRL,1900,0.5602304,current_owid_successor
+World,OWID_WRL,1920,0.7350873,current_owid_successor
+World,OWID_WRL,1940,0.63877755,current_owid_successor
+World,OWID_WRL,1950,0.7008651,current_owid_successor
+World,OWID_WRL,1960,0.70377105,current_owid_successor
+World,OWID_WRL,1970,0.67902577,current_owid_successor
+World,OWID_WRL,1980,0.60688573,current_owid_successor
+World,OWID_WRL,1990,0.5282417,current_owid_successor
+World,OWID_WRL,2000,0.42591777,current_owid_successor
+World,OWID_WRL,2010,0.370989,current_owid_successor
+World,OWID_WRL,2015,0.33127087,current_owid_successor
+World,OWID_WRL,2016,0.32056636,current_owid_successor
+World,OWID_WRL,2017,0.3141076,current_owid_successor
+World,OWID_WRL,2018,0.3092978,current_owid_successor
+World,OWID_WRL,2019,0.30361652,current_owid_successor
+World,OWID_WRL,2020,0.2964687,current_owid_successor
+World,OWID_WRL,2021,0.29258302,current_owid_successor
+World,OWID_WRL,2022,0.28842542,current_owid_successor

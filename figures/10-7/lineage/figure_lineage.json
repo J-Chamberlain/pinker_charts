@@ -1,0 +1,30 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "10-7"
+  },
+  {
+    "stage": "Book Citation",
+    "value": "Ritchie & Roser 2017, based on data from CDIAC; GDP in 2011 international dollars with pre-1990 GDP from Maddison Project 2014."
+  },
+  {
+    "stage": "Original Dataset",
+    "value": "OWID datasets: Carbon intensity (kgCO2/$) - Madisson, World Bank, CDIAC"
+  },
+  {
+    "stage": "Modern Dataset",
+    "value": "OWID grapher co2-intensity, current successor data through 2022."
+  },
+  {
+    "stage": "Transformation Script",
+    "value": "scripts/reconstruct_10_7_10_8.py"
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/10-7/plots/book_period/figure_10_7_book_period_reconstruction.png"
+  },
+  {
+    "stage": "Extended Plot",
+    "value": "figures/10-7/plots/extended/figure_10_7_extended_reconstruction.png"
+  }
+]

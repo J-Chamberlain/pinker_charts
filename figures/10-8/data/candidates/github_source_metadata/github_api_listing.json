@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CO2 per year by region - CDIAC (2017).csv",
+    "path": "datasets/CO2 per year by region - CDIAC (2017)/CO2 per year by region - CDIAC (2017).csv",
+    "sha": "abb258dc45166e5a3ad22401a0668e61b6080d51",
+    "size": 84537,
+    "url": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017).csv?ref=master",
+    "html_url": "https://github.com/owid/owid-datasets/blob/master/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017).csv",
+    "git_url": "https://api.github.com/repos/owid/owid-datasets/git/blobs/abb258dc45166e5a3ad22401a0668e61b6080d51",
+    "download_url": "https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017).csv",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017).csv?ref=master",
+      "git": "https://api.github.com/repos/owid/owid-datasets/git/blobs/abb258dc45166e5a3ad22401a0668e61b6080d51",
+      "html": "https://github.com/owid/owid-datasets/blob/master/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017).csv"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "datasets/CO2 per year by region - CDIAC (2017)/README.md",
+    "sha": "2cc9dc188e2dff8843b9a0c40a0f1b72cf04248f",
+    "size": 1385,
+    "url": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/README.md?ref=master",
+    "html_url": "https://github.com/owid/owid-datasets/blob/master/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/README.md",
+    "git_url": "https://api.github.com/repos/owid/owid-datasets/git/blobs/2cc9dc188e2dff8843b9a0c40a0f1b72cf04248f",
+    "download_url": "https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/README.md?ref=master",
+      "git": "https://api.github.com/repos/owid/owid-datasets/git/blobs/2cc9dc188e2dff8843b9a0c40a0f1b72cf04248f",
+      "html": "https://github.com/owid/owid-datasets/blob/master/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/README.md"
+    }
+  },
+  {
+    "name": "datapackage.json",
+    "path": "datasets/CO2 per year by region - CDIAC (2017)/datapackage.json",
+    "sha": "d67010a192ba88c7e0db6ad3a6ab3439bf3cc71e",
+    "size": 3987,
+    "url": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/datapackage.json?ref=master",
+    "html_url": "https://github.com/owid/owid-datasets/blob/master/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/datapackage.json",
+    "git_url": "https://api.github.com/repos/owid/owid-datasets/git/blobs/d67010a192ba88c7e0db6ad3a6ab3439bf3cc71e",
+    "download_url": "https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/datapackage.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/datapackage.json?ref=master",
+      "git": "https://api.github.com/repos/owid/owid-datasets/git/blobs/d67010a192ba88c7e0db6ad3a6ab3439bf3cc71e",
+      "html": "https://github.com/owid/owid-datasets/blob/master/datasets/CO2%20per%20year%20by%20region%20-%20CDIAC%20(2017)/datapackage.json"
+    }
+  }
+]

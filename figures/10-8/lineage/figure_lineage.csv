@@ -1,0 +1,8 @@
+stage,value
+Book Figure,10-8
+Book Citation,"Our World in Data, Ritchie & Roser 2017, the OWID annual CO2 emissions by region grapher, CDIAC, and Le Quere et al. 2016; international air and sea corresponds to bunker fuels, and Other corresponds to statistical difference."
+Original Dataset,OWID datasets: CO2 per year by region - CDIAC (2017)
+Modern Dataset,"OWID grapher annual-co-emissions-by-region, current Global Carbon Budget successor data through 2024."
+Transformation Script,scripts/reconstruct_10_7_10_8.py
+Generated Plot,figures/10-8/plots/book_period/figure_10_8_book_period_reconstruction.png
+Extended Plot,figures/10-8/plots/extended/figure_10_8_extended_reconstruction.png

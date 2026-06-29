@@ -1,0 +1,46 @@
+{
+  "figure_id": "10-8",
+  "title": "CO2 emissions, 1960-2015",
+  "status": "verified_reproduction",
+  "source_fidelity": "A/B",
+  "book_citation": "Our World in Data, Ritchie & Roser 2017, the OWID annual CO2 emissions by region grapher, CDIAC, and Le Quere et al. 2016; international air and sea corresponds to bunker fuels, and Other corresponds to statistical difference.",
+  "kindle_reference_image": "figures/10-8/plots/comparisons/kindle_reference_figure_10_8.png",
+  "book_period_reconstruction": "figures/10-8/plots/book_period/figure_10_8_book_period_reconstruction.png",
+  "extended_reconstruction": "figures/10-8/plots/extended/figure_10_8_extended_reconstruction.png",
+  "book_period_comparison": "figures/10-8/plots/comparisons/figure_10_8_book_period_comparison.png",
+  "extended_comparison": "figures/10-8/plots/comparisons/figure_10_8_extended_comparison.png",
+  "raw_downloads": [
+    {
+      "path": "figures/10-8/data/raw/owid_annual_co2_emissions_by_region.csv",
+      "role": "source or successor input"
+    },
+    {
+      "path": "figures/10-8/data/raw/owid_annual_co2_emissions_by_region.metadata.json",
+      "role": "source or successor input"
+    }
+  ],
+  "candidate_sources": [
+    "figures/10-8/data/candidates/archive_searches/10-8_cdiac_co2.json",
+    "figures/10-8/data/candidates/archive_searches/10-8_owid_grapher_error.txt",
+    "figures/10-8/data/candidates/github_source_metadata/github_api_listing.json",
+    "figures/10-8/data/candidates/owid_datasets_co2_region_2017/CO2 per year by region - CDIAC (2017).csv",
+    "figures/10-8/data/candidates/owid_datasets_co2_region_2017/README.md",
+    "figures/10-8/data/candidates/owid_datasets_co2_region_2017/datapackage.json",
+    "figures/10-8/data/candidates/owid_datasets_co2_region_2017/github_api_listing.json",
+    "figures/10-8/data/candidates/owid_datasets_co2_region_2017_local/CO2 per year by region - CDIAC (2017).csv",
+    "figures/10-8/data/candidates/owid_datasets_co2_region_2017_local/README.md",
+    "figures/10-8/data/candidates/owid_datasets_co2_region_2017_local/datapackage.json"
+  ],
+  "processed_data": [
+    "figures/10-8/data/clean/figure_10_8_book_period_clean.csv",
+    "figures/10-8/data/clean/figure_10_8_extended_clean.csv"
+  ],
+  "script": "scripts/reconstruct_10_7_10_8.py",
+  "visual_validation": "good",
+  "confidence": "high",
+  "unresolved_issues": [
+    "Layer labels and font styling are approximate.",
+    "Post-2015 extension uses current GCB/OWID successor categories, including EU-27 instead of EU-28 and no directly comparable statistical-difference layer."
+  ],
+  "recommended_next_action": "No further source recovery required before moving to another figure; revisit only for publication typography or source-version audit."
+}

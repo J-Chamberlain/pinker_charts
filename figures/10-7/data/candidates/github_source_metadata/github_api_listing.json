@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Carbon intensity (kgCO2!$) - Madisson, World Bank, CDIAC.csv",
+    "path": "datasets/Carbon intensity (kgCO2!$) - Madisson, World Bank, CDIAC/Carbon intensity (kgCO2!$) - Madisson, World Bank, CDIAC.csv",
+    "sha": "1476de23554061dc37f72f4e5e296c61fa9df788",
+    "size": 11598,
+    "url": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC.csv?ref=master",
+    "html_url": "https://github.com/owid/owid-datasets/blob/master/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC.csv",
+    "git_url": "https://api.github.com/repos/owid/owid-datasets/git/blobs/1476de23554061dc37f72f4e5e296c61fa9df788",
+    "download_url": "https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Carbon%20intensity%20(kgCO2!%24)%20-%20Madisson%2C%20World%20Bank%2C%20CDIAC/Carbon%20intensity%20(kgCO2!%24)%20-%20Madisson%2C%20World%20Bank%2C%20CDIAC.csv",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC.csv?ref=master",
+      "git": "https://api.github.com/repos/owid/owid-datasets/git/blobs/1476de23554061dc37f72f4e5e296c61fa9df788",
+      "html": "https://github.com/owid/owid-datasets/blob/master/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC.csv"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "datasets/Carbon intensity (kgCO2!$) - Madisson, World Bank, CDIAC/README.md",
+    "sha": "52e84d7231ccfe15024479302446335421c1bc06",
+    "size": 1147,
+    "url": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/README.md?ref=master",
+    "html_url": "https://github.com/owid/owid-datasets/blob/master/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/README.md",
+    "git_url": "https://api.github.com/repos/owid/owid-datasets/git/blobs/52e84d7231ccfe15024479302446335421c1bc06",
+    "download_url": "https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Carbon%20intensity%20(kgCO2!%24)%20-%20Madisson%2C%20World%20Bank%2C%20CDIAC/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/README.md?ref=master",
+      "git": "https://api.github.com/repos/owid/owid-datasets/git/blobs/52e84d7231ccfe15024479302446335421c1bc06",
+      "html": "https://github.com/owid/owid-datasets/blob/master/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/README.md"
+    }
+  },
+  {
+    "name": "datapackage.json",
+    "path": "datasets/Carbon intensity (kgCO2!$) - Madisson, World Bank, CDIAC/datapackage.json",
+    "sha": "b474ab7b6bfa33c50b401847a8c6a5bef2a5d9c3",
+    "size": 3349,
+    "url": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/datapackage.json?ref=master",
+    "html_url": "https://github.com/owid/owid-datasets/blob/master/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/datapackage.json",
+    "git_url": "https://api.github.com/repos/owid/owid-datasets/git/blobs/b474ab7b6bfa33c50b401847a8c6a5bef2a5d9c3",
+    "download_url": "https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Carbon%20intensity%20(kgCO2!%24)%20-%20Madisson%2C%20World%20Bank%2C%20CDIAC/datapackage.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/owid/owid-datasets/contents/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/datapackage.json?ref=master",
+      "git": "https://api.github.com/repos/owid/owid-datasets/git/blobs/b474ab7b6bfa33c50b401847a8c6a5bef2a5d9c3",
+      "html": "https://github.com/owid/owid-datasets/blob/master/datasets/Carbon%20intensity%20(kgCO2!$)%20-%20Madisson,%20World%20Bank,%20CDIAC/datapackage.json"
+    }
+  }
+]

@@ -14,9 +14,11 @@ figures:
 
 - [Figure 10-5](figures/10-5/README.md): Oil spills, 1970-2016
 - [Figure 10-6](figures/10-6/README.md): Protected areas, 1990-2014
+- [Figure 10-7](figures/10-7/README.md): Carbon intensity, 1820-2014
+- [Figure 10-8](figures/10-8/README.md): CO2 emissions, 1960-2015
 
-No additional book figures have been reconstructed yet. The initial Kindle
-List of Figures extraction is preserved at
+No additional book figures have been reconstructed yet beyond these Chapter 10
+figures. The initial Kindle List of Figures extraction is preserved at
 [data/metadata/kindle_list_of_figures_test.csv](data/metadata/kindle_list_of_figures_test.csv).
 
 ## Repository Layout

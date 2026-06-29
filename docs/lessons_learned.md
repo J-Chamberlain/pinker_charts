@@ -49,3 +49,11 @@ evidence chain.
 Large bulk downloads should be included only when GitHub can reasonably host
 them and they are central to the audit trail. Otherwise, preserve URLs,
 archive URLs, checksums, and retrieval notes.
+
+## Separate Book-Era OWID Datasets From Current Grapher Data
+
+Figures 10-7 and 10-8 showed that OWID/GitHub book-era datasets can match a
+Pinker figure closely while current OWID grapher exports use revised source
+versions or category definitions. For extensions, keep the book-era series
+solid through the book endpoint and show current successor data only after that
+endpoint with explicit caveats.

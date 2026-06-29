@@ -2,7 +2,7 @@
 
 Last update: 2026-06-29 00:00 America/Los_Angeles
 
-Project version: `1.0-review-protocol`
+Project version: `1.1-two-figure-batch-10-7-10-8`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -47,6 +47,8 @@ updated. Only then may Codex begin another figure.
 | --- | --- | --- | --- | --- | --- |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
+| 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
+| 10-8 | CO2 emissions, 1960-2015 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 regional CDIAC dataset matches the Kindle source chain; extension uses current OWID/GCB successor categories after 2015. |
 
 ## Completed Figures
 
@@ -55,6 +57,10 @@ support a verified reconstruction.
 
 - Figure 10-6: archived World Bank WDI bulk CSV from the Internet Archive
   reproduces the book-period land and marine protected-area trends.
+- Figure 10-7: OWID 2017 carbon-intensity dataset based on CDIAC, World Bank,
+  and Maddison data reproduces the book-period line chart.
+- Figure 10-8: OWID 2017 regional CDIAC dataset reproduces the book-period
+  stacked emissions chart.
 
 ## Unresolved Figures
 
@@ -67,10 +73,9 @@ support a verified reconstruction.
 ## Attempted But Not Expanded
 
 The initial Kindle List of Figures extraction captured 75 visible entries.
-Only figures 10-5 and 10-6 have been carried through source recovery,
-transformation, plotting, and validation. Do not start chapter-scale expansion
-until this repository's metadata and workflow documents remain clean after a
-fresh-contributor review.
+Figures 10-5, 10-6, 10-7, and 10-8 have been carried through source recovery,
+transformation, plotting, and validation. Continue processing in small batches
+of no more than two figures unless explicitly directed otherwise.
 
 ## Canonical Figure Artifacts
 
@@ -120,6 +125,46 @@ Canonical documentation:
 - Anomaly review: `figures/10-6/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/10-6/metadata/metadata.json`
 
+### Figure 10-7 - Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014
+
+Status: `verified_reproduction`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/10-7/plots/comparisons/kindle_reference_figure_10_7.png`
+- Book-period reconstruction: `figures/10-7/plots/book_period/figure_10_7_book_period_reconstruction.png`
+- Extended reconstruction: `figures/10-7/plots/extended/figure_10_7_extended_reconstruction.png`
+- Book-period comparison: `figures/10-7/plots/comparisons/figure_10_7_book_period_comparison.png`
+- Extended comparison: `figures/10-7/plots/comparisons/figure_10_7_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/10-7/captions/caption.txt`
+- Provenance: `figures/10-7/provenance/provenance.md`
+- Anomaly review: `figures/10-7/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/10-7/metadata/metadata.json`
+- Review checklist: `figures/10-7/review_checklist.md`
+
+### Figure 10-8 - CO2 emissions, 1960-2015
+
+Status: `verified_reproduction`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/10-8/plots/comparisons/kindle_reference_figure_10_8.png`
+- Book-period reconstruction: `figures/10-8/plots/book_period/figure_10_8_book_period_reconstruction.png`
+- Extended reconstruction: `figures/10-8/plots/extended/figure_10_8_extended_reconstruction.png`
+- Book-period comparison: `figures/10-8/plots/comparisons/figure_10_8_book_period_comparison.png`
+- Extended comparison: `figures/10-8/plots/comparisons/figure_10_8_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/10-8/captions/caption.txt`
+- Provenance: `figures/10-8/provenance/provenance.md`
+- Anomaly review: `figures/10-8/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/10-8/metadata/metadata.json`
+- Review checklist: `figures/10-8/review_checklist.md`
+
 ## Current Blockers
 
 - Figure 10-5 needs the exact Roser 2016r/ITOPF source snapshot or a documented
@@ -155,13 +200,16 @@ Canonical documentation:
    new figures until its status language is settled.
 4. For Figure 10-6, complete bibliographic cleanup and document the WDI archive
    capture as the accepted source.
-5. Add a small validation command that checks metadata consistency, checksums,
+5. Build reusable source adapters for OWID/GitHub datasets, World Bank bulk
+   archives, UNCTAD, and academic literature before larger batches.
+6. Add a small validation command that checks metadata consistency, checksums,
    and required files for every figure directory.
 
 ## Repository Version History
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.1-two-figure-batch-10-7-10-8` | 2026-06-29 | Processed Figures 10-7 and 10-8 through the full workflow, including Kindle evidence, OWID source recovery, book-period reconstruction, successor extension, review checklist, registry update, and canonical artifact paths. |
 | `1.0-review-protocol` | 2026-06-29 | Added permanent five-phase figure review protocol, acceptance checklist, burden-of-proof rule, reviewer confidence standard, and batch completion rule. |
 | `0.1.1-figure-registry` | 2026-06-29 | Added canonical figure registry, registry documentation, and stronger iterative QA/stopping rules for future batches. |
 | `0.1.0-repository-bootstrap` | 2026-06-29 | Imported two-figure proof of concept, provenance, source logs, data references, plots, comparisons, scripts, and canonical project documentation into GitHub layout. |

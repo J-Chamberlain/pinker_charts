@@ -1,0 +1,43 @@
+{
+  "figure_id": "10-7",
+  "title": "Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014",
+  "status": "verified_reproduction",
+  "source_fidelity": "A/B",
+  "book_citation": "Ritchie & Roser 2017, based on data from CDIAC; GDP in 2011 international dollars with pre-1990 GDP from Maddison Project 2014.",
+  "kindle_reference_image": "figures/10-7/plots/comparisons/kindle_reference_figure_10_7.png",
+  "book_period_reconstruction": "figures/10-7/plots/book_period/figure_10_7_book_period_reconstruction.png",
+  "extended_reconstruction": "figures/10-7/plots/extended/figure_10_7_extended_reconstruction.png",
+  "book_period_comparison": "figures/10-7/plots/comparisons/figure_10_7_book_period_comparison.png",
+  "extended_comparison": "figures/10-7/plots/comparisons/figure_10_7_extended_comparison.png",
+  "raw_downloads": [
+    {
+      "path": "figures/10-7/data/raw/owid_co2_intensity.csv",
+      "role": "source or successor input"
+    },
+    {
+      "path": "figures/10-7/data/raw/owid_co2_intensity.metadata.json",
+      "role": "source or successor input"
+    }
+  ],
+  "candidate_sources": [
+    "figures/10-7/data/candidates/archive_searches/10-7_cdiac_tre_coun.json",
+    "figures/10-7/data/candidates/archive_searches/10-7_maddison.json",
+    "figures/10-7/data/candidates/archive_searches/10-7_worldbank_gdp.json",
+    "figures/10-7/data/candidates/github_source_metadata/github_api_listing.json",
+    "figures/10-7/data/candidates/owid_datasets_carbon_intensity_bookera/Carbon intensity (kgCO2!$) - Madisson, World Bank, CDIAC.csv",
+    "figures/10-7/data/candidates/owid_datasets_carbon_intensity_bookera/README.md",
+    "figures/10-7/data/candidates/owid_datasets_carbon_intensity_bookera/datapackage.json"
+  ],
+  "processed_data": [
+    "figures/10-7/data/clean/figure_10_7_book_period_clean.csv",
+    "figures/10-7/data/clean/figure_10_7_extended_clean.csv"
+  ],
+  "script": "scripts/reconstruct_10_7_10_8.py",
+  "visual_validation": "good",
+  "confidence": "high",
+  "unresolved_issues": [
+    "Minor typography and label-placement differences remain.",
+    "Current OWID successor data revise historical values substantially, so only post-2014 dashed segments are used in the extension."
+  ],
+  "recommended_next_action": "No further source recovery required before moving to another figure; revisit only for publication typography or source-version audit."
+}
