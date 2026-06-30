@@ -9,7 +9,7 @@
   "reproduction_status": "verified_reproduction",
   "confidence_score": 0.86,
   "visual_validation": "good",
-  "notes": "Processed in four-figure batch; see anomaly review and source log for limitations.",
+  "notes": "Book-period reconstruction is verified. The extended artifact intentionally plots no successor segment because a comparable regional successor series has not been accepted.",
   "canonical_artifacts": {
     "original_reference": "figures/5-1/plots/comparisons/kindle_reference_figure_5_1.png",
     "book_period_reconstruction": "figures/5-1/plots/book_period/figure_5_1_book_period_reconstruction.png",

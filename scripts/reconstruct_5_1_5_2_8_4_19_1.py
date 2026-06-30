@@ -5,17 +5,26 @@ import shutil
 from datetime import date
 from pathlib import Path
 from urllib.request import urlretrieve
+from urllib.request import Request, urlopen
 
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 import pandas as pd
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageOps
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OWID = Path("/Users/alfred/Documents/MIsc/enlightenment_now_poc/data/repositories/owid-datasets/datasets")
 TMP_KINDLE = ROOT / "tmp/kindle_batch"
 TODAY = date.today().isoformat()
+
+
+def download_if_needed(url: str, dest: Path) -> None:
+    if dest.exists() and dest.stat().st_size > 0:
+        return
+    req = Request(url, headers={"User-Agent": "Mozilla/5.0 pinker-charts-reconstruction"})
+    with urlopen(req) as response:
+        dest.write_bytes(response.read())
 
 
 FIGURES = {
@@ -30,6 +39,17 @@ FIGURES = {
         "status": "verified_reproduction",
         "confidence": 0.86,
         "validation": "good",
+        "notes": "Book-period reconstruction is verified. The extended artifact intentionally plots no successor segment because a comparable regional successor series has not been accepted.",
+        "caption_extra": "The file labeled extended is a review artifact, not a true post-2015 extension: it repeats the book-period reconstruction and marks that no comparable regional extension is plotted.",
+        "visible_differences": [
+            "The book-period reconstruction closely matches the regional trajectories and overall scale.",
+            "The extended comparison contains no added post-2015 line segment and is explicitly labeled as such.",
+            "Typeface, label placement, and Kindle crop geometry remain approximate.",
+        ],
+        "cause_assessment": "No comparable regional successor dataset has been accepted; current OWID country/entity-heavy grapher data are retained as successor evidence but not plotted as a regional extension.",
+        "outstanding_risks": "A future regional successor extension could be added if a methodologically comparable regional series is recovered.",
+        "next_action": "Publication review; do not describe the current extended artifact as a true extension.",
+        "extension_confidence": "low; no comparable extension plotted",
     },
     "5-2": {
         "title": "Child mortality, 1751-2013",
@@ -40,8 +60,19 @@ FIGURES = {
         "kindle": TMP_KINDLE / "page_5_2_full.png",
         "crop": (970, 145, 1645, 620),
         "status": "partial_match",
-        "confidence": 0.64,
+        "confidence": 0.72,
         "validation": "acceptable",
+        "notes": "Remediated to use the current OWID selected child-mortality grapher directly in percent units. This materially improves the visual match, but the exact Roser 2016a UN/HMD vintage remains unrecovered.",
+        "caption_extra": "The previous reconstruction used a Gapminder proxy and had a successor-data unit error; this version uses the current OWID selected child-mortality series in percent units. It remains a partial match because the exact book-era Roser 2016a assembly is not yet recovered.",
+        "visible_differences": [
+            "The revised curves better align with the Kindle scale and starting levels than the prior Gapminder proxy.",
+            "Some country trajectories and endpoint label positions still differ visibly from the book.",
+            "The South Korea, Ethiopia, Chile, and Canada labels crowd the lower-right corner more than in the Kindle figure.",
+        ],
+        "cause_assessment": "The remaining mismatch is most likely source-vintage and country-series construction, with minor styling/layout differences. The unit error in the successor series was corrected.",
+        "outstanding_risks": "The exact Roser 2016a UN Child Mortality/Human Mortality Database assembled file or archival OWID grapher remains the blocker for verification.",
+        "next_action": "Continue source recovery for the exact Roser 2016a/UN-HMD assembly before promoting status.",
+        "extension_confidence": "medium-low; current OWID successor extension, not exact book vintage",
     },
     "8-4": {
         "title": "Extreme poverty (proportion), 1820-2015",
@@ -54,6 +85,17 @@ FIGURES = {
         "status": "verified_reproduction",
         "confidence": 0.84,
         "validation": "good",
+        "notes": "Book-period reconstruction is verified. The comparison layout was remediated so the recreated plot area is comparable to the Kindle crop; no comparable world extension is plotted.",
+        "caption_extra": "The extended artifact intentionally does not add the Moatsos/OECD successor series because the local successor file did not provide a directly comparable World row for the book variable.",
+        "visible_differences": [
+            "The book-period curve and scale closely match the Kindle figure.",
+            "The remediated side-by-side uses a larger recreated plot area with comparable visual weight.",
+            "The book visually separates historical and World Bank segments more clearly than this single-line reconstruction.",
+        ],
+        "cause_assessment": "Remaining differences are mainly styling and source-segment presentation. The extension is absent because no comparable World successor segment was accepted.",
+        "outstanding_risks": "A comparable post-2015 world extreme-poverty series could be added later if its methodology is documented against the book-period source.",
+        "next_action": "Publication review; keep extension absence explicit unless a comparable successor world series is recovered.",
+        "extension_confidence": "low; no comparable extension plotted",
     },
     "19-1": {
         "title": "Nuclear weapons, 1945-2015",
@@ -61,11 +103,22 @@ FIGURES = {
         "page": "Kindle page 318 search result",
         "source": "HumanProgress static 2927, based on Federation of Atomic Scientists, Kristensen & Norris 2016a, updated in Kristensen 2016.",
         "claim": "Global, U.S., and Russian/Soviet nuclear arsenals declined after Cold War peaks.",
-        "kindle": TMP_KINDLE / "search_Figure_19_1_clickpaste.png",
-        "crop": None,
+        "kindle": ROOT / "tmp/kindle_remediation/page_19_1_attempt1.png",
+        "crop": (974, 146, 1640, 616),
         "status": "partial_match",
-        "confidence": 0.52,
+        "confidence": 0.62,
         "validation": "poor",
+        "notes": "Actual Kindle chart-page capture is now present. The reconstruction remains partial because it uses a current OWID successor line series rather than the cited HumanProgress/FAS 2016 table and does not reproduce the book's stacked-area presentation.",
+        "caption_extra": "The Kindle chart image is now included in the side-by-side comparison. The recreated chart is a current OWID successor line reconstruction and should not be treated as visual validation of the original stacked-area figure.",
+        "visible_differences": [
+            "The Kindle figure is a stacked-area chart while the current reconstruction is a three-line chart.",
+            "The recreated series captures the broad rise and post-Cold-War decline but does not match the original visual encoding.",
+            "The cited HumanProgress/FAS 2016 table remains unrecovered.",
+        ],
+        "cause_assessment": "The major discrepancy is caused by both source and chart-type mismatch: the source is a current OWID successor, and the transformation does not recreate the stacked-area composition.",
+        "outstanding_risks": "Recovering the HumanProgress static 2927/FAS 2016 table is required before the figure can move beyond partial_match.",
+        "next_action": "Recover cited HumanProgress/FAS table or archival copy, then reconstruct as stacked area before visual validation can pass.",
+        "extension_confidence": "low; successor OWID extension only",
     },
 }
 
@@ -109,12 +162,14 @@ def copy_dataset(src: Path, dest: Path) -> Path:
 def crop_reference(fig_id: str) -> Path:
     info = FIGURES[fig_id]
     out = base(fig_id) / f"plots/comparisons/kindle_reference_figure_{fig_id.replace('-', '_')}.png"
-    if info["crop"] is None:
+    if info["crop"] is None or not info["kindle"].exists():
+        if out.exists():
+            return out
         im = Image.new("RGB", (900, 560), "white")
         draw = ImageDraw.Draw(im)
         text = (
             f"Kindle source-line captured for Figure {fig_id},\n"
-            "but original chart-page capture is pending.\n\n"
+            "but original chart-page capture is pending or unavailable.\n\n"
             "Do not treat this comparison as visual validation.\n"
             "See source_logs/source_log.md."
         )
@@ -127,17 +182,41 @@ def crop_reference(fig_id: str) -> Path:
 
 
 def side_by_side(reference: Path, recreated: Path, output: Path, title: str) -> None:
-    ref = mpimg.imread(reference)
-    rec = mpimg.imread(recreated)
-    fig, axes = plt.subplots(1, 2, figsize=(14, 6), dpi=180)
-    for ax, image, label in zip(axes, [ref, rec], ["Kindle reference", "Recreated"]):
-        ax.imshow(image)
-        ax.set_title(label, fontsize=11)
-        ax.axis("off")
-    fig.suptitle(title, fontsize=13)
-    fig.tight_layout()
-    fig.savefig(output, bbox_inches="tight", facecolor="white")
-    plt.close(fig)
+    def load_trim(path: Path) -> Image.Image:
+        im = Image.open(path).convert("RGB")
+        bg = Image.new("RGB", im.size, "white")
+        diff = ImageChops.difference(im, bg)
+        bbox = diff.getbbox()
+        return im.crop(bbox) if bbox else im
+
+    ref = load_trim(reference)
+    rec = load_trim(recreated)
+    panel_w, panel_h = 980, 700
+    margin, gap, header_h, title_h = 45, 45, 58, 58
+    canvas = Image.new("RGB", (margin * 2 + panel_w * 2 + gap, title_h + header_h + panel_h + margin), "white")
+    draw = ImageDraw.Draw(canvas)
+    try:
+        title_font = ImageFont.truetype("Arial.ttf", 30)
+        label_font = ImageFont.truetype("Arial.ttf", 24)
+    except OSError:
+        title_font = label_font = None
+
+    def paste_fit(im: Image.Image, x: int, y: int):
+        fitted = ImageOps.contain(im, (panel_w, panel_h), method=Image.Resampling.LANCZOS)
+        px = x + (panel_w - fitted.width) // 2
+        py = y + (panel_h - fitted.height) // 2
+        canvas.paste(fitted, (px, py))
+        draw.rectangle([x, y, x + panel_w, y + panel_h], outline=(230, 230, 230), width=1)
+
+    draw.text((canvas.width // 2, 18), title, fill="black", anchor="ma", font=title_font)
+    left_x = margin
+    right_x = margin + panel_w + gap
+    label_y = title_h + 8
+    draw.text((left_x + panel_w // 2, label_y), "Kindle reference", fill="black", anchor="ma", font=label_font)
+    draw.text((right_x + panel_w // 2, label_y), "Recreated", fill="black", anchor="ma", font=label_font)
+    paste_fit(ref, left_x, title_h + header_h)
+    paste_fit(rec, right_x, title_h + header_h)
+    canvas.save(output)
 
 
 def style_axis(ax):
@@ -154,7 +233,7 @@ def plot_5_1():
     raw = copy_dataset(src, b / "data/raw/owid_roser_2016n_life_expectancy.csv")
     current_url = "https://ourworldindata.org/grapher/life-expectancy.csv"
     current = b / "data/raw/owid_current_life_expectancy.csv"
-    urlretrieve(current_url, current)
+    download_if_needed(current_url, current)
     df = pd.read_csv(raw)
     val = df.columns[-1]
     df = df.rename(columns={val: "life_expectancy"})
@@ -180,9 +259,9 @@ def plot_5_1():
         ax.set_ylabel("Average life expectancy")
         ax.set_title("Figure 5-1: Life expectancy, 1771-2015", loc="left", fontsize=12)
         style_axis(ax)
-        note = "Source: OWID/Roser 2016n historical dataset; extension not plotted because current successor changes regional construction."
+        note = "Source: OWID/Roser 2016n historical dataset. No comparable regional extension plotted; see caption."
         if extended:
-            ax.text(0.01, 0.02, "Extended data file downloaded separately; no dashed continuation plotted.", transform=ax.transAxes, fontsize=7)
+            ax.text(0.01, 0.02, "No comparable extension plotted", transform=ax.transAxes, fontsize=8, weight="bold")
         ax.text(0, -0.14, note, transform=ax.transAxes, fontsize=7, va="top")
         fig.tight_layout()
         fig.savefig(out, bbox_inches="tight", facecolor="white")
@@ -200,21 +279,19 @@ def plot_5_1():
 def plot_5_2():
     fig_id = "5-2"
     b = base(fig_id)
-    src = OWID / "Child mortality - Gapminder (2013)" / "Child mortality - Gapminder (2013).csv"
-    raw = copy_dataset(src, b / "data/raw/owid_gapminder_child_mortality_2013.csv")
     current_url = "https://ourworldindata.org/grapher/child-mortality.csv"
     current = b / "data/raw/owid_current_child_mortality.csv"
-    urlretrieve(current_url, current)
-    df = pd.read_csv(raw).rename(columns={"Child mortality (Gapminder (2013))": "under5_mortality_per_1000"})
+    download_if_needed(current_url, current)
     countries = ["Sweden", "Canada", "Chile", "South Korea", "Ethiopia"]
-    book = df[df["Entity"].isin(countries) & df["Year"].between(1751, 2013)].copy()
-    book["under5_mortality_percent"] = book["under5_mortality_per_1000"] / 10.0
-    book.to_csv(b / "data/clean/figure_5_2_book_period_clean.csv", index=False)
     cur = pd.read_csv(current)
     cval = [c for c in cur.columns if c not in ["Entity", "Code", "Year"]][0]
-    cur = cur.rename(columns={cval: "under5_mortality_per_1000"})
+    cur = cur.rename(columns={cval: "under5_mortality_percent"})
     cur = cur[cur["Entity"].isin(countries)]
-    cur["under5_mortality_percent"] = cur["under5_mortality_per_1000"] / 10.0
+    # The current OWID grapher reports selected under-five mortality as a
+    # percentage, not deaths per 1,000. The previous reconstruction divided this
+    # successor data by 10 during extension, which was a unit error.
+    book = cur[cur["Year"].between(1751, 2013)].copy()
+    book.to_csv(b / "data/clean/figure_5_2_book_period_clean.csv", index=False)
     cur.to_csv(b / "data/clean/figure_5_2_extended_clean.csv", index=False)
     colors = {"Sweden": "black", "Canada": "0.45", "Chile": "0.55", "South Korea": "0.65", "Ethiopia": "0.86"}
 
@@ -234,7 +311,7 @@ def plot_5_2():
         ax.set_ylabel("Percentage of children dying before age 5")
         ax.set_title("Figure 5-2: Child mortality, 1751-2013", loc="left", fontsize=12)
         style_axis(ax)
-        note = "Book-period proxy: OWID Gapminder 2013 country series; cited UN/HMD source not yet recovered as exact book file."
+        note = "Improved proxy: current OWID selected child-mortality grapher; exact Roser 2016a vintage unrecovered."
         ax.text(0, -0.14, note, transform=ax.transAxes, fontsize=7, va="top")
         fig.tight_layout()
         fig.savefig(out, bbox_inches="tight", facecolor="white")
@@ -263,9 +340,6 @@ def plot_8_4():
     book.to_csv(b / "data/clean/figure_8_4_book_period_clean.csv", index=False)
     cur = pd.read_csv(curraw)
     world = cur[cur["Entity"].eq("World")].copy()
-    if world.empty:
-        world = cur.groupby("Year", as_index=False)["‘cost of basic needs’ approach - share of population below poverty line"].mean()
-        world["Entity"] = "World_unweighted_country_mean"
     world.to_csv(b / "data/clean/figure_8_4_extended_clean.csv", index=False)
 
     def draw(out, extended=False):
@@ -283,7 +357,8 @@ def plot_8_4():
         style_axis(ax)
         note = "Source: OWID historical dataset based on Bourguignon & Morrisson 2002 and World Bank PovcalNet 2015."
         if extended:
-            note += " Dashed segment, if present, uses Moatsos/OECD successor data and is not directly comparable."
+            note += " No comparable World extension plotted; see caption."
+            ax.text(0.01, 0.02, "No comparable extension plotted", transform=ax.transAxes, fontsize=8, weight="bold")
         ax.text(0, -0.16, note, transform=ax.transAxes, fontsize=7, va="top")
         fig.tight_layout()
         fig.savefig(out, bbox_inches="tight", facecolor="white")
@@ -303,7 +378,7 @@ def plot_19_1():
     b = base(fig_id)
     url = "https://ourworldindata.org/grapher/nuclear-warhead-stockpiles.csv"
     raw = b / "data/raw/owid_current_nuclear_warhead_stockpiles.csv"
-    urlretrieve(url, raw)
+    download_if_needed(url, raw)
     df = pd.read_csv(raw).rename(columns={"Number of nuclear warheads": "warheads"})
     keep = ["World", "United States", "Russia"]
     clean = df[df["Entity"].isin(keep) & df["Year"].between(1945, 2015)].copy()
@@ -357,7 +432,7 @@ def write_docs(fig_id: str):
         "reproduction_status": info["status"],
         "confidence_score": info["confidence"],
         "visual_validation": info["validation"],
-        "notes": "Processed in four-figure batch; see anomaly review and source log for limitations.",
+        "notes": info["notes"],
         "canonical_artifacts": {
             "original_reference": f"figures/{fig_id}/plots/comparisons/kindle_reference_figure_{stem}.png",
             "book_period_reconstruction": f"figures/{fig_id}/plots/book_period/figure_{stem}_book_period_reconstruction.png",
@@ -369,7 +444,8 @@ def write_docs(fig_id: str):
     (b / "metadata/metadata.json").write_text(json.dumps(metadata, indent=2) + "\n")
     (b / "captions/caption.txt").write_text(
         f"Figure {fig_id}: {info['title']}. Recreated from public source data. "
-        f"Status: {info['status']}. Source note from Kindle: {info['source']}\n"
+        f"Status: {info['status']}. Source note from Kindle: {info['source']} "
+        f"{info['caption_extra']}\n"
     )
     searches = [
         f'"Figure {fig_id}" Kindle search',
@@ -402,11 +478,10 @@ def write_docs(fig_id: str):
     (b / "anomaly_reviews/anomaly_review.md").write_text(
         f"# Anomaly Review: Figure {fig_id}\n\n"
         "## Visible Differences\n"
-        "- Styling, typeface, label placement, and Kindle crop geometry are approximate.\n"
-        + ("- Original chart-page capture is pending; current comparison uses a placeholder reference.\n" if fig_id == "19-1" else "")
+        + "\n".join(f"- {item}" for item in info["visible_differences"])
         + "\n## Cause Assessment\n"
         f"- Current status: `{info['status']}`.\n"
-        "- Differences are classified as source-version, styling, or capture-related depending on the figure.\n\n"
+        f"- {info['cause_assessment']}\n\n"
         "## Reviewer Challenge\n"
         "- Pinker would likely ask whether the cited source chain has been reconstructed exactly.\n"
         "- A data journalist would ask for raw download URLs and reproducible scripts.\n"
@@ -414,10 +489,10 @@ def write_docs(fig_id: str):
         "- A skeptical reader would notice any label or curve-shape mismatch in the side-by-side.\n\n"
         "Overall confidence:\n"
         f"- Book reconstruction: {info['confidence']}\n"
-        "- Extension: moderate to low where successor methods differ.\n"
+        f"- Extension: {info['extension_confidence']}\n"
         "- Source provenance: see source log.\n"
-        "- Outstanding risks: exact archival source recovery for partial matches.\n"
-        "- Recommended next action: review side-by-side and source log before promoting status.\n"
+        f"- Outstanding risks: {info['outstanding_risks']}\n"
+        f"- Recommended next action: {info['next_action']}\n"
     )
     (b / "discrepancy_logs/discrepancy_log.md").write_text(
         f"# Discrepancy Log: Figure {fig_id}\n\n"
@@ -441,7 +516,7 @@ def write_docs(fig_id: str):
         "- [x] Caption written\n"
         "- [x] Anomaly review written\n"
         "- [x] Registry and PROJECT_STATE updated by batch script/manual review\n"
-        + ("- [ ] Original chart-page visual capture still required\n" if fig_id == "19-1" else "")
+        + ("- [x] Original chart-page visual capture completed\n" if fig_id == "19-1" else "")
     )
     lineage_rows = [
         {"stage": "Book Figure", "value": f"Figure {fig_id}: {info['title']}"},

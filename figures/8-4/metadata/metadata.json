@@ -9,7 +9,7 @@
   "reproduction_status": "verified_reproduction",
   "confidence_score": 0.84,
   "visual_validation": "good",
-  "notes": "Processed in four-figure batch; see anomaly review and source log for limitations.",
+  "notes": "Book-period reconstruction is verified. The comparison layout was remediated so the recreated plot area is comparable to the Kindle crop; no comparable world extension is plotted.",
   "canonical_artifacts": {
     "original_reference": "figures/8-4/plots/comparisons/kindle_reference_figure_8_4.png",
     "book_period_reconstruction": "figures/8-4/plots/book_period/figure_8_4_book_period_reconstruction.png",

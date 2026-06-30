@@ -22,12 +22,12 @@
     "page": "",
     "year_range": "1771-2015",
     "current_status": "verified_reproduction",
-    "lifecycle_stage": "reviewed_book_period_reconstruction",
+    "lifecycle_stage": "reviewed_book_period_reconstruction_no_comparable_extension",
     "source_type_guess": "OWID historical health dataset",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Publication review; consider regional successor extension only if comparable method is recovered.",
-    "notes": "Processed in four-figure batch on 2026-06-29; exact OWID/Roser 2016n-style historical dataset located in local OWID mirror."
+    "next_action": "Publication review; do not describe the current extended artifact as a true extension unless a comparable regional successor series is recovered.",
+    "notes": "Remediated on 2026-06-29: book-period reconstruction remains verified; extended artifact visibly states that no comparable extension is plotted."
   },
   {
     "figure_id": "5-2",
@@ -41,8 +41,8 @@
     "source_type_guess": "OWID/Gapminder/UN-HMD child mortality",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Recover exact Roser 2016a UN Child Mortality/HMD assembled file; current reconstruction uses OWID Gapminder 2013 proxy.",
-    "notes": "Processed in four-figure batch on 2026-06-29; visual discrepancies remain, especially South Korea/Ethiopia starts and country-series construction."
+    "next_action": "Recover exact Roser 2016a UN Child Mortality/HMD assembled file or archival OWID grapher before promoting status.",
+    "notes": "Remediated on 2026-06-29: switched from Gapminder proxy/unit-error extension to current OWID selected child-mortality series in percent units; visual match improved but exact source vintage remains unresolved."
   },
   {
     "figure_id": "5-3",
@@ -202,12 +202,12 @@
     "page": "",
     "year_range": "1820-2015",
     "current_status": "verified_reproduction",
-    "lifecycle_stage": "reviewed_book_period_reconstruction",
+    "lifecycle_stage": "reviewed_book_period_reconstruction_no_comparable_extension",
     "source_type_guess": "OWID poverty historical dataset",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Improve extended successor handling; current book-period data match Bourguignon & Morrison/PovcalNet source chain.",
-    "notes": "Processed in four-figure batch on 2026-06-29; book-period reconstruction uses OWID historical dataset based on Bourguignon & Morrison 2002 and World Bank PovcalNet 2015."
+    "next_action": "Publication review; add post-2015 extension only if a methodologically comparable World successor series is recovered and documented.",
+    "notes": "Remediated on 2026-06-29: comparison layout enlarged; book-period reconstruction remains verified; no comparable extension plotted."
   },
   {
     "figure_id": "8-5",
@@ -1102,12 +1102,12 @@
     "page": "",
     "year_range": "1945-2015",
     "current_status": "partial_match",
-    "lifecycle_stage": "source_recovery_and_visual_capture_pending",
+    "lifecycle_stage": "source_recovery_and_visual_discrepancy_analysis",
     "source_type_guess": "HumanProgress/FAS nuclear inventory",
     "priority": "medium",
     "current_owner": "Codex",
-    "next_action": "Capture actual Kindle chart page and recover cited HumanProgress/FAS 2016 table or archival copy.",
-    "notes": "Processed in four-figure batch on 2026-06-29 with current OWID nuclear-warhead successor data; original chart-page capture unresolved."
+    "next_action": "Recover cited HumanProgress static 2927/FAS 2016 table or archival copy, then reconstruct stacked-area chart before visual validation can pass.",
+    "notes": "Remediated on 2026-06-29: actual Kindle chart-page crop captured and included; current OWID successor line reconstruction remains a poor visual match to the original stacked-area figure."
   },
   {
     "figure_id": "20-1",

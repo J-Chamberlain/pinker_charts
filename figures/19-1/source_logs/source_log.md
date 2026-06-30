@@ -16,9 +16,14 @@ Original book citation: HumanProgress static 2927, based on Federation of Atomic
 - Local OWID datasets mirror: accepted where it matched the named source chain or as a documented proxy.
 - Current OWID grapher downloads: accepted only as successor/extension evidence.
 - Internet Archive/GitHub/source mirrors: logged as required next searches where exact archival source remains unresolved.
+- Actual Kindle chart-page crop: accepted during remediation as the visual reference for side-by-side review.
+- Current OWID nuclear-warhead grapher: accepted only as a successor/proxy source; it does not satisfy the cited HumanProgress/FAS 2016 source chain.
 
 ## Remaining Uncertainties
-- Status is `partial_match`. See anomaly review for figure-specific issues.
+- Status is `partial_match`.
+- The cited HumanProgress static 2927/FAS 2016 table remains unrecovered.
+- The actual Kindle reference shows a stacked-area chart, while the current reconstruction is a three-line successor chart.
 
 ## Recommended Next Steps
-- For any partial match, recover the exact cited historical dataset before upgrading status.
+- Recover the HumanProgress static 2927 source table, a FAS/Kristensen & Norris 2016a table, or an archival equivalent.
+- Reconstruct the figure as a stacked-area chart before attempting to pass visual validation.

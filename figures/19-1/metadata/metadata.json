@@ -7,9 +7,9 @@
   "book_citation": "HumanProgress static 2927, based on Federation of Atomic Scientists, Kristensen & Norris 2016a, updated in Kristensen 2016.",
   "download_date": "2026-06-29",
   "reproduction_status": "partial_match",
-  "confidence_score": 0.52,
+  "confidence_score": 0.62,
   "visual_validation": "poor",
-  "notes": "Processed in four-figure batch; see anomaly review and source log for limitations.",
+  "notes": "Actual Kindle chart-page capture is now present. The reconstruction remains partial because it uses a current OWID successor line series rather than the cited HumanProgress/FAS 2016 table and does not reproduce the book's stacked-area presentation.",
   "canonical_artifacts": {
     "original_reference": "figures/19-1/plots/comparisons/kindle_reference_figure_19_1.png",
     "book_period_reconstruction": "figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png",

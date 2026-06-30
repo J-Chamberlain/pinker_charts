@@ -1,11 +1,12 @@
 # Anomaly Review: Figure 5-1
 
 ## Visible Differences
-- Styling, typeface, label placement, and Kindle crop geometry are approximate.
-
+- The book-period reconstruction closely matches the regional trajectories and overall scale.
+- The extended comparison contains no added post-2015 line segment and is explicitly labeled as such.
+- Typeface, label placement, and Kindle crop geometry remain approximate.
 ## Cause Assessment
 - Current status: `verified_reproduction`.
-- Differences are classified as source-version, styling, or capture-related depending on the figure.
+- No comparable regional successor dataset has been accepted; current OWID country/entity-heavy grapher data are retained as successor evidence but not plotted as a regional extension.
 
 ## Reviewer Challenge
 - Pinker would likely ask whether the cited source chain has been reconstructed exactly.
@@ -15,7 +16,7 @@
 
 Overall confidence:
 - Book reconstruction: 0.86
-- Extension: moderate to low where successor methods differ.
+- Extension: low; no comparable extension plotted
 - Source provenance: see source log.
-- Outstanding risks: exact archival source recovery for partial matches.
-- Recommended next action: review side-by-side and source log before promoting status.
+- Outstanding risks: A future regional successor extension could be added if a methodologically comparable regional series is recovered.
+- Recommended next action: Publication review; do not describe the current extended artifact as a true extension.

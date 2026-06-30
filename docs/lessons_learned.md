@@ -65,9 +65,36 @@ line without providing a usable chart-page visual reference. Treat this as
 evidence for citation extraction only; visual validation requires the actual
 figure page or a documented reason that manual recapture is required.
 
+## Do Not Let Missing Temporary Captures Overwrite Canonical References
+
+Regeneration scripts should reuse an existing committed Kindle reference image
+when a temporary local capture is unavailable. A rerun should never replace a
+real reference image with a placeholder simply because the temporary screenshot
+directory is absent.
+
 ## OWID Proxies Still Need Exact Vintage Proof
 
 Figure 5-2 showed that a plausible OWID/Gapminder country series can reproduce
 the concept while still diverging visibly from the book's chart. Do not upgrade
 such figures until the exact named source assembly, archival grapher snapshot,
 or data vintage is recovered.
+
+## Current OWID Grapher Units Must Be Verified
+
+Figure 5-2 also showed that successor grapher exports may already be in the
+book's display units. Inspect column names and values before applying unit
+conversions; otherwise an extension can be wrong even when the source is
+reasonable.
+
+## An Extended Artifact Is Not Always An Extension
+
+If no methodologically comparable post-publication data are plotted, the image
+should say so visibly and the caption should explain why. Do not let a filename
+containing `extended` imply that a true extension exists.
+
+## Chart Type Is Part Of Visual Fidelity
+
+Figure 19-1's actual Kindle capture revealed that a line chart proxy cannot
+pass visual validation for a stacked-area original even if the broad trend is
+similar. Source recovery and transformation must reproduce the visual encoding,
+not just the topic.

@@ -10,4 +10,4 @@
 - [x] Caption written
 - [x] Anomaly review written
 - [x] Registry and PROJECT_STATE updated by batch script/manual review
-- [ ] Original chart-page visual capture still required
+- [x] Original chart-page visual capture completed

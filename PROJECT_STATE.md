@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-06-29 17:05 America/Los_Angeles
+Last update: 2026-06-29 19:29 America/Los_Angeles
 
-Project version: `1.3-editorial-review-gate`
+Project version: `1.4-four-figure-remediation`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -47,14 +47,14 @@ this file are all updated. Only then may Codex begin another figure.
 
 | Figure | Title | Lifecycle stage | Status | Confidence | Current disposition |
 | --- | --- | --- | --- | --- | --- |
-| 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; no comparable regional successor extension plotted. |
-| 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Current reconstruction uses OWID Gapminder 2013 proxy; exact Roser 2016a UN/HMD assembled source remains unresolved. |
-| 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; successor extension needs better comparable world series handling. |
+| 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
+| 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Remediated to use the current OWID selected child-mortality series in percent units; exact Roser 2016a UN/HMD assembled source remains unresolved. |
+| 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
 | 10-8 | CO2 emissions, 1960-2015 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 regional CDIAC dataset matches the Kindle source chain; extension uses current OWID/GCB successor categories after 2015. |
-| 19-1 | Nuclear weapons, 1945-2015 | Source recovery and visual capture pending | `partial_match` | Medium-low | Current reconstruction uses a current OWID successor series; exact cited HumanProgress/FAS 2016 table and original chart-page capture remain unresolved. |
+| 19-1 | Nuclear weapons, 1945-2015 | Source recovery and visual discrepancy analysis | `partial_match` | Medium-low | Actual Kindle chart-page crop is now included; current OWID successor line reconstruction remains a poor visual match to the original stacked-area figure and the cited HumanProgress/FAS 2016 table remains unresolved. |
 
 ## Completed Figures
 
@@ -81,13 +81,16 @@ support a verified reconstruction.
   not been proven. A recovered UNCTADStat-style mirror supports a book-style
   reconstruction through 2020, but it remains an updated-equivalent or partial
   source rather than a verified book-era dataset.
-- Figure 5-2: the Kindle title/source and chart page were captured, but the
-  reconstruction currently uses an OWID Gapminder 2013 proxy rather than the
-  exact cited Roser 2016a UN Child Mortality/Human Mortality Database assembly.
-- Figure 19-1: the Kindle source-line result was captured, but the actual chart
-  page was not successfully captured during this batch. The reconstruction uses
-  current OWID nuclear-warhead successor data rather than the cited
-  HumanProgress/FAS 2016 table.
+- Figure 5-2: the Kindle title/source and chart page were captured, and the
+  reconstruction was remediated to use the current OWID selected
+  child-mortality series directly in percent units. It remains a partial match
+  because the exact cited Roser 2016a UN Child Mortality/Human Mortality
+  Database assembly has not been recovered.
+- Figure 19-1: the actual Kindle chart-page crop was captured and included in
+  the side-by-side comparison. The current reconstruction remains a partial
+  match because it uses current OWID nuclear-warhead successor line data rather
+  than the cited HumanProgress/FAS 2016 table and does not reproduce the
+  original stacked-area encoding.
 
 ## Attempted But Not Expanded
 
@@ -275,8 +278,9 @@ Canonical documentation:
   archival equivalent for the full 1970-2016 oil-shipped-by-sea series.
 - Figure 5-2 needs the exact Roser 2016a UN/HMD assembled dataset or an
   archival copy before it can be promoted beyond `partial_match`.
-- Figure 19-1 needs an actual Kindle chart-page capture and the cited
-  HumanProgress/FAS 2016 table or archival equivalent.
+- Figure 19-1 needs the cited HumanProgress/FAS 2016 table or archival
+  equivalent and a stacked-area reconstruction before visual validation can
+  pass.
 - The legacy file [data/metadata/figure_metadata_legacy.csv](data/metadata/figure_metadata_legacy.csv)
   is stale and kept only as an imported historical artifact. The canonical
   metadata is [data/metadata/figure_metadata.csv](data/metadata/figure_metadata.csv)
@@ -317,6 +321,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.4-four-figure-remediation` | 2026-06-29 | Remediated the latest four-figure batch: clarified no-extension artifacts for Figures 5-1 and 8-4, improved Figure 5-2 source/units while retaining partial-match status, captured the actual Figure 19-1 Kindle chart crop, and marked Figure 19-1 visual validation as poor until the cited FAS/HumanProgress stacked source is recovered. |
 | `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |
 | `1.2-four-figure-batch-5-1-5-2-8-4-19-1` | 2026-06-29 | Processed Figures 5-1, 5-2, 8-4, and 19-1. Figures 5-1 and 8-4 reached verified book-period reconstructions; Figures 5-2 and 19-1 remain partial matches with documented source/capture blockers. |
 | `1.1-two-figure-batch-10-7-10-8` | 2026-06-29 | Processed Figures 10-7 and 10-8 through the full workflow, including Kindle evidence, OWID source recovery, book-period reconstruction, successor extension, review checklist, registry update, and canonical artifact paths. |

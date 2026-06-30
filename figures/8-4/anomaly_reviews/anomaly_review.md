@@ -1,11 +1,12 @@
 # Anomaly Review: Figure 8-4
 
 ## Visible Differences
-- Styling, typeface, label placement, and Kindle crop geometry are approximate.
-
+- The book-period curve and scale closely match the Kindle figure.
+- The remediated side-by-side uses a larger recreated plot area with comparable visual weight.
+- The book visually separates historical and World Bank segments more clearly than this single-line reconstruction.
 ## Cause Assessment
 - Current status: `verified_reproduction`.
-- Differences are classified as source-version, styling, or capture-related depending on the figure.
+- Remaining differences are mainly styling and source-segment presentation. The extension is absent because no comparable World successor segment was accepted.
 
 ## Reviewer Challenge
 - Pinker would likely ask whether the cited source chain has been reconstructed exactly.
@@ -15,7 +16,7 @@
 
 Overall confidence:
 - Book reconstruction: 0.84
-- Extension: moderate to low where successor methods differ.
+- Extension: low; no comparable extension plotted
 - Source provenance: see source log.
-- Outstanding risks: exact archival source recovery for partial matches.
-- Recommended next action: review side-by-side and source log before promoting status.
+- Outstanding risks: A comparable post-2015 world extreme-poverty series could be added later if its methodology is documented against the book-period source.
+- Recommended next action: Publication review; keep extension absence explicit unless a comparable successor world series is recovered.

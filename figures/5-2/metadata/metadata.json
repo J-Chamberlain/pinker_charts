@@ -7,9 +7,9 @@
   "book_citation": "Our World in Data, Roser 2016a, based on UN Child Mortality Estimates and the Human Mortality Database.",
   "download_date": "2026-06-29",
   "reproduction_status": "partial_match",
-  "confidence_score": 0.64,
+  "confidence_score": 0.72,
   "visual_validation": "acceptable",
-  "notes": "Processed in four-figure batch; see anomaly review and source log for limitations.",
+  "notes": "Remediated to use the current OWID selected child-mortality grapher directly in percent units. This materially improves the visual match, but the exact Roser 2016a UN/HMD vintage remains unrecovered.",
   "canonical_artifacts": {
     "original_reference": "figures/5-2/plots/comparisons/kindle_reference_figure_5_2.png",
     "book_period_reconstruction": "figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png",
