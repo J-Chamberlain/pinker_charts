@@ -1,12 +1,16 @@
 # Source Discovery Log: Figure 7-3
 
-Figure title: Undernourishment, 1970-2015
+Editorial remediation date: 2026-06-30
 
-Evidence inspected:
+- Rechecked the original crop for the regional inventory: Developing world, Sub-Saharan Africa, Southeast Asia, South Asia, East Asia, and Latin America.
+- Rechecked local OWID FAO datasets and the current OWID `prevalence-of-undernourishment` grapher.
+- Recovered current FAO successor entities for each named region, but only for 2000 onward: `Sub-Saharan Africa (FAO)`, `South-eastern Asia (FAO)`, `Southern Asia (FAO)`, `Eastern Asia (FAO)`, and `Latin America and the Caribbean (FAO)`.
+- The exact Roser 2016j / FAO 2014 regional file with early-1990s coverage was not recovered; this remains a research task.
 
-- Rendered PDF preview crop from `page-06.png` after local Kindle page capture was not available for this figure.
-- Source note recovered from the rendered/text-extracted book preview: Our World in Data, Roser 2016j, based on data from the Food and Agriculture Organization 2014, also reported in FAOSTAT.
-- Local OWID dataset mirror and live OWID grapher endpoints checked.
-- Source-family logic applied: OWID, FAO, EM-DAT/Hasell-Roser, Maddison/World Bank, and PovcalNet/Bourguignon-Morrison as applicable.
+Primary public source URLs used during remediation:
 
-Accepted source status: FAO/OWID undernourishment datasets. Current classification: `partial_match`.
+- https://ourworldindata.org/grapher/prevalence-of-undernourishment.csv
+- https://ourworldindata.org/grapher/death-rate-from-famines-by-decade.csv
+- https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia.csv
+- https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020.csv
+- https://ourworldindata.org/grapher/world-population-in-extreme-poverty-absolute.csv

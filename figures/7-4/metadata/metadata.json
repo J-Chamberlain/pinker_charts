@@ -7,9 +7,10 @@
   "book_citation": "Our World in Data, Hasell & Roser 2017, based on data from Devereux 2000; O Grada 2009; White 2011; EM-DAT; and other sources.",
   "download_date": "2026-06-30",
   "reproduction_status": "partial_match",
-  "confidence_score": "medium",
-  "visual_validation": "acceptable with documented caveats",
-  "notes": "The event table is recovered from OWID's famine dataset article; the decadal rate denominator uses current OWID world population interpolation.",
+  "confidence_score": "medium-low",
+  "visual_validation": "partial; aggregation improved with successor OWID decadal-rate series",
+  "editorial_remediation_decision": "Retain partial_match and lower confidence.",
+  "notes": "The previous reconstruction recomputed rates from an event table with a current population denominator. Remediation uses OWID's explicit decadal famine-death-rate grapher series, which fixes the aggregation treatment, but it is a 2025 World Peace Foundation/OWID successor rather than the archived 2017 Hasell-Roser book vintage.",
   "canonical_artifacts": {
     "original_reference": "figures/7-4/plots/comparisons/kindle_reference_figure_7_4.png",
     "book_period_reconstruction": "figures/7-4/plots/book_period/figure_7_4_book_period_reconstruction.png",

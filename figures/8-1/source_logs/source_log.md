@@ -1,12 +1,14 @@
 # Source Discovery Log: Figure 8-1
 
-Figure title: Gross World Product, 1-2015
+Editorial remediation date: 2026-06-30
 
-Evidence inspected:
+- Editorial review reassessed source-family recovery and retained the conservative status decision: Do not promote to verified_reproduction.
+- The successor OWID/Maddison/World Bank series preserves the hockey-stick shape and book-period coverage, but the 2015 scale is materially above the printed figure's apparent endpoint, so this is an updated equivalent rather than an exact reproduction.
 
-- Rendered PDF preview crop from `page-07.png` after local Kindle page capture was not available for this figure.
-- Source note recovered from the rendered/text-extracted book preview: Our World in Data, Roser 2016c, based on data from the World Bank and from Angus Maddison and Maddison Project 2014.
-- Local OWID dataset mirror and live OWID grapher endpoints checked.
-- Source-family logic applied: OWID, FAO, EM-DAT/Hasell-Roser, Maddison/World Bank, and PovcalNet/Bourguignon-Morrison as applicable.
+Primary public source URLs used during remediation:
 
-Accepted source status: OWID World Bank/Maddison GDP series. Current classification: `updated_equivalent`.
+- https://ourworldindata.org/grapher/prevalence-of-undernourishment.csv
+- https://ourworldindata.org/grapher/death-rate-from-famines-by-decade.csv
+- https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia.csv
+- https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020.csv
+- https://ourworldindata.org/grapher/world-population-in-extreme-poverty-absolute.csv

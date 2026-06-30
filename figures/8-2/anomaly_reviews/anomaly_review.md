@@ -1,20 +1,27 @@
-# Anomaly Review: Figure 8-2
+# Editorial Remediation Review: Figure 8-2
 
-## Visible Differences
+Status decision: `updated_equivalent` (medium).
 
-- The recreated plot uses Matplotlib styling rather than the book's production style.
-- The reference crop is from a rendered PDF preview because a fresh local Kindle crop was not available for this batch.
-- Current Maddison 2020/OWID successor data match the broad visual pattern but not the exact book-era source vintage.
+The selected countries and line ordering broadly match the book, but current Maddison 2020/OWID data are not the cited Maddison Project 2014/World Bank 2016 vintage. Remaining differences are not typography-only.
+
+## Series Audit
+
+No regional-series table required for this figure.
 
 ## Reviewer Challenge
 
-- Pinker would likely ask whether the exact book-era dataset vintage has been recovered.
-- A data journalist would ask whether raw downloads and transformations are reproducible.
-- A peer reviewer would ask whether successor data are visually separated from book-period data.
-- A skeptical reader would notice styling and label-placement differences before source caveats.
+- **What would Steven Pinker question?** Whether the selected countries and ordering still communicate uneven enrichment. Resolved: yes, with label caveats.
+- **What would a skeptical data journalist question?** Whether label overlap conceals country ranking differences. Documented: placement improved only modestly; source differences remain.
+- **What would another researcher question?** Whether current Maddison 2020 is source-equivalent to Maddison 2014. Documented: no, status remains updated_equivalent.
 
-Overall confidence: medium.
-Book reconstruction: updated_equivalent.
-Extension: successor or no-comparable-extension treatment is explicitly labeled.
-Source provenance: Maddison/World Bank GDP per capita.
-Outstanding risks: Recover the exact Maddison Project 2014/World Bank 2016 vintage before promoting.
+## Scorecard
+
+| Criterion | Score (1-5) | Justification |
+| --- | ---: | --- |
+| Source recovery | 3 | Current Maddison 2020 series recovered; Maddison Project 2014 vintage not recovered. |
+| Citation chain | 4 | Country series source family is well documented. |
+| Visual similarity | 3 | Country set/order match broadly, with label overlap and revised levels. |
+| Extension quality | 4 | Extension is consistent with the successor dataset. |
+| Caption quality | 4 | Caption distinguishes typography issues from source vintage issues. |
+| Editorial quality | 4 | Classification remains conservative. |
+| Overall confidence | 3 | Good update, not source-identical. |

@@ -2,4 +2,4 @@
 
 Status: `updated_equivalent`.
 
-Current Maddison 2020/OWID successor data match the broad visual pattern but not the exact book-era source vintage.
+The selected countries and line ordering broadly match the book, but current Maddison 2020/OWID data are not the cited Maddison Project 2014/World Bank 2016 vintage. Remaining differences are not typography-only.

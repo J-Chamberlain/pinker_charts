@@ -2,4 +2,4 @@
 
 Status: `updated_equivalent`.
 
-Live OWID successor reproduces the same shape and source family but extends past 2015 and may include revisions.
+The successor OWID/Maddison/World Bank series preserves the hockey-stick shape and book-period coverage, but the 2015 scale is materially above the printed figure's apparent endpoint, so this is an updated equivalent rather than an exact reproduction.

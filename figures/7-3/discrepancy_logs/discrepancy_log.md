@@ -1,6 +1,9 @@
 # Discrepancy Log: Figure 7-3
 
-Status: `partial_match`
+Previous status: `partial_match`
 
-- Main developing-world line is source-supported; regional lines use available FAO/SOFI successor coverage with shorter time span.
-- Remaining differences include exact book typography, crop geometry, and any source-vintage differences documented in the anomaly review.
+Editorial remediation status: `partial_match`
+
+Confidence: `medium-low`
+
+Fresh review found that the prior reconstruction substituted broad Africa/Asia/World curves for several book regional curves. The remediation replaces those with current FAO successor regional entities where available, but the exact Roser 2016j/FAO 2014 regional vintage and 1991-1999 regional segments remain unrecovered.

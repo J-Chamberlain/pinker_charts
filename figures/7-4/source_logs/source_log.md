@@ -1,12 +1,16 @@
 # Source Discovery Log: Figure 7-4
 
-Figure title: Famine deaths, 1860-2016
+Editorial remediation date: 2026-06-30
 
-Evidence inspected:
+- Rechecked the original crop for x-axis treatment: decade labels from 1860s through 2010-2016, no visible smoothing.
+- The previous reconstruction computed decadal rates from an event table and current OWID world population; this was documented as non-identical aggregation/denominator treatment.
+- Recovered OWID's explicit `death-rate-from-famines-by-decade` grapher series and metadata, which defines rates as sum of famine deaths in each ten-year period divided by population.
+- The recovered grapher is a 2025 World Peace Foundation / OWID successor, not the archived 2017 Hasell-Roser book vintage; this explains remaining visual divergence and prevents promotion.
 
-- Rendered PDF preview crop from `page-06.png` after local Kindle page capture was not available for this figure.
-- Source note recovered from the rendered/text-extracted book preview: Our World in Data, Hasell & Roser 2017, based on data from Devereux 2000; O Grada 2009; White 2011; EM-DAT; and other sources.
-- Local OWID dataset mirror and live OWID grapher endpoints checked.
-- Source-family logic applied: OWID, FAO, EM-DAT/Hasell-Roser, Maddison/World Bank, and PovcalNet/Bourguignon-Morrison as applicable.
+Primary public source URLs used during remediation:
 
-Accepted source status: OWID/Hasell-Roser famine table with EM-DAT source family. Current classification: `partial_match`.
+- https://ourworldindata.org/grapher/prevalence-of-undernourishment.csv
+- https://ourworldindata.org/grapher/death-rate-from-famines-by-decade.csv
+- https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia.csv
+- https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020.csv
+- https://ourworldindata.org/grapher/world-population-in-extreme-poverty-absolute.csv

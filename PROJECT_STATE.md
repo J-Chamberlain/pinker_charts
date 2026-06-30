@@ -509,3 +509,16 @@ Canonical documentation:
 - Anomaly review: `figures/8-5/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/8-5/metadata/metadata.json`
 - Review checklist: `figures/8-5/review_checklist.md`
+## Track B Editorial Remediation Addendum
+
+Date: 2026-06-30
+
+| Figure | Prior status | Remediated status | Confidence | Editorial decision |
+| --- | --- | --- | --- | --- |
+| 7-3 | `partial_match` | `partial_match` | medium-low | Retain partial_match and lower confidence. |
+| 7-4 | `partial_match` | `partial_match` | medium-low | Retain partial_match and lower confidence. |
+| 8-1 | `updated_equivalent` | `updated_equivalent` | medium | Do not promote to verified_reproduction. |
+| 8-2 | `updated_equivalent` | `updated_equivalent` | medium | Retain updated_equivalent. |
+| 8-5 | `verified_reproduction` | `verified_reproduction` | high | Retain verified_reproduction. |
+
+See `reports/track_b_editorial_remediation.md` for the full reviewer challenge, scorecards, comparison images, and remaining blockers.

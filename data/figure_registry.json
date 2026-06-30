@@ -127,12 +127,12 @@
     "page": "",
     "year_range": "1970-2015",
     "current_status": "partial_match",
-    "lifecycle_stage": "source_recovery_and_partial_book_period_reconstruction",
+    "lifecycle_stage": "editorial_remediated_partial_source_family_reconstruction",
     "source_type_guess": "FAO/OWID undernourishment datasets",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Recover the exact Roser 2016j regional FAO 2014 vintage before promoting.",
-    "notes": "Track B update 2026-06-30: Main developing-world line is source-supported; regional lines use available FAO/SOFI successor coverage with shorter time span."
+    "next_action": "Research task: recover exact Roser 2016j / FAO 2014 regional data with early-1990s coverage before any promotion.",
+    "notes": "Editorial remediation 2026-06-30: all named regional successor curves now plotted where available; World substitution removed; confidence lowered because exact regional vintage and early regional segments remain unrecovered."
   },
   {
     "figure_id": "7-4",
@@ -142,12 +142,12 @@
     "page": "",
     "year_range": "1860-2016",
     "current_status": "partial_match",
-    "lifecycle_stage": "source_supported_reconstruction_with_denominator_caveat",
+    "lifecycle_stage": "editorial_remediated_successor_decadal_rate_reconstruction",
     "source_type_guess": "OWID/Hasell-Roser famine table with EM-DAT source family",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Recover archived 2017 OWID grapher/table and denominator notes for exact visual verification.",
-    "notes": "Track B update 2026-06-30: The event table is recovered from OWID's famine dataset article; the decadal rate denominator uses current OWID world population interpolation."
+    "next_action": "Research task: recover archived 2017 Hasell-Roser OWID decadal-rate grapher/output and denominator notes.",
+    "notes": "Editorial remediation 2026-06-30: replaced hand-computed event-table rate with OWID decadal-rate successor series; confidence lowered because successor vintage diverges visibly from book-era curve."
   },
   {
     "figure_id": "8-1",
@@ -157,12 +157,12 @@
     "page": "",
     "year_range": "2015",
     "current_status": "updated_equivalent",
-    "lifecycle_stage": "book_period_reconstruction_with_successor_extension",
+    "lifecycle_stage": "editorial_reviewed_successor_equivalent",
     "source_type_guess": "OWID World Bank/Maddison GDP series",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Recover the exact 2017 OWID CSV if archival precision is required.",
-    "notes": "Track B update 2026-06-30: Live OWID successor reproduces the same shape and source family but extends past 2015 and may include revisions."
+    "next_action": "Recover exact OWID Roser 2016c/Maddison Project 2014 vintage before considering verified_reproduction.",
+    "notes": "Editorial remediation 2026-06-30: remains updated_equivalent, not verified_reproduction, because current successor scaling differs from the printed 2015 endpoint."
   },
   {
     "figure_id": "8-2",
@@ -172,12 +172,12 @@
     "page": "",
     "year_range": "1600-2015",
     "current_status": "updated_equivalent",
-    "lifecycle_stage": "book_period_reconstruction_with_successor_extension",
+    "lifecycle_stage": "editorial_reviewed_successor_equivalent",
     "source_type_guess": "Maddison/World Bank GDP per capita",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Recover the exact Maddison Project 2014/World Bank 2016 vintage before promoting.",
-    "notes": "Track B update 2026-06-30: Current Maddison 2020/OWID successor data match the broad visual pattern but not the exact book-era source vintage."
+    "next_action": "Recover exact Maddison Project 2014/World Bank 2016 vintage before considering verified_reproduction.",
+    "notes": "Editorial remediation 2026-06-30: remains updated_equivalent; source-vintage differences remain in addition to label/typography issues."
   },
   {
     "figure_id": "8-3",
@@ -217,12 +217,12 @@
     "page": "",
     "year_range": "1820-2015",
     "current_status": "verified_reproduction",
-    "lifecycle_stage": "reviewed_book_period_reconstruction_no_comparable_extension",
+    "lifecycle_stage": "editorial_audited_verified_reproduction",
     "source_type_guess": "OWID historical extreme-poverty absolute-count dataset",
     "priority": "publication_review",
     "current_owner": "Codex",
-    "next_action": "Publication review; add extension only if a comparable successor world count is recovered.",
-    "notes": "Track B update 2026-06-30: Book-period source family and visual encoding are reproduced; no comparable post-2015 extension is plotted."
+    "next_action": "No source blocker; retain verified_reproduction unless future audit finds a material issue.",
+    "notes": "Editorial remediation 2026-06-30: falsification audit found no material issue; classification retained."
   },
   {
     "figure_id": "9-1",

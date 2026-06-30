@@ -2,4 +2,4 @@
 
 Status: `verified_reproduction`.
 
-Book-period source family and visual encoding are reproduced; no comparable post-2015 extension is plotted.
+A falsification audit found no material source, encoding, or endpoint issue. The reconstruction uses the cited OWID historical absolute-count series and matches the stacked-area visual claim; remaining differences are production styling only.

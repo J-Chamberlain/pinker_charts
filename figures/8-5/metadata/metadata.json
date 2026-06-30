@@ -8,8 +8,9 @@
   "download_date": "2026-06-30",
   "reproduction_status": "verified_reproduction",
   "confidence_score": "high",
-  "visual_validation": "good",
-  "notes": "Book-period source family and visual encoding are reproduced; no comparable post-2015 extension is plotted.",
+  "visual_validation": "verified after falsification audit",
+  "editorial_remediation_decision": "Retain verified_reproduction.",
+  "notes": "A falsification audit found no material source, encoding, or endpoint issue. The reconstruction uses the cited OWID historical absolute-count series and matches the stacked-area visual claim; remaining differences are production styling only.",
   "canonical_artifacts": {
     "original_reference": "figures/8-5/plots/comparisons/kindle_reference_figure_8_5.png",
     "book_period_reconstruction": "figures/8-5/plots/book_period/figure_8_5_book_period_reconstruction.png",

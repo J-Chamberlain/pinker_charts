@@ -1,12 +1,14 @@
 # Source Discovery Log: Figure 8-5
 
-Figure title: Extreme poverty (number), 1820-2015
+Editorial remediation date: 2026-06-30
 
-Evidence inspected:
+- Editorial review reassessed source-family recovery and retained the conservative status decision: Retain verified_reproduction.
+- A falsification audit found no material source, encoding, or endpoint issue. The reconstruction uses the cited OWID historical absolute-count series and matches the stacked-area visual claim; remaining differences are production styling only.
 
-- Rendered PDF preview crop from `page-09.png` after local Kindle page capture was not available for this figure.
-- Source note recovered from the rendered/text-extracted book preview: Our World in Data, Roser & Ortiz-Ospina 2017, based on data from Bourguignon & Morrison 2002 (1820-1992) and the World Bank 2016g (1981-2015).
-- Local OWID dataset mirror and live OWID grapher endpoints checked.
-- Source-family logic applied: OWID, FAO, EM-DAT/Hasell-Roser, Maddison/World Bank, and PovcalNet/Bourguignon-Morrison as applicable.
+Primary public source URLs used during remediation:
 
-Accepted source status: OWID historical extreme-poverty absolute-count dataset. Current classification: `verified_reproduction`.
+- https://ourworldindata.org/grapher/prevalence-of-undernourishment.csv
+- https://ourworldindata.org/grapher/death-rate-from-famines-by-decade.csv
+- https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia.csv
+- https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020.csv
+- https://ourworldindata.org/grapher/world-population-in-extreme-poverty-absolute.csv

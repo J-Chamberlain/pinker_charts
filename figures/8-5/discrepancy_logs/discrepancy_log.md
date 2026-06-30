@@ -1,6 +1,9 @@
 # Discrepancy Log: Figure 8-5
 
-Status: `verified_reproduction`
+Previous status: `verified_reproduction`
 
-- Book-period source family and visual encoding are reproduced; no comparable post-2015 extension is plotted.
-- Remaining differences include exact book typography, crop geometry, and any source-vintage differences documented in the anomaly review.
+Editorial remediation status: `verified_reproduction`
+
+Confidence: `high`
+
+A falsification audit found no material source, encoding, or endpoint issue. The reconstruction uses the cited OWID historical absolute-count series and matches the stacked-area visual claim; remaining differences are production styling only.
