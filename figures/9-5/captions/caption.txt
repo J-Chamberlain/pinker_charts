@@ -1,0 +1,1 @@
+Figure 9-5: Income gains, 1988-2008. Source line inspected from the Chapter 9 preview PDF: Milanovic 2016, fig. 1.3. No recreated data series is plotted because the original underlying data file was not recovered, and this project does not reconstruct from digitized chart values.

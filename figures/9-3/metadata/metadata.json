@@ -1,0 +1,24 @@
+{
+  "figure_id": "9-3",
+  "title": "Inequality, UK and US, 1688-2013",
+  "chapter": "9",
+  "book_page": "Preview PDF page image page-10; Kindle-equivalent figure/source inspected",
+  "year_range": "1688-2013",
+  "claim_summary": "Long-run UK and US Gini series rose, fell in the mid-twentieth century, and rose again in recent decades.",
+  "book_citation": "Milanovic 2016, fig. 2.1, disposable income per capita.",
+  "original_dataset": "Milanovic 2016 figure 2.1 underlying table was not recovered as an inspectable data file.",
+  "dataset_url": "",
+  "archive_url": "",
+  "download_date": "2026-06-30",
+  "reproduction_status": "manual_review_needed",
+  "confidence_score": 0.35,
+  "visual_validation": "blocked",
+  "notes": "Recover Milanovic 2016 figure 2.1 spreadsheet, including UK/England and US disposable-income-per-capita Gini series.",
+  "canonical_artifacts": {
+    "kindle_reference": "figures/9-3/plots/comparisons/kindle_reference_figure_9_3.png",
+    "book_period_reconstruction": "figures/9-3/plots/book_period/figure_9_3_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/9-3/plots/extended/figure_9_3_extended_reconstruction.png",
+    "book_period_comparison": "figures/9-3/plots/comparisons/figure_9_3_book_period_comparison.png",
+    "extended_comparison": "figures/9-3/plots/comparisons/figure_9_3_extended_comparison.png"
+  }
+}

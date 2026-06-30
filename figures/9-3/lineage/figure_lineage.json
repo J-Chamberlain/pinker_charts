@@ -1,0 +1,14 @@
+[
+  {
+    "figure_id": "9-3",
+    "artifact": "book_reference",
+    "source": "Chapter 9 preview PDF page crop",
+    "status": "reference_only"
+  },
+  {
+    "figure_id": "9-3",
+    "artifact": "status_panel",
+    "source": "no accepted reconstruction data",
+    "status": "manual_review_needed"
+  }
+]

@@ -1,0 +1,1 @@
+Figure 9-3: Inequality, UK and US, 1688-2013. Source line inspected from the Chapter 9 preview PDF: Milanovic 2016, fig. 2.1, disposable income per capita. No recreated data series is plotted because the original underlying data file was not recovered, and this project does not reconstruct from digitized chart values.

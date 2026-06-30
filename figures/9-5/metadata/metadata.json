@@ -1,0 +1,24 @@
+{
+  "figure_id": "9-5",
+  "title": "Income gains, 1988-2008",
+  "chapter": "9",
+  "book_page": "Preview PDF page image page-11; Kindle-equivalent figure/source inspected",
+  "year_range": "1988-2008",
+  "claim_summary": "The global growth-incidence curve from 1988 to 2008 has the familiar elephant shape: strong middle-percentile gains, weak upper-middle gains, and high top-percentile gains.",
+  "book_citation": "Milanovic 2016, fig. 1.3.",
+  "original_dataset": "Milanovic 2016 figure 1.3 underlying percentile-growth data were not recovered as an inspectable data file.",
+  "dataset_url": "",
+  "archive_url": "",
+  "download_date": "2026-06-30",
+  "reproduction_status": "manual_review_needed",
+  "confidence_score": 0.35,
+  "visual_validation": "blocked",
+  "notes": "Recover Milanovic 2016 figure 1.3 or Lakner-Milanovic global growth-incidence spreadsheet for 1988-2008.",
+  "canonical_artifacts": {
+    "kindle_reference": "figures/9-5/plots/comparisons/kindle_reference_figure_9_5.png",
+    "book_period_reconstruction": "figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/9-5/plots/extended/figure_9_5_extended_reconstruction.png",
+    "book_period_comparison": "figures/9-5/plots/comparisons/figure_9_5_book_period_comparison.png",
+    "extended_comparison": "figures/9-5/plots/comparisons/figure_9_5_extended_comparison.png"
+  }
+}

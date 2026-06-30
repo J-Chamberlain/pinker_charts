@@ -98,3 +98,10 @@ Figure 19-1's actual Kindle capture revealed that a line chart proxy cannot
 pass visual validation for a stacked-area original even if the broad trend is
 similar. Source recovery and transformation must reproduce the visual encoding,
 not just the topic.
+
+## A Blocked Figure Still Needs A Review Package
+
+Track C showed that when the cited raw data are not recovered, the right output
+is not a weak digitized reconstruction. Capture the source line and reference
+image, write the recovery target, generate an explicit status comparison panel,
+and classify the figure as source-blocked or manual-review-needed.
