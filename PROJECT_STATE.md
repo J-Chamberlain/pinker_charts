@@ -1,6 +1,6 @@
 # Project State
 
-Last update: 2026-06-30 02:55 America/Los_Angeles
+Last update: 2026-06-30 03:25 America/Los_Angeles
 
 Project version: `1.5-track-a-health-nutrition-branch`
 
@@ -49,11 +49,11 @@ this file are all updated. Only then may Codex begin another figure.
 | --- | --- | --- | --- | --- | --- |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
 | 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Remediated to use the current OWID selected child-mortality series in percent units; exact Roser 2016a UN/HMD assembled source remains unresolved. |
-| 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Kindle chart/source captured; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
-| 5-4 | Life expectancy, UK, 1701-2013 | Track A targeted source recovery needed | `needs_targeted_source_recovery` | Low | Kindle chart captured, but exact age-specific HMD/OWID series for ages 1, 5, 10, 20, 30, 40, 50, 60, and 70 were not recovered. |
-| 6-1 | Childhood deaths from infectious disease, 2000-2013 | Track A evidence/source blocked | `blocked_external_source` | Low | Kindle chart-page capture failed during the time-box; IHME proxy generated but cited CHERG/WHO Liu et al. appendix remains unrecovered. |
-| 7-1 | Calories, 1700-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Kindle chart/source captured; OWID/FAO historical calories dataset gives a plausible reconstruction but exact book-era source styling/vintage is unresolved. |
-| 7-2 | Childhood stunting, 1966-2014 | Track A time-boxed reconstruction | `partial_match` | Medium-low | Kindle chart/source captured; World Bank stunting prevalence proxy used because exact OWID/Roser 2016j WHO NLIS vintage was not recovered. |
+| 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference refreshed from supplemental PDF page 3; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
+| 5-4 | Life expectancy, UK, 1701-2013 | Track A targeted source recovery needed | `needs_targeted_source_recovery` | Low | Book reference/source refreshed from supplemental PDF page 4, but exact age-specific HMD/OWID series for ages 1, 5, 10, 20, 30, 40, 50, 60, and 70 were not recovered. |
+| 6-1 | Childhood deaths from infectious disease, 2000-2013 | Track A source blocked | `blocked_external_source` | Low | Book reference/source refreshed from supplemental PDF page 4; IHME proxy generated but cited CHERG/WHO Liu et al. appendix remains unrecovered. |
+| 7-1 | Calories, 1700-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference/source refreshed from supplemental PDF page 5; OWID/FAO historical calories dataset gives a plausible reconstruction but exact book-era source styling/vintage is unresolved. |
+| 7-2 | Childhood stunting, 1966-2014 | Track A time-boxed reconstruction | `partial_match` | Medium-low | Book reference/source refreshed from supplemental PDF page 5; World Bank stunting prevalence proxy used because exact OWID/Roser 2016j WHO NLIS vintage was not recovered. |
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |

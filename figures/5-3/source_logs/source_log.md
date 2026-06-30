@@ -12,7 +12,7 @@ Original book citation: Our World in Data, Roser 2016p, based partly on data fro
 - current public successor data where exact book vintage was unavailable
 
 ## Sources Investigated
-- Kindle: accepted for chart reference/source line.
+- Reference image: Supplemental PDF page 3 crop accepted for chart reference/source line.
 - Dataset used: Maternal Mortality Ratio (Gapminder (2010), WHO (2019) and OECD (2022)).
 - Local OWID mirror and current public data were used where available.
 

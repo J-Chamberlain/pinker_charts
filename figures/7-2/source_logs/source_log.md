@@ -12,7 +12,7 @@ Original book citation: Our World in Data, Roser 2016j, based on WHO Nutrition L
 - current public successor data where exact book vintage was unavailable
 
 ## Sources Investigated
-- Kindle: accepted for chart reference/source line.
+- Reference image: Supplemental PDF page 5 crop accepted for chart reference/source line.
 - Dataset used: World Bank stunting prevalence proxy; exact OWID/WHO NLIS vintage not recovered.
 - Local OWID mirror and current public data were used where available.
 

@@ -12,7 +12,7 @@ Original book citation: United States, England, and France: Our World in Data, R
 - current public successor data where exact book vintage was unavailable
 
 ## Sources Investigated
-- Kindle: accepted for chart reference/source line.
+- Reference image: Supplemental PDF page 5 crop accepted for chart reference/source line.
 - Dataset used: Daily supply of calories per person (OWID based on UN FAO & historical sources).
 - Local OWID mirror and current public data were used where available.
 

@@ -15,6 +15,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageOps
 ROOT = Path(__file__).resolve().parents[1]
 OWID = Path("/Users/alfred/Documents/MIsc/enlightenment_now_poc/data/repositories/owid-datasets/datasets")
 TMP_KINDLE = ROOT / "tmp/track_a_kindle"
+TMP_PDF = ROOT / "tmp/track_a_pdf_pages"
 TODAY = date.today().isoformat()
 
 
@@ -118,7 +119,7 @@ def side_by_side(reference: Path, recreated: Path, output: Path, title: str) -> 
     left_x = margin
     right_x = margin + panel_w + gap
     label_y = title_h + 8
-    draw.text((left_x + panel_w // 2, label_y), "Kindle reference", fill="black", anchor="ma", font=label_font)
+    draw.text((left_x + panel_w // 2, label_y), "Book reference", fill="black", anchor="ma", font=label_font)
     draw.text((right_x + panel_w // 2, label_y), "Recreated", fill="black", anchor="ma", font=label_font)
     paste_fit(ref, left_x, title_h + header_h)
     paste_fit(rec, right_x, title_h + header_h)
@@ -130,71 +131,76 @@ FIGURES = {
     "5-3": {
         "title": "Maternal mortality, 1751-2013",
         "chapter": "5",
-        "book_page": "Kindle page 57 search result",
+        "book_page": "Supplemental PDF page 3; Kindle page previously inspected",
         "claim": "Maternal mortality declined sharply in representative countries.",
         "citation": "Our World in Data, Roser 2016p, based partly on data from Claudia Hanson of Gapminder.",
         "source_status": "updated_equivalent",
         "status": "partial_match",
         "confidence": 0.70,
         "validation": "acceptable",
-        "kindle": TMP_KINDLE / "page_5_3.png",
-        "crop": (285, 360, 946, 830),
+        "reference_source": "Supplemental PDF page 3 crop",
+        "kindle": TMP_PDF / "page-03.png",
+        "crop": (145, 835, 1000, 1535),
         "dataset": "Maternal Mortality Ratio (Gapminder (2010), WHO (2019) and OECD (2022))",
     },
     "5-4": {
         "title": "Life expectancy, UK, 1701-2013",
         "chapter": "5",
-        "book_page": "Kindle page 57 chart capture",
+        "book_page": "Supplemental PDF page 4; Kindle page previously inspected",
         "claim": "UK life expectancy improved at birth and across older ages.",
-        "citation": "Kindle chart inspected; full source line not fully visible in the captured page. Likely OWID/HMD-derived age-specific life expectancy source.",
+        "citation": "Our World in Data, Roser 2016n. Data before 1845 are for England and Wales and come from OECD Clio Infra, van Zanden et al. 2014. Data from 1845 on are for mid-decade years only, and come from the Human Mortality Database.",
         "source_status": "needs_targeted_source_recovery",
         "status": "needs_targeted_source_recovery",
         "confidence": 0.40,
         "validation": "poor",
-        "kindle": TMP_KINDLE / "page_5_3.png",
-        "crop": (975, 438, 1637, 865),
+        "reference_source": "Supplemental PDF page 4 crop",
+        "kindle": TMP_PDF / "page-04.png",
+        "crop": (110, 125, 1000, 820),
         "dataset": "partial HMD/OWID age-specific life-expectancy sources",
     },
     "6-1": {
         "title": "Childhood deaths from infectious disease, 2000-2013",
         "chapter": "6",
-        "book_page": "Kindle source not successfully captured during Track A",
+        "book_page": "Supplemental PDF page 4; Kindle chart page not captured during Track A",
         "claim": "Childhood deaths from major infectious diseases fell between 2000 and 2013.",
         "citation": "Child Health Epidemiology Reference Group of the World Health Organization; Liu et al. 2014, supplementary appendix.",
         "source_status": "blocked_external_source",
         "status": "blocked_external_source",
         "confidence": 0.30,
-        "validation": "blocked",
-        "kindle": None,
-        "crop": None,
+        "validation": "poor",
+        "reference_source": "Supplemental PDF page 4 crop",
+        "kindle": TMP_PDF / "page-04.png",
+        "crop": (60, 815, 1000, 1540),
         "dataset": "IHME 2017 causes of child mortality proxy; cited Liu et al. appendix not recovered",
     },
     "7-1": {
         "title": "Calories, 1700-2013",
         "chapter": "7",
-        "book_page": "Kindle page 70 search result",
+        "book_page": "Supplemental PDF page 5; Kindle page previously inspected",
         "claim": "Average calorie availability rose in developed and developing regions.",
         "citation": "United States, England, and France: Our World in Data, Roser 2016d, based on Fogel 2004. China, India, and World: FAO.",
         "source_status": "updated_equivalent",
         "status": "partial_match",
         "confidence": 0.76,
         "validation": "acceptable",
-        "kindle": TMP_KINDLE / "page_7_1.png",
-        "crop": (285, 147, 946, 592),
+        "reference_source": "Supplemental PDF page 5 crop",
+        "kindle": TMP_PDF / "page-05.png",
+        "crop": (135, 130, 1035, 780),
         "dataset": "Daily supply of calories per person (OWID based on UN FAO & historical sources)",
     },
     "7-2": {
         "title": "Childhood stunting, 1966-2014",
         "chapter": "7",
-        "book_page": "Kindle page 70 chart capture",
+        "book_page": "Supplemental PDF page 5; Kindle page previously inspected",
         "claim": "Childhood stunting fell in several developing countries.",
         "citation": "Our World in Data, Roser 2016j, based on WHO Nutrition Landscape Information System.",
         "source_status": "partial_match",
         "status": "partial_match",
         "confidence": 0.55,
         "validation": "acceptable",
-        "kindle": TMP_KINDLE / "page_7_1.png",
-        "crop": (975, 147, 1637, 625),
+        "reference_source": "Supplemental PDF page 5 crop",
+        "kindle": TMP_PDF / "page-05.png",
+        "crop": (135, 845, 995, 1550),
         "dataset": "World Bank stunting prevalence proxy; exact OWID/WHO NLIS vintage not recovered",
     },
 }
@@ -333,7 +339,7 @@ def plot_6_1():
     ext_plot = b / "plots/extended/figure_6_1_extended_reconstruction.png"
     draw(book_plot)
     draw(ext_plot, True)
-    ref = crop_or_placeholder(fig_id, None, None, "Kindle search/navigation did not successfully capture the Figure 6-1 chart page in this time-boxed pass.")
+    ref = crop_or_placeholder(fig_id, FIGURES[fig_id]["kindle"], FIGURES[fig_id]["crop"], "Supplemental PDF supplies the Figure 6-1 chart reference.")
     side_by_side(ref, book_plot, b / "plots/comparisons/figure_6_1_book_period_comparison.png", "Figure 6-1 book-period comparison")
     side_by_side(ref, ext_plot, b / "plots/comparisons/figure_6_1_extended_comparison.png", "Figure 6-1 extended comparison")
 
@@ -484,7 +490,7 @@ def write_docs(fig_id: str):
         "## Search Queries Attempted\n"
         + "\n".join(f"- {q}" for q in searches)
         + "\n\n## Sources Investigated\n"
-        f"- Kindle: {'accepted for chart reference/source line' if info['kindle'] else 'source-line evidence only; chart capture unresolved'}.\n"
+        f"- Reference image: {info.get('reference_source', 'Kindle chart capture')} accepted for chart reference/source line.\n"
         f"- Dataset used: {info['dataset']}.\n"
         "- Local OWID mirror and current public data were used where available.\n\n"
         "## Remaining Uncertainties\n"
@@ -495,7 +501,7 @@ def write_docs(fig_id: str):
     )
     (b / "provenance/provenance.md").write_text(
         f"# Provenance: Figure {fig_id}\n\n"
-        f"Book figure -> Kindle evidence -> {info['dataset']} -> "
+        f"Book figure -> {info.get('reference_source', 'Kindle evidence')} -> {info['dataset']} -> "
         "`scripts/reconstruct_track_a_health_nutrition.py` -> generated plots.\n\n"
         f"Source note: {info['citation']}\n"
     )
@@ -503,7 +509,7 @@ def write_docs(fig_id: str):
         f"# Anomaly Review: Figure {fig_id}\n\n"
         "## Visible Differences\n"
         "- Styling, typography, label placement, and crop geometry are approximate.\n"
-        + ("- Kindle chart-page reference is missing; placeholder blocks visual validation.\n" if fig_id == "6-1" else "")
+        + ("- Supplemental PDF supplies the chart reference, but the cited Liu et al. appendix remains unrecovered.\n" if fig_id == "6-1" else "")
         + ("- Reconstruction is visibly incomplete because only age-at-birth, age-15, and age-45 proxy series were recovered.\n" if fig_id == "5-4" else "")
         + "\n## Cause Assessment\n"
         f"- Current status: `{info['status']}`.\n"

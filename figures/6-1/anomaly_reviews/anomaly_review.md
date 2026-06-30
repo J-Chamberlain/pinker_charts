@@ -2,7 +2,7 @@
 
 ## Visible Differences
 - Styling, typography, label placement, and crop geometry are approximate.
-- Kindle chart-page reference is missing; placeholder blocks visual validation.
+- Supplemental PDF supplies the chart reference, but the cited Liu et al. appendix remains unrecovered.
 
 ## Cause Assessment
 - Current status: `blocked_external_source`.

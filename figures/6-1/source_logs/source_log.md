@@ -12,7 +12,7 @@ Original book citation: Child Health Epidemiology Reference Group of the World H
 - current public successor data where exact book vintage was unavailable
 
 ## Sources Investigated
-- Kindle: source-line evidence only; chart capture unresolved.
+- Reference image: Supplemental PDF page 4 crop accepted for chart reference/source line.
 - Dataset used: IHME 2017 causes of child mortality proxy; cited Liu et al. appendix not recovered.
 - Local OWID mirror and current public data were used where available.
 

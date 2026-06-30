@@ -17,7 +17,9 @@ Figures processed:
 This was a time-boxed five-figure batch. It produced reproducible figure
 directories, raw and clean data files, book-period and extended plots,
 side-by-side comparison images, source logs, provenance files, anomaly reviews,
-lineage files, review checklists, metadata, and checksums.
+lineage files, review checklists, metadata, and checksums. A supplemental PDF
+reference was later used to refresh the book-reference crops for all five
+figures, including Figure 6-1.
 
 No Track A figure was promoted to `verified_reproduction`.
 
@@ -27,7 +29,8 @@ No Track A figure was promoted to `verified_reproduction`.
 
 Status: `partial_match`
 
-Kindle evidence: chart page and source line captured.
+Book evidence: supplemental PDF page 3 crop; Kindle page had previously been
+inspected.
 
 Dataset used: current OWID maternal mortality ratio dataset, including
 Gapminder/World Bank/WHO/OECD successor columns.
@@ -41,8 +44,7 @@ partial match.
 
 Status: `needs_targeted_source_recovery`
 
-Kindle evidence: chart page captured, but full source line was not visible in
-the screenshot.
+Book evidence: supplemental PDF page 4 crop with full source line.
 
 Dataset used: partial OWID/HMD-derived age-specific life-expectancy sources.
 
@@ -54,19 +56,23 @@ series. This needs targeted recovery of the exact HMD/OWID age-specific data.
 
 Status: `blocked_external_source`
 
-Kindle evidence: chart-page capture failed during the time-box.
+Book evidence: supplemental PDF page 4 crop with full source line. Kindle
+navigation had failed during the original time-box, but the PDF reference now
+allows visual side-by-side review.
 
 Dataset used: IHME 2017 causes of child mortality proxy.
 
-Result: generated only as a blocked proxy artifact. The cited CHERG/WHO Liu et
-al. 2014 supplementary appendix and the Kindle chart reference are still
-required before visual validation can begin.
+Result: side-by-side comparison now uses the book figure reference, but the
+reconstruction remains blocked as a source-data reproduction because the cited
+CHERG/WHO Liu et al. 2014 supplementary appendix has not been recovered. The
+current plot is an IHME proxy and visibly does not match the book's line chart.
 
 ### Figure 7-1
 
 Status: `partial_match`
 
-Kindle evidence: chart page and source line captured.
+Book evidence: supplemental PDF page 5 crop; Kindle page had previously been
+inspected.
 
 Dataset used: OWID daily calorie supply dataset based on FAO and historical
 sources.
@@ -79,7 +85,8 @@ partial match.
 
 Status: `partial_match`
 
-Kindle evidence: chart page and source line captured.
+Book evidence: supplemental PDF page 5 crop; Kindle page had previously been
+inspected.
 
 Dataset used: World Bank stunting prevalence indicator
 `SH.STA.STNT.ZS` as a proxy.
@@ -92,13 +99,14 @@ the book.
 
 Critical issues found:
 
-- Figure 6-1 is missing a Kindle chart-page reference.
+- None remain after the supplemental PDF reference refresh.
 
 Major issues found:
 
 - Figure 5-4 is visibly incomplete because the exact age-specific source series
   were not recovered.
-- Figure 6-1 uses a proxy source and a placeholder reference.
+- Figure 6-1 uses a proxy source and remains a major visible mismatch to the
+  book line chart.
 - Figures 5-3, 7-1, and 7-2 use updated or proxy source vintages rather than
   proven exact book-era datasets.
 
@@ -111,12 +119,17 @@ Issues automatically corrected:
 
 - Corrected Figure 6-1 proxy values after noticing the first reconstruction had
   multiplied already-percent IHME values by 100.
+- Replaced the Figure 6-1 placeholder reference with the supplied supplemental
+  PDF crop and regenerated both side-by-side comparisons.
+- Refreshed all five Track A book-reference crops from the supplemental PDF for
+  consistent side-by-side review.
 
 Issues remaining:
 
 - Exact source-vintage recovery is still needed for all five figures before any
   can be considered verified.
-- Figure 6-1 needs the Kindle chart capture and cited external appendix.
+- Figure 6-1 still needs the cited external appendix or an archival equivalent;
+  the book-reference image is now available from the supplemental PDF.
 
 Publication decision:
 

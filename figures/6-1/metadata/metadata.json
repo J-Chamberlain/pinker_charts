@@ -2,7 +2,7 @@
   "figure_id": "6-1",
   "chapter": "6",
   "title": "Childhood deaths from infectious disease, 2000-2013",
-  "book_page": "Kindle source not successfully captured during Track A",
+  "book_page": "Supplemental PDF page 4; Kindle chart page not captured during Track A",
   "claim_summary": "Childhood deaths from major infectious diseases fell between 2000 and 2013.",
   "book_citation": "Child Health Epidemiology Reference Group of the World Health Organization; Liu et al. 2014, supplementary appendix.",
   "original_dataset": "IHME 2017 causes of child mortality proxy; cited Liu et al. appendix not recovered",
@@ -11,7 +11,7 @@
   "download_date": "2026-06-30",
   "reproduction_status": "blocked_external_source",
   "confidence_score": 0.3,
-  "visual_validation": "blocked",
+  "visual_validation": "poor",
   "notes": "Track A health/nutrition batch. Source status: blocked_external_source.",
   "canonical_artifacts": {
     "original_reference": "figures/6-1/plots/comparisons/kindle_reference_figure_6_1.png",
