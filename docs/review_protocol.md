@@ -135,6 +135,77 @@ Every identified issue becomes one of:
 The answers should appear in the anomaly review, the figure README, or a
 figure-specific completed checklist.
 
+## Final Gate - Editorial Review
+
+After the five evidence and reconstruction phases, every batch must pass the
+[Editorial Review Gate](editorial_review_gate.md). This gate is separate from
+scientific validation. It judges publication quality: what is obvious to an
+editor, website visitor, book reader, or principal investigator who sees the
+comparison pages for the first time.
+
+Run this gate after:
+
+- Reconstruction.
+- Extension.
+- Captions.
+- Anomaly review.
+- Review checklist.
+
+Run it before:
+
+- Final commit.
+- `PROJECT_STATE.md` completion language.
+- Marking the batch complete.
+
+The rapid-scan question is:
+
+> If I opened this report for the first time, what would immediately catch my
+> eye?
+
+For every figure, answer:
+
+- Completeness: Is anything obviously missing?
+- Layout: Does anything look visually wrong?
+- Visual similarity: Would a human immediately say the original and recreated
+  figures look like the same figure?
+- Extensions: Are dashed or otherwise marked extensions visually clear and not
+  misleadingly continuous?
+- Captions: Does the caption explain every obvious visual discrepancy?
+
+Any issue obvious within approximately ten seconds of viewing the page must be
+corrected automatically or explicitly explained.
+
+Classify every issue:
+
+- `Critical`: missing Kindle reference, missing comparison image, wrong source,
+  wrong figure, missing reconstruction, or equivalent publication blocker.
+- `Major`: obvious visual mismatch, wrong scale, poor layout, misleading
+  extension, or unexplained conspicuous discrepancy.
+- `Minor`: typography, label placement, line thickness, spacing, or similar
+  polish issue.
+
+A batch may not complete while any `Critical` issue exists or any unexplained
+`Major` issue exists. Minor issues may remain only if documented.
+
+After reviewing figures individually, perform a cross-figure review:
+
+- Which figure looks weakest?
+- Which figure would most concern a reviewer?
+- Is the weakest figure good enough to publish?
+
+If the weakest figure is not good enough, continue improving it or document why
+manual input or further source recovery is genuinely required.
+
+Every batch must conclude with an Editorial Review Summary covering:
+
+- Critical issues found.
+- Major issues found.
+- Minor issues found.
+- Issues automatically corrected.
+- Issues remaining.
+- Why the batch is acceptable for publication or remains a documented
+  partial/blocked batch.
+
 ## Reviewer Confidence
 
 Every figure review should conclude with:
@@ -158,6 +229,7 @@ A figure is complete only when:
 - Extension is satisfactory or its absence is explained.
 - Discrepancies have been reviewed.
 - Reviewer questions have been answered.
+- Editorial Review Gate has passed or its blockers are explicitly documented.
 - Repository files are updated.
 - Registry row is updated.
 - `PROJECT_STATE.md` is updated.
@@ -185,6 +257,7 @@ Before a figure advances, update:
 - Source logs and search iterations.
 - Provenance and discrepancy logs.
 - Caption and anomaly review.
+- Editorial review summary for the batch, when the figure is part of a batch.
 - Side-by-side visual artifacts.
 - `data/figure_registry.csv`.
 - `data/figure_registry.json`.

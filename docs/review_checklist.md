@@ -70,6 +70,33 @@ Recommended destination:
 - [ ] Answered: What would a skeptical reader notice immediately?
 - [ ] Each reviewer issue marked resolved, documented, or new research task.
 
+## Final Gate - Editorial Review
+
+- [ ] Every book-period comparison image opened and visually scanned.
+- [ ] Every extended comparison image opened and visually scanned, where
+  available.
+- [ ] Completeness checked: Kindle reference, reconstruction, extension or
+  absence explanation, caption, and labels.
+- [ ] Layout checked: scaling, cropping, whitespace, margins, label placement,
+  overlap, and plot size.
+- [ ] Visual similarity checked: original and recreated figures visibly
+  resemble the same figure or discrepancy is explained.
+- [ ] Extension clarity checked: dashed or otherwise marked transition is clear
+  and successor data are not misleadingly continuous.
+- [ ] Caption checked: every obvious visual discrepancy is explained before a
+  reader has to ask.
+- [ ] Every ten-second-obvious issue corrected or explicitly explained.
+- [ ] Issues classified as `Critical`, `Major`, or `Minor`.
+- [ ] No `Critical` issues remain.
+- [ ] No unexplained `Major` issues remain.
+- [ ] Remaining `Minor` issues documented.
+- [ ] Cross-figure review completed.
+- [ ] Weakest figure identified.
+- [ ] Most reviewer-concerning figure identified.
+- [ ] Weakest figure judged publishable or documented as requiring manual input
+  or further source recovery.
+- [ ] Editorial Review Summary written.
+
 ## Repository Updates
 
 - [ ] Caption written or updated.
@@ -84,6 +111,7 @@ Recommended destination:
 - [ ] `PROJECT_STATE.md` updated.
 - [ ] Canonical artifact paths updated in `PROJECT_STATE.md`.
 - [ ] Latest side-by-side images rendered in final Codex response.
+- [ ] Editorial Review Summary included in final Codex response.
 
 ## Reviewer Confidence
 

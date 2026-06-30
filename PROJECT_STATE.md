@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-06-29 16:35 America/Los_Angeles
+Last update: 2026-06-29 17:05 America/Los_Angeles
 
-Project version: `1.2-four-figure-batch-5-1-5-2-8-4-19-1`
+Project version: `1.3-editorial-review-gate`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -30,16 +30,18 @@ figure work, then update the relevant registry rows before finishing.
 
 The permanent figure quality gate is
 [docs/review_protocol.md](docs/review_protocol.md), with the operational
-checklist at [docs/review_checklist.md](docs/review_checklist.md).
+checklist at [docs/review_checklist.md](docs/review_checklist.md). The final
+publication-quality gate is [docs/editorial_review_gate.md](docs/editorial_review_gate.md).
 
-Every figure must pass the five-phase review protocol before it is considered
-complete. The burden of proof is that the original underlying data exist unless
-substantial evidence suggests otherwise; absence of immediate search results is
-not enough to accept a proxy dataset.
+Every figure must pass the five-phase research review protocol and every batch
+must pass the Editorial Review Gate before it is considered complete. The
+burden of proof is that the original underlying data exist unless substantial
+evidence suggests otherwise; absence of immediate search results is not enough
+to accept a proxy dataset.
 
 A figure is complete only when reconstruction, extension, discrepancy review,
-reviewer challenge, repository updates, registry updates, and this file are all
-updated. Only then may Codex begin another figure.
+reviewer challenge, editorial review, repository updates, registry updates, and
+this file are all updated. Only then may Codex begin another figure.
 
 ## Active Figures
 
@@ -265,6 +267,10 @@ Canonical documentation:
 
 ## Current Blockers
 
+- Future reconstruction batches must run the Editorial Review Gate before final
+  commit. Any ten-second-obvious issue must be corrected or explicitly
+  explained; batches may not complete with any Critical issue or unexplained
+  Major issue.
 - Figure 10-5 needs the exact Roser 2016r/ITOPF source snapshot or a documented
   archival equivalent for the full 1970-2016 oil-shipped-by-sea series.
 - Figure 5-2 needs the exact Roser 2016a UN/HMD assembled dataset or an
@@ -311,6 +317,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |
 | `1.2-four-figure-batch-5-1-5-2-8-4-19-1` | 2026-06-29 | Processed Figures 5-1, 5-2, 8-4, and 19-1. Figures 5-1 and 8-4 reached verified book-period reconstructions; Figures 5-2 and 19-1 remain partial matches with documented source/capture blockers. |
 | `1.1-two-figure-batch-10-7-10-8` | 2026-06-29 | Processed Figures 10-7 and 10-8 through the full workflow, including Kindle evidence, OWID source recovery, book-period reconstruction, successor extension, review checklist, registry update, and canonical artifact paths. |
 | `1.0-review-protocol` | 2026-06-29 | Added permanent five-phase figure review protocol, acceptance checklist, burden-of-proof rule, reviewer confidence standard, and batch completion rule. |
@@ -326,25 +333,29 @@ Before doing new reconstruction work:
    [data/figure_registry.csv](data/figure_registry.csv).
 3. Read [docs/review_protocol.md](docs/review_protocol.md) and
    [docs/review_checklist.md](docs/review_checklist.md).
-4. Read [docs/pipeline.md](docs/pipeline.md) and [docs/workflow.md](docs/workflow.md).
-5. Read the target figure directory, especially `metadata/metadata.json`,
+4. Read [docs/editorial_review_gate.md](docs/editorial_review_gate.md).
+5. Read [docs/pipeline.md](docs/pipeline.md) and [docs/workflow.md](docs/workflow.md).
+6. Read the target figure directory, especially `metadata/metadata.json`,
    `provenance/provenance.md`, `source_logs/source_log.md`, and
    `discrepancy_logs/discrepancy_log.md`.
-6. Update the relevant figure registry rows, this file, and
+7. Update the relevant figure registry rows, this file, and
    [docs/lessons_learned.md](docs/lessons_learned.md)
    before finishing.
-7. Whenever a figure plot, comparison image, caption, provenance file, anomaly
+8. Whenever a figure plot, comparison image, caption, provenance file, anomaly
    review, metadata file, or status changes, update the corresponding paths and
    status in the `Canonical Figure Artifacts` section above.
-8. Whenever Codex updates or reviews a figure, the final response must render
+9. Whenever Codex updates or reviews a figure, the final response must render
    the latest side-by-side comparison images inline, including both
    book-period and extended comparisons where available. GitHub remains the
    canonical archive, but rendered images in the Codex response are required
    for ChatGPT visual QA.
-9. Codex must not stop after producing a side-by-side comparison if visible
+10. Codex must not stop after producing a side-by-side comparison if visible
    discrepancies remain that could plausibly be addressed through additional
    source recovery, transformation correction, styling correction, scaling
    correction, or extension-data review.
+11. Codex must run the Editorial Review Gate before final commit and include an
+    Editorial Review Summary in the final response for every reconstruction
+    batch.
 
 After each side-by-side comparison, Codex must self-review:
 
@@ -360,3 +371,7 @@ remaining discrepancies are explained in the caption and anomaly review, the
 source search space has been exhaustively documented, or manual input is
 genuinely required. Codex should not stop merely because it found a plausible
 source or generated a plot.
+
+For reconstruction batches, Codex may commit and mark the batch complete only
+after the Editorial Review Gate finds no Critical issues and no unexplained
+Major issues. Minor issues may remain only if documented.

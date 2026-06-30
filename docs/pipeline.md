@@ -116,7 +116,31 @@ Required outputs:
 - Updated source log.
 - Updated project state.
 
-## 10. Publication Package
+## 10. Editorial Review Gate
+
+The Editorial Review Gate is the final publication-quality scan before a batch
+is committed and marked complete. It is separate from source recovery and
+scientific validation.
+
+Open every book-period and extended comparison image and ask what would
+immediately catch the eye of a journal editor, website visitor, book reader, or
+principal investigator. Do not analyze individual data points during this scan.
+Look for missing artifacts, poor crops, tiny plots, bad scaling, misleading
+extensions, awkward labels, excessive whitespace, and captions that fail to
+explain obvious discrepancies.
+
+Required outputs:
+
+- Editorial Review Summary.
+- Critical, Major, and Minor issue classifications.
+- Corrections for all automatically fixable Critical or Major issues.
+- Explicit explanations for any remaining Major issue.
+- Cross-figure judgment identifying the weakest figure in the batch.
+
+A batch may not complete while any Critical issue exists or any unexplained
+Major issue exists. Minor issues may remain only if documented.
+
+## 11. Publication Package
 
 Before website publication, each figure directory must be independently
 reviewable.

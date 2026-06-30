@@ -35,6 +35,8 @@ The initial Kindle List of Figures extraction is preserved at
   for every figure.
 - [docs/review_checklist.md](docs/review_checklist.md): copyable acceptance
   checklist for figure directories.
+- [docs/editorial_review_gate.md](docs/editorial_review_gate.md): final
+  publication-quality gate for every reconstruction batch.
 - [data/figure_registry.csv](data/figure_registry.csv): canonical queue and
   status table for all captured book figures.
 - [figures/](figures/): independently reviewable figure packages.
@@ -70,6 +72,7 @@ constraints before publishing those images on a public website.
 
 No figure is complete merely because a plausible source was found or a plot was
 generated. Every figure must pass the five-phase
-[Figure Review Protocol](docs/review_protocol.md), including the independent
-reviewer challenge, repository updates, registry updates, and `PROJECT_STATE.md`
-updates.
+[Figure Review Protocol](docs/review_protocol.md), and every batch must pass
+the [Editorial Review Gate](docs/editorial_review_gate.md) before final commit,
+repository updates, registry updates, and `PROJECT_STATE.md` completion
+language.

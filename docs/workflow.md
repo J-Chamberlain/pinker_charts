@@ -8,11 +8,12 @@
    or continuing figure work.
 4. Read the [review protocol](review_protocol.md) and
    [review checklist](review_checklist.md).
-5. Read the relevant figure directory.
-6. Check [figure metadata](../data/metadata/figure_metadata.csv) for canonical
+5. Read the [editorial review gate](editorial_review_gate.md).
+6. Read the relevant figure directory.
+7. Check [figure metadata](../data/metadata/figure_metadata.csv) for canonical
    status.
-7. Inspect the source log before running new searches.
-8. Confirm whether the task is architecture, research, reconstruction, or
+8. Inspect the source log before running new searches.
+9. Confirm whether the task is architecture, research, reconstruction, or
    publication packaging.
 
 ## Figure Directory Contract
@@ -63,8 +64,62 @@ substantial evidence suggests otherwise. Codex must attempt to prove or
 disprove that assumption before accepting a proxy dataset.
 
 A figure is complete only when reconstruction, extension, discrepancy review,
-reviewer questions, repository updates, registry updates, and `PROJECT_STATE.md`
-updates are all done. Only then may Codex begin another figure.
+reviewer questions, editorial review, repository updates, registry updates, and
+`PROJECT_STATE.md` updates are all done. Only then may Codex begin another
+figure.
+
+## Editorial Review Gate
+
+After reconstruction, extension, captions, anomaly review, and the review
+checklist, run the [Editorial Review Gate](editorial_review_gate.md) before
+final commit, `PROJECT_STATE.md` completion language, or marking the batch
+complete.
+
+This gate is a publication-quality scan, not a source-recovery analysis. Imagine
+the batch has already been published, open every comparison image, and ask:
+
+> If I opened this report for the first time, what would immediately catch my
+> eye?
+
+For every figure, answer:
+
+- Completeness: is anything obviously missing, such as a Kindle reference,
+  reconstruction, extension, caption, or labels?
+- Layout: does anything look visually wrong, such as tiny plots, poor scaling,
+  poor cropping, excessive whitespace, inconsistent margins, awkward label
+  placement, or overlapping labels?
+- Visual similarity: would a human immediately say the original and recreated
+  figures look like the same figure?
+- Extensions: is any extension visually clear, visibly separated when
+  successor data are used, and not misleadingly continuous?
+- Captions: does the caption explain every obvious visual discrepancy before a
+  reader has to ask?
+
+Any issue obvious within approximately ten seconds of viewing the page must be
+corrected automatically or explicitly explained. Classify each issue as
+`Critical`, `Major`, or `Minor`.
+
+A batch may not complete while any `Critical` issue exists or any unexplained
+`Major` issue exists. Minor issues may remain only if documented.
+
+After per-figure review, perform a cross-figure review:
+
+- Which figure looks weakest?
+- Which figure would most concern a reviewer?
+- Is the weakest figure good enough to publish?
+
+If the weakest figure is not good enough to publish, continue improving it or
+document why manual input or further source recovery is genuinely required.
+
+Every batch final response must include an Editorial Review Summary:
+
+- Critical issues found.
+- Major issues found.
+- Minor issues found.
+- Issues automatically corrected.
+- Issues remaining.
+- Why the batch is acceptable for publication or remains a documented
+  partial/blocked batch.
 
 ## Iterative QA Loop
 
@@ -110,6 +165,7 @@ Every future Codex figure run must include:
 - A short self-review of visible discrepancies.
 - What Codex did to address the discrepancies.
 - What remains unresolved.
+- Editorial Review Summary.
 
 ## Commit Practice
 
@@ -121,6 +177,9 @@ Use logical commits:
 4. Add reproducibility or validation tooling.
 
 Avoid mixing new figure reconstruction with repository maintenance.
+
+Do not create the final commit for a reconstruction batch until the Editorial
+Review Gate has passed or its blockers have been explicitly documented.
 
 ## Fresh-Contributor Review
 
