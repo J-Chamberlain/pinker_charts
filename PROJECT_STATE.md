@@ -380,3 +380,132 @@ source or generated a plot.
 For reconstruction batches, Codex may commit and mark the batch complete only
 after the Editorial Review Gate finds no Critical issues and no unexplained
 Major issues. Minor issues may remain only if documented.
+## Track B Economic History Addendum
+
+Last Track B update: 2026-06-30 America/Los_Angeles
+
+Track B processed five food, poverty, and economic-history figures on branch `track-b-economic-history`.
+
+| Figure | Title | Lifecycle stage | Status | Confidence | Current disposition |
+| --- | --- | --- | --- | --- | --- |
+| 7-3 | Undernourishment, 1970-2015 | source recovery and partial book period reconstruction | `partial_match` | Medium | Main developing-world line is source-supported; regional lines use available FAO/SOFI successor coverage with shorter time span. |
+| 7-4 | Famine deaths, 1860-2016 | source supported reconstruction with denominator caveat | `partial_match` | Medium | The event table is recovered from OWID's famine dataset article; the decadal rate denominator uses current OWID world population interpolation. |
+| 8-1 | Gross World Product, 1-2015 | book period reconstruction with successor extension | `updated_equivalent` | Medium-high | Live OWID successor reproduces the same shape and source family but extends past 2015 and may include revisions. |
+| 8-2 | GDP per capita, 1600-2015 | book period reconstruction with successor extension | `updated_equivalent` | Medium | Current Maddison 2020/OWID successor data match the broad visual pattern but not the exact book-era source vintage. |
+| 8-5 | Extreme poverty (number), 1820-2015 | reviewed book period reconstruction no comparable extension | `verified_reproduction` | High | Book-period source family and visual encoding are reproduced; no comparable post-2015 extension is plotted. |
+
+### Track B Completed/Verified
+
+- Figure 8-5: verified book-period reconstruction of extreme-poverty counts from OWID/Roser & Ortiz-Ospina historical counts.
+
+### Track B Unresolved Caveats
+
+- Figure 7-3: exact Roser 2016j regional FAO 2014 vintage remains unresolved; current reconstruction is a partial source-family match.
+- Figure 7-4: exact archived OWID 2017 decadal-rate output and denominator notes remain unresolved; event table is recovered.
+- Figure 8-1 and 8-2: use live/current OWID successor series rather than exact 2016c/Maddison Project 2014 vintage.
+
+### Track B Canonical Figure Artifacts
+
+### Figure 7-3 - Undernourishment, 1970-2015
+
+Status: `partial_match`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/7-3/plots/comparisons/kindle_reference_figure_7_3.png`
+- Book-period reconstruction: `figures/7-3/plots/book_period/figure_7_3_book_period_reconstruction.png`
+- Extended reconstruction: `figures/7-3/plots/extended/figure_7_3_extended_reconstruction.png`
+- Book-period comparison: `figures/7-3/plots/comparisons/figure_7_3_book_period_comparison.png`
+- Extended comparison: `figures/7-3/plots/comparisons/figure_7_3_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/7-3/captions/caption.txt`
+- Provenance: `figures/7-3/provenance/provenance.md`
+- Anomaly review: `figures/7-3/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/7-3/metadata/metadata.json`
+- Review checklist: `figures/7-3/review_checklist.md`
+
+
+### Figure 7-4 - Famine deaths, 1860-2016
+
+Status: `partial_match`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/7-4/plots/comparisons/kindle_reference_figure_7_4.png`
+- Book-period reconstruction: `figures/7-4/plots/book_period/figure_7_4_book_period_reconstruction.png`
+- Extended reconstruction: `figures/7-4/plots/extended/figure_7_4_extended_reconstruction.png`
+- Book-period comparison: `figures/7-4/plots/comparisons/figure_7_4_book_period_comparison.png`
+- Extended comparison: `figures/7-4/plots/comparisons/figure_7_4_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/7-4/captions/caption.txt`
+- Provenance: `figures/7-4/provenance/provenance.md`
+- Anomaly review: `figures/7-4/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/7-4/metadata/metadata.json`
+- Review checklist: `figures/7-4/review_checklist.md`
+
+
+### Figure 8-1 - Gross World Product, 1-2015
+
+Status: `updated_equivalent`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/8-1/plots/comparisons/kindle_reference_figure_8_1.png`
+- Book-period reconstruction: `figures/8-1/plots/book_period/figure_8_1_book_period_reconstruction.png`
+- Extended reconstruction: `figures/8-1/plots/extended/figure_8_1_extended_reconstruction.png`
+- Book-period comparison: `figures/8-1/plots/comparisons/figure_8_1_book_period_comparison.png`
+- Extended comparison: `figures/8-1/plots/comparisons/figure_8_1_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/8-1/captions/caption.txt`
+- Provenance: `figures/8-1/provenance/provenance.md`
+- Anomaly review: `figures/8-1/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/8-1/metadata/metadata.json`
+- Review checklist: `figures/8-1/review_checklist.md`
+
+
+### Figure 8-2 - GDP per capita, 1600-2015
+
+Status: `updated_equivalent`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/8-2/plots/comparisons/kindle_reference_figure_8_2.png`
+- Book-period reconstruction: `figures/8-2/plots/book_period/figure_8_2_book_period_reconstruction.png`
+- Extended reconstruction: `figures/8-2/plots/extended/figure_8_2_extended_reconstruction.png`
+- Book-period comparison: `figures/8-2/plots/comparisons/figure_8_2_book_period_comparison.png`
+- Extended comparison: `figures/8-2/plots/comparisons/figure_8_2_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/8-2/captions/caption.txt`
+- Provenance: `figures/8-2/provenance/provenance.md`
+- Anomaly review: `figures/8-2/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/8-2/metadata/metadata.json`
+- Review checklist: `figures/8-2/review_checklist.md`
+
+
+### Figure 8-5 - Extreme poverty (number), 1820-2015
+
+Status: `verified_reproduction`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/8-5/plots/comparisons/kindle_reference_figure_8_5.png`
+- Book-period reconstruction: `figures/8-5/plots/book_period/figure_8_5_book_period_reconstruction.png`
+- Extended reconstruction: `figures/8-5/plots/extended/figure_8_5_extended_reconstruction.png`
+- Book-period comparison: `figures/8-5/plots/comparisons/figure_8_5_book_period_comparison.png`
+- Extended comparison: `figures/8-5/plots/comparisons/figure_8_5_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/8-5/captions/caption.txt`
+- Provenance: `figures/8-5/provenance/provenance.md`
+- Anomaly review: `figures/8-5/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/8-5/metadata/metadata.json`
+- Review checklist: `figures/8-5/review_checklist.md`

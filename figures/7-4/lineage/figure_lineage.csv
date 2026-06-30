@@ -1,0 +1,4 @@
+figure_id,figure_title,stage_order,stage,value,stage_status
+7-4,"Famine deaths, 1860-2016",1,Book Figure,"Figure 7-4: Famine deaths, 1860-2016",observed
+7-4,"Famine deaths, 1860-2016",2,Source Note,"Our World in Data, Hasell & Roser 2017, based on data from Devereux 2000; O Grada 2009; White 2011; EM-DAT; and other sources.",observed
+7-4,"Famine deaths, 1860-2016",3,Reconstruction Script,scripts/reconstruct_track_b_economic_history.py,generated

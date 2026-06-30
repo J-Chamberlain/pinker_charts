@@ -1,0 +1,20 @@
+{
+  "figure_id": "7-3",
+  "chapter": "7",
+  "title": "Undernourishment, 1970-2015",
+  "book_page": "Rendered PDF preview page page-06.png",
+  "claim_summary": "The share of people in developing countries who are undernourished declined from 1970 to 2015.",
+  "book_citation": "Our World in Data, Roser 2016j, based on data from the Food and Agriculture Organization 2014, also reported in FAOSTAT.",
+  "download_date": "2026-06-30",
+  "reproduction_status": "partial_match",
+  "confidence_score": "medium",
+  "visual_validation": "acceptable with documented caveats",
+  "notes": "Main developing-world line is source-supported; regional lines use available FAO/SOFI successor coverage with shorter time span.",
+  "canonical_artifacts": {
+    "original_reference": "figures/7-3/plots/comparisons/kindle_reference_figure_7_3.png",
+    "book_period_reconstruction": "figures/7-3/plots/book_period/figure_7_3_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/7-3/plots/extended/figure_7_3_extended_reconstruction.png",
+    "book_period_comparison": "figures/7-3/plots/comparisons/figure_7_3_book_period_comparison.png",
+    "extended_comparison": "figures/7-3/plots/comparisons/figure_7_3_extended_comparison.png"
+  }
+}

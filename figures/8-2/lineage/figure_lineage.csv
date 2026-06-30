@@ -1,0 +1,4 @@
+figure_id,figure_title,stage_order,stage,value,stage_status
+8-2,"GDP per capita, 1600-2015",1,Book Figure,"Figure 8-2: GDP per capita, 1600-2015",observed
+8-2,"GDP per capita, 1600-2015",2,Source Note,"Our World in Data, Roser 2016c, based on data from the World Bank and from Maddison Project 2014.",observed
+8-2,"GDP per capita, 1600-2015",3,Reconstruction Script,scripts/reconstruct_track_b_economic_history.py,generated

@@ -1,0 +1,1 @@
+Figure 7-3: Undernourishment, 1970-2015. Recreated from public source data. Status: partial_match. Source note: Our World in Data, Roser 2016j, based on data from the Food and Agriculture Organization 2014, also reported in FAOSTAT. Main developing-world line is source-supported; regional lines use available FAO/SOFI successor coverage with shorter time span.

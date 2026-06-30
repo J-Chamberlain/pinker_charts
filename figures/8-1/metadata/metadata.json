@@ -1,0 +1,20 @@
+{
+  "figure_id": "8-1",
+  "chapter": "8",
+  "title": "Gross World Product, 1-2015",
+  "book_page": "Rendered PDF preview page page-07.png",
+  "claim_summary": "Gross world product was nearly flat for most of history and rose steeply after industrialization.",
+  "book_citation": "Our World in Data, Roser 2016c, based on data from the World Bank and from Angus Maddison and Maddison Project 2014.",
+  "download_date": "2026-06-30",
+  "reproduction_status": "updated_equivalent",
+  "confidence_score": "medium-high",
+  "visual_validation": "acceptable with documented caveats",
+  "notes": "Live OWID successor reproduces the same shape and source family but extends past 2015 and may include revisions.",
+  "canonical_artifacts": {
+    "original_reference": "figures/8-1/plots/comparisons/kindle_reference_figure_8_1.png",
+    "book_period_reconstruction": "figures/8-1/plots/book_period/figure_8_1_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/8-1/plots/extended/figure_8_1_extended_reconstruction.png",
+    "book_period_comparison": "figures/8-1/plots/comparisons/figure_8_1_book_period_comparison.png",
+    "extended_comparison": "figures/8-1/plots/comparisons/figure_8_1_extended_comparison.png"
+  }
+}

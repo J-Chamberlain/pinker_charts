@@ -1,0 +1,20 @@
+{
+  "figure_id": "8-5",
+  "chapter": "8",
+  "title": "Extreme poverty (number), 1820-2015",
+  "book_page": "Rendered PDF preview page page-09.png",
+  "claim_summary": "The number of people in extreme poverty fell even as the number not in extreme poverty rose rapidly.",
+  "book_citation": "Our World in Data, Roser & Ortiz-Ospina 2017, based on data from Bourguignon & Morrison 2002 (1820-1992) and the World Bank 2016g (1981-2015).",
+  "download_date": "2026-06-30",
+  "reproduction_status": "verified_reproduction",
+  "confidence_score": "high",
+  "visual_validation": "good",
+  "notes": "Book-period source family and visual encoding are reproduced; no comparable post-2015 extension is plotted.",
+  "canonical_artifacts": {
+    "original_reference": "figures/8-5/plots/comparisons/kindle_reference_figure_8_5.png",
+    "book_period_reconstruction": "figures/8-5/plots/book_period/figure_8_5_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/8-5/plots/extended/figure_8_5_extended_reconstruction.png",
+    "book_period_comparison": "figures/8-5/plots/comparisons/figure_8_5_book_period_comparison.png",
+    "extended_comparison": "figures/8-5/plots/comparisons/figure_8_5_extended_comparison.png"
+  }
+}

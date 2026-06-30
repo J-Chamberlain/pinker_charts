@@ -1,0 +1,20 @@
+{
+  "figure_id": "7-4",
+  "chapter": "7",
+  "title": "Famine deaths, 1860-2016",
+  "book_page": "Rendered PDF preview page page-06.png",
+  "claim_summary": "Famine deaths per 100,000 people per decade fell sharply after the mid-twentieth century.",
+  "book_citation": "Our World in Data, Hasell & Roser 2017, based on data from Devereux 2000; O Grada 2009; White 2011; EM-DAT; and other sources.",
+  "download_date": "2026-06-30",
+  "reproduction_status": "partial_match",
+  "confidence_score": "medium",
+  "visual_validation": "acceptable with documented caveats",
+  "notes": "The event table is recovered from OWID's famine dataset article; the decadal rate denominator uses current OWID world population interpolation.",
+  "canonical_artifacts": {
+    "original_reference": "figures/7-4/plots/comparisons/kindle_reference_figure_7_4.png",
+    "book_period_reconstruction": "figures/7-4/plots/book_period/figure_7_4_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/7-4/plots/extended/figure_7_4_extended_reconstruction.png",
+    "book_period_comparison": "figures/7-4/plots/comparisons/figure_7_4_book_period_comparison.png",
+    "extended_comparison": "figures/7-4/plots/comparisons/figure_7_4_extended_comparison.png"
+  }
+}
