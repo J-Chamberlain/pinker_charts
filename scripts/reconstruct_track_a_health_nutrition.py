@@ -119,7 +119,7 @@ def side_by_side(reference: Path, recreated: Path, output: Path, title: str) -> 
     left_x = margin
     right_x = margin + panel_w + gap
     label_y = title_h + 8
-    draw.text((left_x + panel_w // 2, label_y), "Book reference", fill="black", anchor="ma", font=label_font)
+    draw.text((left_x + panel_w // 2, label_y), "PDF chart reference", fill="black", anchor="ma", font=label_font)
     draw.text((right_x + panel_w // 2, label_y), "Recreated", fill="black", anchor="ma", font=label_font)
     paste_fit(ref, left_x, title_h + header_h)
     paste_fit(rec, right_x, title_h + header_h)
