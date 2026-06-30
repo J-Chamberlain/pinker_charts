@@ -1,0 +1,1 @@
+19813eb4509bd82eee0ca69b26e05e4a6102b6daf35db062ec3833e3a63bc80a  plots/comparisons/kindle_reference_figure_12_4.png

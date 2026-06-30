@@ -1,0 +1,9 @@
+{
+  "figure_id": "12-8",
+  "title": "Natural disaster deaths, 1900-2015",
+  "status": "updated_equivalent",
+  "confidence": "medium-high",
+  "review_date": "2026-06-30",
+  "source_note": "Kindle cites Our World in Data, Roser 2016q, based on EM-DAT. Reconstruction uses OWID datasets repository data for global death rates from disasters (EMDAT; UN & HYDE), with current OWID successor data for the post-2015 decadal extension.",
+  "reconstructed": true
+}

@@ -1,0 +1,1 @@
+Figure 12-5: Plane crash deaths, 1970-2015. Kindle cites Aviation Safety Network 2017 and World Bank 2016b passenger counts. Reconstruction uses OWID-hosted ASN 2019 successor fatality data by flight phase and OWID/World Bank passengers carried. Status: partial_match.

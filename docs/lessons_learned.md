@@ -98,3 +98,17 @@ Figure 19-1's actual Kindle capture revealed that a line chart proxy cannot
 pass visual validation for a stacked-area original even if the broad trend is
 similar. Source recovery and transformation must reproduce the visual encoding,
 not just the topic.
+
+## Sum Categories Before Aggregating Time
+
+Figure 12-8 showed that a source note may specify "sum of death rates" across
+event categories before decade averaging. Averaging category rows directly can
+produce a plausible-looking but materially understated reconstruction. Build
+the transformation in the same conceptual order as the source note.
+
+## Source-Chain Recovered Is A Real Outcome
+
+Figures 12-3 and 12-4 had clear Kindle source chains but unrecovered historical
+tables. When pre-book institutional PDFs or stitched historical tables are not
+available after targeted archive checks, document the blocker and keep moving
+rather than manufacturing a reconstruction from partial successor data.

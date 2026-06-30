@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-06-29 19:29 America/Los_Angeles
+Last update: 2026-06-30 America/Los_Angeles
 
-Project version: `1.4-four-figure-remediation`
+Project version: `1.5-track-d-safety-mortality`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -54,6 +54,11 @@ this file are all updated. Only then may Codex begin another figure.
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
 | 10-8 | CO2 emissions, 1960-2015 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 regional CDIAC dataset matches the Kindle source chain; extension uses current OWID/GCB successor categories after 2015. |
+| 12-3 | Motor vehicle accident deaths, US, 1921-2015 | Kindle evidence and source-chain recovery | `source_chain_recovered` | Medium-low | Kindle cites NHTSA, informedforlife TRAFFICFATALITIES(1899-2005).pdf, FARS, and CrashStats 812384. NHTSA 2015 PDF was recovered; the pre-1966 cited mirror is 404/no 200 CDX hit. |
+| 12-4 | Pedestrian deaths, US, 1927-2015 | Kindle evidence and source-chain recovery | `source_chain_recovered` | Medium-low | Kindle source chain is clear (FHWA 2003; NCSA 1995, 2006, 2016, 2017), but exact historical tables were not recovered in this pass. |
+| 12-5 | Plane crash deaths, 1970-2015 | Source-family reconstruction and discrepancy analysis | `partial_match` | Medium | Reconstruction uses OWID-hosted ASN 2019 successor fatality data by flight phase and World Bank passenger counts; early-1970s peak under-matches the Kindle chart, so do not call verified. |
+| 12-8 | Natural disaster deaths, 1900-2015 | Reviewed book-period reconstruction with successor extension | `updated_equivalent` | Medium-high | OWID datasets repo EM-DAT death-rate data reproduce the main decadal shape; current OWID successor data provide a dashed post-2015 decadal extension. |
+| 12-9 | Lightning strike deaths, US, 1900-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID NOAA/Lopez-Holle lightning fatality-rate dataset visually reproduces the Kindle chart; no methodologically identical post-2015 rate extension was recovered. |
 | 19-1 | Nuclear weapons, 1945-2015 | Source recovery and visual discrepancy analysis | `partial_match` | Medium-low | Actual Kindle chart-page crop is now included; current OWID successor line reconstruction remains a poor visual match to the original stacked-area figure and the cited HumanProgress/FAS 2016 table remains unresolved. |
 
 ## Completed Figures
@@ -73,6 +78,8 @@ support a verified reconstruction.
   and Maddison data reproduces the book-period line chart.
 - Figure 10-8: OWID 2017 regional CDIAC dataset reproduces the book-period
   stacked emissions chart.
+- Figure 12-9: OWID NOAA/Lopez-Holle lightning fatality-rate dataset
+  reproduces the book-period lightning deaths chart.
 
 ## Unresolved Figures
 
@@ -91,6 +98,15 @@ support a verified reconstruction.
   match because it uses current OWID nuclear-warhead successor line data rather
   than the cited HumanProgress/FAS 2016 table and does not reproduce the
   original stacked-area encoding.
+- Figure 12-3: Kindle source chain is captured, but the pre-1966 historical
+  NHTSA/informedforlife traffic-fatality-rate PDF was not recovered.
+- Figure 12-4: Kindle source chain is captured, but the stitched FHWA/NCSA
+  pedestrian-rate source tables were not recovered.
+- Figure 12-5: source-family reconstruction exists, but the exact ASN 2017
+  extraction was not recovered and the early-1970s peak under-matches.
+- Figure 12-8: OWID/EM-DAT source-family reconstruction exists and matches the
+  main shape; keep as `updated_equivalent` until the exact Roser 2016q snapshot
+  is version-pinned.
 
 ## Attempted But Not Expanded
 
@@ -248,6 +264,98 @@ Canonical documentation:
 - Metadata: `figures/10-8/metadata/metadata.json`
 - Review checklist: `figures/10-8/review_checklist.md`
 
+### Figure 12-3 - Motor vehicle accident deaths, US, 1921-2015
+
+Status: `source_chain_recovered`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/12-3/plots/comparisons/kindle_reference_figure_12_3.png`
+
+Canonical documentation:
+
+- Caption: `figures/12-3/captions/caption.txt`
+- Provenance: `figures/12-3/provenance/provenance.md`
+- Anomaly review: `figures/12-3/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/12-3/metadata/metadata.json`
+- Review checklist: `figures/12-3/review_checklist.md`
+
+### Figure 12-4 - Pedestrian deaths, US, 1927-2015
+
+Status: `source_chain_recovered`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/12-4/plots/comparisons/kindle_reference_figure_12_4.png`
+
+Canonical documentation:
+
+- Caption: `figures/12-4/captions/caption.txt`
+- Provenance: `figures/12-4/provenance/provenance.md`
+- Anomaly review: `figures/12-4/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/12-4/metadata/metadata.json`
+- Review checklist: `figures/12-4/review_checklist.md`
+
+### Figure 12-5 - Plane crash deaths, 1970-2015
+
+Status: `partial_match`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/12-5/plots/comparisons/kindle_reference_figure_12_5.png`
+- Book-period reconstruction: `figures/12-5/plots/book_period/figure_12_5_book_period_reconstruction.png`
+- Extended reconstruction: `figures/12-5/plots/extended/figure_12_5_extended_reconstruction.png`
+- Book-period comparison: `figures/12-5/plots/comparisons/figure_12_5_book_period_comparison.png`
+- Extended comparison: `figures/12-5/plots/comparisons/figure_12_5_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/12-5/captions/caption.txt`
+- Provenance: `figures/12-5/provenance/provenance.md`
+- Anomaly review: `figures/12-5/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/12-5/metadata/metadata.json`
+- Review checklist: `figures/12-5/review_checklist.md`
+
+### Figure 12-8 - Natural disaster deaths, 1900-2015
+
+Status: `updated_equivalent`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/12-8/plots/comparisons/kindle_reference_figure_12_8.png`
+- Book-period reconstruction: `figures/12-8/plots/book_period/figure_12_8_book_period_reconstruction.png`
+- Extended reconstruction: `figures/12-8/plots/extended/figure_12_8_extended_reconstruction.png`
+- Book-period comparison: `figures/12-8/plots/comparisons/figure_12_8_book_period_comparison.png`
+- Extended comparison: `figures/12-8/plots/comparisons/figure_12_8_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/12-8/captions/caption.txt`
+- Provenance: `figures/12-8/provenance/provenance.md`
+- Anomaly review: `figures/12-8/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/12-8/metadata/metadata.json`
+- Review checklist: `figures/12-8/review_checklist.md`
+
+### Figure 12-9 - Lightning strike deaths, US, 1900-2015
+
+Status: `verified_reproduction`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/12-9/plots/comparisons/kindle_reference_figure_12_9.png`
+- Book-period reconstruction: `figures/12-9/plots/book_period/figure_12_9_book_period_reconstruction.png`
+- Extended reconstruction: `figures/12-9/plots/extended/figure_12_9_extended_reconstruction.png`
+- Book-period comparison: `figures/12-9/plots/comparisons/figure_12_9_book_period_comparison.png`
+- Extended comparison: `figures/12-9/plots/comparisons/figure_12_9_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/12-9/captions/caption.txt`
+- Provenance: `figures/12-9/provenance/provenance.md`
+- Anomaly review: `figures/12-9/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/12-9/metadata/metadata.json`
+- Review checklist: `figures/12-9/review_checklist.md`
+
 ### Figure 19-1 - Nuclear weapons, 1945-2015
 
 Status: `partial_match`
@@ -321,6 +429,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.5-track-d-safety-mortality` | 2026-06-30 | Processed Track D figures 12-3, 12-4, 12-5, 12-8, and 12-9. Figures 12-8 and 12-9 received OWID/EM-DAT and NOAA/Lopez-Holle reconstructions; Figure 12-5 received a partial ASN/World Bank successor reconstruction; Figures 12-3 and 12-4 remain source-chain recovered pending exact historical NHTSA/FHWA/NCSA source tables. |
 | `1.4-four-figure-remediation` | 2026-06-29 | Remediated the latest four-figure batch: clarified no-extension artifacts for Figures 5-1 and 8-4, improved Figure 5-2 source/units while retaining partial-match status, captured the actual Figure 19-1 Kindle chart crop, and marked Figure 19-1 visual validation as poor until the cited FAS/HumanProgress stacked source is recovered. |
 | `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |
 | `1.2-four-figure-batch-5-1-5-2-8-4-19-1` | 2026-06-29 | Processed Figures 5-1, 5-2, 8-4, and 19-1. Figures 5-1 and 8-4 reached verified book-period reconstructions; Figures 5-2 and 19-1 remain partial matches with documented source/capture blockers. |

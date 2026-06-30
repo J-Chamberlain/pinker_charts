@@ -1,0 +1,9 @@
+{
+  "figure_id": "12-3",
+  "title": "Motor vehicle accident deaths, US, 1921-2015",
+  "status": "source_chain_recovered",
+  "confidence": "medium-low",
+  "review_date": "2026-06-30",
+  "source_note": "Kindle cites NHTSA, an informedforlife TRAFFICFATALITIES(1899-2005).pdf mirror, FARS, and NHTSA CrashStats publication 812384. The 2015 NHTSA PDF was recovered; the cited pre-1966 informedforlife PDF was 404 and had no 200 Wayback CDX hit in this pass.",
+  "reconstructed": false
+}

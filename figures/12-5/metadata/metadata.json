@@ -1,0 +1,9 @@
+{
+  "figure_id": "12-5",
+  "title": "Plane crash deaths, 1970-2015",
+  "status": "partial_match",
+  "confidence": "medium",
+  "review_date": "2026-06-30",
+  "source_note": "Kindle cites Aviation Safety Network 2017 and World Bank 2016b passenger counts. Reconstruction uses OWID-hosted ASN 2019 successor fatality data by flight phase and OWID/World Bank passengers carried.",
+  "reconstructed": true
+}

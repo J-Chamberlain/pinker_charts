@@ -1,0 +1,9 @@
+{
+  "figure_id": "12-9",
+  "title": "Lightning strike deaths, US, 1900-2015",
+  "status": "verified_reproduction",
+  "confidence": "high",
+  "review_date": "2026-06-30",
+  "source_note": "Kindle cites Our World in Data, Roser 2016q, based on NOAA, the lightning-safety fatalities page, and Lopez & Holle 1998. Reconstruction uses OWID's NOAA/Lopez-Holle weather fatality-rate dataset.",
+  "reconstructed": true
+}
