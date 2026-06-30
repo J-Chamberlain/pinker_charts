@@ -1,13 +1,13 @@
-Entity,Year,"Share of children dying in first 5 years globally, by cause (IHME (2017))",Deaths (IHME (2017))
-Diarrheal diseases,2000,14.1923,
-Diarrheal diseases,2015,7.42918,498888.7531
-HIV/AIDS,2000,2.73005,
-HIV/AIDS,2015,1.32359,88882.25072
-Lower respiratory infections,2000,23.3351,
-Lower respiratory infections,2015,10.4824,703917.8602
-Malaria,2000,13.5243,
-Malaria,2015,7.06072,474146.0983
-Measles,2000,7.31122,
-Measles,2015,0.932033,62588.44518
-Meningitis,2000,3.96601,
-Meningitis,2015,2.57709,173058.4535
+Entity,Year,"Share of children dying in first 5 years globally, by cause (IHME (2017))",Deaths (IHME (2017)),deaths_thousands_proxy
+Diarrheal diseases,2000,14.1923,,
+Diarrheal diseases,2015,7.42918,498888.7531,498.8887531
+HIV/AIDS,2000,2.73005,,
+HIV/AIDS,2015,1.32359,88882.25072,88.88225072
+Lower respiratory infections,2000,23.3351,,
+Lower respiratory infections,2015,10.4824,703917.8602,703.9178602
+Malaria,2000,13.5243,,
+Malaria,2015,7.06072,474146.0983,474.1460983
+Measles,2000,7.31122,,
+Measles,2015,0.932033,62588.44518,62.58844518
+Meningitis,2000,3.96601,,
+Meningitis,2015,2.57709,173058.4535,173.0584535

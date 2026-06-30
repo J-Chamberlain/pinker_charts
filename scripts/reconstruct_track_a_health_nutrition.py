@@ -315,22 +315,44 @@ def plot_6_1():
     df = pd.read_csv(raw)
     causes = ["Lower respiratory infections", "Diarrheal diseases", "Malaria", "Measles", "HIV/AIDS", "Meningitis"]
     clean = df[df["Entity"].isin(causes) & df["Year"].isin([2000, 2015])].copy()
+    clean["deaths_thousands_proxy"] = clean["Deaths (IHME (2017))"] / 1000.0
     clean.to_csv(b / "data/clean/figure_6_1_book_period_clean.csv", index=False)
     clean.to_csv(b / "data/clean/figure_6_1_extended_clean.csv", index=False)
-    pivot = clean.pivot(index="Entity", columns="Year", values="Share of children dying in first 5 years globally, by cause (IHME (2017))").reindex(causes)
+    pivot = clean.pivot(index="Entity", columns="Year", values="deaths_thousands_proxy").reindex(causes)
 
     def draw(out, extended=False):
         fig, ax = plt.subplots(figsize=(8.3, 5.1), dpi=180)
-        x = range(len(causes))
-        ax.bar([i - 0.18 for i in x], pivot[2000], width=0.36, color="0.25", label="2000")
-        ax.bar([i + 0.18 for i in x], pivot[2015], width=0.36, color="0.72", label="2015 proxy")
-        ax.set_xticks(list(x))
-        ax.set_xticklabels(["Pneumonia", "Diarrhea", "Malaria", "Measles", "HIV/AIDS", "Meningitis"], rotation=25, ha="right")
-        ax.set_ylabel("Share of global under-5 deaths (%)")
+        ax.set_xlim(2000, 2013)
+        ax.set_ylim(0, 1750)
+        ax.set_xticks(range(2000, 2014, 2))
+        ax.set_ylabel("Number of deaths of children under 5 (thousands)")
         ax.set_title("Figure 6-1: Childhood deaths from infectious disease, 2000-2013", loc="left", fontsize=12)
-        ax.legend(frameon=False)
         style_axis(ax)
-        ax.text(0, -0.28, "Proxy only: IHME 2017 cause shares use 2015 endpoint, not cited CHERG/WHO Liu et al. 2014 appendix.", transform=ax.transAxes, fontsize=7)
+        ax.text(
+            0.5,
+            0.58,
+            "Reconstruction blocked",
+            transform=ax.transAxes,
+            ha="center",
+            va="center",
+            fontsize=18,
+            weight="bold",
+            color="0.25",
+        )
+        ax.text(
+            0.5,
+            0.43,
+            "The cited CHERG/WHO Liu et al. 2014 appendix\n"
+            "annual line-series data were not recovered.\n\n"
+            "The available IHME proxy does not provide\n"
+            "verified 2000-2013 deaths-by-cause lines.",
+            transform=ax.transAxes,
+            ha="center",
+            va="center",
+            fontsize=10,
+            color="0.3",
+        )
+        ax.text(0, -0.18, "No values from the book figure were digitized. See source log and anomaly review.", transform=ax.transAxes, fontsize=7)
         fig.tight_layout()
         fig.savefig(out, bbox_inches="tight", facecolor="white")
         plt.close(fig)

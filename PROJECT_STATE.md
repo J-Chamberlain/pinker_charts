@@ -1,6 +1,6 @@
 # Project State
 
-Last update: 2026-06-30 03:25 America/Los_Angeles
+Last update: 2026-06-30 03:45 America/Los_Angeles
 
 Project version: `1.5-track-a-health-nutrition-branch`
 
@@ -48,10 +48,10 @@ this file are all updated. Only then may Codex begin another figure.
 | Figure | Title | Lifecycle stage | Status | Confidence | Current disposition |
 | --- | --- | --- | --- | --- | --- |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
-| 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Remediated to use the current OWID selected child-mortality series in percent units; exact Roser 2016a UN/HMD assembled source remains unresolved. |
+| 5-2 | Child mortality, 1751-2013 | Visual QA remediation and source recovery | `partial_match` | Medium | PDF reference crop added and proxy coverage trimmed to better match the book; exact Roser 2016a UN/HMD assembled source remains unresolved. |
 | 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference refreshed from supplemental PDF page 3; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
 | 5-4 | Life expectancy, UK, 1701-2013 | Track A targeted source recovery needed | `needs_targeted_source_recovery` | Low | Book reference/source refreshed from supplemental PDF page 4, but exact age-specific HMD/OWID series for ages 1, 5, 10, 20, 30, 40, 50, 60, and 70 were not recovered. |
-| 6-1 | Childhood deaths from infectious disease, 2000-2013 | Track A source blocked | `blocked_external_source` | Low | Book reference/source refreshed from supplemental PDF page 4; IHME proxy generated but cited CHERG/WHO Liu et al. appendix remains unrecovered. |
+| 6-1 | Childhood deaths from infectious disease, 2000-2013 | Visual QA blocked at source recovery | `blocked_external_source` | Low | PDF reference shows a five-line annual deaths chart; misleading IHME bar proxy was removed and reconstruction is blocked until the cited CHERG/WHO Liu et al. appendix or verified equivalent annual line-series data are recovered. |
 | 7-1 | Calories, 1700-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference/source refreshed from supplemental PDF page 5; OWID/FAO historical calories dataset gives a plausible reconstruction but exact book-era source styling/vintage is unresolved. |
 | 7-2 | Childhood stunting, 1966-2014 | Track A time-boxed reconstruction | `partial_match` | Medium-low | Book reference/source refreshed from supplemental PDF page 5; World Bank stunting prevalence proxy used because exact OWID/Roser 2016j WHO NLIS vintage was not recovered. |
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
@@ -438,6 +438,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.5.1-ch5-7-visual-qa-remediation` | 2026-06-30 | Re-reviewed chapter 5-7 side-by-side comparisons visually; switched 5-1 and 5-2 to PDF chart references, corrected the 5-1 crop, trimmed 5-2 proxy coverage, and replaced the misleading 6-1 bar proxy with a source-blocked reconstruction panel. |
 | `1.5-track-a-health-nutrition-branch` | 2026-06-30 | Track A branch processed Figures 5-3, 5-4, 6-1, 7-1, and 7-2 in a time-boxed health/nutrition batch. No figures were promoted to verified; statuses document partial matches, targeted source recovery, and blocked external-source evidence. |
 | `1.4-four-figure-remediation` | 2026-06-29 | Remediated the latest four-figure batch: clarified no-extension artifacts for Figures 5-1 and 8-4, improved Figure 5-2 source/units while retaining partial-match status, captured the actual Figure 19-1 Kindle chart crop, and marked Figure 19-1 visual validation as poor until the cited FAS/HumanProgress stacked source is recovered. |
 | `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |

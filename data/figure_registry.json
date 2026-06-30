@@ -37,12 +37,12 @@
     "page": "",
     "year_range": "1751-2013",
     "current_status": "partial_match",
-    "lifecycle_stage": "source_recovery_and_discrepancy_analysis",
+    "lifecycle_stage": "visual_qa_remediation_and_source_recovery",
     "source_type_guess": "OWID/Gapminder/UN-HMD child mortality",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Recover exact Roser 2016a UN Child Mortality/HMD assembled file or archival OWID grapher before promoting status.",
-    "notes": "Remediated on 2026-06-29: switched from Gapminder proxy/unit-error extension to current OWID selected child-mortality series in percent units; visual match improved but exact source vintage remains unresolved."
+    "next_action": "Recover exact Roser 2016a UN/HMD assembled source; resolve remaining source-vintage and label-placement differences.",
+    "notes": "2026-06-30 visual QA: PDF reference added and proxy country coverage trimmed; remains partial_match."
   },
   {
     "figure_id": "5-3",
@@ -82,12 +82,12 @@
     "page": "",
     "year_range": "2000-2013",
     "current_status": "blocked_external_source",
-    "lifecycle_stage": "track_a_timeboxed_reconstruction",
+    "lifecycle_stage": "visual_qa_blocked_at_source_recovery",
     "source_type_guess": "health_demographic_dataset",
     "priority": "active_track_a",
     "current_owner": "Codex",
-    "next_action": "Recover exact book-era source vintage and rerun visual review before promotion.",
-    "notes": "Track A 2026-06-30: blocked_external_source; IHME 2017 causes of child mortality proxy; cited Liu et al. appendix not recovered."
+    "next_action": "Recover cited CHERG/WHO Liu et al. 2014 supplementary appendix annual deaths-by-cause data or verified equivalent.",
+    "notes": "2026-06-30 visual QA: removed misleading bar proxy; side-by-side now shows reconstruction blocked until annual line-series source is recovered."
   },
   {
     "figure_id": "7-1",

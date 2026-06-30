@@ -16,6 +16,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageOps
 ROOT = Path(__file__).resolve().parents[1]
 OWID = Path("/Users/alfred/Documents/MIsc/enlightenment_now_poc/data/repositories/owid-datasets/datasets")
 TMP_KINDLE = ROOT / "tmp/kindle_batch"
+TMP_PDF = ROOT / "tmp/track_a_pdf_pages"
 TODAY = date.today().isoformat()
 
 
@@ -31,11 +32,11 @@ FIGURES = {
     "5-1": {
         "title": "Life expectancy, 1771-2015",
         "chapter": "5",
-        "page": "Kindle page 54 search result",
+        "page": "Supplemental PDF page 2; Kindle page previously inspected",
         "source": "Our World in Data, Roser 2016n, based on Riley 2005 before 2000 and WHO/World Bank after.",
         "claim": "Average life expectancy increased across world regions from the Enlightenment era to 2015.",
-        "kindle": TMP_KINDLE / "page_Figure_5_1.png",
-        "crop": (970, 100, 1810, 655),
+        "kindle": TMP_PDF / "page-02.png",
+        "crop": (70, 845, 1005, 1535),
         "status": "verified_reproduction",
         "confidence": 0.86,
         "validation": "good",
@@ -54,11 +55,11 @@ FIGURES = {
     "5-2": {
         "title": "Child mortality, 1751-2013",
         "chapter": "5",
-        "page": "Kindle page 56 search result",
+        "page": "Supplemental PDF page 3; Kindle page previously inspected",
         "source": "Our World in Data, Roser 2016a, based on UN Child Mortality Estimates and the Human Mortality Database.",
         "claim": "Child mortality declined dramatically in representative countries.",
-        "kindle": TMP_KINDLE / "page_5_2_full.png",
-        "crop": (970, 145, 1645, 620),
+        "kindle": TMP_PDF / "page-03.png",
+        "crop": (115, 130, 1005, 805),
         "status": "partial_match",
         "confidence": 0.72,
         "validation": "acceptable",
@@ -212,7 +213,7 @@ def side_by_side(reference: Path, recreated: Path, output: Path, title: str) -> 
     left_x = margin
     right_x = margin + panel_w + gap
     label_y = title_h + 8
-    draw.text((left_x + panel_w // 2, label_y), "Kindle reference", fill="black", anchor="ma", font=label_font)
+    draw.text((left_x + panel_w // 2, label_y), "PDF chart reference", fill="black", anchor="ma", font=label_font)
     draw.text((right_x + panel_w // 2, label_y), "Recreated", fill="black", anchor="ma", font=label_font)
     paste_fit(ref, left_x, title_h + header_h)
     paste_fit(rec, right_x, title_h + header_h)
@@ -294,11 +295,12 @@ def plot_5_2():
     book.to_csv(b / "data/clean/figure_5_2_book_period_clean.csv", index=False)
     cur.to_csv(b / "data/clean/figure_5_2_extended_clean.csv", index=False)
     colors = {"Sweden": "black", "Canada": "0.45", "Chile": "0.55", "South Korea": "0.65", "Ethiopia": "0.86"}
+    book_start = {"Sweden": 1751, "Canada": 1920, "Chile": 1960, "South Korea": 1950, "Ethiopia": 1960}
 
     def draw(out, extended=False):
         fig, ax = plt.subplots(figsize=(8.3, 5.1), dpi=180)
         for ent in countries:
-            sub = book[book["Entity"] == ent].sort_values("Year")
+            sub = book[(book["Entity"] == ent) & (book["Year"] >= book_start[ent])].sort_values("Year")
             ax.plot(sub["Year"], sub["under5_mortality_percent"], color=colors[ent], linewidth=2.0 if ent != "Sweden" else 2.6)
             if extended:
                 ext = cur[(cur["Entity"] == ent) & (cur["Year"] > 2013)].sort_values("Year")
