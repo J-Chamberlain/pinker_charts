@@ -1,0 +1,23 @@
+{
+  "figure_id": "7-2",
+  "chapter": "7",
+  "title": "Childhood stunting, 1966-2014",
+  "book_page": "Kindle page 70 chart capture",
+  "claim_summary": "Childhood stunting fell in several developing countries.",
+  "book_citation": "Our World in Data, Roser 2016j, based on WHO Nutrition Landscape Information System.",
+  "original_dataset": "World Bank stunting prevalence proxy; exact OWID/WHO NLIS vintage not recovered",
+  "dataset_url": "See source_logs/source_log.md and data/raw/.",
+  "archive_url": "Not recovered in Track A time-box.",
+  "download_date": "2026-06-30",
+  "reproduction_status": "partial_match",
+  "confidence_score": 0.55,
+  "visual_validation": "acceptable",
+  "notes": "Track A health/nutrition batch. Source status: partial_match.",
+  "canonical_artifacts": {
+    "original_reference": "figures/7-2/plots/comparisons/kindle_reference_figure_7_2.png",
+    "book_period_reconstruction": "figures/7-2/plots/book_period/figure_7_2_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/7-2/plots/extended/figure_7_2_extended_reconstruction.png",
+    "book_period_comparison": "figures/7-2/plots/comparisons/figure_7_2_book_period_comparison.png",
+    "extended_comparison": "figures/7-2/plots/comparisons/figure_7_2_extended_comparison.png"
+  }
+}

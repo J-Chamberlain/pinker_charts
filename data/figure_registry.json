@@ -51,13 +51,13 @@
     "title": "Maternal mortality, 1751-2013",
     "page": "",
     "year_range": "1751-2013",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "track_a_timeboxed_reconstruction",
     "source_type_guess": "health_demographic_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_track_a",
+    "current_owner": "Codex",
+    "next_action": "Recover exact book-era source vintage and rerun visual review before promotion.",
+    "notes": "Track A 2026-06-30: updated_equivalent; Maternal Mortality Ratio (Gapminder (2010), WHO (2019) and OECD (2022))."
   },
   {
     "figure_id": "5-4",
@@ -66,13 +66,13 @@
     "title": "Life expectancy, UK, 1701-2013",
     "page": "",
     "year_range": "1701-2013",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "needs_targeted_source_recovery",
+    "lifecycle_stage": "track_a_timeboxed_reconstruction",
     "source_type_guess": "health_demographic_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_track_a",
+    "current_owner": "Codex",
+    "next_action": "Recover exact book-era source vintage and rerun visual review before promotion.",
+    "notes": "Track A 2026-06-30: needs_targeted_source_recovery; partial HMD/OWID age-specific life-expectancy sources."
   },
   {
     "figure_id": "6-1",
@@ -81,13 +81,13 @@
     "title": "Childhood deaths from infectious disease, 2000-2013",
     "page": "",
     "year_range": "2000-2013",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "blocked_external_source",
+    "lifecycle_stage": "track_a_timeboxed_reconstruction",
     "source_type_guess": "health_demographic_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_track_a",
+    "current_owner": "Codex",
+    "next_action": "Recover exact book-era source vintage and rerun visual review before promotion.",
+    "notes": "Track A 2026-06-30: blocked_external_source; IHME 2017 causes of child mortality proxy; cited Liu et al. appendix not recovered."
   },
   {
     "figure_id": "7-1",
@@ -96,13 +96,13 @@
     "title": "Calories, 1700-2013",
     "page": "",
     "year_range": "1700-2013",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "track_a_timeboxed_reconstruction",
     "source_type_guess": "health_demographic_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_track_a",
+    "current_owner": "Codex",
+    "next_action": "Recover exact book-era source vintage and rerun visual review before promotion.",
+    "notes": "Track A 2026-06-30: updated_equivalent; Daily supply of calories per person (OWID based on UN FAO & historical sources)."
   },
   {
     "figure_id": "7-2",
@@ -111,13 +111,13 @@
     "title": "Childhood stunting, 1966-2014",
     "page": "",
     "year_range": "1966-2014",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "track_a_timeboxed_reconstruction",
     "source_type_guess": "health_demographic_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_track_a",
+    "current_owner": "Codex",
+    "next_action": "Recover exact book-era source vintage and rerun visual review before promotion.",
+    "notes": "Track A 2026-06-30: partial_match; World Bank stunting prevalence proxy; exact OWID/WHO NLIS vintage not recovered."
   },
   {
     "figure_id": "7-3",

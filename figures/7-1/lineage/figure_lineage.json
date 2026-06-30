@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "Figure 7-1: Calories, 1700-2013"
+  },
+  {
+    "stage": "Book Citation",
+    "value": "United States, England, and France: Our World in Data, Roser 2016d, based on Fogel 2004. China, India, and World: FAO."
+  },
+  {
+    "stage": "Dataset Used",
+    "value": "Daily supply of calories per person (OWID based on UN FAO & historical sources)"
+  },
+  {
+    "stage": "Downloaded File",
+    "value": "figures/7-1/data/raw/"
+  },
+  {
+    "stage": "Transformation Script",
+    "value": "scripts/reconstruct_track_a_health_nutrition.py"
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/7-1/plots/"
+  }
+]

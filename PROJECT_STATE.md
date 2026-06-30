@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-06-29 19:29 America/Los_Angeles
+Last update: 2026-06-30 02:55 America/Los_Angeles
 
-Project version: `1.4-four-figure-remediation`
+Project version: `1.5-track-a-health-nutrition-branch`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -49,6 +49,11 @@ this file are all updated. Only then may Codex begin another figure.
 | --- | --- | --- | --- | --- | --- |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
 | 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Remediated to use the current OWID selected child-mortality series in percent units; exact Roser 2016a UN/HMD assembled source remains unresolved. |
+| 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Kindle chart/source captured; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
+| 5-4 | Life expectancy, UK, 1701-2013 | Track A targeted source recovery needed | `needs_targeted_source_recovery` | Low | Kindle chart captured, but exact age-specific HMD/OWID series for ages 1, 5, 10, 20, 30, 40, 50, 60, and 70 were not recovered. |
+| 6-1 | Childhood deaths from infectious disease, 2000-2013 | Track A evidence/source blocked | `blocked_external_source` | Low | Kindle chart-page capture failed during the time-box; IHME proxy generated but cited CHERG/WHO Liu et al. appendix remains unrecovered. |
+| 7-1 | Calories, 1700-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Kindle chart/source captured; OWID/FAO historical calories dataset gives a plausible reconstruction but exact book-era source styling/vintage is unresolved. |
+| 7-2 | Childhood stunting, 1966-2014 | Track A time-boxed reconstruction | `partial_match` | Medium-low | Kindle chart/source captured; World Bank stunting prevalence proxy used because exact OWID/Roser 2016j WHO NLIS vintage was not recovered. |
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
@@ -91,11 +96,23 @@ support a verified reconstruction.
   match because it uses current OWID nuclear-warhead successor line data rather
   than the cited HumanProgress/FAS 2016 table and does not reproduce the
   original stacked-area encoding.
+- Figure 5-3: broad visual match from current OWID maternal-mortality data, but
+  exact Roser 2016p/Gapminder vintage remains unrecovered.
+- Figure 5-4: Kindle chart captured, but only partial age-specific UK life
+  expectancy data were recovered; source recovery for the exact HMD/OWID age
+  series is required.
+- Figure 6-1: Kindle chart-page capture and cited CHERG/WHO Liu et al. 2014
+  supplementary appendix were not recovered in Track A; current artifact is a
+  blocked proxy only.
+- Figure 7-1: plausible OWID/FAO calories reconstruction, but exact book-era
+  source vintage and line styling remain unresolved.
+- Figure 7-2: World Bank stunting prevalence proxy approximates the book chart,
+  but exact OWID/Roser 2016j WHO NLIS source vintage remains unrecovered.
 
 ## Attempted But Not Expanded
 
 The initial Kindle List of Figures extraction captured 75 visible entries.
-Figures 5-1, 5-2, 8-4, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
+Figures 5-1, 5-2, 5-3, 5-4, 6-1, 7-1, 7-2, 8-4, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
 through at least one source recovery, transformation, plotting, and validation
 pass. Continue processing in small batches of no more than two figures unless
 explicitly directed otherwise.
@@ -146,6 +163,106 @@ Canonical documentation:
 - Anomaly review: `figures/5-2/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/5-2/metadata/metadata.json`
 - Review checklist: `figures/5-2/review_checklist.md`
+
+### Figure 5-3 - Maternal mortality, 1751-2013
+
+Status: `partial_match`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/5-3/plots/comparisons/kindle_reference_figure_5_3.png`
+- Book-period reconstruction: `figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png`
+- Extended reconstruction: `figures/5-3/plots/extended/figure_5_3_extended_reconstruction.png`
+- Book-period comparison: `figures/5-3/plots/comparisons/figure_5_3_book_period_comparison.png`
+- Extended comparison: `figures/5-3/plots/comparisons/figure_5_3_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/5-3/captions/caption.txt`
+- Provenance: `figures/5-3/provenance/provenance.md`
+- Anomaly review: `figures/5-3/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/5-3/metadata/metadata.json`
+- Review checklist: `figures/5-3/review_checklist.md`
+
+### Figure 5-4 - Life expectancy, UK, 1701-2013
+
+Status: `needs_targeted_source_recovery`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/5-4/plots/comparisons/kindle_reference_figure_5_4.png`
+- Book-period reconstruction: `figures/5-4/plots/book_period/figure_5_4_book_period_reconstruction.png`
+- Extended reconstruction: `figures/5-4/plots/extended/figure_5_4_extended_reconstruction.png`
+- Book-period comparison: `figures/5-4/plots/comparisons/figure_5_4_book_period_comparison.png`
+- Extended comparison: `figures/5-4/plots/comparisons/figure_5_4_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/5-4/captions/caption.txt`
+- Provenance: `figures/5-4/provenance/provenance.md`
+- Anomaly review: `figures/5-4/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/5-4/metadata/metadata.json`
+- Review checklist: `figures/5-4/review_checklist.md`
+
+### Figure 6-1 - Childhood deaths from infectious disease, 2000-2013
+
+Status: `blocked_external_source`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/6-1/plots/comparisons/kindle_reference_figure_6_1.png`
+- Book-period reconstruction: `figures/6-1/plots/book_period/figure_6_1_book_period_reconstruction.png`
+- Extended reconstruction: `figures/6-1/plots/extended/figure_6_1_extended_reconstruction.png`
+- Book-period comparison: `figures/6-1/plots/comparisons/figure_6_1_book_period_comparison.png`
+- Extended comparison: `figures/6-1/plots/comparisons/figure_6_1_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/6-1/captions/caption.txt`
+- Provenance: `figures/6-1/provenance/provenance.md`
+- Anomaly review: `figures/6-1/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/6-1/metadata/metadata.json`
+- Review checklist: `figures/6-1/review_checklist.md`
+
+### Figure 7-1 - Calories, 1700-2013
+
+Status: `partial_match`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/7-1/plots/comparisons/kindle_reference_figure_7_1.png`
+- Book-period reconstruction: `figures/7-1/plots/book_period/figure_7_1_book_period_reconstruction.png`
+- Extended reconstruction: `figures/7-1/plots/extended/figure_7_1_extended_reconstruction.png`
+- Book-period comparison: `figures/7-1/plots/comparisons/figure_7_1_book_period_comparison.png`
+- Extended comparison: `figures/7-1/plots/comparisons/figure_7_1_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/7-1/captions/caption.txt`
+- Provenance: `figures/7-1/provenance/provenance.md`
+- Anomaly review: `figures/7-1/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/7-1/metadata/metadata.json`
+- Review checklist: `figures/7-1/review_checklist.md`
+
+### Figure 7-2 - Childhood stunting, 1966-2014
+
+Status: `partial_match`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/7-2/plots/comparisons/kindle_reference_figure_7_2.png`
+- Book-period reconstruction: `figures/7-2/plots/book_period/figure_7_2_book_period_reconstruction.png`
+- Extended reconstruction: `figures/7-2/plots/extended/figure_7_2_extended_reconstruction.png`
+- Book-period comparison: `figures/7-2/plots/comparisons/figure_7_2_book_period_comparison.png`
+- Extended comparison: `figures/7-2/plots/comparisons/figure_7_2_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/7-2/captions/caption.txt`
+- Provenance: `figures/7-2/provenance/provenance.md`
+- Anomaly review: `figures/7-2/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/7-2/metadata/metadata.json`
+- Review checklist: `figures/7-2/review_checklist.md`
 
 ### Figure 8-4 - Extreme poverty (proportion), 1820-2015
 
@@ -308,7 +425,7 @@ Canonical documentation:
    links resolve.
 2. Update scripts to use repository-relative paths and regenerate outputs from
    the imported data without Mac-specific paths.
-3. Keep Figures 5-2, 10-5, and 19-1 open for targeted source recovery before
+3. Keep Figures 5-2, 5-3, 5-4, 6-1, 7-1, 7-2, 10-5, and 19-1 open for targeted source recovery before
    promoting their statuses.
 4. For Figure 10-6, complete bibliographic cleanup and document the WDI archive
    capture as the accepted source.
@@ -321,6 +438,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.5-track-a-health-nutrition-branch` | 2026-06-30 | Track A branch processed Figures 5-3, 5-4, 6-1, 7-1, and 7-2 in a time-boxed health/nutrition batch. No figures were promoted to verified; statuses document partial matches, targeted source recovery, and blocked external-source evidence. |
 | `1.4-four-figure-remediation` | 2026-06-29 | Remediated the latest four-figure batch: clarified no-extension artifacts for Figures 5-1 and 8-4, improved Figure 5-2 source/units while retaining partial-match status, captured the actual Figure 19-1 Kindle chart crop, and marked Figure 19-1 visual validation as poor until the cited FAS/HumanProgress stacked source is recovered. |
 | `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |
 | `1.2-four-figure-batch-5-1-5-2-8-4-19-1` | 2026-06-29 | Processed Figures 5-1, 5-2, 8-4, and 19-1. Figures 5-1 and 8-4 reached verified book-period reconstructions; Figures 5-2 and 19-1 remain partial matches with documented source/capture blockers. |
