@@ -7,6 +7,18 @@ This repository is now the canonical project memory. Future work should begin
 by reading [PROJECT_STATE.md](PROJECT_STATE.md), then the relevant figure
 directory, before using chat history or doing new research.
 
+## Canonical Figure Reference
+
+Future figure reconstruction should begin with the Supplemental Graphics PDF:
+
+- [references/enlightenment_now_supplemental_graphics.pdf](references/enlightenment_now_supplemental_graphics.pdf)
+
+This PDF is the primary reference for figure images, figure titles, source
+notes, bibliography keys, and surrounding explanatory text. It replaces Kindle
+as the default first reference. Kindle should be consulted only when the PDF
+lacks necessary surrounding context or when reviewing a legacy Kindle-derived
+artifact.
+
 ## Current Scope
 
 The repository contains a hardened proof of concept plus the first broader
@@ -37,6 +49,8 @@ The initial Kindle List of Figures extraction is preserved at
   checklist for figure directories.
 - [docs/editorial_review_gate.md](docs/editorial_review_gate.md): final
   publication-quality gate for every reconstruction batch.
+- [references/](references/): canonical source PDFs and reference documents,
+  including the Supplemental Graphics PDF used as the default figure reference.
 - [data/figure_registry.csv](data/figure_registry.csv): canonical queue and
   status table for all captured book figures.
 - [figures/](figures/): independently reviewable figure packages.

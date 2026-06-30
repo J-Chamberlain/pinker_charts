@@ -2,7 +2,7 @@
 
 Last update: 2026-06-30 America/Los_Angeles
 
-Project version: `1.5-track-d-safety-mortality`
+Project version: `1.6-supplemental-graphics-reference`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -15,6 +15,32 @@ publicly inspectable data, documented provenance, reproducible code, and visual
 comparison against the book figure.
 
 The repository, not the conversation history, is the authoritative record.
+
+## Canonical Reference Document
+
+The canonical figure reference for all future reconstruction work is the
+Supplemental Graphics PDF:
+
+- [references/enlightenment_now_supplemental_graphics.pdf](references/enlightenment_now_supplemental_graphics.pdf)
+
+Use this PDF as the default first reference for figure images, figure titles,
+source notes, bibliography keys, and surrounding explanatory text. Kindle is now
+a fallback only when the Supplemental Graphics PDF lacks necessary context or
+when a legacy Kindle-derived artifact must be audited.
+
+Default figure workflow:
+
+1. Open Supplemental Graphics PDF.
+2. Locate figure.
+3. Read figure image.
+4. Read source note.
+5. Read surrounding explanatory text.
+6. Resolve bibliography.
+7. Recover original dataset.
+8. Search archived versions.
+9. Reconstruct.
+10. Extend.
+11. Editorial review.
 
 ## Figure Registry
 
@@ -429,6 +455,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.6-supplemental-graphics-reference` | 2026-06-30 | Added the Enlightenment Now Supplemental Graphics PDF as the canonical figure reference and updated README, workflow, review protocol, and project state to use it before Kindle. |
 | `1.5-track-d-safety-mortality` | 2026-06-30 | Processed Track D figures 12-3, 12-4, 12-5, 12-8, and 12-9. Figures 12-8 and 12-9 received OWID/EM-DAT and NOAA/Lopez-Holle reconstructions; Figure 12-5 received a partial ASN/World Bank successor reconstruction; Figures 12-3 and 12-4 remain source-chain recovered pending exact historical NHTSA/FHWA/NCSA source tables. |
 | `1.4-four-figure-remediation` | 2026-06-29 | Remediated the latest four-figure batch: clarified no-extension artifacts for Figures 5-1 and 8-4, improved Figure 5-2 source/units while retaining partial-match status, captured the actual Figure 19-1 Kindle chart crop, and marked Figure 19-1 visual validation as poor until the cited FAS/HumanProgress stacked source is recovered. |
 | `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |
@@ -443,31 +470,33 @@ Canonical documentation:
 Before doing new reconstruction work:
 
 1. Read this file.
-2. Read [docs/figure_registry.md](docs/figure_registry.md) and consult
+2. Open the canonical Supplemental Graphics PDF:
+   [references/enlightenment_now_supplemental_graphics.pdf](references/enlightenment_now_supplemental_graphics.pdf).
+3. Read [docs/figure_registry.md](docs/figure_registry.md) and consult
    [data/figure_registry.csv](data/figure_registry.csv).
-3. Read [docs/review_protocol.md](docs/review_protocol.md) and
+4. Read [docs/review_protocol.md](docs/review_protocol.md) and
    [docs/review_checklist.md](docs/review_checklist.md).
-4. Read [docs/editorial_review_gate.md](docs/editorial_review_gate.md).
-5. Read [docs/pipeline.md](docs/pipeline.md) and [docs/workflow.md](docs/workflow.md).
-6. Read the target figure directory, especially `metadata/metadata.json`,
+5. Read [docs/editorial_review_gate.md](docs/editorial_review_gate.md).
+6. Read [docs/pipeline.md](docs/pipeline.md) and [docs/workflow.md](docs/workflow.md).
+7. Read the target figure directory, especially `metadata/metadata.json`,
    `provenance/provenance.md`, `source_logs/source_log.md`, and
    `discrepancy_logs/discrepancy_log.md`.
-7. Update the relevant figure registry rows, this file, and
+8. Update the relevant figure registry rows, this file, and
    [docs/lessons_learned.md](docs/lessons_learned.md)
    before finishing.
-8. Whenever a figure plot, comparison image, caption, provenance file, anomaly
+9. Whenever a figure plot, comparison image, caption, provenance file, anomaly
    review, metadata file, or status changes, update the corresponding paths and
    status in the `Canonical Figure Artifacts` section above.
-9. Whenever Codex updates or reviews a figure, the final response must render
+10. Whenever Codex updates or reviews a figure, the final response must render
    the latest side-by-side comparison images inline, including both
    book-period and extended comparisons where available. GitHub remains the
    canonical archive, but rendered images in the Codex response are required
    for ChatGPT visual QA.
-10. Codex must not stop after producing a side-by-side comparison if visible
+11. Codex must not stop after producing a side-by-side comparison if visible
    discrepancies remain that could plausibly be addressed through additional
    source recovery, transformation correction, styling correction, scaling
    correction, or extension-data review.
-11. Codex must run the Editorial Review Gate before final commit and include an
+12. Codex must run the Editorial Review Gate before final commit and include an
     Editorial Review Summary in the final response for every reconstruction
     batch.
 

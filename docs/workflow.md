@@ -3,18 +3,42 @@
 ## Start Of Work
 
 1. Read [../PROJECT_STATE.md](../PROJECT_STATE.md).
-2. Read [figure registry documentation](figure_registry.md).
-3. Check [the figure registry](../data/figure_registry.csv) before selecting
+2. Open the canonical
+   [Supplemental Graphics PDF](../references/enlightenment_now_supplemental_graphics.pdf).
+3. Read [figure registry documentation](figure_registry.md).
+4. Check [the figure registry](../data/figure_registry.csv) before selecting
    or continuing figure work.
-4. Read the [review protocol](review_protocol.md) and
+5. Read the [review protocol](review_protocol.md) and
    [review checklist](review_checklist.md).
-5. Read the [editorial review gate](editorial_review_gate.md).
-6. Read the relevant figure directory.
-7. Check [figure metadata](../data/metadata/figure_metadata.csv) for canonical
+6. Read the [editorial review gate](editorial_review_gate.md).
+7. Read the relevant figure directory.
+8. Check [figure metadata](../data/metadata/figure_metadata.csv) for canonical
    status.
-8. Inspect the source log before running new searches.
-9. Confirm whether the task is architecture, research, reconstruction, or
+9. Inspect the source log before running new searches.
+10. Confirm whether the task is architecture, research, reconstruction, or
    publication packaging.
+
+## Canonical Reference Workflow
+
+The default first reference is now the Supplemental Graphics PDF:
+[../references/enlightenment_now_supplemental_graphics.pdf](../references/enlightenment_now_supplemental_graphics.pdf).
+Use it for figure images, figure titles, source notes, bibliography keys, and
+surrounding explanatory text. Kindle is a fallback only when the PDF lacks
+necessary context.
+
+For each figure, use this order:
+
+1. Open Supplemental Graphics PDF.
+2. Locate figure.
+3. Read figure image.
+4. Read source note.
+5. Read surrounding explanatory text.
+6. Resolve bibliography.
+7. Recover original dataset.
+8. Search archived versions.
+9. Reconstruct.
+10. Extend.
+11. Editorial review.
 
 ## Figure Directory Contract
 
@@ -83,8 +107,8 @@ the batch has already been published, open every comparison image, and ask:
 
 For every figure, answer:
 
-- Completeness: is anything obviously missing, such as a Kindle reference,
-  reconstruction, extension, caption, or labels?
+- Completeness: is anything obviously missing, such as a Supplemental Graphics
+  PDF reference crop, reconstruction, extension, caption, or labels?
 - Layout: does anything look visually wrong, such as tiny plots, poor scaling,
   poor cropping, excessive whitespace, inconsistent margins, awkward label
   placement, or overlapping labels?

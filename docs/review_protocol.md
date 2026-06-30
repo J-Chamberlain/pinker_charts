@@ -29,18 +29,23 @@ Proxy or successor datasets may be used only when the source log explains:
 
 Confirm:
 
-- Original Kindle figure inspected.
+- Supplemental Graphics PDF figure inspected.
 - Title extracted.
 - Caption extracted.
 - Source note extracted.
 - Surrounding discussion reviewed.
 - Bibliography resolved.
 
+The canonical evidence source is
+[../references/enlightenment_now_supplemental_graphics.pdf](../references/enlightenment_now_supplemental_graphics.pdf).
+Use Kindle only when the PDF lacks necessary surrounding context or when a
+legacy artifact must be compared with its original Kindle-derived crop.
+
 If any item is missing, return to Discovery.
 
 Required evidence:
 
-- Kindle extraction notes.
+- Supplemental Graphics PDF page/crop notes.
 - Figure title and source/citation line.
 - Bibliography mapping or unresolved-bibliography note.
 - Source log entry describing what was and was not visible.
@@ -177,8 +182,9 @@ corrected automatically or explicitly explained.
 
 Classify every issue:
 
-- `Critical`: missing Kindle reference, missing comparison image, wrong source,
-  wrong figure, missing reconstruction, or equivalent publication blocker.
+- `Critical`: missing Supplemental Graphics PDF reference, missing comparison
+  image, wrong source, wrong figure, missing reconstruction, or equivalent
+  publication blocker.
 - `Major`: obvious visual mismatch, wrong scale, poor layout, misleading
   extension, or unexplained conspicuous discrepancy.
 - `Minor`: typography, label placement, line thickness, spacing, or similar
