@@ -13,7 +13,7 @@ Milanovic 2016 figure 1.3 underlying percentile-growth data were not recovered a
 
 ## Reconstruction
 
-No reconstruction data file was accepted. The generated comparison images include a status panel instead of a reconstructed chart. This is intentional: the source-recovery rule forbids using digitized values from the book chart as reconstruction data.
+No reconstruction data file was accepted. The generated comparison images include a source-reference/status panel only, not a reconstructed chart. This is intentional: the source-recovery rule forbids using digitized values from the book chart as reconstruction data.
 
 ## Next Action
 

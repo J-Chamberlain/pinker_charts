@@ -13,12 +13,12 @@
   "reproduction_status": "manual_review_needed",
   "confidence_score": 0.35,
   "visual_validation": "blocked",
-  "notes": "Recover Milanovic 2016 figure 1.3 or Lakner-Milanovic global growth-incidence spreadsheet for 1988-2008.",
+  "notes": "Recover Milanovic 2016 figure 1.3 or Lakner-Milanovic global growth-incidence spreadsheet for 1988-2008. This figure has no attempted reconstruction in Track C; plotted images are source-recovery/status panels only.",
   "canonical_artifacts": {
     "kindle_reference": "figures/9-5/plots/comparisons/kindle_reference_figure_9_5.png",
-    "book_period_reconstruction": "figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png",
-    "extended_reconstruction": "figures/9-5/plots/extended/figure_9_5_extended_reconstruction.png",
     "book_period_comparison": "figures/9-5/plots/comparisons/figure_9_5_book_period_comparison.png",
-    "extended_comparison": "figures/9-5/plots/comparisons/figure_9_5_extended_comparison.png"
+    "extended_comparison": "figures/9-5/plots/comparisons/figure_9_5_extended_comparison.png",
+    "book_period_status_panel": "figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png",
+    "extended_status_panel": "figures/9-5/plots/extended/figure_9_5_extended_reconstruction.png"
   }
 }

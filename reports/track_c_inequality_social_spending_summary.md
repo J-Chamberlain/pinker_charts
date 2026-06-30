@@ -7,18 +7,18 @@ Branch: `track-c-inequality-social-spending`
 
 | Figure | Status | Result |
 | --- | --- | --- |
-| 9-1 | `manual_review_needed` | Source line and reference crop captured; no reconstruction plotted because accepted raw data were not recovered. |
-| 9-2 | `manual_review_needed` | Source line and reference crop captured; no reconstruction plotted because accepted raw data were not recovered. |
-| 9-3 | `manual_review_needed` | Source line and reference crop captured; no reconstruction plotted because accepted raw data were not recovered. |
+| 9-1 | `manual_review_needed` | Source line and reference crop captured; source-recovery/status panel only. No attempted reconstruction because accepted raw data were not recovered. |
+| 9-2 | `manual_review_needed` | Source line and reference crop captured; source-recovery/status panel only. No attempted reconstruction because accepted raw data were not recovered. |
+| 9-3 | `manual_review_needed` | Source line and reference crop captured; source-recovery/status panel only. No attempted reconstruction because accepted raw data were not recovered. |
 | 9-4 | `updated_equivalent` | Current OWID successor reconstructed through 2016 with dashed post-2016 extension; exact book-era OWID snapshot still unresolved. |
-| 9-5 | `manual_review_needed` | Source line and reference crop captured; no reconstruction plotted because accepted raw data were not recovered. |
+| 9-5 | `manual_review_needed` | Source line and reference crop captured; source-recovery/status panel only. No attempted reconstruction because accepted raw data were not recovered. |
 
 ## Editorial Review Summary
 
-- Critical issues found: missing accepted reconstruction data for Figures 9-1, 9-2, 9-3, and 9-5. These are explicit source-recovery blockers, not silent failures.
-- Major issues found: Figure 9-4 uses current successor data rather than the exact Ortiz-Ospina & Roser 2016b/2017 snapshot; the status remains `updated_equivalent`.
+- Critical issues found: none in the presentation package.
+- Major issues found: Figures 9-1, 9-2, 9-3, and 9-5 have source-recovery blockers and no attempted reconstruction; Figure 9-4 uses current OWID successor data rather than the exact Ortiz-Ospina & Roser 2016b/2017 snapshot. All major issues are explicitly explained in figure captions, provenance, anomaly reviews, and registry/status fields.
 - Minor issues found: Figure 9-4 label placement and line styles are approximate.
-- Issues automatically corrected: comparison panels were generated for every figure; blocked figures use explicit status panels to avoid unauthorized digitized reconstructions.
+- Issues automatically corrected: non-reconstructed figures are documented as source-recovery/manual-review entries; their comparison images are status/evidence panels only, not reconstruction outputs.
 - Issues remaining: targeted source recovery for Milanovic/Clio Infra source spreadsheets and archived OWID 2016b social-spending data.
 - Publication decision: the batch is acceptable as a documented partial/source-recovery batch, not as five verified reproductions.
 

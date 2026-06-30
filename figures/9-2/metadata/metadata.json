@@ -13,12 +13,12 @@
   "reproduction_status": "manual_review_needed",
   "confidence_score": 0.35,
   "visual_validation": "blocked",
-  "notes": "Recover Milanovic 2016 figure 3.1 spreadsheet or publisher/author supplementary data.",
+  "notes": "Recover Milanovic 2016 figure 3.1 spreadsheet or publisher/author supplementary data. This figure has no attempted reconstruction in Track C; plotted images are source-recovery/status panels only.",
   "canonical_artifacts": {
     "kindle_reference": "figures/9-2/plots/comparisons/kindle_reference_figure_9_2.png",
-    "book_period_reconstruction": "figures/9-2/plots/book_period/figure_9_2_book_period_reconstruction.png",
-    "extended_reconstruction": "figures/9-2/plots/extended/figure_9_2_extended_reconstruction.png",
     "book_period_comparison": "figures/9-2/plots/comparisons/figure_9_2_book_period_comparison.png",
-    "extended_comparison": "figures/9-2/plots/comparisons/figure_9_2_extended_comparison.png"
+    "extended_comparison": "figures/9-2/plots/comparisons/figure_9_2_extended_comparison.png",
+    "book_period_status_panel": "figures/9-2/plots/book_period/figure_9_2_book_period_reconstruction.png",
+    "extended_status_panel": "figures/9-2/plots/extended/figure_9_2_extended_reconstruction.png"
   }
 }

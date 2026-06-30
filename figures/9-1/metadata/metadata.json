@@ -13,12 +13,12 @@
   "reproduction_status": "manual_review_needed",
   "confidence_score": 0.35,
   "visual_validation": "blocked",
-  "notes": "Recover OECD Clio Infra Moatsos et al. 2014 market household income Gini data and Milanovic 2012 weighted international inequality update through 2013.",
+  "notes": "Recover OECD Clio Infra Moatsos et al. 2014 market household income Gini data and Milanovic 2012 weighted international inequality update through 2013. This figure has no attempted reconstruction in Track C; plotted images are source-recovery/status panels only.",
   "canonical_artifacts": {
     "kindle_reference": "figures/9-1/plots/comparisons/kindle_reference_figure_9_1.png",
-    "book_period_reconstruction": "figures/9-1/plots/book_period/figure_9_1_book_period_reconstruction.png",
-    "extended_reconstruction": "figures/9-1/plots/extended/figure_9_1_extended_reconstruction.png",
     "book_period_comparison": "figures/9-1/plots/comparisons/figure_9_1_book_period_comparison.png",
-    "extended_comparison": "figures/9-1/plots/comparisons/figure_9_1_extended_comparison.png"
+    "extended_comparison": "figures/9-1/plots/comparisons/figure_9_1_extended_comparison.png",
+    "book_period_status_panel": "figures/9-1/plots/book_period/figure_9_1_book_period_reconstruction.png",
+    "extended_status_panel": "figures/9-1/plots/extended/figure_9_1_extended_reconstruction.png"
   }
 }

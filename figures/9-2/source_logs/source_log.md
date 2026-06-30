@@ -4,7 +4,7 @@ Date: 2026-06-30
 
 ## Accepted Sources
 
-- None accepted for reconstruction.
+- None accepted for reconstruction; this figure has no attempted Track C reconstruction.
 
 ## Rejected Or Unresolved
 

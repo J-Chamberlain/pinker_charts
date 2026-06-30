@@ -2,7 +2,7 @@
 
 ## Visible Differences
 
-- The book reference appears on the left, but the recreated/status panel on the right is not a chart.
+- The book reference appears on the left, but the source-recovery/status panel on the right is not a chart and is not a reconstruction.
 - This is a deliberate publication blocker marker: accepted raw data were not recovered and digitized chart values were not used.
 
 ## Reviewer Challenge

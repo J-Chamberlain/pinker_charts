@@ -13,12 +13,12 @@
   "reproduction_status": "manual_review_needed",
   "confidence_score": 0.35,
   "visual_validation": "blocked",
-  "notes": "Recover Milanovic 2016 figure 2.1 spreadsheet, including UK/England and US disposable-income-per-capita Gini series.",
+  "notes": "Recover Milanovic 2016 figure 2.1 spreadsheet, including UK/England and US disposable-income-per-capita Gini series. This figure has no attempted reconstruction in Track C; plotted images are source-recovery/status panels only.",
   "canonical_artifacts": {
     "kindle_reference": "figures/9-3/plots/comparisons/kindle_reference_figure_9_3.png",
-    "book_period_reconstruction": "figures/9-3/plots/book_period/figure_9_3_book_period_reconstruction.png",
-    "extended_reconstruction": "figures/9-3/plots/extended/figure_9_3_extended_reconstruction.png",
     "book_period_comparison": "figures/9-3/plots/comparisons/figure_9_3_book_period_comparison.png",
-    "extended_comparison": "figures/9-3/plots/comparisons/figure_9_3_extended_comparison.png"
+    "extended_comparison": "figures/9-3/plots/comparisons/figure_9_3_extended_comparison.png",
+    "book_period_status_panel": "figures/9-3/plots/book_period/figure_9_3_book_period_reconstruction.png",
+    "extended_status_panel": "figures/9-3/plots/extended/figure_9_3_extended_reconstruction.png"
   }
 }
