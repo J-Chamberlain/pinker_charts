@@ -321,13 +321,13 @@
     "title": "Population and population growth, 1750-2015 and projected to 2100",
     "page": "",
     "year_range": "1750-2015",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
-    "source_type_guess": "unknown",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "current_status": "updated_equivalent",
+    "lifecycle_stage": "updated_equivalent_with_current_owid_un_projection",
+    "source_type_guess": "population_projection_dataset",
+    "priority": "completed_monitor",
+    "current_owner": "Codex",
+    "next_action": "Search archived OWID 2016 grapher data and IIASA projection files before promoting to verified_reproduction.",
+    "notes": "Processed in production loop on 2026-07-01 using current OWID successor population/growth/projection grapher data."
   },
   {
     "figure_id": "10-2",

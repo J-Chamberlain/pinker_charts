@@ -1,0 +1,23 @@
+{
+  "figure_id": "10-1",
+  "chapter": "10",
+  "title": "Population and population growth, 1750-2015 and projected to 2100",
+  "book_page": "Supplemental PDF page 12",
+  "claim_summary": "World population growth peaked in the late 20th century while total population continued rising and was projected to level off by 2100.",
+  "book_citation": "Our World in Data, Ortiz-Ospina & Roser 2016d; UN Population Division and HYDE; post-2015 IIASA medium projection.",
+  "original_dataset": "Exact 2016 OWID/HYDE/IIASA snapshot not recovered.",
+  "dataset_url": "https://ourworldindata.org/grapher/population.csv; https://ourworldindata.org/grapher/population-growth-rate.csv; https://ourworldindata.org/grapher/population-with-un-projections.csv",
+  "archive_url": "Not captured in this pass.",
+  "download_date": "2026-07-01",
+  "reproduction_status": "updated_equivalent",
+  "confidence_score": 0.82,
+  "visual_validation": "good",
+  "notes": "Uses current OWID grapher successor data (HYDE 2023, Gapminder 2022, UN WPP 2024) rather than the exact 2016 OWID/HYDE/IIASA source vintage cited by the book.",
+  "canonical_artifacts": {
+    "original_reference": "figures/10-1/plots/comparisons/pdf_reference_figure_10_1.png",
+    "book_period_reconstruction": "figures/10-1/plots/book_period/figure_10_1_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/10-1/plots/extended/figure_10_1_extended_reconstruction.png",
+    "book_period_comparison": "figures/10-1/plots/comparisons/figure_10_1_book_period_comparison.png",
+    "extended_comparison": "figures/10-1/plots/comparisons/figure_10_1_extended_comparison.png"
+  }
+}

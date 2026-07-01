@@ -1,6 +1,6 @@
 {
   "output": "output/pdf/recreated_figures_review_scroll.pdf",
-  "count": 24,
+  "count": 25,
   "items": [
     {
       "figure_id": "5-1",
@@ -192,6 +192,18 @@
       "image_size": [
         2095,
         861
+      ]
+    },
+    {
+      "figure_id": "10-1",
+      "title": "Population and population growth, 1750-2015 and projected to 2100",
+      "status": "updated_equivalent",
+      "path": "figures/10-1/plots/comparisons/figure_10_1_extended_comparison.png",
+      "selected_image": "figure_10_1_extended_comparison.png",
+      "notes": "Production loop 2026-07-01. Updated-equivalent current OWID/UN successor reconstruction; exact 2016 OWID/HYDE/IIASA source vintage remains unrecovered.",
+      "image_size": [
+        2095,
+        901
       ]
     },
     {

@@ -1,0 +1,30 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "Figure 10-1: Population and population growth, 1750-2015 and projected to 2100"
+  },
+  {
+    "stage": "Book Citation",
+    "value": "Our World in Data, Ortiz-Ospina & Roser 2016d; UN Population Division and HYDE; post-2015 IIASA medium projection."
+  },
+  {
+    "stage": "Original Dataset",
+    "value": "Exact 2016 OWID/HYDE/IIASA snapshot not recovered"
+  },
+  {
+    "stage": "Modern Dataset",
+    "value": "Current OWID grapher population, population-growth-rate, and population-with-un-projections CSVs"
+  },
+  {
+    "stage": "Downloaded File",
+    "value": "figures/10-1/data/raw/"
+  },
+  {
+    "stage": "Transformation Script",
+    "value": "scripts/reconstruct_10_1.py"
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/10-1/plots/"
+  }
+]

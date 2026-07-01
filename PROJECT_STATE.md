@@ -2,7 +2,7 @@
 
 Last update: 2026-07-01 America/Los_Angeles
 
-Project version: `1.9-production-loop-figure-9-6`
+Project version: `1.10-production-loop-figure-10-1`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -52,7 +52,7 @@ Its machine-readable manifest is:
 
 - [output/pdf/recreated_figures_review_scroll.manifest.json](output/pdf/recreated_figures_review_scroll.manifest.json)
 
-The current baseline contains 24 figure comparison items plus a summary page.
+The current baseline contains 25 figure comparison items plus a summary page.
 Source-recovery-only figures without real reconstructed comparisons are
 excluded.
 
@@ -101,6 +101,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 9-4 | Social spending, OECD countries, 1880-2016 | Updated-equivalent reconstruction with successor extension | `updated_equivalent` | Medium | Current OWID social-spending-oecd-longrun successor reconstructs the figure concept through 2016 and extends after 2016; exact Ortiz-Ospina & Roser 2016b/2017 source snapshot remains unrecovered. |
 | 9-5 | Income gains, 1988-2008 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 1.3 growth-incidence data not recovered, so no digitized reconstruction was made. |
 | 9-6 | Poverty, US, 1960-2016 | Verified reconstruction from Meyer & Sullivan 2017 Table 1 | `verified_reproduction` | High | Source report table recovered; book-period two-series chart is reconstructed from source table values, with 2017 dotted only in extended artifact. |
+| 10-1 | Population and population growth, 1750-2015 and projected to 2100 | Updated-equivalent current OWID/UN successor reconstruction | `updated_equivalent` | Medium-high | Current OWID population/growth/projection grapher data reproduce the dual-axis concept, but exact 2016 OWID/HYDE/IIASA source vintage remains unrecovered. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
@@ -485,6 +486,23 @@ Canonical documentation:
 - Metadata: `figures/9-6/metadata/metadata.json`
 - Review checklist: `figures/9-6/review_checklist.md`
 
+### Figure 10-1 - Population and population growth, 1750-2015 and projected to 2100
+
+Status: `updated_equivalent`
+
+Canonical visual artifacts:
+- Original reference: `figures/10-1/plots/comparisons/pdf_reference_figure_10_1.png`
+- Book-period reconstruction: `figures/10-1/plots/book_period/figure_10_1_book_period_reconstruction.png`
+- Extended reconstruction: `figures/10-1/plots/extended/figure_10_1_extended_reconstruction.png`
+- Book-period comparison: `figures/10-1/plots/comparisons/figure_10_1_book_period_comparison.png`
+- Extended comparison: `figures/10-1/plots/comparisons/figure_10_1_extended_comparison.png`
+Canonical documentation:
+- Caption: `figures/10-1/captions/caption.txt`
+- Provenance: `figures/10-1/provenance/provenance.md`
+- Anomaly review: `figures/10-1/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/10-1/metadata/metadata.json`
+- Review checklist: `figures/10-1/review_checklist.md`
+
 ### Figure 10-5 - Oil spills, 1970-2016
 
 Status: `partial_match`
@@ -731,6 +749,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.10-production-loop-figure-10-1` | 2026-07-01 | Added Figure 10-1 as an updated-equivalent current OWID/UN population and growth reconstruction. |
 | `1.9-production-loop-figure-9-6` | 2026-07-01 | Added Figure 9-6 as a verified reconstruction from Meyer & Sullivan 2017 Table 1 with a dotted 2017 extension. |
 | `1.8-production-loop-figure-8-3` | 2026-07-01 | Added Figure 8-3 as an updated-equivalent Gapminder Income Mountains v2 reconstruction with PDF side-by-side comparisons and full provenance package. |
 | `1.7-production-loop-consolidation` | 2026-07-01 | Consolidated fragmented Track A, B, C, and D work onto the production-loop branch and normalized canonical status state against the latest visual review baseline. |
