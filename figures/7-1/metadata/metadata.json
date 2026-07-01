@@ -1,0 +1,23 @@
+{
+  "figure_id": "7-1",
+  "chapter": "7",
+  "title": "Calories, 1700-2013",
+  "book_page": "Supplemental PDF page 5; Kindle page previously inspected",
+  "claim_summary": "Average calorie availability rose in developed and developing regions.",
+  "book_citation": "United States, England, and France: Our World in Data, Roser 2016d, based on Fogel 2004. China, India, and World: FAO.",
+  "original_dataset": "Daily supply of calories per person (OWID based on UN FAO & historical sources)",
+  "dataset_url": "See source_logs/source_log.md and data/raw/.",
+  "archive_url": "Not recovered in Track A time-box.",
+  "download_date": "2026-06-30",
+  "reproduction_status": "partial_match",
+  "confidence_score": 0.76,
+  "visual_validation": "acceptable",
+  "notes": "Track A health/nutrition batch. Source status: updated_equivalent.",
+  "canonical_artifacts": {
+    "original_reference": "figures/7-1/plots/comparisons/kindle_reference_figure_7_1.png",
+    "book_period_reconstruction": "figures/7-1/plots/book_period/figure_7_1_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/7-1/plots/extended/figure_7_1_extended_reconstruction.png",
+    "book_period_comparison": "figures/7-1/plots/comparisons/figure_7_1_book_period_comparison.png",
+    "extended_comparison": "figures/7-1/plots/comparisons/figure_7_1_extended_comparison.png"
+  }
+}

@@ -1,0 +1,7 @@
+stage,value
+Book Figure,"Figure 5-3: Maternal mortality, 1751-2013"
+Book Citation,"Our World in Data, Roser 2016p, based partly on data from Claudia Hanson of Gapminder."
+Dataset Used,"Maternal Mortality Ratio (Gapminder (2010), WHO (2019) and OECD (2022))"
+Downloaded File,figures/5-3/data/raw/
+Transformation Script,scripts/reconstruct_track_a_health_nutrition.py
+Generated Plot,figures/5-3/plots/

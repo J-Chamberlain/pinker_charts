@@ -1,0 +1,1 @@
+Figure 7-1: Calories, 1700-2013. Source note: United States, England, and France: Our World in Data, Roser 2016d, based on Fogel 2004. China, India, and World: FAO. Status: partial_match. Track A reconstruction uses Daily supply of calories per person (OWID based on UN FAO & historical sources); see anomaly review for fidelity limits.

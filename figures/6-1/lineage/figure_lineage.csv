@@ -1,0 +1,7 @@
+stage,value
+Book Figure,"Figure 6-1: Childhood deaths from infectious disease, 2000-2013"
+Book Citation,"Child Health Epidemiology Reference Group of the World Health Organization; Liu et al. 2014, supplementary appendix."
+Dataset Used,IHME 2017 causes of child mortality proxy; cited Liu et al. appendix not recovered
+Downloaded File,figures/6-1/data/raw/
+Transformation Script,scripts/reconstruct_track_a_health_nutrition.py
+Generated Plot,figures/6-1/plots/

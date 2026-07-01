@@ -1,0 +1,23 @@
+{
+  "figure_id": "5-4",
+  "chapter": "5",
+  "title": "Life expectancy, UK, 1701-2013",
+  "book_page": "Supplemental PDF page 4; Kindle page previously inspected",
+  "claim_summary": "UK life expectancy improved at birth and across older ages.",
+  "book_citation": "Our World in Data, Roser 2016n. Data before 1845 are for England and Wales and come from OECD Clio Infra, van Zanden et al. 2014. Data from 1845 on are for mid-decade years only, and come from the Human Mortality Database.",
+  "original_dataset": "partial HMD/OWID age-specific life-expectancy sources",
+  "dataset_url": "See source_logs/source_log.md and data/raw/.",
+  "archive_url": "Not recovered in Track A time-box.",
+  "download_date": "2026-06-30",
+  "reproduction_status": "needs_targeted_source_recovery",
+  "confidence_score": 0.4,
+  "visual_validation": "poor",
+  "notes": "Track A health/nutrition batch. Source status: needs_targeted_source_recovery.",
+  "canonical_artifacts": {
+    "original_reference": "figures/5-4/plots/comparisons/kindle_reference_figure_5_4.png",
+    "book_period_reconstruction": "figures/5-4/plots/book_period/figure_5_4_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/5-4/plots/extended/figure_5_4_extended_reconstruction.png",
+    "book_period_comparison": "figures/5-4/plots/comparisons/figure_5_4_book_period_comparison.png",
+    "extended_comparison": "figures/5-4/plots/comparisons/figure_5_4_extended_comparison.png"
+  }
+}

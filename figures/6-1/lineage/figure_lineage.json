@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "Figure 6-1: Childhood deaths from infectious disease, 2000-2013"
+  },
+  {
+    "stage": "Book Citation",
+    "value": "Child Health Epidemiology Reference Group of the World Health Organization; Liu et al. 2014, supplementary appendix."
+  },
+  {
+    "stage": "Dataset Used",
+    "value": "IHME 2017 causes of child mortality proxy; cited Liu et al. appendix not recovered"
+  },
+  {
+    "stage": "Downloaded File",
+    "value": "figures/6-1/data/raw/"
+  },
+  {
+    "stage": "Transformation Script",
+    "value": "scripts/reconstruct_track_a_health_nutrition.py"
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/6-1/plots/"
+  }
+]

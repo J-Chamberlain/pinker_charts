@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "Figure 5-4: Life expectancy, UK, 1701-2013"
+  },
+  {
+    "stage": "Book Citation",
+    "value": "Our World in Data, Roser 2016n. Data before 1845 are for England and Wales and come from OECD Clio Infra, van Zanden et al. 2014. Data from 1845 on are for mid-decade years only, and come from the Human Mortality Database."
+  },
+  {
+    "stage": "Dataset Used",
+    "value": "partial HMD/OWID age-specific life-expectancy sources"
+  },
+  {
+    "stage": "Downloaded File",
+    "value": "figures/5-4/data/raw/"
+  },
+  {
+    "stage": "Transformation Script",
+    "value": "scripts/reconstruct_track_a_health_nutrition.py"
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/5-4/plots/"
+  }
+]

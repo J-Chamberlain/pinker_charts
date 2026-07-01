@@ -1,0 +1,23 @@
+{
+  "figure_id": "5-3",
+  "chapter": "5",
+  "title": "Maternal mortality, 1751-2013",
+  "book_page": "Supplemental PDF page 3; Kindle page previously inspected",
+  "claim_summary": "Maternal mortality declined sharply in representative countries.",
+  "book_citation": "Our World in Data, Roser 2016p, based partly on data from Claudia Hanson of Gapminder.",
+  "original_dataset": "Maternal Mortality Ratio (Gapminder (2010), WHO (2019) and OECD (2022))",
+  "dataset_url": "See source_logs/source_log.md and data/raw/.",
+  "archive_url": "Not recovered in Track A time-box.",
+  "download_date": "2026-06-30",
+  "reproduction_status": "partial_match",
+  "confidence_score": 0.7,
+  "visual_validation": "acceptable",
+  "notes": "Track A health/nutrition batch. Source status: updated_equivalent.",
+  "canonical_artifacts": {
+    "original_reference": "figures/5-3/plots/comparisons/kindle_reference_figure_5_3.png",
+    "book_period_reconstruction": "figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/5-3/plots/extended/figure_5_3_extended_reconstruction.png",
+    "book_period_comparison": "figures/5-3/plots/comparisons/figure_5_3_book_period_comparison.png",
+    "extended_comparison": "figures/5-3/plots/comparisons/figure_5_3_extended_comparison.png"
+  }
+}

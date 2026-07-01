@@ -1,0 +1,7 @@
+stage,value
+Book Figure,"Figure 7-2: Childhood stunting, 1966-2014"
+Book Citation,"Our World in Data, Roser 2016j, based on WHO Nutrition Landscape Information System."
+Dataset Used,World Bank stunting prevalence proxy; exact OWID/WHO NLIS vintage not recovered
+Downloaded File,figures/7-2/data/raw/
+Transformation Script,scripts/reconstruct_track_a_health_nutrition.py
+Generated Plot,figures/7-2/plots/
