@@ -42,6 +42,20 @@ Default figure workflow:
 10. Extend.
 11. Editorial review.
 
+## Current Visual QA Baseline
+
+The continuous visual review PDF is tracked at:
+
+- [output/pdf/recreated_figures_review_scroll.pdf](output/pdf/recreated_figures_review_scroll.pdf)
+
+Its machine-readable manifest is:
+
+- [output/pdf/recreated_figures_review_scroll.manifest.json](output/pdf/recreated_figures_review_scroll.manifest.json)
+
+The current baseline contains 22 figure comparison items plus a summary page.
+Source-recovery-only figures without real reconstructed comparisons are
+excluded.
+
 ## Figure Registry
 
 The canonical project-wide figure queue is
