@@ -2,7 +2,7 @@
 
 Last update: 2026-07-01 America/Los_Angeles
 
-Project version: `1.7-production-loop-consolidation`
+Project version: `1.8-production-loop-figure-8-3`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -52,7 +52,7 @@ Its machine-readable manifest is:
 
 - [output/pdf/recreated_figures_review_scroll.manifest.json](output/pdf/recreated_figures_review_scroll.manifest.json)
 
-The current baseline contains 22 figure comparison items plus a summary page.
+The current baseline contains 23 figure comparison items plus a summary page.
 Source-recovery-only figures without real reconstructed comparisons are
 excluded.
 
@@ -324,6 +324,27 @@ Canonical documentation:
 - Anomaly review: `figures/7-2/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/7-2/metadata/metadata.json`
 - Review checklist: `figures/7-2/review_checklist.md`
+
+
+### Figure 8-3 - World income distribution, 1800, 1975, and 2015
+
+Status: `updated_equivalent`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/8-3/plots/comparisons/kindle_reference_figure_8_3.png`
+- Book-period reconstruction: `figures/8-3/plots/book_period/figure_8_3_book_period_reconstruction.png`
+- Extended reconstruction: `figures/8-3/plots/extended/figure_8_3_extended_reconstruction.png`
+- Book-period comparison: `figures/8-3/plots/comparisons/figure_8_3_book_period_comparison.png`
+- Extended comparison: `figures/8-3/plots/comparisons/figure_8_3_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/8-3/captions/caption.txt`
+- Provenance: `figures/8-3/provenance/provenance.md`
+- Anomaly review: `figures/8-3/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/8-3/metadata/metadata.json`
+- Review checklist: `figures/8-3/review_checklist.md`
 
 ### Figure 8-4 - Extreme poverty (proportion), 1820-2015
 
@@ -692,6 +713,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.8-production-loop-figure-8-3` | 2026-07-01 | Added Figure 8-3 as an updated-equivalent Gapminder Income Mountains v2 reconstruction with PDF side-by-side comparisons and full provenance package. |
 | `1.7-production-loop-consolidation` | 2026-07-01 | Consolidated fragmented Track A, B, C, and D work onto the production-loop branch and normalized canonical status state against the latest visual review baseline. |
 | `1.6-supplemental-graphics-reference` | 2026-06-30 | Added the Enlightenment Now Supplemental Graphics PDF as the canonical figure reference and updated README, workflow, review protocol, and project state to use it before Kindle. |
 | `1.5-track-d-safety-mortality` | 2026-06-30 | Processed Track D figures 12-3, 12-4, 12-5, 12-8, and 12-9. Figures 12-8 and 12-9 received OWID/EM-DAT and NOAA/Lopez-Holle reconstructions; Figure 12-5 received a partial ASN/World Bank successor reconstruction; Figures 12-3 and 12-4 remain source-chain recovered pending exact historical NHTSA/FHWA/NCSA source tables. |
@@ -770,6 +792,7 @@ Track B processed five food, poverty, and economic-history figures on branch `tr
 | 7-4 | Famine deaths, 1860-2016 | source supported reconstruction with denominator caveat | `partial_match` | Medium | The event table is recovered from OWID's famine dataset article; the decadal rate denominator uses current OWID world population interpolation. |
 | 8-1 | Gross World Product, 1-2015 | book period reconstruction with successor extension | `updated_equivalent` | Medium-high | Live OWID successor reproduces the same shape and source family but extends past 2015 and may include revisions. |
 | 8-2 | GDP per capita, 1600-2015 | book period reconstruction with successor extension | `updated_equivalent` | Medium | Current Maddison 2020/OWID successor data match the broad visual pattern but not the exact book-era source vintage. |
+| 8-3 | World income distribution, 1800, 1975, and 2015 | Gapminder successor workbook reconstruction | `updated_equivalent` | Medium-high | Gapminder Income Mountains v2 source-family workbook reproduces the concept and shape, but exact book-era mountain tool snapshot remains unrecovered. |
 | 8-5 | Extreme poverty (number), 1820-2015 | reviewed book period reconstruction no comparable extension | `verified_reproduction` | High | Book-period source family and visual encoding are reproduced; no comparable post-2015 extension is plotted. |
 
 ### Track B Completed/Verified

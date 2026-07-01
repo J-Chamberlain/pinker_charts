@@ -1,6 +1,6 @@
 {
   "output": "output/pdf/recreated_figures_review_scroll.pdf",
-  "count": 22,
+  "count": 23,
   "items": [
     {
       "figure_id": "5-1",
@@ -135,6 +135,18 @@
       ]
     },
     {
+      "figure_id": "8-3",
+      "title": "World income distribution, 1800, 1975, and 2015",
+      "status": "updated_equivalent",
+      "path": "figures/8-3/plots/comparisons/figure_8_3_extended_comparison.png",
+      "selected_image": "figure_8_3_extended_comparison.png",
+      "notes": "Production loop 2026-07-01. Updated-equivalent Gapminder Income Mountains v2 reconstruction; exact book-era mountain snapshot remains unrecovered.",
+      "image_size": [
+        2095,
+        861
+      ]
+    },
+    {
       "figure_id": "8-4",
       "title": "Extreme poverty (proportion), 1820-2015",
       "status": "verified_reproduction",
@@ -174,24 +186,24 @@
       "figure_id": "10-5",
       "title": "Oil spills, 1970-2016",
       "status": "partial_match",
-      "path": "figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png",
-      "selected_image": "figure_10_5_extended_comparison_captioned.png",
+      "path": "figures/10-5/plots/comparisons/figure_10_5_extended_comparison.png",
+      "selected_image": "figure_10_5_extended_comparison.png",
       "notes": "Current repository state: oil-spill line supported; exact annual oil-shipping gray-line source unresolved. See figures/10-5/.",
       "image_size": [
         1520,
-        781
+        616
       ]
     },
     {
       "figure_id": "10-6",
       "title": "Protected areas, 1990-2014",
       "status": "verified_reproduction",
-      "path": "figures/10-6/plots/comparisons/figure_10_6_extended_comparison_captioned.png",
-      "selected_image": "figure_10_6_extended_comparison_captioned.png",
+      "path": "figures/10-6/plots/comparisons/figure_10_6_extended_comparison.png",
+      "selected_image": "figure_10_6_extended_comparison.png",
       "notes": "Current repository state: archived WDI 2017 source verifies book-period reconstruction; extension is successor current WDI series. See figures/10-6/.",
       "image_size": [
         1520,
-        760
+        616
       ]
     },
     {

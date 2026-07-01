@@ -1,0 +1,8 @@
+stage,value
+Book Figure,"Figure 8-3: World income distribution, 1800, 1975, and 2015"
+Book Citation,"Gapminder, via Ola Rosling, http://www.gapminder.org/tools/mountain. The scale is in 2011 international dollars."
+Original Dataset,Exact 2017 Gapminder mountain snapshot not recovered
+Modern Dataset,Gapminder Income Mountains v2 workbook
+Downloaded File,figures/8-3/data/raw/gapminder_income_mountains_v2.xlsx
+Transformation Script,scripts/reconstruct_8_3.py
+Generated Plot,figures/8-3/plots/

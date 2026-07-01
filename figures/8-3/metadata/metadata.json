@@ -1,0 +1,23 @@
+{
+  "figure_id": "8-3",
+  "chapter": "8",
+  "title": "World income distribution, 1800, 1975, and 2015",
+  "book_page": "Supplemental PDF page 8",
+  "claim_summary": "World income distribution shifted rightward from 1800 to 2015, with the 1975 twin-hump distribution collapsing into a richer 2015 single-hump distribution.",
+  "book_citation": "Gapminder, via Ola Rosling, http://www.gapminder.org/tools/mountain. The scale is in 2011 international dollars.",
+  "original_dataset": "Gapminder Income Mountains dataset v2",
+  "dataset_url": "https://docs.google.com/spreadsheets/d/1939CzZ5HHoLreb0YyopaWfNjJ9mnN27IhywI6-TuwZs/export?format=xlsx",
+  "archive_url": "Not captured in this pass.",
+  "download_date": "2026-07-01",
+  "reproduction_status": "updated_equivalent",
+  "confidence_score": 0.78,
+  "visual_validation": "good",
+  "notes": "Same Gapminder source family and variables were located, but the downloaded v2 workbook is a 2018 successor rather than a proven book-era snapshot. Shares were multiplied by workbook population to plot people in each income bin, matching the visible figure geometry more closely than normalized shares.",
+  "canonical_artifacts": {
+    "original_reference": "figures/8-3/plots/comparisons/kindle_reference_figure_8_3.png",
+    "book_period_reconstruction": "figures/8-3/plots/book_period/figure_8_3_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/8-3/plots/extended/figure_8_3_extended_reconstruction.png",
+    "book_period_comparison": "figures/8-3/plots/comparisons/figure_8_3_book_period_comparison.png",
+    "extended_comparison": "figures/8-3/plots/comparisons/figure_8_3_extended_comparison.png"
+  }
+}

@@ -186,13 +186,13 @@
     "title": "World income distribution, 1800, 1975, and 2015",
     "page": "",
     "year_range": "1800",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "updated_equivalent",
+    "lifecycle_stage": "updated_equivalent_with_gapminder_successor_workbook",
     "source_type_guess": "economic_historical_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "completed_monitor",
+    "current_owner": "Codex",
+    "next_action": "Search for archived 2017 Gapminder mountain tool/data snapshot before promoting to verified_reproduction.",
+    "notes": "Processed in production loop on 2026-07-01 using Gapminder Income Mountains v2 workbook; exact book-era snapshot not recovered."
   },
   {
     "figure_id": "8-4",
