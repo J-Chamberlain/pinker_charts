@@ -1,0 +1,24 @@
+{
+  "figure_id": "9-2",
+  "title": "Global inequality, 1820-2011",
+  "chapter": "9",
+  "book_page": "Preview PDF page image page-10; Kindle-equivalent figure/source inspected",
+  "year_range": "1820-2011",
+  "claim_summary": "Estimated global interpersonal Gini rose into the mid-twentieth century and declined in the 2005-dollar household-survey series after about 2000.",
+  "book_citation": "Milanovic 2016, fig. 3.1. The left-hand curve shows 1990 international dollars of disposable income per capita; the right-hand curve shows 2005 international dollars, and combines household surveys of per capita disposable income and consumption.",
+  "original_dataset": "Milanovic 2016 figure 3.1 underlying table was not recovered as an inspectable data file.",
+  "dataset_url": "",
+  "archive_url": "",
+  "download_date": "2026-06-30",
+  "reproduction_status": "manual_review_needed",
+  "confidence_score": 0.35,
+  "visual_validation": "blocked",
+  "notes": "Recover Milanovic 2016 figure 3.1 spreadsheet or publisher/author supplementary data. This figure has no attempted reconstruction in Track C; plotted images are source-recovery/status panels only.",
+  "canonical_artifacts": {
+    "kindle_reference": "figures/9-2/plots/comparisons/kindle_reference_figure_9_2.png",
+    "book_period_comparison": "figures/9-2/plots/comparisons/figure_9_2_book_period_comparison.png",
+    "extended_comparison": "figures/9-2/plots/comparisons/figure_9_2_extended_comparison.png",
+    "book_period_status_panel": "figures/9-2/plots/book_period/figure_9_2_book_period_reconstruction.png",
+    "extended_status_panel": "figures/9-2/plots/extended/figure_9_2_extended_reconstruction.png"
+  }
+}

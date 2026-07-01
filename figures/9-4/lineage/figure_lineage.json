@@ -1,0 +1,20 @@
+[
+  {
+    "figure_id": "9-4",
+    "artifact": "book_reference",
+    "source": "Chapter 9 preview PDF page crop",
+    "status": "reference_only"
+  },
+  {
+    "figure_id": "9-4",
+    "artifact": "book_period_reconstruction",
+    "source": "current OWID social-spending-oecd-longrun values through 2016",
+    "status": "updated_equivalent"
+  },
+  {
+    "figure_id": "9-4",
+    "artifact": "extended_reconstruction",
+    "source": "current OWID social-spending-oecd-longrun values through 2024",
+    "status": "successor_extension"
+  }
+]

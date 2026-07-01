@@ -1,0 +1,24 @@
+{
+  "figure_id": "9-4",
+  "title": "Social spending, OECD countries, 1880-2016",
+  "chapter": "9",
+  "book_page": "Preview PDF page image page-11; Kindle-equivalent figure/source inspected",
+  "year_range": "1880-2016",
+  "claim_summary": "Public social spending rose across market-democratic OECD countries from near-zero late nineteenth-century levels to substantial shares of GDP.",
+  "book_citation": "Our World in Data, Ortiz-Ospina & Roser 2016b, based on data from Lindert 2004 and OECD 1985, 2014, 2017.",
+  "original_dataset": "Current OWID grapher successor located; exact 2016b/2017 OWID source snapshot was not recovered.",
+  "dataset_url": "https://ourworldindata.org/grapher/social-spending-oecd-longrun.csv?v=1&csvType=full&useColumnShortNames=false",
+  "archive_url": "",
+  "download_date": "2026-06-30",
+  "reproduction_status": "updated_equivalent",
+  "confidence_score": 0.78,
+  "visual_validation": "good",
+  "notes": "For verification, recover the exact OWID Ortiz-Ospina & Roser 2016b/2017 chart data snapshot; otherwise keep updated_equivalent status.",
+  "canonical_artifacts": {
+    "kindle_reference": "figures/9-4/plots/comparisons/kindle_reference_figure_9_4.png",
+    "book_period_reconstruction": "figures/9-4/plots/book_period/figure_9_4_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/9-4/plots/extended/figure_9_4_extended_reconstruction.png",
+    "book_period_comparison": "figures/9-4/plots/comparisons/figure_9_4_book_period_comparison.png",
+    "extended_comparison": "figures/9-4/plots/comparisons/figure_9_4_extended_comparison.png"
+  }
+}

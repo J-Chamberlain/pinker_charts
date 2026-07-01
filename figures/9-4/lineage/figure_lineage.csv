@@ -1,0 +1,4 @@
+figure_id,artifact,source,status
+9-4,book_reference,Chapter 9 preview PDF page crop,reference_only
+9-4,book_period_reconstruction,current OWID social-spending-oecd-longrun values through 2016,updated_equivalent
+9-4,extended_reconstruction,current OWID social-spending-oecd-longrun values through 2024,successor_extension

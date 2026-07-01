@@ -81,6 +81,11 @@ this file are all updated. Only then may Codex begin another figure.
 | 7-1 | Calories, 1700-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference/source refreshed from supplemental PDF page 5; OWID/FAO historical calories dataset gives a plausible reconstruction but exact book-era source styling/vintage is unresolved. |
 | 7-2 | Childhood stunting, 1966-2014 | Track A time-boxed reconstruction | `partial_match` | Medium-low | Book reference/source refreshed from supplemental PDF page 5; World Bank stunting prevalence proxy used because exact OWID/Roser 2016j WHO NLIS vintage was not recovered. |
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
+| 9-1 | International inequality, 1820-2013 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured from Chapter 9 preview PDF; original OECD Clio Infra/Moatsos and Milanovic weighted data not recovered, so no digitized reconstruction was made. |
+| 9-2 | Global inequality, 1820-2011 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 3.1 underlying table not recovered, so no digitized reconstruction was made. |
+| 9-3 | Inequality, UK and US, 1688-2013 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 2.1 underlying UK/US table not recovered, so no digitized reconstruction was made. |
+| 9-4 | Social spending, OECD countries, 1880-2016 | Updated-equivalent reconstruction with successor extension | `updated_equivalent` | Medium | Current OWID social-spending-oecd-longrun successor reconstructs the figure concept through 2016 and extends after 2016; exact Ortiz-Ospina & Roser 2016b/2017 source snapshot remains unrecovered. |
+| 9-5 | Income gains, 1988-2008 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 1.3 growth-incidence data not recovered, so no digitized reconstruction was made. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
@@ -325,6 +330,107 @@ Canonical documentation:
 - Anomaly review: `figures/8-4/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/8-4/metadata/metadata.json`
 - Review checklist: `figures/8-4/review_checklist.md`
+
+
+### Figure 9-1 - International inequality, 1820-2013
+
+Status: `manual_review_needed`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/9-1/plots/comparisons/kindle_reference_figure_9_1.png`
+- Book-period status panel: `figures/9-1/plots/book_period/figure_9_1_book_period_reconstruction.png`
+- Extended status panel: `figures/9-1/plots/extended/figure_9_1_extended_reconstruction.png`
+- Book-period comparison: `figures/9-1/plots/comparisons/figure_9_1_book_period_comparison.png`
+- Extended comparison: `figures/9-1/plots/comparisons/figure_9_1_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/9-1/captions/caption.txt`
+- Provenance: `figures/9-1/provenance/provenance.md`
+- Anomaly review: `figures/9-1/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/9-1/metadata/metadata.json`
+- Review checklist: `figures/9-1/review_checklist.md`
+
+### Figure 9-2 - Global inequality, 1820-2011
+
+Status: `manual_review_needed`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/9-2/plots/comparisons/kindle_reference_figure_9_2.png`
+- Book-period status panel: `figures/9-2/plots/book_period/figure_9_2_book_period_reconstruction.png`
+- Extended status panel: `figures/9-2/plots/extended/figure_9_2_extended_reconstruction.png`
+- Book-period comparison: `figures/9-2/plots/comparisons/figure_9_2_book_period_comparison.png`
+- Extended comparison: `figures/9-2/plots/comparisons/figure_9_2_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/9-2/captions/caption.txt`
+- Provenance: `figures/9-2/provenance/provenance.md`
+- Anomaly review: `figures/9-2/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/9-2/metadata/metadata.json`
+- Review checklist: `figures/9-2/review_checklist.md`
+
+### Figure 9-3 - Inequality, UK and US, 1688-2013
+
+Status: `manual_review_needed`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/9-3/plots/comparisons/kindle_reference_figure_9_3.png`
+- Book-period status panel: `figures/9-3/plots/book_period/figure_9_3_book_period_reconstruction.png`
+- Extended status panel: `figures/9-3/plots/extended/figure_9_3_extended_reconstruction.png`
+- Book-period comparison: `figures/9-3/plots/comparisons/figure_9_3_book_period_comparison.png`
+- Extended comparison: `figures/9-3/plots/comparisons/figure_9_3_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/9-3/captions/caption.txt`
+- Provenance: `figures/9-3/provenance/provenance.md`
+- Anomaly review: `figures/9-3/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/9-3/metadata/metadata.json`
+- Review checklist: `figures/9-3/review_checklist.md`
+
+### Figure 9-4 - Social spending, OECD countries, 1880-2016
+
+Status: `updated_equivalent`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/9-4/plots/comparisons/kindle_reference_figure_9_4.png`
+- Book-period reconstruction: `figures/9-4/plots/book_period/figure_9_4_book_period_reconstruction.png`
+- Extended reconstruction: `figures/9-4/plots/extended/figure_9_4_extended_reconstruction.png`
+- Book-period comparison: `figures/9-4/plots/comparisons/figure_9_4_book_period_comparison.png`
+- Extended comparison: `figures/9-4/plots/comparisons/figure_9_4_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/9-4/captions/caption.txt`
+- Provenance: `figures/9-4/provenance/provenance.md`
+- Anomaly review: `figures/9-4/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/9-4/metadata/metadata.json`
+- Review checklist: `figures/9-4/review_checklist.md`
+
+### Figure 9-5 - Income gains, 1988-2008
+
+Status: `manual_review_needed`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/9-5/plots/comparisons/kindle_reference_figure_9_5.png`
+- Book-period status panel: `figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png`
+- Extended status panel: `figures/9-5/plots/extended/figure_9_5_extended_reconstruction.png`
+- Book-period comparison: `figures/9-5/plots/comparisons/figure_9_5_book_period_comparison.png`
+- Extended comparison: `figures/9-5/plots/comparisons/figure_9_5_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/9-5/captions/caption.txt`
+- Provenance: `figures/9-5/provenance/provenance.md`
+- Anomaly review: `figures/9-5/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/9-5/metadata/metadata.json`
+- Review checklist: `figures/9-5/review_checklist.md`
 
 ### Figure 10-5 - Oil spills, 1970-2016
 

@@ -112,3 +112,10 @@ Figures 12-3 and 12-4 had clear Kindle source chains but unrecovered historical
 tables. When pre-book institutional PDFs or stitched historical tables are not
 available after targeted archive checks, document the blocker and keep moving
 rather than manufacturing a reconstruction from partial successor data.
+
+## A Blocked Figure Still Needs A Review Package
+
+Track C showed that when the cited raw data are not recovered, the right output
+is not a weak digitized reconstruction. Capture the source line and reference
+image, write the recovery target, generate an explicit status comparison panel,
+and classify the figure as source-blocked or manual-review-needed.

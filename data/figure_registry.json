@@ -231,13 +231,13 @@
     "title": "International inequality, 1820-2013",
     "page": "",
     "year_range": "1820-2013",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "manual_review_needed",
+    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
     "source_type_guess": "economic_historical_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_high",
+    "current_owner": "Codex",
+    "next_action": "Recover OECD Clio Infra Moatsos et al. 2014 market household income Gini data and Milanovic 2012 weighted international inequality update through 2013.",
+    "notes": "Processed in Track C on 2026-06-30. Original Clio Infra/Moatsos and Milanovic personal-communication data were not recovered as inspectable files. No digitized chart values were used."
   },
   {
     "figure_id": "9-2",
@@ -246,13 +246,13 @@
     "title": "Global inequality, 1820-2011",
     "page": "",
     "year_range": "1820-2011",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "manual_review_needed",
+    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
     "source_type_guess": "economic_historical_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_high",
+    "current_owner": "Codex",
+    "next_action": "Recover Milanovic 2016 figure 3.1 spreadsheet or publisher/author supplementary data.",
+    "notes": "Processed in Track C on 2026-06-30. Milanovic 2016 figure 3.1 underlying table was not recovered as an inspectable data file. No digitized chart values were used."
   },
   {
     "figure_id": "9-3",
@@ -261,13 +261,13 @@
     "title": "Inequality, UK and US, 1688-2013",
     "page": "",
     "year_range": "1688-2013",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "manual_review_needed",
+    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
     "source_type_guess": "economic_historical_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_high",
+    "current_owner": "Codex",
+    "next_action": "Recover Milanovic 2016 figure 2.1 spreadsheet, including UK/England and US disposable-income-per-capita Gini series.",
+    "notes": "Processed in Track C on 2026-06-30. Milanovic 2016 figure 2.1 underlying table was not recovered as an inspectable data file. No digitized chart values were used."
   },
   {
     "figure_id": "9-4",
@@ -276,13 +276,13 @@
     "title": "Social spending, OECD countries, 1880-2016",
     "page": "",
     "year_range": "1880-2016",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "updated_equivalent",
+    "lifecycle_stage": "updated_equivalent_with_successor_extension",
     "source_type_guess": "economic_historical_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "completed_monitor",
+    "current_owner": "Codex",
+    "next_action": "For verification, recover the exact OWID Ortiz-Ospina & Roser 2016b/2017 chart data snapshot; otherwise keep updated_equivalent status.",
+    "notes": "Processed in Track C on 2026-06-30. Current OWID grapher successor located; exact 2016b/2017 OWID source snapshot was not recovered. No digitized chart values were used."
   },
   {
     "figure_id": "9-5",
@@ -291,13 +291,13 @@
     "title": "Income gains, 1988-2008",
     "page": "",
     "year_range": "1988-2008",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "manual_review_needed",
+    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
     "source_type_guess": "economic_historical_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_high",
+    "current_owner": "Codex",
+    "next_action": "Recover Milanovic 2016 figure 1.3 or Lakner-Milanovic global growth-incidence spreadsheet for 1988-2008.",
+    "notes": "Processed in Track C on 2026-06-30. Milanovic 2016 figure 1.3 underlying percentile-growth data were not recovered as an inspectable data file. No digitized chart values were used."
   },
   {
     "figure_id": "9-6",
