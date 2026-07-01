@@ -1,0 +1,26 @@
+[
+  {
+    "figure_id": "8-2",
+    "figure_title": "GDP per capita, 1600-2015",
+    "stage_order": 1,
+    "stage": "Book Figure",
+    "value": "Figure 8-2: GDP per capita, 1600-2015",
+    "stage_status": "observed"
+  },
+  {
+    "figure_id": "8-2",
+    "figure_title": "GDP per capita, 1600-2015",
+    "stage_order": 2,
+    "stage": "Source Note",
+    "value": "Our World in Data, Roser 2016c, based on data from the World Bank and from Maddison Project 2014.",
+    "stage_status": "observed"
+  },
+  {
+    "figure_id": "8-2",
+    "figure_title": "GDP per capita, 1600-2015",
+    "stage_order": 3,
+    "stage": "Reconstruction Script",
+    "value": "scripts/reconstruct_track_b_economic_history.py",
+    "stage_status": "generated"
+  }
+]

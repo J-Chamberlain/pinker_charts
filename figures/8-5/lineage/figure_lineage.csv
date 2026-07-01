@@ -1,0 +1,4 @@
+figure_id,figure_title,stage_order,stage,value,stage_status
+8-5,"Extreme poverty (number), 1820-2015",1,Book Figure,"Figure 8-5: Extreme poverty (number), 1820-2015",observed
+8-5,"Extreme poverty (number), 1820-2015",2,Source Note,"Our World in Data, Roser & Ortiz-Ospina 2017, based on data from Bourguignon & Morrison 2002 (1820-1992) and the World Bank 2016g (1981-2015).",observed
+8-5,"Extreme poverty (number), 1820-2015",3,Reconstruction Script,scripts/reconstruct_track_b_economic_history.py,generated

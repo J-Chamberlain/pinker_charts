@@ -1,0 +1,26 @@
+[
+  {
+    "figure_id": "8-5",
+    "figure_title": "Extreme poverty (number), 1820-2015",
+    "stage_order": 1,
+    "stage": "Book Figure",
+    "value": "Figure 8-5: Extreme poverty (number), 1820-2015",
+    "stage_status": "observed"
+  },
+  {
+    "figure_id": "8-5",
+    "figure_title": "Extreme poverty (number), 1820-2015",
+    "stage_order": 2,
+    "stage": "Source Note",
+    "value": "Our World in Data, Roser & Ortiz-Ospina 2017, based on data from Bourguignon & Morrison 2002 (1820-1992) and the World Bank 2016g (1981-2015).",
+    "stage_status": "observed"
+  },
+  {
+    "figure_id": "8-5",
+    "figure_title": "Extreme poverty (number), 1820-2015",
+    "stage_order": 3,
+    "stage": "Reconstruction Script",
+    "value": "scripts/reconstruct_track_b_economic_history.py",
+    "stage_status": "generated"
+  }
+]

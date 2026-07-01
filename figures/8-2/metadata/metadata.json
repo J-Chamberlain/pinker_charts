@@ -1,0 +1,21 @@
+{
+  "figure_id": "8-2",
+  "chapter": "8",
+  "title": "GDP per capita, 1600-2015",
+  "book_page": "Rendered PDF preview page page-07.png",
+  "claim_summary": "Selected countries and the world became much richer, with uneven timing and levels.",
+  "book_citation": "Our World in Data, Roser 2016c, based on data from the World Bank and from Maddison Project 2014.",
+  "download_date": "2026-06-30",
+  "reproduction_status": "updated_equivalent",
+  "confidence_score": "medium",
+  "visual_validation": "publication-readable, but not source-identical",
+  "editorial_remediation_decision": "Retain updated_equivalent.",
+  "notes": "The selected countries and line ordering broadly match the book, but current Maddison 2020/OWID data are not the cited Maddison Project 2014/World Bank 2016 vintage. Remaining differences are not typography-only.",
+  "canonical_artifacts": {
+    "original_reference": "figures/8-2/plots/comparisons/kindle_reference_figure_8_2.png",
+    "book_period_reconstruction": "figures/8-2/plots/book_period/figure_8_2_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/8-2/plots/extended/figure_8_2_extended_reconstruction.png",
+    "book_period_comparison": "figures/8-2/plots/comparisons/figure_8_2_book_period_comparison.png",
+    "extended_comparison": "figures/8-2/plots/comparisons/figure_8_2_extended_comparison.png"
+  }
+}

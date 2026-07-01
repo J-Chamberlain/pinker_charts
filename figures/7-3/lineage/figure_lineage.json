@@ -1,0 +1,26 @@
+[
+  {
+    "figure_id": "7-3",
+    "figure_title": "Undernourishment, 1970-2015",
+    "stage_order": 1,
+    "stage": "Book Figure",
+    "value": "Figure 7-3: Undernourishment, 1970-2015",
+    "stage_status": "observed"
+  },
+  {
+    "figure_id": "7-3",
+    "figure_title": "Undernourishment, 1970-2015",
+    "stage_order": 2,
+    "stage": "Source Note",
+    "value": "Our World in Data, Roser 2016j, based on data from the Food and Agriculture Organization 2014, also reported in FAOSTAT.",
+    "stage_status": "observed"
+  },
+  {
+    "figure_id": "7-3",
+    "figure_title": "Undernourishment, 1970-2015",
+    "stage_order": 3,
+    "stage": "Reconstruction Script",
+    "value": "scripts/reconstruct_track_b_economic_history.py",
+    "stage_status": "generated"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "figure_id": "7-4",
+    "figure_title": "Famine deaths, 1860-2016",
+    "stage_order": 1,
+    "stage": "Book Figure",
+    "value": "Figure 7-4: Famine deaths, 1860-2016",
+    "stage_status": "observed"
+  },
+  {
+    "figure_id": "7-4",
+    "figure_title": "Famine deaths, 1860-2016",
+    "stage_order": 2,
+    "stage": "Source Note",
+    "value": "Our World in Data, Hasell & Roser 2017, based on data from Devereux 2000; O Grada 2009; White 2011; EM-DAT; and other sources.",
+    "stage_status": "observed"
+  },
+  {
+    "figure_id": "7-4",
+    "figure_title": "Famine deaths, 1860-2016",
+    "stage_order": 3,
+    "stage": "Reconstruction Script",
+    "value": "scripts/reconstruct_track_b_economic_history.py",
+    "stage_status": "generated"
+  }
+]
