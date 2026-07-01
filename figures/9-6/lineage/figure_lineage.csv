@@ -1,0 +1,8 @@
+stage,value
+Book Figure,"Figure 9-6: Poverty, US, 1960-2016"
+Book Citation,Meyer & Sullivan 2017
+Original Paper,Annual Report on U.S. Consumption Poverty: 2017
+Original Dataset,Table 1 in source report
+Downloaded File,figures/9-6/data/raw/2017-consumption-poverty-report-meyer-sullivan-final.pdf
+Transformation Script,scripts/reconstruct_9_6.py
+Generated Plot,figures/9-6/plots/

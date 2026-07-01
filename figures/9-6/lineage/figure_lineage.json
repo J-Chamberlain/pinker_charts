@@ -1,0 +1,30 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "Figure 9-6: Poverty, US, 1960-2016"
+  },
+  {
+    "stage": "Book Citation",
+    "value": "Meyer & Sullivan 2017"
+  },
+  {
+    "stage": "Original Paper",
+    "value": "Annual Report on U.S. Consumption Poverty: 2017"
+  },
+  {
+    "stage": "Original Dataset",
+    "value": "Table 1 in source report"
+  },
+  {
+    "stage": "Downloaded File",
+    "value": "figures/9-6/data/raw/2017-consumption-poverty-report-meyer-sullivan-final.pdf"
+  },
+  {
+    "stage": "Transformation Script",
+    "value": "scripts/reconstruct_9_6.py"
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/9-6/plots/"
+  }
+]

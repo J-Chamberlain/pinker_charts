@@ -306,13 +306,13 @@
     "title": "Poverty, US, 1960-2016",
     "page": "",
     "year_range": "1960-2016",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "verified_reproduction",
+    "lifecycle_stage": "verified_reproduction_with_single_year_extension",
     "source_type_guess": "economic_historical_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "completed_monitor",
+    "current_owner": "Codex",
+    "next_action": "Locate any spreadsheet companion data for archival completeness; otherwise monitor only.",
+    "notes": "Processed in production loop on 2026-07-01 from Meyer & Sullivan 2017 Table 1."
   },
   {
     "figure_id": "10-1",

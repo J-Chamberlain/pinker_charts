@@ -1,0 +1,23 @@
+{
+  "figure_id": "9-6",
+  "chapter": "9",
+  "title": "Poverty, US, 1960-2016",
+  "book_page": "Supplemental PDF page 12",
+  "claim_summary": "US poverty measured by after-tax disposable income and consumption declined substantially, with consumption poverty falling farther.",
+  "book_citation": "Meyer & Sullivan 2017.",
+  "original_dataset": "Meyer & Sullivan 2017 Annual Report on U.S. Consumption Poverty, Table 1.",
+  "dataset_url": "https://www.aei.org/wp-content/uploads/2018/11/2017-Consumption-Poverty-Report-Meyer-Sullivan-final.pdf",
+  "archive_url": "Not captured in this pass.",
+  "download_date": "2026-07-01",
+  "reproduction_status": "verified_reproduction",
+  "confidence_score": 0.91,
+  "visual_validation": "excellent",
+  "notes": "The cited report was recovered and Table 1 contains the two plotted book-period series. Values are extracted from the source table, not digitized from Pinker's figure.",
+  "canonical_artifacts": {
+    "original_reference": "figures/9-6/plots/comparisons/pdf_reference_figure_9_6.png",
+    "book_period_reconstruction": "figures/9-6/plots/book_period/figure_9_6_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/9-6/plots/extended/figure_9_6_extended_reconstruction.png",
+    "book_period_comparison": "figures/9-6/plots/comparisons/figure_9_6_book_period_comparison.png",
+    "extended_comparison": "figures/9-6/plots/comparisons/figure_9_6_extended_comparison.png"
+  }
+}

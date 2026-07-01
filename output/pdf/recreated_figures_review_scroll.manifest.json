@@ -1,6 +1,6 @@
 {
   "output": "output/pdf/recreated_figures_review_scroll.pdf",
-  "count": 23,
+  "count": 24,
   "items": [
     {
       "figure_id": "5-1",
@@ -177,6 +177,18 @@
       "path": "figures/9-4/plots/comparisons/figure_9_4_extended_comparison.png",
       "selected_image": "figure_9_4_extended_comparison.png",
       "notes": "For verification, recover the exact OWID Ortiz-Ospina & Roser 2016b/2017 chart data snapshot; otherwise keep updated_equivalent status.",
+      "image_size": [
+        2095,
+        861
+      ]
+    },
+    {
+      "figure_id": "9-6",
+      "title": "Poverty, US, 1960-2016",
+      "status": "verified_reproduction",
+      "path": "figures/9-6/plots/comparisons/figure_9_6_extended_comparison.png",
+      "selected_image": "figure_9_6_extended_comparison.png",
+      "notes": "Production loop 2026-07-01. Verified from Meyer & Sullivan 2017 Table 1; dotted extension is the report's 2017 point.",
       "image_size": [
         2095,
         861
