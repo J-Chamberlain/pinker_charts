@@ -1,0 +1,27 @@
+dry_run: true
+loop_budget: 1
+
+project:
+  name: pinker_charts
+  adapter: pinker_charts
+  root: ../..
+  state_file: PROJECT_STATE.md
+  registry_file: data/figure_registry.csv
+  review_manifest: output/pdf/recreated_figures_review_scroll.manifest.json
+  default_labels:
+    - reconstruction
+    - orchestrator
+
+github:
+  owner: J-Chamberlain
+  repo: pinker_charts
+  base_branch: production-loop
+  token_env: GITHUB_TOKEN
+
+executor:
+  kind: github_issue
+  dry_run: true
+
+reviewer:
+  kind: noop
+  dry_run: true
