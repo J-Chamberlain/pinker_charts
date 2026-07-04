@@ -1,6 +1,10 @@
 dry_run: true
 loop_budget: 1
 
+loop:
+  max_iterations: 3
+  allow_remediation: false
+
 project:
   name: generic_project
   adapter: generic_csv
@@ -22,5 +26,9 @@ executor:
   dry_run: true
 
 reviewer:
+  kind: noop
+  dry_run: true
+
+supervisor:
   kind: noop
   dry_run: true

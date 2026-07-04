@@ -85,12 +85,27 @@ class ReviewResult:
 
 
 @dataclass(frozen=True)
+class SupervisorEngineResult:
+    task: Task
+    supervisor: str
+    decision: str
+    confidence: str
+    rationale: str
+    registry_update: str
+    next_action: str
+    followup_task_prompt: str
+    continue_loop: bool
+    raw: dict[str, Any] = field(default_factory=dict)
+
+
+@dataclass(frozen=True)
 class SupervisorDecision:
     action: str
     reason: str
     task: Task | None = None
     execution: ExecutionResult | None = None
     review: ReviewResult | None = None
+    engine_result: SupervisorEngineResult | None = None
 
 
 @dataclass(frozen=True)

@@ -8,7 +8,8 @@ from pathlib import Path
 from typing import Any
 
 from .reviewer_interface import Reviewer
-from .schemas import ExecutionResult, ReviewResult, SupervisorDecision, Task
+from .schemas import ExecutionResult, ProjectState, ReviewResult, SupervisorDecision, SupervisorEngineResult, Task
+from .supervisor_interface import DecisionEngine
 
 
 def latest_run_dir(runs_dir: Path) -> Path | None:
@@ -121,6 +122,53 @@ def classify_decision(review: ReviewResult, worker_commit: str | None, changed_f
     return "needs_manual_review"
 
 
+def _engine_context(
+    task: Task,
+    run_dir: Path,
+    branch: str,
+    worker_commit: str | None,
+    commits: list[str],
+    changed_files: list[str],
+    packet: str,
+    review_payload: dict[str, Any],
+    project_state: ProjectState | None,
+) -> dict[str, Any]:
+    state_excerpt = ""
+    registry_rows: list[dict[str, str]] = []
+    if project_state:
+        state_excerpt = project_state.raw_state[:12000]
+        registry_rows = [row for row in project_state.registry_rows if row.get("figure_id") == task.id or row.get("task_id") == task.id]
+    return {
+        "task": {
+            "id": task.id,
+            "title": task.title,
+            "status": task.status,
+            "lifecycle_stage": task.lifecycle_stage,
+            "next_action": task.next_action,
+            "files_to_update": task.files_to_update,
+            "acceptance_criteria": task.acceptance_criteria,
+        },
+        "run_dir": str(run_dir),
+        "worker_branch": branch,
+        "worker_commit": worker_commit,
+        "commit_summary": commits,
+        "changed_files": changed_files,
+        "review_packet": packet,
+        "reviewer_result": review_payload,
+        "project_state_excerpt": state_excerpt,
+        "registry_rows_for_task": registry_rows,
+    }
+
+
+def _write_engine_artifacts(run_dir: Path, engine_result: SupervisorEngineResult) -> None:
+    payload = asdict(engine_result)
+    (run_dir / "parsed_supervisor_decision.json").write_text(json.dumps(payload, indent=2, default=str) + "\n")
+    if "raw_model_response" in engine_result.raw:
+        (run_dir / "raw_supervisor_response.txt").write_text(str(engine_result.raw["raw_model_response"]) + "\n")
+    if engine_result.decision == "remediate" and engine_result.followup_task_prompt:
+        (run_dir / "remediation_prompt.md").write_text(engine_result.followup_task_prompt.rstrip() + "\n")
+
+
 def run_review_gate(
     repo_root: Path,
     runs_dir: Path,
@@ -129,6 +177,9 @@ def run_review_gate(
     run_dir: Path | None = None,
     dry_run: bool = True,
     push_branch: bool = True,
+    decision_engine: DecisionEngine | None = None,
+    project_state: ProjectState | None = None,
+    allow_remediation: bool = False,
 ) -> SupervisorDecision:
     run_dir = run_dir or latest_run_dir(runs_dir)
     if run_dir is None:
@@ -155,13 +206,21 @@ def run_review_gate(
         artifacts=(str(run_dir / "review_packet.md"),),
     )
     review = reviewer.review(execution)
-    decision = classify_decision(review, worker_commit, changed_files)
     review_payload = asdict(review)
     (run_dir / "review_result.json").write_text(json.dumps(review_payload, indent=2, default=str) + "\n")
     if "raw_model_response" in review.raw:
         (run_dir / "raw_model_response.txt").write_text(str(review.raw["raw_model_response"]) + "\n")
     if "parsed_result" in review.raw:
         (run_dir / "parsed_reviewer_result.json").write_text(json.dumps(review.raw["parsed_result"], indent=2, default=str) + "\n")
+    review_decision = classify_decision(review, worker_commit, changed_files)
+    engine_result = None
+    if decision_engine:
+        context = _engine_context(task, run_dir, branch, worker_commit, commits, changed_files, packet, review_payload, project_state)
+        engine_result = decision_engine.decide(task, context)
+        _write_engine_artifacts(run_dir, engine_result)
+        decision = engine_result.decision
+    else:
+        decision = review_decision
     decision_payload = {
         "task_id": task.id,
         "task_title": task.title,
@@ -174,10 +233,27 @@ def run_review_gate(
         "push_result": push_result,
         "reviewer": review.reviewer,
         "review_decision": review.decision,
+        "review_gate_decision": review_decision,
+        "supervisor_engine": engine_result.supervisor if engine_result else None,
         "supervisor_decision": decision,
         "accepted": decision == "accept",
         "next_action": decision,
+        "allow_remediation": allow_remediation,
+        "remediation_prompt": str(run_dir / "remediation_prompt.md") if engine_result and engine_result.decision == "remediate" and engine_result.followup_task_prompt else None,
+        "continue_loop": bool(engine_result.continue_loop) if engine_result else decision in {"accept", "blocked"},
         "generated_at": datetime.now(UTC).isoformat(),
     }
+    if decision == "accept":
+        metadata["supervisor_acceptance"] = {
+            "accepted": True,
+            "decision": decision,
+            "generated_at": decision_payload["generated_at"],
+            "worker_commit": worker_commit,
+        }
+        (run_dir / "metadata.json").write_text(json.dumps(metadata, indent=2, default=str) + "\n")
+    if decision == "remediate" and engine_result and engine_result.followup_task_prompt and allow_remediation:
+        decision_payload["remediation_launch"] = "allowed_pending_local_loop_executor"
     (run_dir / "supervisor_decision.json").write_text(json.dumps(decision_payload, indent=2, default=str) + "\n")
-    return SupervisorDecision(action=decision, reason=review.summary, task=task, execution=execution, review=review)
+    (run_dir / "final_loop_decision.json").write_text(json.dumps(decision_payload, indent=2, default=str) + "\n")
+    reason = engine_result.rationale if engine_result else review.summary
+    return SupervisorDecision(action=decision, reason=reason, task=task, execution=execution, review=review, engine_result=engine_result)

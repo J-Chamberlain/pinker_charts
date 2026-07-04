@@ -39,6 +39,19 @@ class ReviewerConfig:
 
 
 @dataclass(frozen=True)
+class SupervisorEngineConfig:
+    kind: str = "noop"
+    model: str | None = None
+    dry_run: bool = True
+
+
+@dataclass(frozen=True)
+class LoopConfig:
+    max_iterations: int = 1
+    allow_remediation: bool = False
+
+
+@dataclass(frozen=True)
 class ProjectConfig:
     name: str
     adapter: str
@@ -56,6 +69,8 @@ class OrchestratorConfig:
     github: GitHubConfig | None = None
     executor: ExecutorConfig = field(default_factory=ExecutorConfig)
     reviewer: ReviewerConfig = field(default_factory=ReviewerConfig)
+    supervisor: SupervisorEngineConfig = field(default_factory=SupervisorEngineConfig)
+    loop: LoopConfig = field(default_factory=LoopConfig)
     loop_budget: int = 1
     dry_run: bool = True
 
@@ -94,7 +109,10 @@ def load_config(path: str | Path) -> OrchestratorConfig:
         )
     executor_data = data.get("executor", {})
     reviewer_data = data.get("reviewer", {})
+    supervisor_data = data.get("supervisor", {})
+    loop_data = data.get("loop", {})
     dry_run = bool(data.get("dry_run", True))
+    loop_budget = int(loop_data.get("max_iterations", data.get("loop_budget", 1)))
     return OrchestratorConfig(
         project=project,
         github=github,
@@ -111,6 +129,15 @@ def load_config(path: str | Path) -> OrchestratorConfig:
             model=reviewer_data.get("model"),
             dry_run=bool(reviewer_data.get("dry_run", dry_run)),
         ),
-        loop_budget=int(data.get("loop_budget", 1)),
+        supervisor=SupervisorEngineConfig(
+            kind=supervisor_data.get("kind", "noop"),
+            model=supervisor_data.get("model"),
+            dry_run=bool(supervisor_data.get("dry_run", dry_run)),
+        ),
+        loop=LoopConfig(
+            max_iterations=loop_budget,
+            allow_remediation=bool(loop_data.get("allow_remediation", False)),
+        ),
+        loop_budget=loop_budget,
         dry_run=dry_run,
     )

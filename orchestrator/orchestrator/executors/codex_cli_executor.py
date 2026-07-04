@@ -96,6 +96,11 @@ Review requirements:
         branch = self._run_git(["branch", "--show-current"])
         return branch.stdout.strip() if branch.returncode == 0 else ""
 
+    def _switch_branch(self, branch: str) -> None:
+        switched = self._run_git(["switch", branch])
+        if switched.returncode != 0:
+            raise RuntimeError(switched.stderr or switched.stdout or f"failed to switch to branch {branch}")
+
     def execute(self, task: Task) -> ExecutionResult:
         command = self.build_command(task)
         branch = self.branch_name(task)
@@ -156,6 +161,69 @@ Review requirements:
             mode="codex-cli",
             success=proc.returncode == 0,
             branch=actual_branch,
+            message=message,
+            artifacts=tuple(str(path) for path in [run_dir / "stdout.log", run_dir / "stderr.log", run_dir / "git_status.txt", run_dir / "summary.json"]),
+        )
+
+    def execute_remediation(self, task: Task, branch: str, prompt: str) -> ExecutionResult:
+        command = f"{shlex.quote(self.command)} exec -C {shlex.quote(str(self.repo_root))} {shlex.quote(prompt)}"
+        if self.dry_run:
+            return ExecutionResult(task=task, mode="codex-cli-remediation-dry-run", success=True, branch=branch, message=f"Would switch to `{branch}` and run: {command}")
+
+        dirty = self._ensure_clean_worktree()
+        if dirty:
+            return ExecutionResult(task=task, mode="codex-cli-remediation", success=False, branch=branch, message=dirty)
+        if self._current_branch() != branch:
+            self._switch_branch(branch)
+
+        run_id = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ") + f"_{task.id.replace('-', '_')}_remediation"
+        run_dir = self.runs_dir / run_id
+        run_dir.mkdir(parents=True, exist_ok=True)
+        argv = [self.command, "exec", "-C", str(self.repo_root), prompt]
+        metadata = {
+            "task_id": task.id,
+            "task_title": task.title,
+            "branch": branch,
+            "base_branch": branch,
+            "argv": argv,
+            "remediation": True,
+            "started_at": datetime.now(UTC).isoformat(),
+            "timeout_seconds": self.timeout_seconds,
+        }
+        (run_dir / "metadata.json").write_text(json.dumps(metadata, indent=2) + "\n")
+        try:
+            proc = subprocess.run(
+                argv,
+                cwd=self.repo_root,
+                text=True,
+                capture_output=True,
+                timeout=self.timeout_seconds,
+                check=False,
+            )
+            timed_out = False
+        except subprocess.TimeoutExpired as exc:
+            proc = subprocess.CompletedProcess(argv, returncode=124, stdout=exc.stdout or "", stderr=exc.stderr or "")
+            timed_out = True
+        (run_dir / "stdout.log").write_text(proc.stdout or "")
+        (run_dir / "stderr.log").write_text(proc.stderr or "")
+        status = self._run_git(["status", "--short", "--branch"])
+        (run_dir / "git_status.txt").write_text((status.stdout or "") + (status.stderr or ""))
+        summary = {
+            **metadata,
+            "finished_at": datetime.now(UTC).isoformat(),
+            "returncode": proc.returncode,
+            "timed_out": timed_out,
+            "git_status_returncode": status.returncode,
+        }
+        (run_dir / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+        message = f"Codex remediation finished with return code {proc.returncode}. Logs: {run_dir}. Git status inspected and saved."
+        if timed_out:
+            message = f"Codex remediation timed out. Logs: {run_dir}. Git status inspected and saved."
+        return ExecutionResult(
+            task=task,
+            mode="codex-cli-remediation",
+            success=proc.returncode == 0,
+            branch=branch,
             message=message,
             artifacts=tuple(str(path) for path in [run_dir / "stdout.log", run_dir / "stderr.log", run_dir / "git_status.txt", run_dir / "summary.json"]),
         )

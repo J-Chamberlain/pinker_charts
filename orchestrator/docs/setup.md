@@ -58,6 +58,18 @@ python -m orchestrator.supervisor \
 
 This creates a task branch, captures stdout/stderr/status logs under `orchestrator/runs/`, inspects git status after Codex exits, and does not merge or mark the task accepted.
 
+Run several local Codex tasks with supervisor decisions:
+
+```bash
+python -m orchestrator.supervisor \
+  --config examples/pinker_charts.config.example.yaml \
+  --mode local-loop \
+  --max-iterations 3 \
+  --non-dry-run
+```
+
+Each iteration selects one eligible task, launches Codex, generates a review packet, runs the configured reviewer, runs the configured supervisor decision engine, and saves the final loop decision under the run directory. The loop stops on `needs_manual_review` or `remediate` unless `--allow-remediation` is passed.
+
 Review the latest run without external calls:
 
 ```bash
@@ -79,3 +91,13 @@ python -m orchestrator.supervisor \
 ```
 
 The config must select `reviewer.kind: openai`. If the key is missing, the supervisor keeps the run in Noop/manual-review mode. If the API call fails or the model returns invalid JSON, the OpenAI reviewer fails closed to `needs_manual_review`.
+
+Use GPT supervision:
+
+```yaml
+supervisor:
+  kind: openai
+  model: gpt-5.5-thinking
+```
+
+The config must select `supervisor.kind: openai` and `OPENAI_API_KEY` must be present. Without both, NoopSupervisor returns `needs_manual_review`. A supervisor `accept` does not merge the worker branch; it only marks the run metadata.

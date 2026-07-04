@@ -1,6 +1,10 @@
 dry_run: true
 loop_budget: 1
 
+loop:
+  max_iterations: 3
+  allow_remediation: false
+
 project:
   name: pinker_charts
   adapter: pinker_charts
@@ -28,4 +32,10 @@ executor:
 
 reviewer:
   kind: noop
+  model: gpt-5.5-thinking
+  dry_run: true
+
+supervisor:
+  kind: noop
+  model: gpt-5.5-thinking
   dry_run: true
