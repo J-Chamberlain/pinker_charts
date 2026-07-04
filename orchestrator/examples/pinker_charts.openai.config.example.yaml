@@ -32,10 +32,10 @@ executor:
 
 reviewer:
   kind: openai
-  model: gpt-5.5-thinking
+  model: gpt-5.5
   dry_run: true
 
 supervisor:
   kind: openai
-  model: gpt-5.5-thinking
+  model: gpt-5.5
   dry_run: true
