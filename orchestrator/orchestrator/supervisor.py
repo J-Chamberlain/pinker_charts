@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 from pathlib import Path
 
 from .adapters import GenericCsvAdapter, PinkerChartsAdapter
@@ -40,7 +41,7 @@ def build_executor(config: OrchestratorConfig, mode: str):
 
 
 def build_reviewer(config: OrchestratorConfig):
-    if config.reviewer.kind == "openai":
+    if config.reviewer.kind == "openai" and os.environ.get("OPENAI_API_KEY"):
         return OpenAIReviewer(model=config.reviewer.model, dry_run=config.dry_run or config.reviewer.dry_run)
     if config.reviewer.kind == "anthropic":
         return AnthropicReviewer(model=config.reviewer.model, dry_run=config.dry_run or config.reviewer.dry_run)

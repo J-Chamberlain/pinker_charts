@@ -18,7 +18,8 @@ This file intentionally duplicates the security principles in the README in more
 Required environment variables:
 
 - `GITHUB_TOKEN`: only for non-dry-run GitHub issue creation.
-- `OPENAI_API_KEY`: only for future OpenAI reviewer implementation.
+- `OPENAI_API_KEY`: only for non-dry-run OpenAI reviewer calls when config selects `reviewer.kind: openai`.
+- `OPENAI_REVIEWER_MODEL`: optional OpenAI reviewer model override.
 - `ANTHROPIC_API_KEY`: only for future Anthropic reviewer implementation.
 
-The current reviewer classes are safe stubs. They do not call external model APIs.
+Noop review is the default. The OpenAI reviewer fails closed to `needs_manual_review` if credentials are missing, the API call fails, or the model response cannot be parsed as valid JSON. Anthropic review remains a safe stub.

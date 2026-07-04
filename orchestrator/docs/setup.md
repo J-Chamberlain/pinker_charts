@@ -66,3 +66,16 @@ python -m orchestrator.supervisor \
   --mode review-only \
   --latest-run
 ```
+
+Review the latest run with OpenAI:
+
+```bash
+export OPENAI_API_KEY=...
+python -m orchestrator.supervisor \
+  --config examples/pinker_charts.config.example.yaml \
+  --mode review-only \
+  --latest-run \
+  --non-dry-run
+```
+
+The config must select `reviewer.kind: openai`. If the key is missing, the supervisor keeps the run in Noop/manual-review mode. If the API call fails or the model returns invalid JSON, the OpenAI reviewer fails closed to `needs_manual_review`.

@@ -16,10 +16,17 @@ Runs the configured reviewer against a latest task execution artifact when
 - `review_packet.md`
 - `review_result.json`
 - `supervisor_decision.json`
+- `raw_model_response.txt`, when an external model response is available
+- `parsed_reviewer_result.json`, when a reviewer returns normalized JSON
 
 Dry-run review-only does not push worker branches. With `--non-dry-run`, the
 supervisor may push the detected worker branch, but still does not merge or
 mark the result accepted.
+
+Noop review is the default. OpenAI review runs only when the config selects
+`reviewer.kind: openai`, `OPENAI_API_KEY` is present, and the command is run
+with `--non-dry-run`. The required reviewer decisions are `accept`,
+`remediate`, `blocked`, and `needs_manual_review`.
 
 ## loop-dry-run
 

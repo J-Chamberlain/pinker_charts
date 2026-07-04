@@ -158,6 +158,10 @@ def run_review_gate(
     decision = classify_decision(review, worker_commit, changed_files)
     review_payload = asdict(review)
     (run_dir / "review_result.json").write_text(json.dumps(review_payload, indent=2, default=str) + "\n")
+    if "raw_model_response" in review.raw:
+        (run_dir / "raw_model_response.txt").write_text(str(review.raw["raw_model_response"]) + "\n")
+    if "parsed_result" in review.raw:
+        (run_dir / "parsed_reviewer_result.json").write_text(json.dumps(review.raw["parsed_result"], indent=2, default=str) + "\n")
     decision_payload = {
         "task_id": task.id,
         "task_title": task.title,

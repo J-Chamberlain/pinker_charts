@@ -80,7 +80,7 @@ class ReviewResult:
     decision: str
     summary: str
     findings: tuple[str, ...] = ()
-    confidence: float | None = None
+    confidence: str | float | None = None
     raw: dict[str, Any] = field(default_factory=dict)
 
 
