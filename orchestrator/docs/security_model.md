@@ -19,8 +19,8 @@ This file intentionally duplicates the security principles in the README in more
 
 Required environment variables:
 
-- `GITHUB_TOKEN`: only for non-dry-run GitHub issue creation.
-- `OPENAI_API_KEY`: only for non-dry-run OpenAI reviewer calls when config selects `reviewer.kind: openai`.
+- `OPENAI_API_KEY`: required for non-dry-run OpenAI reviewer calls when config selects `reviewer.kind: openai`, and required for GPT supervisor calls when config selects `supervisor.kind: openai`.
+- `GITHUB_TOKEN`: required only for non-dry-run GitHub API issue creation. Local-loop worker branch pushes use the repository's configured Git remote credentials; provide `GITHUB_TOKEN` through a credential helper or another Git credential mechanism if the remote needs authentication.
 - `OPENAI_REVIEWER_MODEL`: optional OpenAI reviewer model override.
 - `OPENAI_SUPERVISOR_MODEL`: optional OpenAI supervisor model override.
 - `ANTHROPIC_API_KEY`: only for future Anthropic reviewer implementation.

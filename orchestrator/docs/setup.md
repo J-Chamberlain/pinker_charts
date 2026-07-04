@@ -101,3 +101,28 @@ supervisor:
 ```
 
 The config must select `supervisor.kind: openai` and `OPENAI_API_KEY` must be present. Without both, NoopSupervisor returns `needs_manual_review`. A supervisor `accept` does not merge the worker branch; it only marks the run metadata.
+
+## OpenAI Trial Config
+
+The OpenAI example config is:
+
+```bash
+examples/pinker_charts.openai.config.example.yaml
+```
+
+Required environment variables:
+
+- `OPENAI_API_KEY`: required for both the OpenAI reviewer and GPT supervisor.
+- `GITHUB_TOKEN`: required only for GitHub API issue creation. For `local-loop`, worker branch pushing uses the repository's configured Git remote credentials; set up `GITHUB_TOKEN` or another Git credential helper if the remote requires it.
+
+Run one real GPT-supervised local-loop iteration:
+
+```bash
+python -m orchestrator.supervisor \
+  --config examples/pinker_charts.openai.config.example.yaml \
+  --mode local-loop \
+  --max-iterations 1 \
+  --non-dry-run
+```
+
+This command may create and push a worker branch. It never merges automatically.

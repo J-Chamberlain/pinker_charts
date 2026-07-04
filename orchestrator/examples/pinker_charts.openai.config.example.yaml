@@ -1,0 +1,41 @@
+dry_run: true
+loop_budget: 1
+
+loop:
+  max_iterations: 1
+  allow_remediation: false
+
+project:
+  name: pinker_charts
+  adapter: pinker_charts
+  root: ../..
+  state_file: PROJECT_STATE.md
+  registry_file: data/figure_registry.csv
+  review_manifest: output/pdf/recreated_figures_review_scroll.manifest.json
+  default_labels:
+    - reconstruction
+    - orchestrator
+
+github:
+  owner: J-Chamberlain
+  repo: pinker_charts
+  base_branch: production-loop
+  token_env: GITHUB_TOKEN
+
+executor:
+  kind: codex_cli
+  command: codex
+  branch_prefix: codex
+  runs_dir: orchestrator/runs
+  timeout_seconds: 1800
+  dry_run: true
+
+reviewer:
+  kind: openai
+  model: gpt-5.5-thinking
+  dry_run: true
+
+supervisor:
+  kind: openai
+  model: gpt-5.5-thinking
+  dry_run: true
