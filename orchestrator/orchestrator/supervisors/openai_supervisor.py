@@ -4,10 +4,12 @@ import json
 import os
 import re
 from collections.abc import Callable
+from pathlib import Path
 from typing import Any
 
 import requests
 
+from ..openai_diagnostics import OpenAIDiagnosticError, call_openai_with_diagnostics
 from ..schemas import SupervisorEngineResult, Task
 from ..supervisor_interface import SUPERVISOR_PROMPT, DecisionEngine
 
@@ -76,6 +78,12 @@ class OpenAISupervisor(DecisionEngine):
         try:
             raw_text = self._call_openai(task, context)
             parsed = parse_supervisor_json(raw_text)
+        except OpenAIDiagnosticError as exc:
+            return self._manual_result(
+                task,
+                exc.summary,
+                raw={"error": exc.summary, "model": self.model, "openai_error": exc.diagnostic},
+            )
         except Exception as exc:  # noqa: BLE001 - fail-safe decision engine
             return self._manual_result(
                 task,
@@ -126,14 +134,21 @@ class OpenAISupervisor(DecisionEngine):
                 {"role": "user", "content": [{"type": "input_text", "text": self._build_user_prompt(task, context)}]},
             ],
         }
-        response = self.post(
-            "https://api.openai.com/v1/responses",
+        response = call_openai_with_diagnostics(
+            component="supervisor",
+            endpoint="https://api.openai.com/v1/responses",
+            model=self.model,
+            payload=payload,
             headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
-            json=payload,
-            timeout=self.timeout_seconds,
+            timeout_seconds=self.timeout_seconds,
+            post=self.post,
+            run_dir=self._run_dir(context),
         )
-        response.raise_for_status()
         return self._extract_response_text(response.json())
+
+    def _run_dir(self, context: dict[str, Any]) -> Path | None:
+        run_dir = context.get("run_dir")
+        return Path(run_dir) if run_dir else None
 
     def _build_user_prompt(self, task: Task, context: dict[str, Any]) -> str:
         return f"""Task id: {task.id}

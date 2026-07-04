@@ -4,10 +4,12 @@ import json
 import os
 import re
 from collections.abc import Callable
+from pathlib import Path
 from typing import Any
 
 import requests
 
+from ..openai_diagnostics import OpenAIDiagnosticError, call_openai_with_diagnostics
 from ..reviewer_interface import REVIEW_PROMPT, Reviewer
 from ..schemas import ExecutionResult, ReviewResult
 
@@ -80,6 +82,12 @@ class OpenAIReviewer(Reviewer):
         try:
             raw_text = self._call_openai(execution)
             parsed = parse_review_json(raw_text)
+        except OpenAIDiagnosticError as exc:
+            return self._manual_result(
+                execution,
+                exc.summary,
+                raw={"error": exc.summary, "model": self.model, "openai_error": exc.diagnostic},
+            )
         except Exception as exc:  # noqa: BLE001 - fail-safe reviewer gate
             return self._manual_result(
                 execution,
@@ -144,14 +152,23 @@ class OpenAIReviewer(Reviewer):
                 },
             ],
         }
-        response = self.post(
-            "https://api.openai.com/v1/responses",
+        run_dir = self._run_dir(execution)
+        response = call_openai_with_diagnostics(
+            component="reviewer",
+            endpoint="https://api.openai.com/v1/responses",
+            model=self.model,
+            payload=payload,
             headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
-            json=payload,
-            timeout=self.timeout_seconds,
+            timeout_seconds=self.timeout_seconds,
+            post=self.post,
+            run_dir=run_dir,
         )
-        response.raise_for_status()
         return self._extract_response_text(response.json())
+
+    def _run_dir(self, execution: ExecutionResult) -> Path | None:
+        if not execution.artifacts:
+            return None
+        return Path(execution.artifacts[0]).parent
 
     def _build_user_prompt(self, execution: ExecutionResult) -> str:
         return f"""Task id: {execution.task.id}

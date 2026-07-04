@@ -1,5 +1,7 @@
 import json
 
+import requests
+
 from orchestrator.models.openai_reviewer import OpenAIReviewer, parse_review_json
 from orchestrator.models.noop_reviewer import NoopReviewer
 from orchestrator.schemas import ExecutionResult, Task
@@ -18,9 +20,29 @@ class FakeResponse:
         return self.payload
 
 
+class FakeHTTPErrorResponse:
+    status_code = 400
+    text = '{"error":{"message":"Bad request for diagnostics","type":"invalid_request_error","code":"invalid_model"}}'
+
+    def json(self):
+        return {"error": {"message": "Bad request for diagnostics", "type": "invalid_request_error", "code": "invalid_model"}}
+
+    def raise_for_status(self):
+        raise requests.HTTPError("400 Client Error: Bad Request", response=self)
+
+
 def execution_result():
     task = Task(id="4-1", title="Tone of the News", status="not_started")
     return ExecutionResult(task=task, mode="review-gate", success=True, message="review packet")
+
+
+def execution_result_with_run_dir(tmp_path):
+    run_dir = tmp_path / "run"
+    run_dir.mkdir()
+    packet = run_dir / "review_packet.md"
+    packet.write_text("packet")
+    task = Task(id="4-1", title="Tone of the News", status="not_started")
+    return ExecutionResult(task=task, mode="review-gate", success=True, message="review packet", artifacts=(str(packet),)), run_dir
 
 
 def test_parse_review_json_normalizes_valid_payload():
@@ -87,6 +109,30 @@ def test_openai_reviewer_missing_key_does_not_call_api():
     result = reviewer.review(execution_result())
     assert result.decision == "needs_manual_review"
     assert result.raw["parsed_result"]["decision"] == "needs_manual_review"
+
+
+def test_openai_reviewer_persists_http_error_diagnostics(tmp_path):
+    def fake_post(*args, **kwargs):
+        return FakeHTTPErrorResponse()
+
+    execution, run_dir = execution_result_with_run_dir(tmp_path)
+    reviewer = OpenAIReviewer(model="bad-model", dry_run=False, api_key="test-key", post=fake_post)
+    result = reviewer.review(execution)
+    assert result.decision == "needs_manual_review"
+    assert "HTTP status:\n400" in result.summary
+
+    request = json.loads((run_dir / "openai_request.json").read_text())
+    response = json.loads((run_dir / "openai_response.json").read_text())
+    error_md = (run_dir / "openai_error.md").read_text()
+
+    assert request["component"] == "reviewer"
+    assert request["model"] == "bad-model"
+    assert "Authorization" not in request["headers"]
+    assert response["http_status"] == 400
+    assert response["error_type"] == "invalid_request_error"
+    assert response["error_code"] == "invalid_model"
+    assert response["error_message"] == "Bad request for diagnostics"
+    assert "Stack Trace" in error_md
 
 
 def test_supervisor_uses_noop_when_openai_key_missing(monkeypatch, tmp_path):
