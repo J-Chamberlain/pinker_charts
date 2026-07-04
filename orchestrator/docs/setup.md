@@ -44,4 +44,16 @@ executor:
   dry_run: true
 ```
 
-The scaffold currently prints the intended `codex exec ...` command in dry-run mode. Non-dry-run execution remains guarded until branch, sandbox, and authentication behavior are explicitly configured for the target environment.
+The scaffold prints the intended `codex exec ...` command in dry-run mode. Non-dry-run execution requires an explicit iteration budget and a clean worktree.
+
+Run one local Codex task:
+
+```bash
+python -m orchestrator.supervisor \
+  --config examples/pinker_charts.config.example.yaml \
+  --mode local-loop \
+  --max-iterations 1 \
+  --non-dry-run
+```
+
+This creates a task branch, captures stdout/stderr/status logs under `orchestrator/runs/`, inspects git status after Codex exits, and does not merge or mark the task accepted.

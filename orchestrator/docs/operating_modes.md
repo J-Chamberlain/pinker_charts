@@ -18,7 +18,20 @@ Simulates several supervisor iterations without external calls.
 
 ## local-loop
 
-Reserved for environments where executor and reviewer CLIs are explicitly configured. Safe defaults prevent unreviewed executor calls; the Codex executor currently emits a `codex exec ...` command in dry-run mode.
+Runs one local executor task at a time. Dry-run mode emits the branch name and `codex exec ...` command without side effects.
+
+Non-dry-run local-loop requires:
+
+- `--non-dry-run`
+- `--max-iterations` with a positive integer
+- a clean git worktree
+
+For each task, the executor:
+
+1. Creates a per-task branch such as `codex/4-1-tone-of-the-news-1945-2010`.
+2. Runs `codex exec -C <repo> <generated prompt>`.
+3. Captures stdout, stderr, metadata, summary, and git status in `orchestrator/runs/<run-id>/`.
+4. Stops after execution and does not merge or mark accepted.
 
 ## Recommended Pinker Charts Use
 

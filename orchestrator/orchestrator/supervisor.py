@@ -26,8 +26,15 @@ def build_executor(config: OrchestratorConfig, mode: str):
     if mode == "issue-only" or config.executor.kind == "github_issue":
         client = GitHubClient(config.github) if config.github else None
         return GitHubIssueExecutor(client, labels=config.project.default_labels, dry_run=config.dry_run or config.executor.dry_run)
-    if config.executor.kind == "codex_cli":
-        return CodexCLIExecutor(command=config.executor.command, dry_run=config.dry_run or config.executor.dry_run)
+    if mode == "local-loop" or config.executor.kind == "codex_cli":
+        return CodexCLIExecutor(
+            command=config.executor.command,
+            dry_run=config.dry_run or config.executor.dry_run,
+            repo_root=config.project.root,
+            branch_prefix=config.executor.branch_prefix,
+            runs_dir=config.executor.runs_dir,
+            timeout_seconds=config.executor.timeout_seconds,
+        )
     return NoopExecutor()
 
 
@@ -62,9 +69,9 @@ def run_once(config: OrchestratorConfig, mode: str) -> SupervisorDecision:
     return SupervisorDecision(action="simulated", reason=execution.message, task=task, execution=execution)
 
 
-def run_loop(config: OrchestratorConfig, mode: str) -> list[SupervisorDecision]:
+def run_loop(config: OrchestratorConfig, mode: str, max_iterations: int | None = None) -> list[SupervisorDecision]:
     decisions: list[SupervisorDecision] = []
-    iterations = max(1, config.loop_budget)
+    iterations = max(1, max_iterations if max_iterations is not None else config.loop_budget)
     for _ in range(iterations):
         decision = run_once(config, mode)
         append_decision(config.project.root / ".orchestrator/supervisor.log", decision, dry_run=config.dry_run)
@@ -78,19 +85,29 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Run the GitHub-backed orchestration supervisor.")
     parser.add_argument("--config", required=True)
     parser.add_argument("--mode", choices=["plan-only", "issue-only", "review-only", "loop-dry-run", "local-loop"], default="plan-only")
+    parser.add_argument("--max-iterations", type=int)
     parser.add_argument("--non-dry-run", action="store_true", help="Allow external side effects where the selected mode supports them.")
     args = parser.parse_args(argv)
+    if args.mode == "local-loop" and args.non_dry_run and (args.max_iterations is None or args.max_iterations < 1):
+        parser.error("local-loop with --non-dry-run requires --max-iterations >= 1")
     config = load_config(Path(args.config))
     if args.non_dry_run:
         config = OrchestratorConfig(
             project=config.project,
             github=config.github,
-            executor=ExecutorConfig(kind=config.executor.kind, command=config.executor.command, dry_run=False),
+            executor=ExecutorConfig(
+                kind=config.executor.kind,
+                command=config.executor.command,
+                dry_run=False,
+                branch_prefix=config.executor.branch_prefix,
+                runs_dir=config.executor.runs_dir,
+                timeout_seconds=config.executor.timeout_seconds,
+            ),
             reviewer=ReviewerConfig(kind=config.reviewer.kind, model=config.reviewer.model, dry_run=False),
             loop_budget=config.loop_budget,
             dry_run=False,
         )
-    decisions = run_loop(config, args.mode)
+    decisions = run_loop(config, args.mode, args.max_iterations)
     for decision in decisions:
         print(f"action: {decision.action}")
         if decision.task:

@@ -44,11 +44,12 @@ GITHUB_TOKEN=... python -m orchestrator.supervisor \
 - Generates a full GitHub issue body for the selected task.
 - Supports dry-run supervisor modes.
 - Provides no-op, Codex CLI command emitter, GitHub issue, OpenAI reviewer stub, and Anthropic reviewer stub interfaces.
+- Runs one-task-at-a-time local Codex execution in explicit non-dry-run mode, with per-task branches and run logs.
 - Runs tests without API keys.
 
 ## What Is Stubbed
 
-- Non-interactive Codex execution is represented by a dry-run `codex exec ...` command emitter, but not launched automatically.
+- Non-interactive Codex execution requires `local-loop --non-dry-run --max-iterations N`; dry-run remains the default.
 - OpenAI and Anthropic reviewer classes are safe stubs until wired to the preferred SDK.
 - Supervisor acceptance/remediation decisions are represented in schemas but not yet persisted to GitHub labels or project boards.
 

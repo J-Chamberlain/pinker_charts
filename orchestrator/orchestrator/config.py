@@ -26,6 +26,9 @@ class ExecutorConfig:
     kind: str = "noop"
     command: str | None = None
     dry_run: bool = True
+    branch_prefix: str = "codex"
+    runs_dir: Path | None = None
+    timeout_seconds: int | None = None
 
 
 @dataclass(frozen=True)
@@ -99,6 +102,9 @@ def load_config(path: str | Path) -> OrchestratorConfig:
             kind=executor_data.get("kind", "noop"),
             command=executor_data.get("command") or os.environ.get("CODEX_CLI_COMMAND"),
             dry_run=bool(executor_data.get("dry_run", dry_run)),
+            branch_prefix=executor_data.get("branch_prefix", "codex"),
+            runs_dir=_as_path(executor_data.get("runs_dir"), project_root),
+            timeout_seconds=executor_data.get("timeout_seconds"),
         ),
         reviewer=ReviewerConfig(
             kind=reviewer_data.get("kind", "noop"),

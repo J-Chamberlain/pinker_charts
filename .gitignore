@@ -9,3 +9,5 @@ tmp/
 .pytest_cache/
 *.egg-info/
 .orchestrator/
+orchestrator/runs/*
+!orchestrator/runs/.gitkeep

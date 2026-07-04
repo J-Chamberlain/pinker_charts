@@ -19,7 +19,11 @@ github:
   token_env: GITHUB_TOKEN
 
 executor:
-  kind: github_issue
+  kind: codex_cli
+  command: codex
+  branch_prefix: codex
+  runs_dir: orchestrator/runs
+  timeout_seconds: 1800
   dry_run: true
 
 reviewer:

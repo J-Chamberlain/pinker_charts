@@ -10,6 +10,9 @@ This file intentionally duplicates the security principles in the README in more
 6. Supervisor is the only component allowed to mark work accepted.
 7. Destructive actions require explicit configuration and are not implemented in the scaffold.
 8. Supervisor logs are written only in non-dry-run modes.
+9. Local-loop refuses to launch Codex unless the worktree is clean.
+10. Local-loop creates a per-task branch and never auto-merges.
+11. Local-loop captures execution logs under `orchestrator/runs/`; these logs are ignored by git by default.
 
 Required environment variables:
 
