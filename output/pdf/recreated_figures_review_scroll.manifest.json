@@ -1,6 +1,6 @@
 {
   "output": "output/pdf/recreated_figures_review_scroll.pdf",
-  "count": 26,
+  "count": 27,
   "updated": "2026-07-04",
   "items": [
     {
@@ -217,6 +217,18 @@
       "image_size": [
         2095,
         901
+      ]
+    },
+    {
+      "figure_id": "10-2",
+      "title": "Sustainability, 1955-2109",
+      "status": "updated_equivalent",
+      "path": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png",
+      "selected_image": "figure_10_2_extended_comparison.png",
+      "notes": "xkcd source page/image and Google Ngram source data recovered. Exact xkcd future fitting method is unpublished; future anchors are transcript-derived and separately labeled. No Pinker plotted values were digitized.",
+      "image_size": [
+        2095,
+        881
       ]
     },
     {

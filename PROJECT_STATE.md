@@ -2,7 +2,7 @@
 
 Last update: 2026-07-04 America/Los_Angeles
 
-Project version: `1.11-source-recovery-figure-4-1`
+Project version: `1.12-source-recovery-figure-10-2`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -103,6 +103,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 9-5 | Income gains, 1988-2008 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 1.3 growth-incidence data not recovered, so no digitized reconstruction was made. |
 | 9-6 | Poverty, US, 1960-2016 | Verified reconstruction from Meyer & Sullivan 2017 Table 1 | `verified_reproduction` | High | Source report table recovered; book-period two-series chart is reconstructed from source table values, with 2017 dotted only in extended artifact. |
 | 10-1 | Population and population growth, 1750-2015 and projected to 2100 | Updated-equivalent current OWID/UN successor reconstruction | `updated_equivalent` | Medium-high | Current OWID population/growth/projection grapher data reproduce the dual-axis concept, but exact 2016 OWID/HYDE/IIASA source vintage remains unrecovered. |
+| 10-2 | Sustainability, 1955-2109 | Updated-equivalent xkcd/Google Ngram source-chain reconstruction | `updated_equivalent` | Medium | Supplemental PDF page 13 source line confirmed; xkcd source page/image and Google Ngram data recovered. Exact xkcd extrapolation formula is unpublished, so future anchors are transcript-derived and separately labeled. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
@@ -181,7 +182,7 @@ support a verified reconstruction.
 ## Attempted But Not Expanded
 
 The initial Kindle List of Figures extraction captured 75 visible entries.
-Figures 4-1, 5-1, 5-2, 5-3, 5-4, 6-1, 7-1, 7-2, 8-4, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
+Figures 4-1, 5-1, 5-2, 5-3, 5-4, 6-1, 7-1, 7-2, 8-4, 10-2, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
 through at least one source recovery, transformation, plotting, and validation
 pass. Continue processing in small batches of no more than two figures unless
 explicitly directed otherwise.
@@ -530,6 +531,23 @@ Canonical documentation:
 - Metadata: `figures/10-1/metadata/metadata.json`
 - Review checklist: `figures/10-1/review_checklist.md`
 
+### Figure 10-2 - Sustainability, 1955-2109
+
+Status: `updated_equivalent`
+
+Canonical visual artifacts:
+- Original reference: `figures/10-2/plots/comparisons/pdf_reference_figure_10_2.png`
+- Book-period reconstruction: `figures/10-2/plots/book_period/figure_10_2_book_period_reconstruction.png`
+- Extended reconstruction: `figures/10-2/plots/extended/figure_10_2_extended_reconstruction.png`
+- Book-period comparison: `figures/10-2/plots/comparisons/figure_10_2_book_period_comparison.png`
+- Extended comparison: `figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png`
+Canonical documentation:
+- Caption: `figures/10-2/captions/caption.txt`
+- Provenance: `figures/10-2/provenance/provenance.md`
+- Anomaly review: `figures/10-2/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/10-2/metadata/metadata.json`
+- Review checklist: `figures/10-2/review_checklist.md`
+
 ### Figure 10-5 - Oil spills, 1970-2016
 
 Status: `partial_match`
@@ -776,6 +794,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.12-source-recovery-figure-10-2` | 2026-07-04 | Processed Figure 10-2. Supplemental PDF, xkcd source page/image, and Google Ngram data were recovered; no Pinker plotted values were digitized; exact xkcd fit remains unpublished and documented. |
 | `1.11-source-recovery-figure-4-1` | 2026-07-04 | Processed Figure 4-1 through source recovery. Supplemental Graphics and Leetaru/GDELT source visuals were recovered, but original month-level source data remain blocked; no digitization was performed. |
 | `1.10-production-loop-figure-10-1` | 2026-07-01 | Added Figure 10-1 as an updated-equivalent current OWID/UN population and growth reconstruction. |
 | `1.9-production-loop-figure-9-6` | 2026-07-01 | Added Figure 9-6 as a verified reconstruction from Meyer & Sullivan 2017 Table 1 with a dotted 2017 extension. |

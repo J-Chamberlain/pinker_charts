@@ -1,0 +1,23 @@
+{
+  "figure_id": "10-2",
+  "chapter": "10",
+  "title": "Sustainability, 1955-2109",
+  "book_page": "Supplemental PDF page 13",
+  "claim_summary": "A humorous xkcd extrapolation shows the word 'sustainable' rising in Google Ngram frequency until all sentences become the word sustainable.",
+  "book_citation": "Randall Munroe, XKCD, http://xkcd.com/1007/. Credit: Randall Munroe, xkcd.com.",
+  "original_dataset": "Google Books Ngram Viewer US English 2012 corpus for the word sustainable; xkcd future annotation anchors from comic 1007 transcript.",
+  "dataset_url": "https://xkcd.com/1007/info.0.json; https://imgs.xkcd.com/comics/sustainable.png; https://books.google.com/ngrams/json?content=sustainable&year_start=1950&year_end=2008&corpus=en-US-2012&smoothing=3",
+  "archive_url": "Not captured; original xkcd page and current Google Ngram API were available directly.",
+  "download_date": "2026-07-04",
+  "reproduction_status": "updated_equivalent",
+  "confidence_score": 0.74,
+  "visual_validation": "good_with_documented_fit_difference",
+  "notes": "The source comic and Google Ngram data were recovered. xkcd did not publish its exact extrapolation/fitting method, so the reconstruction uses recovered Ngram actuals and separately labeled xkcd transcript future anchors rather than digitized Pinker values.",
+  "canonical_artifacts": {
+    "original_reference": "figures/10-2/plots/comparisons/pdf_reference_figure_10_2.png",
+    "book_period_reconstruction": "figures/10-2/plots/book_period/figure_10_2_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/10-2/plots/extended/figure_10_2_extended_reconstruction.png",
+    "book_period_comparison": "figures/10-2/plots/comparisons/figure_10_2_book_period_comparison.png",
+    "extended_comparison": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png"
+  }
+}
