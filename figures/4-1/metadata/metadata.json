@@ -1,0 +1,24 @@
+{
+  "figure_id": "4-1",
+  "title": "Tone of the news, 1945-2010",
+  "chapter": "4",
+  "book_page": "Supplemental Graphics PDF page 2",
+  "year_range": "1945-2010",
+  "claim_summary": "Pinker uses Leetaru's monthly tone series to argue that news became increasingly negative even as objective human welfare improved.",
+  "book_citation": "Leetaru 2011. Plotted by month, beginning in January.",
+  "original_dataset": "Leetaru 2011 monthly tone z-scores for New York Times and Summary of World Broadcasts were not recovered as inspectable data files.",
+  "dataset_url": "",
+  "archive_url": "",
+  "download_date": "2026-07-04",
+  "reproduction_status": "manual_review_needed",
+  "confidence_score": 0.3,
+  "visual_validation": "blocked",
+  "notes": "Reference and source chain captured; no digitized values used; recover original Leetaru monthly tables before reconstruction.",
+  "canonical_artifacts": {
+    "pdf_reference": "figures/4-1/plots/comparisons/pdf_reference_figure_4_1.png",
+    "book_period_comparison": "figures/4-1/plots/comparisons/figure_4_1_book_period_comparison.png",
+    "extended_comparison": "figures/4-1/plots/comparisons/figure_4_1_extended_comparison.png",
+    "book_period_status_panel": "figures/4-1/plots/book_period/figure_4_1_book_period_reconstruction.png",
+    "extended_status_panel": "figures/4-1/plots/extended/figure_4_1_extended_reconstruction.png"
+  }
+}

@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-07-01 America/Los_Angeles
+Last update: 2026-07-04 America/Los_Angeles
 
-Project version: `1.10-production-loop-figure-10-1`
+Project version: `1.11-figure-4-1-source-recovery`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -87,6 +87,7 @@ this file are all updated. Only then may Codex begin another figure.
 
 | Figure | Title | Lifecycle stage | Status | Confidence | Current disposition |
 | --- | --- | --- | --- | --- | --- |
+| 4-1 | Tone of the news, 1945-2010 | Source recovery blocked; PDF reference captured | `manual_review_needed` | Low | Supplemental Graphics PDF page 2 and Leetaru 2011/GDELT visual evidence were captured, but original monthly NYT/SWB tone values were not recovered; no digitized reconstruction was made. |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
 | 5-2 | Child mortality, 1751-2013 | Visual QA remediation and source recovery | `partial_match` | Medium | PDF reference crop added and proxy coverage trimmed to better match the book; exact Roser 2016a UN/HMD assembled source remains unresolved. |
 | 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference refreshed from supplemental PDF page 3; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
@@ -172,10 +173,12 @@ support a verified reconstruction.
 - Figure 7-2: World Bank stunting prevalence proxy approximates the book chart,
   but exact OWID/Roser 2016j WHO NLIS source vintage remains unrecovered.
 
+- Figure 4-1: Supplemental PDF reference and Leetaru 2011 source chain are captured, but original monthly NYT/SWB tone values were not recovered; no digitized reconstruction was made.
+
 ## Attempted But Not Expanded
 
 The initial Kindle List of Figures extraction captured 75 visible entries.
-Figures 5-1, 5-2, 5-3, 5-4, 6-1, 7-1, 7-2, 8-4, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
+Figures 4-1, 5-1, 5-2, 5-3, 5-4, 6-1, 7-1, 7-2, 8-4, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
 through at least one source recovery, transformation, plotting, and validation
 pass. Continue processing in small batches of no more than two figures unless
 explicitly directed otherwise.
@@ -186,6 +189,26 @@ Future runs should use these repository-relative paths to find the current
 canonical visual and documentation artifacts. If a figure plot, comparison
 image, caption, provenance file, anomaly review, metadata file, or status
 changes, update this section in the same commit.
+
+### Figure 4-1 - Tone of the news, 1945-2010
+
+Status: `manual_review_needed`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/4-1/plots/comparisons/pdf_reference_figure_4_1.png`
+- Book-period status panel: `figures/4-1/plots/book_period/figure_4_1_book_period_reconstruction.png`
+- Extended status panel: `figures/4-1/plots/extended/figure_4_1_extended_reconstruction.png`
+- Book-period comparison: `figures/4-1/plots/comparisons/figure_4_1_book_period_comparison.png`
+- Extended comparison: `figures/4-1/plots/comparisons/figure_4_1_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/4-1/captions/caption.txt`
+- Provenance: `figures/4-1/provenance/provenance.md`
+- Anomaly review: `figures/4-1/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/4-1/metadata/metadata.json`
+- Review checklist: `figures/4-1/review_checklist.md`
 
 ### Figure 5-1 - Life expectancy, 1771-2015
 

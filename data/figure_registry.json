@@ -6,13 +6,13 @@
     "title": "Tone of the news, 1945-2010",
     "page": "",
     "year_range": "1945-2010",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "manual_review_needed",
+    "lifecycle_stage": "source_recovery_blocked_reference_captured",
     "source_type_guess": "media_text_analysis_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_high",
+    "current_owner": "Codex",
+    "next_action": "Recover original Leetaru 2011 monthly tone tables/code output for NYT and SWB; do not digitize plotted values.",
+    "notes": "Processed 2026-07-04: Supplemental PDF reference and Leetaru/GDELT visual source evidence captured; numeric monthly data not recovered."
   },
   {
     "figure_id": "5-1",

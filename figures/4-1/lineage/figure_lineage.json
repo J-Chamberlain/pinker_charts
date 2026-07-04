@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "Figure 4-1: Tone of the news, 1945-2010",
+    "status": "confirmed"
+  },
+  {
+    "stage": "Book Citation",
+    "value": "Leetaru 2011",
+    "status": "confirmed"
+  },
+  {
+    "stage": "Original Article",
+    "value": "https://firstmonday.org/ojs/index.php/fm/article/view/3663/3040",
+    "status": "located"
+  },
+  {
+    "stage": "Original Visuals",
+    "value": "http://data.gdeltproject.org/blog/2011-culturomics-20/figure10.png; http://data.gdeltproject.org/blog/2011-culturomics-20/figure11.png",
+    "status": "located_visual_only"
+  },
+  {
+    "stage": "Original Dataset",
+    "value": "Monthly tone z-scores",
+    "status": "not_located"
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/4-1/plots/book_period/figure_4_1_book_period_reconstruction.png",
+    "status": "status_panel_only"
+  }
+]

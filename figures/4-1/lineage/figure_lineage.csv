@@ -1,0 +1,7 @@
+figure_id,stage,value,status
+4-1,Book Figure,"Figure 4-1: Tone of the news, 1945-2010",confirmed
+4-1,Book Citation,Leetaru 2011,confirmed
+4-1,Original Article,https://firstmonday.org/ojs/index.php/fm/article/view/3663/3040,located
+4-1,Original Visuals,http://data.gdeltproject.org/blog/2011-culturomics-20/figure10.png; http://data.gdeltproject.org/blog/2011-culturomics-20/figure11.png,located_visual_only
+4-1,Original Dataset,Monthly tone z-scores,not_located
+4-1,Generated Plot,figures/4-1/plots/book_period/figure_4_1_book_period_reconstruction.png,status_panel_only
