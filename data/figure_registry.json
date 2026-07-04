@@ -4,15 +4,15 @@
     "book": "Enlightenment Now",
     "chapter": "4",
     "title": "Tone of the news, 1945-2010",
-    "page": "",
+    "page": "Supplemental PDF page 2",
     "year_range": "1945-2010",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "blocked_external_source",
+    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
     "source_type_guess": "media_text_analysis_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "medium",
+    "current_owner": "Codex",
+    "next_action": "Recover the original Leetaru 2011 month-level NYT and Summary of World Broadcasts tone tables; do not digitize Pinker values.",
+    "notes": "Supplemental Graphics source line confirmed. GDELT/Leetaru high-resolution source visuals for NYT and SWB were recovered, but no inspectable source-data table was located."
   },
   {
     "figure_id": "5-1",

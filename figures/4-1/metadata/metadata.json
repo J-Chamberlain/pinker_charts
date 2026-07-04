@@ -1,0 +1,23 @@
+{
+  "figure_id": "4-1",
+  "chapter": "4",
+  "title": "Tone of the news, 1945-2010",
+  "book_page": "Supplemental PDF page 2",
+  "claim_summary": "Average news tone became more negative across the New York Times and Summary of World Broadcasts monthly series.",
+  "book_citation": "Leetaru 2011. Plotted by month, beginning in January.",
+  "original_dataset": "Leetaru 2011 Culturomics 2.0 monthly tone series for New York Times and Summary of World Broadcasts; underlying month-level data not recovered.",
+  "dataset_url": "No inspectable source-data URL recovered. Source-figure PNGs are mirrored at http://data.gdeltproject.org/blog/2011-culturomics-20/figure10.png and http://data.gdeltproject.org/blog/2011-culturomics-20/figure11.png.",
+  "archive_url": "Wayback CDX candidates recorded in data/candidates/wayback_gdelt_figure10_cdx.json and data/candidates/wayback_gdelt_figure11_cdx.json.",
+  "download_date": "2026-07-04",
+  "reproduction_status": "blocked_external_source",
+  "confidence_score": 0.22,
+  "visual_validation": "not_reconstructed",
+  "notes": "Supplemental Graphics PDF reference and Leetaru/GDELT high-resolution source figures were recovered. Month-level NYT/SWB tone data were not located, and no Pinker plotted values were digitized.",
+  "canonical_artifacts": {
+    "original_reference": "figures/4-1/plots/comparisons/pdf_reference_figure_4_1.png",
+    "book_period_reconstruction": "figures/4-1/plots/book_period/figure_4_1_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/4-1/plots/extended/figure_4_1_extended_reconstruction.png",
+    "book_period_comparison": "figures/4-1/plots/comparisons/figure_4_1_book_period_comparison.png",
+    "extended_comparison": "figures/4-1/plots/comparisons/figure_4_1_extended_comparison.png"
+  }
+}

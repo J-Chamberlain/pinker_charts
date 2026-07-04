@@ -1,0 +1,2 @@
+35770cf9453447fd7ccfc05f1657788044d9532cb7db4557574922afaff7bd64  output/pdf/recreated_figures_review_scroll.pdf
+da370420a64da3f0848447ffb7be1922104bca01022273b27b6118b3848e23e0  output/pdf/recreated_figures_review_scroll.manifest.json

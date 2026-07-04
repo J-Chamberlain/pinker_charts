@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-07-01 America/Los_Angeles
+Last update: 2026-07-04 America/Los_Angeles
 
-Project version: `1.10-production-loop-figure-10-1`
+Project version: `1.11-source-recovery-figure-4-1`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -52,9 +52,9 @@ Its machine-readable manifest is:
 
 - [output/pdf/recreated_figures_review_scroll.manifest.json](output/pdf/recreated_figures_review_scroll.manifest.json)
 
-The current baseline contains 25 figure comparison items plus a summary page.
-Source-recovery-only figures without real reconstructed comparisons are
-excluded.
+The current baseline contains 26 figure comparison/source-recovery items plus a
+summary page. Source-recovery-only figures are included only when the manifest
+and caption clearly mark them as blocked diagnostic artifacts.
 
 ## Figure Registry
 
@@ -87,6 +87,7 @@ this file are all updated. Only then may Codex begin another figure.
 
 | Figure | Title | Lifecycle stage | Status | Confidence | Current disposition |
 | --- | --- | --- | --- | --- | --- |
+| 4-1 | Tone of the news, 1945-2010 | Source recovery blocked; source visuals recovered | `blocked_external_source` | Low | Supplemental Graphics PDF source line confirmed and Leetaru/GDELT high-resolution NYT/SWB source visuals recovered, but the original month-level tone data table was not located. No plotted values were digitized. |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
 | 5-2 | Child mortality, 1751-2013 | Visual QA remediation and source recovery | `partial_match` | Medium | PDF reference crop added and proxy coverage trimmed to better match the book; exact Roser 2016a UN/HMD assembled source remains unresolved. |
 | 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference refreshed from supplemental PDF page 3; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
@@ -135,6 +136,11 @@ support a verified reconstruction.
 
 ## Unresolved Figures
 
+- Figure 4-1: source recovery located the Supplemental Graphics PDF reference
+  and Leetaru/GDELT high-resolution source visuals for the NYT and Summary of
+  World Broadcasts monthly tone series, but no inspectable month-level data
+  table was recovered. No values were digitized from Pinker's plotted figure;
+  reconstruction and extension remain blocked.
 - Figure 10-5: the oil-spill count line is well supported, but the exact
   historical annual oil-shipped-by-sea/tanker-trade series for 1970-2016 has
   not been proven. A recovered UNCTADStat-style mirror supports a book-style
@@ -175,7 +181,7 @@ support a verified reconstruction.
 ## Attempted But Not Expanded
 
 The initial Kindle List of Figures extraction captured 75 visible entries.
-Figures 5-1, 5-2, 5-3, 5-4, 6-1, 7-1, 7-2, 8-4, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
+Figures 4-1, 5-1, 5-2, 5-3, 5-4, 6-1, 7-1, 7-2, 8-4, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
 through at least one source recovery, transformation, plotting, and validation
 pass. Continue processing in small batches of no more than two figures unless
 explicitly directed otherwise.
@@ -186,6 +192,27 @@ Future runs should use these repository-relative paths to find the current
 canonical visual and documentation artifacts. If a figure plot, comparison
 image, caption, provenance file, anomaly review, metadata file, or status
 changes, update this section in the same commit.
+
+### Figure 4-1 - Tone of the news, 1945-2010
+
+Status: `blocked_external_source`
+
+Canonical visual artifacts:
+
+- Original reference: `figures/4-1/plots/comparisons/pdf_reference_figure_4_1.png`
+- Book-period reconstruction: `figures/4-1/plots/book_period/figure_4_1_book_period_reconstruction.png`
+- Extended reconstruction: `figures/4-1/plots/extended/figure_4_1_extended_reconstruction.png`
+- Book-period comparison: `figures/4-1/plots/comparisons/figure_4_1_book_period_comparison.png`
+- Extended comparison: `figures/4-1/plots/comparisons/figure_4_1_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/4-1/captions/caption.txt`
+- Provenance: `figures/4-1/provenance/provenance.md`
+- Source log: `figures/4-1/source_logs/source_log.md`
+- Anomaly review: `figures/4-1/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/4-1/metadata/metadata.json`
+- Review checklist: `figures/4-1/review_checklist.md`
 
 ### Figure 5-1 - Life expectancy, 1771-2015
 
@@ -749,6 +776,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.11-source-recovery-figure-4-1` | 2026-07-04 | Processed Figure 4-1 through source recovery. Supplemental Graphics and Leetaru/GDELT source visuals were recovered, but original month-level source data remain blocked; no digitization was performed. |
 | `1.10-production-loop-figure-10-1` | 2026-07-01 | Added Figure 10-1 as an updated-equivalent current OWID/UN population and growth reconstruction. |
 | `1.9-production-loop-figure-9-6` | 2026-07-01 | Added Figure 9-6 as a verified reconstruction from Meyer & Sullivan 2017 Table 1 with a dotted 2017 extension. |
 | `1.8-production-loop-figure-8-3` | 2026-07-01 | Added Figure 8-3 as an updated-equivalent Gapminder Income Mountains v2 reconstruction with PDF side-by-side comparisons and full provenance package. |

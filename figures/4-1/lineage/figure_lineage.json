@@ -1,0 +1,44 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "Figure 4-1: Tone of the news, 1945-2010",
+    "status": "confirmed",
+    "notes": "Supplemental Graphics PDF page 2."
+  },
+  {
+    "stage": "Book Citation",
+    "value": "Leetaru 2011. Plotted by month, beginning in January.",
+    "status": "confirmed",
+    "notes": "Source line from Supplemental Graphics PDF."
+  },
+  {
+    "stage": "Original Paper",
+    "value": "Leetaru 2011, Culturomics 2.0",
+    "status": "located_context",
+    "notes": "First Monday article located as context."
+  },
+  {
+    "stage": "Original Dataset",
+    "value": "Month-level NYT and Summary of World Broadcasts tone data",
+    "status": "not_located",
+    "notes": "No inspectable source-data table recovered."
+  },
+  {
+    "stage": "Source Visual",
+    "value": "GDELT high-resolution Figure 10 NYT 1945-2005 PNG",
+    "status": "located_visual_only",
+    "notes": "Preserved as visual evidence, not digitized."
+  },
+  {
+    "stage": "Source Visual",
+    "value": "GDELT high-resolution Figure 11 SWB 1979-July 2010 PNG",
+    "status": "located_visual_only",
+    "notes": "Preserved as visual evidence, not digitized."
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/4-1/plots/comparisons/figure_4_1_book_period_comparison.png",
+    "status": "diagnostic_only",
+    "notes": "Source-recovery comparison; not a reconstruction."
+  }
+]

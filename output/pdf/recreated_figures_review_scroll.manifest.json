@@ -1,7 +1,20 @@
 {
   "output": "output/pdf/recreated_figures_review_scroll.pdf",
-  "count": 25,
+  "count": 26,
+  "updated": "2026-07-04",
   "items": [
+    {
+      "figure_id": "4-1",
+      "title": "Tone of the news, 1945-2010",
+      "status": "blocked_external_source",
+      "path": "figures/4-1/plots/comparisons/figure_4_1_extended_comparison.png",
+      "selected_image": "figure_4_1_extended_comparison.png",
+      "notes": "Source-recovery-only diagnostic: Supplemental Graphics reference and Leetaru/GDELT source visuals recovered; original month-level NYT/SWB tone data were not recovered, and no Pinker plotted values were digitized.",
+      "image_size": [
+        1600,
+        1180
+      ]
+    },
     {
       "figure_id": "5-1",
       "title": "Life expectancy, 1771-2015",

@@ -1,0 +1,8 @@
+stage,value,status,notes
+Book Figure,"Figure 4-1: Tone of the news, 1945-2010",confirmed,"Supplemental Graphics PDF page 2."
+Book Citation,"Leetaru 2011. Plotted by month, beginning in January.",confirmed,"Source line from Supplemental Graphics PDF."
+Original Paper,"Leetaru 2011, Culturomics 2.0",located_context,"First Monday article located as context."
+Original Dataset,"Month-level NYT and Summary of World Broadcasts tone data",not_located,"No inspectable source-data table recovered."
+Source Visual,"GDELT high-resolution Figure 10 NYT 1945-2005 PNG",located_visual_only,"Preserved as visual evidence, not digitized."
+Source Visual,"GDELT high-resolution Figure 11 SWB 1979-July 2010 PNG",located_visual_only,"Preserved as visual evidence, not digitized."
+Generated Plot,"figures/4-1/plots/comparisons/figure_4_1_book_period_comparison.png",diagnostic_only,"Source-recovery comparison; not a reconstruction."
