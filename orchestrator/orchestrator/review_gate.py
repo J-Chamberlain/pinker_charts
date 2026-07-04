@@ -169,6 +169,41 @@ def _write_engine_artifacts(run_dir: Path, engine_result: SupervisorEngineResult
         (run_dir / "remediation_prompt.md").write_text(engine_result.followup_task_prompt.rstrip() + "\n")
 
 
+def reviewer_status(review: ReviewResult) -> str:
+    if review.reviewer == "noop":
+        return "noop"
+    if review.reviewer.endswith("unavailable") or "error" in review.raw or "openai_error" in review.raw:
+        return "failed"
+    if review.decision == "needs_manual_review":
+        return "manual_review"
+    return "success"
+
+
+def supervisor_status(engine_result: SupervisorEngineResult | None) -> str:
+    if engine_result is None:
+        return "noop"
+    if engine_result.supervisor == "noop":
+        return "noop"
+    if engine_result.supervisor.endswith("unavailable") or "error" in engine_result.raw or "openai_error" in engine_result.raw:
+        return "failed"
+    return "success"
+
+
+def supervisor_reliance(review_status: str, engine_status: str) -> list[str]:
+    relied_on: list[str] = []
+    if review_status == "success":
+        relied_on.append("successful_reviewer_output")
+    elif review_status == "failed":
+        relied_on.append("failed_reviewer_fallback")
+    elif review_status == "manual_review":
+        relied_on.append("reviewer_manual_review")
+    elif review_status == "noop":
+        relied_on.append("noop_reviewer")
+    if engine_status == "success":
+        relied_on.append("direct_supervisor_inspection")
+    return relied_on
+
+
 def run_review_gate(
     repo_root: Path,
     runs_dir: Path,
@@ -221,6 +256,9 @@ def run_review_gate(
         decision = engine_result.decision
     else:
         decision = review_decision
+    review_status = reviewer_status(review)
+    engine_status = supervisor_status(engine_result)
+    relied_on = supervisor_reliance(review_status, engine_status)
     decision_payload = {
         "task_id": task.id,
         "task_title": task.title,
@@ -232,10 +270,14 @@ def run_review_gate(
         "changed_files": changed_files,
         "push_result": push_result,
         "reviewer": review.reviewer,
+        "reviewer_status": review_status,
         "review_decision": review.decision,
         "review_gate_decision": review_decision,
         "supervisor_engine": engine_result.supervisor if engine_result else None,
+        "supervisor_status": engine_status,
+        "supervisor_relied_on": relied_on,
         "supervisor_decision": decision,
+        "final_action": decision,
         "accepted": decision == "accept",
         "next_action": decision,
         "allow_remediation": allow_remediation,

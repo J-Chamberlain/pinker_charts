@@ -53,7 +53,11 @@ def normalize_review_payload(payload: dict[str, Any]) -> dict[str, Any]:
 
 
 def parse_review_json(text: str) -> dict[str, Any]:
-    parsed = json.loads(_strip_json_fence(text))
+    stripped = _strip_json_fence(text)
+    try:
+        parsed = json.loads(stripped)
+    except json.JSONDecodeError:
+        parsed, _ = json.JSONDecoder().raw_decode(stripped)
     if not isinstance(parsed, dict):
         raise ValueError("Reviewer response JSON must be an object.")
     return normalize_review_payload(parsed)
@@ -79,6 +83,7 @@ class OpenAIReviewer(Reviewer):
             return self._manual_result(execution, "OpenAI reviewer is configured in dry-run mode.")
         if not self.api_key:
             return self._manual_result(execution, "OPENAI_API_KEY is not configured.")
+        raw_text = None
         try:
             raw_text = self._call_openai(execution)
             parsed = parse_review_json(raw_text)
@@ -92,7 +97,7 @@ class OpenAIReviewer(Reviewer):
             return self._manual_result(
                 execution,
                 f"OpenAI reviewer failed safely: {exc}",
-                raw={"error": str(exc), "model": self.model},
+                raw={"error": str(exc), "model": self.model, **({"raw_model_response": raw_text} if raw_text else {})},
             )
         return ReviewResult(
             task=execution.task,

@@ -64,6 +64,26 @@ def test_parse_review_json_normalizes_valid_payload():
     assert parsed["issues"] == ["Missing one artifact"]
 
 
+def test_parse_review_json_accepts_first_json_object_with_trailing_output():
+    parsed = parse_review_json(
+        json.dumps(
+            {
+                "decision": "blocked",
+                "confidence": "medium",
+                "summary": "Blocker documented.",
+                "strengths": [],
+                "issues": [],
+                "required_remediation": [],
+                "next_action": "Continue later.",
+            }
+        )
+        + "\n"
+        + json.dumps({"extra": "second object"})
+    )
+    assert parsed["decision"] == "blocked"
+    assert parsed["summary"] == "Blocker documented."
+
+
 def test_openai_reviewer_uses_mocked_response():
     def fake_post(*args, **kwargs):
         return FakeResponse(

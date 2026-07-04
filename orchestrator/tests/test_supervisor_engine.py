@@ -3,6 +3,7 @@ from pathlib import Path
 
 from orchestrator.config import OrchestratorConfig, ProjectConfig, SupervisorEngineConfig, load_config
 from orchestrator.review_gate import run_review_gate
+from orchestrator.review_gate import reviewer_status, supervisor_reliance, supervisor_status
 from orchestrator.schemas import ReviewResult, SupervisorEngineResult, Task
 from orchestrator.supervisor import build_decision_engine, run_loop
 from orchestrator.supervisor_interface import DecisionEngine
@@ -147,8 +148,39 @@ def test_review_gate_persists_accept_remediate_block_manual(tmp_path: Path):
         assert decision.action == action
         assert (run_dir / "parsed_supervisor_decision.json").exists()
         assert (run_dir / "final_loop_decision.json").exists()
+        final_decision = json.loads((run_dir / "final_loop_decision.json").read_text())
+        assert final_decision["reviewer_status"] == "success"
+        assert final_decision["supervisor_status"] == "success"
+        assert final_decision["final_action"] == action
+        assert "successful_reviewer_output" in final_decision["supervisor_relied_on"]
+        assert "direct_supervisor_inspection" in final_decision["supervisor_relied_on"]
         if action == "remediate":
             assert (run_dir / "remediation_prompt.md").exists()
+
+
+def test_reviewer_supervisor_status_helpers_distinguish_failure_manual_and_noop():
+    task = Task(id="x", title="Example", status="not_started")
+    failed_review = ReviewResult(task=task, reviewer="openai-unavailable", decision="needs_manual_review", summary="failed", raw={"error": "parse"})
+    manual_review = ReviewResult(task=task, reviewer="openai", decision="needs_manual_review", summary="manual")
+    noop_review = ReviewResult(task=task, reviewer="noop", decision="needs_manual_review", summary="noop")
+    assert reviewer_status(failed_review) == "failed"
+    assert reviewer_status(manual_review) == "manual_review"
+    assert reviewer_status(noop_review) == "noop"
+
+    failed_supervisor = SupervisorEngineResult(
+        task=task,
+        supervisor="openai-unavailable",
+        decision="needs_manual_review",
+        confidence="low",
+        rationale="failed",
+        registry_update="",
+        next_action="manual",
+        followup_task_prompt="",
+        continue_loop=False,
+        raw={"error": "api"},
+    )
+    assert supervisor_status(failed_supervisor) == "failed"
+    assert supervisor_reliance("failed", "success") == ["failed_reviewer_fallback", "direct_supervisor_inspection"]
 
 
 def test_local_loop_dry_run_can_iterate_multiple_tasks():

@@ -49,7 +49,11 @@ def normalize_supervisor_payload(payload: dict[str, Any]) -> dict[str, Any]:
 
 
 def parse_supervisor_json(text: str) -> dict[str, Any]:
-    parsed = json.loads(_strip_json_fence(text))
+    stripped = _strip_json_fence(text)
+    try:
+        parsed = json.loads(stripped)
+    except json.JSONDecodeError:
+        parsed, _ = json.JSONDecoder().raw_decode(stripped)
     if not isinstance(parsed, dict):
         raise ValueError("Supervisor response JSON must be an object.")
     return normalize_supervisor_payload(parsed)
@@ -75,6 +79,7 @@ class OpenAISupervisor(DecisionEngine):
             return self._manual_result(task, "OpenAI supervisor is configured in dry-run mode.")
         if not self.api_key:
             return self._manual_result(task, "OPENAI_API_KEY is not configured.")
+        raw_text = None
         try:
             raw_text = self._call_openai(task, context)
             parsed = parse_supervisor_json(raw_text)
@@ -88,7 +93,7 @@ class OpenAISupervisor(DecisionEngine):
             return self._manual_result(
                 task,
                 f"OpenAI supervisor failed safely: {exc}",
-                raw={"error": str(exc), "model": self.model},
+                raw={"error": str(exc), "model": self.model, **({"raw_model_response": raw_text} if raw_text else {})},
             )
         return SupervisorEngineResult(
             task=task,
