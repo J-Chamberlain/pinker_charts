@@ -10,6 +10,7 @@ from .executors import CodexCLIExecutor, GitHubIssueExecutor, NoopExecutor
 from .github_client import GitHubClient
 from .issue_queue import build_issue_draft
 from .models import AnthropicReviewer, NoopReviewer, OpenAIReviewer
+from .review_gate import latest_run_dir, run_review_gate
 from .schemas import ExecutionResult, SupervisorDecision, Task
 from .supervisor_log import append_decision
 
@@ -51,7 +52,22 @@ def plan_task(task: Task) -> str:
     return f"{draft.title}\n\n{draft.body}"
 
 
-def run_once(config: OrchestratorConfig, mode: str) -> SupervisorDecision:
+def _task_for_run(config: OrchestratorConfig, run_dir: Path | None) -> Task | None:
+    adapter = build_adapter(config)
+    if run_dir:
+        metadata_path = run_dir / "metadata.json"
+        if metadata_path.exists():
+            import json
+
+            metadata = json.loads(metadata_path.read_text())
+            task_id = metadata.get("task_id")
+            for task in adapter.tasks(adapter.read_state()):
+                if task.id == task_id:
+                    return task
+    return adapter.select_next_task(adapter.read_state())
+
+
+def run_once(config: OrchestratorConfig, mode: str, latest_run: bool = False) -> SupervisorDecision:
     adapter = build_adapter(config)
     state = adapter.read_state()
     task = adapter.select_next_task(state)
@@ -59,21 +75,41 @@ def run_once(config: OrchestratorConfig, mode: str) -> SupervisorDecision:
         return SupervisorDecision(action="stop", reason="No eligible task found.")
     if mode == "plan-only":
         return SupervisorDecision(action="plan", reason=plan_task(task), task=task)
+    if mode == "review-only":
+        runs_dir = config.executor.runs_dir or config.project.root / "orchestrator/runs"
+        run_dir = latest_run_dir(runs_dir) if latest_run else None
+        review_task = _task_for_run(config, run_dir) or task
+        return run_review_gate(
+            config.project.root,
+            runs_dir,
+            review_task,
+            build_reviewer(config),
+            run_dir=run_dir,
+            dry_run=config.dry_run,
+            push_branch=not config.dry_run,
+        )
     executor = build_executor(config, mode)
     execution = executor.execute(task)
+    if mode == "local-loop" and not config.dry_run and execution.artifacts:
+        reviewer = build_reviewer(config)
+        return run_review_gate(
+            config.project.root,
+            config.executor.runs_dir or config.project.root / "orchestrator/runs",
+            task,
+            reviewer,
+            dry_run=config.dry_run,
+            push_branch=True,
+        )
     if mode in {"issue-only", "local-loop"}:
         return SupervisorDecision(action="executed", reason=execution.message, task=task, execution=execution)
-    if mode == "review-only":
-        review = build_reviewer(config).review(ExecutionResult(task=task, mode="review-placeholder", success=True, message="review-only"))
-        return SupervisorDecision(action="reviewed", reason=review.summary, task=task, review=review)
     return SupervisorDecision(action="simulated", reason=execution.message, task=task, execution=execution)
 
 
-def run_loop(config: OrchestratorConfig, mode: str, max_iterations: int | None = None) -> list[SupervisorDecision]:
+def run_loop(config: OrchestratorConfig, mode: str, max_iterations: int | None = None, latest_run: bool = False) -> list[SupervisorDecision]:
     decisions: list[SupervisorDecision] = []
     iterations = max(1, max_iterations if max_iterations is not None else config.loop_budget)
     for _ in range(iterations):
-        decision = run_once(config, mode)
+        decision = run_once(config, mode, latest_run=latest_run)
         append_decision(config.project.root / ".orchestrator/supervisor.log", decision, dry_run=config.dry_run)
         decisions.append(decision)
         if mode in {"plan-only", "issue-only", "review-only"} or decision.action == "stop":
@@ -86,6 +122,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--config", required=True)
     parser.add_argument("--mode", choices=["plan-only", "issue-only", "review-only", "loop-dry-run", "local-loop"], default="plan-only")
     parser.add_argument("--max-iterations", type=int)
+    parser.add_argument("--latest-run", action="store_true", help="Review the latest run directory instead of selecting a new task.")
     parser.add_argument("--non-dry-run", action="store_true", help="Allow external side effects where the selected mode supports them.")
     args = parser.parse_args(argv)
     if args.mode == "local-loop" and args.non_dry_run and (args.max_iterations is None or args.max_iterations < 1):
@@ -107,7 +144,7 @@ def main(argv: list[str] | None = None) -> int:
             loop_budget=config.loop_budget,
             dry_run=False,
         )
-    decisions = run_loop(config, args.mode, args.max_iterations)
+    decisions = run_loop(config, args.mode, args.max_iterations, latest_run=args.latest_run)
     for decision in decisions:
         print(f"action: {decision.action}")
         if decision.task:

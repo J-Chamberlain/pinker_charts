@@ -1,6 +1,8 @@
 from orchestrator.schemas import IssueDraft, Task, TaskStatus
 from orchestrator.task_selector import is_unprocessed, status_class
 from orchestrator.executors.codex_cli_executor import CodexCLIExecutor
+from orchestrator.models.noop_reviewer import NoopReviewer
+from orchestrator.schemas import ExecutionResult
 
 
 def test_task_status_values():
@@ -24,3 +26,9 @@ def test_codex_executor_dry_run_command_has_exec_and_branch():
     assert result.success
     assert "codex exec" in result.message
     assert result.branch == "codex/10-2-sustainability"
+
+
+def test_noop_reviewer_requires_manual_review():
+    task = Task(id="10-2", title="Sustainability", status="not_started")
+    result = NoopReviewer().review(ExecutionResult(task=task, mode="test", success=True, message="packet"))
+    assert result.decision == "needs_manual_review"

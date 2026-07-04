@@ -13,6 +13,7 @@ This file intentionally duplicates the security principles in the README in more
 9. Local-loop refuses to launch Codex unless the worktree is clean.
 10. Local-loop creates a per-task branch and never auto-merges.
 11. Local-loop captures execution logs under `orchestrator/runs/`; these logs are ignored by git by default.
+12. Review-only may push a worker branch only when explicitly run with `--non-dry-run`; acceptance still requires a reviewer result.
 
 Required environment variables:
 

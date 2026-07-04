@@ -57,3 +57,12 @@ python -m orchestrator.supervisor \
 ```
 
 This creates a task branch, captures stdout/stderr/status logs under `orchestrator/runs/`, inspects git status after Codex exits, and does not merge or mark the task accepted.
+
+Review the latest run without external calls:
+
+```bash
+python -m orchestrator.supervisor \
+  --config examples/pinker_charts.config.example.yaml \
+  --mode review-only \
+  --latest-run
+```

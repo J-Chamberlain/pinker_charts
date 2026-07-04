@@ -9,8 +9,11 @@ class NoopReviewer(Reviewer):
         return ReviewResult(
             task=execution.task,
             reviewer="noop",
-            decision="accept",
-            summary="Dry-run reviewer did not call an external model.",
-            findings=("No external review performed.",),
+            decision="needs_manual_review",
+            summary="Noop reviewer generated a manual-review decision without calling an external model.",
+            findings=(
+                "No external review performed.",
+                "Supervisor must not accept until a configured reviewer or human has reviewed the packet.",
+            ),
             confidence=0.0,
         )

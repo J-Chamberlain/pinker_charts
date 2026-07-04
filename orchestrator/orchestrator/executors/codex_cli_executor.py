@@ -92,6 +92,10 @@ Review requirements:
             raise RuntimeError(created.stderr or created.stdout or f"failed to create branch {name}")
         return name
 
+    def _current_branch(self) -> str:
+        branch = self._run_git(["branch", "--show-current"])
+        return branch.stdout.strip() if branch.returncode == 0 else ""
+
     def execute(self, task: Task) -> ExecutionResult:
         command = self.build_command(task)
         branch = self.branch_name(task)
@@ -105,6 +109,7 @@ Review requirements:
         run_id = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ") + f"_{task.id.replace('-', '_')}"
         run_dir = self.runs_dir / run_id
         run_dir.mkdir(parents=True, exist_ok=True)
+        base_branch = self._current_branch()
         actual_branch = self._create_task_branch(task)
         prompt = self.build_prompt(task)
         argv = [self.command, "exec", "-C", str(self.repo_root), prompt]
@@ -112,6 +117,7 @@ Review requirements:
             "task_id": task.id,
             "task_title": task.title,
             "branch": actual_branch,
+            "base_branch": base_branch,
             "argv": argv,
             "started_at": datetime.now(UTC).isoformat(),
             "timeout_seconds": self.timeout_seconds,

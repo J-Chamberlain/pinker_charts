@@ -10,7 +10,16 @@ Creates or dry-runs a GitHub issue for the next task. Non-dry-run requires `GITH
 
 ## review-only
 
-Runs the configured reviewer against a placeholder/latest task execution artifact. Current reviewer implementations are no-op or safe stubs.
+Runs the configured reviewer against a latest task execution artifact when
+`--latest-run` is supplied. The supervisor generates:
+
+- `review_packet.md`
+- `review_result.json`
+- `supervisor_decision.json`
+
+Dry-run review-only does not push worker branches. With `--non-dry-run`, the
+supervisor may push the detected worker branch, but still does not merge or
+mark the result accepted.
 
 ## loop-dry-run
 
