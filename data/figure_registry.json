@@ -6,13 +6,13 @@
     "title": "Tone of the news, 1945-2010",
     "page": "",
     "year_range": "1945-2010",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
-    "source_type_guess": "media_text_analysis_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "current_status": "manual_review_needed",
+    "lifecycle_stage": "source_recovery_blocked_reference_captured",
+    "source_type_guess": "Leetaru 2011 media text analysis dataset",
+    "priority": "high",
+    "current_owner": "Codex",
+    "next_action": "Recover Leetaru 2011 monthly NYT and Summary of World Broadcasts tone tables or obtain author/institutional data; do not reconstruct by digitizing Pinker or Leetaru plotted figure values.",
+    "notes": "2026-07-04 source recovery: Supplemental PDF source line captured; Leetaru article, GDELT image mirror, and Wayback CDX checked; monthly source tables not recovered."
   },
   {
     "figure_id": "5-1",

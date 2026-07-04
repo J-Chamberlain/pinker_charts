@@ -1,0 +1,27 @@
+{
+  "figure_id": "4-1",
+  "title": "Tone of the news, 1945-2010",
+  "status": "manual_review_needed",
+  "source_fidelity": "source_chain_only",
+  "book_citation": "Leetaru 2011. Plotted by month, beginning in January.",
+  "original_reference": "figures/4-1/plots/comparisons/pdf_reference_figure_4_1.png",
+  "book_period_reconstruction": "figures/4-1/plots/book_period/figure_4_1_book_period_reconstruction.png",
+  "extended_reconstruction": "figures/4-1/plots/extended/figure_4_1_extended_reconstruction.png",
+  "book_period_comparison": "figures/4-1/plots/comparisons/figure_4_1_book_period_comparison.png",
+  "extended_comparison": "figures/4-1/plots/comparisons/figure_4_1_extended_comparison.png",
+  "candidate_sources": [
+    "figures/4-1/data/candidates/leetaru_2011_first_monday.html",
+    "figures/4-1/data/candidates/gdelt_mirror_leetaru_figure10_nyt.png",
+    "figures/4-1/data/candidates/gdelt_mirror_leetaru_figure11_swb.png",
+    "figures/4-1/data/candidates/wayback_cdx_contentanalysis_culturomics20.json"
+  ],
+  "processed_data": [],
+  "script": "scripts/reconstruct_4_1.py",
+  "visual_validation": "blocked_status_panel",
+  "confidence": "low",
+  "unresolved_issues": [
+    "Original monthly Leetaru NYT and Summary of World Broadcasts tone tables were not recovered.",
+    "No extension plotted because no accepted book-period data series exists."
+  ],
+  "recommended_next_action": "Recover Leetaru 2011 monthly NYT and Summary of World Broadcasts tone tables or obtain author/institutional data; do not reconstruct by digitizing Pinker or Leetaru plotted figure values."
+}

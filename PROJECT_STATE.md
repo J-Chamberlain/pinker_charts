@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-07-01 America/Los_Angeles
+Last update: 2026-07-04 America/Los_Angeles
 
-Project version: `1.10-production-loop-figure-10-1`
+Project version: `1.11-source-recovery-figure-4-1`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -87,6 +87,7 @@ this file are all updated. Only then may Codex begin another figure.
 
 | Figure | Title | Lifecycle stage | Status | Confidence | Current disposition |
 | --- | --- | --- | --- | --- | --- |
+| 4-1 | Tone of the news, 1945-2010 | Source recovery blocked; PDF reference captured | `manual_review_needed` | Low | Supplemental PDF page 2 source line cites Leetaru 2011; First Monday article, GDELT image mirror, old-host checks, and Wayback CDX did not recover the monthly NYT/SWB tone tables. No reconstruction was plotted because chart digitization is forbidden. |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
 | 5-2 | Child mortality, 1751-2013 | Visual QA remediation and source recovery | `partial_match` | Medium | PDF reference crop added and proxy coverage trimmed to better match the book; exact Roser 2016a UN/HMD assembled source remains unresolved. |
 | 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference refreshed from supplemental PDF page 3; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
@@ -747,6 +748,7 @@ Canonical documentation:
 
 ## Repository Version History
 
+| `1.11-source-recovery-figure-4-1` | 2026-07-04 | Captured Figure 4-1 from the Supplemental Graphics PDF, confirmed the Leetaru 2011 source line, checked article/GDELT/old-host/Wayback paths, and left the figure as manual-review-needed because the monthly source tables were not recovered. |
 | Version | Date | Summary |
 | --- | --- | --- |
 | `1.10-production-loop-figure-10-1` | 2026-07-01 | Added Figure 10-1 as an updated-equivalent current OWID/UN population and growth reconstruction. |

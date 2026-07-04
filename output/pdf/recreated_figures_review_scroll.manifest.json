@@ -1,7 +1,19 @@
 {
   "output": "output/pdf/recreated_figures_review_scroll.pdf",
-  "count": 25,
+  "count": 26,
   "items": [
+    {
+      "figure_id": "4-1",
+      "title": "Tone of the news, 1945-2010",
+      "status": "manual_review_needed",
+      "path": "figures/4-1/plots/comparisons/figure_4_1_extended_comparison.png",
+      "selected_image": "figure_4_1_extended_comparison.png",
+      "notes": "Source-recovery blocked: Leetaru 2011 monthly tone tables not recovered; no digitized reconstruction plotted.",
+      "image_size": [
+        2095,
+        861
+      ]
+    },
     {
       "figure_id": "5-1",
       "title": "Life expectancy, 1771-2015",

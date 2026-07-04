@@ -1,0 +1,1 @@
+Figure 4-1 shows Leetaru's monthly tone series for New York Times and Summary of World Broadcasts news coverage. No recreated data series is plotted because the underlying monthly tone tables were not recovered; available public artifacts are article text and plotted figures, and this project does not reconstruct from digitized chart values.
