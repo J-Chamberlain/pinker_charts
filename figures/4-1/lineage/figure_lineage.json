@@ -1,0 +1,20 @@
+[
+  {
+    "figure_id": "4-1",
+    "artifact": "supplemental_reference",
+    "source": "references/enlightenment_now_supplemental_graphics.pdf page 2",
+    "status": "reference_only"
+  },
+  {
+    "figure_id": "4-1",
+    "artifact": "candidate_visual_source",
+    "source": "GDELT mirror of Leetaru 2011 Figure 10 and Figure 11 PNGs",
+    "status": "evidence_only_not_data"
+  },
+  {
+    "figure_id": "4-1",
+    "artifact": "status_panel",
+    "source": "no accepted reconstruction data",
+    "status": "manual_review_needed"
+  }
+]

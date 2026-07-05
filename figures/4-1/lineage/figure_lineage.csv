@@ -1,0 +1,4 @@
+figure_id,artifact,source,status
+4-1,supplemental_reference,references/enlightenment_now_supplemental_graphics.pdf page 2,reference_only
+4-1,candidate_visual_source,GDELT mirror of Leetaru 2011 Figure 10 and Figure 11 PNGs,evidence_only_not_data
+4-1,status_panel,no accepted reconstruction data,manual_review_needed

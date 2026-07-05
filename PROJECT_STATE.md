@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-07-01 America/Los_Angeles
+Last update: 2026-07-05 America/Los_Angeles
 
-Project version: `1.10-production-loop-figure-10-1`
+Project version: `1.11-source-recovery-figure-4-1`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -87,6 +87,7 @@ this file are all updated. Only then may Codex begin another figure.
 
 | Figure | Title | Lifecycle stage | Status | Confidence | Current disposition |
 | --- | --- | --- | --- | --- | --- |
+| 4-1 | Tone of the news, 1945-2010 | Source recovery blocked; Supplemental PDF reference captured | `manual_review_needed` | Low | Source line and Leetaru/GDELT candidate visual source-chain evidence recovered, but underlying monthly NYT/SWB tone data were not found; no digitized reconstruction was made. |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
 | 5-2 | Child mortality, 1751-2013 | Visual QA remediation and source recovery | `partial_match` | Medium | PDF reference crop added and proxy coverage trimmed to better match the book; exact Roser 2016a UN/HMD assembled source remains unresolved. |
 | 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference refreshed from supplemental PDF page 3; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
@@ -112,6 +113,21 @@ this file are all updated. Only then may Codex begin another figure.
 | 12-8 | Natural disaster deaths, 1900-2015 | Reviewed book-period reconstruction with successor extension | `updated_equivalent` | Medium-high | OWID datasets repo EM-DAT death-rate data reproduce the main decadal shape; current OWID successor data provide a dashed post-2015 decadal extension. |
 | 12-9 | Lightning strike deaths, US, 1900-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID NOAA/Lopez-Holle lightning fatality-rate dataset visually reproduces the Kindle chart; no methodologically identical post-2015 rate extension was recovered. |
 | 19-1 | Nuclear weapons, 1945-2015 | Source recovery and visual discrepancy analysis | `partial_match` | Medium-low | Actual Kindle chart-page crop is now included; current OWID successor line reconstruction remains a poor visual match to the original stacked-area figure and the cited HumanProgress/FAS 2016 table remains unresolved. |
+
+
+### Figure 4-1 - Tone of the news, 1945-2010
+
+Status: `manual_review_needed`
+
+Canonical visual artifacts:
+
+- Supplemental reference: `figures/4-1/plots/comparisons/kindle_reference_figure_4_1.png`
+- Book-period status panel: `figures/4-1/plots/book_period/figure_4_1_book_period_reconstruction.png`
+- Extended status panel: `figures/4-1/plots/extended/figure_4_1_extended_reconstruction.png`
+- Book-period comparison/status: `figures/4-1/plots/comparisons/figure_4_1_book_period_comparison.png`
+- Extended comparison/status: `figures/4-1/plots/comparisons/figure_4_1_extended_comparison.png`
+
+Source status: Supplemental Graphics PDF source line captured; Leetaru 2011 article and GDELT high-resolution figure mirror located as source-chain evidence only. Original monthly data remain unrecovered, and no plotted values were digitized.
 
 ## Completed Figures
 
@@ -749,6 +765,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.11-source-recovery-figure-4-1` | 2026-07-05 | Processed Figure 4-1 as a documented source-recovery-blocked artifact; recovered Supplemental PDF source line and Leetaru/GDELT candidate visual evidence, but no underlying monthly data table. |
 | `1.10-production-loop-figure-10-1` | 2026-07-01 | Added Figure 10-1 as an updated-equivalent current OWID/UN population and growth reconstruction. |
 | `1.9-production-loop-figure-9-6` | 2026-07-01 | Added Figure 9-6 as a verified reconstruction from Meyer & Sullivan 2017 Table 1 with a dotted 2017 extension. |
 | `1.8-production-loop-figure-8-3` | 2026-07-01 | Added Figure 8-3 as an updated-equivalent Gapminder Income Mountains v2 reconstruction with PDF side-by-side comparisons and full provenance package. |
