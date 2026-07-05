@@ -137,6 +137,7 @@ def build_submission_package(
     changed_files: list[str],
     project_state: ProjectState | None,
     review_packet: str,
+    include_git_blobs: bool = True,
 ) -> SubmissionPackage:
     package_dir = run_dir / "submission_package"
     package_dir.mkdir(parents=True, exist_ok=True)
@@ -157,26 +158,32 @@ def build_submission_package(
         "extended_comparison": f"{figure_dir}/plots/comparisons/figure_{task.id.replace('-', '_')}_extended_comparison.png",
     }
     clean_data_paths = [path for path in changed_files if path.startswith(f"{figure_dir}/data/clean/")]
-    text_entries = [_text_entry(repo_root, worker_ref, path, package_dir, SCRIPT_LIMIT if path.endswith(".py") else TEXT_LIMIT) for path in text_paths]
+    text_entries = (
+        [_text_entry(repo_root, worker_ref, path, package_dir, SCRIPT_LIMIT if path.endswith(".py") else TEXT_LIMIT) for path in text_paths]
+        if include_git_blobs
+        else [{"source_path": path, "found": False, "skipped_reason": "worker_made_no_commit"} for path in text_paths]
+    )
     clean_data_entries: list[dict[str, Any]] = []
     for path in clean_data_paths:
-        text = _git_text(repo_root, worker_ref, path)
+        text = _git_text(repo_root, worker_ref, path) if include_git_blobs else None
         entry: dict[str, Any] = {"source_path": path, "found": text is not None}
         if text is not None:
             target = package_dir / "files" / path
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(text)
             entry.update({"package_path": str(target), "preview": _csv_preview(text)})
+        elif not include_git_blobs:
+            entry["skipped_reason"] = "worker_made_no_commit"
         clean_data_entries.append(entry)
     image_entries: list[dict[str, Any]] = []
     for role, path in image_paths.items():
-        copied = _copy_blob(repo_root, worker_ref, path, package_dir / "images")
+        copied = _copy_blob(repo_root, worker_ref, path, package_dir / "images") if include_git_blobs else None
         if copied:
             copied["role"] = role
             copied["data_url"] = _image_data_url(Path(copied["package_path"]), copied["mime_type"])
             image_entries.append(copied)
         else:
-            image_entries.append({"role": role, "source_path": path, "found": False})
+            image_entries.append({"role": role, "source_path": path, "found": False, **({"skipped_reason": "worker_made_no_commit"} if not include_git_blobs else {})})
     state_excerpt = ""
     if project_state:
         state_excerpt, _ = _truncate(project_state.raw_state, 10000)
@@ -186,6 +193,8 @@ def build_submission_package(
         "project_state_excerpt": state_excerpt,
         "worker_branch": worker_ref,
         "worker_commit": worker_commit,
+        "package_source": "committed_worker_tree" if include_git_blobs else "uncommitted_worktree_not_packaged",
+        "package_warning": None if include_git_blobs else "Worker made no commit. File contents and images are intentionally omitted to avoid presenting stale branch evidence.",
         "changed_files": changed_files,
         "text_files": [{k: v for k, v in entry.items() if k != "content"} for entry in text_entries],
         "clean_data": clean_data_entries,

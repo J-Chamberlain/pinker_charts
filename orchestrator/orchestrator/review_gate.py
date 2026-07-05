@@ -50,6 +50,19 @@ def detect_worker_commit(repo_root: Path, branch: str, base_ref: str = "HEAD") -
     return (_ok_text(head) or None), commits, files
 
 
+def dirty_files_from_status(status_text: str) -> list[str]:
+    files: list[str] = []
+    for line in status_text.splitlines():
+        if not line or line.startswith("##") or len(line) < 4:
+            continue
+        path = line[3:].strip()
+        if " -> " in path:
+            path = path.split(" -> ", 1)[1].strip()
+        if path:
+            files.append(path)
+    return files
+
+
 def push_worker_branch(repo_root: Path, branch: str, dry_run: bool = True) -> dict[str, Any]:
     if dry_run:
         return {"pushed": False, "dry_run": True, "message": f"Would push branch {branch}."}
@@ -237,9 +250,16 @@ def run_review_gate(
         return SupervisorDecision(action="blocked", reason="No run directory found for review.", task=task)
     metadata = load_run_json(run_dir, "metadata.json")
     summary = load_run_json(run_dir, "summary.json")
+    git_status_text = (run_dir / "git_status.txt").read_text() if (run_dir / "git_status.txt").exists() else ""
     branch = metadata.get("branch") or summary.get("branch") or ""
     base_ref = metadata.get("base_branch") or "HEAD"
     worker_commit, commits, changed_files = detect_worker_commit(repo_root, branch, base_ref=base_ref)
+    has_worker_commit = bool(commits)
+    dirty_files = dirty_files_from_status(git_status_text)
+    worker_made_no_commit = bool(metadata.get("remediation")) and not has_worker_commit
+    if worker_made_no_commit and dirty_files:
+        changed_files = dirty_files
+        commits = ["No worker commit detected; remediation left uncommitted worktree changes."]
     push_result = (
         push_worker_branch(repo_root, branch, dry_run=dry_run)
         if push_branch and branch
@@ -256,6 +276,7 @@ def run_review_gate(
         changed_files=changed_files,
         project_state=project_state,
         review_packet=packet,
+        include_git_blobs=has_worker_commit,
     )
     submission_text = submission_package.markdown_path.read_text()
     execution = ExecutionResult(
@@ -295,6 +316,9 @@ def run_review_gate(
         "base_ref": base_ref,
         "commit_summary": commits,
         "changed_files": changed_files,
+        "worker_made_commit": has_worker_commit,
+        "worker_made_no_commit": worker_made_no_commit,
+        "dirty_worktree_files": dirty_files,
         "push_result": push_result,
         "submission_package": {
             "directory": str(submission_package.package_dir),

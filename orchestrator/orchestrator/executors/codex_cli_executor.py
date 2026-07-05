@@ -96,6 +96,10 @@ Review requirements:
         branch = self._run_git(["branch", "--show-current"])
         return branch.stdout.strip() if branch.returncode == 0 else ""
 
+    def _current_commit(self) -> str:
+        commit = self._run_git(["rev-parse", "HEAD"])
+        return commit.stdout.strip() if commit.returncode == 0 else ""
+
     def _switch_branch(self, branch: str) -> None:
         switched = self._run_git(["switch", branch])
         if switched.returncode != 0:
@@ -190,12 +194,13 @@ Review requirements:
         run_id = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ") + f"_{task.id.replace('-', '_')}_remediation"
         run_dir = self.runs_dir / run_id
         run_dir.mkdir(parents=True, exist_ok=True)
+        base_commit = self._current_commit()
         argv = [self.command, "exec", "-C", str(self.repo_root), prompt]
         metadata = {
             "task_id": task.id,
             "task_title": task.title,
             "branch": branch,
-            "base_branch": branch,
+            "base_branch": base_commit,
             "argv": argv,
             "remediation": True,
             "parent_run_id": parent_run_id,
