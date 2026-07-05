@@ -35,14 +35,29 @@ def _strip_json_fence(text: str) -> str:
 def normalize_review_payload(payload: dict[str, Any]) -> dict[str, Any]:
     decision = payload.get("decision")
     confidence = payload.get("confidence")
+    scores = payload.get("scores") if isinstance(payload.get("scores"), dict) else {}
     normalized = {
         "decision": decision if decision in ALLOWED_DECISIONS else "needs_manual_review",
         "confidence": confidence if confidence in ALLOWED_CONFIDENCE else "low",
-        "summary": str(payload.get("summary") or "Reviewer did not provide a summary."),
+        "summary": str(payload.get("summary") or payload.get("rationale") or "Reviewer did not provide a rationale."),
+        "visual_review_performed": bool(payload.get("visual_review_performed")),
+        "data_review_performed": bool(payload.get("data_review_performed")),
+        "documentation_review_performed": bool(payload.get("documentation_review_performed")),
+        "scores": {
+            "data_fidelity": int(scores.get("data_fidelity", 1)),
+            "visual_fidelity": int(scores.get("visual_fidelity", 1)),
+            "extension_quality": int(scores.get("extension_quality", 1)),
+            "source_recovery": int(scores.get("source_recovery", 1)),
+            "documentation_accuracy": int(scores.get("documentation_accuracy", 1)),
+            "status_calibration": int(scores.get("status_calibration", 1)),
+        },
+        "missing_evidence": _as_list(payload.get("missing_evidence")),
         "strengths": _as_list(payload.get("strengths")),
         "issues": _as_list(payload.get("issues")),
+        "reasonable_next_steps": _as_list(payload.get("reasonable_next_steps")),
         "required_remediation": _as_list(payload.get("required_remediation")),
-        "next_action": str(payload.get("next_action") or "Manual supervisor review required."),
+        "next_action": str(payload.get("next_action") or payload.get("rationale") or "Manual supervisor review required."),
+        "rationale": str(payload.get("rationale") or payload.get("summary") or "Reviewer did not provide a rationale."),
     }
     if normalized["decision"] != decision:
         normalized["issues"].append("Reviewer returned an invalid or missing decision.")
@@ -54,10 +69,20 @@ def normalize_review_payload(payload: dict[str, Any]) -> dict[str, Any]:
 
 def parse_review_json(text: str) -> dict[str, Any]:
     stripped = _strip_json_fence(text)
-    try:
+    parsed = None
+    decoder = json.JSONDecoder()
+    for index, char in enumerate(stripped):
+        if char != "{":
+            continue
+        try:
+            candidate, _ = decoder.raw_decode(stripped[index:])
+        except json.JSONDecodeError:
+            continue
+        if isinstance(candidate, dict) and "decision" in candidate:
+            parsed = candidate
+            break
+    if parsed is None:
         parsed = json.loads(stripped)
-    except json.JSONDecodeError:
-        parsed, _ = json.JSONDecoder().raw_decode(stripped)
     if not isinstance(parsed, dict):
         raise ValueError("Reviewer response JSON must be an object.")
     return normalize_review_payload(parsed)
@@ -118,10 +143,24 @@ class OpenAIReviewer(Reviewer):
             "decision": "needs_manual_review",
             "confidence": "low",
             "summary": summary,
+            "visual_review_performed": False,
+            "data_review_performed": False,
+            "documentation_review_performed": False,
+            "scores": {
+                "data_fidelity": 1,
+                "visual_fidelity": 1,
+                "extension_quality": 1,
+                "source_recovery": 1,
+                "documentation_accuracy": 1,
+                "status_calibration": 1,
+            },
+            "missing_evidence": [],
             "strengths": [],
             "issues": [summary],
+            "reasonable_next_steps": [],
             "required_remediation": ["Run a configured reviewer or inspect review_packet.md manually."],
             "next_action": "Manual supervisor review required.",
+            "rationale": summary,
         }
         return ReviewResult(
             task=execution.task,
@@ -134,6 +173,12 @@ class OpenAIReviewer(Reviewer):
         )
 
     def _call_openai(self, execution: ExecutionResult) -> str:
+        content: list[dict[str, Any]] = [{"type": "input_text", "text": self._build_user_prompt(execution)}]
+        image_parts = self._image_parts(execution)
+        if image_parts:
+            content.extend(image_parts)
+        else:
+            content[0]["text"] += "\n\nvisual_review_unavailable: no image inputs were found in the submission package manifest.\n"
         payload = {
             "model": self.model,
             "input": [
@@ -148,12 +193,7 @@ class OpenAIReviewer(Reviewer):
                 },
                 {
                     "role": "user",
-                    "content": [
-                        {
-                            "type": "input_text",
-                            "text": self._build_user_prompt(execution),
-                        }
-                    ],
+                    "content": content,
                 },
             ],
         }
@@ -169,6 +209,35 @@ class OpenAIReviewer(Reviewer):
             run_dir=run_dir,
         )
         return self._extract_response_text(response.json())
+
+    def _submission_manifest_path(self, execution: ExecutionResult) -> Path | None:
+        for artifact in execution.artifacts:
+            path = Path(artifact)
+            if path.name == "submission_manifest.json":
+                return path
+        return None
+
+    def _image_parts(self, execution: ExecutionResult) -> list[dict[str, Any]]:
+        manifest_path = self._submission_manifest_path(execution)
+        if not manifest_path or not manifest_path.exists():
+            return []
+        manifest = json.loads(manifest_path.read_text())
+        parts: list[dict[str, Any]] = []
+        for image in manifest.get("images", []):
+            if image.get("role") not in {"original_reference_crop", "book_period_comparison", "extended_comparison"}:
+                continue
+            package_path = image.get("package_path")
+            if not package_path:
+                continue
+            path = Path(package_path)
+            if not path.exists():
+                continue
+            import base64
+
+            mime_type = image.get("mime_type") or "image/png"
+            data_url = f"data:{mime_type};base64,{base64.b64encode(path.read_bytes()).decode('ascii')}"
+            parts.append({"type": "input_image", "image_url": data_url})
+        return parts
 
     def _run_dir(self, execution: ExecutionResult) -> Path | None:
         if not execution.artifacts:

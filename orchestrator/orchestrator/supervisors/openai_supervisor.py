@@ -16,6 +16,7 @@ from ..supervisor_interface import SUPERVISOR_PROMPT, DecisionEngine
 
 ALLOWED_DECISIONS = {"accept", "remediate", "blocked", "needs_manual_review"}
 ALLOWED_CONFIDENCE = {"low", "medium", "high"}
+ALLOWED_BASIS = {"scientific_objective_met", "documented_blocker", "evidence_insufficient", "automated_progress_unlikely", "manual_review_required"}
 
 
 def _strip_json_fence(text: str) -> str:
@@ -31,6 +32,7 @@ def normalize_supervisor_payload(payload: dict[str, Any]) -> dict[str, Any]:
     normalized = {
         "decision": decision if decision in ALLOWED_DECISIONS else "needs_manual_review",
         "confidence": confidence if confidence in ALLOWED_CONFIDENCE else "low",
+        "decision_basis": payload.get("decision_basis") if payload.get("decision_basis") in ALLOWED_BASIS else "manual_review_required",
         "rationale": str(payload.get("rationale") or "Supervisor did not provide a rationale."),
         "registry_update": str(payload.get("registry_update") or "No registry update specified."),
         "next_action": str(payload.get("next_action") or "Manual supervisor review required."),
@@ -50,10 +52,20 @@ def normalize_supervisor_payload(payload: dict[str, Any]) -> dict[str, Any]:
 
 def parse_supervisor_json(text: str) -> dict[str, Any]:
     stripped = _strip_json_fence(text)
-    try:
+    parsed = None
+    decoder = json.JSONDecoder()
+    for index, char in enumerate(stripped):
+        if char != "{":
+            continue
+        try:
+            candidate, _ = decoder.raw_decode(stripped[index:])
+        except json.JSONDecodeError:
+            continue
+        if isinstance(candidate, dict) and "decision" in candidate:
+            parsed = candidate
+            break
+    if parsed is None:
         parsed = json.loads(stripped)
-    except json.JSONDecodeError:
-        parsed, _ = json.JSONDecoder().raw_decode(stripped)
     if not isinstance(parsed, dict):
         raise ValueError("Supervisor response JSON must be an object.")
     return normalize_supervisor_payload(parsed)
@@ -112,6 +124,7 @@ class OpenAISupervisor(DecisionEngine):
         parsed = {
             "decision": "needs_manual_review",
             "confidence": "low",
+            "decision_basis": "manual_review_required",
             "rationale": rationale,
             "registry_update": "No registry update performed by supervisor.",
             "next_action": "Manual supervisor review required.",

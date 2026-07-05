@@ -9,6 +9,7 @@ from typing import Any
 
 from .reviewer_interface import Reviewer
 from .schemas import ExecutionResult, ProjectState, ReviewResult, SupervisorDecision, SupervisorEngineResult, Task
+from .submission_package import build_submission_package
 from .supervisor_interface import DecisionEngine
 
 
@@ -204,6 +205,21 @@ def supervisor_reliance(review_status: str, engine_status: str) -> list[str]:
     return relied_on
 
 
+def decision_basis(decision: str, review_status: str, engine_result: SupervisorEngineResult | None = None) -> str:
+    parsed_basis = None
+    if engine_result and isinstance(engine_result.raw.get("parsed_result"), dict):
+        parsed_basis = engine_result.raw["parsed_result"].get("decision_basis")
+    if parsed_basis:
+        return str(parsed_basis)
+    if decision == "accept":
+        return "accepted_scientific_objective_met" if review_status == "success" else "accepted_without_successful_review"
+    if decision == "blocked":
+        return "accepted_as_documented_blocker"
+    if decision == "remediate":
+        return "remediated_evidence_insufficient"
+    return "manual_review_required"
+
+
 def run_review_gate(
     repo_root: Path,
     runs_dir: Path,
@@ -231,14 +247,25 @@ def run_review_gate(
     )
     packet = build_review_packet(task, run_dir, branch, worker_commit, commits, changed_files, push_result)
     (run_dir / "review_packet.md").write_text(packet)
+    submission_package = build_submission_package(
+        repo_root=repo_root,
+        run_dir=run_dir,
+        task=task,
+        worker_ref=branch or worker_commit or "HEAD",
+        worker_commit=worker_commit,
+        changed_files=changed_files,
+        project_state=project_state,
+        review_packet=packet,
+    )
+    submission_text = submission_package.markdown_path.read_text()
     execution = ExecutionResult(
         task=task,
         mode="review-gate",
         success=bool(worker_commit),
-        message=packet,
+        message=f"{packet}\n\n{submission_text}",
         branch=branch,
         commit=worker_commit,
-        artifacts=(str(run_dir / "review_packet.md"),),
+        artifacts=(str(run_dir / "review_packet.md"), str(submission_package.markdown_path), str(submission_package.manifest_path)),
     )
     review = reviewer.review(execution)
     review_payload = asdict(review)
@@ -269,6 +296,11 @@ def run_review_gate(
         "commit_summary": commits,
         "changed_files": changed_files,
         "push_result": push_result,
+        "submission_package": {
+            "directory": str(submission_package.package_dir),
+            "markdown": str(submission_package.markdown_path),
+            "manifest": str(submission_package.manifest_path),
+        },
         "reviewer": review.reviewer,
         "reviewer_status": review_status,
         "review_decision": review.decision,
@@ -278,6 +310,7 @@ def run_review_gate(
         "supervisor_relied_on": relied_on,
         "supervisor_decision": decision,
         "final_action": decision,
+        "decision_basis": decision_basis(decision, review_status, engine_result),
         "accepted": decision == "accept",
         "next_action": decision,
         "allow_remediation": allow_remediation,

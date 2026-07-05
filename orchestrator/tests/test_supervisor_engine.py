@@ -136,7 +136,9 @@ def test_review_gate_persists_accept_remediate_block_manual(tmp_path: Path):
     subprocess.run(["git", "commit", "-m", "init"], cwd=repo, check=True, capture_output=True)
     subprocess.run(["git", "switch", "-c", "worker"], cwd=repo, check=True, capture_output=True)
     (repo / "worker.txt").write_text("work\n")
-    subprocess.run(["git", "add", "worker.txt"], cwd=repo, check=True)
+    (repo / "output/pdf").mkdir(parents=True)
+    (repo / "output/pdf/recreated_figures_review_scroll.manifest.json").write_text(json.dumps([{"figure_id": "x", "status": "partial_match"}]))
+    subprocess.run(["git", "add", "worker.txt", "output/pdf/recreated_figures_review_scroll.manifest.json"], cwd=repo, check=True)
     subprocess.run(["git", "commit", "-m", "work"], cwd=repo, check=True, capture_output=True)
 
     for action in ("accept", "remediate", "blocked", "needs_manual_review"):
@@ -149,6 +151,12 @@ def test_review_gate_persists_accept_remediate_block_manual(tmp_path: Path):
         assert (run_dir / "parsed_supervisor_decision.json").exists()
         assert (run_dir / "final_loop_decision.json").exists()
         final_decision = json.loads((run_dir / "final_loop_decision.json").read_text())
+        package_dir = run_dir / "submission_package"
+        assert (package_dir / "submission_package.md").exists()
+        assert (package_dir / "submission_manifest.json").exists()
+        package_manifest = json.loads((package_dir / "submission_manifest.json").read_text())
+        assert package_manifest["review_pdf_manifest_entry"]["figure_id"] == "x"
+        assert "submission_package" in final_decision
         assert final_decision["reviewer_status"] == "success"
         assert final_decision["supervisor_status"] == "success"
         assert final_decision["final_action"] == action

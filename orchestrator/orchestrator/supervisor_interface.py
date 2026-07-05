@@ -18,9 +18,16 @@ Evaluate:
 - whether remediation can be automated safely
 - whether the loop may continue to another task
 
+Distinguish these cases:
+- accepted because the scientific objective is met
+- accepted as a documented blocker
+- remediated because evidence is insufficient
+- blocked because automated progress is unlikely
+
 Return only valid JSON with these fields:
 - decision: accept | remediate | blocked | needs_manual_review
 - confidence: low | medium | high
+- decision_basis: scientific_objective_met | documented_blocker | evidence_insufficient | automated_progress_unlikely | manual_review_required
 - rationale
 - registry_update
 - next_action

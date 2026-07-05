@@ -84,6 +84,32 @@ def test_parse_review_json_accepts_first_json_object_with_trailing_output():
     assert parsed["summary"] == "Blocker documented."
 
 
+def test_parse_review_json_skips_leading_non_review_json_object():
+    parsed = parse_review_json(
+        json.dumps({"cmd": "git status --short"})
+        + "\n"
+        + json.dumps(
+            {
+                "decision": "remediate",
+                "confidence": "medium",
+                "visual_review_performed": False,
+                "data_review_performed": True,
+                "documentation_review_performed": True,
+                "scores": {"data_fidelity": 3},
+                "missing_evidence": ["images"],
+                "strengths": [],
+                "issues": ["visual_review_unavailable"],
+                "reasonable_next_steps": ["inspect comparisons"],
+                "required_remediation": ["attach images"],
+                "rationale": "Cannot complete visual review.",
+            }
+        )
+    )
+    assert parsed["decision"] == "remediate"
+    assert parsed["visual_review_performed"] is False
+    assert parsed["issues"] == ["visual_review_unavailable"]
+
+
 def test_openai_reviewer_uses_mocked_response():
     def fake_post(*args, **kwargs):
         return FakeResponse(
