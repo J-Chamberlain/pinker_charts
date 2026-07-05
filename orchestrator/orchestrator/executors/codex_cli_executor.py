@@ -8,6 +8,7 @@ from pathlib import Path
 import re
 
 from ..executor_interface import Executor
+from ..run_record import RunRecord
 from ..schemas import ExecutionResult, Task
 
 
@@ -100,6 +101,29 @@ Review requirements:
         commit = self._run_git(["rev-parse", "HEAD"])
         return commit.stdout.strip() if commit.returncode == 0 else ""
 
+    def _dirty_files(self) -> list[str]:
+        status = self._run_git(["status", "--short"])
+        if status.returncode != 0:
+            return ["<git status failed>"]
+        files: list[str] = []
+        for line in status.stdout.splitlines():
+            if not line or len(line) < 4:
+                continue
+            path = line[3:].strip()
+            if " -> " in path:
+                path = path.split(" -> ", 1)[1].strip()
+            if path:
+                files.append(path)
+        return files
+
+    def _changed_files(self, base_sha: str, head_sha: str) -> list[str]:
+        if not base_sha or not head_sha or base_sha == head_sha:
+            return []
+        changed = self._run_git(["diff", "--name-only", f"{base_sha}..{head_sha}"])
+        if changed.returncode != 0:
+            return []
+        return [line for line in changed.stdout.splitlines() if line.strip()]
+
     def _switch_branch(self, branch: str) -> None:
         switched = self._run_git(["switch", branch])
         if switched.returncode != 0:
@@ -119,6 +143,7 @@ Review requirements:
         run_dir = self.runs_dir / run_id
         run_dir.mkdir(parents=True, exist_ok=True)
         base_branch = self._current_branch()
+        base_sha = self._current_commit()
         actual_branch = self._create_task_branch(task)
         prompt = self.build_prompt(task)
         argv = [self.command, "exec", "-C", str(self.repo_root), prompt]
@@ -127,6 +152,7 @@ Review requirements:
             "task_title": task.title,
             "branch": actual_branch,
             "base_branch": base_branch,
+            "base_sha": base_sha,
             "argv": argv,
             "started_at": datetime.now(UTC).isoformat(),
             "timeout_seconds": self.timeout_seconds,
@@ -149,14 +175,40 @@ Review requirements:
         (run_dir / "stderr.log").write_text(proc.stderr or "")
         status = self._run_git(["status", "--short", "--branch"])
         (run_dir / "git_status.txt").write_text((status.stdout or "") + (status.stderr or ""))
+        head_sha = self._current_commit()
+        dirty_files = self._dirty_files()
+        worker_made_commit = bool(head_sha and base_sha and head_sha != base_sha and not dirty_files)
+        changed_files = self._changed_files(base_sha, head_sha) if worker_made_commit else []
+        executor_status = "dirty_worktree" if dirty_files else ("completed" if proc.returncode == 0 else "failed")
         summary = {
             **metadata,
             "finished_at": datetime.now(UTC).isoformat(),
             "returncode": proc.returncode,
             "timed_out": timed_out,
             "git_status_returncode": status.returncode,
+            "head_sha": head_sha,
+            "dirty_worktree_files": dirty_files,
+            "worker_made_commit": worker_made_commit,
+            "changed_files": changed_files,
+            "executor_status": executor_status,
         }
         (run_dir / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+        RunRecord(
+            run_id=run_id,
+            task_id=task.id,
+            task_title=task.title,
+            base_branch=base_branch,
+            base_sha=base_sha,
+            worker_branch=actual_branch,
+            head_sha=head_sha,
+            run_type="initial",
+            executor_status=executor_status,
+            worker_made_commit=worker_made_commit,
+            dirty_worktree_files=dirty_files,
+            changed_files=changed_files,
+            created_at=metadata["started_at"],
+            completed_at=summary["finished_at"],
+        ).save(run_dir)
         message = f"Codex execution finished with return code {proc.returncode}. Logs: {run_dir}. Git status inspected and saved."
         if timed_out:
             message = f"Codex execution timed out. Logs: {run_dir}. Git status inspected and saved."
@@ -195,12 +247,14 @@ Review requirements:
         run_dir = self.runs_dir / run_id
         run_dir.mkdir(parents=True, exist_ok=True)
         base_commit = self._current_commit()
+        base_branch = self._current_branch()
         argv = [self.command, "exec", "-C", str(self.repo_root), prompt]
         metadata = {
             "task_id": task.id,
             "task_title": task.title,
             "branch": branch,
             "base_branch": base_commit,
+            "base_sha": base_commit,
             "argv": argv,
             "remediation": True,
             "parent_run_id": parent_run_id,
@@ -228,14 +282,41 @@ Review requirements:
         (run_dir / "stderr.log").write_text(proc.stderr or "")
         status = self._run_git(["status", "--short", "--branch"])
         (run_dir / "git_status.txt").write_text((status.stdout or "") + (status.stderr or ""))
+        head_sha = self._current_commit()
+        dirty_files = self._dirty_files()
+        worker_made_commit = bool(head_sha and base_commit and head_sha != base_commit and not dirty_files)
+        changed_files = self._changed_files(base_commit, head_sha) if worker_made_commit else []
+        executor_status = "dirty_worktree" if dirty_files else ("completed" if proc.returncode == 0 else "failed")
         summary = {
             **metadata,
             "finished_at": datetime.now(UTC).isoformat(),
             "returncode": proc.returncode,
             "timed_out": timed_out,
             "git_status_returncode": status.returncode,
+            "head_sha": head_sha,
+            "dirty_worktree_files": dirty_files,
+            "worker_made_commit": worker_made_commit,
+            "changed_files": changed_files,
+            "executor_status": executor_status,
         }
         (run_dir / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+        RunRecord(
+            run_id=run_id,
+            task_id=task.id,
+            task_title=task.title,
+            base_branch=base_branch,
+            base_sha=base_commit,
+            worker_branch=branch,
+            head_sha=head_sha,
+            parent_run_id=parent_run_id,
+            run_type="remediation",
+            executor_status=executor_status,
+            worker_made_commit=worker_made_commit,
+            dirty_worktree_files=dirty_files,
+            changed_files=changed_files,
+            created_at=metadata["started_at"],
+            completed_at=summary["finished_at"],
+        ).save(run_dir)
         message = f"Codex remediation finished with return code {proc.returncode}. Logs: {run_dir}. Git status inspected and saved."
         if timed_out:
             message = f"Codex remediation timed out. Logs: {run_dir}. Git status inspected and saved."

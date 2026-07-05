@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from .reviewer_interface import Reviewer
+from .run_record import RunRecord, is_reviewable, load_run_record, update_run_record, utc_now
 from .schemas import ExecutionResult, ProjectState, ReviewResult, SupervisorDecision, SupervisorEngineResult, Task
 from .submission_package import build_submission_package
 from .supervisor_interface import DecisionEngine
@@ -84,6 +85,13 @@ def build_review_packet(
     commits: list[str],
     changed_files: list[str],
     push_result: dict[str, Any],
+    *,
+    base_sha: str | None = None,
+    head_sha: str | None = None,
+    run_type: str | None = None,
+    reviewable: bool = True,
+    reviewable_reason: str = "reviewable",
+    dirty_worktree_files: list[str] | None = None,
 ) -> str:
     files = "\n".join(f"- `{path}`" for path in changed_files) or "- None detected"
     commit_lines = "\n".join(f"- {line}" for line in commits) or "- None detected"
@@ -96,8 +104,13 @@ Generated: {datetime.now(UTC).isoformat()}
 ## Worker Run
 
 - Run directory: `{run_dir}`
+- Run type: `{run_type or "unknown"}`
 - Worker branch: `{branch}`
+- Base SHA: `{base_sha or "not recorded"}`
+- Head SHA: `{head_sha or "not recorded"}`
 - Worker commit: `{worker_commit or "not detected"}`
+- Transaction reviewable: `{reviewable}` ({reviewable_reason})
+- Dirty worktree files: `{", ".join(dirty_worktree_files or []) or "none"}`
 - Push result: `{push_result.get("message") or push_result.get("pushed")}`
 
 ## Commit Summary
@@ -233,6 +246,111 @@ def decision_basis(decision: str, review_status: str, engine_result: SupervisorE
     return "manual_review_required"
 
 
+def _commits_between(repo_root: Path, base_sha: str, head_sha: str) -> list[str]:
+    if not base_sha or not head_sha or base_sha == head_sha:
+        return []
+    log = _git(repo_root, ["log", "--oneline", f"{base_sha}..{head_sha}"])
+    return [line for line in log.stdout.splitlines() if line.strip()] if log.returncode == 0 else []
+
+
+def _transaction_from_record(repo_root: Path, record: RunRecord) -> tuple[str | None, list[str], list[str], list[str], bool, str]:
+    reviewable, reason = is_reviewable(record)
+    commits = _commits_between(repo_root, record.base_sha, record.head_sha or "") if record.head_sha else []
+    return (
+        record.head_sha if reviewable else record.head_sha,
+        commits,
+        list(record.changed_files),
+        list(record.dirty_worktree_files),
+        reviewable,
+        reason,
+    )
+
+
+def _write_not_reviewable_decision(
+    *,
+    repo_root: Path,
+    run_dir: Path,
+    task: Task,
+    branch: str,
+    worker_commit: str | None,
+    commits: list[str],
+    changed_files: list[str],
+    dirty_files: list[str],
+    push_result: dict[str, Any],
+    packet: str,
+    record: RunRecord | None,
+    reviewable_reason: str,
+    project_state: ProjectState | None,
+) -> SupervisorDecision:
+    submission_package = build_submission_package(
+        repo_root=repo_root,
+        run_dir=run_dir,
+        task=task,
+        worker_ref=worker_commit or branch or "HEAD",
+        worker_commit=worker_commit,
+        changed_files=[],
+        project_state=project_state,
+        review_packet=packet,
+        include_git_blobs=False,
+    )
+    payload = {
+        "task_id": task.id,
+        "task_title": task.title,
+        "run_dir": str(run_dir),
+        "worker_branch": branch,
+        "worker_commit": worker_commit,
+        "base_sha": record.base_sha if record else None,
+        "head_sha": record.head_sha if record else worker_commit,
+        "commit_summary": commits,
+        "changed_files": changed_files,
+        "worker_made_commit": bool(record.worker_made_commit) if record else False,
+        "worker_made_no_commit": not bool(record.worker_made_commit) if record else True,
+        "dirty_worktree_files": dirty_files,
+        "push_result": push_result,
+        "submission_package": {
+            "directory": str(submission_package.package_dir),
+            "markdown": str(submission_package.markdown_path),
+            "manifest": str(submission_package.manifest_path),
+        },
+        "reviewer": None,
+        "reviewer_status": "not_run",
+        "review_decision": None,
+        "review_gate_decision": "needs_manual_review",
+        "supervisor_engine": None,
+        "supervisor_status": "not_run",
+        "supervisor_relied_on": [],
+        "supervisor_decision": "needs_manual_review",
+        "final_action": "needs_manual_review",
+        "decision_basis": f"run_not_reviewable:{reviewable_reason}",
+        "accepted": False,
+        "next_action": "needs_manual_review",
+        "allow_remediation": False,
+        "continue_loop": False,
+        "generated_at": datetime.now(UTC).isoformat(),
+    }
+    (run_dir / "review_result.json").write_text(json.dumps({"reviewer": None, "decision": "not_run", "summary": reviewable_reason}, indent=2) + "\n")
+    (run_dir / "supervisor_decision.json").write_text(json.dumps(payload, indent=2, default=str) + "\n")
+    (run_dir / "final_loop_decision.json").write_text(json.dumps(payload, indent=2, default=str) + "\n")
+    if record:
+        update_run_record(
+            run_dir,
+            reviewer_status="not_run",
+            supervisor_status="not_run",
+            final_action="needs_manual_review",
+            completed_at=utc_now(),
+        )
+    execution = ExecutionResult(
+        task=task,
+        mode="review-gate-not-reviewable",
+        success=False,
+        message=packet,
+        branch=branch,
+        commit=worker_commit,
+        artifacts=(str(run_dir / "review_packet.md"), str(submission_package.markdown_path), str(submission_package.manifest_path)),
+    )
+    return SupervisorDecision(action="needs_manual_review", reason=f"Run is not reviewable: {reviewable_reason}", task=task, execution=execution)
+
+
 def run_review_gate(
     repo_root: Path,
     runs_dir: Path,
@@ -248,30 +366,67 @@ def run_review_gate(
     run_dir = run_dir or latest_run_dir(runs_dir)
     if run_dir is None:
         return SupervisorDecision(action="blocked", reason="No run directory found for review.", task=task)
+    record = load_run_record(run_dir)
     metadata = load_run_json(run_dir, "metadata.json")
     summary = load_run_json(run_dir, "summary.json")
     git_status_text = (run_dir / "git_status.txt").read_text() if (run_dir / "git_status.txt").exists() else ""
-    branch = metadata.get("branch") or summary.get("branch") or ""
-    base_ref = metadata.get("base_branch") or "HEAD"
-    worker_commit, commits, changed_files = detect_worker_commit(repo_root, branch, base_ref=base_ref)
-    has_worker_commit = bool(commits)
-    dirty_files = dirty_files_from_status(git_status_text)
-    worker_made_no_commit = bool(metadata.get("remediation")) and not has_worker_commit
-    if worker_made_no_commit and dirty_files:
-        changed_files = dirty_files
-        commits = ["No worker commit detected; remediation left uncommitted worktree changes."]
+    if record:
+        branch = record.worker_branch
+        base_ref = record.base_sha
+        worker_commit, commits, changed_files, dirty_files, transaction_reviewable, reviewable_reason = _transaction_from_record(repo_root, record)
+        has_worker_commit = transaction_reviewable
+        worker_made_no_commit = not record.worker_made_commit
+    else:
+        branch = metadata.get("branch") or summary.get("branch") or ""
+        base_ref = metadata.get("base_sha") or metadata.get("base_branch") or "HEAD"
+        worker_commit, commits, changed_files = detect_worker_commit(repo_root, branch, base_ref=base_ref)
+        has_worker_commit = bool(commits)
+        dirty_files = dirty_files_from_status(git_status_text)
+        worker_made_no_commit = bool(metadata.get("remediation")) and not has_worker_commit
+        transaction_reviewable = has_worker_commit and not dirty_files
+        reviewable_reason = "reviewable" if transaction_reviewable else ("dirty_worktree_after_executor" if dirty_files else "worker_made_no_commit")
     push_result = (
         push_worker_branch(repo_root, branch, dry_run=dry_run)
-        if push_branch and branch
+        if push_branch and branch and (not record or transaction_reviewable)
         else {"pushed": False, "message": "Worker branch push skipped."}
     )
-    packet = build_review_packet(task, run_dir, branch, worker_commit, commits, changed_files, push_result)
+    packet = build_review_packet(
+        task,
+        run_dir,
+        branch,
+        worker_commit,
+        commits,
+        changed_files,
+        push_result,
+        base_sha=record.base_sha if record else str(base_ref),
+        head_sha=record.head_sha if record else worker_commit,
+        run_type=record.run_type if record else ("remediation" if metadata.get("remediation") else "legacy"),
+        reviewable=transaction_reviewable,
+        reviewable_reason=reviewable_reason,
+        dirty_worktree_files=dirty_files,
+    )
     (run_dir / "review_packet.md").write_text(packet)
+    if not transaction_reviewable:
+        return _write_not_reviewable_decision(
+            repo_root=repo_root,
+            run_dir=run_dir,
+            task=task,
+            branch=branch,
+            worker_commit=worker_commit,
+            commits=commits,
+            changed_files=changed_files,
+            dirty_files=dirty_files,
+            push_result=push_result,
+            packet=packet,
+            record=record,
+            reviewable_reason=reviewable_reason,
+            project_state=project_state,
+        )
     submission_package = build_submission_package(
         repo_root=repo_root,
         run_dir=run_dir,
         task=task,
-        worker_ref=branch or worker_commit or "HEAD",
+        worker_ref=(record.head_sha if record and record.head_sha else branch or worker_commit or "HEAD"),
         worker_commit=worker_commit,
         changed_files=changed_files,
         project_state=project_state,
@@ -313,6 +468,9 @@ def run_review_gate(
         "run_dir": str(run_dir),
         "worker_branch": branch,
         "worker_commit": worker_commit,
+        "base_sha": record.base_sha if record else str(base_ref),
+        "head_sha": record.head_sha if record else worker_commit,
+        "run_record": record.to_dict() if record else None,
         "base_ref": base_ref,
         "commit_summary": commits,
         "changed_files": changed_files,
@@ -354,5 +512,13 @@ def run_review_gate(
         decision_payload["remediation_launch"] = "allowed_pending_local_loop_executor"
     (run_dir / "supervisor_decision.json").write_text(json.dumps(decision_payload, indent=2, default=str) + "\n")
     (run_dir / "final_loop_decision.json").write_text(json.dumps(decision_payload, indent=2, default=str) + "\n")
+    if record:
+        update_run_record(
+            run_dir,
+            reviewer_status=review_status,
+            supervisor_status=engine_status,
+            final_action=decision,
+            completed_at=utc_now(),
+        )
     reason = engine_result.rationale if engine_result else review.summary
     return SupervisorDecision(action=decision, reason=reason, task=task, execution=execution, review=review, engine_result=engine_result)

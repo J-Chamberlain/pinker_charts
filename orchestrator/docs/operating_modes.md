@@ -10,8 +10,19 @@ Creates or dry-runs a GitHub issue for the next task. Non-dry-run requires `GITH
 
 ## review-only
 
-Runs the configured reviewer against a latest task execution artifact when
-`--latest-run` is supplied. The supervisor generates:
+Runs the configured reviewer against an explicit task execution artifact.
+Use one of:
+
+- `--run-id <run-id>`
+- `--branch <worker-branch>`
+- `--commit <head-sha>`
+- `--latest-run --confirm-latest-run`
+
+`--latest-run` by itself only prints the selected run and stops with
+`needs_manual_review`; this avoids silently reviewing stale or unintended
+artifacts.
+
+The supervisor generates:
 
 - `review_packet.md`
 - `review_result.json`
@@ -54,11 +65,17 @@ For each task, the loop:
 
 1. Creates a per-task branch such as `codex/4-1-tone-of-the-news-1945-2010`.
 2. Runs `codex exec -C <repo> <generated prompt>`.
-3. Captures stdout, stderr, metadata, summary, and git status in `orchestrator/runs/<run-id>/`.
-4. Builds a review packet.
-5. Runs the configured reviewer.
-6. Runs the configured supervisor decision engine.
-7. Records the final loop decision and never merges automatically.
+3. Captures stdout, stderr, metadata, summary, git status, and `run_record.json` in `orchestrator/runs/<run-id>/`.
+4. Requires a clean worktree and a real worker commit before review.
+5. Computes changed files from the recorded `base_sha..head_sha`.
+6. Builds a submission package from that exact transaction.
+7. Runs the configured reviewer.
+8. Runs the configured supervisor decision engine.
+9. Records the final loop decision and never merges automatically.
+
+If Codex leaves dirty files, makes no commit, or ends with `head_sha == base_sha`,
+the run is not reviewable. The supervisor records the blocker and stops instead
+of sending stale or uncommitted evidence to the scientific reviewer.
 
 `accept` and `blocked` may continue to the next task if the worktree is clean
 and iteration budget remains. `remediate` writes `remediation_prompt.md` and

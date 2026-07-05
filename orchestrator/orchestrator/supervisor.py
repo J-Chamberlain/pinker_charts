@@ -14,6 +14,7 @@ from .github_client import GitHubClient
 from .issue_queue import build_issue_draft
 from .models import AnthropicReviewer, NoopReviewer, OpenAIReviewer
 from .review_gate import latest_run_dir, run_review_gate
+from .run_record import load_run_record
 from .schemas import COMPLETED_STATUSES
 from .schemas import ExecutionResult, SupervisorDecision, Task
 from .supervisors import NoopSupervisor, OpenAISupervisor
@@ -113,6 +114,18 @@ def _task_for_run(config: OrchestratorConfig, run_dir: Path | None) -> Task | No
     return adapter.select_next_task(adapter.read_state())
 
 
+def _run_dir_from_execution(execution: ExecutionResult) -> Path | None:
+    for artifact in execution.artifacts:
+        path = Path(artifact)
+        if path.exists():
+            return path.parent
+    return None
+
+
+def _runs_dir(config: OrchestratorConfig) -> Path:
+    return config.executor.runs_dir or config.project.root / "orchestrator/runs"
+
+
 def _task_by_id(config: OrchestratorConfig, task_id: str) -> Task | None:
     adapter = build_adapter(config)
     for task in adapter.tasks(adapter.read_state()):
@@ -125,6 +138,44 @@ def _read_json(path: Path) -> dict[str, Any]:
     if not path.exists():
         return {}
     return json.loads(path.read_text())
+
+
+def _matches_review_selector(run_dir: Path, *, run_id: str | None = None, branch: str | None = None, commit: str | None = None) -> bool:
+    if run_id and run_dir.name == run_id:
+        return True
+    record = load_run_record(run_dir)
+    metadata = _read_json(run_dir / "metadata.json")
+    summary = _read_json(run_dir / "summary.json")
+    run_branch = record.worker_branch if record else metadata.get("branch") or summary.get("branch")
+    run_head = record.head_sha if record else summary.get("head_sha")
+    return bool((branch and run_branch == branch) or (commit and run_head and str(run_head).startswith(commit)))
+
+
+def resolve_review_run_dir(
+    config: OrchestratorConfig,
+    *,
+    latest_run: bool = False,
+    run_id: str | None = None,
+    branch: str | None = None,
+    commit: str | None = None,
+    confirm_latest_run: bool = False,
+) -> tuple[Path | None, str | None]:
+    runs_dir = _runs_dir(config)
+    if run_id or branch or commit:
+        if not runs_dir.exists():
+            return None, "No run directory exists."
+        for candidate in sorted([path for path in runs_dir.iterdir() if path.is_dir()], reverse=True):
+            if _matches_review_selector(candidate, run_id=run_id, branch=branch, commit=commit):
+                return candidate, None
+        return None, "No run matched the explicit review selector."
+    if latest_run:
+        selected = latest_run_dir(runs_dir)
+        if not selected:
+            return None, "No latest run directory found."
+        if not confirm_latest_run:
+            return selected, f"Latest run is `{selected.name}`. Rerun with `--run-id {selected.name}` or `--confirm-latest-run` to review it."
+        return selected, None
+    return None, None
 
 
 def _latest_pending_remediation(config: OrchestratorConfig) -> dict[str, Any] | None:
@@ -217,7 +268,16 @@ Rules:
 """
 
 
-def run_once(config: OrchestratorConfig, mode: str, latest_run: bool = False, skip_task_ids: set[str] | None = None) -> SupervisorDecision:
+def run_once(
+    config: OrchestratorConfig,
+    mode: str,
+    latest_run: bool = False,
+    skip_task_ids: set[str] | None = None,
+    review_run_id: str | None = None,
+    review_branch: str | None = None,
+    review_commit: str | None = None,
+    confirm_latest_run: bool = False,
+) -> SupervisorDecision:
     if mode == "local-loop" and config.loop.allow_remediation:
         pending = _latest_pending_remediation(config)
         if pending:
@@ -231,15 +291,40 @@ def run_once(config: OrchestratorConfig, mode: str, latest_run: bool = False, sk
                     remediation_reason=pending["reason"],
                     remediation_items=pending["items"],
                 )
-                return SupervisorDecision(action="remediate", reason=execution.message, task=pending["task"], execution=execution)
+                if config.dry_run or not execution.artifacts:
+                    return SupervisorDecision(action="remediate", reason=execution.message, task=pending["task"], execution=execution)
+                run_dir = _run_dir_from_execution(execution)
+                if not execution.success and not run_dir:
+                    return SupervisorDecision(action="blocked", reason=execution.message, task=pending["task"], execution=execution)
+                return run_review_gate(
+                    config.project.root,
+                    _runs_dir(config),
+                    pending["task"],
+                    build_reviewer(config),
+                    decision_engine=build_decision_engine(config),
+                    project_state=build_adapter(config).read_state(),
+                    run_dir=run_dir,
+                    dry_run=config.dry_run,
+                    push_branch=True,
+                    allow_remediation=config.loop.allow_remediation,
+                )
     task, adapter, state = select_task(config, skip_task_ids)
     if not task:
         return SupervisorDecision(action="stop", reason="No eligible task found.")
     if mode == "plan-only":
         return SupervisorDecision(action="plan", reason=plan_task(task), task=task)
     if mode == "review-only":
-        runs_dir = config.executor.runs_dir or config.project.root / "orchestrator/runs"
-        run_dir = latest_run_dir(runs_dir) if latest_run else None
+        runs_dir = _runs_dir(config)
+        run_dir, selector_message = resolve_review_run_dir(
+            config,
+            latest_run=latest_run,
+            run_id=review_run_id,
+            branch=review_branch,
+            commit=review_commit,
+            confirm_latest_run=confirm_latest_run,
+        )
+        if selector_message:
+            return SupervisorDecision(action="needs_manual_review", reason=selector_message)
         review_task = _task_for_run(config, run_dir) or task
         return run_review_gate(
             config.project.root,
@@ -259,13 +344,15 @@ def run_once(config: OrchestratorConfig, mode: str, latest_run: bool = False, sk
         return SupervisorDecision(action="blocked", reason=execution.message, task=task, execution=execution)
     if mode == "local-loop" and not config.dry_run and execution.artifacts:
         reviewer = build_reviewer(config)
+        run_dir = _run_dir_from_execution(execution)
         decision = run_review_gate(
             config.project.root,
-            config.executor.runs_dir or config.project.root / "orchestrator/runs",
+            _runs_dir(config),
             task,
             reviewer,
             decision_engine=build_decision_engine(config),
             project_state=adapter.read_state(),
+            run_dir=run_dir,
             dry_run=config.dry_run,
             push_branch=True,
             allow_remediation=config.loop.allow_remediation,
@@ -282,11 +369,12 @@ def run_once(config: OrchestratorConfig, mode: str, latest_run: bool = False, sk
             if remediation.success:
                 return run_review_gate(
                     config.project.root,
-                    config.executor.runs_dir or config.project.root / "orchestrator/runs",
+                    _runs_dir(config),
                     task,
                     reviewer,
                     decision_engine=build_decision_engine(config),
                     project_state=adapter.read_state(),
+                    run_dir=_run_dir_from_execution(remediation),
                     dry_run=config.dry_run,
                     push_branch=True,
                     allow_remediation=False,
@@ -298,7 +386,16 @@ def run_once(config: OrchestratorConfig, mode: str, latest_run: bool = False, sk
     return SupervisorDecision(action="simulated", reason=execution.message, task=task, execution=execution)
 
 
-def run_loop(config: OrchestratorConfig, mode: str, max_iterations: int | None = None, latest_run: bool = False) -> list[SupervisorDecision]:
+def run_loop(
+    config: OrchestratorConfig,
+    mode: str,
+    max_iterations: int | None = None,
+    latest_run: bool = False,
+    review_run_id: str | None = None,
+    review_branch: str | None = None,
+    review_commit: str | None = None,
+    confirm_latest_run: bool = False,
+) -> list[SupervisorDecision]:
     decisions: list[SupervisorDecision] = []
     iterations = max(1, max_iterations if max_iterations is not None else config.loop.max_iterations)
     skip_task_ids: set[str] = set()
@@ -313,7 +410,16 @@ def run_loop(config: OrchestratorConfig, mode: str, max_iterations: int | None =
                 decision = SupervisorDecision(action="needs_manual_review", reason=f"Could not switch back to starting branch `{starting_branch}`.")
                 decisions.append(decision)
                 break
-        decision = run_once(config, mode, latest_run=latest_run, skip_task_ids=skip_task_ids)
+        decision = run_once(
+            config,
+            mode,
+            latest_run=latest_run,
+            skip_task_ids=skip_task_ids,
+            review_run_id=review_run_id,
+            review_branch=review_branch,
+            review_commit=review_commit,
+            confirm_latest_run=confirm_latest_run,
+        )
         append_decision(config.project.root / ".orchestrator/supervisor.log", decision, dry_run=config.dry_run)
         decisions.append(decision)
         if decision.task and decision.action in {"accept", "blocked", "executed", "simulated"}:
@@ -329,6 +435,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--mode", choices=["plan-only", "issue-only", "review-only", "loop-dry-run", "local-loop"], default="plan-only")
     parser.add_argument("--max-iterations", type=int)
     parser.add_argument("--latest-run", action="store_true", help="Review the latest run directory instead of selecting a new task.")
+    parser.add_argument("--confirm-latest-run", action="store_true", help="Permit --latest-run to perform review after printing would otherwise stop.")
+    parser.add_argument("--run-id", help="Review a specific run id.")
+    parser.add_argument("--branch", help="Review the run for a specific worker branch.")
+    parser.add_argument("--commit", help="Review the run for a specific worker head commit.")
     parser.add_argument("--non-dry-run", action="store_true", help="Allow external side effects where the selected mode supports them.")
     parser.add_argument("--allow-remediation", action="store_true", help="Allow one automated Codex remediation pass when supervisor requests it.")
     args = parser.parse_args(argv)
@@ -364,7 +474,16 @@ def main(argv: list[str] | None = None) -> int:
             loop_budget=config.loop_budget,
             dry_run=config.dry_run,
         )
-    decisions = run_loop(config, args.mode, args.max_iterations, latest_run=args.latest_run)
+    decisions = run_loop(
+        config,
+        args.mode,
+        args.max_iterations,
+        latest_run=args.latest_run,
+        review_run_id=args.run_id,
+        review_branch=args.branch,
+        review_commit=args.commit,
+        confirm_latest_run=args.confirm_latest_run,
+    )
     for decision in decisions:
         print(f"action: {decision.action}")
         if decision.task:

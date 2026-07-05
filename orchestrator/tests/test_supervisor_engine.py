@@ -4,8 +4,9 @@ from pathlib import Path
 from orchestrator.config import ExecutorConfig, LoopConfig, OrchestratorConfig, ProjectConfig, SupervisorEngineConfig, load_config
 from orchestrator.review_gate import run_review_gate
 from orchestrator.review_gate import dirty_files_from_status, reviewer_status, supervisor_reliance, supervisor_status
+from orchestrator.run_record import RunRecord, is_reviewable
 from orchestrator.schemas import ReviewResult, SupervisorEngineResult, Task
-from orchestrator.supervisor import build_decision_engine, run_loop
+from orchestrator.supervisor import build_decision_engine, resolve_review_run_dir, run_loop
 from orchestrator.supervisor_interface import DecisionEngine
 from orchestrator.supervisors import NoopSupervisor, OpenAISupervisor
 from orchestrator.supervisors.openai_supervisor import parse_supervisor_json
@@ -290,7 +291,54 @@ def test_remediation_review_uses_child_commit_not_parent_metadata(tmp_path: Path
     assert final_decision["changed_files"] == ["figures/10-2/provenance.md"]
 
 
-def test_remediation_review_reports_dirty_files_when_no_child_commit(tmp_path: Path):
+def test_run_record_review_uses_child_base_head_not_parent_metadata(tmp_path: Path):
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    (repo / "PROJECT_STATE.md").write_text("# State\n")
+    import subprocess
+
+    subprocess.run(["git", "init", "-b", "main"], cwd=repo, check=True, capture_output=True)
+    subprocess.run(["git", "config", "user.email", "test@example.com"], cwd=repo, check=True)
+    subprocess.run(["git", "config", "user.name", "Test"], cwd=repo, check=True)
+    (repo / "figures/10-2").mkdir(parents=True)
+    (repo / "figures/10-2/provenance.md").write_text("before\n")
+    subprocess.run(["git", "add", "."], cwd=repo, check=True)
+    subprocess.run(["git", "commit", "-m", "base"], cwd=repo, check=True, capture_output=True)
+    subprocess.run(["git", "switch", "-c", "worker"], cwd=repo, check=True, capture_output=True)
+    child_base = subprocess.run(["git", "rev-parse", "HEAD"], cwd=repo, text=True, capture_output=True, check=True).stdout.strip()
+    (repo / "figures/10-2/provenance.md").write_text("child\n")
+    subprocess.run(["git", "add", "."], cwd=repo, check=True)
+    subprocess.run(["git", "commit", "-m", "child remediation"], cwd=repo, check=True, capture_output=True)
+    child_head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=repo, text=True, capture_output=True, check=True).stdout.strip()
+
+    run_dir = tmp_path / "runs/child-record"
+    run_dir.mkdir(parents=True)
+    (run_dir / "metadata.json").write_text(json.dumps({"branch": "worker", "base_branch": "main", "task_id": "10-2", "parent_run_id": "parent"}))
+    RunRecord(
+        run_id="child-record",
+        task_id="10-2",
+        task_title="Sustainability",
+        base_branch="worker",
+        base_sha=child_base,
+        worker_branch="worker",
+        head_sha=child_head,
+        parent_run_id="parent",
+        run_type="remediation",
+        executor_status="completed",
+        worker_made_commit=True,
+        changed_files=["figures/10-2/provenance.md"],
+    ).save(run_dir)
+    task = Task(id="10-2", title="Sustainability", status="not_started")
+    decision = run_review_gate(repo, tmp_path / "runs", task, StaticReviewer(), decision_engine=StaticSupervisor("accept"), run_dir=run_dir)
+    final_decision = json.loads((run_dir / "final_loop_decision.json").read_text())
+    assert decision.action == "accept"
+    assert final_decision["base_sha"] == child_base
+    assert final_decision["head_sha"] == child_head
+    assert final_decision["changed_files"] == ["figures/10-2/provenance.md"]
+    assert "child remediation" in final_decision["commit_summary"][0]
+
+
+def test_run_record_dirty_worktree_is_not_reviewed(tmp_path: Path):
     repo = tmp_path / "repo"
     repo.mkdir()
     (repo / "PROJECT_STATE.md").write_text("# State\n")
@@ -312,14 +360,69 @@ def test_remediation_review_reports_dirty_files_when_no_child_commit(tmp_path: P
         json.dumps({"branch": "worker", "base_branch": base_commit, "task_id": "10-2", "remediation": True, "parent_run_id": "parent"})
     )
     (run_dir / "git_status.txt").write_text("## worker\n M figures/10-2/provenance.md\n?? figures/10-2/new.csv\n")
+    RunRecord(
+        run_id="dirty",
+        task_id="10-2",
+        task_title="Sustainability",
+        base_branch="worker",
+        base_sha=base_commit,
+        worker_branch="worker",
+        head_sha=base_commit,
+        parent_run_id="parent",
+        run_type="remediation",
+        executor_status="dirty_worktree",
+        worker_made_commit=False,
+        dirty_worktree_files=["figures/10-2/provenance.md", "figures/10-2/new.csv"],
+    ).save(run_dir)
     task = Task(id="10-2", title="Sustainability", status="not_started")
-    run_review_gate(repo, tmp_path / "runs", task, StaticReviewer(), decision_engine=StaticSupervisor("remediate"), run_dir=run_dir)
+    decision = run_review_gate(repo, tmp_path / "runs", task, StaticReviewer(), decision_engine=StaticSupervisor("remediate"), run_dir=run_dir)
     packet = (run_dir / "review_packet.md").read_text()
     final_decision = json.loads((run_dir / "final_loop_decision.json").read_text())
     package_manifest = json.loads((run_dir / "submission_package/submission_manifest.json").read_text())
     assert dirty_files_from_status((run_dir / "git_status.txt").read_text()) == ["figures/10-2/provenance.md", "figures/10-2/new.csv"]
-    assert "No worker commit detected" in packet
+    assert decision.action == "needs_manual_review"
+    assert "dirty_worktree_after_executor" in packet
     assert final_decision["worker_made_commit"] is False
     assert final_decision["worker_made_no_commit"] is True
-    assert final_decision["changed_files"] == ["figures/10-2/provenance.md", "figures/10-2/new.csv"]
+    assert final_decision["changed_files"] == []
+    assert final_decision["reviewer_status"] == "not_run"
+    assert final_decision["supervisor_status"] == "not_run"
     assert package_manifest["package_source"] == "uncommitted_worktree_not_packaged"
+
+
+def test_run_record_prevents_branch_compared_against_itself(tmp_path: Path):
+    record = RunRecord(
+        run_id="same",
+        task_id="x",
+        task_title="Example",
+        base_branch="worker",
+        base_sha="abc123",
+        worker_branch="worker",
+        head_sha="abc123",
+        executor_status="completed",
+        worker_made_commit=False,
+    )
+    reviewable, reason = is_reviewable(record)
+    assert not reviewable
+    assert reason == "head_sha_equals_base_sha"
+
+
+def test_latest_run_requires_explicit_confirmation(tmp_path: Path):
+    (tmp_path / "PROJECT_STATE.md").write_text("# State\n")
+    registry = tmp_path / "registry.csv"
+    registry.write_text("id,title,status\n4-1,Tone,not_started\n")
+    runs_dir = tmp_path / "runs"
+    run_dir = runs_dir / "20260705T000000Z_4_1"
+    run_dir.mkdir(parents=True)
+    (run_dir / "metadata.json").write_text(json.dumps({"task_id": "4-1", "branch": "worker"}))
+    config = OrchestratorConfig(
+        project=ProjectConfig(name="test", adapter="generic_csv", root=tmp_path, state_file=tmp_path / "PROJECT_STATE.md", registry_file=registry),
+        executor=ExecutorConfig(kind="codex_cli", runs_dir=runs_dir, dry_run=True),
+        dry_run=True,
+    )
+    selected, message = resolve_review_run_dir(config, latest_run=True)
+    assert selected == run_dir
+    assert message and "--run-id 20260705T000000Z_4_1" in message
+    confirmed, confirmed_message = resolve_review_run_dir(config, latest_run=True, confirm_latest_run=True)
+    assert confirmed == run_dir
+    assert confirmed_message is None

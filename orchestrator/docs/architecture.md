@@ -22,8 +22,29 @@ not write this log.
 - **Adapter**: project-specific bridge from files to task objects.
 - **Task**: model-agnostic work unit with acceptance criteria and review requirements.
 - **Executor**: worker launcher or task queue writer.
+- **RunRecord**: immutable transaction metadata for a worker run, including base SHA, head SHA, worker branch, dirty files, and changed files from `base_sha..head_sha`.
 - **Reviewer**: model or no-op auditor that evaluates the worker output.
 - **Supervisor**: model or no-op decision engine. It is the only component allowed to mark a run accepted, and acceptance is currently limited to run metadata.
+
+## Transactional Runs
+
+Every non-dry-run local execution writes `orchestrator/runs/<run-id>/run_record.json`.
+The review gate treats a run as reviewable only when all of these are true:
+
+- `base_sha` is known.
+- `head_sha` is known.
+- `head_sha != base_sha`.
+- the worker left a clean worktree.
+- changed files can be computed from `base_sha..head_sha`.
+
+If any condition fails, the supervisor records `needs_manual_review` and skips
+scientific review. This prevents stale metadata, branch self-comparison, and
+uncommitted worktree changes from being presented as reviewed evidence.
+
+Remediation runs are child transactions. Their `parent_run_id` points to the
+original run, but their evidence is always computed from the child
+`base_sha..head_sha`; parent metadata may provide context but never replaces
+child commit evidence.
 
 ## Model Agnosticism
 

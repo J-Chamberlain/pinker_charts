@@ -44,7 +44,8 @@ GITHUB_TOKEN=... python -m orchestrator.supervisor \
 - Generates a full GitHub issue body for the selected task.
 - Supports dry-run supervisor modes.
 - Provides no-op, Codex CLI command emitter, GitHub issue, optional OpenAI reviewer, optional OpenAI supervisor, and Anthropic reviewer stub interfaces.
-- Runs local Codex execution in explicit non-dry-run mode, with per-task branches, run logs, review packets, and supervisor decisions.
+- Runs local Codex execution in explicit non-dry-run mode, with per-task branches, transactional run records, run logs, review packets, submission packages, and supervisor decisions.
+- Reviews only immutable worker transactions with known `base_sha`, `head_sha`, clean worktree state, and changed files from `base_sha..head_sha`.
 - Runs tests without API keys.
 
 ## What Is Stubbed
@@ -72,6 +73,21 @@ Noop supervision remains the default. To use OpenAI as the loop supervisor:
 3. Run with `--non-dry-run` when external calls are intended.
 
 The supervisor reads the task metadata, worker branch and commit, changed files, review packet, reviewer result, and current project state. It writes `raw_supervisor_response.txt`, `parsed_supervisor_decision.json`, and `final_loop_decision.json` under the run directory when available. `accept` marks the run accepted only in run metadata; it never merges automatically.
+
+## Review Selection
+
+Review mode is explicit by default:
+
+```bash
+python -m orchestrator.supervisor \
+  --config examples/pinker_charts.openai.config.example.yaml \
+  --mode review-only \
+  --run-id <run-id>
+```
+
+`--latest-run` alone now reports which run would be selected and stops. Add
+`--confirm-latest-run` only when that exact latest run is intentionally being
+reviewed.
 
 ## Package Layout
 
