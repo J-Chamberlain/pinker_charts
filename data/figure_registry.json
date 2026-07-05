@@ -12,7 +12,7 @@
     "priority": "active_high",
     "current_owner": "Codex",
     "next_action": "Recover Leetaru 2011 monthly NYT/SWB tone data or reproducible source extraction; optionally audit Kindle source line.",
-    "notes": "Processed 2026-07-05: Supplemental PDF source line and Leetaru/GDELT candidate visual sources recovered; no original monthly data table found; no plotted values digitized."
+    "notes": "Remediated 2026-07-05: deeper First Monday/GDELT/archive/repository recovery completed; no original monthly data table found; no plotted values digitized; artifacts relabeled as status-only."
   },
   {
     "figure_id": "5-1",

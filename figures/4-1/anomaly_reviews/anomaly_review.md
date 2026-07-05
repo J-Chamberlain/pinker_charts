@@ -3,7 +3,7 @@
 ## Visible Differences
 
 - The left side of the comparison is the Supplemental PDF reference crop.
-- The right side is a source-recovery status panel, not a chart.
+- The right side is a source-recovery status panel, not a chart or reconstruction.
 - This is intentional because the original monthly data were not recovered.
 
 ## Reviewer Challenge

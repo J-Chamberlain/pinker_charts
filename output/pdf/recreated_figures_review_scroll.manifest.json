@@ -6,8 +6,8 @@
       "figure_id": "4-1",
       "title": "Tone of the news, 1945-2010",
       "status": "manual_review_needed",
-      "path": "figures/4-1/plots/comparisons/figure_4_1_extended_comparison.png",
-      "selected_image": "figure_4_1_extended_comparison.png",
+      "path": "figures/4-1/plots/comparisons/figure_4_1_extended_status_comparison.png",
+      "selected_image": "figure_4_1_extended_status_comparison.png",
       "notes": "Source-recovery-blocked status panel; original monthly Leetaru data not recovered and no plotted values digitized.",
       "image_size": [
         2564,

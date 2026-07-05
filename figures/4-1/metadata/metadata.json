@@ -13,12 +13,12 @@
   "reproduction_status": "manual_review_needed",
   "confidence_score": 0.35,
   "visual_validation": "blocked",
-  "notes": "Source line and candidate visual source-chain evidence recovered; no reconstruction because original monthly data remain unresolved.",
+  "notes": "Deeper source recovery completed; no reconstruction because original monthly data remain unresolved. Status panels are not reconstructions.",
   "canonical_artifacts": {
-    "supplemental_reference": "figures/4-1/plots/comparisons/kindle_reference_figure_4_1.png",
-    "book_period_status_panel": "figures/4-1/plots/book_period/figure_4_1_book_period_reconstruction.png",
-    "extended_status_panel": "figures/4-1/plots/extended/figure_4_1_extended_reconstruction.png",
-    "book_period_comparison": "figures/4-1/plots/comparisons/figure_4_1_book_period_comparison.png",
-    "extended_comparison": "figures/4-1/plots/comparisons/figure_4_1_extended_comparison.png"
+    "supplemental_pdf_reference": "figures/4-1/plots/comparisons/supplemental_pdf_reference_figure_4_1.png",
+    "book_period_source_recovery_status": "figures/4-1/plots/book_period/figure_4_1_book_period_source_recovery_status.png",
+    "extended_source_recovery_status": "figures/4-1/plots/extended/figure_4_1_extended_source_recovery_status.png",
+    "book_period_status_comparison": "figures/4-1/plots/comparisons/figure_4_1_book_period_status_comparison.png",
+    "extended_status_comparison": "figures/4-1/plots/comparisons/figure_4_1_extended_status_comparison.png"
   }
 }

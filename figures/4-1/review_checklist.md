@@ -36,15 +36,15 @@
 - [ ] Scales and labels are correct.
 - [ ] Styling reasonably matches the book.
 - [ ] Book-period reconstruction completed.
-- [x] Book-period status comparison generated.
+- [x] Book-period status comparison generated and labeled as status-only.
 - [x] Remaining book-period discrepancies explained.
 
 ## Phase 4 - Extension Review
 
 - [x] Later/source successor data searched at a preliminary level.
 - [x] Absence of extension explained.
-- [N/A] Extension clearly distinguished from book-period reconstruction.
-- [N/A] Extended side-by-side comparison generated where available.
+- [x] Extension clearly distinguished from book-period reconstruction.
+- [x] Extended status comparison generated and labeled as status-only.
 
 ## Phase 5 - Reviewer Challenge
 
