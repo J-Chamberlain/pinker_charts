@@ -366,13 +366,13 @@
     "title": "Deforestation, 1700-2010",
     "page": "",
     "year_range": "1700-2010",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "manual_review_needed",
+    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
     "source_type_guess": "environment_institutional_dataset",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "priority": "active_high",
+    "current_owner": "Codex",
+    "next_action": "Recover Williams 2002 / FAO 2010b estimate table behind FAO SOFO 2012 Figure 2; do not digitize Pinker values.",
+    "notes": "Source recovery 2026-07-05: Supplemental PDF source line and FAO SOFO 2012 p. 9 Figure 2 captured; underlying numerical estimates not recovered; status-only artifacts generated."
   },
   {
     "figure_id": "10-5",

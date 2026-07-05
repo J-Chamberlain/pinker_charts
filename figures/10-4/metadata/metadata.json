@@ -1,0 +1,24 @@
+{
+  "figure_id": "10-4",
+  "chapter": "10",
+  "title": "Deforestation, 1700-2010",
+  "book_page": "Supplemental PDF page 14",
+  "claim_summary": "Temperate deforestation peaked earlier and then slowed/reversed, while tropical deforestation continued through the late twentieth century.",
+  "book_citation": "United Nations Food and Agriculture Organization 2012, p. 9.",
+  "original_dataset": "Not recovered. FAO SOFO 2012 Figure 2 is an estimated graphic based on Williams 2002 and FAO 2010b.",
+  "dataset_url": "https://www.fao.org/4/i3010e/i3010e.pdf",
+  "archive_url": "Not found in this pass; live FAO PDF and chapter PDF retained as raw sources.",
+  "download_date": "2026-07-05",
+  "reproduction_status": "manual_review_needed",
+  "confidence_score": 0.35,
+  "visual_validation": "source_reference_captured_no_reconstruction",
+  "notes": "The Supplemental PDF source line and FAO source graphic were recovered. The underlying Williams 2002 / FAO 2010b estimate table was not recovered, so no plotted reconstruction or extension was generated. Pinker's plotted values were not digitized.",
+  "canonical_artifacts": {
+    "original_reference": "figures/10-4/plots/comparisons/supplemental_pdf_reference_figure_10_4.png",
+    "source_reference": "figures/10-4/plots/comparisons/fao_sofo_2012_source_figure_2.png",
+    "book_period_status": "figures/10-4/plots/book_period/figure_10_4_book_period_source_recovery_status.png",
+    "extended_status": "figures/10-4/plots/extended/figure_10_4_extended_source_recovery_status.png",
+    "book_period_comparison": "figures/10-4/plots/comparisons/figure_10_4_book_period_status_comparison.png",
+    "extended_comparison": "figures/10-4/plots/comparisons/figure_10_4_extended_status_comparison.png"
+  }
+}

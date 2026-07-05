@@ -3,19 +3,6 @@
   "count": 28,
   "items": [
     {
-      "figure_id": "10-2",
-      "title": "Sustainability, 1955-2109",
-      "status": "updated_equivalent",
-      "root": "base_track_d_current",
-      "path": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png",
-      "selected_image": "figure_10_2_extended_comparison.png",
-      "notes": "Official XKCD/PDF references recovered; future markers derive from one XKCD-label visual projection, with Ngram candidate threshold mismatches quantified.",
-      "image_size": [
-        2095,
-        921
-      ]
-    },
-    {
       "figure_id": "4-1",
       "title": "Tone of the news, 1945-2010",
       "status": "manual_review_needed",
@@ -39,19 +26,6 @@
       "image_size": [
         2095,
         861
-      ]
-    },
-    {
-      "figure_id": "10-3",
-      "title": "Pollution, energy, and growth, US, 1970-2015",
-      "status": "verified_reproduction",
-      "root": "figure_10_3_epa_air_trends",
-      "path": "figures/10-3/plots/comparisons/figure_10_3_extended_comparison.png",
-      "selected_image": "figure_10_3_extended_comparison.png",
-      "notes": "EPA 2016 embedded chart data recovered; no Pinker plotted values digitized. Extension uses EPA 2025 successor CSV; five-versus-six pollutant label discrepancy documented.",
-      "image_size": [
-        2095,
-        921
       ]
     },
     {
@@ -260,6 +234,32 @@
       "image_size": [
         2095,
         901
+      ]
+    },
+    {
+      "figure_id": "10-2",
+      "title": "Sustainability, 1955-2109",
+      "status": "updated_equivalent",
+      "root": "base_track_d_current",
+      "path": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png",
+      "selected_image": "figure_10_2_extended_comparison.png",
+      "notes": "Updated-equivalent is retained because the official XKCD image, Supplemental PDF crop, and Google Ngram source family are recovered. The solid recreated projection is calibrated to XKCD's labeled future points; the data-only Ngram fit is retained as a dotted diagnostic and does not match every label year. No values were digitized from Pinker's printed figure.",
+      "image_size": [
+        2095,
+        921
+      ]
+    },
+    {
+      "figure_id": "10-4",
+      "title": "Deforestation, 1700-2010",
+      "status": "manual_review_needed",
+      "root": "base_track_d_current",
+      "path": "figures/10-4/plots/comparisons/figure_10_4_extended_status_comparison.png",
+      "selected_image": "figure_10_4_extended_status_comparison.png",
+      "notes": "The Supplemental PDF source line and FAO source graphic were recovered. The underlying Williams 2002 / FAO 2010b estimate table was not recovered, so no plotted reconstruction or extension was generated. Pinker's plotted values were not digitized.",
+      "image_size": [
+        1900,
+        980
       ]
     },
     {

@@ -2,7 +2,7 @@
 
 Last update: 2026-07-05 America/Los_Angeles
 
-Project version: `1.14-reconstruct-figure-10-3-epa-air-trends`
+Project version: `1.15-source-recovery-figure-10-4-deforestation`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -105,6 +105,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 10-1 | Population and population growth, 1750-2015 and projected to 2100 | Updated-equivalent current OWID/UN successor reconstruction | `updated_equivalent` | Medium-high | Current OWID population/growth/projection grapher data reproduce the dual-axis concept, but exact 2016 OWID/HYDE/IIASA source vintage remains unrecovered. |
 | 10-2 | Sustainability, 1955-2109 | Updated-equivalent XKCD/Google Ngram reconstruction with calibrated projection audit | `updated_equivalent` | Medium | Official XKCD image, Supplemental PDF crop, and Ngram source-family data are recovered; future markers now derive from one XKCD-label visual projection, while Ngram-candidate threshold mismatches are quantified. |
 | 10-3 | Pollution, energy, and growth, US, 1970-2015 | Verified EPA 2016 book-period chart-data reconstruction with successor extension | `verified_reproduction` | High | EPA Our Nation's Air 2016 embedded GrowthAndEmissions chart values recovered; EPA 2025 successor extension added; PDF five-pollutant label conflicts with EPA six-pollutant source label and is documented. |
+| 10-4 | Deforestation, 1700-2010 | Source recovery blocked; Supplemental PDF and FAO source captured | `manual_review_needed` | Low | Supplemental PDF cites FAO 2012 p. 9; FAO SOFO 2012 Figure 2 recovered, but the underlying Williams 2002 / FAO 2010b estimate table was not found; no Pinker plotted values were digitized and no reconstruction is claimed. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
@@ -116,6 +117,19 @@ this file are all updated. Only then may Codex begin another figure.
 | 12-9 | Lightning strike deaths, US, 1900-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID NOAA/Lopez-Holle lightning fatality-rate dataset visually reproduces the Kindle chart; no methodologically identical post-2015 rate extension was recovered. |
 | 19-1 | Nuclear weapons, 1945-2015 | Source recovery and visual discrepancy analysis | `partial_match` | Medium-low | Actual Kindle chart-page crop is now included; current OWID successor line reconstruction remains a poor visual match to the original stacked-area figure and the cited HumanProgress/FAS 2016 table remains unresolved. |
 
+
+### Figure 10-4 - Deforestation, 1700-2010
+
+Status: `manual_review_needed`
+
+Canonical visual artifacts:
+
+- Supplemental PDF reference: `figures/10-4/plots/comparisons/supplemental_pdf_reference_figure_10_4.png`
+- FAO source reference: `figures/10-4/plots/comparisons/fao_sofo_2012_source_figure_2.png`
+- Book-period status comparison: `figures/10-4/plots/comparisons/figure_10_4_book_period_status_comparison.png`
+- Extended status comparison: `figures/10-4/plots/comparisons/figure_10_4_extended_status_comparison.png`
+
+Source status: Supplemental Graphics PDF source line captured; it cites United Nations Food and Agriculture Organization 2012, p. 9. The cited source resolves to FAO *State of the World's Forests 2012*, Figure 2, with estimates based on Williams 2002 and FAO 2010b. The underlying numerical estimate table was not recovered from the FAO PDF, chapter PDF, likely OWID grapher slugs, or targeted web searches. No Pinker plotted values were digitized; status panels are not reconstructions.
 
 ### Figure 10-3 - Pollution, energy, and growth, US, 1970-2015
 
