@@ -165,10 +165,21 @@ Review requirements:
             artifacts=tuple(str(path) for path in [run_dir / "stdout.log", run_dir / "stderr.log", run_dir / "git_status.txt", run_dir / "summary.json"]),
         )
 
-    def execute_remediation(self, task: Task, branch: str, prompt: str) -> ExecutionResult:
+    def execute_remediation(
+        self,
+        task: Task,
+        branch: str,
+        prompt: str,
+        parent_run_id: str | None = None,
+        remediation_reason: str | None = None,
+        remediation_items: tuple[str, ...] = (),
+    ) -> ExecutionResult:
         command = f"{shlex.quote(self.command)} exec -C {shlex.quote(str(self.repo_root))} {shlex.quote(prompt)}"
         if self.dry_run:
-            return ExecutionResult(task=task, mode="codex-cli-remediation-dry-run", success=True, branch=branch, message=f"Would switch to `{branch}` and run: {command}")
+            linkage = ""
+            if parent_run_id:
+                linkage = f"\nParent run: `{parent_run_id}`\nRemediation reason: {remediation_reason or ''}\n"
+            return ExecutionResult(task=task, mode="codex-cli-remediation-dry-run", success=True, branch=branch, message=f"Would switch to `{branch}` and run remediation: {command}{linkage}")
 
         dirty = self._ensure_clean_worktree()
         if dirty:
@@ -187,6 +198,10 @@ Review requirements:
             "base_branch": branch,
             "argv": argv,
             "remediation": True,
+            "parent_run_id": parent_run_id,
+            "remediates_task_id": task.id,
+            "remediation_reason": remediation_reason,
+            "remediation_items": list(remediation_items),
             "started_at": datetime.now(UTC).isoformat(),
             "timeout_seconds": self.timeout_seconds,
         }

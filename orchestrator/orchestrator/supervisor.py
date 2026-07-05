@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import json
 import os
 from pathlib import Path
+from typing import Any
 
 from .adapters import GenericCsvAdapter, PinkerChartsAdapter
 from .config import OrchestratorConfig, load_config
@@ -111,7 +113,125 @@ def _task_for_run(config: OrchestratorConfig, run_dir: Path | None) -> Task | No
     return adapter.select_next_task(adapter.read_state())
 
 
+def _task_by_id(config: OrchestratorConfig, task_id: str) -> Task | None:
+    adapter = build_adapter(config)
+    for task in adapter.tasks(adapter.read_state()):
+        if task.id == task_id:
+            return task
+    return None
+
+
+def _read_json(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text())
+
+
+def _latest_pending_remediation(config: OrchestratorConfig) -> dict[str, Any] | None:
+    runs_dir = config.executor.runs_dir or config.project.root / "orchestrator/runs"
+    run_dir = latest_run_dir(runs_dir)
+    if not run_dir:
+        return None
+    decision = _read_json(run_dir / "final_loop_decision.json") or _read_json(run_dir / "supervisor_decision.json")
+    action = decision.get("final_action") or decision.get("supervisor_decision") or decision.get("next_action")
+    if action != "remediate":
+        return None
+    task_id = decision.get("task_id")
+    task = _task_by_id(config, task_id) if task_id else None
+    if not task:
+        return None
+    review = _read_json(run_dir / "review_result.json")
+    parsed_review = review.get("raw", {}).get("parsed_result") or _read_json(run_dir / "parsed_reviewer_result.json")
+    parsed_supervisor = _read_json(run_dir / "parsed_supervisor_decision.json")
+    remediation_items = _remediation_items(parsed_review, parsed_supervisor, decision)
+    return {
+        "run_dir": run_dir,
+        "run_id": run_dir.name,
+        "task": task,
+        "branch": decision.get("worker_branch") or "",
+        "reason": decision.get("decision_basis") or decision.get("supervisor_decision") or "remediation_requested",
+        "items": remediation_items,
+        "prompt": _build_remediation_prompt(task, decision, parsed_review, parsed_supervisor, remediation_items),
+    }
+
+
+def _as_string_list(value: Any) -> list[str]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [str(item) for item in value if str(item).strip()]
+    return [str(value)] if str(value).strip() else []
+
+
+def _remediation_items(parsed_review: dict[str, Any], parsed_supervisor: dict[str, Any], decision: dict[str, Any]) -> tuple[str, ...]:
+    items: list[str] = []
+    items.extend(_as_string_list(parsed_review.get("required_remediation")))
+    items.extend(_as_string_list(parsed_review.get("reasonable_next_steps")))
+    items.extend(_as_string_list(parsed_review.get("issues")))
+    items.extend(_as_string_list(parsed_supervisor.get("required_remediation")))
+    items.extend(_as_string_list(parsed_supervisor.get("reasonable_next_steps")))
+    items.extend(_as_string_list(parsed_supervisor.get("followup_task_prompt")))
+    items.extend(_as_string_list(decision.get("remediation_reason")))
+    deduped: list[str] = []
+    for item in items:
+        if item not in deduped:
+            deduped.append(item)
+    return tuple(deduped)
+
+
+def _build_remediation_prompt(
+    task: Task,
+    decision: dict[str, Any],
+    parsed_review: dict[str, Any],
+    parsed_supervisor: dict[str, Any],
+    remediation_items: tuple[str, ...],
+) -> str:
+    items = "\n".join(f"- {item}" for item in remediation_items) or "- Reinspect the latest reviewer and supervisor decision artifacts and address the remediation request."
+    return f"""You are remediating a previously reviewed task. Do not start a different figure.
+
+Task:
+- id: {task.id}
+- title: {task.title}
+
+Parent review decision:
+- final_action: {decision.get("final_action") or decision.get("supervisor_decision")}
+- decision_basis: {decision.get("decision_basis")}
+- reviewer_status: {decision.get("reviewer_status")}
+- supervisor_status: {decision.get("supervisor_status")}
+
+Remediation items:
+{items}
+
+Reviewer rationale:
+{parsed_review.get("rationale") or parsed_review.get("summary") or ""}
+
+Supervisor rationale:
+{parsed_supervisor.get("rationale") or ""}
+
+Rules:
+- Work only on the existing worker branch.
+- Do not switch to a different figure.
+- Do not merge to main or production-loop.
+- Commit one clean remediation unit if you make changes.
+- If remediation cannot be completed automatically, document the blocker clearly and commit that documentation.
+"""
+
+
 def run_once(config: OrchestratorConfig, mode: str, latest_run: bool = False, skip_task_ids: set[str] | None = None) -> SupervisorDecision:
+    if mode == "local-loop" and config.loop.allow_remediation:
+        pending = _latest_pending_remediation(config)
+        if pending:
+            executor = build_executor(config, mode)
+            if isinstance(executor, CodexCLIExecutor):
+                execution = executor.execute_remediation(
+                    pending["task"],
+                    pending["branch"],
+                    pending["prompt"],
+                    parent_run_id=pending["run_id"],
+                    remediation_reason=pending["reason"],
+                    remediation_items=pending["items"],
+                )
+                return SupervisorDecision(action="remediate", reason=execution.message, task=pending["task"], execution=execution)
     task, adapter, state = select_task(config, skip_task_ids)
     if not task:
         return SupervisorDecision(action="stop", reason="No eligible task found.")

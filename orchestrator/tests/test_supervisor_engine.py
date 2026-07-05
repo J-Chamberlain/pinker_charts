@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from orchestrator.config import OrchestratorConfig, ProjectConfig, SupervisorEngineConfig, load_config
+from orchestrator.config import ExecutorConfig, LoopConfig, OrchestratorConfig, ProjectConfig, SupervisorEngineConfig, load_config
 from orchestrator.review_gate import run_review_gate
 from orchestrator.review_gate import reviewer_status, supervisor_reliance, supervisor_status
 from orchestrator.schemas import ReviewResult, SupervisorEngineResult, Task
@@ -199,3 +199,56 @@ def test_local_loop_dry_run_can_iterate_multiple_tasks():
     assert len(set(task_ids)) == 3
     assert task_ids[0] == "4-1"
     assert all(decision.action == "executed" for decision in decisions)
+
+
+def test_allow_remediation_resumes_latest_remediate_task_before_registry_selection(tmp_path: Path):
+    (tmp_path / "PROJECT_STATE.md").write_text("# State\n")
+    registry = tmp_path / "registry.csv"
+    registry.write_text("id,title,status\n4-1,Tone,not_started\n10-2,Sustainability,not_started\n")
+    runs_dir = tmp_path / "runs"
+    run_dir = runs_dir / "20260705T000000Z_10_2"
+    run_dir.mkdir(parents=True)
+    (run_dir / "metadata.json").write_text(json.dumps({"task_id": "10-2", "branch": "codex/10-2-sustainability"}))
+    (run_dir / "final_loop_decision.json").write_text(
+        json.dumps(
+            {
+                "task_id": "10-2",
+                "task_title": "Sustainability",
+                "worker_branch": "codex/10-2-sustainability",
+                "final_action": "remediate",
+                "decision_basis": "evidence_insufficient",
+                "reviewer_status": "success",
+                "supervisor_status": "success",
+            }
+        )
+    )
+    (run_dir / "review_result.json").write_text(
+        json.dumps(
+            {
+                "raw": {
+                    "parsed_result": {
+                        "required_remediation": ["Inspect the comparison images."],
+                        "reasonable_next_steps": ["Verify the clean CSV against source data."],
+                        "rationale": "Evidence is insufficient.",
+                    }
+                }
+            }
+        )
+    )
+    (run_dir / "parsed_supervisor_decision.json").write_text(
+        json.dumps({"followup_task_prompt": "Remediate Figure 10-2 only.", "rationale": "Do not start another figure."})
+    )
+    config = OrchestratorConfig(
+        project=ProjectConfig(name="test", adapter="generic_csv", root=tmp_path, state_file=tmp_path / "PROJECT_STATE.md", registry_file=registry),
+        executor=ExecutorConfig(kind="codex_cli", command="codex", runs_dir=runs_dir, dry_run=True),
+        loop=LoopConfig(max_iterations=1, allow_remediation=True),
+        dry_run=True,
+    )
+    decisions = run_loop(config, "local-loop", max_iterations=1)
+    assert len(decisions) == 1
+    decision = decisions[0]
+    assert decision.task is not None
+    assert decision.task.id == "10-2"
+    assert "Would switch to `codex/10-2-sustainability`" in decision.reason
+    assert "Inspect the comparison images." in decision.reason
+    assert "4-1" not in decision.reason
