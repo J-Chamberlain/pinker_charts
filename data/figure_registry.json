@@ -335,14 +335,14 @@
     "chapter": "10",
     "title": "Sustainability, 1955-2109",
     "page": "",
-    "year_range": "1955",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
-    "source_type_guess": "unknown",
-    "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "year_range": "1955-2109",
+    "current_status": "updated_equivalent",
+    "lifecycle_stage": "updated_equivalent_with_ngram_source_recovery",
+    "source_type_guess": "Google Ngram/XKCD text-frequency chart",
+    "priority": "completed_monitor",
+    "current_owner": "Codex",
+    "next_action": "Archive live Google Ngram responses or locate a January 2012 Ngram endpoint capture before considering verified_reproduction.",
+    "notes": "Processed 2026-07-05 from Supplemental Graphics PDF page 13, official XKCD 1007, and Google Ngram American English 2009/v1 corpus; no plotted values digitized."
   },
   {
     "figure_id": "10-3",

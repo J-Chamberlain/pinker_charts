@@ -1,14 +1,15 @@
 {
   "output": "output/pdf/recreated_figures_review_scroll.pdf",
-  "count": 26,
+  "count": 27,
   "items": [
     {
       "figure_id": "4-1",
       "title": "Tone of the news, 1945-2010",
       "status": "manual_review_needed",
+      "root": "base_track_d_current",
       "path": "figures/4-1/plots/comparisons/figure_4_1_extended_status_comparison.png",
       "selected_image": "figure_4_1_extended_status_comparison.png",
-      "notes": "Source-recovery-blocked status panel; original monthly Leetaru data not recovered and no plotted values digitized.",
+      "notes": "Deeper source recovery completed; no reconstruction because original monthly data remain unresolved. Status panels are not reconstructions.",
       "image_size": [
         2564,
         905
@@ -18,6 +19,7 @@
       "figure_id": "5-1",
       "title": "Life expectancy, 1771-2015",
       "status": "verified_reproduction",
+      "root": "base_track_d_current",
       "path": "figures/5-1/plots/comparisons/figure_5_1_extended_comparison.png",
       "selected_image": "figure_5_1_extended_comparison.png",
       "notes": "Book-period reconstruction is verified. The extended artifact intentionally plots no successor segment because a comparable regional successor series has not been accepted.",
@@ -30,6 +32,7 @@
       "figure_id": "5-2",
       "title": "Child mortality, 1751-2013",
       "status": "partial_match",
+      "root": "base_track_d_current",
       "path": "figures/5-2/plots/comparisons/figure_5_2_extended_comparison.png",
       "selected_image": "figure_5_2_extended_comparison.png",
       "notes": "Remediated to use the current OWID selected child-mortality grapher directly in percent units. This materially improves the visual match, but the exact Roser 2016a UN/HMD vintage remains unrecovered.",
@@ -42,6 +45,7 @@
       "figure_id": "5-3",
       "title": "Maternal mortality, 1751-2013",
       "status": "partial_match",
+      "root": "base_track_d_current",
       "path": "figures/5-3/plots/comparisons/figure_5_3_extended_comparison.png",
       "selected_image": "figure_5_3_extended_comparison.png",
       "notes": "Track A health/nutrition batch. Source status: updated_equivalent.",
@@ -54,6 +58,7 @@
       "figure_id": "5-4",
       "title": "Life expectancy, UK, 1701-2013",
       "status": "needs_targeted_source_recovery",
+      "root": "base_track_d_current",
       "path": "figures/5-4/plots/comparisons/figure_5_4_extended_comparison.png",
       "selected_image": "figure_5_4_extended_comparison.png",
       "notes": "Track A health/nutrition batch. Source status: needs_targeted_source_recovery.",
@@ -66,6 +71,7 @@
       "figure_id": "6-1",
       "title": "Childhood deaths from infectious disease, 2000-2013",
       "status": "blocked_external_source",
+      "root": "base_track_d_current",
       "path": "figures/6-1/plots/comparisons/figure_6_1_extended_comparison.png",
       "selected_image": "figure_6_1_extended_comparison.png",
       "notes": "Track A health/nutrition batch. Source status: blocked_external_source.",
@@ -78,6 +84,7 @@
       "figure_id": "7-1",
       "title": "Calories, 1700-2013",
       "status": "partial_match",
+      "root": "base_track_d_current",
       "path": "figures/7-1/plots/comparisons/figure_7_1_extended_comparison.png",
       "selected_image": "figure_7_1_extended_comparison.png",
       "notes": "Track A health/nutrition batch. Source status: updated_equivalent.",
@@ -90,6 +97,7 @@
       "figure_id": "7-2",
       "title": "Childhood stunting, 1966-2014",
       "status": "partial_match",
+      "root": "base_track_d_current",
       "path": "figures/7-2/plots/comparisons/figure_7_2_extended_comparison.png",
       "selected_image": "figure_7_2_extended_comparison.png",
       "notes": "Track A health/nutrition batch. Source status: partial_match.",
@@ -102,6 +110,7 @@
       "figure_id": "7-3",
       "title": "Undernourishment, 1970-2015",
       "status": "partial_match",
+      "root": "base_track_d_current",
       "path": "figures/7-3/plots/comparisons/figure_7_3_extended_comparison.png",
       "selected_image": "figure_7_3_extended_comparison.png",
       "notes": "Fresh review found that the prior reconstruction substituted broad Africa/Asia/World curves for several book regional curves. The remediation replaces those with current FAO successor regional entities where available, but the exact Roser 2016j/FAO 2014 regional vintage and 1991-1999 regional segments remain unrecovered.",
@@ -114,6 +123,7 @@
       "figure_id": "7-4",
       "title": "Famine deaths, 1860-2016",
       "status": "partial_match",
+      "root": "base_track_d_current",
       "path": "figures/7-4/plots/comparisons/figure_7_4_extended_comparison.png",
       "selected_image": "figure_7_4_extended_comparison.png",
       "notes": "The previous reconstruction recomputed rates from an event table with a current population denominator. Remediation uses OWID's explicit decadal famine-death-rate grapher series, which fixes the aggregation treatment, but it is a 2025 World Peace Foundation/OWID successor rather than the archived 2017 Hasell-Roser book vintage.",
@@ -126,6 +136,7 @@
       "figure_id": "8-1",
       "title": "Gross World Product, 1-2015",
       "status": "updated_equivalent",
+      "root": "base_track_d_current",
       "path": "figures/8-1/plots/comparisons/figure_8_1_extended_comparison.png",
       "selected_image": "figure_8_1_extended_comparison.png",
       "notes": "The successor OWID/Maddison/World Bank series preserves the hockey-stick shape and book-period coverage, but the 2015 scale is materially above the printed figure's apparent endpoint, so this is an updated equivalent rather than an exact reproduction.",
@@ -138,6 +149,7 @@
       "figure_id": "8-2",
       "title": "GDP per capita, 1600-2015",
       "status": "updated_equivalent",
+      "root": "base_track_d_current",
       "path": "figures/8-2/plots/comparisons/figure_8_2_extended_comparison.png",
       "selected_image": "figure_8_2_extended_comparison.png",
       "notes": "The selected countries and line ordering broadly match the book, but current Maddison 2020/OWID data are not the cited Maddison Project 2014/World Bank 2016 vintage. Remaining differences are not typography-only.",
@@ -150,9 +162,10 @@
       "figure_id": "8-3",
       "title": "World income distribution, 1800, 1975, and 2015",
       "status": "updated_equivalent",
+      "root": "base_track_d_current",
       "path": "figures/8-3/plots/comparisons/figure_8_3_extended_comparison.png",
       "selected_image": "figure_8_3_extended_comparison.png",
-      "notes": "Production loop 2026-07-01. Updated-equivalent Gapminder Income Mountains v2 reconstruction; exact book-era mountain snapshot remains unrecovered.",
+      "notes": "Same Gapminder source family and variables were located, but the downloaded v2 workbook is a 2018 successor rather than a proven book-era snapshot. Shares were multiplied by workbook population to plot people in each income bin, matching the visible figure geometry more closely than normalized shares.",
       "image_size": [
         2095,
         861
@@ -162,6 +175,7 @@
       "figure_id": "8-4",
       "title": "Extreme poverty (proportion), 1820-2015",
       "status": "verified_reproduction",
+      "root": "base_track_d_current",
       "path": "figures/8-4/plots/comparisons/figure_8_4_extended_comparison.png",
       "selected_image": "figure_8_4_extended_comparison.png",
       "notes": "Book-period reconstruction is verified. The comparison layout was remediated so the recreated plot area is comparable to the Kindle crop; no comparable world extension is plotted.",
@@ -174,6 +188,7 @@
       "figure_id": "8-5",
       "title": "Extreme poverty (number), 1820-2015",
       "status": "verified_reproduction",
+      "root": "base_track_d_current",
       "path": "figures/8-5/plots/comparisons/figure_8_5_extended_comparison.png",
       "selected_image": "figure_8_5_extended_comparison.png",
       "notes": "A falsification audit found no material source, encoding, or endpoint issue. The reconstruction uses the cited OWID historical absolute-count series and matches the stacked-area visual claim; remaining differences are production styling only.",
@@ -186,6 +201,7 @@
       "figure_id": "9-4",
       "title": "Social spending, OECD countries, 1880-2016",
       "status": "updated_equivalent",
+      "root": "base_track_d_current",
       "path": "figures/9-4/plots/comparisons/figure_9_4_extended_comparison.png",
       "selected_image": "figure_9_4_extended_comparison.png",
       "notes": "For verification, recover the exact OWID Ortiz-Ospina & Roser 2016b/2017 chart data snapshot; otherwise keep updated_equivalent status.",
@@ -198,9 +214,10 @@
       "figure_id": "9-6",
       "title": "Poverty, US, 1960-2016",
       "status": "verified_reproduction",
+      "root": "base_track_d_current",
       "path": "figures/9-6/plots/comparisons/figure_9_6_extended_comparison.png",
       "selected_image": "figure_9_6_extended_comparison.png",
-      "notes": "Production loop 2026-07-01. Verified from Meyer & Sullivan 2017 Table 1; dotted extension is the report's 2017 point.",
+      "notes": "The cited report was recovered and Table 1 contains the two plotted book-period series. Values are extracted from the source table, not digitized from Pinker's figure.",
       "image_size": [
         2095,
         861
@@ -210,45 +227,62 @@
       "figure_id": "10-1",
       "title": "Population and population growth, 1750-2015 and projected to 2100",
       "status": "updated_equivalent",
+      "root": "base_track_d_current",
       "path": "figures/10-1/plots/comparisons/figure_10_1_extended_comparison.png",
       "selected_image": "figure_10_1_extended_comparison.png",
-      "notes": "Production loop 2026-07-01. Updated-equivalent current OWID/UN successor reconstruction; exact 2016 OWID/HYDE/IIASA source vintage remains unrecovered.",
+      "notes": "Uses current OWID grapher successor data (HYDE 2023, Gapminder 2022, UN WPP 2024) rather than the exact 2016 OWID/HYDE/IIASA source vintage cited by the book.",
       "image_size": [
         2095,
         901
       ]
     },
     {
+      "figure_id": "10-2",
+      "title": "Sustainability, 1955-2109",
+      "status": "updated_equivalent",
+      "root": "base_track_d_current",
+      "path": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png",
+      "selected_image": "figure_10_2_extended_comparison.png",
+      "notes": "The observed Ngram data are source-family recovered; XKCD's exact hand-drawn fit and annotation placement are not author-supplied data. No values were digitized from Pinker's printed figure.",
+      "image_size": [
+        2095,
+        921
+      ]
+    },
+    {
       "figure_id": "10-5",
       "title": "Oil spills, 1970-2016",
       "status": "partial_match",
-      "path": "figures/10-5/plots/comparisons/figure_10_5_extended_comparison.png",
-      "selected_image": "figure_10_5_extended_comparison.png",
-      "notes": "Current repository state: oil-spill line supported; exact annual oil-shipping gray-line source unresolved. See figures/10-5/.",
+      "root": "base_track_d_current",
+      "path": "figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png",
+      "selected_image": "figure_10_5_extended_comparison_captioned.png",
+      "notes": "",
       "image_size": [
         1520,
-        616
+        781
       ]
     },
     {
       "figure_id": "10-6",
       "title": "Protected areas, 1990-2014",
       "status": "verified_reproduction",
-      "path": "figures/10-6/plots/comparisons/figure_10_6_extended_comparison.png",
-      "selected_image": "figure_10_6_extended_comparison.png",
-      "notes": "Current repository state: archived WDI 2017 source verifies book-period reconstruction; extension is successor current WDI series. See figures/10-6/.",
+      "root": "base_track_d_current",
+      "path": "figures/10-6/plots/comparisons/figure_10_6_extended_comparison_captioned.png",
+      "selected_image": "figure_10_6_extended_comparison_captioned.png",
+      "notes": "",
       "image_size": [
         1520,
-        616
+        760
       ]
     },
     {
       "figure_id": "10-7",
       "title": "Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014",
       "status": "verified_reproduction",
+      "root": "base_track_d_current",
       "path": "figures/10-7/plots/comparisons/figure_10_7_extended_comparison.png",
       "selected_image": "figure_10_7_extended_comparison.png",
-      "notes": "Book-period source and visual geometry closely match. Extension is useful but explicitly successor-series only.",
+      "notes": "",
       "image_size": [
         2501,
         984
@@ -258,9 +292,10 @@
       "figure_id": "10-8",
       "title": "CO2 emissions, 1960-2015",
       "status": "verified_reproduction",
+      "root": "base_track_d_current",
       "path": "figures/10-8/plots/comparisons/figure_10_8_extended_comparison.png",
       "selected_image": "figure_10_8_extended_comparison.png",
-      "notes": "Book-period stack uses the exact OWID 2017 regional CDIAC dataset named by the source chain. Extension is visually separated by a 2015 boundary because source definitions changed.",
+      "notes": "",
       "image_size": [
         2501,
         1000
@@ -270,9 +305,10 @@
       "figure_id": "12-5",
       "title": "Plane crash deaths, 1970-2015",
       "status": "partial_match",
+      "root": "base_track_d_current",
       "path": "figures/12-5/plots/comparisons/figure_12_5_extended_comparison.png",
       "selected_image": "figure_12_5_extended_comparison.png",
-      "notes": "Track D 2026-06-30: source-family reconstruction generated from OWID-hosted ASN 2019 successor data and World Bank passengers; early-1970s visual peak under-matches.",
+      "notes": "",
       "image_size": [
         2321,
         924
@@ -282,9 +318,10 @@
       "figure_id": "12-8",
       "title": "Natural disaster deaths, 1900-2015",
       "status": "updated_equivalent",
+      "root": "base_track_d_current",
       "path": "figures/12-8/plots/comparisons/figure_12_8_extended_comparison.png",
       "selected_image": "figure_12_8_extended_comparison.png",
-      "notes": "Track D 2026-06-30: OWID datasets repo EM-DAT death-rate reconstruction generated; current OWID successor extension added.",
+      "notes": "",
       "image_size": [
         2321,
         893
@@ -294,9 +331,10 @@
       "figure_id": "12-9",
       "title": "Lightning strike deaths, US, 1900-2015",
       "status": "verified_reproduction",
+      "root": "base_track_d_current",
       "path": "figures/12-9/plots/comparisons/figure_12_9_extended_comparison.png",
       "selected_image": "figure_12_9_extended_comparison.png",
-      "notes": "Track D 2026-06-30: OWID NOAA/Lopez-Holle fatality-rate dataset visually reproduces Kindle chart; no comparable post-2015 rate extension recovered.",
+      "notes": "",
       "image_size": [
         2321,
         870
@@ -306,6 +344,7 @@
       "figure_id": "19-1",
       "title": "Nuclear weapons, 1945-2015",
       "status": "partial_match",
+      "root": "base_track_d_current",
       "path": "figures/19-1/plots/comparisons/figure_19_1_extended_comparison.png",
       "selected_image": "figure_19_1_extended_comparison.png",
       "notes": "Actual Kindle chart-page capture is now present. The reconstruction remains partial because it uses a current OWID successor line series rather than the cited HumanProgress/FAS 2016 table and does not reproduce the book's stacked-area presentation.",

@@ -1,0 +1,24 @@
+{
+  "figure_id": "10-2",
+  "chapter": "10",
+  "title": "Sustainability, 1955-2109",
+  "book_page": "Supplemental PDF page 13",
+  "claim_summary": "The word 'sustainable' rose rapidly in US English books, with XKCD extrapolating the trend satirically into the future.",
+  "book_citation": "Randall Munroe, XKCD 1007, http://xkcd.com/1007/. Internal data source: Google Ngrams.",
+  "original_dataset": "Google Books Ngram American English 2009/v1 corpus for 'sustainable' (corpus=5), 1955-2008.",
+  "dataset_url": "https://books.google.com/ngrams/json?content=sustainable&year_start=1955&year_end=2008&corpus=5&smoothing=0",
+  "archive_url": "Not found; live Google Ngram endpoint retained with raw JSON payload.",
+  "download_date": "2026-07-05",
+  "reproduction_status": "updated_equivalent",
+  "confidence_score": 0.76,
+  "visual_validation": "good",
+  "notes": "The observed Ngram data are source-family recovered; XKCD's exact hand-drawn fit and annotation placement are not author-supplied data. No values were digitized from Pinker's printed figure.",
+  "canonical_artifacts": {
+    "original_reference": "figures/10-2/plots/comparisons/pdf_reference_figure_10_2.png",
+    "xkcd_source_image": "figures/10-2/plots/comparisons/xkcd_source_figure_10_2.png",
+    "book_period_reconstruction": "figures/10-2/plots/book_period/figure_10_2_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/10-2/plots/extended/figure_10_2_extended_reconstruction.png",
+    "book_period_comparison": "figures/10-2/plots/comparisons/figure_10_2_book_period_comparison.png",
+    "extended_comparison": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png"
+  }
+}

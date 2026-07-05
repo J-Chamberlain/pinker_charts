@@ -1,0 +1,30 @@
+[
+  {
+    "stage": "Book Figure",
+    "value": "Figure 10-2: Sustainability, 1955-2109"
+  },
+  {
+    "stage": "Book Citation",
+    "value": "Randall Munroe, XKCD 1007, http://xkcd.com/1007/. Internal data source: Google Ngrams."
+  },
+  {
+    "stage": "Original Publication",
+    "value": "https://xkcd.com/1007/"
+  },
+  {
+    "stage": "Original Image",
+    "value": "https://imgs.xkcd.com/comics/sustainable.png"
+  },
+  {
+    "stage": "Dataset",
+    "value": "Google Books Ngram American English 2009/v1 corpus for 'sustainable' (corpus=5), 1955-2008."
+  },
+  {
+    "stage": "Transformation Script",
+    "value": "scripts/reconstruct_10_2.py"
+  },
+  {
+    "stage": "Generated Plot",
+    "value": "figures/10-2/plots/"
+  }
+]
