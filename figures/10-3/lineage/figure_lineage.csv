@@ -1,0 +1,6 @@
+figure_id,figure_title,step,artifact,value,status
+10-3,"Pollution, energy, and growth, US, 1970-2015",1,Book Figure,"Supplemental PDF page 13",observed
+10-3,"Pollution, energy, and growth, US, 1970-2015",2,Source Note,"US Environmental Protection Agency 2016",observed
+10-3,"Pollution, energy, and growth, US, 1970-2015",3,Original Chart Data,"https://gispub.epa.gov/air/trendsreport/2016/dist/js/etrends.js",recovered
+10-3,"Pollution, energy, and growth, US, 1970-2015",4,Raw Data,"figures/10-3/data/raw/epa_2016_growth_chart_manual_values.csv",generated_from_source
+10-3,"Pollution, energy, and growth, US, 1970-2015",5,Reconstruction Script,"scripts/reconstruct_10_3.py",generated

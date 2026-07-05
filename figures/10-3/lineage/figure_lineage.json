@@ -1,0 +1,37 @@
+[
+  {
+    "figure_id": "10-3",
+    "step": 1,
+    "artifact": "Book Figure",
+    "value": "Supplemental PDF page 13",
+    "status": "observed"
+  },
+  {
+    "figure_id": "10-3",
+    "step": 2,
+    "artifact": "Source Note",
+    "value": "US Environmental Protection Agency 2016",
+    "status": "observed"
+  },
+  {
+    "figure_id": "10-3",
+    "step": 3,
+    "artifact": "Original Chart Data",
+    "value": "https://gispub.epa.gov/air/trendsreport/2016/dist/js/etrends.js",
+    "status": "recovered"
+  },
+  {
+    "figure_id": "10-3",
+    "step": 4,
+    "artifact": "Raw Data",
+    "value": "figures/10-3/data/raw/epa_2016_growth_chart_manual_values.csv",
+    "status": "generated_from_source"
+  },
+  {
+    "figure_id": "10-3",
+    "step": 5,
+    "artifact": "Reconstruction Script",
+    "value": "scripts/reconstruct_10_3.py",
+    "status": "generated"
+  }
+]

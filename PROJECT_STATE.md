@@ -2,7 +2,7 @@
 
 Last update: 2026-07-05 America/Los_Angeles
 
-Project version: `1.13-remediate-figure-10-2-projection`
+Project version: `1.14-reconstruct-figure-10-3-epa-air-trends`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -52,7 +52,7 @@ Its machine-readable manifest is:
 
 - [output/pdf/recreated_figures_review_scroll.manifest.json](output/pdf/recreated_figures_review_scroll.manifest.json)
 
-The current baseline contains 25 figure comparison items plus a summary page.
+The current baseline contains 28 figure comparison items plus a summary page.
 Source-recovery-only figures without real reconstructed comparisons are
 excluded.
 
@@ -104,6 +104,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 9-6 | Poverty, US, 1960-2016 | Verified reconstruction from Meyer & Sullivan 2017 Table 1 | `verified_reproduction` | High | Source report table recovered; book-period two-series chart is reconstructed from source table values, with 2017 dotted only in extended artifact. |
 | 10-1 | Population and population growth, 1750-2015 and projected to 2100 | Updated-equivalent current OWID/UN successor reconstruction | `updated_equivalent` | Medium-high | Current OWID population/growth/projection grapher data reproduce the dual-axis concept, but exact 2016 OWID/HYDE/IIASA source vintage remains unrecovered. |
 | 10-2 | Sustainability, 1955-2109 | Updated-equivalent XKCD/Google Ngram reconstruction with calibrated projection audit | `updated_equivalent` | Medium | Official XKCD image, Supplemental PDF crop, and Ngram source-family data are recovered; future markers now derive from one XKCD-label visual projection, while Ngram-candidate threshold mismatches are quantified. |
+| 10-3 | Pollution, energy, and growth, US, 1970-2015 | Verified EPA 2016 book-period chart-data reconstruction with successor extension | `verified_reproduction` | High | EPA Our Nation's Air 2016 embedded GrowthAndEmissions chart values recovered; EPA 2025 successor extension added; PDF five-pollutant label conflicts with EPA six-pollutant source label and is documented. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
@@ -115,6 +116,20 @@ this file are all updated. Only then may Codex begin another figure.
 | 12-9 | Lightning strike deaths, US, 1900-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID NOAA/Lopez-Holle lightning fatality-rate dataset visually reproduces the Kindle chart; no methodologically identical post-2015 rate extension was recovered. |
 | 19-1 | Nuclear weapons, 1945-2015 | Source recovery and visual discrepancy analysis | `partial_match` | Medium-low | Actual Kindle chart-page crop is now included; current OWID successor line reconstruction remains a poor visual match to the original stacked-area figure and the cited HumanProgress/FAS 2016 table remains unresolved. |
 
+
+### Figure 10-3 - Pollution, energy, and growth, US, 1970-2015
+
+Status: `verified_reproduction`
+
+Canonical visual artifacts:
+
+- Supplemental PDF reference: `figures/10-3/plots/comparisons/pdf_reference_figure_10_3.png`
+- Book-period reconstruction: `figures/10-3/plots/book_period/figure_10_3_book_period_reconstruction.png`
+- Extended reconstruction: `figures/10-3/plots/extended/figure_10_3_extended_reconstruction.png`
+- Book-period comparison: `figures/10-3/plots/comparisons/figure_10_3_book_period_comparison.png`
+- Extended comparison: `figures/10-3/plots/comparisons/figure_10_3_extended_comparison.png`
+
+Source status: Supplemental Graphics PDF source line captured. EPA Our Nation's Air 2016 report and `dist/js/etrends.js` recovered; the source code explicitly stores the GrowthAndEmissions chart as manual data-entry arrays. No plotted values from Pinker's chart were digitized. EPA's source chart labels aggregate emissions as six common pollutants, while the Supplemental PDF label says five pollutants; the reconstruction follows the recovered EPA source and documents the discrepancy. EPA 2025 `growth_chart_data.csv` supplies the successor extension through 2024.
 
 ### Figure 4-1 - Tone of the news, 1945-2010
 
@@ -148,6 +163,9 @@ support a verified reconstruction.
   and Maddison data reproduces the book-period line chart.
 - Figure 10-8: OWID 2017 regional CDIAC dataset reproduces the book-period
   stacked emissions chart.
+- Figure 10-3: EPA Our Nation's Air 2016 embedded chart data reproduces the
+  book-period pollution, energy, and growth comparison; the extension uses EPA
+  2025 successor data through 2024.
 - Figure 12-9: OWID NOAA/Lopez-Holle lightning fatality-rate dataset
   reproduces the book-period lightning deaths chart.
 

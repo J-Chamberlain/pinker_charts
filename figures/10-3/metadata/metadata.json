@@ -1,0 +1,23 @@
+{
+  "figure_id": "10-3",
+  "chapter": "10",
+  "title": "Pollution, energy, and growth, US, 1970-2015",
+  "book_page": "Supplemental PDF page 13",
+  "claim_summary": "The United States reduced aggregate air-pollutant emissions after 1970 while GDP, vehicle miles traveled, population, energy use, and CO2 emissions rose.",
+  "book_citation": "US Environmental Protection Agency 2016; GDP from BEA; vehicle miles from FHWA; population from US Census; energy from US Department of Energy; CO2 from US Greenhouse Gas Inventory; emissions from EPA air-pollutant emissions trends data.",
+  "original_dataset": "EPA Our Nation's Air 2016 embedded Highcharts manual data for the GrowthAndEmissions chart.",
+  "dataset_url": "https://gispub.epa.gov/air/trendsreport/2016/dist/js/etrends.js",
+  "archive_url": "Not needed for reconstruction; live EPA 2016 source code and copied raw JS retained.",
+  "download_date": "2026-07-05",
+  "reproduction_status": "verified_reproduction",
+  "confidence_score": 0.9,
+  "visual_validation": "good_with_documented_label_discrepancy",
+  "notes": "The plotted reconstruction uses EPA's embedded 2016 chart values, not digitized Pinker values. The Supplemental PDF visibly labels the lower series as five pollutants while EPA's source chart and 2016 text define aggregate emissions as six common pollutants; the reconstruction follows the EPA source data and documents the book-label discrepancy.",
+  "canonical_artifacts": {
+    "original_reference": "figures/10-3/plots/comparisons/pdf_reference_figure_10_3.png",
+    "book_period_reconstruction": "figures/10-3/plots/book_period/figure_10_3_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/10-3/plots/extended/figure_10_3_extended_reconstruction.png",
+    "book_period_comparison": "figures/10-3/plots/comparisons/figure_10_3_book_period_comparison.png",
+    "extended_comparison": "figures/10-3/plots/comparisons/figure_10_3_extended_comparison.png"
+  }
+}

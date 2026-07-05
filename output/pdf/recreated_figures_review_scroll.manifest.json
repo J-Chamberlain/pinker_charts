@@ -1,6 +1,6 @@
 {
   "output": "output/pdf/recreated_figures_review_scroll.pdf",
-  "count": 27,
+  "count": 28,
   "items": [
     {
       "figure_id": "10-2",
@@ -39,6 +39,19 @@
       "image_size": [
         2095,
         861
+      ]
+    },
+    {
+      "figure_id": "10-3",
+      "title": "Pollution, energy, and growth, US, 1970-2015",
+      "status": "verified_reproduction",
+      "root": "figure_10_3_epa_air_trends",
+      "path": "figures/10-3/plots/comparisons/figure_10_3_extended_comparison.png",
+      "selected_image": "figure_10_3_extended_comparison.png",
+      "notes": "EPA 2016 embedded chart data recovered; no Pinker plotted values digitized. Extension uses EPA 2025 successor CSV; five-versus-six pollutant label discrepancy documented.",
+      "image_size": [
+        2095,
+        921
       ]
     },
     {
