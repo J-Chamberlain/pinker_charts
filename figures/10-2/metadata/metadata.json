@@ -11,14 +11,17 @@
   "download_date": "2026-07-05",
   "reproduction_status": "updated_equivalent",
   "confidence_score": 0.76,
-  "visual_validation": "good",
-  "notes": "The observed Ngram data are source-family recovered; XKCD's exact hand-drawn fit and annotation placement are not author-supplied data. No values were digitized from Pinker's printed figure.",
+  "visual_validation": "good_with_documented_projection_mismatch",
+  "notes": "Updated-equivalent is retained because the official XKCD image, Supplemental PDF crop, and Google Ngram source family are recovered. The solid recreated projection is calibrated to XKCD's labeled future points; the data-only Ngram fit is retained as a dotted diagnostic and does not match every label year. No values were digitized from Pinker's printed figure.",
   "canonical_artifacts": {
     "original_reference": "figures/10-2/plots/comparisons/pdf_reference_figure_10_2.png",
     "xkcd_source_image": "figures/10-2/plots/comparisons/xkcd_source_figure_10_2.png",
     "book_period_reconstruction": "figures/10-2/plots/book_period/figure_10_2_book_period_reconstruction.png",
     "extended_reconstruction": "figures/10-2/plots/extended/figure_10_2_extended_reconstruction.png",
     "book_period_comparison": "figures/10-2/plots/comparisons/figure_10_2_book_period_comparison.png",
-    "extended_comparison": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png"
+    "extended_comparison": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png",
+    "visual_reference_comparison": "figures/10-2/plots/comparisons/figure_10_2_visual_reference_comparison.png",
+    "candidate_corpus_table": "figures/10-2/data/clean/figure_10_2_ngram_candidate_comparison.csv",
+    "calibrated_marker_values": "figures/10-2/data/clean/figure_10_2_xkcd_calibrated_marker_values.csv"
   }
 }

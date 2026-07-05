@@ -19,6 +19,7 @@
 - [x] Source chain reconstructed.
 - [x] Dataset provenance documented.
 - [x] Successor datasets evaluated.
+- [x] Available Google Ngram candidates quantitatively compared.
 - [x] Download URLs recorded.
 - [x] Checksums recorded for stored files.
 
@@ -28,6 +29,8 @@
 - [x] Transformation code is reproducible.
 - [x] Book-period reconstruction completed.
 - [x] Book-period side-by-side comparison generated.
+- [x] Official XKCD image and Supplemental PDF crop included in comparison documentation.
+- [x] Future open-circle marker values derived from the same XKCD-calibrated projection as the solid future line.
 - [x] Remaining book-period discrepancies explained.
 
 ## Phase 4 - Extension Review
@@ -40,6 +43,7 @@
 - [x] Comparisons visually scanned.
 - [x] Completeness checked.
 - [x] Layout checked.
+- [x] Y-axis explanatory label checked for separation from tick labels and plot area.
 - [x] Visual similarity checked.
 - [x] Extension clarity checked.
 - [x] Caption checked.
@@ -49,4 +53,4 @@
 ## Final Decision
 - [x] Accepted as `updated_equivalent`.
 
-Decision notes: source-family data recovered; exact XKCD plotting file/regression method not recovered.
+Decision notes: source-family data, official XKCD image, and Supplemental PDF crop are recovered. Updated-equivalent is retained, not verified reproduction, because the exact XKCD plotting file/regression method is unavailable and the Ngram-data-only fit does not exactly match the labeled future geometry.

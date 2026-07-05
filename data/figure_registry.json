@@ -337,12 +337,12 @@
     "page": "",
     "year_range": "1955-2109",
     "current_status": "updated_equivalent",
-    "lifecycle_stage": "updated_equivalent_with_ngram_source_recovery",
+    "lifecycle_stage": "updated_equivalent_with_xkcd_calibrated_projection",
     "source_type_guess": "Google Ngram/XKCD text-frequency chart",
     "priority": "completed_monitor",
     "current_owner": "Codex",
-    "next_action": "Archive live Google Ngram responses or locate a January 2012 Ngram endpoint capture before considering verified_reproduction.",
-    "notes": "Processed 2026-07-05 from Supplemental Graphics PDF page 13, official XKCD 1007, and Google Ngram American English 2009/v1 corpus; no plotted values digitized."
+    "next_action": "Archive live Google Ngram responses or locate a January 2012 Ngram endpoint capture and XKCD plotting/regression source before considering verified_reproduction.",
+    "notes": "Remediated 2026-07-05: official XKCD image and Supplemental PDF crop retained; Ngram candidate-corpus comparison added; future markers now derive from one XKCD-label visual projection. No plotted values digitized."
   },
   {
     "figure_id": "10-3",

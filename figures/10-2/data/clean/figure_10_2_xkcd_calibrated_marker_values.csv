@@ -1,0 +1,4 @@
+year,xkcd_label_threshold_percent,projected_marker_y_percent,log10_residual_vs_label,projection_source
+2036,0.1,0.0973587320383252,-0.01162509082097074,least-squares log-linear fit to XKCD labeled future points
+2061,1.0,1.0415492862052518,0.017679825623687872,least-squares log-linear fit to XKCD labeled future points
+2109,100.0,98.61551911409406,-0.006054734802589223,least-squares log-linear fit to XKCD labeled future points

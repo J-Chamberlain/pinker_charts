@@ -20,6 +20,14 @@
     "value": "Google Books Ngram American English 2009/v1 corpus for 'sustainable' (corpus=5), 1955-2008."
   },
   {
+    "stage": "Candidate Corpus Comparison",
+    "value": "figures/10-2/data/clean/figure_10_2_ngram_candidate_comparison.csv"
+  },
+  {
+    "stage": "XKCD Calibrated Marker Values",
+    "value": "figures/10-2/data/clean/figure_10_2_xkcd_calibrated_marker_values.csv"
+  },
+  {
     "stage": "Transformation Script",
     "value": "scripts/reconstruct_10_2.py"
   },

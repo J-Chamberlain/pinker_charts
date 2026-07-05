@@ -3,6 +3,19 @@
   "count": 27,
   "items": [
     {
+      "figure_id": "10-2",
+      "title": "Sustainability, 1955-2109",
+      "status": "updated_equivalent",
+      "root": "base_track_d_current",
+      "path": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png",
+      "selected_image": "figure_10_2_extended_comparison.png",
+      "notes": "Official XKCD/PDF references recovered; future markers derive from one XKCD-label visual projection, with Ngram candidate threshold mismatches quantified.",
+      "image_size": [
+        2095,
+        921
+      ]
+    },
+    {
       "figure_id": "4-1",
       "title": "Tone of the news, 1945-2010",
       "status": "manual_review_needed",
@@ -234,19 +247,6 @@
       "image_size": [
         2095,
         901
-      ]
-    },
-    {
-      "figure_id": "10-2",
-      "title": "Sustainability, 1955-2109",
-      "status": "updated_equivalent",
-      "root": "base_track_d_current",
-      "path": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png",
-      "selected_image": "figure_10_2_extended_comparison.png",
-      "notes": "The observed Ngram data are source-family recovered; XKCD's exact hand-drawn fit and annotation placement are not author-supplied data. No values were digitized from Pinker's printed figure.",
-      "image_size": [
-        2095,
-        921
       ]
     },
     {

@@ -4,5 +4,7 @@ Book Citation,"Randall Munroe, XKCD 1007, http://xkcd.com/1007/. Internal data s
 Original Publication,https://xkcd.com/1007/
 Original Image,https://imgs.xkcd.com/comics/sustainable.png
 Dataset,"Google Books Ngram American English 2009/v1 corpus for 'sustainable' (corpus=5), 1955-2008."
+Candidate Corpus Comparison,figures/10-2/data/clean/figure_10_2_ngram_candidate_comparison.csv
+XKCD Calibrated Marker Values,figures/10-2/data/clean/figure_10_2_xkcd_calibrated_marker_values.csv
 Transformation Script,scripts/reconstruct_10_2.py
 Generated Plot,figures/10-2/plots/
