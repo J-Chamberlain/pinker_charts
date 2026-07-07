@@ -1,0 +1,6 @@
+[["timestamp","original","statuscode","mimetype","digest"],
+["20080916202340","http://www.fao.org:80/forestry/fra2010-remotesensing/en/","200","text/html","5APNZLX2LVEL23P546RHMR4DOWSAPMWK"],
+["20090321051602","http://www.fao.org/forestry/fra2010-remotesensing/en/search/","200","text/html","MNT27ASQLRPLTIKBGHDCNBPATIGBQE2S"],
+["20090321035013","http://www.fao.org/forestry/fra2010-remotesensing/es/","200","text/html","X5XON3U33MV2USLT2F7YXT4MFIYEKHJO"],
+["20090321051715","http://www.fao.org/forestry/fra2010-remotesensing/fr/","200","text/html","TOWVC3T4XKL35QTWNGU3G7HAR2KWNJCY"],
+["20080624094807","http://www.fao.org:80/forestry/fra2010/en/","200","text/html","OEXVENMDKP3JU2WHHCCHFSTPU2FXX2FG"]]

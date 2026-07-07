@@ -367,12 +367,12 @@
     "page": "",
     "year_range": "1700-2010",
     "current_status": "manual_review_needed",
-    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
+    "lifecycle_stage": "partial_source_recovery_final_period_blocked",
     "source_type_guess": "environment_institutional_dataset",
     "priority": "active_high",
     "current_owner": "Codex",
-    "next_action": "Recover Williams 2002 / FAO 2010b estimate table behind FAO SOFO 2012 Figure 2; do not digitize Pinker values.",
-    "notes": "Source recovery 2026-07-05: Supplemental PDF source line and FAO SOFO 2012 p. 9 Figure 2 captured; underlying numerical estimates not recovered; status-only artifacts generated."
+    "next_action": "Recover FAO 2010b/FRA 2010 production calculation for the 1996-2010 tropical/temperate split behind SOFO 2012 Figure 2; do not digitize Pinker values.",
+    "notes": "Source recovery 2026-07-05: Williams Table 12.2 values recovered for 1700-1995; FAO SOFO 2012 p. 9 Figure 2 and FRA 2010 sources captured; 1996-2010 split remains unresolved."
   },
   {
     "figure_id": "10-5",

@@ -254,9 +254,9 @@
       "title": "Deforestation, 1700-2010",
       "status": "manual_review_needed",
       "root": "base_track_d_current",
-      "path": "figures/10-4/plots/comparisons/figure_10_4_extended_status_comparison.png",
-      "selected_image": "figure_10_4_extended_status_comparison.png",
-      "notes": "The Supplemental PDF source line and FAO source graphic were recovered. The underlying Williams 2002 / FAO 2010b estimate table was not recovered, so no plotted reconstruction or extension was generated. Pinker's plotted values were not digitized.",
+      "path": "figures/10-4/plots/comparisons/figure_10_4_extended_comparison.png",
+      "selected_image": "figure_10_4_extended_comparison.png",
+      "notes": "Williams Table 12.2 recovered for 1700-1995; FAO 2010b/FRA 2010 1996-2010 tropical/temperate split remains blocked; no Pinker plotted values digitized.",
       "image_size": [
         1900,
         980

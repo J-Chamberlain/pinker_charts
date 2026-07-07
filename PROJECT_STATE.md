@@ -105,7 +105,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 10-1 | Population and population growth, 1750-2015 and projected to 2100 | Updated-equivalent current OWID/UN successor reconstruction | `updated_equivalent` | Medium-high | Current OWID population/growth/projection grapher data reproduce the dual-axis concept, but exact 2016 OWID/HYDE/IIASA source vintage remains unrecovered. |
 | 10-2 | Sustainability, 1955-2109 | Updated-equivalent XKCD/Google Ngram reconstruction with calibrated projection audit | `updated_equivalent` | Medium | Official XKCD image, Supplemental PDF crop, and Ngram source-family data are recovered; future markers now derive from one XKCD-label visual projection, while Ngram-candidate threshold mismatches are quantified. |
 | 10-3 | Pollution, energy, and growth, US, 1970-2015 | Verified EPA 2016 book-period chart-data reconstruction with successor extension | `verified_reproduction` | High | EPA Our Nation's Air 2016 embedded GrowthAndEmissions chart values recovered; EPA 2025 successor extension added; PDF five-pollutant label conflicts with EPA six-pollutant source label and is documented. |
-| 10-4 | Deforestation, 1700-2010 | Source recovery blocked; Supplemental PDF and FAO source captured | `manual_review_needed` | Low | Supplemental PDF cites FAO 2012 p. 9; FAO SOFO 2012 Figure 2 recovered, but the underlying Williams 2002 / FAO 2010b estimate table was not found; no Pinker plotted values were digitized and no reconstruction is claimed. |
+| 10-4 | Deforestation, 1700-2010 | Partial source recovery: Williams 1700-1995 recovered; FAO 2010b final split blocked | `manual_review_needed` | Medium-low | Supplemental PDF cites FAO 2012 p. 9; FAO SOFO 2012 Figure 2 recovered; Williams Table 12.2 values recovered for 1700-1995; FAO 2010b/FRA 2010 1996-2010 tropical/temperate split and Pinker's line conversion remain unresolved. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
@@ -126,10 +126,11 @@ Canonical visual artifacts:
 
 - Supplemental PDF reference: `figures/10-4/plots/comparisons/supplemental_pdf_reference_figure_10_4.png`
 - FAO source reference: `figures/10-4/plots/comparisons/fao_sofo_2012_source_figure_2.png`
-- Book-period status comparison: `figures/10-4/plots/comparisons/figure_10_4_book_period_status_comparison.png`
-- Extended status comparison: `figures/10-4/plots/comparisons/figure_10_4_extended_status_comparison.png`
+- Book-period comparison: `figures/10-4/plots/comparisons/figure_10_4_book_period_comparison.png`
+- Extended/status comparison: `figures/10-4/plots/comparisons/figure_10_4_extended_comparison.png`
+- Recovered Williams table: `figures/10-4/data/clean/figure_10_4_williams_recovered_1700_1995.csv`
 
-Source status: Supplemental Graphics PDF source line captured; it cites United Nations Food and Agriculture Organization 2012, p. 9. The cited source resolves to FAO *State of the World's Forests 2012*, Figure 2, with estimates based on Williams 2002 and FAO 2010b. The underlying numerical estimate table was not recovered from the FAO PDF, chapter PDF, likely OWID grapher slugs, or targeted web searches. No Pinker plotted values were digitized; status panels are not reconstructions.
+Source status: Supplemental Graphics PDF source line captured; it cites United Nations Food and Agriculture Organization 2012, p. 9. The cited source resolves to FAO *State of the World's Forests 2012*, Figure 2, with estimates based on Williams 2002 and FAO 2010b. Williams Table 12.2 values for 1700-1995 were recovered. The FAO 2010b citation resolves to *Global Forest Resources Assessment 2010 - main report*, but the FRA main report/global tables do not expose the 1996-2010 tropical/temperate split used in SOFO Figure 2. No Pinker plotted values were digitized.
 
 ### Figure 10-3 - Pollution, energy, and growth, US, 1970-2015
 

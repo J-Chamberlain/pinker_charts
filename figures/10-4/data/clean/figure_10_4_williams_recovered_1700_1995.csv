@@ -1,0 +1,7 @@
+period,tropical_mha,temperate_mha,total_net_change_mha,annual_rate_mha_per_year,source_status
+1700-1849,109,180,-289,1.94,recovered_from_Williams_table_12_2_via_accessible_snippet
+1850-1919,70,135,-205,2.97,recovered_from_Williams_table_12_2_via_accessible_snippet
+1920-1949,235,99,-334,11.52,recovered_from_Williams_table_12_2_via_accessible_snippet
+1950-1979,318,18,-336,11.57,recovered_from_Williams_table_12_2_via_accessible_snippet
+1980-1995,220,6,-226,15.1,recovered_from_Williams_table_12_2_via_accessible_snippet
+1996-2010,,,,,unrecovered_FAO_2010b_period_split

@@ -5,10 +5,12 @@
 - [x] Surrounding text reviewed in Supplemental PDF text extraction.
 - [x] FAO 2012 source publication located.
 - [x] FAO source graphic located and captured.
-- [ ] Original numerical estimate table recovered.
+- [x] Williams 1700-1995 numerical table recovered.
+- [ ] FAO 2010b/FRA 2010 1996-2010 tropical/temperate split recovered.
 - [x] No Pinker plotted values digitized.
 - [x] Book-period status comparison generated.
 - [x] Extension absence documented.
+- [x] Pinker line vs FAO period-bar discrepancy logged.
 - [x] Data fidelity reviewed.
 - [x] Visual fidelity reviewed against PDF reference.
 - [x] Extension clarity reviewed.
