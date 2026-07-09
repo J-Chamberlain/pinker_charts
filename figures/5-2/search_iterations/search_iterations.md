@@ -5,3 +5,14 @@
 - "Child mortality, 1751-2013" historical CSV
 - "Our World in Data, Roser 2016a, based on UN Child Mortality Estimates and the Human Mortality Database."
 - Internet Archive and successor dataset checks
+- 2026-07-09: Wayback CDX for `ourworldindata.org/child-mortality/` found 2016
+  captures; 2016-04-23 article downloaded.
+- 2026-07-09: Archived 2016 article showed old Chart Builder
+  `public/view/58` for the country-by-country long-run chart.
+- 2026-07-09: Wayback CDX for Chart Builder view 58 found 2015 HTML shells, but
+  no captured `data/config/58` payload in the checked CDX results.
+- 2026-07-09: Current playback/migration of view 58 led to
+  `grapher/child-mortality-around-the-world`, which is a UN regional chart and
+  not the five-country book figure.
+- 2026-07-09: Recovered OWID dataset candidates from `owid/owid-datasets`:
+  Gapminder 2015, selected Gapminder v10 2017, and CME Info 2018.

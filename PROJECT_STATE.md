@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-07-05 America/Los_Angeles
+Last update: 2026-07-09 America/Los_Angeles
 
-Project version: `1.15-source-recovery-figure-10-4-deforestation`
+Project version: `1.16-source-recovery-figure-5-2-child-mortality`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -89,7 +89,7 @@ this file are all updated. Only then may Codex begin another figure.
 | --- | --- | --- | --- | --- | --- |
 | 4-1 | Tone of the news, 1945-2010 | Source recovery blocked; Supplemental PDF reference captured | `manual_review_needed` | Low | Deeper First Monday/GDELT/archive/repository recovery found only article images and mirrored PNGs; underlying monthly NYT/SWB tone data were not found; no digitized reconstruction was made. |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
-| 5-2 | Child mortality, 1751-2013 | Visual QA remediation and source recovery | `partial_match` | Medium | PDF reference crop added and proxy coverage trimmed to better match the book; exact Roser 2016a UN/HMD assembled source remains unresolved. |
+| 5-2 | Child mortality, 1751-2013 | Source-family recovery; exact Chart Builder data blocked | `partial_match` | Medium | Supplemental PDF page 3 and Roser 2016a bibliography entry confirmed; archived 2016 OWID article embeds old Chart Builder view 58, but its data/config payload was not recovered; current OWID successor proxy remains a partial visual match. |
 | 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference refreshed from supplemental PDF page 3; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
 | 5-4 | Life expectancy, UK, 1701-2013 | Track A targeted source recovery needed | `needs_targeted_source_recovery` | Low | Book reference/source refreshed from supplemental PDF page 4, but exact age-specific HMD/OWID series for ages 1, 5, 10, 20, 30, 40, 50, 60, and 70 were not recovered. |
 | 6-1 | Childhood deaths from infectious disease, 2000-2013 | Visual QA blocked at source recovery | `blocked_external_source` | Low | PDF reference shows a five-line annual deaths chart; misleading IHME bar proxy was removed and reconstruction is blocked until the cited CHERG/WHO Liu et al. appendix or verified equivalent annual line-series data are recovered. |
@@ -191,11 +191,12 @@ support a verified reconstruction.
   not been proven. A recovered UNCTADStat-style mirror supports a book-style
   reconstruction through 2020, but it remains an updated-equivalent or partial
   source rather than a verified book-era dataset.
-- Figure 5-2: the Kindle title/source and chart page were captured, and the
-  reconstruction was remediated to use the current OWID selected
-  child-mortality series directly in percent units. It remains a partial match
-  because the exact cited Roser 2016a UN Child Mortality/Human Mortality
-  Database assembly has not been recovered.
+- Figure 5-2: the Supplemental PDF source line and Roser 2016a bibliography
+  entry were confirmed, and the archived 2016 OWID article was recovered. The
+  article embeds old Chart Builder view 58 for the long-run country chart, but
+  the dynamic data/config payload was not recovered. Current plots still use the
+  current OWID selected child-mortality series directly in percent units as a
+  partial-match successor/proxy.
 - Figure 19-1: the actual Kindle chart-page crop was captured and included in
   the side-by-side comparison. The current reconstruction remains a partial
   match because it uses current OWID nuclear-warhead successor line data rather
@@ -274,9 +275,24 @@ Canonical documentation:
 
 - Caption: `figures/5-2/captions/caption.txt`
 - Provenance: `figures/5-2/provenance/provenance.md`
+- Source recovery report: `figures/5-2/source_logs/source_recovery_report_2026-07-09.md`
 - Anomaly review: `figures/5-2/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/5-2/metadata/metadata.json`
 - Review checklist: `figures/5-2/review_checklist.md`
+
+Source status: Supplemental Graphics PDF page 3 confirms the title, source
+note, five-country visual, and 1751-2013 title range. The bibliography entry
+resolves to Roser, M. 2016a, "Child mortality," Our World in Data,
+`https://ourworldindata.org/child-mortality/`. The 2016-04-23 archived OWID
+article was recovered and its "Country by Country Decline in Child Mortality"
+section embeds old Chart Builder view 58. Wayback confirms 2015 captures of
+view 58, but this run did not recover the dynamic `data/config/58` payload or
+downloaded dimensions CSV. Candidate OWID datasets recovered from
+`owid/owid-datasets` include Gapminder 2015, selected Gapminder v10 2017, and
+CME Info/UN IGME 2018; these document the source family but do not exactly
+recover the Pinker/Roser plotted dataset. Current reconstruction remains the
+current OWID `child-mortality` successor/proxy in percent units, with dashed
+post-2013 extension from the same successor series.
 
 ### Figure 5-3 - Maternal mortality, 1751-2013
 
@@ -778,8 +794,9 @@ Canonical documentation:
   Major issue.
 - Figure 10-5 needs the exact Roser 2016r/ITOPF source snapshot or a documented
   archival equivalent for the full 1970-2016 oil-shipped-by-sea series.
-- Figure 5-2 needs the exact Roser 2016a UN/HMD assembled dataset or an
-  archival copy before it can be promoted beyond `partial_match`.
+- Figure 5-2 needs the exact Roser 2016a/old Chart Builder view 58 data-config
+  payload, downloaded dimensions CSV, or equivalent book-era OWID export before
+  it can be promoted beyond `partial_match`.
 - Figure 19-1 needs the cited HumanProgress/FAS 2016 table or archival
   equivalent and a stacked-area reconstruction before visual validation can
   pass.

@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8"/>
+<title>Child Mortality — Our World in Data</title><meta name="robots" content="noodp,noydir"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:1461066421,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"f71fe178681c3a389c693d423f0582f8",petok:"3f5a06752151b51683014825c56b8cfd2e8befda-1461420851-1800",zone:"ourworldindata.org",rocket:"0",apps:{"ga_key":{"ua":"UA-42018644-1","ga_bs":"2"}},sha2test:0}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e982913d31/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<link rel="alternate" type="application/rss+xml" title="Our World in Data &raquo; Feed" href="//ourworldindata.org/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Our World in Data &raquo; Comments Feed" href="//ourworldindata.org/comments/feed/"/>
+<link rel="canonical" href="//ourworldindata.org/child-mortality/"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/ourworldindata.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}</style>
+<link rel='stylesheet' id='usernoise-button-css' href='//ourworldindata.org/wp-content/plugins/usernoise/css/button.css?ver=3.7.20' type='text/css' media='all'/>
+<link rel='stylesheet' id='usernoise-form-css' href='//ourworldindata.org/wp-content/plugins/usernoise/css/form.css?ver=3.7.20' type='text/css' media='all'/>
+<link rel='stylesheet' id='wp-quicklatex-format-css' href='//ourworldindata.org/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='parallax-pro-theme-css' href='//ourworldindata.org/wp-content/themes/parallax-pro/style.css?ver=1.2' type='text/css' media='all'/>
+<style id='parallax-pro-theme-inline-css' type='text/css'>.home-section-1{background-image:url(http://ourworldindata.org/wp-content/uploads/2015/01/WorldMapDark2.png);}.home-section-3{background-image:url(http://ourworldindata.org/wp-content/uploads/2015/01/WorldMapDark2.png);}.home-section-5{background-image:url(http://ourworldindata.org/wp-content/themes/parallax-pro/images/bg-5.jpg);}</style>
+<link rel='stylesheet' id='lazyloadxt-fadein-style-css' href='//ourworldindata.org/wp-content/plugins/lazy-load-xt/css/jquery.lazyloadxt.fadein.css?ver=1.0.6' type='text/css' media='all'/>
+<link rel='stylesheet' id='lazyloadxt-spinner-style-css' href='//ourworldindata.org/wp-content/plugins/lazy-load-xt/css/jquery.lazyloadxt.spinner.css?ver=1.0.6' type='text/css' media='all'/>
+<link rel='stylesheet' id='side-matter-css' href='//ourworldindata.org/wp-content/plugins/side-matter/css/side-matter.css?ver=1.4' type='text/css' media='all'/>
+<link rel='stylesheet' id='ce_responsive-css' href='//ourworldindata.org/wp-content/plugins/simple-embed-code/css/video-container.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='dashicons-css' href='//ourworldindata.org/wp-includes/css/dashicons.min.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='parallax-google-fonts-css' href='//fonts.googleapis.com/css?family=Montserrat%7CSorts+Mill+Goudy&#038;ver=1.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='font-awesome-latest-css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='fontello-custom-css' href='//ourworldindata.org/wp-content/themes/parallax-pro/css/fontello.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='simple-social-icons-font-css' href='//ourworldindata.org/wp-content/plugins/simple-social-icons/css/style.css?ver=1.0.12' type='text/css' media='all'/>
+<link rel='stylesheet' id='tablepress-default-css' href='//ourworldindata.org/wp-content/tablepress-combined.min.css?ver=16' type='text/css' media='all'/>
+<link rel='stylesheet' id='fancybox-css' href='//ourworldindata.org/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.7.min.css?ver=1.5.7' type='text/css' media='screen'/>
+<!--[if !IE]><!-->
+<link rel='stylesheet' id='tablepress-responsive-css' href='//ourworldindata.org/wp-content/plugins/tablepress-responsive-tables/tablepress-responsive.min.css?ver=1.1' type='text/css' media='all'/>
+<!--<![endif]-->
+<script type='text/javascript' src='//ourworldindata.org/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script><script>jQueryWP = jQuery;</script>
+<script type='text/javascript' src='//ourworldindata.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var usernoiseButton = {"text":"Give me Feedback","style":"background-color: #002147; color: #FFFFFF","class":"un-bottom","windowUrl":"\/wp-admin\/admin-ajax.php?action=un_load_window","showButton":"1","disableOnMobiles":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/usernoise/js/usernoise.js?ver=3.7.20'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/usernoise/js/button.js?ver=3.7.20'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/lazy-load-xt/js/jquery.lazyloadxt.extra.js?ver=1.0.6'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/lazy-load-xt/js/jquery.lazyloadxt.srcset.js?ver=1.0.6'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/themes/parallax-pro/js/responsive-menu.js?ver=1.0.0'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/themes/parallax-pro/js/jquery.menu-aim.js?ver=1.0.0'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0'></script>
+<link rel='https://api.w.org/' href='//ourworldindata.org/wp-json/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="//ourworldindata.org/xmlrpc.php?rsd"/>
+<link rel='shortlink' href='//ourworldindata.org/?p=1441'/>
+<link rel="alternate" type="application/json+oembed" href="//ourworldindata.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fourworldindata.org%2Fchild-mortality%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="//ourworldindata.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fourworldindata.org%2Fchild-mortality%2F&#038;format=xml"/>
+ 
+<meta name="google-site-verification" content="Y7Pf2HZYlPcacwjBODsIN2xasgvR13QFgFQw0po9VeY"/>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png"><link rel="pingback" href="//ourworldindata.org/xmlrpc.php"/>
+<style>body{visibility:hidden;}</style>
+<noscript>
+<style>body{visibility:inherit;}</style>
+</noscript><!--[if lt IE 9]><script src="//ourworldindata.org/wp-content/themes/genesis/lib/js/html5shiv.min.js"></script><![endif]-->
+<style type="text/css" media="screen">.simple-social-icons ul li a,.simple-social-icons ul li a:hover{background-color:#3E85EE!important;border-radius:60px;color:#000000!important;border:0px #ffffff solid!important;font-size:30px;padding:15px;}.simple-social-icons ul li a:hover{background-color:#3E85EE!important;border-color:#ffffff!important;color:#ffffff!important;}</style><style type="text/css">.broken_link,a.broken_link{text-decoration:line-through;}</style>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+var fb_timeout = null;
+var fb_opts = { 'overlayShow' : true, 'hideOnOverlayClick' : true, 'overlayOpacity' : 0.75, 'overlayColor' : '#25365e', 'showCloseButton' : true, 'centerOnScroll' : false, 'enableEscapeButton' : true, 'autoScale' : true };
+var easy_fancybox_handler = function(){
+	/* IMG */
+	var fb_IMG_select = 'a[href*=".jpg"]:not(.nofancybox,.pin-it-button), area[href*=".jpg"]:not(.nofancybox), a[href*=".jpeg"]:not(.nofancybox,.pin-it-button), area[href*=".jpeg"]:not(.nofancybox), a[href*=".png"]:not(.nofancybox,.pin-it-button), area[href*=".png"]:not(.nofancybox)';
+	jQuery(fb_IMG_select).addClass('fancybox image');
+	var fb_IMG_sections = jQuery('div.gallery');
+	fb_IMG_sections.each(function() { jQuery(this).find(fb_IMG_select).attr('rel', 'gallery-' + fb_IMG_sections.index(this)); });
+	jQuery('a.fancybox, area.fancybox, li.fancybox a:not(li.nofancybox a)').fancybox( jQuery.extend({}, fb_opts, { 'easingIn' : 'linear', 'easingOut' : 'linear', 'opacity' : false, 'hideOnContentClick' : true, 'titleShow' : true, 'titlePosition' : 'outside', 'titleFromAlt' : true, 'showNavArrows' : true, 'enableKeyboardNav' : true, 'cyclic' : false }) );
+	/* iFrame */
+	jQuery('a.fancybox-iframe, area.fancybox-iframe, li.fancybox-iframe a').fancybox( jQuery.extend({}, fb_opts, { 'type' : 'iframe', 'width' : '100%', 'height' : '100%', 'titleShow' : true, 'titlePosition' : 'float', 'titleFromAlt' : true }) );
+	/* Auto-click */ 
+	jQuery('#fancybox-auto').trigger('click');
+}
+/* ]]> */
+</script>
+<style type="text/css">#fancybox-content{background-color:#fff}#fancybox-content{border-color:#fff}#fancybox-outer{background-color:#fff}#fancybox-content{color:inherit}</style>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42018644-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body class="page page-id-1441 page-child parent-pageid-198 page-template-default content-sidebar" itemscope itemtype="http://schema.org/WebPage"><div class="site-container"><header class="site-header" itemscope itemtype="http://schema.org/WPHeader"><div class="wrap"><div class="title-area"><p class="site-title" itemprop="headline"><a href="http://ourworldindata.org/">Our World in Data</a></p><p class="site-description" itemprop="description">Visualising the Empirical Evidence on how the World is Changing</p></div><div class="widget-area header-widget-area"><section id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-wrap"><nav class="nav-header" itemscope itemtype="http://schema.org/SiteNavigationElement"><ul id="menu-all-descendants-as-submenus" class="menu genesis-nav-menu"><li id="menu-item-1877" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children current-menu-ancestor current_page_ancestor menu-item-1877"><a href="http://ourworldindata.org/data/" itemprop="url"><span itemprop="name">Topics</span></a>
+<ul class="sub-menu">
+<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-parent current-page-parent current_page_parent menu-item-has-children current-menu-ancestor current_page_ancestor menu-item-198"><a href="#" itemprop="url"><span itemprop="name">1 Population Growth &#038; Vital Statistics</span></a>
+<ul class="sub-menu">
+<li id="menu-item-1308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1308 starred"><a href="http://ourworldindata.org/world-population-growth/" itemprop="url"><span itemprop="name">World Population Growth</span></a></li>
+<li id="menu-item-1314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1314"><a href="http://ourworldindata.org/future-world-population-growth/" itemprop="url"><span itemprop="name">Future World Population Growth</span></a></li>
+<li id="menu-item-3604" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3604"><a href="http://ourworldindata.org/fertility-rates/" itemprop="url"><span itemprop="name">Fertility Rates</span></a></li>
+<li id="menu-item-3521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3521"><a href="http://ourworldindata.org/age-structure-and-mortality-by-age/" itemprop="url"><span itemprop="name">Age Structure and Mortality by Age</span></a></li>
+<li id="menu-item-1441" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1441 current_page_item menu-item-1441 starred"><a href="http://ourworldindata.org/child-mortality/" itemprop="url"><span itemprop="name">Child Mortality</span></a></li>
+<li id="menu-item-3466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3466"><a href="http://ourworldindata.org/infant-mortality/" itemprop="url"><span itemprop="name">Infant Mortality</span></a></li>
+<li id="menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1670 starred"><a href="http://ourworldindata.org/life-expectancy/" itemprop="url"><span itemprop="name">Life Expectancy</span></a></li>
+</ul>
+</li>
+<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-197"><a href="#" itemprop="url"><span itemprop="name">2 Health</span></a>
+<ul class="sub-menu">
+<li id="menu-item-6890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6890"><a href="http://ourworldindata.org/burden-of-disease/" itemprop="url"><span itemprop="name">Burden of Disease</span></a></li>
+<li id="menu-item-4342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4342"><a href="http://ourworldindata.org/eradication-of-diseases/" itemprop="url"><span itemprop="name">Eradication of Diseases</span></a></li>
+<li id="menu-item-7334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7334"><a href="http://ourworldindata.org/financing-healthcare/" itemprop="url"><span itemprop="name">Financing Healthcare</span></a></li>
+<li id="menu-item-3504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3504"><a href="http://ourworldindata.org/health-inequality/" itemprop="url"><span itemprop="name">Health Inequality</span></a></li>
+<li id="menu-item-3083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3083"><a href="http://ourworldindata.org/hiv-aids/" itemprop="url"><span itemprop="name">HIV / AIDS</span></a></li>
+<li id="menu-item-3000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3000"><a href="http://ourworldindata.org/malaria/" itemprop="url"><span itemprop="name">Malaria</span></a></li>
+<li id="menu-item-2983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2983"><a href="http://ourworldindata.org/maternal-mortality/" itemprop="url"><span itemprop="name">Maternal Mortality</span></a></li>
+<li id="menu-item-1683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1683"><a href="http://ourworldindata.org/smoking/" itemprop="url"><span itemprop="name">Smoking</span></a></li>
+<li id="menu-item-5554" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5554"><a href="http://ourworldindata.org/suicide/" itemprop="url"><span itemprop="name">Suicide</span></a></li>
+<li id="menu-item-1455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1455"><a href="http://ourworldindata.org/vaccination/" itemprop="url"><span itemprop="name">Vaccination</span></a></li>
+</ul>
+</li>
+<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-199"><a href="#" itemprop="url"><span itemprop="name">3 Food &#038; Agriculture</span></a>
+<ul class="sub-menu">
+<li id="menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-596"><a href="http://ourworldindata.org/food-per-person/" itemprop="url"><span itemprop="name">Food per Person</span></a></li>
+<li id="menu-item-2681" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2681"><a href="http://ourworldindata.org/hunger-and-undernourishment/" itemprop="url"><span itemprop="name">Hunger and Undernourishment</span></a></li>
+<li id="menu-item-2756" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2756"><a href="http://ourworldindata.org/famines/" itemprop="url"><span itemprop="name">Famines</span></a></li>
+<li id="menu-item-2697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2697"><a href="http://ourworldindata.org/human-height/" itemprop="url"><span itemprop="name">Human Height</span></a></li>
+<li id="menu-item-1258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1258"><a href="http://ourworldindata.org/agricultural-employment/" itemprop="url"><span itemprop="name">Agricultural Employment</span></a></li>
+<li id="menu-item-2809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2809"><a href="http://ourworldindata.org/land-use-in-agriculture/" itemprop="url"><span itemprop="name">Land Use in Agriculture</span></a></li>
+<li id="menu-item-2771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2771"><a href="http://ourworldindata.org/yields/" itemprop="url"><span itemprop="name">Yields</span></a></li>
+<li id="menu-item-2850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2850"><a href="http://ourworldindata.org/fertilizer-and-pesticides/" itemprop="url"><span itemprop="name">Fertilizer and Pesticides</span></a></li>
+<li id="menu-item-2689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2689"><a href="http://ourworldindata.org/food-prices/" itemprop="url"><span itemprop="name">Food Prices</span></a></li>
+<li id="menu-item-2729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2729"><a href="http://ourworldindata.org/volatility-of-food-prices/" itemprop="url"><span itemprop="name">Volatility of Food Prices</span></a></li>
+</ul>
+</li>
+<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-200"><a href="#" itemprop="url"><span itemprop="name">4 Resources &#038; Energy</span></a>
+<ul class="sub-menu">
+<li id="menu-item-4815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4815"><a href="http://ourworldindata.org/co2-and-other-greenhouse-gas-emissions/" itemprop="url"><span itemprop="name">CO2 and other Greenhouse Gas Emissions</span></a></li>
+<li id="menu-item-4128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4128"><a href="http://ourworldindata.org/energy-production-and-changing-energy-sources/" itemprop="url"><span itemprop="name">Energy Production &#038; Changing Energy Sources</span></a></li>
+</ul>
+</li>
+<li id="menu-item-3198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3198"><a href="#" itemprop="url"><span itemprop="name">5 Environmental Change</span></a>
+<ul class="sub-menu">
+<li id="menu-item-3026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3026"><a href="http://ourworldindata.org/forest-cover/" itemprop="url"><span itemprop="name">Forest Cover</span></a></li>
+<li id="menu-item-3059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3059"><a href="http://ourworldindata.org/indoor-air-pollution/" itemprop="url"><span itemprop="name">Indoor Air Pollution</span></a></li>
+<li id="menu-item-3016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3016"><a href="http://ourworldindata.org/land-cover/" itemprop="url"><span itemprop="name">Land Cover</span></a></li>
+<li id="menu-item-4315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4315"><a href="http://ourworldindata.org/natural-catastrophes/" itemprop="url"><span itemprop="name">Natural Catastrophes</span></a></li>
+<li id="menu-item-586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="http://ourworldindata.org/oil-spills/" itemprop="url"><span itemprop="name">Oil Spills</span></a></li>
+</ul>
+</li>
+<li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-196"><a href="#" itemprop="url"><span itemprop="name">6 Technology &#038; Infrastructure</span></a>
+<ul class="sub-menu">
+<li id="menu-item-2455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2455"><a href="http://ourworldindata.org/research-development-engineers-scientists/" itemprop="url"><span itemprop="name">R&#038;D, Engineers &#038; Scientists</span></a></li>
+<li id="menu-item-1476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1476"><a href="http://ourworldindata.org/technological-progress/" itemprop="url"><span itemprop="name">Technological Progress</span></a></li>
+</ul>
+</li>
+<li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-194"><a href="#" itemprop="url"><span itemprop="name">7 Growth &#038; Distribution of Prosperity</span></a>
+<ul class="sub-menu">
+<li id="menu-item-5155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5155"><a href="http://ourworldindata.org/incomes-across-the-distribution/" itemprop="url"><span itemprop="name">Incomes across the Income Distribution</span></a></li>
+<li id="menu-item-1701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1701 starred"><a href="http://ourworldindata.org/world-poverty/" itemprop="url"><span itemprop="name">World Poverty</span></a></li>
+<li id="menu-item-4002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4002"><a href="http://ourworldindata.org/gdp-growth-over-the-last-centuries/" itemprop="url"><span itemprop="name">GDP Growth Over the Last Centuries</span></a></li>
+<li id="menu-item-1507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1507"><a href="http://ourworldindata.org/gdp-growth-over-the-very-long-run/" itemprop="url"><span itemprop="name">GDP Growth over the Very Long Run</span></a></li>
+<li id="menu-item-3153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3153"><a href="http://ourworldindata.org/economic-convergence-between-countries/" itemprop="url"><span itemprop="name">Economic Convergence between Countries</span></a></li>
+<li id="menu-item-3131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3131"><a href="http://ourworldindata.org/inequality-between-world-citizens/" itemprop="url"><span itemprop="name">Inequality between World Citizens</span></a></li>
+<li id="menu-item-3127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3127 starred"><a href="http://ourworldindata.org/gdp-data/" itemprop="url"><span itemprop="name">GDP Data</span></a></li>
+<li id="menu-item-3178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3178"><a href="http://ourworldindata.org/income-inequality/" itemprop="url"><span itemprop="name">Income Inequality</span></a></li>
+</ul>
+</li>
+<li id="menu-item-774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-774"><a href="#" itemprop="url"><span itemprop="name">8 Economic Development, Work &#038; Standard of Living</span></a>
+<ul class="sub-menu">
+<li id="menu-item-6939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6939 starred"><a href="http://ourworldindata.org/child-labor/" itemprop="url"><span itemprop="name">Child Labor</span></a></li>
+<li id="menu-item-1567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1567"><a href="http://ourworldindata.org/happiness-and-life-satisfaction/" itemprop="url"><span itemprop="name">Happiness and Life Satisfaction</span></a></li>
+<li id="menu-item-4647" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4647"><a href="http://ourworldindata.org/human-development-index/" itemprop="url"><span itemprop="name">Human Development Index (HDI)</span></a></li>
+<li id="menu-item-3217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3217"><a href="http://ourworldindata.org/light/" itemprop="url"><span itemprop="name">Light</span></a></li>
+<li id="menu-item-4623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4623"><a href="http://ourworldindata.org/trends-in-africa/" itemprop="url"><span itemprop="name">Trends in Africa</span></a></li>
+<li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"><a href="http://ourworldindata.org/working-hours/" itemprop="url"><span itemprop="name">Working Hours</span></a></li>
+</ul>
+</li>
+<li id="menu-item-775" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-775"><a href="#" itemprop="url"><span itemprop="name">9 The Public Sector &#038; Economic System</span></a>
+<ul class="sub-menu">
+<li id="menu-item-1588" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1588"><a href="http://ourworldindata.org/social-spending/" itemprop="url"><span itemprop="name">Social Spending</span></a></li>
+</ul>
+</li>
+<li id="menu-item-776" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-776"><a href="#" itemprop="url"><span itemprop="name">10 Global Interconnections</span></a>
+<ul class="sub-menu">
+<li id="menu-item-1652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1652"><a href="http://ourworldindata.org/international-trade/" itemprop="url"><span itemprop="name">International Trade</span></a></li>
+</ul>
+</li>
+<li id="menu-item-778" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-778"><a href="#" itemprop="url"><span itemprop="name">11 War &#038; Peace</span></a>
+<ul class="sub-menu">
+<li id="menu-item-2594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2594"><a href="http://ourworldindata.org/civil-wars/" itemprop="url"><span itemprop="name">Civil Wars</span></a></li>
+<li id="menu-item-2605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2605"><a href="http://ourworldindata.org/genocides/" itemprop="url"><span itemprop="name">Genocide, Politicide and Democide</span></a></li>
+<li id="menu-item-2610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2610"><a href="http://ourworldindata.org/military-spending/" itemprop="url"><span itemprop="name">Military Spending</span></a></li>
+<li id="menu-item-2629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2629"><a href="http://ourworldindata.org/nuclear-weapons/" itemprop="url"><span itemprop="name">Nuclear Weapons</span></a></li>
+<li id="menu-item-2643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2643"><a href="http://ourworldindata.org/peacekeeping/" itemprop="url"><span itemprop="name">Peacekeeping</span></a></li>
+<li id="menu-item-2523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2523"><a href="http://ourworldindata.org/terrorism/" itemprop="url"><span itemprop="name">Terrorism</span></a></li>
+<li id="menu-item-2567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2567"><a href="http://ourworldindata.org/war-and-peace-before-1945/" itemprop="url"><span itemprop="name">War and Peace before 1945</span></a></li>
+<li id="menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-545"><a href="http://ourworldindata.org/war-and-peace-after-1945/" itemprop="url"><span itemprop="name">War and Peace after 1945</span></a></li>
+</ul>
+</li>
+<li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-193"><a href="#" itemprop="url"><span itemprop="name">12 Political Regimes</span></a>
+<ul class="sub-menu">
+<li id="menu-item-691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-691"><a href="http://ourworldindata.org/democratisation/" itemprop="url"><span itemprop="name">Democratisation</span></a></li>
+</ul>
+</li>
+<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-191"><a href="#" itemprop="url"><span itemprop="name">13 Violence &#038; Rights</span></a>
+<ul class="sub-menu">
+<li id="menu-item-2488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2488"><a href="http://ourworldindata.org/cascade-of-rights/" itemprop="url"><span itemprop="name">Cascade of Rights</span></a></li>
+<li id="menu-item-2589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2589"><a href="http://ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths/" itemprop="url"><span itemprop="name">Ethnographic and Archaeological Evidence on Violent Deaths</span></a></li>
+<li id="menu-item-2092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2092"><a href="http://ourworldindata.org/homicides/" itemprop="url"><span itemprop="name">Homicides</span></a></li>
+<li id="menu-item-2490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2490"><a href="http://ourworldindata.org/minorities-violence-racial-tolerance/" itemprop="url"><span itemprop="name">Treatment of Minorities &#8211; Violence and Tolerance</span></a></li>
+</ul>
+</li>
+<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-192"><a href="#" itemprop="url"><span itemprop="name">14 Education &#038; Knowledge</span></a>
+<ul class="sub-menu">
+<li id="menu-item-2422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2422"><a href="http://ourworldindata.org/global-rise-of-education/" itemprop="url"><span itemprop="name">Global Rise of Education</span></a></li>
+<li id="menu-item-2289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2289"><a href="http://ourworldindata.org/higher-education/" itemprop="url"><span itemprop="name">Higher Education</span></a></li>
+<li id="menu-item-5730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5730"><a href="http://ourworldindata.org/intelligence/" itemprop="url"><span itemprop="name">Intelligence</span></a></li>
+<li id="menu-item-2231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2231"><a href="http://ourworldindata.org/international-research-community/" itemprop="url"><span itemprop="name">International Research Community</span></a></li>
+<li id="menu-item-2246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2246"><a href="http://ourworldindata.org/primary-education-and-schools/" itemprop="url"><span itemprop="name">Primary Education and Schools</span></a></li>
+<li id="menu-item-2447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2447"><a href="http://ourworldindata.org/projections-of-future-education/" itemprop="url"><span itemprop="name">Projections of Future Education</span></a></li>
+<li id="menu-item-2275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2275"><a href="http://ourworldindata.org/quality-of-education-drop-out-rates/" itemprop="url"><span itemprop="name">Quality of Education</span></a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://ourworldindata.org/skill-premium-income-by-education/" itemprop="url"><span itemprop="name">Skill Premium &#8211; Income by Education</span></a></li>
+<li id="menu-item-671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671"><a href="http://ourworldindata.org/literacy/" itemprop="url"><span itemprop="name">Literacy</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2969"><a href="#" itemprop="url"><span itemprop="name">15 Media &#038; Communication</span></a>
+<ul class="sub-menu">
+<li id="menu-item-5734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5734"><a href="http://ourworldindata.org/internet/" itemprop="url"><span itemprop="name">Internet</span></a></li>
+<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573"><a href="http://ourworldindata.org/books/" itemprop="url"><span itemprop="name">Books</span></a></li>
+</ul>
+</li>
+<li id="menu-item-781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-781"><a href="#" itemprop="url"><span itemprop="name">16 Culture, Values &#038; Society</span></a>
+<ul class="sub-menu">
+<li id="menu-item-3108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3108"><a href="http://ourworldindata.org/materialism-and-post-materialism/" itemprop="url"><span itemprop="name">Materialism and Post-Materialism</span></a></li>
+<li id="menu-item-4863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4863"><a href="http://ourworldindata.org/optimism-pessimism/" itemprop="url"><span itemprop="name">Optimism &#038; Pessimism</span></a></li>
+<li id="menu-item-2684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2684"><a href="http://ourworldindata.org/trust/" itemprop="url"><span itemprop="name">Trust</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div></section>
+</div><nav class="owid-nav">
+<h1 class="owid-title" itemprop="headline">
+<a href="/">Our World in Data</a>
+</h1>
+<ul class="mobile">
+<li class="nav-button">
+<a href="/search" data-expand="#search-dropdown"><i class='fa fa-search'></i></a>
+</li><li class="nav-button">
+<a href="/data" data-expand="#topics-dropdown" class='mobile'><i class='fa fa-bars'></i></a>
+ 
+</li>
+</ul>
+</nav>
+<div id="search-dropdown" class="mobile">
+<form action="/">
+<input type="search" name="s" placeholder="Search..."></input>
+<button type="submit">
+<i class="fa fa-search"></i>
+</button>
+</form>
+</div>
+<div id="topics-dropdown" class="mobile">
+<ul>
+<div class='topics'><h2>Topics</h2></div><li class='category'><a><span> Population Growth & Vital Statistics</span></a><div class='subcategory-menu'><div class='submenu-title'> Population Growth & Vital Statistics</div><ul><li><a class='starred' href='http://ourworldindata.org/world-population-growth/'>World Population Growth</a></li><li><a href='http://ourworldindata.org/future-world-population-growth/'>Future World Population Growth</a></li><li><a href='http://ourworldindata.org/fertility-rates/'>Fertility Rates</a></li><li><a href='http://ourworldindata.org/age-structure-and-mortality-by-age/'>Age Structure and Mortality by Age</a></li><li><a class='starred' href='http://ourworldindata.org/child-mortality/'>Child Mortality</a></li><li><a href='http://ourworldindata.org/infant-mortality/'>Infant Mortality</a></li><li><a class='starred' href='http://ourworldindata.org/life-expectancy/'>Life Expectancy</a></li></ul></div></li><li class='category'><a><span> Health</span></a><div class='subcategory-menu'><div class='submenu-title'> Health</div><ul><li><a href='http://ourworldindata.org/burden-of-disease/'>Burden of Disease</a></li><li><a href='http://ourworldindata.org/eradication-of-diseases/'>Eradication of Diseases</a></li><li><a href='http://ourworldindata.org/financing-healthcare/'>Financing Healthcare</a></li><li><a href='http://ourworldindata.org/health-inequality/'>Health Inequality</a></li><li><a href='http://ourworldindata.org/hiv-aids/'>HIV / AIDS</a></li><li><a href='http://ourworldindata.org/malaria/'>Malaria</a></li><li><a href='http://ourworldindata.org/maternal-mortality/'>Maternal Mortality</a></li><li><a href='http://ourworldindata.org/smoking/'>Smoking</a></li><li><a href='http://ourworldindata.org/suicide/'>Suicide</a></li><li><a href='http://ourworldindata.org/vaccination/'>Vaccination</a></li></ul></div></li><li class='category'><a><span> Food & Agriculture</span></a><div class='subcategory-menu'><div class='submenu-title'> Food & Agriculture</div><ul><li><a href='http://ourworldindata.org/food-per-person/'>Food per Person</a></li><li><a href='http://ourworldindata.org/hunger-and-undernourishment/'>Hunger and Undernourishment</a></li><li><a href='http://ourworldindata.org/famines/'>Famines</a></li><li><a href='http://ourworldindata.org/human-height/'>Human Height</a></li><li><a href='http://ourworldindata.org/agricultural-employment/'>Agricultural Employment</a></li><li><a href='http://ourworldindata.org/land-use-in-agriculture/'>Land Use in Agriculture</a></li><li><a href='http://ourworldindata.org/yields/'>Yields</a></li><li><a href='http://ourworldindata.org/fertilizer-and-pesticides/'>Fertilizer and Pesticides</a></li><li><a href='http://ourworldindata.org/food-prices/'>Food Prices</a></li><li><a href='http://ourworldindata.org/volatility-of-food-prices/'>Volatility of Food Prices</a></li></ul></div></li><li class='category'><a><span> Resources & Energy</span></a><div class='subcategory-menu'><div class='submenu-title'> Resources & Energy</div><ul><li><a href='http://ourworldindata.org/co2-and-other-greenhouse-gas-emissions/'>CO2 and other Greenhouse Gas Emissions</a></li><li><a href='http://ourworldindata.org/energy-production-and-changing-energy-sources/'>Energy Production & Changing Energy Sources</a></li></ul></div></li><li class='category'><a><span> Environmental Change</span></a><div class='subcategory-menu'><div class='submenu-title'> Environmental Change</div><ul><li><a href='http://ourworldindata.org/forest-cover/'>Forest Cover</a></li><li><a href='http://ourworldindata.org/indoor-air-pollution/'>Indoor Air Pollution</a></li><li><a href='http://ourworldindata.org/land-cover/'>Land Cover</a></li><li><a href='http://ourworldindata.org/natural-catastrophes/'>Natural Catastrophes</a></li><li><a href='http://ourworldindata.org/oil-spills/'>Oil Spills</a></li></ul></div></li><li class='category'><a><span> Technology & Infrastructure</span></a><div class='subcategory-menu'><div class='submenu-title'> Technology & Infrastructure</div><ul><li><a href='http://ourworldindata.org/research-development-engineers-scientists/'>R&D, Engineers & Scientists</a></li><li><a href='http://ourworldindata.org/technological-progress/'>Technological Progress</a></li></ul></div></li><li class='category'><a><span> Growth & Distribution of Prosperity</span></a><div class='subcategory-menu'><div class='submenu-title'> Growth & Distribution of Prosperity</div><ul><li><a href='http://ourworldindata.org/incomes-across-the-distribution/'>Incomes across the Income Distribution</a></li><li><a class='starred' href='http://ourworldindata.org/world-poverty/'>World Poverty</a></li><li><a href='http://ourworldindata.org/gdp-growth-over-the-last-centuries/'>GDP Growth Over the Last Centuries</a></li><li><a href='http://ourworldindata.org/gdp-growth-over-the-very-long-run/'>GDP Growth over the Very Long Run</a></li><li><a href='http://ourworldindata.org/economic-convergence-between-countries/'>Economic Convergence between Countries</a></li><li><a href='http://ourworldindata.org/inequality-between-world-citizens/'>Inequality between World Citizens</a></li><li><a class='starred' href='http://ourworldindata.org/gdp-data/'>GDP Data</a></li><li><a href='http://ourworldindata.org/income-inequality/'>Income Inequality</a></li></ul></div></li><li class='category'><a><span> Economic Development, Work & Standard of Living</span></a><div class='subcategory-menu'><div class='submenu-title'> Economic Development, Work & Standard of Living</div><ul><li><a class='starred' href='http://ourworldindata.org/child-labor/'>Child Labor</a></li><li><a href='http://ourworldindata.org/happiness-and-life-satisfaction/'>Happiness and Life Satisfaction</a></li><li><a href='http://ourworldindata.org/human-development-index/'>Human Development Index (HDI)</a></li><li><a href='http://ourworldindata.org/light/'>Light</a></li><li><a href='http://ourworldindata.org/trends-in-africa/'>Trends in Africa</a></li><li><a href='http://ourworldindata.org/working-hours/'>Working Hours</a></li></ul></div></li><li class='category'><a><span> The Public Sector & Economic System</span></a><div class='subcategory-menu'><div class='submenu-title'> The Public Sector & Economic System</div><ul><li><a href='http://ourworldindata.org/social-spending/'>Social Spending</a></li></ul></div></li><li class='category'><a><span> Global Interconnections</span></a><div class='subcategory-menu'><div class='submenu-title'> Global Interconnections</div><ul><li><a href='http://ourworldindata.org/international-trade/'>International Trade</a></li></ul></div></li><li class='category'><a><span> War & Peace</span></a><div class='subcategory-menu'><div class='submenu-title'> War & Peace</div><ul><li><a href='http://ourworldindata.org/civil-wars/'>Civil Wars</a></li><li><a href='http://ourworldindata.org/genocides/'>Genocide, Politicide and Democide</a></li><li><a href='http://ourworldindata.org/military-spending/'>Military Spending</a></li><li><a href='http://ourworldindata.org/nuclear-weapons/'>Nuclear Weapons</a></li><li><a href='http://ourworldindata.org/peacekeeping/'>Peacekeeping</a></li><li><a href='http://ourworldindata.org/terrorism/'>Terrorism</a></li><li><a href='http://ourworldindata.org/war-and-peace-before-1945/'>War and Peace before 1945</a></li><li><a href='http://ourworldindata.org/war-and-peace-after-1945/'>War and Peace after 1945</a></li></ul></div></li><li class='category'><a><span> Political Regimes</span></a><div class='subcategory-menu'><div class='submenu-title'> Political Regimes</div><ul><li><a href='http://ourworldindata.org/democratisation/'>Democratisation</a></li></ul></div></li><li class='category'><a><span> Violence & Rights</span></a><div class='subcategory-menu'><div class='submenu-title'> Violence & Rights</div><ul><li><a href='http://ourworldindata.org/cascade-of-rights/'>Cascade of Rights</a></li><li><a href='http://ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths/'>Ethnographic and Archaeological Evidence on Violent Deaths</a></li><li><a href='http://ourworldindata.org/homicides/'>Homicides</a></li><li><a href='http://ourworldindata.org/minorities-violence-racial-tolerance/'>Treatment of Minorities - Violence and Tolerance</a></li></ul></div></li><li class='category'><a><span> Education & Knowledge</span></a><div class='subcategory-menu'><div class='submenu-title'> Education & Knowledge</div><ul><li><a href='http://ourworldindata.org/global-rise-of-education/'>Global Rise of Education</a></li><li><a href='http://ourworldindata.org/higher-education/'>Higher Education</a></li><li><a href='http://ourworldindata.org/intelligence/'>Intelligence</a></li><li><a href='http://ourworldindata.org/international-research-community/'>International Research Community</a></li><li><a href='http://ourworldindata.org/primary-education-and-schools/'>Primary Education and Schools</a></li><li><a href='http://ourworldindata.org/projections-of-future-education/'>Projections of Future Education</a></li><li><a href='http://ourworldindata.org/quality-of-education-drop-out-rates/'>Quality of Education</a></li><li><a href='http://ourworldindata.org/skill-premium-income-by-education/'>Skill Premium - Income by Education</a></li><li><a href='http://ourworldindata.org/literacy/'>Literacy</a></li></ul></div></li><li class='category'><a><span> Media & Communication</span></a><div class='subcategory-menu'><div class='submenu-title'> Media & Communication</div><ul><li><a href='http://ourworldindata.org/internet/'>Internet</a></li><li><a href='http://ourworldindata.org/books/'>Books</a></li></ul></div></li><li class='category'><a><span> Culture, Values & Society</span></a><div class='subcategory-menu'><div class='submenu-title'> Culture, Values & Society</div><ul><li><a href='http://ourworldindata.org/materialism-and-post-materialism/'>Materialism and Post-Materialism</a></li><li><a href='http://ourworldindata.org/optimism-pessimism/'>Optimism & Pessimism</a></li><li><a href='http://ourworldindata.org/trust/'>Trust</a></li></ul></div></li> <li class='end-link'><a href='/about'>About</a></li>
+<li class='end-link'><a href='/data'>Browse All</a></li>
+</ul>
+</div></div></header><div class="site-inner"><div class="content-sidebar-wrap"><main class="content"><div class="post-byline">Please cite the original source – including the original data source – and this entry on Our World In Data.<br>This entry can be cited as Max Roser (2016) – &lsquo;Child Mortality&rsquo;. <em>Published online at OurWorldInData.org.</em> Retrieved from: http://ourworldindata.org/child-mortality/ [Online Resource]</div><article class="post-1441 page type-page status-publish has-post-thumbnail entry" itemscope itemtype="http://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">Child Mortality</h1>
+</header><div class="entry-content" itemprop="text"><p>Since the beginning of the age of the Enlightenment and over the course of modernization, the mortality of children below 5 years of age has declined rapidly. Child mortality in rich countries today is much lower than 1%. This is a very recent development and was only reached after a hundredfold decline in child mortality in these countries. In early-modern times, child mortality was very high; in 18th century Sweden every third child died, and in 19th century Germany every second child died. With declining poverty and increasing knowledge and service in the health sector, child mortality around the world is declining very rapidly: Global child mortality fell from 18.2% in 1960 to 4.3% in 2015; while 4.3% is still too high, this is a substantial achievement. One reason why we do not hear about how global living conditions are improving in the media is that these are the slow processes that never make the headlines – on no day in the last 5 decades was there ever the headline ‘Global Child Mortality Fell by 0.00719% Since Yesterday’.</p>
+<p>Big countries like Brazil and China reduced their child mortality rates 10-fold over the last 4 decades. Other countries – especially in Africa – still have high child mortality rates, but its not true that these countries are not making progress. In Sub-Saharan Africa, child mortality has been continuously falling for the last 50 years (1 in 4 children died in the early 60s – today it is less than 1 in 10). Over the last decade this improvement has been happening faster than ever before. Rising prosperity, rising education and the spread of health care around the globe are the major drivers of this progress.</p>
+<h2 id="empirical-view"><span id="-empirical-view"> <a class="deep-link" href="#empirical-view"># </a>Empirical View</span></h2>
+<h4 id="country-by-country-decline-in-child-mortality"> <a class="deep-link" href="#country-by-country-decline-in-child-mortality"># </a>Country by Country Decline in Child Mortality</h4>
+<p>In the time series plot below I show child mortality over the long run. Today child mortality in industrialized countries is below 5 per 1,000 live births. The time series plot shows that these low mortality rates are a very recent development, and in pre-modern countries child mortality rates were between 300 and 500 per 1,000 live births. In the late 19th century, every second child in Germany died before its fifth birthday. In developing countries the health of children is quickly improving – but child mortality is still much higher than in developed countries.</p>
+<p>A second interesting characteristic that is immediately noticeable is that the series are very &#8216;spikey&#8217; in the 19th century and are then much smoother in the 20th century. This is partly because the data quality is improving over time but it also shows how frequent crises were in pre-modern times. The decline of crises is an important aspect of improving &#8216;living standards&#8217;. <a href="http://ourworldindata.org/data/food-agriculture/volatility-of-food-prices/#year-to-year-variation-in-the-price-of-wheat-in-pisa-1351-1799-o-gradaref">In the &#8216;Our World in Data&#8217; entry on food price volatility</a> you find a long-run series of food price volatility in Pisa that shows how frequent food crises were. In the following plot you can see what these and other crises – epidemics or wars, for example – meant for the health of the population.</p>
+<p><iframe style="width: 100%; height: 660px; border: 0px none;" data-src="http://ourworldindata.org/chart-builder/public/view/58" width="300" height="150"></iframe><noscript><iframe style="width: 100%; height: 660px; border: 0px none;" src="http://ourworldindata.org/chart-builder/public/view/58" width="300" height="150"></iframe></noscript></p>
+<h4 id="global-picture-of-child-mortality-from-1800-to-today"> <a class="deep-link" href="#global-picture-of-child-mortality-from-1800-to-today"># </a>Global Picture of Child Mortality from 1800 to Today</h4>
+<p>The chart shows the child mortality rate – the share of children dying before they reach the age of 5 – for the entire world population at 4 different points in time.</p>
+<p><em><strong>How to read the following graph:</strong> On the x-axis you find the cumulative share of the world population. The countries are ordered along the x-axis descending by the country’s child mortality rate. This makes it possible to see the child mortality rate for each country. Some countries are labelled, but not all. It is also possible to see which share of the world population had a child mortality rate lower than a given level. For the orange line – referring to data from 1950-60 – we see that close to 70% of the world population have a child mortality rate of higher than 10% back then.<br/>
+</em></p>
+<p>For 1800 (red line), you see that the countries on the very left – Yemen, India, and others that are not labelled – had a child mortality rate higher than 50%. Every second child died before the age of 5. On the very right of the red line you see that in 1800 the best-off countries in the world had a child mortality rate higher than 30%: Every third child died in the countries with the <em>best</em> health.</p>
+<p>Looking at the orange line, you see that in the following 150 years some countries substantially reduced their child mortality rate: 30% of the world population has a child mortality under 10%. Other countries were stuck in poor health: More than half of the world (57%) had child mortality that were still higher than 20%. The world was clearly divided into developed and developing countries. The rapid progress of the industrialized countries had the consequence that the distribution of global health was hugely unequal.</p>
+<p>The latest data refers to 2013. Global health has improved hugely. Particularly those countries that had the worst health in the 1950s experienced the most dramatic improvements. China for example reduced its child mortality from 28.4% to now 1.3%. The consequence of the faster progress in former developing countries is that global health inequality has fallen since the 1950s.</p>
+<p>The global average child mortality rate (weighted population) was 43.3% in 1800 and now fell to 3.4%. Focusing at global inequality we see that in 1800 health was bad around the world, in the 1950s the world became unequal, and today we are back to higher equality but on a much higher level.</p>
+<p>Comparing the position of countries on the red, orange, green and blue lines also makes it possible to see the change in a single countries: In 1800 every second child in South Korea died, in the 1950s the rate was halved (26%), and today it is down to 2.7%.</p>
+<h6 id="world-population-by-level-of-fertility-over-time-1950-2050-max-roser">World population by level of fertility over time, 1950-2050 – Max Roser<a id='ref-1' class='side-matter side-matter-ref' href='#note-1' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='The data shown in this graph are obtained from Gapminder.org.'>1</sup></a></p>
+<p><a href="http://ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_world-population-by-level-of-child-mortality.png"><img class="aligncenter wp-image-5568 size-large" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_world-population-by-level-of-child-mortality-750x525.png" alt="World population by level of fertility over time, 1950-2050 – Max Roser" width="750" height="525" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcset="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_world-population-by-level-of-child-mortality-150x105.png 150w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_world-population-by-level-of-child-mortality-400x280.png 400w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_world-population-by-level-of-child-mortality-750x525.png 750w" sizes="(max-width: 750px) 100vw, 750px"/><noscript><img class="aligncenter wp-image-5568 size-large" src="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_world-population-by-level-of-child-mortality-750x525.png" alt="World population by level of fertility over time, 1950-2050 – Max Roser" width="750" height="525" srcset="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_world-population-by-level-of-child-mortality-150x105.png 150w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_world-population-by-level-of-child-mortality-400x280.png 400w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_world-population-by-level-of-child-mortality-750x525.png 750w" sizes="(max-width: 750px) 100vw, 750px"/></noscript></a></p>
+<h3 id="child-mortality-in-pre-modern-cultures"> <a class="deep-link" href="#child-mortality-in-pre-modern-cultures"># </a>Child Mortality in Pre-modern Cultures</h3>
+<p>In &#8216;Longevity Among Hunter‐Gatherers&#8217; the authors, Gurven and Kaplan, compare mortality patterns of hunter gatherers and modern societies and state that &#8220;infant mortality is over 30 times greater among hunter-gatherers, and early child mortality is over 100 times greater than encountered in the United States&#8221;.<a id='ref-2' class='side-matter side-matter-ref' href='#note-2' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='M Gurven, H Kaplan (2007) – Longevity Among Hunter‐Gatherers: A Cross‐Cultural Examination. Population and Development Review. Volume 33, Issue 2, pages 321–365, June 2007. Online here.'>2</sup></a></p>
+<h6 id="proportions-of-subadults-defined-as-individuals-with-incomplete-skeletal-or-dental-development-in-samples-of-fossil-hominids-chamberlain-2006ref"> <a class="deep-link" href="#proportions-of-subadults-defined-as-individuals-with-incomplete-skeletal-or-dental-development-in-samples-of-fossil-hominids-chamberlain-2006ref"># </a>Proportions of subadults (defined as individuals with incomplete skeletal or dental development) in samples of fossil hominids – Chamberlain (2006)<a id='ref-3' class='side-matter side-matter-ref' href='#note-3' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='This is taken from Andrew T. Chamberlain (2006) – Demography in Archaeology. Cambridge University Press (Cambridge Manuals in Archaeology). The book&#8217;s website is here. The original sources of the data are: Koobi Fora: Wood, 1991; Hadar: Johanson et al., 1982; Kimbel et al., 1982; White and Johanson, 1982; Kimbel et al., 1994; Sterkfontein: Mann, 1975; Brain, 1981; Lockwood and Tobias, 2002; Swartkrans: Mann, 1975; Brain, 1981; Grine, 1993; Zhoukoudian: Weidenreich, 1939; Neanderthals: Trinkaus, 1995; Olduvai Gorge: Tobias, 1991; Atapuerca: Bermúdez de Castro et al., 2004.'>3</sup></a>
+<table id="tablepress-51" class="tablepress tablepress-id-51">
+<thead>
+<tr class="row-1 odd">
+<th class="column-1">Site and species</th><th class="column-2">Subadults</th><th class="column-3">Adults</th><th class="column-4">Share of Subadults</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+<td class="column-1">Surface collected sites<br/>
+Koobi Fora (Homo)</td><td class="column-2">7</td><td class="column-3">28</td><td class="column-4">20%</td>
+</tr>
+<tr class="row-3 odd">
+<td class="column-1">Koobi Fora (Paranthropus boisei)</td><td class="column-2">10</td><td class="column-3">29</td><td class="column-4">26%</td>
+</tr>
+<tr class="row-4 even">
+<td class="column-1">Hadar (Australopithecus afarensis)</td><td class="column-2">17</td><td class="column-3">41</td><td class="column-4">29%</td>
+</tr>
+<tr class="row-5 odd">
+<td class="column-1">Excavated sites<br/>
+Sterkfontein (Australopithecus africanus)</td><td class="column-2">22</td><td class="column-3">56</td><td class="column-4">28%</td>
+</tr>
+<tr class="row-6 even">
+<td class="column-1">Swartkrans (Paranthropus robustus)</td><td class="column-2">79</td><td class="column-3">80</td><td class="column-4">50%</td>
+</tr>
+<tr class="row-7 odd">
+<td class="column-1">Zhoukoudian (Homo erectus)</td><td class="column-2">15</td><td class="column-3">23</td><td class="column-4">39%</td>
+</tr>
+<tr class="row-8 even">
+<td class="column-1">Neanderthals (Homo neanderthalensis)</td><td class="column-2">106</td><td class="column-3">100</td><td class="column-4">52%</td>
+</tr>
+<tr class="row-9 odd">
+<td class="column-1">Olduvai Gorge (Homo habilis)</td><td class="column-2">13</td><td class="column-3">6</td><td class="column-4">68%</td>
+</tr>
+<tr class="row-10 even">
+<td class="column-1">Atapuerca (Homo heidelbergensis)</td><td class="column-2">19</td><td class="column-3">9</td><td class="column-4">68%</td>
+</tr>
+</tbody>
+</table>
+ </p>
+<h3 id="child-mortality-globally-post-1950"> <a class="deep-link" href="#child-mortality-globally-post-1950"># </a>Child Mortality Globally Post-1950</h3>
+<p>Though there are still large disparities between child mortality rates between different regions around the world, it is steadily decreasing in all world regions. If you want to study the trends by world region in more detail you can use the <a target="_blank" href="http://ourworldindata.org/wp-content/uploads/nvd3/ChildMortbyGeoRegionPost1960/ChildMortbyGeoRegionPost1960.html">interactive visualization</a>.</p>
+<h6 id="child-mortality-rate-by-world-regionref"> <a class="deep-link" href="#child-mortality-rate-by-world-regionref"># </a>Child mortality rate by world region<a id='ref-4' class='side-matter side-matter-ref' href='#note-4' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='The data is taken from the World Bank and shows &#8216;Mortality rate, under-5 (per 1,000 live births)&#8217; – it is online here http://data.worldbank.org/indicator/SH.DYN.MORT. The World Bank&#8217;s definition of world regions can be found here. The World Bank&#8217;s source are the estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) available at www.childmortality.org (but only by country and not by world region).'>4</sup></a><br/>
+<a href="https://ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960.png" rel="attachment wp-att-7367"><img class="aligncenter size-large wp-image-7367" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960-750x525.png" alt="Child-Mortality-Since-1960" width="750" height="525" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcset="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960-150x105.png 150w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960-400x280.png 400w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960-768x538.png 768w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960-750x525.png 750w" sizes="(max-width: 750px) 100vw, 750px"/><noscript><img class="aligncenter size-large wp-image-7367" src="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960-750x525.png" alt="Child-Mortality-Since-1960" width="750" height="525" srcset="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960-150x105.png 150w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960-400x280.png 400w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960-768x538.png 768w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_child-mortality-since-1960-750x525.png 750w" sizes="(max-width: 750px) 100vw, 750px"/></noscript></a></p>
+<h3 id="world-map-of-child-mortality"> <a class="deep-link" href="#world-map-of-child-mortality"># </a>World map of child mortality</h3>
+<p>The world visualizes the level of child mortality country by country. By moving the slider to a later year one can study the global decrease in child mortality. In fact child mortality has decreased in every single country over the last decades.<br/>
+<iframe style="width: 100%; height: 660px; border: 0px none;" data-src="http://ourworldindata.org/chart-builder/public/view/58?tab=map" width="300" height="150"></iframe><noscript><iframe style="width: 100%; height: 660px; border: 0px none;" src="http://ourworldindata.org/chart-builder/public/view/58?tab=map" width="300" height="150"></iframe></noscript></p>
+<h3 id="child-mortality-by-cause-of-death"> <a class="deep-link" href="#child-mortality-by-cause-of-death"># </a>Child Mortality by Cause of Death</h3>
+<p>In a publication in The Lancet Liu et al. (2015)<a id='ref-5' class='side-matter side-matter-ref' href='#note-5' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='Li Liu, PhD, Shefali Oza, MSc, Daniel Hogan, PhD, Jamie Perin, PhD, Prof Igor Rudan, MD, Prof Joy E Lawn, MD, Prof Simon Cousens, MA, Colin Mathers, PhD, Prof Robert E Black (2015) – Global, regional, and national causes of child mortality in 2000–13, with projections to inform post-2015 priorities: an updated systematic analysis. The Lancet, Volume 385, No. 9966, p430–440, 31 January 2015. http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(14)61698-6/fulltext'>5</sup></a> presented estimates on the causes of deaths of children in 2000 and 2013. The tree map below presents this data. Each rectangle corresponds to a cause of child mortality. The size of each rectangle shows the share of children killed by each cause. The three leading causes are preterm birth complications (15% of total; 0.965 million), pneumonia (2% in the first month, 13% later; 0.935 million in total), and intrapartum-related complications (11%, 0·662 million).</p>
+<p>44% of all children died in the first month of their life. More than half of all children (51.8%) died of infectious diseases. The researchers report &#8220;deaths due to infectious diseases, such as<br/>
+pneumonia, diarrhoea, and malaria, are concentrated in the first 2 years of life, which should direct programmes towards these very young ill children&#8221;.</p>
+<p>The color of each rectangle indicates the annual reduction of the mortality rate from that specific cause since 2000. Child mortality from all causes declined; the smallest decline (0.2%) was achieved for pertussis, also known as whooping cough; the largest decline was achieved for measles (12.8%) for which <a href="http://ourworldindata.org/data/health/vaccination/">a vaccination is widely available</a>. As the causes of mortality later in childhood are declining faster the researchers observe a shift in the timing of child deaths closer and closer to the time of birth.</p>
+<p>The absolute number of children dying decreased: In 2000 9,887 million children died before they were 5 years old – 13 years later, 6,282 million children died. This happened while the absolute number of livebirths increased from 127,703 million in 2000 to 137,688 million in 2013.</p>
+<p>Since cause of death data is not available for all countries in the world the researchers had to make use of three different sources of data: The preferred data was of course vital registration data; where not available Liu et al. (2015) estimated the cause of death with a multicause model, applying a multinomial logistic regression framework and when this was not possible they used a &#8220;verbal autopsy databased multicause model&#8221;.</p>
+<p><a href="https://ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_u5_deaths_by_cause_2013_lancet_data.png" rel="attachment wp-att-7281"><img class="aligncenter size-large wp-image-7281" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_u5_deaths_by_cause_2013_lancet_data-707x550.png" alt="U5_Deaths_by_Cause_2013_Lancet_data" width="707" height="550" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcset="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_u5_deaths_by_cause_2013_lancet_data-400x311.png 400w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_u5_deaths_by_cause_2013_lancet_data-768x598.png 768w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_u5_deaths_by_cause_2013_lancet_data-707x550.png 707w" sizes="(max-width: 707px) 100vw, 707px"/><noscript><img class="aligncenter size-large wp-image-7281" src="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_u5_deaths_by_cause_2013_lancet_data-707x550.png" alt="U5_Deaths_by_Cause_2013_Lancet_data" width="707" height="550" srcset="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_u5_deaths_by_cause_2013_lancet_data-400x311.png 400w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_u5_deaths_by_cause_2013_lancet_data-768x598.png 768w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_u5_deaths_by_cause_2013_lancet_data-707x550.png 707w" sizes="(max-width: 707px) 100vw, 707px"/></noscript></a></p>
+<h2 id="correlates-determinants-consequences"><span id="-correlates-determinants-consequences"> <a class="deep-link" href="#correlates-determinants-consequences"># </a>Correlates, Determinants &amp; Consequences</span></h2>
+<h3 id="child-mortality-and-income-level"> <a class="deep-link" href="#child-mortality-and-income-level"># </a>Child Mortality and Income Level</h3>
+<p>As one would expect, income level of the country is extremely correlated with child mortality rate. The poorest countries have the highest levels of child mortality, and the countries with the highest income have the lowest rates. This relationship has remained the same even as child mortality has decreased around the world, as demonstrated below.</p>
+<p><iframe style="width: 100%; height: 660px; border: 0px none;" data-src="http://ourworldindata.org/grapher/child-mortality-by-income-level-of-country" width="300" height="150"></iframe><noscript><iframe style="width: 100%; height: 660px; border: 0px none;" src="http://ourworldindata.org/grapher/child-mortality-by-income-level-of-country" width="300" height="150"></iframe></noscript></p>
+<p>The following scatter plot shows that child mortality is higher in countries in which a higher share of the population lives in extreme poverty.<br/>
+<iframe style="width: 100%; height: 660px; border: 0px none;" data-src="http://ourworldindata.org/grapher/public/view/161" width="300" height="150"></iframe><noscript><iframe style="width: 100%; height: 660px; border: 0px none;" src="http://ourworldindata.org/grapher/public/view/161" width="300" height="150"></iframe></noscript></p>
+<h3 id="better-education-of-women-reduces-child-mortality"> <a class="deep-link" href="#better-education-of-women-reduces-child-mortality"># </a>Better Education of Women reduces Child Mortality</h3>
+<p>There is a substantial literature on the effects of women&#8217;s education on child mortality. A more educated female population is strongly associated with lower rates of child mortality as well as both human and economic development. Some of the suggested reasons for this relationship are summarised in the figure below.</p>
+<h6 id="the-linkages-between-female-education-human-development-and-economic-development-brown-and-barrettref"> <a class="deep-link" href="#the-linkages-between-female-education-human-development-and-economic-development-brown-and-barrettref"># </a>The linkages between female education, human development and economic development &#8211; Brown and Barrett<a id='ref-6' class='side-matter side-matter-ref' href='#note-6' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='Angela W. Browne &amp; Hazel R. Barrett (1991) Female Education in Sub‐Saharan Africa: the key to development?, Comparative Education, 27:3, 275-285, DOI: 10.1080/0305006910270303. Available online here.'>6</sup></a></p>
+<p><a href="http://ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development.png"><img class="aligncenter size-large wp-image-5727" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development-750x384.png" alt="The linkages between female education, human development and economic development" width="750" height="384" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcset="//ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development-150x77.png 150w, //ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development-400x205.png 400w, //ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development-750x384.png 750w, //ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development.png 1283w" sizes="(max-width: 750px) 100vw, 750px"/><noscript><img class="aligncenter size-large wp-image-5727" src="//ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development-750x384.png" alt="The linkages between female education, human development and economic development" width="750" height="384" srcset="//ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development-150x77.png 150w, //ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development-400x205.png 400w, //ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development-750x384.png 750w, //ourworldindata.org/wp-content/uploads/2013/07/ourworldindata_the-linkages-between-female-education-human-development-and-economic-development.png 1283w" sizes="(max-width: 750px) 100vw, 750px"/></noscript></a></p>
+<p><iframe style="width: 100%; height: 660px; border: 0px none;" data-src="http://ourworldindata.org/chart-builder/public/view/51" width="300" height="150"></iframe><noscript><iframe style="width: 100%; height: 660px; border: 0px none;" src="http://ourworldindata.org/chart-builder/public/view/51" width="300" height="150"></iframe></noscript></p>
+<h6 id="counterfactual-analysis-of-effect-of-education-and-gross-domestic-product-gdp-on-child-mortality-globally-with-1970-a-and-1990-b-as-base-years-gakidou-et-al-ref"> <a class="deep-link" href="#counterfactual-analysis-of-effect-of-education-and-gross-domestic-product-gdp-on-child-mortality-globally-with-1970-a-and-1990-b-as-base-years-gakidou-et-al-ref"># </a>Counterfactual analysis of effect of education and gross domestic product (GDP) on child mortality globally with 1970 (A) and 1990 (B) as base years &#8211; Gakidou et al.<a id='ref-7' class='side-matter side-matter-ref' href='#note-7' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='Emmanuela Gakidou, Krycia Cowling, Rafael Lozano, Christopher JL Murray (2010) – Increased educational attainment and its effect on child mortality in 175 countries between 1970 and 2009: a systematic analysis, The Lancet, Volume 376, Issue 9745, 18–24 September 2010, Pages 959-974, ISSN 0140-6736, http://dx.doi.org/10.1016/S0140-6736(10)61257-3. Available online here.'>7</sup></a></p>
+<p>Gakidou et al. find that over half the decline seen in child mortality globally between 1970-2010 can be explained by improvements in the education of women. What is more, they find that economic growth (GDP) can only explain a very small amount of the reduction in child mortality.</p>
+<p>Explanatory notes from the authors: &#8220;The lines represent the actual child mortality rate (blue); estimated child mortality rate if GDP for each country had remained at the level it was in 1970 or 1990 (green); estimated child mortality rate if education of reproductive-age women for each country had remained at the level it was in 1970 or 1990 (red); and estimated child mortality rate if both GDP and education of reproductive-age women had remained at their 1970 or 1990 levels (purple).&#8221;</p>
+<p><a href="https://ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality.jpg" rel="attachment wp-att-7094"><img class="aligncenter wp-image-7094 size-large" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality-750x286.jpg" alt="nm-Effect-of-Edu-and-GDP-on-Child-Mortality" width="750" height="286" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcset="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality-150x57.jpg 150w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality-400x152.jpg 400w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality-768x293.jpg 768w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality-750x286.jpg 750w" sizes="(max-width: 750px) 100vw, 750px"/><noscript><img class="aligncenter wp-image-7094 size-large" src="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality-750x286.jpg" alt="nm-Effect-of-Edu-and-GDP-on-Child-Mortality" width="750" height="286" srcset="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality-150x57.jpg 150w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality-400x152.jpg 400w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality-768x293.jpg 768w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_nm-effect-of-edu-and-gdp-on-child-mortality-750x286.jpg 750w" sizes="(max-width: 750px) 100vw, 750px"/></noscript></a></p>
+<p>Below we can see that a higher educational attainment by mothers is associated with lower child mortality rates within countries. For instance, Niger has the highest national average of child mortality, but within the country, mothers with a secondary school education or higher experience child mortality rates that are lower than the national averages of the next 16 countries listed.</p>
+<h6 id="under-5-mortality-rate-by-mothers-education-and-wealth-selected-countries-2003-2009-unesco-2011ref"> <a class="deep-link" href="#under-5-mortality-rate-by-mothers-education-and-wealth-selected-countries-2003-2009-unesco-2011ref"># </a>Under-5 mortality rate by mother’s education and wealth, selected countries, 2003—2009 – UNESCO (2011)<a id='ref-8' class='side-matter side-matter-ref' href='#note-8' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='The source is UNESCO (2011) EFA Global Monitoring Report &#8211; The hidden crisis: Armed conflict and education. The report is online here. Note: Data are for the most recent year available during the period specified. The UNESCO&#8217;s original source is ICF Macro (2010).'>8</sup></a> <a href="http://ourworldindata.org/wp-content/uploads/2013/05/under-5-mortality-rate-by-mothers-education-and-wealth-selected-countries-2003-2009-unesco-20110.png"><img class="aligncenter wp-image-3488 size-full" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//ourworldindata.org/wp-content/uploads/2013/05/under-5-mortality-rate-by-mothers-education-and-wealth-selected-countries-2003-2009-unesco-20110.png" alt="Under-5 mortality rate, by mother’s education and wealth, selected countries, 2003—2009 – UNESCO (2011)" width="450" height="419"/><noscript><img class="aligncenter wp-image-3488 size-full" src="//ourworldindata.org/wp-content/uploads/2013/05/under-5-mortality-rate-by-mothers-education-and-wealth-selected-countries-2003-2009-unesco-20110.png" alt="Under-5 mortality rate, by mother’s education and wealth, selected countries, 2003—2009 – UNESCO (2011)" width="450" height="419"/></noscript></a></p>
+<p>The effect of education on child mortality is huge. Especially in places with relatively little education, the prospects for extending education are promising. In 2008, 4.4 million children younger than 5 years died in sub-Sahran Africa. The UNESCO estimates that an extension of secondary education for all women would save 1.8 million children per year.<a id='ref-9' class='side-matter side-matter-ref' href='#note-9' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='The source is UNESCO (2011) EFA Global Monitoring Report &#8211; The hidden crisis: Armed conflict and education. The report is online here.'>9</sup></a></p>
+<h3 id="health-care-and-child-mortality"> <a class="deep-link" href="#health-care-and-child-mortality"># </a>Health Care and Child Mortality</h3>
+<p>In a publication in the American Economic Journal the authors report that Thailand&#8217;s 2001 healthcare reform led to significant reductions in child mortality, especially among the poor.<a id='ref-10' class='side-matter side-matter-ref' href='#note-10' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='Gruber, Jonathan, Nathaniel Hendren, and Robert M. Townsend (2014) – &#8220;The Great Equalizer: Health Care Access and Infant Mortality in Thailand.&#8221; American Economic Journal: Applied Economics, 6(1): 91-107. The journal&#8217;s website for the publication is here another version is is available here.'>10</sup></a> The following graph shows for a large cross-section of countries that high expenditure on health more generally comes along with lower levels of child mortality.</p>
+<p><iframe style="width: 100%; height: 660px; border: 0px none;" data-src="http://ourworldindata.org/grapher/view/178" width="300" height="150"></iframe><noscript><iframe style="width: 100%; height: 660px; border: 0px none;" src="http://ourworldindata.org/grapher/view/178" width="300" height="150"></iframe></noscript></p>
+<h3 id="when-more-infants-survive-fertility-goes-down"> <a class="deep-link" href="#when-more-infants-survive-fertility-goes-down"># </a>When more infants survive – fertility goes down</h3>
+<p>On the y-axis we measure the number of annual live births per 1,000 people. On the x-axis we measure how many infants, who were born alive, survive their 1st year of life – this is the <em>infant survival rate.</em></p>
+<p>The chart shows how these two aspects changed over the course of the 20th century: At the beginning of the century all 4 countries can be found in the upper left corner – they are characterized by high fertility and an infant survival rate below 85%. If we follow the 4 lines we are taken to the bottom right corner and see that women have fewer children when the mortality rate of babies goes down.</p>
+<p>The causal link between infant survival and fertility is established in both directions: Firstly, increasing infant survival reduces the parents’ demand for children. And secondly, a decreasing fertility allows the parents to devote more attention and resources to their children.</p>
+<p>This link between fertility and child mortality is an immensely important insight and tells us what drives the acceleration and slowdown of population growth: In the initial stage of the transition, when fertility rates are still high but health is already improving, the population starts to grow. But then, a bit later, we see that this transition works to decrease population growth since improving health of the children leads to lower fertility. It is an important part of the mechanism behind the <a href="http://ourworldindata.org/data/population-growth-vital-statistics/world-population-growth/#the-demographic-transition">demographic transition</a>.</p>
+<p>A very cynical view is that a decrease in child mortality is bad for the world since it would contribute to the overpopulation of the planet. The chart above shows that this opinion is not just contemptuous of human life but plainly wrong: When more infants survive fertility goes down and the temporary population growth comes to an end. If we want to ensure that the world’s population increase comes to an end soon we must work to increase child survival.</p>
+<h6 id="infant-survival-and-fertility-through-time-max-roserref"> <a class="deep-link" href="#infant-survival-and-fertility-through-time-max-roserref"># </a>Infant survival and fertility through time – Max Roser<a id='ref-11' class='side-matter side-matter-ref' href='#note-11' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='The data is taken from the International Historical Statistics (IHS), edited by Palgrave Macmillan Ltd. (April 2013). The online version is available here. As a printed version it is published by Palgrave. The child survival rate is calculated using the IHS Data &#8216;Deaths Of Infants Under One Year Old Per 1,000 Live Births&#8217;.'>11</sup></a></p>
+<p><a href="https://ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival.png" rel="attachment wp-att-7368"><img class="aligncenter size-large wp-image-7368" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival-750x536.png" alt="Scatter-Fertility-vs-Infant-Survival" width="750" height="536" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcset="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival-150x107.png 150w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival-400x286.png 400w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival-768x548.png 768w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival-750x536.png 750w" sizes="(max-width: 750px) 100vw, 750px"/><noscript><img class="aligncenter size-large wp-image-7368" src="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival-750x536.png" alt="Scatter-Fertility-vs-Infant-Survival" width="750" height="536" srcset="//ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival-150x107.png 150w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival-400x286.png 400w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival-768x548.png 768w, //ourworldindata.org/wp-content/uploads/2013/05/ourworldindata_scatter-fertility-vs-infant-survival-750x536.png 750w" sizes="(max-width: 750px) 100vw, 750px"/></noscript></a></p>
+<h2 id="data-quality-definition"><span id="-data-quality-definition"> <a class="deep-link" href="#data-quality-definition"># </a>Data Quality &amp; Definition</span></h2>
+<p>Child mortality is the probability per 1,000 live births that a newborn baby will die before reaching age five under current age-specific mortality patterns. The uncertainty associated with the estimates of child mortality can be understood if one compares different data sources. The UN Inter-agency Group for Child Mortality Estimation does this for each country of the world. <a href="http://www.childmortality.org/index.php?r=site/graph#ID=BRA_Brazil">Here</a> is the chart on the child mortality of Brazil as one example. On the same website the differences between various data sources can be studied for a large number of countries.</p>
+<h2 id="data-sources"><span id="-data-sources"> <a class="deep-link" href="#data-sources"># </a>Data Sources</span></h2>
+<h3 id="data-on-child-mortality-in-early-cultures-and-hunter-gatherers"> <a class="deep-link" href="#data-on-child-mortality-in-early-cultures-and-hunter-gatherers"># </a>Data on child mortality in early cultures and hunter gatherers</h3>
+<p>A still often cited early text is Acsádi and J. Nemeskéri (1970) – History of human life span and mortality.<a id='ref-12' class='side-matter side-matter-ref' href='#note-12' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='The book by Gy. Acsádi and J. Nemeskéri was translated by K. Balas and published by Akadémiai Kiadó (Budapest. 1970, 346 pp.)'>12</sup></a> Other texts on early cultures and hunter gatherers are:</p>
+<ul>
+<li>Andrew T. Chamberlain (2006) &#8211; Demography in Archaeology-Cambridge University Press (Cambridge Manuals in Archaeology)</li>
+<li>Gurven, H Kaplan (2007) – Longevity Among Hunter‐Gatherers: A Cross‐Cultural Examination. Population and Development Review. Volume 33, Issue 2, pages 321–365, June 2007. Online <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x/abstract">here</a>.</li>
+<li>Preston (1995) – Human mortality throughout history and prehistory. In Simon (1995) – The State of Humanity. Wiley.</li>
+<li>Johnston, F. E., and C. E. Snow (1961) – The Reassessment of the Age and Sex of the Indian Knoll Skeletal Population:  Demographic and Methodological Aspects, American Journal of Physical Anthropology, vol. 19.</li>
+<li>Brothwell, D. (1975) – Paleodemography, in Biological Aspects of Demography, ed. W. Brass. London: Taylor and Francis.</li>
+<li>Hopkins, M. K. (1966) – On the Probable Age Structure of the Roman Population, Population Studies, 20, 2.</li>
+<li>Howell, N. (1979) – The Demography of the Dobe !Kung. New York: Academic Press.</li>
+</ul>
+<h3 id="long-run-data"> <a class="deep-link" href="#long-run-data"># </a>Long-Run Data</h3>
+<h5>The <strong>Human Mortality Database</strong></h5>
+<ul>
+<li><strong>Data: </strong>Child mortality estimates and more mortality data</li>
+<li><strong>Geographical coverage: </strong>More than 35 countries. Mostly European but also Taiwan and USA.</li>
+<li><strong>Time span: </strong>For some countries data is available since the 19th century. Few data available for the 18th century.</li>
+<li><strong>Available at: </strong>Online at <a href="http://www.mortality.org/">www.mortality.org</a>.</li>
+<li class="no-bullet"><em> This very comprehensive source is maintained by the University of California, Berkeley (USA), and the Max Planck Institute for Demographic Research (Germany). </em></li>
+</ul>
+<hr class="datasources-hr"/>
+<h5><a href="http://www.gapminder.org"><strong>Gapminder.org</strong></a></h5>
+<ul>
+<li><strong>Data: </strong>Child mortality estimates</li>
+<li><strong>Geographical coverage: </strong>Global – by country</li>
+<li><strong>Time span: </strong>From 1800 onwards (data on Sweden go back to 1751)</li>
+<li><strong>Available at: </strong>Online at <a href="http://www.gapminder.org">Gapminder.org</a></li>
+<li class="no-bullet"><em> The sources of Gapminder are the Human Mortality Database and Child Mortality Estimates Info. Some of the data on child mortality is estimated from data on infant mortality (see the documentation which is online <a href="http://www.gapminder.org/data/documentation/gd005/">here</a>).</em></li>
+</ul>
+<hr class="datasources-hr"/>
+<h3 id="post-1950"> <a class="deep-link" href="#post-1950"># </a>Post-1950</h3>
+<h5><strong>&#8216;Child Mortality Estimates Info&#8217;</strong> (CME Info)</h5>
+<ul>
+<li><strong>Data: </strong>The latest estimates based on the research of the UN Inter-agency Group for Child Mortality Estimation: Under-five mortality estimates, Infant mortality estimates, Neonatal mortality estimates (for all three rates and deaths) Estimates of: Sex-specific under-five mortality rate, Sex-specific infant mortality rate, Annual rate of reduction of under-five mortality.</li>
+<li><strong>Geographical coverage: </strong>Global – by country.</li>
+<li><strong>Time span: </strong>Data availability varies, but for some countries it goes as far back as the 1930s.</li>
+<li><strong>Available at: </strong>Online at <a href="http://www.childmortality.org">www.childmortality.org</a></li>
+<li class="no-bullet"><em> This very good source is published by UNICEF. It is possible to explore the trends country by country and to visualize the data on a map.</em></li>
+</ul>
+<hr class="datasources-hr"/>
+<h5><strong>World Development Indicators</strong> (WDI) published by the World Bank</h5>
+<ul>
+<li><strong>Data: </strong>&#8216;Mortality rate, under-5 (per 1,000 live births)&#8217;</li>
+<li><strong>Geographical coverage: </strong>Global – by country and world region</li>
+<li><strong>Time span: </strong>Annual data since 1960</li>
+<li><strong>Available at: Online <a href="http://data.worldbank.org/indicator/SH.DYN.MORT">here</a> </strong></li>
+<li class="no-bullet"><em> The World Bank data is based on the estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at childmortality.org.</em></li>
+</ul>
+<hr class="datasources-hr"/>
+<p>&nbsp;</p>
+</div></article></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar"><section id="side-matter-3" class="widget widget_side_matter side-matter"><div class="widget-wrap"><h4 class="widget-title widgettitle"></h4>
+<ol class='side-matter side-matter-list' style='list-style-type: decimal; color: #ff543a;'>
+<li id='note-1' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>The data shown in this graph are obtained from <a href="http://www.gapminder.org">Gapminder.org</a>.</p>
+<p>
+</div>
+</li>
+<li id='note-2' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+<p>M Gurven, H Kaplan (2007) – Longevity Among Hunter‐Gatherers: A Cross‐Cultural Examination. Population and Development Review. Volume 33, Issue 2, pages 321–365, June 2007. Online <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x/abstract">here</a>.</p>
+</div>
+</li>
+<li id='note-3' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>This is taken from Andrew T. Chamberlain (2006) – Demography in Archaeology. Cambridge University Press (Cambridge Manuals in Archaeology). The book&#8217;s website is <a href="http://www.cambridge.org/us/academic/subjects/archaeology/archaeological-theory-and-methods/demography-archaeology">here</a>. The original sources of the data are: Koobi Fora: Wood, 1991; Hadar: Johanson et al., 1982; Kimbel et al., 1982; White and Johanson, 1982; Kimbel et al., 1994; Sterkfontein: Mann, 1975; Brain, 1981; Lockwood and Tobias, 2002; Swartkrans: Mann, 1975; Brain, 1981; Grine, 1993; Zhoukoudian: Weidenreich, 1939; Neanderthals: Trinkaus, 1995; Olduvai Gorge: Tobias, 1991; Atapuerca: Bermúdez de Castro et al., 2004.</p>
+</div>
+</li>
+<li id='note-4' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>The data is taken from the World Bank and shows &#8216;Mortality rate, under-5 (per 1,000 live births)&#8217; – it is online here <a href="http://data.worldbank.org/indicator/SH.DYN.MORT">http://data.worldbank.org/indicator/SH.DYN.MORT</a>. The World Bank&#8217;s definition of world regions can be found <a href="http://data.worldbank.org/about/country-classifications/country-and-lending-groups">here</a>. The World Bank&#8217;s source are the estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) available at <a title="Infant Mortality" href="http://www.childmortality.org">www.childmortality.org</a> (but only by country and not by world region).</p>
+</div>
+</li>
+<li id='note-5' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+<p>Li Liu, PhD, Shefali Oza, MSc, Daniel Hogan, PhD, Jamie Perin, PhD, Prof Igor Rudan, MD, Prof Joy E Lawn, MD, Prof Simon Cousens, MA, Colin Mathers, PhD, Prof Robert E Black (2015) – Global, regional, and national causes of child mortality in 2000–13, with projections to inform post-2015 priorities: an updated systematic analysis. The Lancet, Volume 385, No. 9966, p430–440, 31 January 2015.<br/>
+<a href="http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(14)61698-6/fulltext">http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(14)61698-6/fulltext</a></p>
+</div>
+</li>
+<li id='note-6' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>Angela W. Browne &amp; Hazel R. Barrett (1991) Female Education in Sub‐Saharan Africa: the key to development?, Comparative Education, 27:3, 275-285, DOI: 10.1080/0305006910270303. Available online <a href="ttp://dx.doi.org/10.1080/0305006910270303">here</a>.</p>
+</div>
+</li>
+<li id='note-7' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>Emmanuela Gakidou, Krycia Cowling, Rafael Lozano, Christopher JL Murray (2010) – Increased educational attainment and its effect on child mortality in 175 countries between 1970 and 2009: a systematic analysis, The Lancet, Volume 376, Issue 9745, 18–24 September 2010, Pages 959-974, ISSN 0140-6736, http://dx.doi.org/10.1016/S0140-6736(10)61257-3. Available online <a href="http://www.sciencedirect.com/science/article/pii/S0140673610612573">here</a>.</p>
+</div>
+</li>
+<li id='note-8' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>The source is UNESCO (2011) EFA Global Monitoring Report &#8211; The hidden crisis: Armed conflict and education. The report is online <a href="http://www.unesco.org/new/en/education/themes/leading-the-international-agenda/efareport/reports/2011-conflict/">here</a>. Note: Data are for the most recent year available during the period specified. The UNESCO&#8217;s original source is ICF Macro (2010).</p>
+</div>
+</li>
+<li id='note-9' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+<p>The source is UNESCO (2011) EFA Global Monitoring Report &#8211; The hidden crisis: Armed conflict and education. The report is online <a href="http://www.unesco.org/new/en/education/themes/leading-the-international-agenda/efareport/reports/2011-conflict/">here</a>.</p>
+</div>
+</li>
+<li id='note-10' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+<p>Gruber, Jonathan, Nathaniel Hendren, and Robert M. Townsend (2014) – &#8220;The Great Equalizer: Health Care Access and Infant Mortality in Thailand.&#8221; American Economic Journal: Applied Economics, 6(1): 91-107. The journal&#8217;s website for the publication is <a href="http://www.aeaweb.org/articles.php?doi=10.1257/app.6.1.91">here</a> another version is is available <a href="http://www.cfsp.org/sites/default/files/publications/the_great_equalizer.pdf">here</a>.</p>
+</div>
+</li>
+<li id='note-11' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>The data is taken from the International Historical Statistics (IHS), edited by Palgrave Macmillan Ltd. (April 2013). The online version is available <a href="http://www.palgraveconnect.com/pc/doifinder/10.1057/9781137305688">here</a>. As a printed version it is published by <a href="http://www.palgrave.com/products/title.aspx?pid=275960" class="broken_link">Palgrave</a>.</p>
+<p>The child survival rate is calculated using the IHS Data &#8216;Deaths Of Infants Under One Year Old Per 1,000 Live Births&#8217;.</p>
+</div>
+</li>
+<li id='note-12' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+<p>The book by Gy. Acsádi and J. Nemeskéri was translated by K. Balas and published by Akadémiai Kiadó (Budapest. 1970, 346 pp.)</p>
+</div>
+</li>
+</ol>
+</div></section>
+</aside></div></div><div class="footer-widgets"><div class="wrap"><div class="footer-widgets-1 widget-area"><section id="text-11" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Stay up to date by subscribing to the newsletter</h4>
+<div class="textwidget"> 
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">#mc_embed_signup{background:#fff;clear:left;font:14px Helvetica,Arial,sans-serif;}</style>
+<div id="mc_embed_signup">
+<form action="//ourworldindata.us8.list-manage.com/subscribe/post?u=18058af086319ba6afad752ec&amp;id=2e166c1fc1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div id="mc_embed_signup_scroll">
+<div class="mc-field-group">
+<label for="mce-EMAIL">Email Address </label>
+<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div id="mce-responses" class="clear">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</div>  
+<div style="position: absolute; left: -5000px;"><input type="text" name="b_18058af086319ba6afad752ec_2e166c1fc1" tabindex="-1" value=""></div>
+<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+ </div>
+</div></section>
+<section id="text-9" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">and follow here</h4>
+<div class="textwidget"></div>
+</div></section>
+<section id="simple-social-icons-3" class="widget simple-social-icons"><div class="widget-wrap"><ul class="aligncenter"><li class="social-facebook"><a href="https://www.facebook.com/OurWorldinData" target="_blank">&#xe606;</a></li><li class="social-twitter"><a href="https://twitter.com/maxcroser" target="_blank">&#xe607;</a></li></ul></div></section>
+</div></div></div><footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter"><div class="wrap"> <p>More information about this project can be found at the <a href="http://www.ourworldindata.org/about/">About page</a>.<br>
+<p>Click <a href="http://ourworldindata.org/copyrights-disclaimer-of-warranties-and-limitation-of-liability/">here to find the relevant information on copyrights, the disclaimer of warranties and the limitation of liability</a>.<br>
+Max Roser (<a href="http://www.MaxRoser.com">www.MaxRoser.com</a>) is the author of OurWorldInData.org<br>
+<br>
+OurWorldInData is based at the <a href="http://www.oxfordmartin.ox.ac.uk/">Oxford Martin School</a><br>
+<a href="http://www.oxfordmartin.ox.ac.uk"><img class="aligncenter size-large wp-image-4122" alt="OMS" src="//ourworldindata.org/wp-content/uploads/2016/01/ourworldindata_oms_white_verydarkonly-750x398.png" width="450"/></a><br>
+and supported by the <a href="http://www.inet.ox.ac.uk/">Institute for New Economic Thinking at the Oxford Martin School</a><br>
+<a href="http://www.inet.ox.ac.uk/"><img class="aligncenter size-large wp-image-4122" alt="INET_Brand_Final-03" src="//www.ourworldindata.org/wp-content/uploads/2014/03/explainingprogress_inet_brand_final-03-750x177.png" width="450"/></a><br>
+and the <a href="http://www.nuffieldfoundation.org/">Nuffield Foundation</a>:<br>
+<a href="http://www.nuffieldfoundation.org/"><img class="aligncenter size-large wp-image-4122" alt="Nuffield Foundation" src="//ourworldindata.org/wp-content/uploads/2015/01/ourworldindata_nuffield-logo-white-trans_small.png" width="450"/></a><br>
+The Nuffield Foundation is an endowed charitable trust that aims to improve social well-being in the widest sense. It has funded this project, but the views expressed are those of the authors and not necessarily those of the Foundation.<br>
+<br>
+Invited Experts may log in <a href="http://www.ourworldindata.org/wp-login.php">here</a>.<br>
+</p>
+</div></footer></div>
+<div id="show-support-ribbon" style="position:fixed;right:-60px;top:20px;z-index:999999;"><a href="http://ourworldindata.org/support/" title="Donate" style="display:block;width:200px;height:30px;color:#fff;background:rgba(102,153,204,0.9);font-size:12px;line-height:30px;text-align:center;text-decoration:none; border:1px solid rgba(255,255,255,0.7);-webkit-transform:rotate(40deg);-moz-transform:rotate(40deg);-ms-transform:rotate(40deg);-o-transform:rotate(40deg);-webkit-box-shadow:1px 1px 3px 0 rgba(0,0,0,0.3);-moz-box-shadow:1px 1px 3px 0 rgba(0,0,0,0.3);box-shadow:1px 1px 3px 0 rgba(0,0,0,0.3);">Donate</a><div>
+<script>
+var $ = jQuery;
+$("body").css('visibility', 'inherit');
+$("body").hide().fadeIn();
+$(".starred").attr("title", "Starred pages are our best and most complete entries.");
+
+// Don't let user enter empty search query
+$(".search-form").on("submit", function(evt) {
+    if ($(evt.target).find("input[type=search]").val() == '')
+        evt.preventDefault();
+});
+</script><div id="un-thankyou" style="display: none;">
+<h2>Thank you</h2>
+<p>
+Your feedback has been received. </p>
+<a href="#" id="un-feedback-close"><img src="//ourworldindata.org/wp-content/plugins/usernoise/images/ok.png" id="thankyou-image" alt="Close" width="32" height="32"/></a>
+</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var side_matter = {"is_responsive":"1","use_effects":"1","note_adjust":"3","html_class":"side-matter"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/side-matter/js/side-matter.js?ver=1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tocplus = {"smooth_scroll_offset":"57"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/table-of-contents-plus/front.min.js?ver=1509'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/themes/parallax-pro/js/jquery.scrollNav.js'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/themes/parallax-pro/js/scripts.js'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.7.js?ver=1.5.7'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/easy-fancybox/jquery.mousewheel.min.js?ver=3.1.12'></script>
+<script type="text/javascript">
+jQuery(document).on('ready post-load', easy_fancybox_handler );
+</script>
+</body>
+</html>
