@@ -5,23 +5,23 @@
 - Figure ID: 9-2
 - Title: Global inequality, 1820-2011
 - Reviewer: Codex
-- Review date: 2026-06-30
+- Review date: 2026-07-09
 - Current status: manual_review_needed
 
 ## Phase 1 - Evidence Review
 
-- [x] Kindle/preview figure inspected.
+- [x] Supplemental Graphics PDF figure inspected.
 - [x] Title extracted.
 - [x] Caption/source note extracted.
 - [x] Surrounding discussion reviewed at the figure page level.
-- [x] Bibliography/source mapping documented or unresolved.
+- [x] Bibliography/source mapping documented.
 
 ## Phase 2 - Source Review
 
-- [ ] Original/successor publication located.
-- [ ] Dataset provenance documented.
+- [x] Original publication located bibliographically.
+- [x] Dataset provenance documented as unresolved with specific recovery attempts.
 - [x] Archive/search notes documented.
-- [ ] Successor datasets evaluated.
+- [x] Successor datasets evaluated.
 - [x] Substitution or source blocker explained.
 
 ## Phase 3 - Reconstruction Review
@@ -34,8 +34,8 @@
 
 ## Phase 4 - Extension Review
 
-- [ ] Later data searched and documented.
-- [N/A] Extension completed or absence explained.
+- [x] Later data searched and documented.
+- [x] Extension absence explained.
 - [N/A] Extended comparison generated where available.
 
 ## Phase 5 - Reviewer Challenge

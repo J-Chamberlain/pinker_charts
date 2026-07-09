@@ -1,3 +1,6 @@
 figure_id,artifact,source,status
-9-2,book_reference,Chapter 9 preview PDF page crop,reference_only
+9-2,supplemental_pdf_reference,Supplemental Graphics PDF page 10,reference_only
+9-2,legacy_book_reference,Chapter 9 preview PDF page crop,reference_only
+9-2,bibliography,Branko Milanovic 2016 Global Inequality book,resolved_dataset_unrecovered
+9-2,successor_source_family,Milanovic 2024 Three eras of global inequality,not_comparable_extension
 9-2,status_panel,no accepted reconstruction data,manual_review_needed

@@ -58,5 +58,20 @@
     "source_fidelity": "C",
     "fidelity_label": "Institutional successor",
     "notes": "Named in World Bank indicator metadata as underlying source."
+  },
+  {
+    "dataset_id": "milanovic_2016_fig_3_1_global_inequality",
+    "citation_key": "milanovic_2016_global_inequality_book",
+    "dataset_name": "Milanovic 2016 figure 3.1 global inequality underlying table",
+    "dataset_type": "book figure supplementary table or author workbook",
+    "owning_institution": "Branko Milanovic / Harvard University Press",
+    "publication_year": "2016",
+    "update_frequency": "static book supplement if recovered",
+    "current_availability": "not recovered in 2026-07-09 targeted search",
+    "likely_successor_dataset": "Milanovic 2024 The three eras of global inequality, source-family successor only; not comparable enough for plotted extension",
+    "persistent_identifiers": "ISBN 9780674737136; JSTOR j.ctvjghwk4",
+    "source_fidelity": "source_recovery_blocked_no_reconstruction",
+    "fidelity_label": "original_dataset_unrecovered",
+    "notes": "Figure source note uses 1990 international dollars for the historical curve and 2005 international dollars for the household-survey curve. Later slides identify a likely workbook name, History/thepast.xls, but the workbook was not recovered."
   }
 ]

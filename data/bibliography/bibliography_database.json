@@ -52,5 +52,41 @@
     "url": "https://databank.worldbank.org/source/world-development-indicators",
     "publisher_website": "https://www.worldbank.org/",
     "evidence_note": "Book source line cites World Bank 2016h and 2017. This record represents the 2017 WDI source family; exact bibliography wording remains to be verified."
+  },
+  {
+    "citation_key": "milanovic_2016_global_inequality_book",
+    "resolution_status": "resolved_bibliographic_source_dataset_unrecovered",
+    "authors": "Branko Milanovic",
+    "publication_year": "2016",
+    "title": "Global Inequality: A New Approach for the Age of Globalization",
+    "journal_or_publisher": "Belknap Press of Harvard University Press",
+    "report_series": "",
+    "volume_issue": "",
+    "pages": "320",
+    "doi": "",
+    "isbn": "9780674737136",
+    "jstor_id": "j.ctvjghwk4",
+    "worldcat_record": "",
+    "url": "https://www.hup.harvard.edu/books/9780674737136",
+    "publisher_website": "https://www.hup.harvard.edu/",
+    "evidence_note": "Figure 9-2 Supplemental PDF source note cites Milanovic 2016 figure 3.1. Book bibliographic entry resolved, but figure 3.1 supplementary table was not recovered in 2026-07-09 targeted search."
+  },
+  {
+    "citation_key": "milanovic_2024_three_eras_global_inequality",
+    "resolution_status": "resolved_successor_source_family_not_comparable_extension",
+    "authors": "Branko Milanovic",
+    "publication_year": "2024",
+    "title": "The three eras of global inequality, 1820-2020 with the focus on the past thirty years",
+    "journal_or_publisher": "World Development",
+    "report_series": "Stone Center Working Paper Series no. 59; World Development 177, 106516",
+    "volume_issue": "177",
+    "pages": "106516",
+    "doi": "10.1016/j.worlddev.2023.106516",
+    "isbn": "",
+    "jstor_id": "",
+    "worldcat_record": "",
+    "url": "https://stonecenter.gc.cuny.edu/publications/the-three-eras-of-global-inequality-1820-2020-with-the-focus-on-the-past-thirty-years/",
+    "publisher_website": "https://stonecenter.gc.cuny.edu/",
+    "evidence_note": "Reviewed as source-family successor for Figure 9-2. It revises historical estimates to 2011 PPPs and uses later household-survey/unpublished updates, so it is not plotted as a comparable continuation of Milanovic 2016 figure 3.1."
   }
 ]
