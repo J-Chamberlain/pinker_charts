@@ -4,6 +4,7 @@
 - No Pinker plotted values were digitized.
 - Williams 1700-1995 period values are recovered and written as a clean table.
 - The FAO source graphic is recovered, but the FAO 2010b 1996-2010 tropical/temperate split is unresolved.
+- Archived FRA 2010 tables and remote-sensing reports were checked; they are documented near misses, not substitutes for the SOFO production data.
 
 ## Visual Fidelity
 - The Supplemental PDF reference crop is captured.

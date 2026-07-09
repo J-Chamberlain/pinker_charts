@@ -16,4 +16,5 @@
 - [x] Extension clarity reviewed.
 - [x] Status calibrated.
 - [x] Editorial Review Gate applied.
-- [x] Registry, metadata, PROJECT_STATE, review PDF, manifest, and checksums updated.
+- [x] Metadata, PROJECT_STATE, review PDF, manifest, and checksums updated.
+- [x] Registry intentionally not modified in this orchestrated run.

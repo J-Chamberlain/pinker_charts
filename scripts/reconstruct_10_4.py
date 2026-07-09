@@ -24,6 +24,10 @@ FAO_CHAPTER2_URL = "https://www.fao.org/4/i3010e/i3010e02.pdf"
 FRA_2010_MAIN_URL = "https://www.fao.org/4/i1757e/i1757e.pdf"
 FRA_2010_PAGE_URL = "https://www.fao.org/forest-resources-assessment/past-assessments/fra-2010/en"
 FRA_2010_GLOBAL_TABLES_URL = "https://openknowledge.fao.org/bitstreams/d010c16c-632e-4c29-885f-72ee2d11ac30/download"
+FRA_2010_GLOBAL_TABLES_WAYBACK_URL = "https://web.archive.org/web/20220121214738if_/http://foris.fao.org/static/data/fra2010/FRA2010Globaltables_English.xls"
+FRA_2010_GLOBAL_TABLES_JUNE_WAYBACK_URL = "https://web.archive.org/web/20121018091514if_/http://foris.fao.org/static/data/fra2010/FRA2010GlobaltablesEnJune29.xls"
+FRA_2010_RSS_UPDATE_URL = "https://web.archive.org/web/20220119130530/http://foris.fao.org/static/data/fra2010/RSS2010update.pdf"
+FRA_2010_RSS_SUMMARY_URL = "https://web.archive.org/web/20130304232017/http://foris.fao.org/static/data/fra2010/RSS_Summary_Report_lowres.pdf"
 OWID_2013_IMAGE_URL = "https://ourworldindata.org/uploads/2013/11/estimated-deforestation-by-type-of-forest-and-time-period-pre-1700-2000-fao-20120-645x422.png"
 STATUS = "manual_review_needed"
 
@@ -77,6 +81,10 @@ def download_sources() -> None:
         (FAO_CHAPTER2_URL, BASE / "data/raw/fao_state_of_worlds_forests_2012_chapter2.pdf"),
         (FRA_2010_MAIN_URL, BASE / "data/candidates/fao_fra_2010_main_report_i1757e.pdf"),
         (FRA_2010_GLOBAL_TABLES_URL, BASE / "data/candidates/fra2010_global_tables.xls"),
+        (FRA_2010_GLOBAL_TABLES_WAYBACK_URL, BASE / "data/candidates/fra2010_global_tables_english_wayback_20220121214738.xls"),
+        (FRA_2010_GLOBAL_TABLES_JUNE_WAYBACK_URL, BASE / "data/candidates/fra2010_global_tables_en_june29_wayback.xls"),
+        (FRA_2010_RSS_UPDATE_URL, BASE / "data/candidates/fra2010_remote_sensing_survey_update.pdf"),
+        (FRA_2010_RSS_SUMMARY_URL, BASE / "data/candidates/fra2010_remote_sensing_survey_summary.pdf"),
         (OWID_2013_IMAGE_URL, BASE / "data/candidates/owid_uploaded_fao_deforestation_2013.png"),
     ]
     for url, out in downloads:
@@ -290,8 +298,8 @@ def write_docs() -> None:
         "original_dataset": "Partially recovered. Williams Table 12.2 recovers 1700-1995 tropical/temperate period estimates; FAO 2010b/FRA 2010 1996-2010 split remains unrecovered.",
         "dataset_url": "",
         "source_publication_url": FAO_SOFO_2012_URL,
-        "source_data_url": "Not recovered; see source log for FAO FRA 2010 global tables and blocked FAO/Williams production-data search.",
-        "archive_url": "Wayback CDX and OWID asset probes retained in data/candidates; no production data file recovered.",
+        "source_data_url": "Not recovered; see source log for current and archived FAO FRA 2010 global tables, remote-sensing near misses, and blocked FAO/Williams production-data search.",
+        "archive_url": "Wayback CDX, archived FRA 2010 workbooks, remote-sensing reports, and OWID asset probes retained in data/candidates; no SOFO Figure 2 production data file recovered.",
         "download_date": TODAY,
         "reproduction_status": STATUS,
         "confidence_score": 0.55,
@@ -327,11 +335,14 @@ def write_docs() -> None:
 - Extracted PDF text around Figure 2. The period labels and source note are exposed, but the bar heights are not exposed as a numerical table.
 - Exact FAO 2010b citation identified in SOFO 2012 references: FAO. 2010b. *Global Forest Resources Assessment 2010 - main report*. FAO Forestry Paper No. 163. Rome. `{FRA_2010_MAIN_URL}`.
 - Downloaded the FRA 2010 main report and official FRA 2010 Global Tables from the current FAO FRA 2010 page `{FRA_2010_PAGE_URL}`. The global tables expose 1990, 2000, 2005, and 2010 forest-area and annual net-change values by country/region, but not the SOFO Figure 2 tropical/temperate 1996-2010 production split.
+- Retrieved archived FRA 2010 Global Tables from Wayback captures `{FRA_2010_GLOBAL_TABLES_WAYBACK_URL}` and `{FRA_2010_GLOBAL_TABLES_JUNE_WAYBACK_URL}`. These older workbooks have the same sheet structure and no tropical/temperate/domain field for SOFO Figure 2's final period.
+- Retrieved archived FRA 2010 remote-sensing reports `{FRA_2010_RSS_UPDATE_URL}` and `{FRA_2010_RSS_SUMMARY_URL}`. They report forest land-use change by climatic domain for 1990-2005 and 1990-2010, including tropical and temperate domains, but they do not provide the Williams/SOFO period bins or a 1996-2010 tropical/temperate production split for Figure 2.
+- Probed the archived `fra2010.zip` static bundle. The Wayback response reports a 569 MB ZIP but warns that content is truncated by time; the partial download could not be unzipped and is not retained as evidence.
 - Recovered Williams Table 12.2 values for 1700-1995 from accessible book/snippet text and corroborating reuse: `figures/10-4/data/clean/figure_10_4_williams_recovered_1700_1995.csv`.
 - Downloaded the OWID-hosted 2013 FAO image asset from `{OWID_2013_IMAGE_URL}`. It is a reused image, not a table.
 
 ## Blocker
-The Williams component is recovered through 1995, but the FAO 2010b/FRA 2010 calculation that turns FRA data into the 1996-2010 tropical/temperate Figure 2 bar was not recovered. The live and archived FAO materials checked do not provide a production spreadsheet or a table matching SOFO Figure 2. Reconstructing from Pinker's plotted values remains prohibited. Digitizing the FAO source graphic, not Pinker's chart, would be an explicitly approximate secondary reconstruction only; it is not treated here as recovered original data.
+The Williams component is recovered through 1995, but the FAO 2010b/FRA 2010 calculation that turns FRA data into the 1996-2010 tropical/temperate Figure 2 bar was not recovered. The live and archived FAO materials checked do not provide a production spreadsheet or a table matching SOFO Figure 2. The FRA remote-sensing domain series is methodologically adjacent but not the same period-bar source. Reconstructing from Pinker's plotted values remains prohibited. Digitizing the FAO source graphic, not Pinker's chart, would be an explicitly approximate secondary reconstruction only; it is not treated here as recovered original data.
 
 ## Search and Access Attempts
 - Query: `"Estimated deforestation, by type of forest and time period" data`; URL checked: FAO SOFO PDF and search results; access date: {TODAY}; result: source graphic/PDF only, non-tabular.
@@ -340,7 +351,8 @@ The Williams component is recovered through 1995, but the FAO 2010b/FRA 2010 cal
 - Query: `"Deforesting the Earth" "Table 12.2"`; URLs checked: University of Chicago Press page, WorldCat, Google/search snippets, `https://dokumen.pub/deforesting-the-earth-from-prehistory-to-global-crisis-an-abridgment-9780226899053.html`; access date: {TODAY}; result: publisher/library pages non-tabular, accessible snippet/table recovers Williams 1700-1995 values; not a FAO 1996-2010 table.
 - Query: `"Deforesting the Earth" "temperate forest" "tropical forest" "1700" "1849"`; URLs checked: Google/search snippets, Stop Fossil Fuels reuse page, ResearchGate dissertation snippet; access date: {TODAY}; result: corroborates Williams table/reuse, but secondary/reused or snippet access.
 - Query: `site:ourworldindata.org/uploads "estimated-deforestation-by-type-of-forest-and-time-period"`; URL checked: `{OWID_2013_IMAGE_URL}`; access date: {TODAY}; result: image asset only, no data file.
-- Query: `site:fao.org/forestry "Estimated deforestation" "xls"` and Wayback CDX probes for `foris.fao.org/static/data/fra2010/*`; access date: {TODAY}; result: FRA global tables and maps/reports found, no SOFO Figure 2 production asset or spreadsheet.
+- Query: `site:fao.org/forestry "Estimated deforestation" "xls"` and Wayback CDX probes for `foris.fao.org/static/data/fra2010/*`; access date: {TODAY}; result: current and archived FRA global tables, remote-sensing reports, maps, and images found, but no SOFO Figure 2 production asset or spreadsheet.
+- Query: archived `fra2010.zip` bundle at Wayback capture `20211010084324`; access date: {TODAY}; result: server reports a 569 MB ZIP but Wayback truncates the response before the central directory, so the bundle could not be verified or used.
 
 ## Next Recovery Targets
 - Inspect a full authorized copy of Williams, M. 2002, *Deforesting the Earth: From Prehistory to Global Crisis*, to confirm the Table 12.2 values against the original edition rather than accessible snippets/reuses.
@@ -361,12 +373,17 @@ The Williams component is recovered through 1995, but the FAO 2010b/FRA 2010 cal
 - `figures/10-4/data/raw/fao_state_of_worlds_forests_2012_chapter2.pdf`
 - `figures/10-4/data/candidates/fao_fra_2010_main_report_i1757e.pdf`
 - `figures/10-4/data/candidates/fra2010_global_tables.xls`
+- `figures/10-4/data/candidates/fra2010_global_tables_english_wayback_20220121214738.xls`
+- `figures/10-4/data/candidates/fra2010_global_tables_en_june29_wayback.xls`
+- `figures/10-4/data/candidates/fra2010_remote_sensing_survey_update.pdf`
+- `figures/10-4/data/candidates/fra2010_remote_sensing_survey_summary.pdf`
+- `figures/10-4/data/candidates/fra2010_wayback_metadata.pdf`
 - `figures/10-4/data/candidates/owid_uploaded_fao_deforestation_2013.png`
 - `figures/10-4/data/clean/figure_10_4_williams_recovered_1700_1995.csv`
 - Rendered page images in `figures/10-4/data/raw/`
 
 ## Source Chain
-Pinker cites United Nations Food and Agriculture Organization 2012, p. 9. That resolves to FAO, *State of the World's Forests 2012*, printed page 9, Figure 2. FAO identifies the estimates as based on Williams 2002 and FAO 2010b. The SOFO bibliography identifies FAO 2010b as *Global Forest Resources Assessment 2010 - main report*, FAO Forestry Paper No. 163.
+Pinker cites United Nations Food and Agriculture Organization 2012, p. 9. That resolves to FAO, *State of the World's Forests 2012*, printed page 9, Figure 2. FAO identifies the estimates as based on Williams 2002 and FAO 2010b. The SOFO bibliography identifies FAO 2010b as *Global Forest Resources Assessment 2010 - main report*, FAO Forestry Paper No. 163. Current and archived FRA 2010 public tables do not contain the unpublished tropical/temperate production split for the SOFO Figure 2 1996-2010 bar.
 
 ## Reconstruction Decision
 A partial book-period source reconstruction is generated from Williams Table 12.2 for 1700-1995. No 1996-2010 value or post-2010 extension is plotted as recovered data because the FAO 2010b split remains unresolved.
@@ -380,6 +397,7 @@ A partial book-period source reconstruction is generated from Williams Table 12.
 - No Pinker plotted values were digitized.
 - Williams 1700-1995 period values are recovered and written as a clean table.
 - The FAO source graphic is recovered, but the FAO 2010b 1996-2010 tropical/temperate split is unresolved.
+- Archived FRA 2010 tables and remote-sensing reports were checked; they are documented near misses, not substitutes for the SOFO production data.
 
 ## Visual Fidelity
 - The Supplemental PDF reference crop is captured.
@@ -410,7 +428,7 @@ A partial book-period source reconstruction is generated from Williams Table 12.
 Pinker renders `Deforestation, 1700-2010` as two continuous lines for temperate and tropical forest. The cited FAO source, SOFO 2012 Figure 2, is a period-bar graphic with uneven bins: pre-1700, 1700-1849, 1850-1919, 1920-1949, 1950-1979, 1980-1995, and 1996-2010.
 
 ## Data Mismatch
-Williams Table 12.2 directly supports the 1700-1995 period values for tropical and temperate net forest change. It does not provide a 1996-2010 value. FAO 2010b/FRA 2010 provides 1990, 2000, 2005, and 2010 forest-area/net-change tables, but the reviewed materials do not disclose the tropical/temperate split or gross/net transformation used for SOFO Figure 2's final bar.
+Williams Table 12.2 directly supports the 1700-1995 period values for tropical and temperate net forest change. It does not provide a 1996-2010 value. FAO 2010b/FRA 2010 provides 1990, 2000, 2005, and 2010 forest-area/net-change tables, and the archived remote-sensing reports provide 1990-2005/1990-2010 climatic-domain forest land-use changes, but the reviewed materials do not disclose the tropical/temperate split or gross/net transformation used for SOFO Figure 2's final bar.
 
 ## Remediation Decision
 The standard comparison image shows recovered Williams period bars plus an explicit 1996-2010 blocker. It intentionally does not imitate Pinker's continuous-line rendering, because doing so would require undocumented interpolation and/or digitization of Pinker's plotted values.
@@ -427,6 +445,9 @@ Access date for this remediation pass: {TODAY}.
 | `"Estimated deforestation, by type of forest and time period" data` | `{FAO_SOFO_2012_URL}`; `{FAO_CHAPTER2_URL}` | FAO source graphic recovered; no numerical table. |
 | SOFO references for `FAO, 2010b` | `{FAO_SOFO_2012_URL}` | Exact citation identified as FRA 2010 main report, FAO Forestry Paper No. 163. |
 | FRA 2010 official page and Global Tables | `{FRA_2010_PAGE_URL}`; `{FRA_2010_GLOBAL_TABLES_URL}` | Official XLS recovered; contains 1990/2000/2005/2010 country-region forest area and net annual change, not SOFO Figure 2 production values. |
+| FRA 2010 archived Global Tables | `{FRA_2010_GLOBAL_TABLES_WAYBACK_URL}`; `{FRA_2010_GLOBAL_TABLES_JUNE_WAYBACK_URL}` | Older XLS workbooks recovered; same public table family, no tropical/temperate/domain field for the 1996-2010 SOFO production split. |
+| FRA 2010 remote-sensing reports | `{FRA_2010_RSS_UPDATE_URL}`; `{FRA_2010_RSS_SUMMARY_URL}` | Relevant climatic-domain forest land-use change estimates found, but periods and method do not match SOFO Figure 2's Williams/FRA period bars. |
+| Archived `fra2010.zip` bundle | `https://web.archive.org/web/20211010084324/http://foris.fao.org/static/data/fra2010/fra2010.zip` | Wayback reports a 569 MB ZIP but truncates content; partial download is invalid and was not retained as evidence. |
 | `"Deforesting the Earth" "Table 12.2"` | University of Chicago Press, WorldCat, Google/search snippets, Dokumen preview | Williams 1700-1995 values recovered from accessible snippet/preview; publisher/library pages are descriptive or require purchase/library access. |
 | Internet Archive / Wayback FAO static data | `foris.fao.org/static/data/fra2010/*`; `www.fao.org/forestry/fra/2560/en/*` | FRA global tables/maps/reports found; no SOFO 2012 Figure 2 data asset. |
 | OWID asset search | `{OWID_2013_IMAGE_URL}`; Wayback CDX for matching OWID filenames | Image asset recovered; no CSV/grapher data found. |
@@ -457,32 +478,13 @@ Access date for this remediation pass: {TODAY}.
 - [x] Extension clarity reviewed.
 - [x] Status calibrated.
 - [x] Editorial Review Gate applied.
-- [x] Registry, metadata, PROJECT_STATE, review PDF, manifest, and checksums updated.
+- [x] Metadata, PROJECT_STATE, review PDF, manifest, and checksums updated.
+- [x] Registry intentionally not modified in this orchestrated run.
 """
     )
 
 
-def update_registries() -> None:
-    registry_csv = ROOT / "data/figure_registry.csv"
-    rows = list(csv.DictReader(registry_csv.open()))
-    for row in rows:
-        if row["figure_id"] == FIG_ID:
-            row.update(
-                {
-                    "current_status": STATUS,
-                    "lifecycle_stage": "partial_source_recovery_final_period_blocked",
-                    "priority": "active_high",
-                    "current_owner": "Codex",
-                    "next_action": "Recover FAO 2010b/FRA 2010 production calculation for the 1996-2010 tropical/temperate split behind SOFO 2012 Figure 2; do not digitize Pinker values.",
-                    "notes": f"Source recovery {TODAY}: Williams Table 12.2 values recovered for 1700-1995; FAO SOFO 2012 p. 9 Figure 2 and FRA 2010 sources captured; 1996-2010 split remains unresolved.",
-                }
-            )
-    with registry_csv.open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=rows[0].keys(), lineterminator="\n")
-        writer.writeheader()
-        writer.writerows(rows)
-    (ROOT / "data/figure_registry.json").write_text(json.dumps(rows, indent=2) + "\n")
-
+def update_metadata_csv() -> None:
     metadata_csv = ROOT / "data/metadata/figure_metadata.csv"
     meta_rows = list(csv.DictReader(metadata_csv.open()))
     fieldnames = list(meta_rows[0].keys())
@@ -495,7 +497,7 @@ def update_registries() -> None:
         "book_citation": "United Nations Food and Agriculture Organization 2012, p. 9.",
         "original_dataset": "Partially recovered: Williams Table 12.2 values for 1700-1995 recovered; FAO 2010b/FRA 2010 1996-2010 split unresolved.",
         "dataset_url": "",
-        "archive_url": "No original production data archive recovered; FAO/Wayback/OWID probes documented in source log.",
+        "archive_url": "No original production data archive recovered; archived FRA workbooks, remote-sensing reports, FAO/Wayback/OWID probes documented in source log.",
         "download_date": TODAY,
         "reproduction_status": STATUS,
         "confidence_score": "0.55",
@@ -520,7 +522,7 @@ def update_project_state() -> None:
     path = ROOT / "PROJECT_STATE.md"
     text = path.read_text()
     text = text.replace("Project version: `1.14-reconstruct-figure-10-3-epa-air-trends`", "Project version: `1.15-source-recovery-figure-10-4-deforestation`")
-    table_row = "| 10-4 | Deforestation, 1700-2010 | Partial source recovery: Williams 1700-1995 recovered; FAO 2010b final split blocked | `manual_review_needed` | Medium-low | Supplemental PDF cites FAO 2012 p. 9; FAO SOFO 2012 Figure 2 recovered; Williams Table 12.2 values recovered for 1700-1995; FAO 2010b/FRA 2010 1996-2010 tropical/temperate split and Pinker's line conversion remain unresolved. |"
+    table_row = "| 10-4 | Deforestation, 1700-2010 | Partial source recovery: Williams 1700-1995 recovered; FAO 2010b final split blocked | `manual_review_needed` | Medium-low | Supplemental PDF cites FAO 2012 p. 9; FAO SOFO 2012 Figure 2 recovered; Williams Table 12.2 values recovered for 1700-1995; current and archived FRA 2010 public tables plus remote-sensing reports do not expose the 1996-2010 tropical/temperate production split; Pinker's line conversion remains unresolved. |"
     lines = text.splitlines()
     replaced = False
     for i, line in enumerate(lines):
@@ -545,7 +547,7 @@ Canonical visual artifacts:
 - Extended/status comparison: `figures/10-4/plots/comparisons/figure_10_4_extended_comparison.png`
 - Recovered Williams table: `figures/10-4/data/clean/figure_10_4_williams_recovered_1700_1995.csv`
 
-Source status: Supplemental Graphics PDF source line captured; it cites United Nations Food and Agriculture Organization 2012, p. 9. The cited source resolves to FAO *State of the World's Forests 2012*, Figure 2, with estimates based on Williams 2002 and FAO 2010b. Williams Table 12.2 values for 1700-1995 were recovered. The FAO 2010b citation resolves to *Global Forest Resources Assessment 2010 - main report*, but the FRA main report/global tables do not expose the 1996-2010 tropical/temperate split used in SOFO Figure 2. No Pinker plotted values were digitized.
+Source status: Supplemental Graphics PDF source line captured; it cites United Nations Food and Agriculture Organization 2012, p. 9. The cited source resolves to FAO *State of the World's Forests 2012*, Figure 2, with estimates based on Williams 2002 and FAO 2010b. Williams Table 12.2 values for 1700-1995 were recovered. The FAO 2010b citation resolves to *Global Forest Resources Assessment 2010 - main report*. Current and archived FRA 2010 public global tables expose 1990, 2000, 2005, and 2010 forest-area/net-change values, and archived remote-sensing reports expose adjacent climatic-domain estimates, but none exposes the 1996-2010 tropical/temperate production split used in SOFO Figure 2. No Pinker plotted values were digitized.
 """
     marker = "\n### Figure 10-3 - Pollution, energy, and growth, US, 1970-2015\n"
     start = text.find("### Figure 10-4 - Deforestation, 1700-2010")
@@ -625,7 +627,7 @@ def main() -> None:
     supp_crop, fao_crop, _ = crop_reference_images()
     make_visuals(supp_crop, fao_crop)
     write_docs()
-    update_registries()
+    update_metadata_csv()
     update_project_state()
     update_review_packet()
     update_checksums()
