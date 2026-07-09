@@ -1,142 +1,79 @@
-# Figure Acceptance Checklist
+# Figure 5-4 Acceptance Checklist
 
-Copy this checklist into a figure directory when a figure enters active
-reconstruction. A figure is not complete until every item is checked or marked
-`N/A` with an explanation.
+Figure ID: 5-4
 
-Recommended destination:
+Title: Life expectancy, UK, 1701-2013
 
-`figures/<figure_id>/review_checklist.md`
+Reviewer: Codex targeted source-recovery run
 
-## Figure
+Review date: 2026-07-09
 
-- Figure ID:
-- Title:
-- Reviewer:
-- Review date:
-- Current status:
+Current status: `needs_targeted_source_recovery`
 
 ## Phase 1 - Evidence Review
 
-- [ ] Kindle figure inspected.
-- [ ] Title extracted.
-- [ ] Caption extracted.
-- [ ] Source note extracted.
-- [ ] Surrounding discussion reviewed.
-- [ ] Bibliography resolved or unresolved bibliography documented.
-- [ ] Missing evidence returned to Discovery or documented.
+- [x] Supplemental PDF figure inspected.
+- [x] Title extracted.
+- [x] Source note extracted.
+- [x] Surrounding discussion reviewed.
+- [x] Bibliography/source family resolved to OWID/Roser 2016n, OECD Clio Infra / van Zanden et al. 2014, and HMD England & Wales total population.
+- [x] Missing bibliography database entry for `Roser 2016n` documented.
 
 ## Phase 2 - Source Review
 
-- [ ] Original publication located.
-- [ ] Source chain reconstructed.
-- [ ] Dataset provenance documented.
-- [ ] Archive search completed.
-- [ ] Successor datasets evaluated.
-- [ ] Modern proxy or successor substitution explained, if used.
-- [ ] Download URLs recorded.
-- [ ] Archive URLs recorded where applicable.
-- [ ] Checksums recorded for stored files.
+- [x] HMD public country page located.
+- [x] HMD country code and background documentation recovered.
+- [x] HMD direct raw data access tested.
+- [x] Current OWID successor downloaded and evaluated.
+- [x] Archive search attempted.
+- [x] Download URLs recorded in `source_logs/source_log.md`.
+- [x] Source-audit table written to `data/clean/figure_5_4_source_recovery_audit.csv`.
+- [ ] Exact book-era OWID/Roser 2016n age-specific dataset recovered.
+- [ ] Exact HMD raw period life-table values recovered.
 
 ## Phase 3 - Reconstruction Review
 
-- [ ] Reconstruction uses legitimate data.
-- [ ] No digitized figure values used as reconstruction data.
-- [ ] Transformation code is reproducible.
-- [ ] Scales and labels are correct.
-- [ ] Styling reasonably matches the book.
-- [ ] Book-period reconstruction completed.
-- [ ] Book-period side-by-side comparison generated.
-- [ ] Every visible book-period discrepancy investigated.
-- [ ] Remaining book-period discrepancies explained.
+- [x] Current partial artifact uses only machine-readable recovered data.
+- [x] No digitized book values used.
+- [x] Missing age lines are not interpolated or invented.
+- [x] Supplemental PDF side-by-side comparison generated.
+- [x] Major visible discrepancies documented.
+- [ ] Printed ten-series book-period reconstruction completed.
+- [ ] Data fidelity to all recovered source values established.
 
 ## Phase 4 - Extension Review
 
-- [ ] Later data searched.
-- [ ] Later data documented.
-- [ ] Extension completed or absence explained.
-- [ ] Extension clearly distinguished from book-period reconstruction.
-- [ ] Methodological changes explained.
-- [ ] Successor-series discontinuities explained.
-- [ ] Extended side-by-side comparison generated where available.
-- [ ] Extension artifacts investigated.
-- [ ] Remaining extension discrepancies explained.
+- [x] Current OWID successor searched.
+- [x] Current OWID successor documented.
+- [x] Successor rejected for extension because it omits several printed ages and switches methodology after 1950.
+- [x] Extended/status comparison generated with no accepted extension.
 
 ## Phase 5 - Reviewer Challenge
 
-- [ ] Answered: What would Steven Pinker likely question?
-- [ ] Answered: What would a data journalist question?
-- [ ] Answered: What would a peer reviewer question?
-- [ ] Answered: What would a skeptical reader notice immediately?
-- [ ] Each reviewer issue marked resolved, documented, or new research task.
+- [x] Pinker challenge answered.
+- [x] Data-journalist challenge answered.
+- [x] Peer-reviewer challenge answered.
+- [x] Skeptical-reader challenge answered.
 
 ## Final Gate - Editorial Review
 
-- [ ] Every book-period comparison image opened and visually scanned.
-- [ ] Every extended comparison image opened and visually scanned, where
-  available.
-- [ ] Completeness checked: Kindle reference, reconstruction, extension or
-  absence explanation, caption, and labels.
-- [ ] Layout checked: scaling, cropping, whitespace, margins, label placement,
-  overlap, and plot size.
-- [ ] Visual similarity checked: original and recreated figures visibly
-  resemble the same figure or discrepancy is explained.
-- [ ] Extension clarity checked: dashed or otherwise marked transition is clear
-  and successor data are not misleadingly continuous.
-- [ ] Caption checked: every obvious visual discrepancy is explained before a
-  reader has to ask.
-- [ ] Every ten-second-obvious issue corrected or explicitly explained.
-- [ ] Issues classified as `Critical`, `Major`, or `Minor`.
-- [ ] No `Critical` issues remain.
-- [ ] No unexplained `Major` issues remain.
-- [ ] Remaining `Minor` issues documented.
-- [ ] Cross-figure review completed.
-- [ ] Weakest figure identified.
-- [ ] Most reviewer-concerning figure identified.
-- [ ] Weakest figure judged publishable or documented as requiring manual input
-  or further source recovery.
-- [ ] Editorial Review Summary written.
-
-## Repository Updates
-
-- [ ] Caption written or updated.
-- [ ] Anomaly review written or updated.
-- [ ] Provenance file updated.
-- [ ] Source log updated.
-- [ ] Search iteration log updated.
-- [ ] Discrepancy log updated.
-- [ ] Metadata updated.
-- [ ] Registry CSV updated.
-- [ ] Registry JSON updated.
-- [ ] `PROJECT_STATE.md` updated.
-- [ ] Canonical artifact paths updated in `PROJECT_STATE.md`.
-- [ ] Latest side-by-side images rendered in final Codex response.
-- [ ] Editorial Review Summary included in final Codex response.
+- [x] Book-period comparison opened and visually scanned.
+- [x] Extended/status comparison opened and visually scanned.
+- [x] Caption updated to state the source blocker.
+- [x] No critical issue is hidden.
+- [ ] Figure accepted as `verified_reproduction`.
+- [ ] Figure accepted as `updated_equivalent`.
+- [ ] Figure accepted as `partial_match`.
+- [x] Returned to targeted source recovery.
 
 ## Reviewer Confidence
 
-- Overall confidence:
-- Book reconstruction:
-- Extension:
-- Source provenance:
-- Outstanding risks:
-- Recommended next action:
+Overall confidence: Low for book reproduction; medium for source-family identification.
 
-## Final Decision
+Book reconstruction: Not complete.
 
-- [ ] Accepted as `verified_reproduction`.
-- [ ] Accepted as `updated_equivalent`.
-- [ ] Accepted as `partial_match`.
-- [ ] Classified as `source_unavailable`.
-- [ ] Classified as `manual_review_needed`.
-- [ ] Returned to Discovery.
-- [ ] Returned to Source Recovery.
+Extension: Not accepted.
 
-Decision notes:
+Source provenance: Source family documented; exact book-era dataset unresolved.
 
-
-## Track A Completion Notes
-
-Current status: `needs_targeted_source_recovery`.
-
-- Checklist is not fully complete for verified publication; unresolved items are documented in anomaly/source logs.
+Recommended next action: recover authenticated/archived HMD `GBRTENW` period life tables or an archived OWID/Roser 2016n export containing ages 1, 5, 10, 20, 30, 40, 50, 60, and 70.

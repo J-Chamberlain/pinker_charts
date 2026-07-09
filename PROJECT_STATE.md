@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-07-05 America/Los_Angeles
+Last update: 2026-07-09 America/Los_Angeles
 
-Project version: `1.15-source-recovery-figure-10-4-deforestation`
+Project version: `1.16-targeted-source-recovery-figure-5-4`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -91,7 +91,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
 | 5-2 | Child mortality, 1751-2013 | Visual QA remediation and source recovery | `partial_match` | Medium | PDF reference crop added and proxy coverage trimmed to better match the book; exact Roser 2016a UN/HMD assembled source remains unresolved. |
 | 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference refreshed from supplemental PDF page 3; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
-| 5-4 | Life expectancy, UK, 1701-2013 | Track A targeted source recovery needed | `needs_targeted_source_recovery` | Low | Book reference/source refreshed from supplemental PDF page 4, but exact age-specific HMD/OWID series for ages 1, 5, 10, 20, 30, 40, 50, 60, and 70 were not recovered. |
+| 5-4 | Life expectancy, UK, 1701-2013 | Targeted source recovery rerun; source family documented, exact dataset still missing | `needs_targeted_source_recovery` | Low | Supplemental PDF crop and source note were refreshed; HMD GBRTENW source family and current OWID successor were audited, but direct HMD raw data redirects to login and the exact OWID/Roser 2016n age-specific export was not recovered. |
 | 6-1 | Childhood deaths from infectious disease, 2000-2013 | Visual QA blocked at source recovery | `blocked_external_source` | Low | PDF reference shows a five-line annual deaths chart; misleading IHME bar proxy was removed and reconstruction is blocked until the cited CHERG/WHO Liu et al. appendix or verified equivalent annual line-series data are recovered. |
 | 7-1 | Calories, 1700-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference/source refreshed from supplemental PDF page 5; OWID/FAO historical calories dataset gives a plausible reconstruction but exact book-era source styling/vintage is unresolved. |
 | 7-2 | Childhood stunting, 1966-2014 | Track A time-boxed reconstruction | `partial_match` | Medium-low | Book reference/source refreshed from supplemental PDF page 5; World Bank stunting prevalence proxy used because exact OWID/Roser 2016j WHO NLIS vintage was not recovered. |
@@ -212,9 +212,11 @@ support a verified reconstruction.
   is version-pinned.
 - Figure 5-3: broad visual match from current OWID maternal-mortality data, but
   exact Roser 2016p/Gapminder vintage remains unrecovered.
-- Figure 5-4: Kindle chart captured, but only partial age-specific UK life
-  expectancy data were recovered; source recovery for the exact HMD/OWID age
-  series is required.
+- Figure 5-4: Supplemental PDF crop captured and HMD England & Wales total
+  population source family documented. The exact OWID/Roser 2016n age-specific
+  export remains unrecovered; direct HMD raw data paths redirect to login, and
+  current OWID successor data omit several printed age lines, so no extension is
+  accepted.
 - Figure 6-1: Kindle chart-page capture and cited CHERG/WHO Liu et al. 2014
   supplementary appendix were not recovered in Track A; current artifact is a
   blocked proxy only.
@@ -305,6 +307,7 @@ Status: `needs_targeted_source_recovery`
 Canonical visual artifacts:
 
 - Original reference: `figures/5-4/plots/comparisons/kindle_reference_figure_5_4.png`
+- Supplemental PDF reference: `figures/5-4/plots/comparisons/supplemental_pdf_reference_figure_5_4.png`
 - Book-period reconstruction: `figures/5-4/plots/book_period/figure_5_4_book_period_reconstruction.png`
 - Extended reconstruction: `figures/5-4/plots/extended/figure_5_4_extended_reconstruction.png`
 - Book-period comparison: `figures/5-4/plots/comparisons/figure_5_4_book_period_comparison.png`
@@ -317,6 +320,15 @@ Canonical documentation:
 - Anomaly review: `figures/5-4/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/5-4/metadata/metadata.json`
 - Review checklist: `figures/5-4/review_checklist.md`
+
+Source status: Targeted recovery on 2026-07-09 identified the cited source
+family but not the exact book-era dataset. HMD public catalog files confirm
+England & Wales total population (`GBRTENW`) and document the relevant period
+life-table files, but direct raw data access redirects to login. Current OWID
+`life-expectancy-at-different-ages` data were downloaded and rejected as a
+successor extension because the available ages and post-1950 source construction
+do not match the printed figure. The current comparison is a partial
+source-recovery artifact, not a verified reconstruction.
 
 ### Figure 6-1 - Childhood deaths from infectious disease, 2000-2013
 
@@ -823,6 +835,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.16-targeted-source-recovery-figure-5-4` | 2026-07-09 | Re-ran Figure 5-4 targeted source recovery: rendered Supplemental PDF reference, documented HMD GBRTENW source family and login-blocked raw data path, audited current OWID successor incompatibility, and kept status at `needs_targeted_source_recovery`. |
 | `1.13-remediate-figure-10-2-projection` | 2026-07-05 | Remediated Figure 10-2 projection consistency, candidate-corpus table, visual reference comparison, and status justification. |
 | `1.12-production-loop-figure-10-2` | 2026-07-05 | Added Figure 10-2 as an updated-equivalent XKCD/Google Ngram reconstruction with current Ngram successor extension. |
 | `1.11-source-recovery-figure-4-1` | 2026-07-05 | Processed Figure 4-1 as a documented source-recovery-blocked artifact; recovered Supplemental PDF source line and Leetaru/GDELT candidate visual evidence, but no underlying monthly data table. |
