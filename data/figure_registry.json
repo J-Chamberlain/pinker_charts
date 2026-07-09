@@ -291,13 +291,13 @@
     "title": "Income gains, 1988-2008",
     "page": "",
     "year_range": "1988-2008",
-    "current_status": "manual_review_needed",
-    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
-    "source_type_guess": "economic_historical_dataset",
-    "priority": "active_high",
+    "current_status": "partial_match",
+    "lifecycle_stage": "partial_source_family_match",
+    "source_type_guess": "Lakner-Milanovic / LM-WPID source-family reconstruction",
+    "priority": "publication_review",
     "current_owner": "Codex",
-    "next_action": "Recover Milanovic 2016 figure 1.3 or Lakner-Milanovic global growth-incidence spreadsheet for 1988-2008.",
-    "notes": "Processed in Track C on 2026-06-30. Milanovic 2016 figure 1.3 underlying percentile-growth data were not recovered as an inspectable data file. No digitized chart values were used."
+    "next_action": "Recover Milanovic 2016 figure 1.3 exact plotted data, including the Lakner-Milanovic summary_data.xls/figure-data spreadsheet, or documented code that derives the exact book values from LM-WPID.",
+    "notes": "Remediated on 2026-07-09 as a medium-low confidence source-family reconstruction from recovered CUNY Stone Center LM-WPID Stata data. Exact Milanovic 2016 figure 1.3/summary_data.xls plotted values remain unresolved, so this is not a verified reproduction. CSV registry row intentionally left unchanged in this orchestrated run."
   },
   {
     "figure_id": "9-6",

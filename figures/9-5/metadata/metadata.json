@@ -11,9 +11,9 @@
   "archive_url": "https://openknowledge.worldbank.org/entities/publication/16065899-c37d-5750-af68-e9742cec9456",
   "download_date": "2026-07-09",
   "reproduction_status": "partial_match",
-  "confidence_score": 0.68,
+  "confidence_score": 0.58,
   "visual_validation": "partial_source_family_match",
-  "notes": "Values are computed from LM-WPID country-decile data, not digitized from Pinker's chart. Because the exact Milanovic 2016 figure-data spreadsheet was not recovered and the recovered source-family curve differs visibly at some fractiles, this is not a verified reproduction.",
+  "notes": "Medium-low confidence source-family reconstruction. Values are computed from LM-WPID country-decile data, not digitized from Pinker's chart. Because the exact Milanovic 2016 figure 1.3/summary_data.xls plotted data were not recovered and the recovered source-family curve differs visibly at some fractiles, this is not a verified reproduction.",
   "canonical_artifacts": {
     "supplemental_pdf_reference": "figures/9-5/plots/comparisons/supplemental_pdf_reference_figure_9_5.png",
     "book_period_reconstruction": "figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png",
