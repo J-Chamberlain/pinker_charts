@@ -1,21 +1,15 @@
-# Figure 9-3 Anomaly Review
+# Figure 9-3 Editorial Review
 
-## Visible Differences
+## Decision
 
-- The book reference appears on the left, but the source-recovery/status panel on the right is not a chart and is not a reconstruction.
-- This is a deliberate publication blocker marker: accepted raw data were not recovered and digitized chart values were not used.
+Status remains `manual_review_needed` / source recovery blocked. The run improved provenance by identifying the likely source workbook names and component sources, but it did not recover the data table needed for reconstruction.
 
 ## Reviewer Challenge
 
-- Pinker would likely ask why the original Milanovic/Clio Infra data were not used. They were sought but not recovered as inspectable files in this batch.
-- A data journalist would ask whether the chart was digitized. It was not.
-- A peer reviewer would require the original spreadsheet/table before accepting a reconstruction.
-- A skeptical reader would immediately notice the missing recreated line; the caption and panel explain the source blocker.
+- Could this be reconstructed from the Supplemental PDF or Milanovic slide images? No. That would be chart digitization rather than source recovery.
+- Could modern Gini datasets extend the figure? Not as a verified extension. They use different institutions, income definitions, equivalization, survey coverage, and revision vintages.
+- Is the source completely unknown? No. The source family is now better specified: Milanovic 2016 Figure 2.1, likely `US_and_uk.xls` / `uk_and_usa.xls`, with component-source notes captured from Milanovic's own slides.
 
-## Confidence
+## Remaining Risk
 
-- Overall confidence: low/source-blocked
-- Book reconstruction: not attempted without accepted data
-- Extension: not available
-- Source provenance: Milanovic 2016 figure 2.1 underlying table was not recovered as an inspectable data file.
-- Recommended next action: Recover Milanovic 2016 figure 2.1 spreadsheet, including UK/England and US disposable-income-per-capita Gini series.
+The exact workbook may exist in private author files or an uncrawled publisher/academic directory. Recovery should continue there before any reconstruction is attempted.

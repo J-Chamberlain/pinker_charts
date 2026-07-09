@@ -1,14 +1,26 @@
 [
   {
     "figure_id": "9-3",
-    "artifact": "book_reference",
-    "source": "Chapter 9 preview PDF page crop",
-    "status": "reference_only"
+    "artifact_type": "book_reference",
+    "description": "Supplemental Graphics PDF page 10 crop",
+    "status": "reference"
   },
   {
     "figure_id": "9-3",
-    "artifact": "status_panel",
-    "source": "no accepted reconstruction data",
+    "artifact_type": "source_evidence",
+    "description": "Milanovic slide evidence naming source workbook",
+    "status": "source_family_identified"
+  },
+  {
+    "figure_id": "9-3",
+    "artifact_type": "source_recovery_audit",
+    "description": "Live and archive workbook probes",
+    "status": "workbook_not_recovered"
+  },
+  {
+    "figure_id": "9-3",
+    "artifact_type": "status_panel",
+    "description": "No accepted reconstruction data",
     "status": "manual_review_needed"
   }
 ]
