@@ -9,11 +9,11 @@
   "original_dataset": "Leetaru 2011 monthly NYT/SWB tone data not recovered as an inspectable table.",
   "dataset_url": "",
   "archive_url": "",
-  "download_date": "2026-07-05",
+  "download_date": "2026-07-09",
   "reproduction_status": "manual_review_needed",
   "confidence_score": 0.35,
   "visual_validation": "blocked",
-  "notes": "Deeper source recovery completed; no reconstruction because original monthly data remain unresolved. Status panels are not reconstructions.",
+  "notes": "2026-07-09 re-audit checked Supplemental PDF, Crossref/DataCite, GDELT live/sidecar URLs, Internet Archive CDX inventories, authenticated GitHub code search, and Leetaru Forbes leads. No original monthly data table or comparable successor series was recovered; status panels are not reconstructions.",
   "canonical_artifacts": {
     "supplemental_pdf_reference": "figures/4-1/plots/comparisons/supplemental_pdf_reference_figure_4_1.png",
     "book_period_source_recovery_status": "figures/4-1/plots/book_period/figure_4_1_book_period_source_recovery_status.png",

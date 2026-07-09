@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-07-05 America/Los_Angeles
+Last update: 2026-07-09 America/Los_Angeles
 
-Project version: `1.15-source-recovery-figure-10-4-deforestation`
+Project version: `1.16-source-recovery-figure-4-1-reaudit`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -87,7 +87,7 @@ this file are all updated. Only then may Codex begin another figure.
 
 | Figure | Title | Lifecycle stage | Status | Confidence | Current disposition |
 | --- | --- | --- | --- | --- | --- |
-| 4-1 | Tone of the news, 1945-2010 | Source recovery blocked; Supplemental PDF reference captured | `manual_review_needed` | Low | Deeper First Monday/GDELT/archive/repository recovery found only article images and mirrored PNGs; underlying monthly NYT/SWB tone data were not found; no digitized reconstruction was made. |
+| 4-1 | Tone of the news, 1945-2010 | Source recovery blocked; Supplemental PDF reference captured | `manual_review_needed` | Low | 2026-07-09 re-audit checked Supplemental PDF, Crossref/DataCite DOI metadata, GDELT live links/sidecars, Internet Archive CDX inventories, authenticated GitHub code search, and Leetaru Forbes leads. Only plot images/commentary were found; underlying monthly NYT/SWB tone data remain unrecovered; no digitized reconstruction was made. |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
 | 5-2 | Child mortality, 1751-2013 | Visual QA remediation and source recovery | `partial_match` | Medium | PDF reference crop added and proxy coverage trimmed to better match the book; exact Roser 2016a UN/HMD assembled source remains unresolved. |
 | 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference refreshed from supplemental PDF page 3; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
@@ -158,7 +158,7 @@ Canonical visual artifacts:
 - Book-period status comparison: `figures/4-1/plots/comparisons/figure_4_1_book_period_status_comparison.png`
 - Extended status comparison: `figures/4-1/plots/comparisons/figure_4_1_extended_status_comparison.png`
 
-Source status: Supplemental Graphics PDF source line captured; Leetaru 2011 article, GDELT high-resolution figure mirror, First Monday snapshots, old Culturomics20 archive captures, GDELT sidecar candidates, GitHub search endpoint, Dataverse, and targeted web searches checked. Original monthly data remain unrecovered, and no plotted values were digitized. Status panels are not reconstructions.
+Source status: Supplemental Graphics PDF source line captured; Leetaru 2011 article, Crossref/DataCite DOI metadata, GDELT high-resolution figure mirror, First Monday snapshots, old Culturomics20 archive captures, GDELT live/sidecar candidates, Internet Archive CDX inventories, authenticated GitHub code search, Dataverse, later Leetaru Forbes leads, and targeted web searches checked. Original monthly data remain unrecovered, and no plotted values were digitized. Status panels are not reconstructions.
 
 
 ## Completed Figures
@@ -823,6 +823,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.16-source-recovery-figure-4-1-reaudit` | 2026-07-09 | Re-audited Figure 4-1 source recovery with Supplemental PDF re-read, DOI metadata, GDELT live/archive endpoints, authenticated GitHub code search, and later Leetaru leads; original monthly NYT/SWB data remain unrecovered, so status stays source-recovery blocked. |
 | `1.13-remediate-figure-10-2-projection` | 2026-07-05 | Remediated Figure 10-2 projection consistency, candidate-corpus table, visual reference comparison, and status justification. |
 | `1.12-production-loop-figure-10-2` | 2026-07-05 | Added Figure 10-2 as an updated-equivalent XKCD/Google Ngram reconstruction with current Ngram successor extension. |
 | `1.11-source-recovery-figure-4-1` | 2026-07-05 | Processed Figure 4-1 as a documented source-recovery-blocked artifact; recovered Supplemental PDF source line and Leetaru/GDELT candidate visual evidence, but no underlying monthly data table. |

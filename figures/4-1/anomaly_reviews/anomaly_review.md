@@ -20,6 +20,7 @@
 - Minor issues found: none beyond the status-panel nature of the artifact.
 - Issues automatically corrected: the figure now has a reference crop, status panels, metadata, source log, provenance, caption, and checksums.
 - Issues remaining: source recovery is still required before reconstruction.
+- 2026-07-09 editorial re-audit: no new data source was recovered; existing status-only visual treatment remains correct.
 - Publication decision: acceptable only as a documented source-recovery-blocked artifact, not as a completed figure.
 
 ## Confidence
@@ -28,4 +29,4 @@
 - Book reconstruction: not attempted without accepted data
 - Extension: not available
 - Source provenance: citation and candidate visual source-chain evidence recovered; original monthly data unresolved
-- Recommended next action: recover Leetaru's monthly NYT/SWB tone data or a reproducible corpus extraction.
+- Recommended next action: recover Leetaru's monthly NYT/SWB tone data or a reproducible corpus extraction; do not extend from later GDELT/Forbes imagery without a comparable monthly table and method documentation.

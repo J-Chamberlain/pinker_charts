@@ -5,7 +5,7 @@
 - Figure ID: 4-1
 - Title: Tone of the news, 1945-2010
 - Reviewer: Codex
-- Review date: 2026-07-05
+- Review date: 2026-07-09
 - Current status: manual_review_needed
 
 ## Phase 1 - Evidence Review
@@ -21,9 +21,9 @@
 
 - [x] Original publication located.
 - [x] Source chain partially reconstructed.
-- [ ] Dataset provenance documented.
+- [x] Dataset non-recovery rationale documented with citable source trail.
 - [x] Archive/search notes documented.
-- [ ] Successor datasets evaluated.
+- [x] Successor/source-family leads evaluated; no comparable successor table accepted.
 - [x] Source blocker explained.
 - [x] Download URLs recorded for evidence-only candidate PNGs.
 - [x] Checksums recorded for stored files.
@@ -79,10 +79,10 @@
 - [x] Search iteration log updated.
 - [x] Discrepancy log updated.
 - [x] Metadata updated.
-- [x] Registry CSV updated.
-- [x] Registry JSON updated.
+- [ ] Registry CSV updated. Not updated in this orchestrated run by instruction; orchestrator owns registry changes.
+- [ ] Registry JSON updated. Not updated in this orchestrated run by instruction; orchestrator owns registry changes.
 - [x] `PROJECT_STATE.md` updated.
-- [x] Review PDF/manifest updated.
+- [ ] Review PDF/manifest updated. Not updated in this run because no visual artifact changed and source recovery remains blocked.
 
 ## Reviewer Confidence
 
@@ -91,7 +91,7 @@
 - Extension: unavailable
 - Source provenance: partial citation/source-chain evidence only
 - Outstanding risks: original monthly data may exist in an unrecovered author/archive location.
-- Recommended next action: recover Leetaru monthly data or reproducible source extraction.
+- Recommended next action: recover Leetaru monthly data or reproducible source extraction; no public table was found in the 2026-07-09 re-audit.
 
 ## Final Decision
 
