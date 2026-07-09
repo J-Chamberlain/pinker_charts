@@ -9,6 +9,8 @@
   "dataset_url": "HMD catalog: https://www.mortality.org/Country/Country?cntr=GBRTENW; current OWID successor audited at https://ourworldindata.org/grapher/life-expectancy-at-different-ages.csv; see source_logs/source_log.md and data/clean/figure_5_4_source_recovery_audit.csv.",
   "archive_url": "Wayback searches for 2015-2018 OWID grapher CSV captures returned no usable capture in this run.",
   "download_date": "2026-07-09",
+  "current_status": "needs_targeted_source_recovery",
+  "lifecycle_stage": "track_a_timeboxed_reconstruction",
   "reproduction_status": "needs_targeted_source_recovery",
   "confidence_score": 0.4,
   "visual_validation": "poor",

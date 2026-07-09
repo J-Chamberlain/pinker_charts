@@ -303,6 +303,14 @@ Canonical documentation:
 ### Figure 5-4 - Life expectancy, UK, 1701-2013
 
 Status: `needs_targeted_source_recovery`
+Lifecycle stage: `track_a_timeboxed_reconstruction`
+
+Status evidence, 2026-07-09:
+
+- Protected registry row: `current_status=needs_targeted_source_recovery`; `lifecycle_stage=track_a_timeboxed_reconstruction`.
+- Per-figure metadata now records the same `current_status` and `lifecycle_stage`, with `reproduction_status` still set to `needs_targeted_source_recovery`.
+- Clean CSVs available for the current partial-source-recovery artifact: `figure_5_4_book_period_clean.csv`, `figure_5_4_extended_clean.csv`, `figure_5_4_source_recovery_audit.csv`, and `figure_5_4_current_owid_successor_availability.csv`.
+- Regenerated comparison/reference images are available in `figures/5-4/plots/comparisons/`, including the Supplemental PDF reference crop and book-period/extended comparisons. These remain documentation and partial-source-recovery artifacts, not verified reproductions.
 
 Canonical visual artifacts:
 
