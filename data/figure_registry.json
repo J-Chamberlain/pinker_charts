@@ -232,12 +232,14 @@
     "page": "",
     "year_range": "1820-2013",
     "current_status": "manual_review_needed",
-    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
+    "lifecycle_stage": "partial_source_recovery_manual_review_source_blocked_no_reconstruction",
+    "confidence": "0.45",
+    "disposition": "partial_source_recovered_weighted_series_blocked",
     "source_type_guess": "economic_historical_dataset",
     "priority": "active_high",
     "current_owner": "Codex",
-    "next_action": "Recover OECD Clio Infra Moatsos et al. 2014 market household income Gini data and Milanovic 2012 weighted international inequality update through 2013.",
-    "notes": "Processed in Track C on 2026-06-30. Original Clio Infra/Moatsos and Milanovic personal-communication data were not recovered as inspectable files. No digitized chart values were used."
+    "next_action": "Recover the Milanovic 2012 population-weighted international inequality source table, including Pinker's 2012-2013 personal-communication update, before considering reconstruction or verification.",
+    "notes": "Remediation 2026-07-09: partial source recovery only. OECD/IISH How Was Life? 2014 Chapter 11 Table 11.4 unweighted/between-country values were recovered for 1820-2000 and retained as a source-recovery diagnostic. The Milanovic population-weighted international inequality series through 2013 remains unrecovered as inspectable data. No digitized chart substitutes were used, and the figure is not fully reconstructed or verified."
   },
   {
     "figure_id": "9-2",
