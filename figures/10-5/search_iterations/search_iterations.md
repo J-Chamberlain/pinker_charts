@@ -28,3 +28,16 @@ The required `oil shipped by sea` series is only partially recovered. The remain
 | 14 | OWID `owid-grapher-svgs` clone and file search | Found modern oil-spill grapher artifacts, no matching oil-shipping series. | Rejected for missing series | Negative evidence for public grapher artifact trail. |
 | 15 | GitHub code search API | Returned 401 authentication requirement. | Incomplete | Requires authenticated GitHub code search for further automation. |
 | 16 | UNCTAD legacy WDS/export endpoint probes | Version 585 not addressable; legacy WDS URLs redirect or 404. | Rejected | Retired export route not recovered. |
+
+## 2026-07-09 Targeted Archive Recovery
+| Iteration | Query or URL | Result | Accepted or Rejected | Resolved discrepancy |
+| --- | --- | --- | --- | --- |
+| 17 | Supplemental Graphics PDF text search for Figure 10-5 | Confirmed title, Roser 2016r/ITOPF source note, spill threshold, and oil-loaded definition. | Accepted reference | Anchors the book figure and source note to the canonical PDF. |
+| 18 | Wayback CDX for ITOPF statistics page, 2016-2018 | Found multiple 200 snapshots, including 2017-01-19 for the 2016 statistics page. | Accepted archive | Recovered contemporaneous ITOPF context. |
+| 19 | Wayback ITOPF 2016 statistics page | Found `seaborne_16.JPG`, captioned as seaborne oil trade and tanker spills, data source UNCTADStat. | Accepted source-family evidence | Recovers closest source image for the gray oil-loaded line. |
+| 20 | Digitized archived ITOPF `seaborne_16.JPG` and compared selected years to UNCTAD RMT 2020 | Selected-year MAE 0.058 billion metric tons; max absolute difference 0.194. | Accepted diagnostic only | Supports visual reconstruction but does not recover original annual table. |
+| 21 | ITOPF Oil Tanker Spill Statistics 2017 PDF | Confirmed same chart concept and UNCTADStat label; PDF text exposes spill tables but not oil-loaded annual table. | Accepted context | Confirms source family and continued publication format. |
+
+## Updated Stop Reason
+
+The closest recovered source for the oil-shipped-by-sea line is an archived ITOPF chart image, not the original annual UNCTADStat table. The book-period plot is therefore image-digitized and remains a `partial_match`. No extension is plotted.

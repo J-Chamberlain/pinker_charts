@@ -1,27 +1,51 @@
 # Provenance Summary: Figure 10-5
 
-- Best-current reconstruction: spill counts only.
-- Candidate diagnostic: partial UNCTAD oil-shipped-by-sea series, 2000-2016.
-- Why separated: the partial UNCTAD series does not cover 1970-1999 and worsens the visual comparison if presented as faithful reconstruction.
-- Status: partial_match.
-- Source fidelity: B/C. Spill-count source is an exact-publication candidate; oil-shipping source is an institutional successor/partial candidate.
-- Regeneration command: `/Users/alfred/Documents/MIsc/.venv/bin/python scripts/iterative_source_recovery.py`.
+Last updated: 2026-07-09
 
-## Research Mode Provenance Update
-- Added `data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv`.
-- Added `outputs/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png`.
-- RMT selected-year values are diagnostic evidence only and are not used in the side-by-side validation plot.
+## Status
 
-## Book-Style Reconstruction Update
-- Date: 2026-06-28
-- Book-period reconstruction: `outputs/book_style/book_period/figure_10_5_book_period_reconstruction.png`.
-- Extended reconstruction: `outputs/book_style/extended/figure_10_5_extended_reconstruction.png`.
-- Original-vs-book comparison: `outputs/book_style/validation/figure_10_5_book_style_comparison.png`.
-- Original-vs-extended comparison: `outputs/book_style/validation/figure_10_5_extended_comparison.png`.
-- Captioned original-vs-book comparison: `outputs/book_style/validation/figure_10_5_book_style_comparison_captioned.png`.
-- Captioned original-vs-extended comparison: `outputs/book_style/validation/figure_10_5_extended_comparison_captioned.png`.
-- Caption: `outputs/book_style/captions/figure_10_5_caption.txt`.
-- Visual anomaly review: `outputs/book_style/anomaly_reviews/figure_10_5_anomaly_review.md`.
-- The main reconstruction now uses ITOPF/OWID spill counts and an annual UNCTADStat mirror for World crude oil loaded plus other tanker trade loaded.
-- Update period: book-period solid lines run through 2016; post-book dotted lines show tanker trade through 2020 and spill counts through 2025.
-- ITOPF's current Figure 4 source trail says 1970-1999 tanker trade comes from UNCTADStat updated 2022 and 2000-2023 from UNCTADStat updated 2025. The public mirror recovers annual values through 2020. The accessible live UNCTAD API was investigated for 2021-2023 but rejected from the main plot because overlap values are not on the same scale as ITOPF/RMT/book values.
+- Current status: `partial_match`
+- Lifecycle stage: source recovery and discrepancy analysis
+- Do not describe as verified, reconstructed from original annual data, or extended.
+
+## What This Run Recovered
+
+- The Supplemental Graphics PDF source note and explanatory text were checked directly.
+- The Roser 2016r bibliography mapping remains a candidate entry, not a fully recovered OWID 2016 dataset.
+- The OWID/ITOPF annual spill-count CSV supports the black line.
+- The Internet Archive preserved the ITOPF 2016 statistics page and source chart image `seaborne_16.JPG`.
+- The archived ITOPF chart image identifies the gray-line source family as UNCTADStat seaborne oil trade / total crude oil, petroleum product and gas loaded.
+- The 2017 ITOPF statistics PDF confirms the same chart concept and UNCTADStat label.
+
+## Derived Data
+
+- `figures/10-5/data/clean/figure_10_5_oil_spills_clean.csv`: annual ITOPF/OWID spill counts, 1970-2016.
+- `figures/10-5/data/candidates/itopf_archived_seaborne_16_digitized_oil_loaded.csv`: oil-loaded values digitized from the archived ITOPF chart image.
+- `figures/10-5/data/candidates/itopf_digitized_vs_unctad_rmt2020_selected_year_validation.csv`: selected-year validation against UNCTAD Review of Maritime Transport 2020.
+
+The digitized oil-loaded line is calibrated to the archived chart's printed axes. It is a diagnostic reconstruction input, not original tabular UNCTADStat data. Selected-year validation against RMT 2020 gives mean absolute difference 0.058 billion metric tons and maximum absolute difference 0.194.
+
+## Current Visual Artifacts
+
+- Book-period reconstruction: `figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png`
+- Book-period comparison: `figures/10-5/plots/comparisons/figure_10_5_book_style_comparison_captioned.png`
+- Extended artifact: `figures/10-5/plots/extended/figure_10_5_extended_reconstruction.png`
+- Extended comparison: `figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png`
+
+The extended artifact is intentionally a no-extension status panel. No post-2016 line is plotted.
+
+## Remaining Blocker
+
+The original annual UNCTADStat oil-loaded table behind Roser 2016r / ITOPF Figure 10-5 has not been recovered. The archive trail supports the source family and visual shape, but the gray-line values remain image-derived. A future verification run needs either:
+
+- an archived OWID/Roser 2016r data bundle containing both series,
+- a legacy UNCTADStat export for the total crude oil, petroleum product, and gas loaded series, or
+- an ITOPF/UNCTAD source table corresponding to the archived chart.
+
+## Regeneration
+
+Run:
+
+```bash
+/Users/alfred/Documents/MIsc/.venv/bin/python scripts/reconstruct_10_5.py
+```
