@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-07-05 America/Los_Angeles
+Last update: 2026-07-09 America/Los_Angeles
 
-Project version: `1.15-source-recovery-figure-10-4-deforestation`
+Project version: `1.16-source-family-reconstruction-figure-9-5-income-gains`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -100,7 +100,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 9-2 | Global inequality, 1820-2011 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 3.1 underlying table not recovered, so no digitized reconstruction was made. |
 | 9-3 | Inequality, UK and US, 1688-2013 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 2.1 underlying UK/US table not recovered, so no digitized reconstruction was made. |
 | 9-4 | Social spending, OECD countries, 1880-2016 | Updated-equivalent reconstruction with successor extension | `updated_equivalent` | Medium | Current OWID social-spending-oecd-longrun successor reconstructs the figure concept through 2016 and extends after 2016; exact Ortiz-Ospina & Roser 2016b/2017 source snapshot remains unrecovered. |
-| 9-5 | Income gains, 1988-2008 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 1.3 growth-incidence data not recovered, so no digitized reconstruction was made. |
+| 9-5 | Income gains, 1988-2008 | Source-family reconstruction from recovered LM-WPID data | `partial_match` | Medium-low | CUNY Stone Center LM-WPID Stata dataset and documentation recovered; source-family growth-incidence curve reconstructed from weighted 1988/2008 fractile means. Exact Milanovic 2016 fig. 1.3/`summary_data.xls` plotted values remain unrecovered, so this is not a verified reproduction. |
 | 9-6 | Poverty, US, 1960-2016 | Verified reconstruction from Meyer & Sullivan 2017 Table 1 | `verified_reproduction` | High | Source report table recovered; book-period two-series chart is reconstructed from source table values, with 2017 dotted only in extended artifact. |
 | 10-1 | Population and population growth, 1750-2015 and projected to 2100 | Updated-equivalent current OWID/UN successor reconstruction | `updated_equivalent` | Medium-high | Current OWID population/growth/projection grapher data reproduce the dual-axis concept, but exact 2016 OWID/HYDE/IIASA source vintage remains unrecovered. |
 | 10-2 | Sustainability, 1955-2109 | Updated-equivalent XKCD/Google Ngram reconstruction with calibrated projection audit | `updated_equivalent` | Medium | Official XKCD image, Supplemental PDF crop, and Ngram source-family data are recovered; future markers now derive from one XKCD-label visual projection, while Ngram-candidate threshold mismatches are quantified. |
@@ -502,15 +502,17 @@ Canonical documentation:
 
 ### Figure 9-5 - Income gains, 1988-2008
 
-Status: `manual_review_needed`
+Status: `partial_match`
 
 Canonical visual artifacts:
 
-- Original reference: `figures/9-5/plots/comparisons/kindle_reference_figure_9_5.png`
-- Book-period status panel: `figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png`
-- Extended status panel: `figures/9-5/plots/extended/figure_9_5_extended_reconstruction.png`
+- Supplemental PDF reference: `figures/9-5/plots/comparisons/supplemental_pdf_reference_figure_9_5.png`
+- Original legacy reference: `figures/9-5/plots/comparisons/kindle_reference_figure_9_5.png`
+- Book-period source-family reconstruction: `figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png`
+- Extended/no-successor reconstruction: `figures/9-5/plots/extended/figure_9_5_extended_reconstruction.png`
 - Book-period comparison: `figures/9-5/plots/comparisons/figure_9_5_book_period_comparison.png`
 - Extended comparison: `figures/9-5/plots/comparisons/figure_9_5_extended_comparison.png`
+- Clean source-family data: `figures/9-5/data/clean/figure_9_5_book_period_clean.csv`
 
 Canonical documentation:
 
@@ -519,6 +521,8 @@ Canonical documentation:
 - Anomaly review: `figures/9-5/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/9-5/metadata/metadata.json`
 - Review checklist: `figures/9-5/review_checklist.md`
+
+Source status: Supplemental Graphics PDF page 11 was inspected. The figure source line cites Milanovic 2016, fig. 1.3. The CUNY Stone Center Lakner-Milanovic World Panel Income Distribution page, LM-WPID description PDF, and downloadable `lm_wpid_web.dta` were recovered and saved under `figures/9-5/data/raw/`. The World Bank Open Knowledge Repository page for Lakner and Milanovic WPS 6719 was also saved; its legacy data-catalog node is moved/unresolved. The reconstruction uses LM-WPID `mysample == 1`, `RRinc`, `pop`, and benchmark years 1988/2008 to compute weighted fractile mean growth at 5, 10, ..., 95, 99, and 100 percent endpoints. One recovered row (Switzerland 2008 first decile) has missing `RRinc` and is excluded. Exact Milanovic 2016 figure 1.3/`summary_data.xls` plotted data were not recovered, and no post-2008 same-methodology successor extension was accepted.
 
 ### Figure 9-6 - Poverty, US, 1960-2016
 
@@ -823,6 +827,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.16-source-family-reconstruction-figure-9-5-income-gains` | 2026-07-09 | Recovered the CUNY Stone Center LM-WPID source-family Stata dataset and documentation for Figure 9-5, generated a weighted 1988/2008 fractile growth-incidence reconstruction, and retained `partial_match` because the exact Milanovic 2016 figure 1.3/`summary_data.xls` plotted data remain unrecovered. |
 | `1.13-remediate-figure-10-2-projection` | 2026-07-05 | Remediated Figure 10-2 projection consistency, candidate-corpus table, visual reference comparison, and status justification. |
 | `1.12-production-loop-figure-10-2` | 2026-07-05 | Added Figure 10-2 as an updated-equivalent XKCD/Google Ngram reconstruction with current Ngram successor extension. |
 | `1.11-source-recovery-figure-4-1` | 2026-07-05 | Processed Figure 4-1 as a documented source-recovery-blocked artifact; recovered Supplemental PDF source line and Leetaru/GDELT candidate visual evidence, but no underlying monthly data table. |

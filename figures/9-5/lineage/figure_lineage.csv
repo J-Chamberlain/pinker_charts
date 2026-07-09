@@ -1,3 +1,3 @@
-figure_id,artifact,source,status
-9-5,book_reference,Chapter 9 preview PDF page crop,reference_only
-9-5,status_panel,no accepted reconstruction data,manual_review_needed
+figure_id,artifact,source,method
+9-5,supplemental_pdf_reference_figure_9_5.png,references/enlightenment_now_supplemental_graphics.pdf page 11,pdftoppm render and deterministic crop
+9-5,figure_9_5_book_period_clean.csv,figures/9-5/data/raw/lm_wpid_web.dta,"population-weighted fractile means, 1988 vs 2008"

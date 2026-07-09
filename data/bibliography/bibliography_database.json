@@ -52,5 +52,41 @@
     "url": "https://databank.worldbank.org/source/world-development-indicators",
     "publisher_website": "https://www.worldbank.org/",
     "evidence_note": "Book source line cites World Bank 2016h and 2017. This record represents the 2017 WDI source family; exact bibliography wording remains to be verified."
+  },
+  {
+    "citation_key": "Milanovic 2016",
+    "resolution_status": "resolved_source_publication; exact_figure_data_unresolved",
+    "authors": "Milanovic, Branko",
+    "publication_year": "2016",
+    "title": "Global Inequality: A New Approach for the Age of Globalization",
+    "journal_or_publisher": "Belknap Press of Harvard University Press",
+    "report_series": "",
+    "volume_issue": "",
+    "pages": "figure 1.3",
+    "doi": "",
+    "isbn": "9780674737136",
+    "jstor_id": "",
+    "worldcat_record": "",
+    "url": "https://www.hup.harvard.edu/books/9780674737136",
+    "publisher_website": "https://www.hup.harvard.edu/",
+    "evidence_note": "Supplemental Graphics PDF cites Milanovic 2016, fig. 1.3 for Figure 9-5. Public chapter scans identify the figure source family as Lakner and Milanovic data, but the exact plotted spreadsheet was not recovered."
+  },
+  {
+    "citation_key": "Lakner Milanovic 2013/2016",
+    "resolution_status": "resolved_source_family_dataset",
+    "authors": "Lakner, Christoph; Milanovic, Branko",
+    "publication_year": "2013/2016",
+    "title": "Global Income Distribution: From the Fall of the Berlin Wall to the Great Recession",
+    "journal_or_publisher": "World Bank Policy Research Working Paper 6719; World Bank Economic Review",
+    "report_series": "Policy Research Working Paper 6719",
+    "volume_issue": "World Bank Economic Review 30(2)",
+    "pages": "203-232",
+    "doi": "10.1093/wber/lhv039",
+    "isbn": "",
+    "jstor_id": "",
+    "worldcat_record": "",
+    "url": "https://openknowledge.worldbank.org/entities/publication/16065899-c37d-5750-af68-e9742cec9456",
+    "publisher_website": "https://stonecenter.gc.cuny.edu/publications/lakner-milanovic-world-panel-income-distribution/",
+    "evidence_note": "World Bank repository page documents paper and moved dataset link; CUNY Stone Center page provides LM-WPID downloadable Stata dataset and description PDF."
   }
 ]

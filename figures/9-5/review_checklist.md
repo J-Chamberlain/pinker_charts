@@ -5,57 +5,43 @@
 - Figure ID: 9-5
 - Title: Income gains, 1988-2008
 - Reviewer: Codex
-- Review date: 2026-06-30
-- Current status: manual_review_needed
+- Review date: 2026-07-09
+- Current status: partial_match
 
 ## Phase 1 - Evidence Review
 
-- [x] Kindle/preview figure inspected.
+- [x] Supplemental PDF figure inspected.
 - [x] Title extracted.
 - [x] Caption/source note extracted.
-- [x] Surrounding discussion reviewed at the figure page level.
-- [x] Bibliography/source mapping documented or unresolved.
+- [x] Surrounding explanatory text reviewed.
+- [x] Bibliography/source mapping documented.
 
 ## Phase 2 - Source Review
 
-- [ ] Original/successor publication located.
-- [ ] Dataset provenance documented.
-- [x] Archive/search notes documented.
-- [ ] Successor datasets evaluated.
-- [x] Substitution or source blocker explained.
+- [ ] Exact Milanovic 2016 figure-data recovered.
+- [x] Closest inspectable source-family dataset recovered.
+- [x] Dataset provenance documented.
+- [x] Archive/moved-source notes documented.
+- [x] Successor extension evaluated and declined.
 
 ## Phase 3 - Reconstruction Review
 
-- [ ] Reconstruction uses legitimate data.
+- [x] Reconstruction uses legitimate source-family data.
 - [x] No digitized figure values used as reconstruction data.
-- [ ] Transformation code is reproducible.
-- [ ] Book-period comparison generated.
+- [x] Transformation code is reproducible.
+- [x] Book-period comparison generated.
 - [x] Remaining book-period discrepancies explained.
 
 ## Phase 4 - Extension Review
 
-- [ ] Later data searched and documented.
-- [N/A] Extension completed or absence explained.
-- [N/A] Extended comparison generated where available.
+- [x] Later data searched and documented.
+- [x] Extension left out because no genuinely comparable successor series was recovered.
 
 ## Phase 5 - Reviewer Challenge
 
 - [x] Reviewer questions answered in anomaly review.
 
-## Final Gate - Editorial Review
-
-- [x] Comparison image opened and visually scanned.
-- [x] Ten-second-obvious issues corrected or explicitly explained.
-- [x] No unexplained Critical/Major issues remain; source blockers are explicit.
-
-## Repository Updates
-
-- [x] Caption written.
-- [x] Anomaly review written.
-- [x] Provenance/source/discrepancy/search logs updated.
-- [x] Metadata updated.
-
 ## Final Decision
 
-- [ ] Accepted as `updated_equivalent`.
-- [x] Classified as `manual_review_needed`.
+- [ ] Accepted as `verified_reproduction`.
+- [x] Classified as `partial_match` pending exact figure-data recovery.

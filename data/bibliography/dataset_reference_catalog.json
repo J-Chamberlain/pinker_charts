@@ -58,5 +58,20 @@
     "source_fidelity": "C",
     "fidelity_label": "Institutional successor",
     "notes": "Named in World Bank indicator metadata as underlying source."
+  },
+  {
+    "dataset_id": "lakner_milanovic_lm_wpid",
+    "citation_key": "Lakner Milanovic 2013/2016",
+    "dataset_name": "Lakner-Milanovic World Panel Income Distribution (LM-WPID)",
+    "dataset_type": "country-decile panel Stata dataset",
+    "owning_institution": "CUNY Stone Center / authors; source paper through World Bank",
+    "publication_year": "2013",
+    "update_frequency": "static research dataset",
+    "current_availability": "Available from CUNY Stone Center page via Dropbox dataset link as lm_wpid_web.dta; downloaded locally 2026-07-09.",
+    "likely_successor_dataset": "Potential unpublished/author summary_data.xls or later 1988-2011 data used in Milanovic 2016; not recovered.",
+    "persistent_identifiers": "World Bank WPS 6719; DOI 10.1596/1813-9450-6719; article DOI 10.1093/wber/lhv039",
+    "source_fidelity": "B",
+    "fidelity_label": "Source-family dataset recovered; exact plotted figure spreadsheet unresolved",
+    "notes": "Used for Figure 9-5 partial reconstruction from mysample==1, RRinc, pop, and benchmark years 1988/2008. One 2008 Switzerland decile row has missing RRinc and is excluded."
   }
 ]
