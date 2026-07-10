@@ -2,13 +2,31 @@
   {
     "figure_id": "9-1",
     "artifact": "book_reference",
-    "source": "Chapter 9 preview PDF page crop",
+    "source": "Supplemental Graphics PDF page 9 crop",
     "status": "reference_only"
   },
   {
     "figure_id": "9-1",
+    "artifact": "source_input",
+    "source": "Clio Infra/IISH Dataverse Income Inequality hdl:10622/6OHMDS",
+    "status": "recovered_source_input"
+  },
+  {
+    "figure_id": "9-1",
+    "artifact": "recovered_unweighted_values",
+    "source": "OECD/IISH How Was Life? 2014 Table 11.4 between-country inequality 1820-2000",
+    "status": "partial_source_recovered"
+  },
+  {
+    "figure_id": "9-1",
+    "artifact": "missing_weighted_values",
+    "source": "Milanovic 2012 population-weighted international inequality plus 2012-2013 personal communication",
+    "status": "unrecovered"
+  },
+  {
+    "figure_id": "9-1",
     "artifact": "status_panel",
-    "source": "no accepted reconstruction data",
+    "source": "partial source-recovery diagnostic only; no full reconstruction",
     "status": "manual_review_needed"
   }
 ]

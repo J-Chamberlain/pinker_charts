@@ -2,7 +2,7 @@
 
 Last update: 2026-07-09 America/Los_Angeles
 
-Project version: `1.16-source-recovery-figure-4-1-reaudit`
+Project version: `1.16-source-recovery-figure-9-1-international-inequality`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -96,7 +96,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 7-1 | Calories, 1700-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference/source refreshed from supplemental PDF page 5; OWID/FAO historical calories dataset gives a plausible reconstruction but exact book-era source styling/vintage is unresolved. |
 | 7-2 | Childhood stunting, 1966-2014 | Track A time-boxed reconstruction | `partial_match` | Medium-low | Book reference/source refreshed from supplemental PDF page 5; World Bank stunting prevalence proxy used because exact OWID/Roser 2016j WHO NLIS vintage was not recovered. |
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
-| 9-1 | International inequality, 1820-2013 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured from Chapter 9 preview PDF; original OECD Clio Infra/Moatsos and Milanovic weighted data not recovered, so no digitized reconstruction was made. |
+| 9-1 | International inequality, 1820-2013 | Partial source recovery; weighted series blocked | `manual_review_needed` | Medium-low | Supplemental PDF page 9 captured; OECD/IISH Table 11.4 recovered for the unweighted/between-country line through 2000, but the Milanovic population-weighted line through 2013 remains unrecovered as inspectable data. No full reconstruction or extension accepted. |
 | 9-2 | Global inequality, 1820-2011 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 3.1 underlying table not recovered, so no digitized reconstruction was made. |
 | 9-3 | Inequality, UK and US, 1688-2013 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 2.1 underlying UK/US table not recovered, so no digitized reconstruction was made. |
 | 9-4 | Social spending, OECD countries, 1880-2016 | Updated-equivalent reconstruction with successor extension | `updated_equivalent` | Medium | Current OWID social-spending-oecd-longrun successor reconstructs the figure concept through 2016 and extends after 2016; exact Ortiz-Ospina & Roser 2016b/2017 source snapshot remains unrecovered. |
@@ -426,11 +426,15 @@ Status: `manual_review_needed`
 
 Canonical visual artifacts:
 
-- Original reference: `figures/9-1/plots/comparisons/kindle_reference_figure_9_1.png`
+- Supplemental PDF reference: `figures/9-1/plots/comparisons/supplemental_pdf_reference_figure_9_1.png`
+- Legacy Kindle/preview reference: `figures/9-1/plots/comparisons/kindle_reference_figure_9_1.png`
 - Book-period status panel: `figures/9-1/plots/book_period/figure_9_1_book_period_reconstruction.png`
 - Extended status panel: `figures/9-1/plots/extended/figure_9_1_extended_reconstruction.png`
 - Book-period comparison: `figures/9-1/plots/comparisons/figure_9_1_book_period_comparison.png`
 - Extended comparison: `figures/9-1/plots/comparisons/figure_9_1_extended_comparison.png`
+- Recovered unweighted values: `figures/9-1/data/clean/figure_9_1_oecd_table_11_4_between_country_inequality.csv`
+
+Source status: Supplemental Graphics PDF page 9 inspected. OECD/IISH *How Was Life?* 2014 Chapter 11 Table 11.4 was recovered for the unweighted/between-country international inequality values, 1820-2000; these values match Pinker's surrounding-text anchors after scaling Gini points to a 0-1 index. Clio/IISH Dataverse `hdl:10622/6OHMDS` source-input files were recovered and retained. The Milanovic 2012 population-weighted international inequality series and Pinker's 2012-2013 personal-communication update were not recovered as an inspectable table. Current artifacts are source-recovery/status diagnostics only, not a full reconstruction or extension.
 
 Canonical documentation:
 
@@ -824,6 +828,7 @@ Canonical documentation:
 | Version | Date | Summary |
 | --- | --- | --- |
 | `1.16-source-recovery-figure-4-1-reaudit` | 2026-07-09 | Re-audited Figure 4-1 source recovery with Supplemental PDF re-read, DOI metadata, GDELT live/archive endpoints, authenticated GitHub code search, and later Leetaru leads; original monthly NYT/SWB data remain unrecovered, so status stays source-recovery blocked. |
+| `1.16-source-recovery-figure-9-1-international-inequality` | 2026-07-09 | Reprocessed Figure 9-1: recovered OECD/IISH Table 11.4 values for the unweighted/between-country line and Clio/IISH Dataverse source-input files, but kept `manual_review_needed` because the Milanovic population-weighted line through 2013 remains unrecovered as inspectable data. |
 | `1.13-remediate-figure-10-2-projection` | 2026-07-05 | Remediated Figure 10-2 projection consistency, candidate-corpus table, visual reference comparison, and status justification. |
 | `1.12-production-loop-figure-10-2` | 2026-07-05 | Added Figure 10-2 as an updated-equivalent XKCD/Google Ngram reconstruction with current Ngram successor extension. |
 | `1.11-source-recovery-figure-4-1` | 2026-07-05 | Processed Figure 4-1 as a documented source-recovery-blocked artifact; recovered Supplemental PDF source line and Leetaru/GDELT candidate visual evidence, but no underlying monthly data table. |
