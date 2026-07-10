@@ -7,6 +7,10 @@
 ## Cause Assessment
 - Current status: `partial_match`.
 - The remaining mismatch is most likely source-vintage and country-series construction, with minor styling/layout differences. The unit error in the successor series was corrected.
+- 2026-07-09 source recovery found the archived OWID article and old Chart
+  Builder view 58 lead, but not the dynamic data payload behind that chart.
+- Recovered OWID Gapminder/UN IGME/HMD source-family candidates explain the
+  source chain but do not exactly reproduce the book-era data coverage.
 
 ## Reviewer Challenge
 - Pinker would likely ask whether the cited source chain has been reconstructed exactly.
@@ -18,5 +22,8 @@ Overall confidence:
 - Book reconstruction: 0.72
 - Extension: medium-low; current OWID successor extension, not exact book vintage
 - Source provenance: see source log.
-- Outstanding risks: The exact Roser 2016a UN Child Mortality/Human Mortality Database assembled file or archival OWID grapher remains the blocker for verification.
-- Recommended next action: Continue source recovery for the exact Roser 2016a/UN-HMD assembly before promoting status.
+- Outstanding risks: The exact Roser 2016a UN Child Mortality/Human Mortality
+  Database assembled file, old Chart Builder view 58 data/config, or archival
+  OWID export remains the blocker for verification.
+- Recommended next action: Continue source recovery for Chart Builder view 58
+  data/config or an equivalent book-era OWID export before promoting status.

@@ -2,6 +2,14 @@
 
 Status: `partial_match`
 
+2026-07-09 source recovery update: the Supplemental Graphics PDF page 3 source
+note and 2016 OWID article were rechecked. The archived article embeds old Chart
+Builder view 58 for the long-run country chart, but the exact dynamic
+`data/config/58` payload was not recovered. OWID Gapminder 2015, selected
+Gapminder 2017, and CME Info/UN IGME candidates are stored under
+`data/candidates/`; they document the source family but do not verify the book
+dataset. See `source_logs/source_recovery_report_2026-07-09.md`.
+
 ## Canonical Artifacts
 
 - Original reference: `plots/comparisons/kindle_reference_figure_5_2.png`

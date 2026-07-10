@@ -2,19 +2,34 @@
   "figure_id": "5-2",
   "chapter": "5",
   "title": "Child mortality, 1751-2013",
-  "book_page": "Kindle page 56 search result",
+  "book_page": "Supplemental PDF page 3; Kindle page 56 search result",
   "claim_summary": "Child mortality declined dramatically in representative countries.",
   "book_citation": "Our World in Data, Roser 2016a, based on UN Child Mortality Estimates and the Human Mortality Database.",
-  "download_date": "2026-06-29",
+  "download_date": "2026-07-09",
   "reproduction_status": "partial_match",
   "confidence_score": 0.72,
   "visual_validation": "acceptable",
-  "notes": "Remediated to use the current OWID selected child-mortality grapher directly in percent units. This materially improves the visual match, but the exact Roser 2016a UN/HMD vintage remains unrecovered.",
+  "notes": "2026-07-09 source recovery traced the book source to the Supplemental PDF page 3 note, Roser 2016a bibliography entry, archived 2016 OWID child-mortality article, and old Chart Builder view 58. The exact view 58 data/config or equivalent book-era OWID export remains unrecovered. Current plots still use the current OWID selected child-mortality grapher directly in percent units as a partial-match successor/proxy.",
   "canonical_artifacts": {
     "original_reference": "figures/5-2/plots/comparisons/kindle_reference_figure_5_2.png",
     "book_period_reconstruction": "figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png",
     "extended_reconstruction": "figures/5-2/plots/extended/figure_5_2_extended_reconstruction.png",
     "book_period_comparison": "figures/5-2/plots/comparisons/figure_5_2_book_period_comparison.png",
-    "extended_comparison": "figures/5-2/plots/comparisons/figure_5_2_extended_comparison.png"
+    "extended_comparison": "figures/5-2/plots/comparisons/figure_5_2_extended_comparison.png",
+    "source_recovery_report": "figures/5-2/source_logs/source_recovery_report_2026-07-09.md",
+    "current_owid_metadata": "figures/5-2/data/raw/owid_current_child_mortality.metadata.json",
+    "current_owid_config": "figures/5-2/data/raw/owid_current_child_mortality.config.json"
+  },
+  "source_recovery": {
+    "bibliography_entry": "Roser, M. 2016a. Child mortality. Our World in Data. https://ourworldindata.org/child-mortality/.",
+    "archived_article": "figures/5-2/data/candidates/archive_searches/owid_child_mortality_20160423.html",
+    "old_chart_lead": "http://ourworldindata.org/chart-builder/public/view/58",
+    "unrecovered_blocker": "Old Chart Builder view 58 dynamic data/config or equivalent 2016 OWID export.",
+    "candidate_datasets": [
+      "Child mortality estimates - Gapminder (2015)",
+      "Child Mortality Rates (Selected Gapminder, v10) (2017)",
+      "Child Mortality Estimates - CME Info (2018)"
+    ],
+    "status_calibration": "partial_match; source-family candidates recovered but exact Roser 2016a/Pinker plotted dataset not recovered"
   }
 }
