@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Country</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Human Mortality Database is the world's leading scientific data resource on mortality in developed countries." />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css?v=20250924" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/Home/Index">
+        <img src="/images/logo.svg" alt="logo" />
+    </a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/Home/Index">
+                    HOME
+                </a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownProject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                    PROJECT
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownProject">
+                    <a class="dropdown-item" href="/Project/Overview">Overview</a>
+                    <a class="dropdown-item" href="/Project/InstitutionalAndFinancialSupport">Institutional and Financial Support</a>
+                    <a class="dropdown-item" href="/Project/History">History</a>
+                    <a class="dropdown-item" href="/Project/FAQ">FAQ</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownPeople" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                    PEOPLE
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownPeople">
+                    <a class="dropdown-item" href="/People/ExecutiveBoard">Executive Board</a>
+                    <a class="dropdown-item" href="/People/ResearchTeam">Research Team</a>
+                    <a class="dropdown-item" href="/People/Acknowledgments">Acknowledgments</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMethods" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                    METHODS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMethods">
+                    <a class="dropdown-item" target="_blank" href="/File/GetDocument/Public/Docs/MP-Summary.pdf">Brief Summary</a>
+                    <a class="dropdown-item" target="_blank" href="/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf">Full Protocol</a>
+                    <a class="dropdown-item" target="_blank" href="/File/GetDocument/Public/Docs/SpecialMethods.pdf">Special Methods</a>
+                    <a class="dropdown-item" target="_blank" href="/File/GetDocument/Public/STMF/Doc/STMFNote.pdf">STMF Methodological Note</a>
+                    <a class="dropdown-item" target="_blank" href="/File/GetDocument/hcd/docs/HCD_Method_Explanatory_Notes.pdf">HCD Explanatory Note</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownData" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                    DATA
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownData">
+                    <a class="dropdown-item" href="/Data/DataAvailability">Data Availability</a>
+                    <a class="dropdown-item" href="/Data/ZippedDataFiles">Zipped Data Files</a>
+                    <a class="dropdown-item" href="/Data/ExplanatoryNotes">Explanatory Notes</a>
+                    <a class="dropdown-item" target="_blank" href="/File/GetDocument/Public/country_codes.csv">Country Codes</a>
+                    <a class="dropdown-item" href="/Data/STMF">STMF</a>
+                    <a class="dropdown-item" href="/Data/HCD">HCD</a>
+                    <a class="dropdown-item" target="_blank" href="/File/GetDocument/hcd/docs/HCD_Formats.pdf">HCD Formats</a>
+                    <a class="dropdown-item" href="/Data/WhatsNew">What’s New</a>
+                    <a class="dropdown-item" href="/Data/UserAgreement">User Agreement</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownProject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                    RESEARCH
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownProject">
+                    <a class="dropdown-item" href="/Research/Events">Events</a>
+                    <a class="dropdown-item" href="/Research/CitationGuidelines">Citation Guidelines</a>
+                    <a class="dropdown-item" target="_blank" href="/File/GetDocument/Public/HMD-Publist.pdf">HMD Bibliography</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                    LINKS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
+                    <a class="dropdown-item" href="https://www.lifetable.de/cgi-bin/index.php" target="_blank">Human Life Table Database</a>
+                    <a class="dropdown-item" href="/Links/SubnationalMortalityDatabases">Subnational Mortality Databases</a>
+                </div>
+            </li>
+        </ul>
+        <div class="contact-login">
+    <a target="_blank" href="https://bsky.app/profile/hmdatabase.bsky.social" class="icon" aria-label="The HMD on Bluesky">
+        <svg width="30" height="30" fill="none" role="presentation">
+            <use xlink:href="/images/icons.svg?2#bsky"></use>
+        </svg>
+    </a>
+        <a class="border-btn" href="/Account/Auth">Registration</a>
+        <a class="bg-btn" href="/Account/Login">Login</a>
+</div>
+    </div>
+</nav>
+        </div>
+        <!--/.header-->
+        <div class="manage-fixed-nav-height"></div>
+        <!--/.manage-fixed-nav-height-->
+    </header>
+    <div class="page-wrapper">
+        <div class="container">
+            
+
+<div class="row main-row">
+    <div class="col-lg-8">
+        <div class="left-col">
+            <h1>U.K.</h1>
+            <h2 class="mb-4">England &amp; Wales Total Population</h2>
+
+                <div class="row">
+                    <div class="col-12">
+                        <p><span style="color:red">Warning: </span>Data for England and Wales are available for the total population as well as the civilian population. The period data in the two series differ only for the years between the pre-war and post-war censuses (1912-1920 and 1939-1950). The data given here cover the total population including both civilian and military regardless of whether the death occurred abroad. 
+</p>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="icon-head"><img src="/images/bulb.svg" alt="icon" /> <span>Other data series for this country</span></div>
+                        <div class="germany-east-west">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a class="border-btn" href="/Country/Country?cntr=GBR_NP"> United Kingdom Total Population</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a class="border-btn" href="/Country/Country?cntr=GBRCENW"> England &amp; Wales Civilian Population</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a class="border-btn" href="/Country/Country?cntr=GBR_SCO"> Scotland</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a class="border-btn" href="/Country/Country?cntr=GBR_NIR"> Northern Ireland</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-lg-4">
+        <div class="right-col">
+            <ul>
+                <li><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/Public/InputDB/GBRTENWcom.pdf">Background and documentation</a></li>
+                <li><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/InputDB/GBRTENWref.pdf">Data sources</a></li>
+                <li><a target="_blank" href="/File/Download/hmd.v6/zip/by_country/GBRTENW.zip">All data in one zip file</a></li>
+<li><a href="/Country/HCDCountry?cntr=GBRTENW">Cause-of-death data</a></li>            </ul>
+        </div>
+        <!--/.right-col-->
+    </div>
+    <!--/.col-->
+</div>
+<!--/.row-->
+
+<div class="table-container">
+    <div class="table-title">
+        <div class="left">
+            <h3>Complete Data Series</h3>
+            <div class="icon-head"><img src="/images/bulb.svg" alt="icon" /><a style="color: #EE7F1A;" href="/Data/ExplanatoryNotes">Explanatory notes</a></div>
+        </div>
+        <!--/.left-->
+        <div class="right">
+            &nbsp; 
+        </div>
+        <!--/.right-->
+    </div>
+    <!--/.table-title-->
+    <div class="table-holder">
+        <table class="table table-bordered">
+            <thead>
+                <tr class="darkbluebg">
+                    <th rowspan="2" role="presentation">&nbsp;</th>
+                    <th rowspan="2">Available dates</th>
+                    <th colspan="6">Age interval × Year interval</th>
+                </tr>
+                <tr class="darkbluebg with-border">
+                    <th>1x1</th>
+                    <th>1x5</th>
+                    <th>1x10</th>
+                    <th>5x1</th>
+                    <th>5x5</th>
+                    <th>5x10</th>
+                </tr>
+                <tr class="lightbluebg">
+                    <th class="bold text-left">Period data</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Births</td>
+                    <td>1841 - 2022</td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Births.txt">1-year</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Deaths</td>
+                    <td>1841 - 2022</td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Deaths_1x1.txt">1x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Deaths_1x5.txt">1x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Deaths_1x10.txt">1x10</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Deaths_5x1.txt">5x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Deaths_5x5.txt">5x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Deaths_5x10.txt">5x10</a></td>
+                </tr>
+                <tr>
+                    <td>Deaths by Lexis triangles</td>
+                    <td>1841 - 2022</td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Deaths_lexis.txt">Lexis</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Population size</td>
+                    <td>1841 - 2023</td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Population.txt">1-year</a></td>
+                    <td></td>
+                    <td></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Population5.txt">5-year</a></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Exposure-to-risk</td>
+                    <td>1841 - 2022</td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Exposures_1x1.txt">1x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Exposures_1x5.txt">1x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Exposures_1x10.txt">1x10</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Exposures_5x1.txt">5x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Exposures_5x5.txt">5x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Exposures_5x10.txt">5x10</a></td>
+                </tr>
+                <tr>
+                    <td>Exposure-to-risk by Lexis triangles</td>
+                    <td>1841 - 2022</td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Exposures_lexis.txt">Lexis</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Age-Specific Death Rates</td>
+                    <td>1841 - 2022</td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Mx_1x1.txt">1x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Mx_1x5.txt">1x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Mx_1x10.txt">1x10</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Mx_5x1.txt">5x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Mx_5x5.txt">5x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/Mx_5x10.txt">5x10</a></td>
+                </tr>
+   
+                    <tr>
+                        <td>Age-Standardized Death Rates</td>
+                        <td>1841 - 2022</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/sdr_5x1.txt">5x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/sdr_5x5.txt">5x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/sdr_5x10.txt">5x10</a></td>
+                    </tr>
+
+                <tr>
+                    <td class="semibold">Life tables</td>
+                    <td>1841 - 2022</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="sub-row">
+                    <td>Females</td>
+                    <td></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltper_1x1.txt">1x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltper_1x5.txt">1x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltper_1x10.txt">1x10</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltper_5x1.txt">5x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltper_5x5.txt">5x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltper_5x10.txt">5x10</a></td>
+                </tr>
+                <tr class="sub-row">
+                    <td>Males</td>
+                    <td></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltper_1x1.txt">1x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltper_1x5.txt">1x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltper_1x10.txt">1x10</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltper_5x1.txt">5x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltper_5x5.txt">5x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltper_5x10.txt">5x10</a></td>
+                </tr>
+                <tr class="sub-row">
+                    <td>Total (both sexes)</td>
+                    <td></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltper_1x1.txt">1x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltper_1x5.txt">1x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltper_1x10.txt">1x10</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltper_5x1.txt">5x1</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltper_5x5.txt">5x5</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltper_5x10.txt">5x10</a></td>
+                </tr>
+                <tr>
+                    <td>Life expectancy at birth</td>
+                    <td>1841 - 2022</td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/E0per.txt">1-year</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/E0per_1x5.txt">5-year</a></td>
+                    <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/E0per_1x10.txt">10-year</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr class="lightbluebg">
+                    <th class="bold text-left">Cohort data</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                    <th role="presentation">&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Exposure-to-risk</td>
+                    <td>1764 - 1992</td>
+
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cExposures_1x1.txt">1x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cExposures_1x5.txt">1x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cExposures_1x10.txt">1x10</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cExposures_5x1.txt">5x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cExposures_5x5.txt">5x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cExposures_5x10.txt">5x10</a></td>
+                </tr>
+                <tr>
+                    <td>Death Rates</td>
+                    <td>1764 - 1992</td>
+
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cMx_1x1.txt">1x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cMx_1x5.txt">1x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cMx_1x10.txt">1x10</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cMx_5x1.txt">5x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cMx_5x5.txt">5x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/cMx_5x10.txt">5x10</a></td>
+                </tr>
+
+                    <tr>
+                        <td class="semibold">Life tables</td>
+                        <td>1841 - 1931</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="sub-row">
+                        <td>Females</td>
+                        <td></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltcoh_1x1.txt">1x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltcoh_1x5.txt">1x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltcoh_1x10.txt">1x10</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltcoh_5x1.txt">5x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltcoh_5x5.txt">5x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/fltcoh_5x10.txt">5x10</a></td>
+                    </tr>
+                    <tr class="sub-row">
+                        <td>Males</td>
+                        <td></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltcoh_1x1.txt">1x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltcoh_1x5.txt">1x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltcoh_1x10.txt">1x10</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltcoh_5x1.txt">5x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltcoh_5x5.txt">5x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/mltcoh_5x10.txt">5x10</a></td>
+                    </tr>
+                    <tr class="sub-row">
+                        <td>Total (both sexes)</td>
+                        <td></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltcoh_1x1.txt">1x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltcoh_1x5.txt">1x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltcoh_1x10.txt">1x10</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltcoh_5x1.txt">5x1</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltcoh_5x5.txt">5x5</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/bltcoh_5x10.txt">5x10</a></td>
+                    </tr>
+                    <tr>
+                        <td>Life expectancy at birth</td>
+                        <td>1841 - 1931</td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/E0coh.txt">1-year</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/E0coh_1x5.txt">5-year</a></td>
+                        <td><a target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/STATS/E0coh_1x10.txt">10-year</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--/.table-holder-->
+
+</div>
+<!--/.table-container-->
+
+
+<div class="table-container">
+    <div class="table-title">
+        <div class="left">
+            <h3>Input Data</h3>
+            <div class="icon-head"><img src="/images/bulb.svg" alt="icon" /><a style="color: #EE7F1A;" href="/Data/ExplanatoryNotes">Explanatory notes</a></div>
+        </div>
+        <!--/.left-->
+
+    </div>
+    <!--/.table-title-->
+    <div class="table-holder">
+        <table class="table table-bordered">
+            <thead>
+                <tr class="darkbluebg">
+                    <th role="presentation">&nbsp;</th>
+                    <th>Available dates</th>
+                    <th>Data</th>
+                    <th>Lexis map</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Births</td>
+                    <td>1838 - 2022</td>
+                    <td>
+                        <a class="link-with-icon" target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/InputDB/GBRTENWbirth.txt">
+                            <svg width="18" height="18" fill="none">
+                                <title>text file</title>
+                                <use xlink:href="/images/icons.svg#file-txt"></use>
+                            </svg>
+                            <span>txt</span>
+                        </a>
+                    </td>
+                    <td></td>
+                </tr>
+
+                    <tr>
+                        <td>Births by month</td>
+                        <td>Various</td>
+                        <td>
+                            <a class="link-with-icon" target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/InputDB/GBRTENWbirthbymonth.txt">
+                                <svg width="18" height="18" fill="none">
+                                    <title>text file</title>
+                                    <use xlink:href="/images/icons.svg#file-txt"></use>
+                                </svg>
+                                <span>txt</span>
+                            </a>
+                        </td>
+                        <td></td>
+                    </tr>
+                <tr>
+                    <td>Deaths</td>
+                    <td>1838 - 2022</td>
+                    <td>
+                        <a class="link-with-icon" target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/InputDB/GBRTENWdeath.txt">
+                            <svg width="18" height="18" fill="none">
+                                <title>text file</title>
+                                <use xlink:href="/images/icons.svg#file-txt"></use>
+                            </svg>
+                            <span>txt</span>
+                        </a>
+                    </td>
+                    <td><a href="/Home/Deaths?cntr=GBRTENW"><img src="/images/globe-icon.svg" alt="icon" /> html</a></td>
+
+                </tr>
+                <tr>
+                    <td>Population size</td>
+                    <td>1841 - 2023</td>
+                    <td>
+                        <a class="link-with-icon" target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/InputDB/GBRTENWpop.txt">
+                            <svg width="18" height="18" fill="none">
+                                <title>text file</title>
+                                <use xlink:href="/images/icons.svg#file-txt"></use>
+                            </svg>
+                            <span>txt</span>
+                        </a>
+                    </td>
+                    <td><a href="/Home/PopulationSize?cntr=GBRTENW"><img src="/images/globe-icon.svg" alt="icon" /> html</a></td>
+                </tr>
+
+
+                <tr>
+                    <td>Notes</td>
+                    <td></td>
+                    <td>
+                        <a class="link-with-icon" target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/InputDB/GBRTENWnote.pdf">
+                            <svg width="18" height="18" fill="none">
+                                <title>pdf</title>
+                                <use xlink:href="/images/icons.svg#file-pdf"></use>
+                            </svg>
+                            <span>pdf</span>
+                        </a>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Reference file</td>
+                    <td></td>
+                    <td>
+                        <a class="link-with-icon" target="_blank" href="/File/GetDocument/hmd.v6/GBRTENW/InputDB/GBRTENWref.pdf">
+                            <svg width="18" height="18" fill="none">
+                                <title>pdf</title>
+                                <use xlink:href="/images/icons.svg#file-pdf"></use>
+                            </svg>
+                            <span>pdf</span>
+                        </a>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--/.table-holder-->
+
+</div>
+<!--/.table-container-->
+        </div>
+        <!--/.container-->
+    </div><!--/.page-wrapper-->
+
+    <div class="overlay"></div>
+
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+    <ul class="service">
+        <li class="copy">&copy; 2026 MPIDR</li>
+        <li>
+            <p class="divider" aria-hidden="true">//</p>
+            <a href="mailto:hmd@mortality.org">Contact</a>
+        </li>
+        <li>
+            <p class="divider" aria-hidden="true">//</p>
+            <a href="/Home/Imprint">Imprint</a>
+        </li>
+        <li>
+            <p class="divider" aria-hidden="true">//</p>
+            <a href="/Home/Privacy">Privacy Policy</a>
+        </li>
+        <li>
+            <p class="divider" aria-hidden="true">//</p>
+            <a href="/Home/Sitemap">Sitemap</a>
+        </li>
+    </ul>
+    <ul class="social">
+        <li>
+            <a href="https://bsky.app/profile/hmdatabase.bsky.social" target="_blank" aria-label="The HMD on Bluesky">
+                <svg width="30" height="30" fill="none" role="presentation">
+                    <use xlink:href="/images/icons.svg?2#bsky"></use>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="mailto:hmd@mortality.org" aria-label="Send us an e-mail">
+                <svg width="30" height="30" fill="none" role="presentation">
+                    <use xlink:href="/images/icons.svg?2#envelope"></use>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</div>
+
+        </div><!--/.container-->
+        <!-- Matomo -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(['disableCookies']);
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//matomo.gwdg.de/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', '424']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <noscript><p><img src="//matomo.gwdg.de/piwik.php?idsite=346&rec=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Matomo Code -->
+    </footer>    
+
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/custom.js?v=20250624"></script>
+    <script src="/js/modal.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,8 @@
+item,url,status,detail,stored_file
+OWID current life-expectancy-at-different-ages CSV,https://ourworldindata.org/grapher/life-expectancy-at-different-ages.csv,downloaded,200 text/csv,figures/5-4/data/raw/owid_current_life_expectancy_at_different_ages.csv
+OWID current life-expectancy-at-different-ages metadata,https://ourworldindata.org/grapher/life-expectancy-at-different-ages.metadata.json,downloaded,200 application/json,figures/5-4/data/raw/owid_current_life_expectancy_at_different_ages.metadata.json
+OWID current life-expectancy-at-different-ages config,https://ourworldindata.org/grapher/life-expectancy-at-different-ages.config.json,downloaded,200 application/json,figures/5-4/data/raw/owid_current_life_expectancy_at_different_ages.config.json
+HMD England & Wales public country page,https://www.mortality.org/Country/Country?cntr=GBRTENW,downloaded,200 text/html; charset=utf-8,figures/5-4/data/raw/hmd_gbrtenw_country_page.html
+HMD England & Wales background documentation,https://www.mortality.org/File/GetDocument/hmd.v6/GBRTENW/Public/InputDB/GBRTENWcom.pdf,downloaded,200 application/pdf,figures/5-4/data/raw/hmd_gbrtenw_background_documentation.pdf
+HMD country codes,https://www.mortality.org/File/GetDocument/Public/country_codes.csv,downloaded,200 text/csv,figures/5-4/data/raw/hmd_country_codes.csv
+HMD both-sex period life table 1x1 raw data probe,https://www.mortality.org/File/GetDocument/hmd.v6/GBRTENW/STATS/bltper_1x1.txt,unexpected_public_response,"200 https://www.mortality.org/Account/Login text/html; charset=utf-8; first bytes=b'<!DOCTYPE html>\r\n<html lang=""e'",

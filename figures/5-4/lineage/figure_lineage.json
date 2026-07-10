@@ -8,16 +8,24 @@
     "value": "Our World in Data, Roser 2016n. Data before 1845 are for England and Wales and come from OECD Clio Infra, van Zanden et al. 2014. Data from 1845 on are for mid-decade years only, and come from the Human Mortality Database."
   },
   {
-    "stage": "Dataset Used",
-    "value": "partial HMD/OWID age-specific life-expectancy sources"
+    "stage": "Supplemental PDF Reference",
+    "value": "figures/5-4/plots/comparisons/supplemental_pdf_reference_figure_5_4.png"
   },
   {
-    "stage": "Downloaded File",
-    "value": "figures/5-4/data/raw/"
+    "stage": "Source Family",
+    "value": "OECD Clio Infra / van Zanden et al. 2014 before 1845; Human Mortality Database England & Wales total population from 1845 on"
+  },
+  {
+    "stage": "Dataset Used",
+    "value": "Partial local OWID/Roser-era files only; exact OWID/Roser 2016n age-specific export remains unrecovered"
+  },
+  {
+    "stage": "Source Audit",
+    "value": "figures/5-4/data/clean/figure_5_4_source_recovery_audit.csv"
   },
   {
     "stage": "Transformation Script",
-    "value": "scripts/reconstruct_track_a_health_nutrition.py"
+    "value": "scripts/reconstruct_5_4_targeted_source_recovery.py"
   },
   {
     "stage": "Generated Plot",

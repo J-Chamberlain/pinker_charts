@@ -1,7 +1,26 @@
 # Search Iterations: Figure 5-4
 
-- Kindle search/open for "Figure 5-4" or title
-- "Life expectancy, UK, 1701-2013" source data
-- "Our World in Data, Roser 2016n. Data before 1845 are for England and Wales and come from OECD Clio Infra, van Zanden et al. 2014. Data from 1845 on are for mid-decade years only, and come from the Human Mortality Database."
-- local OWID datasets mirror
-- current public successor data where exact book vintage was unavailable
+## 2026-07-09 Targeted Source Recovery
+
+- Rendered Supplemental Graphics PDF page 4 and visually inspected Figure 5-4.
+- Extracted page text with `pdftotext` to verify the surrounding discussion and source note.
+- Searched local repository for `5-4`, `Life expectancy, UK`, `Roser 2016n`, `Human Mortality Database`, `Clio Infra`, and related terms.
+- Read existing local OWID/HMD partial files and confirmed that only at-birth, age-15, and age-45 values are present for the United Kingdom / England & Wales.
+- Queried current OWID grapher endpoints:
+  - `https://ourworldindata.org/grapher/life-expectancy-at-different-ages.csv`
+  - `https://ourworldindata.org/grapher/life-expectancy-at-different-ages.metadata.json`
+  - `https://ourworldindata.org/grapher/life-expectancy-at-different-ages.config.json`
+  - `https://ourworldindata.org/grapher/remaining-life-expectancy-at-different-ages.*`
+- Queried adjacent OWID indicator metadata IDs around the current HMD/UN age-specific variables. The public set found in this run did not include the book's age-1, 5, 20, 30, 40, 50, 60, or 70 variables.
+- Opened HMD England & Wales total population page at `https://www.mortality.org/Country/Country?cntr=GBRTENW`; the page documents the relevant period life-table files and country code.
+- Downloaded public HMD background documentation and country-code table.
+- Probed direct HMD raw data paths under `/File/GetDocument/hmd.v6/GBRTENW/STATS/`; data paths redirect to the HMD login page in this environment.
+- Queried Wayback CDX for 2015-2018 captures of:
+  - `ourworldindata.org/grapher/life-expectancy-at-different-ages*`
+  - `ourworldindata.org/grapher/remaining-life-expectancy-at-different-ages*`
+  - `ourworldindata.org/grapher/life-expectancy-by-age*`
+  These returned no usable 200-status CSV capture in this run.
+
+## Outcome
+
+The source family is identified and citable, but the exact book-era OWID/Roser 2016n export or authenticated/archive HMD `GBRTENW` period life table was not recovered. Status remains `needs_targeted_source_recovery`.

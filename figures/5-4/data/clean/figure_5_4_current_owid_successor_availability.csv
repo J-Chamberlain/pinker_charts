@@ -1,0 +1,7 @@
+series,first_year,last_year,book_required_exact_age,accepted_for_book_reconstruction,note
+at birth,1543,2023,True,True,Current OWID successor omits several book ages and uses UN WPP after 1950.
+10 year old,1922,2023,True,False,Current OWID successor omits several book ages and uses UN WPP after 1950.
+25 year old,1922,2023,False,False,Current OWID successor omits several book ages and uses UN WPP after 1950.
+45 year old,1922,2023,False,False,Current OWID successor omits several book ages and uses UN WPP after 1950.
+65 year old,1922,2023,False,False,Current OWID successor omits several book ages and uses UN WPP after 1950.
+80 year old,1922,2023,False,False,Current OWID successor omits several book ages and uses UN WPP after 1950.
