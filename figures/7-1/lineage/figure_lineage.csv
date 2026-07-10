@@ -1,7 +1,9 @@
 stage,value
 Book Figure,"Figure 7-1: Calories, 1700-2013"
 Book Citation,"United States, England, and France: Our World in Data, Roser 2016d, based on Fogel 2004. China, India, and World: FAO."
-Dataset Used,Daily supply of calories per person (OWID based on UN FAO & historical sources)
-Downloaded File,figures/7-1/data/raw/
-Transformation Script,scripts/reconstruct_track_a_health_nutrition.py
+Supplemental PDF Evidence,"Supplemental Graphics PDF page 5 rendered/text-inspected; title, source note, axes, and surrounding text captured."
+Archived Source Configuration,2018 Wayback capture of OWID Grapher daily-per-capita-caloric-supply identifies chart id 744 and variable id 3590; variable data endpoint not recovered.
+Dataset Used,OWID 2022 successor: Daily supply of calories per person (OWID based on UN FAO & historical sources)
+Downloaded File,figures/7-1/data/raw/owid_daily_calories_fao_historical.csv
+Transformation Script,scripts/reconstruct_7_1.py
 Generated Plot,figures/7-1/plots/

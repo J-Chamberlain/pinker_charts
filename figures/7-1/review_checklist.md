@@ -139,4 +139,26 @@ Decision notes:
 
 Current status: `partial_match`.
 
-- Checklist is not fully complete for verified publication; unresolved items are documented in anomaly/source logs.
+2026-07-09 targeted rerun status: `partial_match`.
+
+- Supplemental PDF page 5 was inspected for figure image, source note, and
+  surrounding explanatory text.
+- Bibliography/source family was resolved to OWID/Roser 2016d "Food Supply" /
+  daily caloric supply material, with Fogel 2004 and FAO/FAOSTAT cited by the
+  book.
+- Archived 2018 OWID Grapher chart-page configuration was recovered and stored
+  under `data/candidates/archives/`.
+- Exact book-era machine-readable OWID variable data were not recovered. Direct
+  Wayback/CDX checks for CSV/JSON and `/grapher/data/variables/3590*` endpoints
+  failed.
+- The 2022 OWID successor dataset is used for reconstruction; its raw CSV is
+  byte-identical to the public `owid/owid-datasets` named dataset.
+- The previous missing England-line issue was corrected by including the
+  available `United Kingdom` source series and labeling it `England/UK`.
+- Book-period and extended comparisons were regenerated. The extended segment
+  uses same-file successor values through 2018 and is dashed.
+- Editorial review found no critical layout issue after note wrapping, but
+  major evidentiary issues remain: exact Roser 2016d data are unrecovered and
+  the historical line shapes visibly differ from the book.
+- Checklist is not fully complete for verified publication; unresolved items
+  are documented in anomaly/source/discrepancy logs.
