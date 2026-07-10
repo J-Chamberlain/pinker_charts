@@ -1,6 +1,6 @@
 # Project State
 
-Last update: 2026-06-29 19:29 America/Los_Angeles
+Last update: 2026-07-09 17:22 America/Los_Angeles
 
 Project version: `1.4-four-figure-remediation`
 
@@ -50,7 +50,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
 | 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Remediated to use the current OWID selected child-mortality series in percent units; exact Roser 2016a UN/HMD assembled source remains unresolved. |
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
-| 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
+| 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Spill-count line is supported; current UNCTADStat successor bulk data were recovered but rejected for the gray line because they start in 2000 and fail the RMT scale check. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
 | 10-8 | CO2 emissions, 1960-2015 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 regional CDIAC dataset matches the Kindle source chain; extension uses current OWID/GCB successor categories after 2015. |
@@ -78,9 +78,9 @@ support a verified reconstruction.
 
 - Figure 10-5: the oil-spill count line is well supported, but the exact
   historical annual oil-shipped-by-sea/tanker-trade series for 1970-2016 has
-  not been proven. A recovered UNCTADStat-style mirror supports a book-style
-  reconstruction through 2020, but it remains an updated-equivalent or partial
-  source rather than a verified book-era dataset.
+  not been recovered. The current UNCTADStat `US.SeaborneTrade` bulk file was
+  recovered and archived, but it is labeled `From 2000 to 2024` and fails the
+  RMT selected-year scale check, so it is not plotted as a book-line substitute.
 - Figure 5-2: the Kindle title/source and chart page were captured, and the
   reconstruction was remediated to use the current OWID selected
   child-mortality series directly in percent units. It remains a partial match
@@ -275,7 +275,10 @@ Canonical documentation:
   explained; batches may not complete with any Critical issue or unexplained
   Major issue.
 - Figure 10-5 needs the exact Roser 2016r/ITOPF source snapshot or a documented
-  archival equivalent for the full 1970-2016 oil-shipped-by-sea series.
+  archival equivalent for the full 1970-2016 oil-shipped-by-sea series. Current
+  UNCTADStat successor bulk data are rejected as a substitute because they start
+  in 2000 and differ from RMT selected-year tanker trade by about 31-48 percent
+  on overlap.
 - Figure 5-2 needs the exact Roser 2016a UN/HMD assembled dataset or an
   archival copy before it can be promoted beyond `partial_match`.
 - Figure 19-1 needs the cited HumanProgress/FAS 2016 table or archival
@@ -295,6 +298,9 @@ Canonical documentation:
 - Was Figure 10-5's gray line sourced from a retired UNCTADStat export,
   ITOPF-internal chart data, an Our World in Data/Roser snapshot, or a manually
   assembled institutional series?
+- Can the 2023 clue `US.SeaborneTrade_585_20231104_101924.csv` be recovered
+  from an archive, authenticated export history, or independent replication
+  bundle?
 - Can 2021-2023 tanker-trade values be recovered on the same scale as the
   book-period Figure 10-5 right-axis series?
 - Did Figure 10-6 plot WDI anchor years directly or use an intermediate WRI
@@ -321,6 +327,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.4.1-figure-10-5-source-recovery` | 2026-07-09 | Recovered current UNCTADStat `US.SeaborneTrade` bulk metadata/archive, rejected it as a book gray-line substitute because it starts in 2000 and fails the RMT scale check, and regenerated Figure 10-5 as an explicitly spill-count-only partial reconstruction/extension. |
 | `1.4-four-figure-remediation` | 2026-06-29 | Remediated the latest four-figure batch: clarified no-extension artifacts for Figures 5-1 and 8-4, improved Figure 5-2 source/units while retaining partial-match status, captured the actual Figure 19-1 Kindle chart crop, and marked Figure 19-1 visual validation as poor until the cited FAS/HumanProgress stacked source is recovered. |
 | `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |
 | `1.2-four-figure-batch-5-1-5-2-8-4-19-1` | 2026-06-29 | Processed Figures 5-1, 5-2, 8-4, and 19-1. Figures 5-1 and 8-4 reached verified book-period reconstructions; Figures 5-2 and 19-1 remain partial matches with documented source/capture blockers. |

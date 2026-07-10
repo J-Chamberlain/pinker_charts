@@ -20,14 +20,14 @@
     "dataset_name": "Oil shipped by sea / seaborne trade oil cargo",
     "dataset_type": "institutional statistical database",
     "owning_institution": "UNCTADStat",
-    "publication_year": "unknown",
+    "publication_year": "unknown/current successor 2026",
     "update_frequency": "Annual",
-    "current_availability": "Public viewer found; exact unauthenticated CSV export not located",
-    "likely_successor_dataset": "UNCTADStat seaborne trade data viewer",
+    "current_availability": "Current bulk file recovered and archived, but it is labeled From 2000 to 2024; exact 1970-2016 export not located",
+    "likely_successor_dataset": "UNCTADStat US.SeaborneTrade bulk file `US_SeaborneTrade`",
     "persistent_identifiers": "",
     "source_fidelity": "C",
-    "fidelity_label": "Institutional successor",
-    "notes": "Needed for the gray right-axis line in Figure 10-5."
+    "fidelity_label": "Rejected institutional successor for book line",
+    "notes": "Needed for the gray right-axis line in Figure 10-5. Current World cargo 11+12 values fail RMT selected-year scale check by about 31-48 percent on overlap."
   },
   {
     "dataset_id": "world_bank_wdi_protected_areas",

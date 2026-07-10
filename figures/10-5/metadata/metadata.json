@@ -2,37 +2,59 @@
   "figure_id": "10-5",
   "title": "Oil spills, 1970-2016",
   "status": "partial_match",
+  "lifecycle_stage": "source_recovery_and_discrepancy_analysis",
   "source_fidelity": "B/C",
-  "best_current_reconstruction": "outputs/plots/figure_10_5_oil_spills.png",
-  "candidate_diagnostic_plot": "outputs/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png",
-  "comparison_image": "outputs/validation/figure_10_5_comparison.png",
-  "original_reference_image": "outputs/original_reference/figure_10_5_original_crop.png",
+  "confidence": 0.62,
+  "current_run_date": "2026-07-09",
+  "original_source_line": "Source: Our World in Data, Roser 2016r, based on data (updated) from the International Tanker Owners Pollution Federation.",
+  "book_definition_note": "Oil spills include all losses of at least 7 metric tons of oil. Oil shipped consists of total crude oil, petroleum product, and gas loaded.",
+  "best_current_reconstruction": "plots/book_period/figure_10_5_book_period_reconstruction.png",
+  "extended_reconstruction": "plots/extended/figure_10_5_extended_reconstruction.png",
+  "comparison_image": "plots/comparisons/figure_10_5_book_style_comparison_captioned.png",
+  "original_reference_image": "plots/comparisons/corrected_figure_10_5_book_crop.png",
   "raw_downloads": [
     {
       "path": "data/raw/owid_number_oil_spills.csv",
       "url": "https://ourworldindata.org/grapher/number-oil-spills.csv",
-      "source_type": "live",
-      "role": "best-current reconstruction input"
+      "source_type": "live_successor",
+      "role": "accepted spill-count input"
     },
     {
-      "path": "data/candidates/unctad_oil_trade_2000_2016_raw.json",
-      "url": "https://unctadstat-api.unctad.org/datamart-api/US.SeaborneTrade/2231/Facts",
-      "source_type": "live",
-      "role": "diagnostic candidate only"
+      "path": "data/candidates/unctad_us_seaborne_trade_bulk_2000_2024.csv.7z",
+      "url": "https://unctadstat-api.unctad.org/bulkdownload/US.SeaborneTrade/US_SeaborneTrade",
+      "source_type": "live_successor",
+      "role": "rejected oil-shipping candidate for book-period line; starts in 2000 and fails RMT scale check"
     }
   ],
-  "processed_data": "data/clean/figure_10_5_oil_spills_clean.csv",
-  "transformations": [
-    "Filtered OWID data to World, 1970-2016.",
-    "Computed oil_spills_7_plus_tonnes as medium plus large tanker spills.",
-    "Kept UNCTAD 2000-2016 cargo types 11 and 12 as diagnostic evidence only."
+  "processed_data": [
+    "data/clean/figure_10_5_oil_spills_clean.csv",
+    "data/clean/figure_10_5_current_unctad_bulk_oil_cargo_2000_2024.csv"
   ],
-  "unresolved_issues": [
-    "Missing oil-shipped-by-sea values for 1970-1999.",
-    "Exact Roser 2016r data snapshot not located.",
-    "Annual UNCTADStat mirror recovers tanker trade through 2020; ITOPF-cited 2021-2023 UNCTADStat extension was not admitted because the accessible live API series does not match the book/RMT scale on overlap.",
-    "Annual UNCTADStat mirror recovers tanker trade through 2020; ITOPF-cited 2021-2023 UNCTADStat extension was not admitted because the accessible live API series does not match the book/RMT scale on overlap.",
-    "Annual UNCTADStat mirror recovers tanker trade through 2020; ITOPF-cited 2021-2023 UNCTADStat extension was not admitted because the accessible live API series does not match the book/RMT scale on overlap."
+  "transformations": [
+    "Filtered OWID data to World and computed oil_spills_7_plus_tonnes as medium plus large tanker spills.",
+    "Downloaded current UNCTADStat US.SeaborneTrade bulk metadata and archive; extracted World cargo types 11 and 12 as a rejected diagnostic successor only.",
+    "Compared current UNCTAD bulk cargo 11+12 values against UNCTAD Review of Maritime Transport 2020 selected-year tanker-trade values."
+  ],
+  "accepted_series": [
+    {
+      "series": "Oil spills of at least 7 tonnes",
+      "coverage": "1970-2016 book period; 1970-2025 current successor for spill-count-only extension",
+      "source": "Our World in Data grapher number-oil-spills.csv, citing ITOPF",
+      "tolerance": "Exact row-level sum of OWID medium and large spill columns."
+    }
+  ],
+  "rejected_or_unresolved_series": [
+    {
+      "series": "Oil shipped by sea / tanker trade",
+      "book_coverage_required": "1970-2016 annual",
+      "current_best_evidence": "UNCTADStat US.SeaborneTrade current bulk file is publicly downloadable but labeled From 2000 to 2024.",
+      "reason_not_plotted": "It lacks 1970-1999 and differs from RMT 2020 tanker-trade selected years by roughly 31-48 percent on overlap; therefore it is not a comparable book-line source."
+    },
+    {
+      "series": "Roser 2016r/ITOPF oil-shipped-by-sea source snapshot",
+      "status": "not recovered",
+      "reason_not_plotted": "No archived OWID/Roser data bundle, archived UNCTADStat export, or ITOPF chart-data table with annual 1970-2016 oil-shipping values was recovered in this run."
+    }
   ],
   "candidate_evidence": [
     {
@@ -40,36 +62,29 @@
       "source": "UNCTAD Review of Maritime Transport 2020 Table 1.1",
       "role": "historical selected-year diagnostic support",
       "status": "accepted_diagnostic_only",
-      "limitation": "selected years only; not the exact annual 1970-2016 series"
+      "limitation": "Selected years only; not the exact annual 1970-2016 series."
+    },
+    {
+      "path": "data/candidates/unctad_current_bulk_vs_rmt_scale_check.csv",
+      "source": "This run's comparison of current UNCTADStat bulk data against RMT 2020 selected years",
+      "role": "rejection evidence",
+      "status": "accepted_rejection_evidence",
+      "limitation": "Shows non-comparability of current bulk cargo 11+12 values for the book gray line."
     }
   ],
-  "search_metrics": "outputs/search_metrics/search_metrics.csv",
-  "book_style_outputs": {
-    "book_period": "outputs/book_style/book_period/figure_10_5_book_period_reconstruction.png",
-    "extended": "outputs/book_style/extended/figure_10_5_extended_reconstruction.png",
-    "book_comparison": "outputs/book_style/validation/figure_10_5_book_style_comparison.png",
-    "extended_comparison": "outputs/book_style/validation/figure_10_5_extended_comparison.png",
-    "caption": "outputs/book_style/captions/figure_10_5_caption.txt",
-    "anomaly_review": "outputs/book_style/anomaly_reviews/figure_10_5_anomaly_review.md",
-    "book_comparison_captioned": "outputs/book_style/validation/figure_10_5_book_style_comparison_captioned.png",
-    "extended_comparison_captioned": "outputs/book_style/validation/figure_10_5_extended_comparison_captioned.png"
+  "visual_outputs": {
+    "book_period": "plots/book_period/figure_10_5_book_period_reconstruction.png",
+    "extended": "plots/extended/figure_10_5_extended_reconstruction.png",
+    "book_comparison": "plots/comparisons/figure_10_5_book_style_comparison.png",
+    "extended_comparison": "plots/comparisons/figure_10_5_extended_comparison.png",
+    "book_comparison_captioned": "plots/comparisons/figure_10_5_book_style_comparison_captioned.png",
+    "extended_comparison_captioned": "plots/comparisons/figure_10_5_extended_comparison_captioned.png"
   },
-  "caption_text_file": "outputs/book_style/captions/figure_10_5_caption.txt",
-  "anomaly_review_file": "outputs/book_style/anomaly_reviews/figure_10_5_anomaly_review.md",
-  "caption": "Figure 10-5: Oil spills, 1970-2016, with post-publication updates. The solid black line shows oil spills of at least 7\ntonnes during the book period; the solid gray line shows oil shipped by sea / tanker trade during the book period.\nBook-period spill data come from ITOPF via OWID/Roser, and tanker-trade data come from a recovered annual UNCTADStat-\nstyle mirror for World crude oil loaded plus other tanker trade loaded. Dotted segments show post-publication updates:\nspill counts extend through 2025 and tanker-trade evidence extends through 2020. The tanker-trade extension is\ncontinuous with the recovered annual mirror through 2020, but ITOPF's current source trail indicates UNCTADStat data\nare available through 2023; the accessible live UNCTAD API was not used for 2021-2023 because its overlap values do\nnot match the book/RMT scale. Remaining uncertainty: the exact Roser 2016r/ITOPF data snapshot and a validated\n2021-2023 same-scale UNCTAD export remain unresolved.",
-  "visual_anomaly_review": [
-    "Visual review date: 2026-06-28",
-    "",
-    "Reviewer-visible issues:",
-    "- The extended reconstruction has two different update horizons: spill counts continue through 2025, while validated same-scale tanker-trade evidence stops at 2020.",
-    "- ITOPF's current Figure 4 source trail says UNCTADStat tanker-trade data are available through 2023, but the accessible live UNCTAD endpoint fails overlap validation against the book/RMT scale.",
-    "- The right-axis series is an updated-equivalent reconstruction rather than a proven exact Roser 2016r data snapshot.",
-    "- Solid-to-dotted transition at 2016 is intentional and marks the end of Pinker's book period.",
-    "",
-    "Disposition:",
-    "- Keep the 2021-2023 live UNCTAD candidate out of the publication-facing line until a same-scale source is recovered.",
-    "- Caption explicitly states the different update horizons and unresolved exact-source uncertainty."
-  ],
-  "extension_continuity": "continuous_through_validated_source_limit",
-  "extension_caveat": "Post-book spill counts extend through 2025, while validated same-scale tanker-trade evidence extends through 2020. The accessible live UNCTAD 2021-2023 endpoint is excluded because it does not match the book/RMT scale on overlapping years."
+  "regeneration_command": "/Users/alfred/Documents/MIsc/.venv/bin/python scripts/reconstruct_10_5_source_recovery.py",
+  "extension_policy": "Only the spill-count series is extended, using the same OWID/ITOPF successor source through 2025. No oil-shipping extension is plotted.",
+  "unresolved_issues": [
+    "Exact Roser 2016r data snapshot not located.",
+    "Annual 1970-2016 oil-shipped-by-sea values not recovered.",
+    "The book-period visual cannot be described as a verified reconstruction because the gray right-axis line is intentionally absent."
+  ]
 }

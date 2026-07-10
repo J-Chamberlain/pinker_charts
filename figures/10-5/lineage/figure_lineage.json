@@ -32,7 +32,7 @@
         "figure_title": "Oil spills, 1970-2016",
         "stage_order": 4,
         "stage": "Original Dataset",
-        "value": "Roser 2016r OWID figure data plus ITOPF/UNCTAD inputs",
+        "value": "Roser 2016r OWID figure data plus ITOPF/UNCTAD annual oil-shipped-by-sea inputs",
         "stage_status": "not_located"
       },
       {
@@ -40,7 +40,7 @@
         "figure_title": "Oil spills, 1970-2016",
         "stage_order": 5,
         "stage": "Modern Dataset",
-        "value": "https://ourworldindata.org/grapher/number-oil-spills.csv",
+        "value": "OWID spill-count CSV accepted; current UNCTADStat US.SeaborneTrade bulk file rejected for gray line",
         "stage_status": "located_partial"
       },
       {
@@ -48,15 +48,15 @@
         "figure_title": "Oil spills, 1970-2016",
         "stage_order": 6,
         "stage": "Downloaded File",
-        "value": "data/raw/owid_number_oil_spills.csv",
-        "stage_status": "downloaded"
+        "value": "data/raw/owid_number_oil_spills.csv; data/candidates/unctad_us_seaborne_trade_bulk_2000_2024.csv.7z",
+        "stage_status": "downloaded_partial"
       },
       {
         "figure_id": "10-5",
         "figure_title": "Oil spills, 1970-2016",
         "stage_order": 7,
         "stage": "Transformation Script",
-        "value": "scripts/recreate_figures.py",
+        "value": "scripts/reconstruct_10_5_source_recovery.py",
         "stage_status": "implemented"
       },
       {
@@ -64,8 +64,8 @@
         "figure_title": "Oil spills, 1970-2016",
         "stage_order": 8,
         "stage": "Generated Plot",
-        "value": "outputs/plots/figure_10_5_oil_spills.png",
-        "stage_status": "generated"
+        "value": "plots/book_period/figure_10_5_book_period_reconstruction.png",
+        "stage_status": "generated_partial"
       }
     ]
   },
