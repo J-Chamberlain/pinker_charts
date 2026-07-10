@@ -1,9 +1,27 @@
 [
   {
     "figure_id": "9-2",
-    "artifact": "book_reference",
+    "artifact": "supplemental_pdf_reference",
+    "source": "Supplemental Graphics PDF page 10",
+    "status": "reference_only"
+  },
+  {
+    "figure_id": "9-2",
+    "artifact": "legacy_book_reference",
     "source": "Chapter 9 preview PDF page crop",
     "status": "reference_only"
+  },
+  {
+    "figure_id": "9-2",
+    "artifact": "bibliography",
+    "source": "Branko Milanovic 2016 Global Inequality book",
+    "status": "resolved_dataset_unrecovered"
+  },
+  {
+    "figure_id": "9-2",
+    "artifact": "successor_source_family",
+    "source": "Milanovic 2024 Three eras of global inequality",
+    "status": "not_comparable_extension"
   },
   {
     "figure_id": "9-2",

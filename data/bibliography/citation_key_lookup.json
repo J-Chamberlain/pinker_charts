@@ -25,5 +25,23 @@
     "title": "World Development Indicators",
     "url": "https://databank.worldbank.org/source/world-development-indicators",
     "resolution_status": "candidate"
+  },
+  {
+    "citation_key": "milanovic_2016_global_inequality_book",
+    "bibliography_record_id": "milanovic_2016_global_inequality_book",
+    "authors": "Branko Milanovic",
+    "year": "2016",
+    "title": "Global Inequality: A New Approach for the Age of Globalization",
+    "url": "https://www.hup.harvard.edu/books/9780674737136",
+    "resolution_status": "resolved_bibliographic_source_dataset_unrecovered"
+  },
+  {
+    "citation_key": "milanovic_2024_three_eras_global_inequality",
+    "bibliography_record_id": "milanovic_2024_three_eras_global_inequality",
+    "authors": "Branko Milanovic",
+    "year": "2024",
+    "title": "The three eras of global inequality, 1820-2020 with the focus on the past thirty years",
+    "url": "https://stonecenter.gc.cuny.edu/publications/the-three-eras-of-global-inequality-1820-2020-with-the-focus-on-the-past-thirty-years/",
+    "resolution_status": "resolved_successor_source_family_not_comparable_extension"
   }
 ]

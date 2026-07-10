@@ -2,7 +2,7 @@
 
 Last update: 2026-07-09 America/Los_Angeles
 
-Project version: `1.16-source-recovery-figure-9-1-international-inequality`
+Project version: `1.16-source-recovery-figure-9-2-global-inequality`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -98,6 +98,8 @@ this file are all updated. Only then may Codex begin another figure.
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
 | 9-1 | International inequality, 1820-2013 | Partial source recovery; weighted series blocked | `manual_review_needed` | Medium-low | Supplemental PDF page 9 captured; OECD/IISH Table 11.4 recovered for the unweighted/between-country line through 2000, but the Milanovic population-weighted line through 2013 remains unrecovered as inspectable data. No full reconstruction or extension accepted. |
 | 9-2 | Global inequality, 1820-2011 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 3.1 underlying table not recovered, so no digitized reconstruction was made. |
+| 9-1 | International inequality, 1820-2013 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured from Chapter 9 preview PDF; original OECD Clio Infra/Moatsos and Milanovic weighted data not recovered, so no digitized reconstruction was made. |
+| 9-2 | Global inequality, 1820-2011 | Source recovery blocked; Supplemental PDF reference captured | `manual_review_needed` | Low | Supplemental PDF page 10 captured; targeted 2026-07-09 searches did not recover Milanovic 2016 fig. 3.1 table or likely `History/thepast.xls` workbook; Milanovic 2024 is source-family evidence but not a comparable extension, so no digitized reconstruction was made. |
 | 9-3 | Inequality, UK and US, 1688-2013 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 2.1 underlying UK/US table not recovered, so no digitized reconstruction was made. |
 | 9-4 | Social spending, OECD countries, 1880-2016 | Updated-equivalent reconstruction with successor extension | `updated_equivalent` | Medium | Current OWID social-spending-oecd-longrun successor reconstructs the figure concept through 2016 and extends after 2016; exact Ortiz-Ospina & Roser 2016b/2017 source snapshot remains unrecovered. |
 | 9-5 | Income gains, 1988-2008 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 1.3 growth-incidence data not recovered, so no digitized reconstruction was made. |
@@ -450,7 +452,8 @@ Status: `manual_review_needed`
 
 Canonical visual artifacts:
 
-- Original reference: `figures/9-2/plots/comparisons/kindle_reference_figure_9_2.png`
+- Supplemental PDF reference: `figures/9-2/plots/comparisons/supplemental_pdf_page_10_figure_9_2.png`
+- Legacy Kindle reference: `figures/9-2/plots/comparisons/kindle_reference_figure_9_2.png`
 - Book-period status panel: `figures/9-2/plots/book_period/figure_9_2_book_period_reconstruction.png`
 - Extended status panel: `figures/9-2/plots/extended/figure_9_2_extended_reconstruction.png`
 - Book-period comparison: `figures/9-2/plots/comparisons/figure_9_2_book_period_comparison.png`
@@ -463,6 +466,8 @@ Canonical documentation:
 - Anomaly review: `figures/9-2/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/9-2/metadata/metadata.json`
 - Review checklist: `figures/9-2/review_checklist.md`
+
+Source status: Supplemental Graphics PDF page 10 source line captured; bibliography resolves to Branko Milanovic, *Global Inequality: A New Approach for the Age of Globalization*, Belknap Press of Harvard University Press, 2016. Targeted 2026-07-09 searches found references to Milanovic source-family data and later slides labeling a likely workbook as `History/thepast.xls`, but no inspectable Milanovic 2016 figure 3.1 table, publisher supplement, author supplement, or archived workbook was recovered. Milanovic 2024 was reviewed as a successor/source-family paper; it uses revised 2011-PPP historical estimates and partly unpublished later calculations, so it is not plotted as a comparable extension of the book's 1990/2005-dollar figure. No Pinker plotted values were digitized.
 
 ### Figure 9-3 - Inequality, UK and US, 1688-2013
 

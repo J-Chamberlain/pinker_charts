@@ -18,5 +18,15 @@
     "source_fidelity": "C",
     "initial_estimate": "Institutional successor identified; exact historical WDI release not yet located.",
     "mapping_status": "partial"
+  },
+  {
+    "figure_id": "9-2",
+    "figure_title": "Global inequality, 1820-2011",
+    "bibliography_keys": "milanovic_2016_global_inequality_book; milanovic_2024_three_eras_global_inequality",
+    "bibliography_entries": "Milanovic 2016 Global Inequality book resolved; Milanovic 2024 reviewed as non-comparable source-family successor",
+    "datasets": "Milanovic 2016 figure 3.1 table not recovered; likely History/thepast.xls workbook not recovered; Milanovic 2024 data not public/comparable enough for extension",
+    "source_fidelity": "source_recovery_blocked_no_reconstruction",
+    "initial_estimate": "manual_review_needed",
+    "mapping_status": "bibliography_resolved_dataset_unrecovered"
   }
 ]
