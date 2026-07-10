@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-07-05 America/Los_Angeles
+Last update: 2026-07-09 America/Los_Angeles
 
-Project version: `1.15-source-recovery-figure-10-4-deforestation`
+Project version: `1.16-source-recovery-figure-7-1-calories`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -93,7 +93,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 5-3 | Maternal mortality, 1751-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference refreshed from supplemental PDF page 3; current OWID maternal-mortality successor data reproduce the broad concept but exact Roser 2016p vintage is not recovered. |
 | 5-4 | Life expectancy, UK, 1701-2013 | Track A targeted source recovery needed | `needs_targeted_source_recovery` | Low | Book reference/source refreshed from supplemental PDF page 4, but exact age-specific HMD/OWID series for ages 1, 5, 10, 20, 30, 40, 50, 60, and 70 were not recovered. |
 | 6-1 | Childhood deaths from infectious disease, 2000-2013 | Visual QA blocked at source recovery | `blocked_external_source` | Low | PDF reference shows a five-line annual deaths chart; misleading IHME bar proxy was removed and reconstruction is blocked until the cited CHERG/WHO Liu et al. appendix or verified equivalent annual line-series data are recovered. |
-| 7-1 | Calories, 1700-2013 | Track A time-boxed reconstruction | `partial_match` | Medium | Book reference/source refreshed from supplemental PDF page 5; OWID/FAO historical calories dataset gives a plausible reconstruction but exact book-era source styling/vintage is unresolved. |
+| 7-1 | Calories, 1700-2013 | Track A targeted source recovery rerun | `partial_match` | Medium | 2026-07-09: Supplemental PDF page 5 rendered/text-inspected; archived 2018 OWID Grapher chart configuration recovered (chart id 744, variable id 3590), but the old machine-readable variable data were not recovered. Reconstruction now includes all six series by displaying the OWID 2022 successor `United Kingdom` series as `England/UK`; visual/source-vintage mismatch remains unresolved. |
 | 7-2 | Childhood stunting, 1966-2014 | Track A time-boxed reconstruction | `partial_match` | Medium-low | Book reference/source refreshed from supplemental PDF page 5; World Bank stunting prevalence proxy used because exact OWID/Roser 2016j WHO NLIS vintage was not recovered. |
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
 | 9-1 | International inequality, 1820-2013 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured from Chapter 9 preview PDF; original OECD Clio Infra/Moatsos and Milanovic weighted data not recovered, so no digitized reconstruction was made. |
@@ -218,8 +218,10 @@ support a verified reconstruction.
 - Figure 6-1: Kindle chart-page capture and cited CHERG/WHO Liu et al. 2014
   supplementary appendix were not recovered in Track A; current artifact is a
   blocked proxy only.
-- Figure 7-1: plausible OWID/FAO calories reconstruction, but exact book-era
-  source vintage and line styling remain unresolved.
+- Figure 7-1: archived 2018 OWID chart configuration recovered, but exact
+  Roser 2016d machine-readable variable data remain unrecovered; current
+  reconstruction uses the 2022 OWID successor dataset and labels the United
+  Kingdom source series as `England/UK`.
 - Figure 7-2: World Bank stunting prevalence proxy approximates the book chart,
   but exact OWID/Roser 2016j WHO NLIS source vintage remains unrecovered.
 

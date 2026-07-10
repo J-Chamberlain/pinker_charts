@@ -8,16 +8,24 @@
     "value": "United States, England, and France: Our World in Data, Roser 2016d, based on Fogel 2004. China, India, and World: FAO."
   },
   {
+    "stage": "Supplemental PDF Evidence",
+    "value": "Supplemental Graphics PDF page 5 rendered/text-inspected; title, source note, axes, and surrounding text captured."
+  },
+  {
+    "stage": "Archived Source Configuration",
+    "value": "2018 Wayback capture of OWID Grapher daily-per-capita-caloric-supply identifies chart id 744 and variable id 3590; variable data endpoint not recovered."
+  },
+  {
     "stage": "Dataset Used",
-    "value": "Daily supply of calories per person (OWID based on UN FAO & historical sources)"
+    "value": "OWID 2022 successor: Daily supply of calories per person (OWID based on UN FAO & historical sources)"
   },
   {
     "stage": "Downloaded File",
-    "value": "figures/7-1/data/raw/"
+    "value": "figures/7-1/data/raw/owid_daily_calories_fao_historical.csv"
   },
   {
     "stage": "Transformation Script",
-    "value": "scripts/reconstruct_track_a_health_nutrition.py"
+    "value": "scripts/reconstruct_7_1.py"
   },
   {
     "stage": "Generated Plot",
