@@ -1,6 +1,6 @@
 # Figure 4-1 Source Log
 
-Date: 2026-07-05
+Date: 2026-07-09
 
 ## Accepted For Reconstruction
 
@@ -33,6 +33,16 @@ Date: 2026-07-05
 - Internet Archive: old Culturomics20 host: Archived index advertises Figures 12-18 media assets only; CDX lists movies/civilization/bin Laden files but no Figure 10/11 tables or data sidecars. URLs checked: https://web.archive.org/web/20111003133001id_/http://contentanalysis.ichass.illinois.edu:80/Culturomics20/, https://web.archive.org/cdx?url=contentanalysis.ichass.illinois.edu/Culturomics20/*&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=urlkey.
 - Internet Archive: First Monday snapshots: Snapshots inspected at 20130730022936, 20140504052209, 20191122035146, and 20250419132206; same HTML/image pattern, no data supplement link. URLs checked: https://web.archive.org/cdx?url=firstmonday.org/ojs/index.php/fm/article/view/3663/3040&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest.
 - Repository and data catalog searches: GitHub unauthenticated code search returned 401 Requires authentication; public web searches found no matching dataset; Dataverse targeted API calls timed out and a broad SWB/tone query returned high-volume irrelevant results. URLs checked: https://api.github.com/search/code, https://dataverse.harvard.edu/api/search.
+
+## 2026-07-09 Re-Audit Additions
+
+- Supplemental PDF page 2 re-read locally with `pdftotext`; it confirms the chart title, the standard-deviation tone axis, and the source line `Leetaru 2011. Plotted by month, beginning in January.`
+- Crossref DOI API checked for `10.5210/fm.v16i9.3663`; it resolves the article bibliographic entry but exposes only First Monday HTML full-text links, no data supplement. DataCite DOI search for the same DOI returned no dataset record.
+- Live GDELT high-resolution figures page checked again; Figure 10 and Figure 11 entries expose PNG links only. Additional guessed `figure10.dat`, `figure11.dat`, `figure10.txt`, and `figure11.txt` sidecars returned 404.
+- Internet Archive CDX for the old `contentanalysis.ichass.illinois.edu/Culturomics20/*` host returned only the index and media assets, not Figure 10/11 tables or source data.
+- Internet Archive CDX for `data.gdeltproject.org/blog/2011-culturomics-20/*` returned only an archived SWB movie GIF, not Figure 10/11 monthly tables.
+- Authenticated GitHub code search was run for exact captions and Leetaru/SWB tone terms. It returned no public code or data matches.
+- Leetaru's later Forbes pieces were checked as possible successor/source-family leads. They provide image/commentary evidence only and do not supply the book-period monthly values or a methodologically identical extension.
 
 ## Durable Blocker Rationale
 

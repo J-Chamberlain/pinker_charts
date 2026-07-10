@@ -1,6 +1,6 @@
 # Figure 4-1 Search Iterations
 
-Date: 2026-07-05
+Date: 2026-07-09
 
 ## Queries And URLs Checked
 
@@ -32,3 +32,31 @@ Findings:
 - Internet Archive: old Culturomics20 host: Archived index advertises Figures 12-18 media assets only; CDX lists movies/civilization/bin Laden files but no Figure 10/11 tables or data sidecars. URLs checked: https://web.archive.org/web/20111003133001id_/http://contentanalysis.ichass.illinois.edu:80/Culturomics20/, https://web.archive.org/cdx?url=contentanalysis.ichass.illinois.edu/Culturomics20/*&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=urlkey.
 - Internet Archive: First Monday snapshots: Snapshots inspected at 20130730022936, 20140504052209, 20191122035146, and 20250419132206; same HTML/image pattern, no data supplement link. URLs checked: https://web.archive.org/cdx?url=firstmonday.org/ojs/index.php/fm/article/view/3663/3040&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest.
 - Repository and data catalog searches: GitHub unauthenticated code search returned 401 Requires authentication; public web searches found no matching dataset; Dataverse targeted API calls timed out and a broad SWB/tone query returned high-volume irrelevant results. URLs checked: https://api.github.com/search/code, https://dataverse.harvard.edu/api/search.
+
+## 2026-07-09 Additional Queries And Checks
+
+Additional public web queries:
+
+- `"Leetaru" "New York Times" "1945" "2005" "tone"`
+- `"Average monthly tone" "New York Times" "1945" "2005"`
+- `"Average monthly tone" "Summary of World Broadcasts"`
+- `"figure11.png" "culturomics-20"`
+- `"Sentiment Mining 500 Years Of History" "Average tone of all New York Times"`
+- `"The timeline below shows the standardized" "BBC Monitoring" "January 1979" "July 2010"`
+
+Additional endpoint and archive checks:
+
+- Crossref API for DOI `10.5210/fm.v16i9.3663`: article metadata only, no supplement relation.
+- DataCite API query for DOI `10.5210/fm.v16i9.3663`: zero records.
+- Internet Archive CDX for `contentanalysis.ichass.illinois.edu/Culturomics20/*`: archived index and media assets only.
+- Internet Archive CDX for `data.gdeltproject.org/blog/2011-culturomics-20/*`: one archived SWB movie GIF only.
+- GDELT guessed sidecars `figure10.dat`, `figure11.dat`, `figure10.txt`, and `figure11.txt`: 404 responses.
+
+Authenticated GitHub code searches:
+
+- `"Average monthly tone of New York Times news content"`
+- `"figure10.png" "2011-culturomics-20"`
+- `"Summary of World Broadcasts" "Leetaru" "tone"`
+- `"Culturomics 2.0" "Leetaru"`
+
+Result: no public GitHub code/data matches. Public web results surfaced Leetaru Forbes articles and media commentary that quote or reuse the timelines, but no downloadable monthly NYT/SWB table or reproducible extraction package.
