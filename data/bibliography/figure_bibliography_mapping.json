@@ -28,5 +28,15 @@
     "source_fidelity": "source_recovery_blocked_no_reconstruction",
     "initial_estimate": "manual_review_needed",
     "mapping_status": "bibliography_resolved_dataset_unrecovered"
+  },
+  {
+    "figure_id": "9-5",
+    "figure_title": "Income gains, 1988-2008",
+    "bibliography_keys": "Milanovic 2016; Lakner Milanovic 2013/2016",
+    "bibliography_entries": "Milanovic, Branko. Global Inequality: A New Approach for the Age of Globalization. Belknap Press, 2016, fig. 1.3; Lakner, Christoph and Branko Milanovic. Global Income Distribution: From the Fall of the Berlin Wall to the Great Recession. World Bank WPS 6719 / World Bank Economic Review, 2013/2016.",
+    "datasets": "lakner_milanovic_lm_wpid; milanovic_summary_data_xls_unrecovered",
+    "source_fidelity": "B/C",
+    "initial_estimate": "LM-WPID source-family dataset recovered; exact Milanovic 2016 plotted summary_data.xls remains unresolved.",
+    "mapping_status": "partial"
   }
 ]

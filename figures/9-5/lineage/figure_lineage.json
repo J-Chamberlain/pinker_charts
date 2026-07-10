@@ -1,14 +1,14 @@
 [
   {
     "figure_id": "9-5",
-    "artifact": "book_reference",
-    "source": "Chapter 9 preview PDF page crop",
-    "status": "reference_only"
+    "artifact": "supplemental_pdf_reference_figure_9_5.png",
+    "source": "references/enlightenment_now_supplemental_graphics.pdf page 11",
+    "method": "pdftoppm render and deterministic crop"
   },
   {
     "figure_id": "9-5",
-    "artifact": "status_panel",
-    "source": "no accepted reconstruction data",
-    "status": "manual_review_needed"
+    "artifact": "figure_9_5_book_period_clean.csv",
+    "source": "figures/9-5/data/raw/lm_wpid_web.dta",
+    "method": "population-weighted fractile means, 1988 vs 2008"
   }
 ]
