@@ -2,7 +2,7 @@
 
 Last update: 2026-07-09 America/Los_Angeles
 
-Project version: `1.16-targeted-source-recovery-figure-5-4`
+Project version: `1.16-source-recovery-figure-10-5-oil-spills`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -110,6 +110,8 @@ this file are all updated. Only then may Codex begin another figure.
 | 10-3 | Pollution, energy, and growth, US, 1970-2015 | Verified EPA 2016 book-period chart-data reconstruction with successor extension | `verified_reproduction` | High | EPA Our Nation's Air 2016 embedded GrowthAndEmissions chart values recovered; EPA 2025 successor extension added; PDF five-pollutant label conflicts with EPA six-pollutant source label and is documented. |
 | 10-4 | Deforestation, 1700-2010 | Partial source recovery: Williams 1700-1995 recovered; FAO 2010b final split blocked | `manual_review_needed` | Medium-low | Supplemental PDF cites FAO 2012 p. 9; FAO SOFO 2012 Figure 2 recovered; Williams Table 12.2 values recovered for 1700-1995; current and archived FRA 2010 public tables plus remote-sensing reports do not expose the 1996-2010 tropical/temperate production split; Pinker's line conversion remains unresolved. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Do not label as verified until the exact historical oil-shipped-by-sea series or an exact archival copy is recovered. |
+| 10-4 | Deforestation, 1700-2010 | Partial source recovery: Williams 1700-1995 recovered; FAO 2010b final split blocked | `manual_review_needed` | Medium-low | Supplemental PDF cites FAO 2012 p. 9; FAO SOFO 2012 Figure 2 recovered; Williams Table 12.2 values recovered for 1700-1995; FAO 2010b/FRA 2010 1996-2010 tropical/temperate split and Pinker's line conversion remain unresolved. |
+| 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Archived ITOPF 2016 chart image recovered and oil-loaded line digitized as diagnostic evidence; exact annual Roser/UNCTADStat table remains unrecovered, so no extension is plotted. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
 | 10-8 | CO2 emissions, 1960-2015 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 regional CDIAC dataset matches the Kindle source chain; extension uses current OWID/GCB successor categories after 2015. |
@@ -189,11 +191,10 @@ support a verified reconstruction.
 
 ## Unresolved Figures
 
-- Figure 10-5: the oil-spill count line is well supported, but the exact
-  historical annual oil-shipped-by-sea/tanker-trade series for 1970-2016 has
-  not been proven. A recovered UNCTADStat-style mirror supports a book-style
-  reconstruction through 2020, but it remains an updated-equivalent or partial
-  source rather than a verified book-era dataset.
+- Figure 10-5: the oil-spill count line is well supported. An archived ITOPF
+  2016 chart image was recovered and used to digitize the oil-loaded line for
+  book-period visual comparison, but the exact annual Roser/UNCTADStat table
+  remains unrecovered. No post-2016 extension is plotted.
 - Figure 5-2: the Kindle title/source and chart page were captured, and the
   reconstruction was remediated to use the current OWID selected
   child-mortality series directly in percent units. It remains a partial match
@@ -626,6 +627,8 @@ Canonical visual artifacts:
 - Extended comparison: `figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png`
 - Diagnostic plot: `figures/10-5/plots/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png`
 - Diagnostic plot: `figures/10-5/plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png`
+- Digitized oil-loaded data: `figures/10-5/data/candidates/itopf_archived_seaborne_16_digitized_oil_loaded.csv`
+- Selected-year validation: `figures/10-5/data/candidates/itopf_digitized_vs_unctad_rmt2020_selected_year_validation.csv`
 
 Canonical documentation:
 
@@ -633,6 +636,15 @@ Canonical documentation:
 - Provenance: `figures/10-5/provenance/provenance.md`
 - Anomaly review: `figures/10-5/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/10-5/metadata/metadata.json`
+
+Source status: Supplemental Graphics PDF source line and surrounding text were
+checked directly. OWID/ITOPF tabular spill counts support the black line.
+Wayback archived the ITOPF 2016 statistics page and `seaborne_16.JPG` chart
+image, whose caption cites UNCTADStat for seaborne oil trade. The gray
+oil-loaded line is digitized from that archived image and validates against
+UNCTAD RMT 2020 selected years with MAE 0.058 billion metric tons and maximum
+absolute difference 0.194. The original annual Roser/UNCTADStat source table is
+still unrecovered; this remains a partial match and is not extended.
 
 ### Figure 10-6 - Protected areas, 1990-2014
 
