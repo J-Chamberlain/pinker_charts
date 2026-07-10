@@ -1,0 +1,6 @@
+candidate,url_or_identifier,evidence,result,accepted_for_reconstruction
+Milanovic 2016 Figure 2.1 workbook,US_and_uk.xls / uk_and_usa.xls,PIIE 2016 slide deck labels the UK and US Kuznets frames with US_and_uk.xls; LIS 2014 slide deck labels the combined long-run chart with uk_and_usa.xls.,identified_by_name_not_recovered,no
+PIIE May 9 2016 slide deck,https://www.piie.com/sites/default/files/documents/milanovic20160509ppt.pdf,Downloaded PDF text exposes the workbook label and component source notes for UK and US.,downloaded_as_provenance_evidence,no
+LIS Milanovic slides,https://www.lisdatacenter.org/wp-content/uploads/Milanovic-slides.pdf,Downloaded PDF text shows the combined long-run England/UK and USA chart with 'From uk_and_usa.xls'.,downloaded_as_provenance_evidence,no
+Live CUNY/Stone Center/LIS guessed workbook paths,stonecenter.gc.cuny.edu/files/uk_and_usa.xls; gc.cuny.edu/.../brankoData/...; lisdatacenter.org/wp-content/uploads/uk_and_usa.xls,HEAD/curl probes returned 404 or redirect-to-404 for guessed live paths.,not_recovered,no
+Internet Archive CDX filename probes,*uk_and_usa.xls*; *us_and_uk.xls*; *milanovic*/*uk*usa*.xls*; *brankomilanovic.com*.xls*,CDX probes returned empty JSON results or transient 503/504 for broad CUNY media searches; no 200 capture of the workbook was found.,not_recovered,no

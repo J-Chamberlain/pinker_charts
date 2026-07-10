@@ -2,7 +2,7 @@
 
 Last update: 2026-07-09 America/Los_Angeles
 
-Project version: `1.16-source-recovery-figure-9-2-global-inequality`
+Project version: `1.16-source-recovery-figure-9-3-inequality-uk-us`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -101,6 +101,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 9-1 | International inequality, 1820-2013 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured from Chapter 9 preview PDF; original OECD Clio Infra/Moatsos and Milanovic weighted data not recovered, so no digitized reconstruction was made. |
 | 9-2 | Global inequality, 1820-2011 | Source recovery blocked; Supplemental PDF reference captured | `manual_review_needed` | Low | Supplemental PDF page 10 captured; targeted 2026-07-09 searches did not recover Milanovic 2016 fig. 3.1 table or likely `History/thepast.xls` workbook; Milanovic 2024 is source-family evidence but not a comparable extension, so no digitized reconstruction was made. |
 | 9-3 | Inequality, UK and US, 1688-2013 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 2.1 underlying UK/US table not recovered, so no digitized reconstruction was made. |
+| 9-3 | Inequality, UK and US, 1688-2013 | Source workbook identified by name; recovery blocked | `manual_review_needed` | Low | Supplemental PDF page 10 captured; Milanovic slide evidence identifies the likely workbook as `US_and_uk.xls` / `uk_and_usa.xls`, but no inspectable workbook/table was recovered, so no reconstruction or extension was made. |
 | 9-4 | Social spending, OECD countries, 1880-2016 | Updated-equivalent reconstruction with successor extension | `updated_equivalent` | Medium | Current OWID social-spending-oecd-longrun successor reconstructs the figure concept through 2016 and extends after 2016; exact Ortiz-Ospina & Roser 2016b/2017 source snapshot remains unrecovered. |
 | 9-5 | Income gains, 1988-2008 | Source recovery blocked; reference captured | `manual_review_needed` | Low | Source line captured; Milanovic 2016 fig. 1.3 growth-incidence data not recovered, so no digitized reconstruction was made. |
 | 9-6 | Poverty, US, 1960-2016 | Verified reconstruction from Meyer & Sullivan 2017 Table 1 | `verified_reproduction` | High | Source report table recovered; book-period two-series chart is reconstructed from source table values, with 2017 dotted only in extended artifact. |
@@ -475,11 +476,13 @@ Status: `manual_review_needed`
 
 Canonical visual artifacts:
 
-- Original reference: `figures/9-3/plots/comparisons/kindle_reference_figure_9_3.png`
+- Supplemental PDF reference: `figures/9-3/plots/comparisons/supplemental_pdf_reference_figure_9_3.png`
 - Book-period status panel: `figures/9-3/plots/book_period/figure_9_3_book_period_reconstruction.png`
 - Extended status panel: `figures/9-3/plots/extended/figure_9_3_extended_reconstruction.png`
 - Book-period comparison: `figures/9-3/plots/comparisons/figure_9_3_book_period_comparison.png`
 - Extended comparison: `figures/9-3/plots/comparisons/figure_9_3_extended_comparison.png`
+
+Source status: Supplemental Graphics PDF page 10 inspected. The source resolves to Milanovic 2016, Figure 2.1. Milanovic slide evidence downloaded in this run names the likely source workbook as `US_and_uk.xls` / `uk_and_usa.xls` and documents the component-source trail for UK/England and US Gini values. Live guessed CUNY/Stone Center/LIS paths and Internet Archive CDX filename probes did not recover the workbook as an inspectable data file. No values were digitized from Pinker's chart or slide images, and no successor extension is plotted because current Gini sources are not verifiably comparable to Milanovic's stitched disposable-income-per-capita series.
 
 Canonical documentation:
 
@@ -834,6 +837,7 @@ Canonical documentation:
 | --- | --- | --- |
 | `1.16-source-recovery-figure-4-1-reaudit` | 2026-07-09 | Re-audited Figure 4-1 source recovery with Supplemental PDF re-read, DOI metadata, GDELT live/archive endpoints, authenticated GitHub code search, and later Leetaru leads; original monthly NYT/SWB data remain unrecovered, so status stays source-recovery blocked. |
 | `1.16-source-recovery-figure-9-1-international-inequality` | 2026-07-09 | Reprocessed Figure 9-1: recovered OECD/IISH Table 11.4 values for the unweighted/between-country line and Clio/IISH Dataverse source-input files, but kept `manual_review_needed` because the Milanovic population-weighted line through 2013 remains unrecovered as inspectable data. |
+| `1.16-source-recovery-figure-9-3-inequality-uk-us` | 2026-07-09 | Reprocessed Figure 9-3 from the Supplemental PDF; identified Milanovic's likely `US_and_uk.xls` / `uk_and_usa.xls` workbook via slide evidence, documented live/archive recovery failure, and kept the figure source-blocked with no reconstruction or extension. |
 | `1.13-remediate-figure-10-2-projection` | 2026-07-05 | Remediated Figure 10-2 projection consistency, candidate-corpus table, visual reference comparison, and status justification. |
 | `1.12-production-loop-figure-10-2` | 2026-07-05 | Added Figure 10-2 as an updated-equivalent XKCD/Google Ngram reconstruction with current Ngram successor extension. |
 | `1.11-source-recovery-figure-4-1` | 2026-07-05 | Processed Figure 4-1 as a documented source-recovery-blocked artifact; recovered Supplemental PDF source line and Leetaru/GDELT candidate visual evidence, but no underlying monthly data table. |

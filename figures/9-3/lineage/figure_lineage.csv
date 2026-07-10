@@ -1,3 +1,5 @@
-figure_id,artifact,source,status
-9-3,book_reference,Chapter 9 preview PDF page crop,reference_only
-9-3,status_panel,no accepted reconstruction data,manual_review_needed
+figure_id,artifact_type,description,status
+9-3,book_reference,Supplemental Graphics PDF page 10 crop,reference
+9-3,source_evidence,Milanovic slide evidence naming source workbook,source_family_identified
+9-3,source_recovery_audit,Live and archive workbook probes,workbook_not_recovered
+9-3,status_panel,No accepted reconstruction data,manual_review_needed

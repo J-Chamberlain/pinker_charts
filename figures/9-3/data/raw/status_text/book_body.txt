@@ -1,0 +1,17 @@
+Figure 9-3: Inequality, UK and US, 1688-2013
+
+Source recovery blocked - no reconstruction plotted
+
+The source workbook used for Milanovic 2016 Figure 2.1 is identified in
+Milanovic slide evidence as US_and_uk.xls / uk_and_usa.xls, but the workbook
+was not recovered as an inspectable file in live CUNY/Stone Center/LIS paths
+or Internet Archive CDX filename probes. The component-source trail is
+documented, but it does not expose Pinker's book-period UK/US series as a
+single auditable table.
+
+No digitized values from Pinker's chart or from slide images were used. Data
+fidelity cannot be tested until the workbook or an equivalent table is recovered.
+
+Book source line: Milanovic 2016, fig. 2.1, disposable income per capita.
+
+Extension status: not applicable to blocked book-period reconstruction
