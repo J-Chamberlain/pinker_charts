@@ -48,7 +48,7 @@
         "figure_title": "Oil spills, 1970-2016",
         "stage_order": 6,
         "stage": "Downloaded File",
-        "value": "data/raw/owid_number_oil_spills.csv; data/candidates/unctad_us_seaborne_trade_bulk_2000_2024.csv.7z",
+        "value": "figures/10-5/data/raw/owid_number_oil_spills.csv; figures/10-5/data/candidates/unctad_us_seaborne_trade_bulk_2000_2024.csv.7z",
         "stage_status": "downloaded_partial"
       },
       {
@@ -64,7 +64,7 @@
         "figure_title": "Oil spills, 1970-2016",
         "stage_order": 8,
         "stage": "Generated Plot",
-        "value": "plots/book_period/figure_10_5_book_period_reconstruction.png",
+        "value": "figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png",
         "stage_status": "generated_partial"
       }
     ]

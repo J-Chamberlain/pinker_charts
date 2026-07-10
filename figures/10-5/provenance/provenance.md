@@ -5,7 +5,7 @@
 - Why separated: the current UNCTAD bulk file does not cover 1970-1999 and its World cargo 11+12 values do not match the RMT/book tanker-trade scale on overlapping selected years.
 - Status: partial_match.
 - Source fidelity: B/C. Spill-count source is an exact-publication candidate; oil-shipping source remains unrecovered.
-- Regeneration command: `/Users/alfred/Documents/MIsc/.venv/bin/python scripts/reconstruct_10_5_source_recovery.py`.
+- Regeneration command (run from the repository root): `python3 scripts/reconstruct_10_5_source_recovery.py`.
 
 ## Targeted Source-Recovery Update
 - Date: 2026-07-09
@@ -18,8 +18,8 @@
 - Because the annual 1970-2016 oil-shipped-by-sea source is not recovered, the regenerated book-period and extended figures intentionally do not plot that series.
 
 ## Research Mode Provenance Update
-- Added `data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv`.
-- Added `outputs/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png`.
+- Added `figures/10-5/data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv`.
+- Added `figures/10-5/plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png`.
 - RMT selected-year values are diagnostic evidence only and are not used in the side-by-side validation plot.
 
 ## Book-Style Reconstruction Update

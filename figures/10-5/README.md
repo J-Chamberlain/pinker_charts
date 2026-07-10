@@ -4,6 +4,10 @@ Title: Oil spills, 1970-2016
 
 Current status: `partial_match`
 
+All Figure 10-5 literal artifact paths in metadata, provenance, and lineage
+records are repository-relative (their base is the repository root). Markdown
+links in this README are document-relative links for navigation.
+
 ## Summary
 
 Figure 10-5 has been attempted through source recovery, book-style plotting,
@@ -31,6 +35,7 @@ located.
 - [plots/comparisons/](plots/comparisons/)
 - [plots/diagnostics/](plots/diagnostics/)
 - [checksums/](checksums/)
+- [remediation_evidence.md](remediation_evidence.md)
 
 ## Main Blocker
 
@@ -60,6 +65,7 @@ Canonical visual artifacts:
 - Extended comparison: [plots/comparisons/figure_10_5_extended_comparison_captioned.png](plots/comparisons/figure_10_5_extended_comparison_captioned.png)
 - Diagnostic plot: [plots/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png](plots/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png)
 - Diagnostic plot: [plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png](plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png)
+- RMT diagnostic CSV: [data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv](data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv)
 
 Canonical documentation:
 

@@ -6,29 +6,30 @@
   "source_fidelity": "B/C",
   "confidence": 0.62,
   "current_run_date": "2026-07-09",
+  "path_base": "repository_root",
   "original_source_line": "Source: Our World in Data, Roser 2016r, based on data (updated) from the International Tanker Owners Pollution Federation.",
   "book_definition_note": "Oil spills include all losses of at least 7 metric tons of oil. Oil shipped consists of total crude oil, petroleum product, and gas loaded.",
-  "best_current_reconstruction": "plots/book_period/figure_10_5_book_period_reconstruction.png",
-  "extended_reconstruction": "plots/extended/figure_10_5_extended_reconstruction.png",
-  "comparison_image": "plots/comparisons/figure_10_5_book_style_comparison_captioned.png",
-  "original_reference_image": "plots/comparisons/corrected_figure_10_5_book_crop.png",
+  "best_current_reconstruction": "figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png",
+  "extended_reconstruction": "figures/10-5/plots/extended/figure_10_5_extended_reconstruction.png",
+  "comparison_image": "figures/10-5/plots/comparisons/figure_10_5_book_style_comparison_captioned.png",
+  "original_reference_image": "figures/10-5/plots/comparisons/corrected_figure_10_5_book_crop.png",
   "raw_downloads": [
     {
-      "path": "data/raw/owid_number_oil_spills.csv",
+      "path": "figures/10-5/data/raw/owid_number_oil_spills.csv",
       "url": "https://ourworldindata.org/grapher/number-oil-spills.csv",
       "source_type": "live_successor",
       "role": "accepted spill-count input"
     },
     {
-      "path": "data/candidates/unctad_us_seaborne_trade_bulk_2000_2024.csv.7z",
+      "path": "figures/10-5/data/candidates/unctad_us_seaborne_trade_bulk_2000_2024.csv.7z",
       "url": "https://unctadstat-api.unctad.org/bulkdownload/US.SeaborneTrade/US_SeaborneTrade",
       "source_type": "live_successor",
       "role": "rejected oil-shipping candidate for book-period line; starts in 2000 and fails RMT scale check"
     }
   ],
   "processed_data": [
-    "data/clean/figure_10_5_oil_spills_clean.csv",
-    "data/clean/figure_10_5_current_unctad_bulk_oil_cargo_2000_2024.csv"
+    "figures/10-5/data/clean/figure_10_5_oil_spills_clean.csv",
+    "figures/10-5/data/clean/figure_10_5_current_unctad_bulk_oil_cargo_2000_2024.csv"
   ],
   "transformations": [
     "Filtered OWID data to World and computed oil_spills_7_plus_tonnes as medium plus large tanker spills.",
@@ -58,14 +59,14 @@
   ],
   "candidate_evidence": [
     {
-      "path": "data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv",
+      "path": "figures/10-5/data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv",
       "source": "UNCTAD Review of Maritime Transport 2020 Table 1.1",
       "role": "historical selected-year diagnostic support",
       "status": "accepted_diagnostic_only",
       "limitation": "Selected years only; not the exact annual 1970-2016 series."
     },
     {
-      "path": "data/candidates/unctad_current_bulk_vs_rmt_scale_check.csv",
+      "path": "figures/10-5/data/candidates/unctad_current_bulk_vs_rmt_scale_check.csv",
       "source": "This run's comparison of current UNCTADStat bulk data against RMT 2020 selected years",
       "role": "rejection evidence",
       "status": "accepted_rejection_evidence",
@@ -73,14 +74,16 @@
     }
   ],
   "visual_outputs": {
-    "book_period": "plots/book_period/figure_10_5_book_period_reconstruction.png",
-    "extended": "plots/extended/figure_10_5_extended_reconstruction.png",
-    "book_comparison": "plots/comparisons/figure_10_5_book_style_comparison.png",
-    "extended_comparison": "plots/comparisons/figure_10_5_extended_comparison.png",
-    "book_comparison_captioned": "plots/comparisons/figure_10_5_book_style_comparison_captioned.png",
-    "extended_comparison_captioned": "plots/comparisons/figure_10_5_extended_comparison_captioned.png"
+    "book_period": "figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png",
+    "extended": "figures/10-5/plots/extended/figure_10_5_extended_reconstruction.png",
+    "book_comparison": "figures/10-5/plots/comparisons/figure_10_5_book_style_comparison.png",
+    "extended_comparison": "figures/10-5/plots/comparisons/figure_10_5_extended_comparison.png",
+    "book_comparison_captioned": "figures/10-5/plots/comparisons/figure_10_5_book_style_comparison_captioned.png",
+    "extended_comparison_captioned": "figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png",
+    "rmt_diagnostic_csv": "figures/10-5/data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv",
+    "rmt_diagnostic_plot": "figures/10-5/plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png"
   },
-  "regeneration_command": "/Users/alfred/Documents/MIsc/.venv/bin/python scripts/reconstruct_10_5_source_recovery.py",
+  "regeneration_command": "python3 scripts/reconstruct_10_5_source_recovery.py",
   "extension_policy": "Only the spill-count series is extended, using the same OWID/ITOPF successor source through 2025. No oil-shipping extension is plotted.",
   "unresolved_issues": [
     "Exact Roser 2016r data snapshot not located.",

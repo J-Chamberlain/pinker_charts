@@ -1,8 +1,8 @@
 # Project State
 
-Last update: 2026-07-09 17:22 America/Los_Angeles
+Last update: 2026-07-10 America/Los_Angeles
 
-Project version: `1.4-four-figure-remediation`
+Project version: `1.4.1-figure-10-5-source-recovery`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -180,6 +180,7 @@ Canonical visual artifacts:
 - Extended comparison: `figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png`
 - Diagnostic plot: `figures/10-5/plots/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png`
 - Diagnostic plot: `figures/10-5/plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png`
+- RMT diagnostic CSV: `figures/10-5/data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv`
 
 Canonical documentation:
 
@@ -187,6 +188,12 @@ Canonical documentation:
 - Provenance: `figures/10-5/provenance/provenance.md`
 - Anomaly review: `figures/10-5/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/10-5/metadata/metadata.json`
+
+Registry consistency evidence: the canonical `data/figure_registry.csv` row
+identifies Figure 10-5 as `partial_match` at
+`source_recovery_and_discrepancy_analysis`, matching this project state and the
+per-figure metadata. Per the remediation-run operating rule, the registry file
+is intentionally unchanged; the orchestrator owns any post-review registry edit.
 
 ### Figure 10-6 - Protected areas, 1990-2014
 
