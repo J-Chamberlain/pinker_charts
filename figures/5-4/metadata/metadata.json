@@ -1,0 +1,15 @@
+{
+  "figure_id": "5-4",
+  "title": "Life expectancy, UK, 1701-2013",
+  "status": "partial_match",
+  "lifecycle_stage": "source_recovery_and_diagnostic_analysis",
+  "confidence": "low",
+  "book_period": [1701, 2013],
+  "source_note_verified_from_text": true,
+  "reference_image_available": false,
+  "exact_source_vintage_recovered": false,
+  "reconstruction_available": false,
+  "diagnostic_plot": "plots/book_period/figure_5_4_partial_diagnostic.png",
+  "extension_status": "not_attempted_not_comparable",
+  "limitations": "Exact Roser 2016n/HMD combined-population mid-decade data and Supplemental Graphics figure image not recovered."
+}

@@ -1,0 +1,11 @@
+{
+  "figure_id": "5-4",
+  "classification": "partial_match",
+  "stages": [
+    {"artifact": "book text", "class": "primary figure text", "limitation": "image unavailable"},
+    {"artifact": "data/raw/owid_clio_infra_life_expectancy_at_birth.csv", "class": "cited-source successor"},
+    {"artifact": "data/raw/ons_expected_age_to_reach_males.csv", "class": "diagnostic proxy, not book data"},
+    {"artifact": "data/clean/figure_5_4_partial_source_recovery.csv", "class": "mixed, row-level status flags"},
+    {"artifact": "plots/book_period/figure_5_4_partial_diagnostic.png", "class": "diagnostic, not reconstruction or extension"}
+  ]
+}

@@ -1,0 +1,6 @@
+stage,artifact,classification,notes
+book_evidence,searchable book text,primary figure text,"Title, source note, and narrative anchors recovered; image unavailable"
+raw,owid_clio_infra_life_expectancy_at_birth.csv,cited-source successor,"United Kingdom birth series, 1703-1843 selected"
+raw,ons_expected_age_to_reach_males.csv,diagnostic proxy,"Male decennial expected age; not book data"
+clean,figure_5_4_partial_source_recovery.csv,mixed explicitly flagged,"No interpolation; series_status distinguishes source component from proxy"
+plot,figure_5_4_partial_diagnostic.png,diagnostic,"Not a reconstruction and not an extension"
