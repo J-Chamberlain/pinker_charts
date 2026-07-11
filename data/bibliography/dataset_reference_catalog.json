@@ -1,5 +1,35 @@
 [
   {
+    "dataset_id": "owid_522_maternal_mortality",
+    "citation_key": "Roser 2016p",
+    "dataset_name": "Maternal Mortality Ratio - Gapminder (2010) and World Bank (2015) (OWID 522)",
+    "dataset_type": "compiled dataset",
+    "owning_institution": "Our World in Data; Gapminder; World Bank",
+    "publication_year": "2017 preservation of 2010/2015 sources",
+    "update_frequency": "Historical plus annual 1990-2015",
+    "current_availability": "Complete table and embedded provenance preserved in Wikimedia Data namespace",
+    "likely_successor_dataset": "Current OWID grapher maternal-mortality",
+    "persistent_identifiers": "Wikimedia oldid 393508587",
+    "source_fidelity": "A",
+    "fidelity_label": "Book-era dataset recovered",
+    "notes": "Metadata states that the two source datasets were combined without adjustments; OWID retrieval date 2017-06-04."
+  },
+  {
+    "dataset_id": "gapminder_gd010",
+    "citation_key": "Hanson 2010",
+    "dataset_name": "Maternal mortality ratio V1",
+    "dataset_type": "historical compiled dataset",
+    "owning_institution": "Gapminder Foundation",
+    "publication_year": "2010",
+    "update_frequency": "Static version 1",
+    "current_availability": "Live documentation and linked public Google workbook available",
+    "likely_successor_dataset": "Current OWID uses GD010 only as one historical input",
+    "persistent_identifiers": "Gapminder Documentation 010",
+    "source_fidelity": "A",
+    "fidelity_label": "Original historical source recovered",
+    "notes": "Historical component for 13 named countries; book credits Claudia Hanson."
+  },
+  {
     "dataset_id": "owid_itopf_oil_spills",
     "citation_key": "Roser 2016r",
     "dataset_name": "Global number of oil spills from tankers",

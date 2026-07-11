@@ -1,5 +1,23 @@
 [
   {
+    "citation_key": "Roser 2016p",
+    "bibliography_record_id": "Roser_2016p",
+    "authors": "Roser, Max; Ritchie, Hannah",
+    "year": "2013",
+    "title": "Maternal Mortality",
+    "url": "https://ourworldindata.org/maternal-mortality",
+    "resolution_status": "resolved"
+  },
+  {
+    "citation_key": "Hanson 2010",
+    "bibliography_record_id": "Hanson_2010",
+    "authors": "Hanson, Claudia",
+    "year": "2010",
+    "title": "Data on Maternal Mortality: Historical information compiled for 14 countries (up to 200 years)",
+    "url": "https://www.gapminder.org/data/documentation/gd010/",
+    "resolution_status": "resolved"
+  },
+  {
     "citation_key": "Roser 2016r",
     "bibliography_record_id": "Roser_2016r",
     "authors": "Roser, Max",

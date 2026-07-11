@@ -2,7 +2,7 @@
 
 Last update: 2026-07-10 America/Los_Angeles
 
-Project version: `1.4.2-figure-5-4-partial-source-recovery`
+Project version: `1.5-figure-5-3-reconstruction`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -52,6 +52,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Recovered immutable OWID CME Info 2016 component, but not the full Roser 2016a UN/HMD assembly; current successor is plotted only as an explicitly clipped proxy and no extension is claimed. |
 | 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Remediated to use the current OWID selected child-mortality series in percent units; exact Roser 2016a UN/HMD assembled source remains unresolved. |
 | 5-4 | Life expectancy, UK, 1701-2013 | Source recovery and diagnostic analysis | `partial_match` | Low | Exact source note and Clio birth component recovered; reference image and Roser 2016n/HMD combined-population mid-decade series remain unavailable, so only a clearly labeled ONS male diagnostic was produced. |
+| 5-3 | Maternal mortality, 1751-2013 | Reviewed book-period reconstruction with limited same-source continuation | `verified_reproduction` | High | Preserved OWID dataset 522 recovers the Gapminder 2010 + World Bank 2015 table and embedded 2017 provenance; original supplemental pixels remain unavailable, so the comparison reference is explicitly a facsimile. |
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Spill-count line is supported; current UNCTADStat successor bulk data were recovered but rejected for the gray line because they start in 2000 and fail the RMT scale check. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
@@ -72,6 +73,9 @@ support a verified reconstruction.
 - Figure 8-4: OWID historical dataset based on Bourguignon & Morrison 2002 and
   World Bank PovcalNet 2015 reproduces the book-period extreme-poverty
   proportion chart.
+- Figure 5-3: Wikimedia's preservation of OWID dataset 522 reproduces the four
+  maternal-mortality series from the cited Gapminder 2010 and World Bank 2015
+  sources; all plotted values are exact source conversions to percent.
 - Figure 10-7: OWID 2017 carbon-intensity dataset based on CDIAC, World Bank,
   and Maddison data reproduces the book-period line chart.
 - Figure 10-8: OWID 2017 regional CDIAC dataset reproduces the book-period
@@ -114,7 +118,7 @@ support a verified reconstruction.
 ## Attempted But Not Expanded
 
 The initial Kindle List of Figures extraction captured 75 visible entries.
-Figures 5-1, 5-2, 8-4, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
+Figures 5-1, 5-2, 5-3, 8-4, 10-5, 10-6, 10-7, 10-8, and 19-1 have been carried
 through at least one source recovery, transformation, plotting, and validation
 pass. Continue processing in small batches of no more than two figures unless
 explicitly directed otherwise.
@@ -200,6 +204,25 @@ Canonical documentation:
 - Anomaly review: `figures/5-4/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/5-4/metadata/metadata.json`
 - Review checklist: `figures/5-4/review_checklist.md`
+### Figure 5-3 - Maternal mortality, 1751-2013
+
+Status: `verified_reproduction`
+
+Canonical visual artifacts:
+
+- Reference facsimile (not original pixels): `figures/5-3/plots/comparisons/supplemental_reference_facsimile_figure_5_3.png`
+- Book-period reconstruction: `figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png`
+- Same-source continuation: `figures/5-3/plots/extended/figure_5_3_same_source_continuation.png`
+- Book-period comparison: `figures/5-3/plots/comparisons/figure_5_3_book_period_comparison.png`
+- Extended comparison: `figures/5-3/plots/comparisons/figure_5_3_extended_comparison.png`
+
+Canonical documentation:
+
+- Caption: `figures/5-3/captions/caption.txt`
+- Provenance: `figures/5-3/provenance/provenance.md`
+- Anomaly review: `figures/5-3/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/5-3/metadata/metadata.json`
+- Review checklist: `figures/5-3/review_checklist.md`
 
 ### Figure 8-4 - Extreme poverty (proportion), 1820-2015
 
@@ -399,6 +422,7 @@ Canonical documentation:
 | `1.4.2-figure-19-1-source-recovery` | 2026-07-10 | Recovered archived HumanProgress static 2927 (138 exact U.S./USSR-Russia observations), rebuilt Figure 19-1 as stacked area, withheld a post-2015 extension, and retained partial-match status because six minor-country layers use a disclosed later FAS-derived vintage. |
 | `1.5.0-figure-4-1-source-recovery` | 2026-07-10 | Resolved Figure 4-1 to Leetaru 2011 Figures 10-11 and recovered the original high-resolution plots; classified the figure as source unavailable because the monthly aggregates and exact sentiment configuration were not published, and rejected digitization and modern GDELT substitution. |
 | `1.4.2-figure-5-4-partial-source-recovery` | 2026-07-10 | Recovered Figure 5-4's exact source note, discussion, bibliography chain, and Clio birth component; documented the missing reference page and inaccessible exact Roser/HMD vintage; produced only an explicitly non-book ONS male diagnostic and no extension. |
+| `1.5-figure-5-3-reconstruction` | 2026-07-10 | Recovered preserved OWID dataset 522 and the original Gapminder GD010 workbook, reproduced Figure 5-3 with exact source-to-percent conversion, added a limited same-source continuation to 2015, and documented the unavailable original supplemental pixels with an explicitly labeled facsimile. |
 | `1.4.1-figure-10-5-source-recovery` | 2026-07-09 | Recovered current UNCTADStat `US.SeaborneTrade` bulk metadata/archive, rejected it as a book gray-line substitute because it starts in 2000 and fails the RMT scale check, and regenerated Figure 10-5 as an explicitly spill-count-only partial reconstruction/extension. |
 | `1.4-four-figure-remediation` | 2026-06-29 | Remediated the latest four-figure batch: clarified no-extension artifacts for Figures 5-1 and 8-4, improved Figure 5-2 source/units while retaining partial-match status, captured the actual Figure 19-1 Kindle chart crop, and marked Figure 19-1 visual validation as poor until the cited FAS/HumanProgress stacked source is recovered. |
 | `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |
