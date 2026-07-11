@@ -1,5 +1,23 @@
 [
   {
+    "archive_id": "wikimedia_owid_522_20200210",
+    "target_url": "https://commons.wikimedia.org/wiki/Data:Maternal_Mortality_Ratio_-_Gapminder_(2010)_and_World_Bank_(2015)_(OWID_522).tab",
+    "archive_url": "https://commons.wikimedia.org/w/index.php?title=Data:Maternal_Mortality_Ratio_-_Gapminder_(2010)_and_World_Bank_(2015)_(OWID_522).tab&oldid=393508587",
+    "timestamp": "2020-02-10",
+    "related_citation_key": "Roser 2016p",
+    "status": "located",
+    "notes": "Wikimedia preservation contains the full table and embedded OWID retrieval date 2017-06-04."
+  },
+  {
+    "archive_id": "gapminder_gd010_live",
+    "target_url": "https://www.gapminder.org/data/documentation/gd010/",
+    "archive_url": "https://docs.google.com/spreadsheet/pub?key=0Auk0ddvGIrGqcHlqNnRTY1pxbUVjVmV6eGlNbFdhUnc&gid=1",
+    "timestamp": "2010 source recovered 2026-07-10",
+    "related_citation_key": "Hanson 2010",
+    "status": "located",
+    "notes": "Live documentation links the public workbook; Google export recovered when the direct binary endpoint stalled."
+  },
+  {
     "archive_id": "itopf_20161218",
     "target_url": "http://www.itopf.com/knowledge-resources/data-statistics/statistics/",
     "archive_url": "http://web.archive.org/web/20161218101412/http://www.itopf.com/knowledge-resources/data-statistics/statistics/",

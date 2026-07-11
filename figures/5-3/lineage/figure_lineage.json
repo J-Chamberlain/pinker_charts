@@ -1,0 +1,9 @@
+[
+  {"stage": "Book Figure", "value": "Figure 5-3: Maternal mortality, 1751-2013"},
+  {"stage": "Book Citation", "value": "Our World in Data, Roser 2016p, based partly on data from Claudia Hanson of Gapminder."},
+  {"stage": "Original Historical Dataset", "value": "Gapminder Documentation 010, Claudia Hanson, 2010"},
+  {"stage": "Recovered Book-Era Dataset", "value": "Wikimedia preservation of OWID dataset 522, retrieved by OWID 2017-06-04"},
+  {"stage": "Transformation", "value": "maternal mortality ratio per 100,000 / 1,000 = percent"},
+  {"stage": "Transformation Script", "value": "scripts/reconstruct_5_3.py"},
+  {"stage": "Generated Plots", "value": "figures/5-3/plots/"}
+]

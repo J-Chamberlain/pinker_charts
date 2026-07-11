@@ -1,5 +1,15 @@
 [
   {
+    "figure_id": "5-3",
+    "figure_title": "Maternal mortality, 1751-2013",
+    "bibliography_keys": "Roser 2016p; Hanson 2010",
+    "bibliography_entries": "Roser, Max and Hannah Ritchie. Maternal Mortality. Our World in Data; Hanson, Claudia. Data on Maternal Mortality. Gapminder Documentation 010, 2010.",
+    "datasets": "owid_522_maternal_mortality; gapminder_gd010",
+    "source_fidelity": "A",
+    "initial_estimate": "Book-era OWID table preserved with embedded 2017 provenance; historical Gapminder workbook independently recovered.",
+    "mapping_status": "resolved"
+  },
+  {
     "figure_id": "10-5",
     "figure_title": "Oil spills, 1970-2016",
     "bibliography_keys": "Roser 2016r",
