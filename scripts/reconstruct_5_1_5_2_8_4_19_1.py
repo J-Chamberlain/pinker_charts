@@ -62,8 +62,8 @@ FIGURES = {
         "status": "partial_match",
         "confidence": 0.72,
         "validation": "acceptable",
-        "notes": "Remediated to use the current OWID selected child-mortality grapher directly in percent units. This materially improves the visual match, but the exact Roser 2016a UN/HMD vintage remains unrecovered.",
-        "caption_extra": "The previous reconstruction used a Gapminder proxy and had a successor-data unit error; this version uses the current OWID selected child-mortality series in percent units. It remains a partial match because the exact book-era Roser 2016a assembly is not yet recovered.",
+        "notes": "A contemporaneous CME Info 2016 component was recovered, but the exact Roser 2016a UN/HMD assembly remains unavailable. The dedicated script plots current OWID only as an explicitly clipped successor proxy and adds no extension.",
+        "caption_extra": "Documented partial match only. No post-2013 extension is plotted because comparability between the current Gapminder/UN-IGME series and the cited 2016 UN/HMD assembly is not established.",
         "visible_differences": [
             "The revised curves better align with the Kindle scale and starting levels than the prior Gapminder proxy.",
             "Some country trajectories and endpoint label positions still differ visibly from the book.",
@@ -72,7 +72,7 @@ FIGURES = {
         "cause_assessment": "The remaining mismatch is most likely source-vintage and country-series construction, with minor styling/layout differences. The unit error in the successor series was corrected.",
         "outstanding_risks": "The exact Roser 2016a UN Child Mortality/Human Mortality Database assembled file or archival OWID grapher remains the blocker for verification.",
         "next_action": "Continue source recovery for the exact Roser 2016a/UN-HMD assembly before promoting status.",
-        "extension_confidence": "medium-low; current OWID successor extension, not exact book vintage",
+        "extension_confidence": "not plotted; comparability unverified",
     },
     "8-4": {
         "title": "Extreme poverty (proportion), 1820-2015",
@@ -277,53 +277,11 @@ def plot_5_1():
 
 
 def plot_5_2():
-    fig_id = "5-2"
-    b = base(fig_id)
-    current_url = "https://ourworldindata.org/grapher/child-mortality.csv"
-    current = b / "data/raw/owid_current_child_mortality.csv"
-    download_if_needed(current_url, current)
-    countries = ["Sweden", "Canada", "Chile", "South Korea", "Ethiopia"]
-    cur = pd.read_csv(current)
-    cval = [c for c in cur.columns if c not in ["Entity", "Code", "Year"]][0]
-    cur = cur.rename(columns={cval: "under5_mortality_percent"})
-    cur = cur[cur["Entity"].isin(countries)]
-    # The current OWID grapher reports selected under-five mortality as a
-    # percentage, not deaths per 1,000. The previous reconstruction divided this
-    # successor data by 10 during extension, which was a unit error.
-    book = cur[cur["Year"].between(1751, 2013)].copy()
-    book.to_csv(b / "data/clean/figure_5_2_book_period_clean.csv", index=False)
-    cur.to_csv(b / "data/clean/figure_5_2_extended_clean.csv", index=False)
-    colors = {"Sweden": "black", "Canada": "0.45", "Chile": "0.55", "South Korea": "0.65", "Ethiopia": "0.86"}
+    # Keep the legacy batch entry point reproducible without duplicating the
+    # source-sensitive Figure 5-2 logic here.
+    from reconstruct_figure_5_2 import main
 
-    def draw(out, extended=False):
-        fig, ax = plt.subplots(figsize=(8.3, 5.1), dpi=180)
-        for ent in countries:
-            sub = book[book["Entity"] == ent].sort_values("Year")
-            ax.plot(sub["Year"], sub["under5_mortality_percent"], color=colors[ent], linewidth=2.0 if ent != "Sweden" else 2.6)
-            if extended:
-                ext = cur[(cur["Entity"] == ent) & (cur["Year"] > 2013)].sort_values("Year")
-                if len(ext):
-                    ax.plot(ext["Year"], ext["under5_mortality_percent"], color=colors[ent], linewidth=1.8, linestyle="--")
-            if len(sub):
-                ax.text(sub["Year"].iloc[-1] - 42, sub["under5_mortality_percent"].iloc[-1] + 2, ent, fontsize=9, color=colors[ent])
-        ax.set_xlim(1750, 2025 if extended else 2020)
-        ax.set_ylim(0, 50)
-        ax.set_ylabel("Percentage of children dying before age 5")
-        ax.set_title("Figure 5-2: Child mortality, 1751-2013", loc="left", fontsize=12)
-        style_axis(ax)
-        note = "Improved proxy: current OWID selected child-mortality grapher; exact Roser 2016a vintage unrecovered."
-        ax.text(0, -0.14, note, transform=ax.transAxes, fontsize=7, va="top")
-        fig.tight_layout()
-        fig.savefig(out, bbox_inches="tight", facecolor="white")
-        plt.close(fig)
-
-    book_plot = b / "plots/book_period/figure_5_2_book_period_reconstruction.png"
-    ext_plot = b / "plots/extended/figure_5_2_extended_reconstruction.png"
-    draw(book_plot, False)
-    draw(ext_plot, True)
-    ref = crop_reference(fig_id)
-    side_by_side(ref, book_plot, b / "plots/comparisons/figure_5_2_book_period_comparison.png", "Figure 5-2 book-period comparison")
-    side_by_side(ref, ext_plot, b / "plots/comparisons/figure_5_2_extended_comparison.png", "Figure 5-2 extended comparison")
+    main()
 
 
 def plot_8_4():

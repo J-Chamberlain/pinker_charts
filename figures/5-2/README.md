@@ -2,6 +2,13 @@
 
 Status: `partial_match`
 
+This package is a documented successor-proxy approximation, not a recovered
+reproduction. The exact Roser (2016a) chart export assembled from UN child
+mortality estimates and the Human Mortality Database was not found. An
+immutable OWID repository copy of the contemporaneous CME Info (2016) input
+was recovered, but it contains only 1970–2015 and cannot reproduce the full
+chart. See `provenance/provenance.md` and `source_logs/source_log.md`.
+
 ## Canonical Artifacts
 
 - Original reference: `plots/comparisons/kindle_reference_figure_5_2.png`
@@ -13,3 +20,4 @@ Status: `partial_match`
 - Provenance: `provenance/provenance.md`
 - Anomaly review: `anomaly_reviews/anomaly_review.md`
 - Metadata: `metadata/metadata.json`
+- Reproduction script: `../../scripts/reconstruct_figure_5_2.py`
