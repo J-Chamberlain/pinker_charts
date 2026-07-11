@@ -2,11 +2,11 @@ figure_id,figure_title,stage_order,stage,value,stage_status
 10-5,"Oil spills, 1970-2016",1,Book Figure,"Figure 10-5: Oil spills, 1970-2016",confirmed
 10-5,"Oil spills, 1970-2016",2,Book Citation,OWID/Roser 2016r based on ITOPF,confirmed
 10-5,"Oil spills, 1970-2016",3,Original Paper,Not cited as a paper in Kindle source line,not_applicable
-10-5,"Oil spills, 1970-2016",4,Original Dataset,Roser 2016r OWID figure data plus ITOPF/UNCTAD inputs,not_located
-10-5,"Oil spills, 1970-2016",5,Modern Dataset,https://ourworldindata.org/grapher/number-oil-spills.csv,located_partial
-10-5,"Oil spills, 1970-2016",6,Downloaded File,data/raw/owid_number_oil_spills.csv,downloaded
-10-5,"Oil spills, 1970-2016",7,Transformation Script,scripts/recreate_figures.py,implemented
-10-5,"Oil spills, 1970-2016",8,Generated Plot,outputs/plots/figure_10_5_oil_spills.png,generated
+10-5,"Oil spills, 1970-2016",4,Original Dataset,Roser 2016r OWID figure data plus ITOPF/UNCTAD annual oil-shipped-by-sea inputs,not_located
+10-5,"Oil spills, 1970-2016",5,Modern Dataset,OWID spill-count CSV accepted; current UNCTADStat US.SeaborneTrade bulk file rejected for gray line,located_partial
+10-5,"Oil spills, 1970-2016",6,Downloaded File,figures/10-5/data/raw/owid_number_oil_spills.csv; figures/10-5/data/candidates/unctad_us_seaborne_trade_bulk_2000_2024.csv.7z,downloaded_partial
+10-5,"Oil spills, 1970-2016",7,Transformation Script,scripts/reconstruct_10_5_source_recovery.py,implemented
+10-5,"Oil spills, 1970-2016",8,Generated Plot,figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png,generated_partial
 10-6,"Protected areas, 1990-2014",1,Book Figure,"Figure 10-6: Protected areas, 1990-2014",confirmed
 10-6,"Protected areas, 1990-2014",2,Book Citation,World Bank 2016h/2017 based on UNEP-WCMC; compiled by WRI,confirmed
 10-6,"Protected areas, 1990-2014",3,Original Paper,Not cited as a paper in Kindle source line,not_applicable

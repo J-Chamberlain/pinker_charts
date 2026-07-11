@@ -98,3 +98,11 @@ Figure 19-1's actual Kindle capture revealed that a line chart proxy cannot
 pass visual validation for a stacked-area original even if the broad trend is
 similar. Source recovery and transformation must reproduce the visual encoding,
 not just the topic.
+
+## Source Family Is Not Enough
+
+Figure 10-5 showed that a live institutional successor from the right source
+family can still be unusable. The current UNCTADStat `US.SeaborneTrade` bulk
+file is public and relevant, but it starts in 2000 and its oil-cargo values do
+not match UNCTAD RMT selected-year tanker-trade values. Check coverage,
+definition, units, and scale before plotting a successor.

@@ -53,8 +53,8 @@
 ### UNCTADStat unauthenticated Facts endpoint
 
 - URL: https://unctadstat-api.unctad.org/datamart-api/US.SeaborneTrade/cur/Facts?culture=en
-- Decision: rejected
-- Rationale: Probe returned HTTP 400 without the report parameters/authentication needed for a CSV download.
+- Decision: accepted_diagnostic_only
+- Rationale: Corrected POST form with `culture=en` in the body returns current World cargo rows for 2000 onward. It does not return 1970-1999 and its cargo 11+12 values fail the RMT scale check for the book gray line.
 
 ### GitHub/OWID historical mirrors
 
@@ -67,6 +67,18 @@
 - URL: https://web.archive.org/
 - Decision: manual_review_needed
 - Rationale: Should be checked for archived OWID grapher CSV/UNCTAD tables before claiming exact reproduction.
+
+### UNCTADStat current bulk file
+
+- URL: https://unctadstat-api.unctad.org/bulkdownload/US.SeaborneTrade/US_SeaborneTrade
+- Decision: accepted_rejection_evidence
+- Rationale: Current bulk-file metadata lists a single file `US_SeaborneTrade` labeled `From 2000 to 2024`. The archive was downloaded and extracted, but it lacks 1970-1999 and differs from RMT selected-year tanker trade by about 31-48 percent on overlapping years. It is retained as a verifiable successor/source-family file, not as reconstruction input.
+
+### 2023 independent replication clue
+
+- URL: https://medium.com/@vannairea/update-of-a-chart-from-enlightenment-now-by-steven-pinker-python-4ba9aca5eae9
+- Decision: accepted_context
+- Rationale: The article names a local UNCTAD export `US.SeaborneTrade_585_20231104_101924.csv` and describes UNCTADStat data from 1970 to 2021. This run did not recover that CSV or an archived equivalent; current UNCTAD metadata rejects version `585`.
 
 ## Automated Discovery Adapter Results
 
@@ -92,11 +104,12 @@
 
 ## Remaining Uncertainties
 
-- Spill-count data is available from current OWID/ITOPF sources. The historical UNCTAD oil-shipped-by-sea series remains unresolved.
+- Spill-count data is available from current OWID/ITOPF sources. The historical annual UNCTAD/ITOPF/Roser oil-shipped-by-sea series remains unresolved.
+- The live UNCTADStat successor source is verifiable but is not comparable enough to plot for the book-period gray line.
 
 ## Recommended Next Steps
 
-- Search Internet Archive CDX for historical OWID grapher CSV snapshots around 2016-2018.
-- Inspect OWID historical commits or grapher metadata for `Roser 2016r` and oil-shipped-by-sea source data.
-- Locate UNCTAD seaborne trade oil cargo table or archived CSV used by the book.
-- Replot with dual axes only after the oil-shipped-by-sea series is independently downloaded.
+- Search Internet Archive/CDX and broader web caches for `US.SeaborneTrade_585_20231104_101924.csv` or adjacent `US.SeaborneTrade_585_*` exports.
+- Inspect authenticated GitHub/code search results for old UNCTADStat export mirrors and OWID/Roser source bundles.
+- Contact UNCTAD/ITOPF or locate archived chart-data tables for the annual 1970-2016 oil-shipped-by-sea series.
+- Replot the gray dual-axis series only after the annual book-period source is independently downloaded and scale-validated.

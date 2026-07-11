@@ -6,7 +6,7 @@
     "bibliography_entries": "Roser, Max. Oil spills / Global number of oil spills from tankers. Our World in Data, 2016.",
     "datasets": "owid_itopf_oil_spills; unctad_seaborne_oil_trade",
     "source_fidelity": "B/C",
-    "initial_estimate": "Exact OWID publication candidate for spill counts; institutional successor only for UNCTAD oil-shipped series.",
+    "initial_estimate": "Exact OWID publication candidate for spill counts; current UNCTAD successor recovered but rejected for the book gray line because it starts in 2000 and fails RMT scale validation.",
     "mapping_status": "partial"
   },
   {
