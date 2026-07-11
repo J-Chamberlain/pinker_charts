@@ -1,0 +1,9 @@
+stage,value
+Book Figure,"Figure 4-1: Tone of the news, 1945-2010"
+Book Citation,"Leetaru 2011"
+Original Publication,"Leetaru 2011, First Monday 16(9), doi:10.5210/fm.v16i9.3663"
+Input Corpora,"Licensed NYT 1945-2005 and SWB 1979-July 2010 full text"
+Derived Dataset,"Monthly standardized tone aggregates; unpublished and not recovered"
+Recovered Evidence,"Leetaru Figures 10 and 11 via GDELT high-resolution mirror"
+Reconstruction,"None"
+Extension,"None; current GDELT rejected as non-comparable"

@@ -1,0 +1,20 @@
+{
+  "figure_id": "4-1",
+  "chapter": "4",
+  "title": "Tone of the news, 1945-2010",
+  "book_page": "Supplemental Graphics page 1 (text-indexed; local PDF page unavailable)",
+  "claim_summary": "The tone of New York Times and international news coverage became more negative over the periods shown.",
+  "book_citation": "Leetaru 2011",
+  "resolved_citation": "Leetaru, Kalev H. 2011. Culturomics 2.0. First Monday 16(9). doi:10.5210/fm.v16i9.3663",
+  "original_dataset": "Unpublished monthly standardized tone aggregates derived from licensed New York Times (1945-2005) and Summary of World Broadcasts (1979-July 2010) full-text corpora",
+  "download_date": "2026-07-10",
+  "reproduction_status": "source_unavailable",
+  "confidence_score": 0.88,
+  "visual_validation": "not_applicable",
+  "notes": "Original publication and author-supplied high-resolution component plots recovered. Monthly numeric values, exact final sentiment dictionary, and code were not published or recovered. No reconstruction, digitization, or extension was made.",
+  "canonical_artifacts": {
+    "source_evidence": "figures/4-1/plots/comparisons/figure_4_1_source_evidence.png",
+    "provenance": "figures/4-1/provenance/provenance.md",
+    "caption": "figures/4-1/captions/caption.txt"
+  }
+}
