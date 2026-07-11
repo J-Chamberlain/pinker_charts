@@ -2,7 +2,7 @@
 
 Last update: 2026-07-10 America/Los_Angeles
 
-Project version: `1.4.1-figure-10-5-source-recovery`
+Project version: `1.4.2-figure-5-2-source-recovery`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -48,7 +48,7 @@ this file are all updated. Only then may Codex begin another figure.
 | Figure | Title | Lifecycle stage | Status | Confidence | Current disposition |
 | --- | --- | --- | --- | --- | --- |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
-| 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Remediated to use the current OWID selected child-mortality series in percent units; exact Roser 2016a UN/HMD assembled source remains unresolved. |
+| 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Recovered immutable OWID CME Info 2016 component, but not the full Roser 2016a UN/HMD assembly; current successor is plotted only as an explicitly clipped proxy and no extension is claimed. |
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Spill-count line is supported; current UNCTADStat successor bulk data were recovered but rejected for the gray line because they start in 2000 and fail the RMT scale check. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
@@ -81,11 +81,11 @@ support a verified reconstruction.
   not been recovered. The current UNCTADStat `US.SeaborneTrade` bulk file was
   recovered and archived, but it is labeled `From 2000 to 2024` and fails the
   RMT selected-year scale check, so it is not plotted as a book-line substitute.
-- Figure 5-2: the Kindle title/source and chart page were captured, and the
-  reconstruction was remediated to use the current OWID selected
-  child-mortality series directly in percent units. It remains a partial match
-  because the exact cited Roser 2016a UN Child Mortality/Human Mortality
-  Database assembly has not been recovered.
+- Figure 5-2: the Kindle title/source and chart page were captured. An immutable
+  OWID copy of the contemporaneous CME Info 2016 component was recovered from
+  repository history, but it begins in 1970 and the exact Roser 2016a UN/HMD
+  assembly remains unavailable. The plot is an explicitly labeled current-OWID
+  successor proxy clipped to book-visible starts; no extension is plotted.
 - Figure 19-1: the actual Kindle chart-page crop was captured and included in
   the side-by-side comparison. The current reconstruction remains a partial
   match because it uses current OWID nuclear-warhead successor line data rather
@@ -286,8 +286,10 @@ Canonical documentation:
   UNCTADStat successor bulk data are rejected as a substitute because they start
   in 2000 and differ from RMT selected-year tanker trade by about 31-48 percent
   on overlap.
-- Figure 5-2 needs the exact Roser 2016a UN/HMD assembled dataset or an
-  archival copy before it can be promoted beyond `partial_match`.
+- Figure 5-2 needs an author-held/OWID chart revision or database export of the
+  exact Roser 2016a UN/HMD assembly before it can be promoted beyond
+  `partial_match`. Public OWID Git history yielded the contemporaneous CME Info
+  2016 component only; Wayback returned no usable grapher CSV capture.
 - Figure 19-1 needs the cited HumanProgress/FAS 2016 table or archival
   equivalent and a stacked-area reconstruction before visual validation can
   pass.
@@ -334,6 +336,7 @@ Canonical documentation:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| `1.4.2-figure-5-2-source-recovery` | 2026-07-10 | Recovered the immutable OWID CME Info 2016 source component, documented the missing HMD/merge assembly and archive searches, removed non-book predecessor segments, and rejected a post-2013 extension as non-comparable; status remains `partial_match`. |
 | `1.4.1-figure-10-5-source-recovery` | 2026-07-09 | Recovered current UNCTADStat `US.SeaborneTrade` bulk metadata/archive, rejected it as a book gray-line substitute because it starts in 2000 and fails the RMT scale check, and regenerated Figure 10-5 as an explicitly spill-count-only partial reconstruction/extension. |
 | `1.4-four-figure-remediation` | 2026-06-29 | Remediated the latest four-figure batch: clarified no-extension artifacts for Figures 5-1 and 8-4, improved Figure 5-2 source/units while retaining partial-match status, captured the actual Figure 19-1 Kindle chart crop, and marked Figure 19-1 visual validation as poor until the cited FAS/HumanProgress stacked source is recovered. |
 | `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |

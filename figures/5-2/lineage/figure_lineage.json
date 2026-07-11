@@ -8,15 +8,23 @@
     "value": "Our World in Data, Roser 2016a, based on UN Child Mortality Estimates and the Human Mortality Database."
   },
   {
-    "stage": "Downloaded File",
-    "value": "figures/5-2/data/raw/"
+    "stage": "Recovered Component",
+    "value": "figures/5-2/data/candidates/owid_cme_info_2016.csv (OWID commit b6746f923dd64ca0fad7de1b1f2f78bebe25205f; incomplete for figure)"
+  },
+  {
+    "stage": "Successor Proxy",
+    "value": "figures/5-2/data/raw/owid_current_child_mortality.csv"
   },
   {
     "stage": "Transformation Script",
-    "value": "scripts/reconstruct_5_1_5_2_8_4_19_1.py"
+    "value": "scripts/reconstruct_figure_5_2.py"
+  },
+  {
+    "stage": "Clean Data",
+    "value": "figures/5-2/data/clean/ (rows marked current_owid_successor_proxy)"
   },
   {
     "stage": "Generated Plot",
-    "value": "figures/5-2/plots/"
+    "value": "figures/5-2/plots/ (documented partial match; no extension)"
   }
 ]
