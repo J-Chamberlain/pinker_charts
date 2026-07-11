@@ -1,6 +1,6 @@
 # Figure 5-3: Maternal mortality, 1751-2013
 
-Status: `verified_reproduction` for the book-period data and encoding.
+Status: `partial_match` -- strong book-period data reconstruction (exact conversion validation); visual comparison uses a disclosed facsimile reference, not original book pixels.
 
 The reconstruction uses the preserved Our World in Data dataset 522, which
 combines Gapminder's 2010 historical compilation with World Bank 2015 values

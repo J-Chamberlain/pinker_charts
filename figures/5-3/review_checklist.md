@@ -6,7 +6,7 @@
 - Title: Maternal mortality, 1751-2013
 - Reviewer: Codex self-review
 - Review date: 2026-07-10
-- Current status: `verified_reproduction`
+- Current status: `partial_match`
 
 ## Phase 1 - Evidence Review
 
@@ -104,5 +104,5 @@
 
 ## Final Decision
 
-- [x] Accepted as `verified_reproduction` with documented visual-reference
+- [x] Accepted as `partial_match` (downgraded from verified_reproduction 2026-07-11) with documented visual-reference
   limitation.
