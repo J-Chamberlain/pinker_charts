@@ -1,12 +1,12 @@
 # Anomaly Review: Figure 19-1
 
 ## Visible Differences
-- The Kindle figure is a stacked-area chart while the current reconstruction is a three-line chart.
-- The recreated series captures the broad rise and post-Cold-War decline but does not match the original visual encoding.
-- The cited HumanProgress/FAS 2016 table remains unrecovered.
+- The reconstruction now matches the Kindle stacked-area encoding, 1945-2015 x-range, and 0-70,000 y-range.
+- The United States and USSR/Russia boundaries and peaks visually align closely because all recovered HumanProgress values are used exactly.
+- The six very thin small-country layers use a later FAS-derived successor vintage; their exact 2016-vintage shapes remain unresolved.
 ## Cause Assessment
 - Current status: `partial_match`.
-- The major discrepancy is caused by both source and chart-type mismatch: the source is a current OWID successor, and the transformation does not recreate the stacked-area composition.
+- The former principal-series and chart-type discrepancies are resolved. Residual source-vintage uncertainty is confined to France, China, UK, Pakistan, India, and Israel.
 
 ## Reviewer Challenge
 - Pinker would likely ask whether the cited source chain has been reconstructed exactly.
@@ -15,8 +15,8 @@
 - A skeptical reader would notice any label or curve-shape mismatch in the side-by-side.
 
 Overall confidence:
-- Book reconstruction: 0.62
-- Extension: low; successor OWID extension only
+- Book reconstruction: 0.82
+- Extension: none; no post-2015 segment plotted
 - Source provenance: see source log.
-- Outstanding risks: Recovering the HumanProgress static 2927/FAS 2016 table is required before the figure can move beyond partial_match.
-- Recommended next action: Recover cited HumanProgress/FAS table or archival copy, then reconstruct as stacked area before visual validation can pass.
+- Outstanding risks: an exact machine-readable 2016 all-country history is still needed before promotion to `verified_reproduction`.
+- Recommended next action: seek the six minor-country 2016-vintage series; do not imply that the current FAS-derived values are exact book-vintage values.

@@ -106,19 +106,19 @@ FIGURES = {
         "kindle": ROOT / "tmp/kindle_remediation/page_19_1_attempt1.png",
         "crop": (974, 146, 1640, 616),
         "status": "partial_match",
-        "confidence": 0.62,
-        "validation": "poor",
-        "notes": "Actual Kindle chart-page capture is now present. The reconstruction remains partial because it uses a current OWID successor line series rather than the cited HumanProgress/FAS 2016 table and does not reproduce the book's stacked-area presentation.",
-        "caption_extra": "The Kindle chart image is now included in the side-by-side comparison. The recreated chart is a current OWID successor line reconstruction and should not be treated as visual validation of the original stacked-area figure.",
+        "confidence": 0.82,
+        "validation": "good with documented minor-series vintage limitation",
+        "notes": "The archived HumanProgress static 2927 payload was recovered for the United States and USSR/Russia (138 observations, 1945-2015) and is used without numeric alteration. The six small-arsenal layers use the current FAS-derived OWID successor because the archived HumanProgress payload contains only the two named powers. Status remains partial_match because the exact 2016 minor-country series vintage was not exposed as a table.",
+        "caption_extra": "The stacked-area reconstruction uses the recovered HumanProgress values exactly for the United States and USSR/Russia. France, China, the UK, Pakistan, India, and Israel are supplied by the current FAS-derived OWID successor; pre-arsenal years are structural zeros. No post-2015 extension is plotted because vintage continuity has not been established.",
         "visible_differences": [
-            "The Kindle figure is a stacked-area chart while the current reconstruction is a three-line chart.",
-            "The recreated series captures the broad rise and post-Cold-War decline but does not match the original visual encoding.",
-            "The cited HumanProgress/FAS 2016 table remains unrecovered.",
+            "The reconstruction now matches the Kindle stacked-area encoding, 1945-2015 x-range, and 0-70,000 y-range.",
+            "The United States and USSR/Russia silhouettes and peaks are sourced exactly from archived HumanProgress static 2927.",
+            "The very thin six-country cap uses a later FAS-derived successor vintage, so its exact small undulations may differ from the book.",
         ],
-        "cause_assessment": "The major discrepancy is caused by both source and chart-type mismatch: the source is a current OWID successor, and the transformation does not recreate the stacked-area composition.",
-        "outstanding_risks": "Recovering the HumanProgress static 2927/FAS 2016 table is required before the figure can move beyond partial_match.",
-        "next_action": "Recover cited HumanProgress/FAS table or archival copy, then reconstruct as stacked area before visual validation can pass.",
-        "extension_confidence": "low; successor OWID extension only",
+        "cause_assessment": "The former chart-type and principal-series mismatch is resolved. Residual uncertainty is confined to the six small-country layers because the archived 2927 payload contains only United States and USSR/Russia observations.",
+        "outstanding_risks": "An exact downloadable 2016 vintage for France, China, the UK, Pakistan, India, and Israel would be required to promote the hybrid reconstruction to verified_reproduction.",
+        "next_action": "Seek a machine-readable 2016 FAS all-country history; otherwise retain partial_match with the recovered principal series and disclosed successor cap.",
+        "extension_confidence": "none; no extension plotted",
     },
 }
 
@@ -376,42 +376,76 @@ def plot_8_4():
 def plot_19_1():
     fig_id = "19-1"
     b = base(fig_id)
-    url = "https://ourworldindata.org/grapher/nuclear-warhead-stockpiles.csv"
-    raw = b / "data/raw/owid_current_nuclear_warhead_stockpiles.csv"
-    download_if_needed(url, raw)
-    df = pd.read_csv(raw).rename(columns={"Number of nuclear warheads": "warheads"})
-    keep = ["World", "United States", "Russia"]
-    clean = df[df["Entity"].isin(keep) & df["Year"].between(1945, 2015)].copy()
-    clean.to_csv(b / "data/clean/figure_19_1_book_period_clean.csv", index=False)
-    ext = df[df["Entity"].isin(keep) & df["Year"].between(1945, 2026)].copy()
-    ext.to_csv(b / "data/clean/figure_19_1_extended_clean.csv", index=False)
-    colors = {"World": "black", "United States": "0.45", "Russia": "0.72"}
+    archive_url = "https://web.archive.org/web/20160814144251id_/http://humanprogress.org/static/2927"
+    archive_html = b / "data/raw/humanprogress_static_2927_20160814.html"
+    download_if_needed(archive_url, archive_html)
+    page = archive_html.read_text(encoding="utf-8")
+    marker = "gon.countries="
+    start = page.index(marker) + len(marker)
+    payload, _ = json.JSONDecoder().raw_decode(page[start:])
+    hp = pd.DataFrame(payload["data"]).rename(columns={"country": "Entity", "year": "Year", "value": "warheads"})
+    hp[["Entity", "Year", "warheads", "generated"]].to_csv(
+        b / "data/raw/humanprogress_static_2927_recovered.csv", index=False
+    )
 
-    def draw(data, out, extended=False):
+    owid_raw = b / "data/raw/owid_current_nuclear_warhead_stockpiles.csv"
+    download_if_needed("https://ourworldindata.org/grapher/nuclear-warhead-stockpiles.csv", owid_raw)
+    owid = pd.read_csv(owid_raw).rename(columns={"Number of nuclear warheads": "warheads"})
+    minor = ["France", "China", "United Kingdom", "Pakistan", "India", "Israel"]
+    years = pd.Index(range(1945, 2016), name="Year")
+    wide = hp.pivot(index="Year", columns="Entity", values="warheads").reindex(years).fillna(0)
+    wide = wide.rename(columns={"USSR/Russia": "USSR/Russia"})
+    for ent in minor:
+        s = owid[owid["Entity"].eq(ent) & owid["Year"].between(1945, 2015)].set_index("Year")["warheads"]
+        wide[ent] = s.reindex(years).fillna(0)
+    wide = wide.reset_index()
+    wide["principal_total"] = wide["United States"] + wide["USSR/Russia"]
+    wide["all_eight_total"] = wide[["United States", "USSR/Russia", *minor]].sum(axis=1)
+    wide.to_csv(b / "data/clean/figure_19_1_book_period_clean.csv", index=False)
+    wide.to_csv(b / "data/clean/figure_19_1_extended_clean.csv", index=False)
+
+    order = ["United States", "USSR/Russia", *minor]
+    colors = ["#050505", "#dedede", "#b8b8b8", "#aaa", "#999", "#888", "#777", "#666"]
+
+    def draw(out, extended=False):
         fig, ax = plt.subplots(figsize=(8.3, 5.1), dpi=180)
-        for ent in keep:
-            sub = data[(data["Entity"] == ent) & (data["Year"] <= 2015)].sort_values("Year")
-            ax.plot(sub["Year"], sub["warheads"], color=colors[ent], linewidth=2.6 if ent == "World" else 2.0)
-            if extended:
-                ext_part = data[(data["Entity"] == ent) & (data["Year"] > 2015)].sort_values("Year")
-                ax.plot(ext_part["Year"], ext_part["warheads"], color=colors[ent], linewidth=1.8, linestyle="--")
-            if len(sub):
-                ax.text(sub["Year"].iloc[-1] - 18, sub["warheads"].iloc[-1] + (2500 if ent == "World" else 1000), ent, fontsize=9, color=colors[ent])
-        ax.set_xlim(1945, 2030 if extended else 2018)
-        ax.set_ylim(0, 75000)
-        ax.set_ylabel("Nuclear warheads")
-        ax.set_title("Figure 19-1: Nuclear weapons, 1945-2015", loc="left", fontsize=12)
+        ax.stackplot(wide["Year"], *[wide[c] for c in order], colors=colors, linewidth=0.35, edgecolor="0.45")
+        ax.set_xlim(1945, 2015)
+        ax.set_ylim(0, 70000)
+        ax.set_xticks(range(1945, 2016, 5))
+        ax.set_xticklabels(range(1945, 2016, 5), rotation=45, ha="right")
+        ax.set_yticks(range(0, 70001, 10000))
+        ax.set_yticklabels([f"{v:,}" for v in range(0, 70001, 10000)])
+        ax.text(1970, 6500, "United States", color="white", fontsize=10)
+        ax.text(1971, 32000, "USSR/Russia", color="0.15", fontsize=10)
+        label_x = 2011.6
+        base_2010 = wide.loc[wide["Year"].eq(2010), ["United States", "USSR/Russia"]].sum(axis=1).iloc[0]
+        cumulative = base_2010
+        targets = {}
+        for ent in minor:
+            value = wide.loc[wide["Year"].eq(2010), ent].iloc[0]
+            targets[ent] = cumulative + value / 2
+            cumulative += value
+        label_y = [21000, 18500, 16000, 13500, 11000, 8500]
+        for ent, y in zip(reversed(minor), label_y):
+            ax.annotate(ent.replace("United Kingdom", "UK"), xy=(2010, targets[ent]), xytext=(label_x, y),
+                        fontsize=8, ha="left", va="center",
+                        arrowprops={"arrowstyle": "-", "color": "0.55", "lw": 0.55})
+        ax.set_title("Nuclear weapons, 1945-2015", loc="left", fontsize=12)
         style_axis(ax)
-        note = "Source: current OWID successor series; cited HumanProgress/FAS table has not yet been recovered."
-        ax.text(0, -0.14, note, transform=ax.transAxes, fontsize=7, va="top")
+        note = "Archived HumanProgress 2927: US and USSR/Russia; current FAS-derived OWID: six small-country layers."
+        if extended:
+            note += " No post-2015 extension plotted: vintage comparability is not established."
+            ax.text(0.01, 0.96, "No comparable extension plotted", transform=ax.transAxes, fontsize=8, weight="bold", va="top")
+        ax.text(0, -0.22, note, transform=ax.transAxes, fontsize=7, va="top")
         fig.tight_layout()
         fig.savefig(out, bbox_inches="tight", facecolor="white")
         plt.close(fig)
 
     book_plot = b / "plots/book_period/figure_19_1_book_period_reconstruction.png"
     ext_plot = b / "plots/extended/figure_19_1_extended_reconstruction.png"
-    draw(clean, book_plot, False)
-    draw(ext, ext_plot, True)
+    draw(book_plot, False)
+    draw(ext_plot, True)
     ref = crop_reference(fig_id)
     side_by_side(ref, book_plot, b / "plots/comparisons/figure_19_1_book_period_comparison.png", "Figure 19-1 book-period comparison")
     side_by_side(ref, ext_plot, b / "plots/comparisons/figure_19_1_extended_comparison.png", "Figure 19-1 extended comparison")
