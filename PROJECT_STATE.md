@@ -2,7 +2,7 @@
 
 Last update: 2026-07-10 America/Los_Angeles
 
-Project version: `1.5.0-figure-4-1-source-recovery`
+Project version: `1.4.2-figure-5-4-partial-source-recovery`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -50,6 +50,8 @@ this file are all updated. Only then may Codex begin another figure.
 | 4-1 | Tone of the news, 1945-2010 | Source recovery complete; numeric reconstruction unavailable | `source_unavailable` | High on provenance; none on reconstruction | Leetaru 2011 and its original high-resolution component figures were recovered, but the derived monthly values, code, and exact sentiment configuration were not published; no digitization or non-comparable GDELT extension is used. |
 | 5-1 | Life expectancy, 1771-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID/Roser 2016n-style historical dataset matches the Kindle source line; the extended artifact is explicitly labeled as no comparable regional extension. |
 | 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Recovered immutable OWID CME Info 2016 component, but not the full Roser 2016a UN/HMD assembly; current successor is plotted only as an explicitly clipped proxy and no extension is claimed. |
+| 5-2 | Child mortality, 1751-2013 | Source recovery and discrepancy analysis | `partial_match` | Medium | Remediated to use the current OWID selected child-mortality series in percent units; exact Roser 2016a UN/HMD assembled source remains unresolved. |
+| 5-4 | Life expectancy, UK, 1701-2013 | Source recovery and diagnostic analysis | `partial_match` | Low | Exact source note and Clio birth component recovered; reference image and Roser 2016n/HMD combined-population mid-decade series remain unavailable, so only a clearly labeled ONS male diagnostic was produced. |
 | 8-4 | Extreme poverty (proportion), 1820-2015 | Reviewed book-period reconstruction; no comparable extension plotted | `verified_reproduction` | High | OWID historical Bourguignon & Morrison/PovcalNet dataset matches the Kindle source chain; comparison layout was remediated and no comparable World successor extension is plotted. |
 | 10-5 | Oil spills, 1970-2016 | Source recovery and discrepancy analysis | `partial_match` | Medium | Spill-count line is supported; current UNCTADStat successor bulk data were recovered but rejected for the gray line because they start in 2000 and fail the RMT scale check. |
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
@@ -78,6 +80,11 @@ support a verified reconstruction.
 ## Unresolved Figures
 
 - Figure 4-1: the exact source is Leetaru 2011, Figures 10 and 11, derived from licensed New York Times (1945-2005) and Summary of World Broadcasts (1979-July 2010) corpora. The paper and GDELT mirror preserve the plots but not the monthly numeric values, code, or exact final sentiment configuration. No reconstruction or extension is claimed.
+- Figure 5-4: the source note, surrounding text, bibliography chain, and cited Clio
+  birth component were recovered. The Supplemental Graphics figure page was not
+  available, OWID's public dataset history does not contain the exact multi-age Roser
+  2016n assembly, and HMD file downloads require account login. The ONS male decennial
+  table is retained only as a diagnostic; no reconstruction or extension is claimed.
 - Figure 10-5: the oil-spill count line is well supported, but the exact
   historical annual oil-shipped-by-sea/tanker-trade series for 1970-2016 has
   not been recovered. The current UNCTADStat `US.SeaborneTrade` bulk file was
@@ -174,6 +181,25 @@ Canonical documentation:
 - Anomaly review: `figures/5-2/anomaly_reviews/anomaly_review.md`
 - Metadata: `figures/5-2/metadata/metadata.json`
 - Review checklist: `figures/5-2/review_checklist.md`
+
+### Figure 5-4 - Life expectancy, UK, 1701-2013
+
+Status: `partial_match`
+
+Canonical visual artifact:
+
+- Partial source-recovery diagnostic: `figures/5-4/plots/book_period/figure_5_4_partial_diagnostic.png`
+
+No original-reference comparison or extended artifact exists; their absence is a
+documented blocker, not a successful reconstruction.
+
+Canonical documentation:
+
+- Caption: `figures/5-4/captions/caption.txt`
+- Provenance: `figures/5-4/provenance/provenance.md`
+- Anomaly review: `figures/5-4/anomaly_reviews/anomaly_review.md`
+- Metadata: `figures/5-4/metadata/metadata.json`
+- Review checklist: `figures/5-4/review_checklist.md`
 
 ### Figure 8-4 - Extreme poverty (proportion), 1820-2015
 
@@ -372,6 +398,7 @@ Canonical documentation:
 | `1.4.2-figure-5-2-source-recovery` | 2026-07-10 | Recovered the immutable OWID CME Info 2016 source component, documented the missing HMD/merge assembly and archive searches, removed non-book predecessor segments, and rejected a post-2013 extension as non-comparable; status remains `partial_match`. |
 | `1.4.2-figure-19-1-source-recovery` | 2026-07-10 | Recovered archived HumanProgress static 2927 (138 exact U.S./USSR-Russia observations), rebuilt Figure 19-1 as stacked area, withheld a post-2015 extension, and retained partial-match status because six minor-country layers use a disclosed later FAS-derived vintage. |
 | `1.5.0-figure-4-1-source-recovery` | 2026-07-10 | Resolved Figure 4-1 to Leetaru 2011 Figures 10-11 and recovered the original high-resolution plots; classified the figure as source unavailable because the monthly aggregates and exact sentiment configuration were not published, and rejected digitization and modern GDELT substitution. |
+| `1.4.2-figure-5-4-partial-source-recovery` | 2026-07-10 | Recovered Figure 5-4's exact source note, discussion, bibliography chain, and Clio birth component; documented the missing reference page and inaccessible exact Roser/HMD vintage; produced only an explicitly non-book ONS male diagnostic and no extension. |
 | `1.4.1-figure-10-5-source-recovery` | 2026-07-09 | Recovered current UNCTADStat `US.SeaborneTrade` bulk metadata/archive, rejected it as a book gray-line substitute because it starts in 2000 and fails the RMT scale check, and regenerated Figure 10-5 as an explicitly spill-count-only partial reconstruction/extension. |
 | `1.4-four-figure-remediation` | 2026-06-29 | Remediated the latest four-figure batch: clarified no-extension artifacts for Figures 5-1 and 8-4, improved Figure 5-2 source/units while retaining partial-match status, captured the actual Figure 19-1 Kindle chart crop, and marked Figure 19-1 visual validation as poor until the cited FAS/HumanProgress stacked source is recovered. |
 | `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |
