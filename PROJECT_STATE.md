@@ -2,7 +2,7 @@
 
 Last update: 2026-07-10 America/Los_Angeles
 
-Project version: `1.4.2-figure-5-2-source-recovery`
+Project version: `1.4.2-figure-19-1-source-recovery`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
@@ -54,7 +54,7 @@ this file are all updated. Only then may Codex begin another figure.
 | 10-6 | Protected areas, 1990-2014 | Verified book-period reconstruction with successor-series extension | `verified_reproduction` | High | Book-period reconstruction accepted; bibliographic cleanup and publication packaging remain. |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 carbon-intensity dataset matches the Kindle source chain; extension uses current OWID successor data after 2014. |
 | 10-8 | CO2 emissions, 1960-2015 | Reviewed book-period reconstruction with successor-series extension | `verified_reproduction` | High | OWID 2017 regional CDIAC dataset matches the Kindle source chain; extension uses current OWID/GCB successor categories after 2015. |
-| 19-1 | Nuclear weapons, 1945-2015 | Source recovery and visual discrepancy analysis | `partial_match` | Medium-low | Actual Kindle chart-page crop is now included; current OWID successor line reconstruction remains a poor visual match to the original stacked-area figure and the cited HumanProgress/FAS 2016 table remains unresolved. |
+| 19-1 | Nuclear weapons, 1945-2015 | Recovered principal-series reconstruction; minor-series vintage analysis | `partial_match` | Medium-high | Archived HumanProgress static 2927 yielded all 138 U.S. and USSR/Russia observations and the chart is now reconstructed as stacked area; six thin minor-country layers use a disclosed later FAS-derived vintage, so exact-vintage verification is not claimed. |
 
 ## Completed Figures
 
@@ -91,6 +91,16 @@ support a verified reconstruction.
   match because it uses current OWID nuclear-warhead successor line data rather
   than the cited HumanProgress/FAS 2016 table and does not reproduce the
   original stacked-area encoding.
+- Figure 5-2: the Kindle title/source and chart page were captured, and the
+  reconstruction was remediated to use the current OWID selected
+  child-mortality series directly in percent units. It remains a partial match
+  because the exact cited Roser 2016a UN Child Mortality/Human Mortality
+  Database assembly has not been recovered.
+- Figure 19-1: the actual Kindle crop and archived HumanProgress static 2927
+  payload are included. All 138 U.S. and USSR/Russia values are reproduced
+  exactly in a stacked-area chart. The status remains a partial match because
+  the six thin minor-country layers use a disclosed current FAS-derived
+  successor vintage rather than an exposed 2016 table.
 
 ## Attempted But Not Expanded
 
@@ -293,6 +303,11 @@ Canonical documentation:
 - Figure 19-1 needs the cited HumanProgress/FAS 2016 table or archival
   equivalent and a stacked-area reconstruction before visual validation can
   pass.
+- Figure 5-2 needs the exact Roser 2016a UN/HMD assembled dataset or an
+  archival copy before it can be promoted beyond `partial_match`.
+- Figure 19-1 needs an exact machine-readable 2016 vintage for its six thin
+  minor-country layers before promotion to `verified_reproduction`; the cited
+  HumanProgress principal series and stacked-area encoding are now recovered.
 - The legacy file [data/metadata/figure_metadata_legacy.csv](data/metadata/figure_metadata_legacy.csv)
   is stale and kept only as an imported historical artifact. The canonical
   metadata is [data/metadata/figure_metadata.csv](data/metadata/figure_metadata.csv)
@@ -323,8 +338,8 @@ Canonical documentation:
    links resolve.
 2. Update scripts to use repository-relative paths and regenerate outputs from
    the imported data without Mac-specific paths.
-3. Keep Figures 5-2, 10-5, and 19-1 open for targeted source recovery before
-   promoting their statuses.
+3. Keep Figures 5-2 and 10-5 open for broad source recovery, and Figure 19-1
+   open only for its exact six-country minor-series vintage, before promotion.
 4. For Figure 10-6, complete bibliographic cleanup and document the WDI archive
    capture as the accepted source.
 5. Build reusable source adapters for OWID/GitHub datasets, World Bank bulk
@@ -337,6 +352,7 @@ Canonical documentation:
 | Version | Date | Summary |
 | --- | --- | --- |
 | `1.4.2-figure-5-2-source-recovery` | 2026-07-10 | Recovered the immutable OWID CME Info 2016 source component, documented the missing HMD/merge assembly and archive searches, removed non-book predecessor segments, and rejected a post-2013 extension as non-comparable; status remains `partial_match`. |
+| `1.4.2-figure-19-1-source-recovery` | 2026-07-10 | Recovered archived HumanProgress static 2927 (138 exact U.S./USSR-Russia observations), rebuilt Figure 19-1 as stacked area, withheld a post-2015 extension, and retained partial-match status because six minor-country layers use a disclosed later FAS-derived vintage. |
 | `1.4.1-figure-10-5-source-recovery` | 2026-07-09 | Recovered current UNCTADStat `US.SeaborneTrade` bulk metadata/archive, rejected it as a book gray-line substitute because it starts in 2000 and fails the RMT scale check, and regenerated Figure 10-5 as an explicitly spill-count-only partial reconstruction/extension. |
 | `1.4-four-figure-remediation` | 2026-06-29 | Remediated the latest four-figure batch: clarified no-extension artifacts for Figures 5-1 and 8-4, improved Figure 5-2 source/units while retaining partial-match status, captured the actual Figure 19-1 Kindle chart crop, and marked Figure 19-1 visual validation as poor until the cited FAS/HumanProgress stacked source is recovered. |
 | `1.3-editorial-review-gate` | 2026-06-29 | Added a permanent Editorial Review Gate for publication-quality batch review before final commit, `PROJECT_STATE.md` completion language, or batch completion. |
