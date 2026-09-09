@@ -17,6 +17,11 @@ post-publication extensions where the data are comparable. Deliver a repository
 that an unfamiliar researcher can reproduce and audit, together with a visual
 review gallery and a continuous comparison PDF.
 
+Owner clarification, 2026-09-09: underlying data are a long-lived deliverable
+for independent analysis and future refreshes. Preserve original releases,
+versioned clean observations and per-plot lineage in the
+[data library](data_library.md), not just the rendered figures.
+
 The scientific target is 75 faithful reconstructions. A complete source search,
 an accepted worker commit, or an empty scheduling queue does not establish that
 a figure has been reconstructed. Unrecoverable figures remain explicitly
@@ -288,6 +293,9 @@ and unreconstructed figures. Public deployment remains a distinct scope choice.
 - External-API spending ceiling is not specified. Do not infer unlimited paid
   execution from approval of the plan. Local consolidation, offline tests, and
   other work that does not require that decision can proceed.
+- The API reviewer is optional unattended infrastructure. Its paid calibration
+  is not a prerequisite for in-session source research, data-library work or
+  actual visual inspection. Do not let API setup displace those deliverables.
 - Public deployment versus a publication-ready release is not yet selected.
   Prepare the release candidate while leaving that external action pending.
 - Report meaningful milestones and consolidated blockers. Ask the owner only
@@ -322,3 +330,9 @@ made, or branches merged as part of this documentation checkpoint.
 2026-09-09 execution checkpoint: [validation and exact next actions](../reports/completion_checkpoint_2026_09_09.md).
 Consolidation and a source-supported Figure 5-3 repair are now committed; the
 earlier paragraph describes plan documentation only, not subsequent execution.
+
+2026-09-09 data-library checkpoint: [SQLite library](../data/database/README.md)
+catalogs 321 retained files and imports 65 clean tables / 34,968 rows. All 75
+figures have coverage entries. Original files are untouched; exact per-plot input
+mapping and automated provider refreshes remain incomplete. Prioritize this
+reusable-data work alongside reconstruction, without requiring paid API review.

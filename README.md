@@ -14,6 +14,14 @@ for completing all 75 registered figures, their exit criteria, and the current
 progress ledger. Read it after PROJECT_STATE before choosing work. Consolidate
 the divergent local and GitHub evidence before resuming figure production.
 
+## Reusable Data
+
+The [data library](data/database/README.md) provides a single SQLite database
+of preserved clean tables, version history and raw-file references, plus a
+[coverage catalog](data/database/catalog.json). Follow the
+[data refresh contract](docs/data_library.md) when adding or updating sources.
+Original downloads and historical chart inputs must remain preserved.
+
 ## Canonical Figure Reference
 
 Future figure reconstruction should begin with the Supplemental Graphics PDF:

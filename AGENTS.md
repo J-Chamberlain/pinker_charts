@@ -22,6 +22,13 @@ Canonical state is `figures/<id>/figure.json`. Follow
 mirrors or PROJECT_STATE tables. Run `scripts/project_state.py generate` and
 `scripts/project_state.py check` after canonical record changes.
 
+Data are a long-lived deliverable. Follow [docs/data_library.md](docs/data_library.md):
+preserve dated raw releases, versioned clean tables and exact per-plot lineage.
+After data or canonical metadata changes, run `scripts/build_data_database.py build`
+and `scripts/build_data_database.py check`. Do not overwrite book-era data with
+successor releases or assume every retained table was used in a current plot.
+API-review calibration is optional infrastructure, not a blocker for local research.
+
 Preserve existing work. At a meaningful checkpoint, update the plan's progress
 ledger and PROJECT_STATE with evidence, remaining blockers, and the exact next
 action. Unimplemented plan requirements must remain labeled as pending.

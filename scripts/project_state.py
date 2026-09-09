@@ -216,6 +216,7 @@ def projections(records: list[dict]) -> dict[str, str]:
              "- [Registry](data/figure_registry.csv) and [JSON mirror](data/figure_registry.json)",
              "- [Workflow](docs/workflow.md), [research review](docs/review_protocol.md), [editorial gate](docs/editorial_review_gate.md)",
              "- [Canonical artifact index](data/canonical_artifacts.json)", "",
+             "- [Reusable data library](data/database/README.md) and [coverage catalog](data/database/catalog.json)",
              "- [Original reference index](references/figure_index.json)",
              "- [Consolidated visual audit gallery](reports/review_baseline/index.html)",
              "- [Current review PDF](output/pdf/recreated_figures_review_scroll.pdf) and [manifest](output/pdf/recreated_figures_review_scroll.manifest.json)", "",
