@@ -1,0 +1,743 @@
+{
+  "url": "https://alfred.stlouisfed.org/series?seid=DFDHRC1A027NBEA",
+  "retrieved_date": "2026-09-09",
+  "method": "machine-readable accessibility numeric labels, not pixel digitization",
+  "observations": [
+    {
+      "label": "1929, 3.776 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1930, 3.004 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1931, 2.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1932, 1.853 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1933, 1.744 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1934, 2.047 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1935, 2.335 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1936, 2.903 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1937, 3.204 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1938, 2.845 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1939, 3.161 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1940, 3.498 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1941, 4.36 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1942, 4.179 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1943, 3.778 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1944, 3.845 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1945, 4.525 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1946, 7.68 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1947, 9.557 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1948, 10.539 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1949, 10.062 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1950, 11.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1951, 12.366 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1952, 12.192 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1953, 12.584 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1954, 12.525 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1955, 14.01 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1956, 14.814 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1957, 14.776 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1958, 14.562 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1959, 15.518 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1960, 15.424 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1961, 15.572 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1962, 16.424 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1963, 17.51 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1964, 19.517 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1965, 20.661 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1966, 22.643 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1967, 23.68 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1968, 26.089 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1969, 27.589 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1970, 28.152 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1971, 29.943 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1972, 33.522 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1973, 37.961 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1974, 40.89 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1975, 42.612 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1976, 47.172 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1977, 53.355 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1978, 59.004 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1979, 65.254 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1980, 67.844 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1981, 71.461 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1982, 71.811 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1983, 79.77 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1984, 88.833 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1985, 94.62 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1986, 103.454 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1987, 109.536 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1988, 115.155 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1989, 121.388 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1990, 120.94 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1991, 118.784 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1992, 124.288 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1993, 131.367 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1994, 140.511 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1995, 146.742 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1996, 153.535 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1997, 160.49 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1998, 173.579 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1999, 191.185 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2000, 208.106 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2001, 214.94 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2002, 225.868 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2003, 235.161 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2004, 254.31 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2005, 271.273 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2006, 283.598 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2007, 283.458 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2008, 264.349 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2009, 238.275 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2010, 240.924 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2011, 246.862 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2012, 253.938 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2013, 263.304 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2014, 275.462 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2015, 292.691 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2016, 306.047 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2017, 319.185 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2018, 335.953 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2019, 346.714 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2020, 380.989 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2021, 451.228 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2022, 476.136 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2023, 479.861 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2024, 490.018 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "2025, 507.34 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2026-04-09 series with 97 points"
+    },
+    {
+      "label": "1929, 3.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1930, 3 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1931, 2.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1932, 1.9 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1933, 1.7 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1934, 2 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1935, 2.3 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1936, 2.9 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1937, 3.2 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1938, 2.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1939, 3.2 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1940, 3.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1941, 4.4 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1942, 4.2 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1943, 3.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1944, 3.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1945, 4.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1946, 7.7 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1947, 9.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1948, 10.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1949, 10.1 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1950, 11.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1951, 12.4 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1952, 12.2 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1953, 12.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1954, 12.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1955, 14 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1956, 14.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1957, 14.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1958, 14.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1959, 15.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1960, 15.4 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1961, 15.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1962, 16.4 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1963, 17.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1964, 19.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1965, 20.7 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1966, 22.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1967, 23.7 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1968, 26.1 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1969, 27.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1970, 28.2 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1971, 29.9 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1972, 33.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1973, 38 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1974, 40.9 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1975, 42.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1976, 47.2 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1977, 53.4 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1978, 59 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1979, 65.3 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1980, 67.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1981, 71.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1982, 71.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1983, 79.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1984, 88.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1985, 94.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1986, 103.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1987, 109.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1988, 115.2 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1989, 121.4 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1990, 120.9 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1991, 118.8 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1992, 124.3 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1993, 131.4 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1994, 140.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1995, 146.7 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1996, 153.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1997, 160.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1998, 173.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "1999, 191.2 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2000, 208.1 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2001, 214.9 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2002, 225.9 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2003, 235.2 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2004, 254.3 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2005, 271.3 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2006, 283.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2007, 283.5 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2008, 268.7 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2009, 244.3 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2010, 250.4 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2011, 260.7 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2012, 271.4 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2013, 281.6 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2014, 292.1 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    },
+    {
+      "label": "2015, 305.1 Billions of Dollars",
+      "series": "Personal consumption expenditures: Durable goods: Furnishings and durable household equipment Vintage: 2016-07-29 series with 87 points"
+    }
+  ]
+}

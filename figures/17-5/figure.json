@@ -8,48 +8,160 @@
   "year_range": "1929-2016",
   "source_type_guess": "economic_historical_dataset",
   "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "current_owner": "codex_direct",
+  "scientific_status": "partial_match",
+  "execution_status": "processed",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "discrepancy_analysis",
+  "next_action": "Recover final author basket/workbook or later archived HumanProgress versions; resolve small later-level differences and 2016 title/2015 archive endpoint.",
+  "notes": "2016 BEA components exactly cross-check archived HP baseline; broad energy added as explicit inference. Revised continuation to 2025; no plotted-value digitization.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "HumanProgress dataset 1937, adapted from Mark Perry, using Bureau of Economic Analysis data.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "basis": "Original institutional vintage recovered and archived baseline cross-checked, but exact final author adaptation and small visual discrepancies remain.",
     "previous_registry_status": "not_started"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
+    "status": "inspected",
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_17_5.png",
+        "sha256": "2fa202c8b5b676cce13d53737fd30c97a8719efd45390a51e2aa5498d42d8679"
+      },
+      {
+        "path": "figures/17-5/plots/book_period/figure_17_5_book_period.png",
+        "sha256": "acaffc73176ded8ab89cf42958c61e440c47f8a40dc19dfdbb1e1280607d4841"
+      },
+      {
+        "path": "figures/17-5/plots/extended/figure_17_5_extended.png",
+        "sha256": "ca40c194916d9fd6daa0f041dbbcf3d926a5808e94d1144861d44b308112a96d"
+      },
+      {
+        "path": "figures/17-5/plots/comparisons/figure_17_5_book_period_review.png",
+        "sha256": "bcbae6fa15026c7adaa4c90e6c17152fbf45239318571994094bcfdec2824831"
+      },
+      {
+        "path": "figures/17-5/plots/comparisons/figure_17_5_extended_review.png",
+        "sha256": "77aa9e41f2ba3bd8909dc0ae038628ed29e539b5938062efac9cd680c76753a5"
+      },
+      {
+        "path": "figures/17-5/plots/diagnostics/basket_and_vintage.png",
+        "sha256": "1b3018dbce3924b82aae46f160135144b8dfc1ba6a373aa657fd382e4d48a271"
+      }
+    ],
+    "issues": [
+      "Exact broad energy adaptation inferred, not proven.",
+      "Small later-period differences; book title ends 2016 but cited archive ends 2015."
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "comparable_successor",
+    "label": "Revised BEA basket through 2025; dotted overlap, dashed later years",
+    "notes": "2026-vintage components use same defined basket, with visible 2005-2015 overlap. Historical source revisions are not silently spliced."
   },
   "artifacts": {
     "metadata": {
       "path": "figures/17-5/figure.json",
       "self": true
     },
+    "provenance": {
+      "path": "figures/17-5/provenance/provenance.md",
+      "sha256": "d07ae79ccb2e1794974866031fa01166e80d1d0c9bf2f0b31405df2c0f20800b"
+    },
+    "caption": {
+      "path": "figures/17-5/captions/caption.txt",
+      "sha256": "c48c41a56f6dce68fe3ba708cf34545b14b4189a8e4c9578c4b7d78e08f49f6b"
+    },
+    "source_log": {
+      "path": "figures/17-5/source_logs/source_log.md",
+      "sha256": "fb0e10507593ba8ac0552dfa9bd9f7e1a68acb43576e859d688ffbd7063e485b"
+    },
+    "search_log": {
+      "path": "figures/17-5/search_iterations/search_iterations.md",
+      "sha256": "4ed3b7885afc4b484812d13533131ef88ec1e232e8b3e19253e29eece5164242"
+    },
+    "download_log": {
+      "path": "figures/17-5/source_logs/downloads.json",
+      "sha256": "bac9b4bae31c04ea9ef30b03a049c6bce3fdeea4c5589a55fa3aa874e3a6b367"
+    },
+    "anomaly_review": {
+      "path": "figures/17-5/anomaly_reviews/anomaly_review.md",
+      "sha256": "5bf5322627dbb6ea129079c47c5bf61d92d39b75b18a3924f828e2d521af1c21"
+    },
+    "discrepancy_log": {
+      "path": "figures/17-5/discrepancy_logs/discrepancy_log.md",
+      "sha256": "54d0b596ec86f45025bf4888a753c6b02bb82c04c0497f111a8bc62d6d00521b"
+    },
+    "review_checklist": {
+      "path": "figures/17-5/review_checklist.md",
+      "sha256": "6f57fcea7bb73185afd1bc65ed0dd7b954c609386ddf5790d77f21c84822e9ea"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/17-5/plots/book_period/figure_17_5_book_period.png",
+      "sha256": "acaffc73176ded8ab89cf42958c61e440c47f8a40dc19dfdbb1e1280607d4841"
+    },
+    "extended_reconstruction": {
+      "path": "figures/17-5/plots/extended/figure_17_5_extended.png",
+      "sha256": "ca40c194916d9fd6daa0f041dbbcf3d926a5808e94d1144861d44b308112a96d"
+    },
+    "diagnostic_plot": {
+      "path": "figures/17-5/plots/diagnostics/basket_and_vintage.png",
+      "sha256": "1b3018dbce3924b82aae46f160135144b8dfc1ba6a373aa657fd382e4d48a271"
+    },
+    "book_period_clean": {
+      "path": "figures/17-5/data/clean/figure_17_5_book_period.csv",
+      "sha256": "07b9577bb298f944fe0bca54f0b3a30301f0f36512d9f2fe36d8a3484b1e567c"
+    },
+    "extended_clean": {
+      "path": "figures/17-5/data/clean/figure_17_5_revised_successor.csv",
+      "sha256": "3646942c02583e4fc73f2ce9db590e8df49e7a07043a129374ede50a3e25e317"
+    },
+    "diagnostic_clean": {
+      "path": "figures/17-5/data/clean/figure_17_5_diagnostic.csv",
+      "sha256": "1cb12565d0ddad7115019b1454e55d388a3ced82c3c99d90379580eb9739117b"
+    },
+    "components_clean": {
+      "path": "figures/17-5/data/clean/figure_17_5_components.csv",
+      "sha256": "e9e199f29ae8e15809b7d8d0b2c92d377f7f05e0203ceb12379832bfb0f6e943"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_17_5.py",
+      "sha256": "c4eb984b3bd586c30c768933c616e9ff02b36d29e08000967f04415227a32b65"
+    },
+    "source_parser": {
+      "path": "scripts/alfred_labels.py",
+      "sha256": "c3b5cb8e69119ab798db91c05cca9c05e020004bfd727046e1afffeb44ba473e"
+    },
+    "lineage": {
+      "path": "figures/17-5/lineage/lineage.json",
+      "sha256": "faed1d1b0419e3b5c1b0da50fb6188fdb138f8a6f6018a069e9089d6277a00d0"
+    },
+    "lineage_csv": {
+      "path": "figures/17-5/lineage/lineage.csv",
+      "sha256": "c77e3fe29cd99963d62bcd3900c31862306bc4f9ff8801036346cc3803a3110e"
+    },
     "original_reference": {
       "path": "references/figures/figure_17_5.png",
       "sha256": "2fa202c8b5b676cce13d53737fd30c97a8719efd45390a51e2aa5498d42d8679"
+    },
+    "book_period_comparison": {
+      "path": "figures/17-5/plots/comparisons/figure_17_5_book_period_review.png",
+      "sha256": "bcbae6fa15026c7adaa4c90e6c17152fbf45239318571994094bcfdec2824831"
+    },
+    "extended_comparison": {
+      "path": "figures/17-5/plots/comparisons/figure_17_5_extended_review.png",
+      "sha256": "77aa9e41f2ba3bd8909dc0ae038628ed29e539b5938062efac9cd680c76753a5"
     }
   },
   "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "book_page": "Supplemental Graphics PDF p35, upper panel",
+    "claim_summary": "A defined necessities basket takes a smaller share of aggregate US disposable income than in 1929.",
+    "original_dataset": "HumanProgress 1937 September 2016; BEA NIPA July/August 2016 releases",
+    "dataset_url": "https://fred.stlouisfed.org/release/tables?rid=53&eid=44183#snid=44219",
+    "archive_url": "https://web.archive.org/web/20170117185627id_/http://humanprogress.org/static/1937",
+    "download_date": "2026-09-09",
+    "confidence_score": "Medium overall; high baseline/source fidelity; exact author basket unresolved"
   },
   "reference": {
     "figure_id": "17-5",
@@ -79,7 +191,7 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 17-5: Spending on necessities, US, 1929-2016",
     "source_note_ocr": "HumanProgress, http://humanprogress.org/static/1937, adapted from a graph by Mark Perry, using data from the Bureau of Economic Analysis, http://www.bea.gov/iTable/iTable.cfm?ReqID=9& step=1#reqid=9&step=1&isuri=1. Proportion of disposable income spent on food at home, cars, clothing, household furnishings, housing, utilities, and gasoline. Data from 1941 to 1946 are omitted because they are distorted by rationing and soldiers’ salaries during World War II.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "visually_confirmed_against_original_pdf",
+    "visual_review": "full_resolution_original_inspected_2026-09-09"
   }
 }

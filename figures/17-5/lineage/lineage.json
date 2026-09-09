@@ -1,0 +1,31 @@
+{
+  "figure_id": "17-5",
+  "book_citation": "HumanProgress 1937, Mark Perry, BEA",
+  "script": "scripts/reconstruct_17_5.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": ["figures/17-5/data/candidates/humanprogress_2017_archive.html", "figures/17-5/data/raw/alfred_food_labels.json", "figures/17-5/data/raw/alfred_vehicles_labels.json", "figures/17-5/data/raw/alfred_furnishings_labels.json", "figures/17-5/data/raw/alfred_clothing_labels.json", "figures/17-5/data/raw/alfred_housing_labels.json", "figures/17-5/data/raw/alfred_energy_labels.json", "figures/17-5/data/raw/alfred_income_labels.json"],
+      "selection": "2016-07-29 observations 1929-2015; archive baseline cross-check",
+      "transformation": "100 * sum of six expenditure components / income; retain all years, mask 1941-1946 only when plotting; no inflation adjustment or pixel digitization",
+      "clean": "figures/17-5/data/clean/figure_17_5_book_period.csv",
+      "plot": "figures/17-5/plots/book_period/figure_17_5_book_period.png"
+    },
+    {
+      "role": "revised_successor",
+      "raw_inputs": ["figures/17-5/data/raw/alfred_food_labels.json", "figures/17-5/data/raw/alfred_vehicles_labels.json", "figures/17-5/data/raw/alfred_furnishings_labels.json", "figures/17-5/data/raw/alfred_clothing_labels.json", "figures/17-5/data/raw/alfred_housing_labels.json", "figures/17-5/data/raw/alfred_energy_labels.json", "figures/17-5/data/raw/alfred_income_labels.json"],
+      "selection": "2026-04-09 expenditure / 2026-05-28 income, 1929-2025; plot 2005-2025 over frozen 2016 book line",
+      "transformation": "same defined basket ratio; dotted 2005-2015 overlap, dashed 2016-2025 with revised 2015 anchor; no forced join",
+      "clean": "figures/17-5/data/clean/figure_17_5_revised_successor.csv",
+      "plot": "figures/17-5/plots/extended/figure_17_5_extended.png"
+    },
+    {
+      "role": "basket_vintage_diagnostic",
+      "raw_inputs": ["figures/17-5/data/raw/alfred_food_labels.json", "figures/17-5/data/raw/alfred_vehicles_labels.json", "figures/17-5/data/raw/alfred_furnishings_labels.json", "figures/17-5/data/raw/alfred_clothing_labels.json", "figures/17-5/data/raw/alfred_housing_labels.json", "figures/17-5/data/raw/alfred_energy_labels.json", "figures/17-5/data/raw/alfred_income_labels.json", "figures/17-5/data/raw/alfred_motor_fuels_labels.json"],
+      "selection": "Both vintages; common years 1929-2015; motor fuels historical vintage 2016-08-03",
+      "transformation": "Compare no energy, motor fuels only and broad energy; compare 2026 minus 2016 ratio in percentage points",
+      "clean": "figures/17-5/data/clean/figure_17_5_diagnostic.csv",
+      "plot": "figures/17-5/plots/diagnostics/basket_and_vintage.png"
+    }
+  ]
+}

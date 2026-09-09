@@ -43,8 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 35 |
-| partial_match | 14 |
+| not_started | 34 |
+| partial_match | 15 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 7 |
@@ -119,7 +119,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 17-2 | Retirement, US, 1880-2010 | partial_match | processed | incomplete |
 | 17-3 | Utilities, appliances, and housework, US, 1900-2015 | not_started | not_started | incomplete |
 | 17-4 | Cost of light, England, 1300-2006 | verified_reproduction | processed | not_reviewed |
-| 17-5 | Spending on necessities, US, 1929-2016 | not_started | not_started | incomplete |
+| 17-5 | Spending on necessities, US, 1929-2016 | partial_match | processed | incomplete |
 | 17-6 | Leisure time, US, 1965-2015 | not_started | not_started | incomplete |
 | 17-7 | Cost of air travel, US, 1979-2015 | needs_targeted_source_recovery | blocked | incomplete |
 | 17-8 | International tourism, 1995-2015 | partial_match | processed | incomplete |
@@ -823,6 +823,34 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 - Extended comparison: [figures/17-4/plots/comparisons/figure_17_4_extended_review.png](figures/17-4/plots/comparisons/figure_17_4_extended_review.png)
 - Lineage: [figures/17-4/lineage/lineage.json](figures/17-4/lineage/lineage.json)
 - Lineage csv: [figures/17-4/lineage/lineage.csv](figures/17-4/lineage/lineage.csv)
+
+### Figure 17-5 - Spending on necessities, US, 1929-2016
+
+Status: `partial_match`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/17-5/figure.json](figures/17-5/figure.json)
+- Provenance: [figures/17-5/provenance/provenance.md](figures/17-5/provenance/provenance.md)
+- Caption: [figures/17-5/captions/caption.txt](figures/17-5/captions/caption.txt)
+- Source log: [figures/17-5/source_logs/source_log.md](figures/17-5/source_logs/source_log.md)
+- Search log: [figures/17-5/search_iterations/search_iterations.md](figures/17-5/search_iterations/search_iterations.md)
+- Download log: [figures/17-5/source_logs/downloads.json](figures/17-5/source_logs/downloads.json)
+- Anomaly review: [figures/17-5/anomaly_reviews/anomaly_review.md](figures/17-5/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/17-5/discrepancy_logs/discrepancy_log.md](figures/17-5/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/17-5/review_checklist.md](figures/17-5/review_checklist.md)
+- Book period reconstruction: [figures/17-5/plots/book_period/figure_17_5_book_period.png](figures/17-5/plots/book_period/figure_17_5_book_period.png)
+- Extended reconstruction: [figures/17-5/plots/extended/figure_17_5_extended.png](figures/17-5/plots/extended/figure_17_5_extended.png)
+- Diagnostic plot: [figures/17-5/plots/diagnostics/basket_and_vintage.png](figures/17-5/plots/diagnostics/basket_and_vintage.png)
+- Book period clean: [figures/17-5/data/clean/figure_17_5_book_period.csv](figures/17-5/data/clean/figure_17_5_book_period.csv)
+- Extended clean: [figures/17-5/data/clean/figure_17_5_revised_successor.csv](figures/17-5/data/clean/figure_17_5_revised_successor.csv)
+- Diagnostic clean: [figures/17-5/data/clean/figure_17_5_diagnostic.csv](figures/17-5/data/clean/figure_17_5_diagnostic.csv)
+- Components clean: [figures/17-5/data/clean/figure_17_5_components.csv](figures/17-5/data/clean/figure_17_5_components.csv)
+- Reconstruction script: [scripts/reconstruct_17_5.py](scripts/reconstruct_17_5.py)
+- Source parser: [scripts/alfred_labels.py](scripts/alfred_labels.py)
+- Lineage: [figures/17-5/lineage/lineage.json](figures/17-5/lineage/lineage.json)
+- Lineage csv: [figures/17-5/lineage/lineage.csv](figures/17-5/lineage/lineage.csv)
+- Original reference: [references/figures/figure_17_5.png](references/figures/figure_17_5.png)
+- Book period comparison: [figures/17-5/plots/comparisons/figure_17_5_book_period_review.png](figures/17-5/plots/comparisons/figure_17_5_book_period_review.png)
+- Extended comparison: [figures/17-5/plots/comparisons/figure_17_5_extended_review.png](figures/17-5/plots/comparisons/figure_17_5_extended_review.png)
 
 ### Figure 17-7 - Cost of air travel, US, 1979-2015
 

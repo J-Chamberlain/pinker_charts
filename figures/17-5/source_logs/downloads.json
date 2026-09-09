@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://web.archive.org/web/20170101000000id_/http://humanprogress.org/static/1937",
+    "path": "figures/17-5/data/candidates/humanprogress_2017_archive.html",
+    "retrieved_at": "2026-09-09T23:35:23.862032+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170117185627id_/http://humanprogress.org/static/1937",
+    "content_type": "text/html; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "4fe49afb58c05299c652928fa3ebd26e4938a4c6543cb5813d8be7c3fd6a995e",
+    "bytes": 145596
+  },
+  {
+    "url": "https://fred.stlouisfed.org/release/tables?eid=44183&rid=53",
+    "path": "figures/17-5/data/candidates/fred_table_245.html",
+    "retrieved_at": "2026-09-09T23:35:45.734393+00:00",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=90)"
+  },
+  {
+    "url": "https://apps.bea.gov/national/nipaweb/DownSS2.asp",
+    "path": "figures/17-5/data/candidates/bea_download_page.html",
+    "retrieved_at": "2026-09-09T23:36:27.995374+00:00",
+    "http_status": 403,
+    "final_url": "https://apps.bea.gov/national/nipaweb/DownSS2.asp",
+    "content_type": null,
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://apps.bea.gov/national/nipaweb/DownSS2.asp"
+  },
+  {
+    "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGOERC1A027NBEA&vintage_date=2016-09-06",
+    "path": "figures/17-5/data/raw/gasoline_other_energy_2016.csv",
+    "retrieved_at": "2026-09-09T23:36:20.421335+00:00",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='alfred.stlouisfed.org', port=443): Read timed out. (read timeout=90)"
+  },
+  {
+    "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=A067RC1A027NBEA&vintage_date=2016-09-06",
+    "path": "figures/17-5/data/raw/disposable_income_2016.csv",
+    "retrieved_at": "2026-09-09T23:37:50.564857+00:00",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='alfred.stlouisfed.org', port=443): Read timed out. (read timeout=90)"
+  }
+]

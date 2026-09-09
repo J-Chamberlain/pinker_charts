@@ -1176,16 +1176,16 @@
     "title": "Spending on necessities, US, 1929-2016",
     "page": "",
     "year_range": "1929-2016",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "discrepancy_analysis",
     "source_type_guess": "economic_historical_dataset",
     "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-    "execution_status": "not_started",
+    "current_owner": "codex_direct",
+    "next_action": "Recover final author basket/workbook or later archived HumanProgress versions; resolve small later-level differences and 2016 title/2015 archive endpoint.",
+    "notes": "2016 BEA components exactly cross-check archived HP baseline; broad energy added as explicit inference. Revised continuation to 2025; no plotted-value digitization.",
+    "execution_status": "processed",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "17-6",

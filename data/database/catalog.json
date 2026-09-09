@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "248967010bdd86c580d22f2f36a5f2eafa9c50d9ce5d914b669fe6444bb4b431",
+  "snapshot_id": "58b29aa135e34d7674dc076ef19ec132cfd50e94f82fbeb8d4a460817b477fd5",
   "figures": 75,
-  "saved_files": 394,
-  "clean_tables": 76,
-  "clean_rows": 37308,
+  "saved_files": 408,
+  "clean_tables": 80,
+  "clean_rows": 39051,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -538,14 +538,14 @@
     {
       "figure_id": "17-5",
       "title": "Spending on necessities, US, 1929-2016",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 14,
+      "raw_files": 9,
+      "clean_tables": 4,
+      "canonical_declared_clean_tables": 4,
+      "clean_rows": 1743,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "17-6",
