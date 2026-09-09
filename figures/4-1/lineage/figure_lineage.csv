@@ -1,4 +1,9 @@
-figure_id,artifact,source,status
-4-1,supplemental_reference,references/enlightenment_now_supplemental_graphics.pdf page 2,reference_only
-4-1,candidate_visual_source,GDELT mirror of Leetaru 2011 Figure 10 and Figure 11 PNGs,evidence_only_not_data
-4-1,status_panel,no accepted reconstruction data,manual_review_needed
+stage,value
+Book Figure,"Figure 4-1: Tone of the news, 1945-2010"
+Book Citation,"Leetaru 2011"
+Original Publication,"Leetaru 2011, First Monday 16(9), doi:10.5210/fm.v16i9.3663"
+Input Corpora,"Licensed NYT 1945-2005 and SWB 1979-July 2010 full text"
+Derived Dataset,"Monthly standardized tone aggregates; unpublished and not recovered"
+Recovered Evidence,"Leetaru Figures 10 and 11 via GDELT high-resolution mirror"
+Reconstruction,"None"
+Extension,"None; current GDELT rejected as non-comparable"

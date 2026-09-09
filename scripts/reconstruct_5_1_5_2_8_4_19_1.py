@@ -16,7 +16,6 @@ from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageOps
 ROOT = Path(__file__).resolve().parents[1]
 OWID = Path("/Users/alfred/Documents/MIsc/enlightenment_now_poc/data/repositories/owid-datasets/datasets")
 TMP_KINDLE = ROOT / "tmp/kindle_batch"
-TMP_PDF = ROOT / "tmp/track_a_pdf_pages"
 TODAY = date.today().isoformat()
 
 
@@ -32,11 +31,11 @@ FIGURES = {
     "5-1": {
         "title": "Life expectancy, 1771-2015",
         "chapter": "5",
-        "page": "Supplemental PDF page 2; Kindle page previously inspected",
+        "page": "Kindle page 54 search result",
         "source": "Our World in Data, Roser 2016n, based on Riley 2005 before 2000 and WHO/World Bank after.",
         "claim": "Average life expectancy increased across world regions from the Enlightenment era to 2015.",
-        "kindle": TMP_PDF / "page-02.png",
-        "crop": (70, 845, 1005, 1535),
+        "kindle": TMP_KINDLE / "page_Figure_5_1.png",
+        "crop": (970, 100, 1810, 655),
         "status": "verified_reproduction",
         "confidence": 0.86,
         "validation": "good",
@@ -55,16 +54,16 @@ FIGURES = {
     "5-2": {
         "title": "Child mortality, 1751-2013",
         "chapter": "5",
-        "page": "Supplemental PDF page 3; Kindle page previously inspected",
+        "page": "Kindle page 56 search result",
         "source": "Our World in Data, Roser 2016a, based on UN Child Mortality Estimates and the Human Mortality Database.",
         "claim": "Child mortality declined dramatically in representative countries.",
-        "kindle": TMP_PDF / "page-03.png",
-        "crop": (115, 130, 1005, 805),
+        "kindle": TMP_KINDLE / "page_5_2_full.png",
+        "crop": (970, 145, 1645, 620),
         "status": "partial_match",
         "confidence": 0.72,
         "validation": "acceptable",
-        "notes": "Remediated to use the current OWID selected child-mortality grapher directly in percent units. This materially improves the visual match, but the exact Roser 2016a UN/HMD vintage remains unrecovered.",
-        "caption_extra": "The previous reconstruction used a Gapminder proxy and had a successor-data unit error; this version uses the current OWID selected child-mortality series in percent units. It remains a partial match because the exact book-era Roser 2016a assembly is not yet recovered.",
+        "notes": "A contemporaneous CME Info 2016 component was recovered, but the exact Roser 2016a UN/HMD assembly remains unavailable. The dedicated script plots current OWID only as an explicitly clipped successor proxy and adds no extension.",
+        "caption_extra": "Documented partial match only. No post-2013 extension is plotted because comparability between the current Gapminder/UN-IGME series and the cited 2016 UN/HMD assembly is not established.",
         "visible_differences": [
             "The revised curves better align with the Kindle scale and starting levels than the prior Gapminder proxy.",
             "Some country trajectories and endpoint label positions still differ visibly from the book.",
@@ -73,7 +72,7 @@ FIGURES = {
         "cause_assessment": "The remaining mismatch is most likely source-vintage and country-series construction, with minor styling/layout differences. The unit error in the successor series was corrected.",
         "outstanding_risks": "The exact Roser 2016a UN Child Mortality/Human Mortality Database assembled file or archival OWID grapher remains the blocker for verification.",
         "next_action": "Continue source recovery for the exact Roser 2016a/UN-HMD assembly before promoting status.",
-        "extension_confidence": "medium-low; current OWID successor extension, not exact book vintage",
+        "extension_confidence": "not plotted; comparability unverified",
     },
     "8-4": {
         "title": "Extreme poverty (proportion), 1820-2015",
@@ -107,19 +106,19 @@ FIGURES = {
         "kindle": ROOT / "tmp/kindle_remediation/page_19_1_attempt1.png",
         "crop": (974, 146, 1640, 616),
         "status": "partial_match",
-        "confidence": 0.62,
-        "validation": "poor",
-        "notes": "Actual Kindle chart-page capture is now present. The reconstruction remains partial because it uses a current OWID successor line series rather than the cited HumanProgress/FAS 2016 table and does not reproduce the book's stacked-area presentation.",
-        "caption_extra": "The Kindle chart image is now included in the side-by-side comparison. The recreated chart is a current OWID successor line reconstruction and should not be treated as visual validation of the original stacked-area figure.",
+        "confidence": 0.82,
+        "validation": "good with documented minor-series vintage limitation",
+        "notes": "The archived HumanProgress static 2927 payload was recovered for the United States and USSR/Russia (138 observations, 1945-2015) and is used without numeric alteration. The six small-arsenal layers use the current FAS-derived OWID successor because the archived HumanProgress payload contains only the two named powers. Status remains partial_match because the exact 2016 minor-country series vintage was not exposed as a table.",
+        "caption_extra": "The stacked-area reconstruction uses the recovered HumanProgress values exactly for the United States and USSR/Russia. France, China, the UK, Pakistan, India, and Israel are supplied by the current FAS-derived OWID successor; pre-arsenal years are structural zeros. No post-2015 extension is plotted because vintage continuity has not been established.",
         "visible_differences": [
-            "The Kindle figure is a stacked-area chart while the current reconstruction is a three-line chart.",
-            "The recreated series captures the broad rise and post-Cold-War decline but does not match the original visual encoding.",
-            "The cited HumanProgress/FAS 2016 table remains unrecovered.",
+            "The reconstruction now matches the Kindle stacked-area encoding, 1945-2015 x-range, and 0-70,000 y-range.",
+            "The United States and USSR/Russia silhouettes and peaks are sourced exactly from archived HumanProgress static 2927.",
+            "The very thin six-country cap uses a later FAS-derived successor vintage, so its exact small undulations may differ from the book.",
         ],
-        "cause_assessment": "The major discrepancy is caused by both source and chart-type mismatch: the source is a current OWID successor, and the transformation does not recreate the stacked-area composition.",
-        "outstanding_risks": "Recovering the HumanProgress static 2927/FAS 2016 table is required before the figure can move beyond partial_match.",
-        "next_action": "Recover cited HumanProgress/FAS table or archival copy, then reconstruct as stacked area before visual validation can pass.",
-        "extension_confidence": "low; successor OWID extension only",
+        "cause_assessment": "The former chart-type and principal-series mismatch is resolved. Residual uncertainty is confined to the six small-country layers because the archived 2927 payload contains only United States and USSR/Russia observations.",
+        "outstanding_risks": "An exact downloadable 2016 vintage for France, China, the UK, Pakistan, India, and Israel would be required to promote the hybrid reconstruction to verified_reproduction.",
+        "next_action": "Seek a machine-readable 2016 FAS all-country history; otherwise retain partial_match with the recovered principal series and disclosed successor cap.",
+        "extension_confidence": "none; no extension plotted",
     },
 }
 
@@ -213,7 +212,7 @@ def side_by_side(reference: Path, recreated: Path, output: Path, title: str) -> 
     left_x = margin
     right_x = margin + panel_w + gap
     label_y = title_h + 8
-    draw.text((left_x + panel_w // 2, label_y), "PDF chart reference", fill="black", anchor="ma", font=label_font)
+    draw.text((left_x + panel_w // 2, label_y), "Kindle reference", fill="black", anchor="ma", font=label_font)
     draw.text((right_x + panel_w // 2, label_y), "Recreated", fill="black", anchor="ma", font=label_font)
     paste_fit(ref, left_x, title_h + header_h)
     paste_fit(rec, right_x, title_h + header_h)
@@ -278,54 +277,11 @@ def plot_5_1():
 
 
 def plot_5_2():
-    fig_id = "5-2"
-    b = base(fig_id)
-    current_url = "https://ourworldindata.org/grapher/child-mortality.csv"
-    current = b / "data/raw/owid_current_child_mortality.csv"
-    download_if_needed(current_url, current)
-    countries = ["Sweden", "Canada", "Chile", "South Korea", "Ethiopia"]
-    cur = pd.read_csv(current)
-    cval = [c for c in cur.columns if c not in ["Entity", "Code", "Year"]][0]
-    cur = cur.rename(columns={cval: "under5_mortality_percent"})
-    cur = cur[cur["Entity"].isin(countries)]
-    # The current OWID grapher reports selected under-five mortality as a
-    # percentage, not deaths per 1,000. The previous reconstruction divided this
-    # successor data by 10 during extension, which was a unit error.
-    book = cur[cur["Year"].between(1751, 2013)].copy()
-    book.to_csv(b / "data/clean/figure_5_2_book_period_clean.csv", index=False)
-    cur.to_csv(b / "data/clean/figure_5_2_extended_clean.csv", index=False)
-    colors = {"Sweden": "black", "Canada": "0.45", "Chile": "0.55", "South Korea": "0.65", "Ethiopia": "0.86"}
-    book_start = {"Sweden": 1751, "Canada": 1920, "Chile": 1960, "South Korea": 1950, "Ethiopia": 1960}
+    # Keep the legacy batch entry point reproducible without duplicating the
+    # source-sensitive Figure 5-2 logic here.
+    from reconstruct_figure_5_2 import main
 
-    def draw(out, extended=False):
-        fig, ax = plt.subplots(figsize=(8.3, 5.1), dpi=180)
-        for ent in countries:
-            sub = book[(book["Entity"] == ent) & (book["Year"] >= book_start[ent])].sort_values("Year")
-            ax.plot(sub["Year"], sub["under5_mortality_percent"], color=colors[ent], linewidth=2.0 if ent != "Sweden" else 2.6)
-            if extended:
-                ext = cur[(cur["Entity"] == ent) & (cur["Year"] > 2013)].sort_values("Year")
-                if len(ext):
-                    ax.plot(ext["Year"], ext["under5_mortality_percent"], color=colors[ent], linewidth=1.8, linestyle="--")
-            if len(sub):
-                ax.text(sub["Year"].iloc[-1] - 42, sub["under5_mortality_percent"].iloc[-1] + 2, ent, fontsize=9, color=colors[ent])
-        ax.set_xlim(1750, 2025 if extended else 2020)
-        ax.set_ylim(0, 50)
-        ax.set_ylabel("Percentage of children dying before age 5")
-        ax.set_title("Figure 5-2: Child mortality, 1751-2013", loc="left", fontsize=12)
-        style_axis(ax)
-        note = "Improved proxy: current OWID selected child-mortality grapher; exact Roser 2016a vintage unrecovered."
-        ax.text(0, -0.14, note, transform=ax.transAxes, fontsize=7, va="top")
-        fig.tight_layout()
-        fig.savefig(out, bbox_inches="tight", facecolor="white")
-        plt.close(fig)
-
-    book_plot = b / "plots/book_period/figure_5_2_book_period_reconstruction.png"
-    ext_plot = b / "plots/extended/figure_5_2_extended_reconstruction.png"
-    draw(book_plot, False)
-    draw(ext_plot, True)
-    ref = crop_reference(fig_id)
-    side_by_side(ref, book_plot, b / "plots/comparisons/figure_5_2_book_period_comparison.png", "Figure 5-2 book-period comparison")
-    side_by_side(ref, ext_plot, b / "plots/comparisons/figure_5_2_extended_comparison.png", "Figure 5-2 extended comparison")
+    main()
 
 
 def plot_8_4():
@@ -378,42 +334,76 @@ def plot_8_4():
 def plot_19_1():
     fig_id = "19-1"
     b = base(fig_id)
-    url = "https://ourworldindata.org/grapher/nuclear-warhead-stockpiles.csv"
-    raw = b / "data/raw/owid_current_nuclear_warhead_stockpiles.csv"
-    download_if_needed(url, raw)
-    df = pd.read_csv(raw).rename(columns={"Number of nuclear warheads": "warheads"})
-    keep = ["World", "United States", "Russia"]
-    clean = df[df["Entity"].isin(keep) & df["Year"].between(1945, 2015)].copy()
-    clean.to_csv(b / "data/clean/figure_19_1_book_period_clean.csv", index=False)
-    ext = df[df["Entity"].isin(keep) & df["Year"].between(1945, 2026)].copy()
-    ext.to_csv(b / "data/clean/figure_19_1_extended_clean.csv", index=False)
-    colors = {"World": "black", "United States": "0.45", "Russia": "0.72"}
+    archive_url = "https://web.archive.org/web/20160814144251id_/http://humanprogress.org/static/2927"
+    archive_html = b / "data/raw/humanprogress_static_2927_20160814.html"
+    download_if_needed(archive_url, archive_html)
+    page = archive_html.read_text(encoding="utf-8")
+    marker = "gon.countries="
+    start = page.index(marker) + len(marker)
+    payload, _ = json.JSONDecoder().raw_decode(page[start:])
+    hp = pd.DataFrame(payload["data"]).rename(columns={"country": "Entity", "year": "Year", "value": "warheads"})
+    hp[["Entity", "Year", "warheads", "generated"]].to_csv(
+        b / "data/raw/humanprogress_static_2927_recovered.csv", index=False
+    )
 
-    def draw(data, out, extended=False):
+    owid_raw = b / "data/raw/owid_current_nuclear_warhead_stockpiles.csv"
+    download_if_needed("https://ourworldindata.org/grapher/nuclear-warhead-stockpiles.csv", owid_raw)
+    owid = pd.read_csv(owid_raw).rename(columns={"Number of nuclear warheads": "warheads"})
+    minor = ["France", "China", "United Kingdom", "Pakistan", "India", "Israel"]
+    years = pd.Index(range(1945, 2016), name="Year")
+    wide = hp.pivot(index="Year", columns="Entity", values="warheads").reindex(years).fillna(0)
+    wide = wide.rename(columns={"USSR/Russia": "USSR/Russia"})
+    for ent in minor:
+        s = owid[owid["Entity"].eq(ent) & owid["Year"].between(1945, 2015)].set_index("Year")["warheads"]
+        wide[ent] = s.reindex(years).fillna(0)
+    wide = wide.reset_index()
+    wide["principal_total"] = wide["United States"] + wide["USSR/Russia"]
+    wide["all_eight_total"] = wide[["United States", "USSR/Russia", *minor]].sum(axis=1)
+    wide.to_csv(b / "data/clean/figure_19_1_book_period_clean.csv", index=False)
+    wide.to_csv(b / "data/clean/figure_19_1_extended_clean.csv", index=False)
+
+    order = ["United States", "USSR/Russia", *minor]
+    colors = ["#050505", "#dedede", "#b8b8b8", "#aaa", "#999", "#888", "#777", "#666"]
+
+    def draw(out, extended=False):
         fig, ax = plt.subplots(figsize=(8.3, 5.1), dpi=180)
-        for ent in keep:
-            sub = data[(data["Entity"] == ent) & (data["Year"] <= 2015)].sort_values("Year")
-            ax.plot(sub["Year"], sub["warheads"], color=colors[ent], linewidth=2.6 if ent == "World" else 2.0)
-            if extended:
-                ext_part = data[(data["Entity"] == ent) & (data["Year"] > 2015)].sort_values("Year")
-                ax.plot(ext_part["Year"], ext_part["warheads"], color=colors[ent], linewidth=1.8, linestyle="--")
-            if len(sub):
-                ax.text(sub["Year"].iloc[-1] - 18, sub["warheads"].iloc[-1] + (2500 if ent == "World" else 1000), ent, fontsize=9, color=colors[ent])
-        ax.set_xlim(1945, 2030 if extended else 2018)
-        ax.set_ylim(0, 75000)
-        ax.set_ylabel("Nuclear warheads")
-        ax.set_title("Figure 19-1: Nuclear weapons, 1945-2015", loc="left", fontsize=12)
+        ax.stackplot(wide["Year"], *[wide[c] for c in order], colors=colors, linewidth=0.35, edgecolor="0.45")
+        ax.set_xlim(1945, 2015)
+        ax.set_ylim(0, 70000)
+        ax.set_xticks(range(1945, 2016, 5))
+        ax.set_xticklabels(range(1945, 2016, 5), rotation=45, ha="right")
+        ax.set_yticks(range(0, 70001, 10000))
+        ax.set_yticklabels([f"{v:,}" for v in range(0, 70001, 10000)])
+        ax.text(1970, 6500, "United States", color="white", fontsize=10)
+        ax.text(1971, 32000, "USSR/Russia", color="0.15", fontsize=10)
+        label_x = 2011.6
+        base_2010 = wide.loc[wide["Year"].eq(2010), ["United States", "USSR/Russia"]].sum(axis=1).iloc[0]
+        cumulative = base_2010
+        targets = {}
+        for ent in minor:
+            value = wide.loc[wide["Year"].eq(2010), ent].iloc[0]
+            targets[ent] = cumulative + value / 2
+            cumulative += value
+        label_y = [21000, 18500, 16000, 13500, 11000, 8500]
+        for ent, y in zip(reversed(minor), label_y):
+            ax.annotate(ent.replace("United Kingdom", "UK"), xy=(2010, targets[ent]), xytext=(label_x, y),
+                        fontsize=8, ha="left", va="center",
+                        arrowprops={"arrowstyle": "-", "color": "0.55", "lw": 0.55})
+        ax.set_title("Nuclear weapons, 1945-2015", loc="left", fontsize=12)
         style_axis(ax)
-        note = "Source: current OWID successor series; cited HumanProgress/FAS table has not yet been recovered."
-        ax.text(0, -0.14, note, transform=ax.transAxes, fontsize=7, va="top")
+        note = "Archived HumanProgress 2927: US and USSR/Russia; current FAS-derived OWID: six small-country layers."
+        if extended:
+            note += " No post-2015 extension plotted: vintage comparability is not established."
+            ax.text(0.01, 0.96, "No comparable extension plotted", transform=ax.transAxes, fontsize=8, weight="bold", va="top")
+        ax.text(0, -0.22, note, transform=ax.transAxes, fontsize=7, va="top")
         fig.tight_layout()
         fig.savefig(out, bbox_inches="tight", facecolor="white")
         plt.close(fig)
 
     book_plot = b / "plots/book_period/figure_19_1_book_period_reconstruction.png"
     ext_plot = b / "plots/extended/figure_19_1_extended_reconstruction.png"
-    draw(clean, book_plot, False)
-    draw(ext, ext_plot, True)
+    draw(book_plot, False)
+    draw(ext_plot, True)
     ref = crop_reference(fig_id)
     side_by_side(ref, book_plot, b / "plots/comparisons/figure_19_1_book_period_comparison.png", "Figure 19-1 book-period comparison")
     side_by_side(ref, ext_plot, b / "plots/comparisons/figure_19_1_extended_comparison.png", "Figure 19-1 extended comparison")

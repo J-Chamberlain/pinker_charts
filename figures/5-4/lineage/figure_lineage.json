@@ -1,34 +1,11 @@
-[
-  {
-    "stage": "Book Figure",
-    "value": "Figure 5-4: Life expectancy, UK, 1701-2013"
-  },
-  {
-    "stage": "Book Citation",
-    "value": "Our World in Data, Roser 2016n. Data before 1845 are for England and Wales and come from OECD Clio Infra, van Zanden et al. 2014. Data from 1845 on are for mid-decade years only, and come from the Human Mortality Database."
-  },
-  {
-    "stage": "Supplemental PDF Reference",
-    "value": "figures/5-4/plots/comparisons/supplemental_pdf_reference_figure_5_4.png"
-  },
-  {
-    "stage": "Source Family",
-    "value": "OECD Clio Infra / van Zanden et al. 2014 before 1845; Human Mortality Database England & Wales total population from 1845 on"
-  },
-  {
-    "stage": "Dataset Used",
-    "value": "Partial local OWID/Roser-era files only; exact OWID/Roser 2016n age-specific export remains unrecovered"
-  },
-  {
-    "stage": "Source Audit",
-    "value": "figures/5-4/data/clean/figure_5_4_source_recovery_audit.csv"
-  },
-  {
-    "stage": "Transformation Script",
-    "value": "scripts/reconstruct_5_4_targeted_source_recovery.py"
-  },
-  {
-    "stage": "Generated Plot",
-    "value": "figures/5-4/plots/"
-  }
-]
+{
+  "figure_id": "5-4",
+  "classification": "partial_match",
+  "stages": [
+    {"artifact": "book text", "class": "primary figure text", "limitation": "image unavailable"},
+    {"artifact": "data/raw/owid_clio_infra_life_expectancy_at_birth.csv", "class": "cited-source successor"},
+    {"artifact": "data/raw/ons_expected_age_to_reach_males.csv", "class": "diagnostic proxy, not book data"},
+    {"artifact": "data/clean/figure_5_4_partial_source_recovery.csv", "class": "mixed, row-level status flags"},
+    {"artifact": "plots/book_period/figure_5_4_partial_diagnostic.png", "class": "diagnostic, not reconstruction or extension"}
+  ]
+}

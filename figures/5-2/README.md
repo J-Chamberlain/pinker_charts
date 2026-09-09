@@ -2,13 +2,12 @@
 
 Status: `partial_match`
 
-2026-07-09 source recovery update: the Supplemental Graphics PDF page 3 source
-note and 2016 OWID article were rechecked. The archived article embeds old Chart
-Builder view 58 for the long-run country chart, but the exact dynamic
-`data/config/58` payload was not recovered. OWID Gapminder 2015, selected
-Gapminder 2017, and CME Info/UN IGME candidates are stored under
-`data/candidates/`; they document the source family but do not verify the book
-dataset. See `source_logs/source_recovery_report_2026-07-09.md`.
+This package is a documented successor-proxy approximation, not a recovered
+reproduction. The exact Roser (2016a) chart export assembled from UN child
+mortality estimates and the Human Mortality Database was not found. An
+immutable OWID repository copy of the contemporaneous CME Info (2016) input
+was recovered, but it contains only 1970–2015 and cannot reproduce the full
+chart. See `provenance/provenance.md` and `source_logs/source_log.md`.
 
 ## Canonical Artifacts
 
@@ -21,3 +20,4 @@ dataset. See `source_logs/source_recovery_report_2026-07-09.md`.
 - Provenance: `provenance/provenance.md`
 - Anomaly review: `anomaly_reviews/anomaly_review.md`
 - Metadata: `metadata/metadata.json`
+- Reproduction script: `../../scripts/reconstruct_figure_5_2.py`

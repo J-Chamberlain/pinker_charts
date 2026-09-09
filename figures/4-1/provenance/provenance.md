@@ -1,43 +1,93 @@
-# Figure 4-1 Provenance
+# Provenance - Figure 4-1
 
-## Evidence
+## Status and scope
 
-- Title: Tone of the news, 1945-2010
-- Primary visual/source reference: Supplemental Graphics PDF page 2.
-- Source line: Leetaru 2011. Plotted by month, beginning in January.
-- Visible series: New York Times, 1945-2005, and Summary of World Broadcasts, 1979-2010, plotted monthly in standard deviations.
-- Kindle-specific confirmation: not performed in this executor session; no artifact is named as a Kindle reference.
+Status: `source_unavailable`. This run identified the original analysis and the
+specific reason the numeric source cannot presently be recovered. It did not
+reconstruct, extend, or verify the book figure.
 
-## Source Recovery Result
+## Book evidence
 
-The cited publication is Kalev Leetaru's 2011 First Monday paper, "Culturomics 2.0: Forecasting large-scale human behavior using global news media tone in time and space." The GDELT blog mirrors the original high-resolution Figure 10 and Figure 11 images for the New York Times and Summary of World Broadcasts monthly tone charts. Those files are plot images, not the underlying monthly data.
+The indexed first page of Steven Pinker's *Enlightenment Now: Supplemental
+Graphics* gives:
 
-No inspectable monthly data table for the two series was recovered in this pass or in the 2026-07-09 re-audit. No Pinker or Leetaru plotted values were digitized.
+- title: "Figure 4-1: Tone of the news, 1945-2010";
+- y-axis: "Tone of news coverage (standard deviations)", -3 to 3;
+- x-axis: 1945-2010;
+- series: "New York Times" and "Summary of World Broadcasts";
+- note: "Source: Leetaru 2011. Plotted by month, beginning in January."
 
-## Targeted Recovery Findings
+The same indexed page shows the NYT line beginning in 1945 and ending in 2005,
+and the SWB line beginning in 1979 and ending in 2010. The downloadable PDF was
+not exposed without an account by the available host; therefore this evidence is
+text-indexed rather than a locally stored PDF page. This limitation is explicit
+and prevents claiming a direct Kindle/PDF visual verification.
 
-- First Monday article HTML: Article contains embedded journal JPEGs for Figures 10 and 11 but no supplementary CSV/XLS/ZIP/table link. URLs checked: https://firstmonday.org/ojs/index.php/fm/article/view/3663/3040, https://firstmonday.org/ojs/index.php/fm/article/download/3663/3040?inline=1.
-- First Monday landing metadata: Galley points to fulltext HTML; citation metadata exposes DOI 10.5210/fm.v16i9.3663 and no data supplement. URLs checked: https://firstmonday.org/ojs/index.php/fm/article/view/3663.
-- GDELT high-resolution mirror: Mirror states original high-resolution figures were externally hosted and mirrors PNG files only; Figure 10 and Figure 11 are images, not data. URLs checked: https://blog.gdeltproject.org/culturomics-2-0-high-resolution-figures/.
-- GDELT public data host exact sidecars: PNG files returned 200; candidate CSV/TSV/XLS/XLSX/ZIP/README sidecars returned 404. HTTPS curl failed certificate validation for data.gdeltproject.org. URLs checked: http://data.gdeltproject.org/blog/2011-culturomics-20/figure10.png, http://data.gdeltproject.org/blog/2011-culturomics-20/figure11.png, http://data.gdeltproject.org/blog/2011-culturomics-20/figure10.csv, http://data.gdeltproject.org/blog/2011-culturomics-20/figure11.csv, http://data.gdeltproject.org/blog/2011-culturomics-20/figure10.tsv, http://data.gdeltproject.org/blog/2011-culturomics-20/figure11.tsv, http://data.gdeltproject.org/blog/2011-culturomics-20/figure10.xls, http://data.gdeltproject.org/blog/2011-culturomics-20/figure11.xls, http://data.gdeltproject.org/blog/2011-culturomics-20/figure10.xlsx, http://data.gdeltproject.org/blog/2011-culturomics-20/figure11.xlsx, http://data.gdeltproject.org/blog/2011-culturomics-20/figure10.zip, http://data.gdeltproject.org/blog/2011-culturomics-20/figure11.zip, http://data.gdeltproject.org/blog/2011-culturomics-20/data.zip, http://data.gdeltproject.org/blog/2011-culturomics-20/README.txt.
-- Internet Archive: old Culturomics20 host: Archived index advertises Figures 12-18 media assets only; CDX lists movies/civilization/bin Laden files but no Figure 10/11 tables or data sidecars. URLs checked: https://web.archive.org/web/20111003133001id_/http://contentanalysis.ichass.illinois.edu:80/Culturomics20/, https://web.archive.org/cdx?url=contentanalysis.ichass.illinois.edu/Culturomics20/*&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=urlkey.
-- Internet Archive: First Monday snapshots: Snapshots inspected at 20130730022936, 20140504052209, 20191122035146, and 20250419132206; same HTML/image pattern, no data supplement link. URLs checked: https://web.archive.org/cdx?url=firstmonday.org/ojs/index.php/fm/article/view/3663/3040&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest.
-- Repository and data catalog searches: GitHub unauthenticated code search returned 401 Requires authentication; public web searches found no matching dataset; Dataverse targeted API calls timed out and a broad SWB/tone query returned high-volume irrelevant results. URLs checked: https://api.github.com/search/code, https://dataverse.harvard.edu/api/search.
+Pinker's surrounding discussion, also published as an adapted excerpt in *The
+Guardian*, says that Kalev Leetaru applied sentiment mining to every *New York
+Times* article from 1945-2005 and to translated articles and broadcasts from 130
+countries from 1979-2010. Pinker describes the NYT as becoming more negative
+from the early 1960s into the early 1970s, partially recovering, then worsening
+again in the 2000s; he describes the international archive as becoming gloomier.
 
-## 2026-07-09 Re-Audit
+## Resolved bibliography
 
-- Supplemental Graphics PDF page 2 was re-read with `pdftotext`; the visible source line remains: "Leetaru 2011. Plotted by month, beginning in January." The visible chart combines New York Times and Summary of World Broadcasts tone as standard deviations, with the book title range 1945-2010.
-- Crossref DOI metadata for `10.5210/fm.v16i9.3663` resolves to Leetaru's 2011 First Monday article and lists HTML full-text links only; no related data object or supplementary data relation is exposed. DataCite search for the DOI returned no records.
-- Live GDELT high-resolution page was rechecked. Figures 10 and 11 are listed as PNG links only, with captions matching the New York Times 1945-2005 and Summary of World Broadcasts January 1979-July 2010 monthly tone series.
-- Internet Archive CDX for `contentanalysis.ichass.illinois.edu/Culturomics20/*` returned only the archived index and media assets: bin Laden PNG, civilizations PDF/PNG files, and NYT/SWB movie GIFs. It did not list Figure 10/11 data tables or sidecars.
-- Internet Archive CDX for `data.gdeltproject.org/blog/2011-culturomics-20/*` returned only an archived SWB movie GIF, not Figure 10/11 tables.
-- Authenticated GitHub code search returned no matches for the exact Figure 10 caption, `figure10.png` with `2011-culturomics-20`, `"Summary of World Broadcasts" "Leetaru" "tone"`, or `"Culturomics 2.0" "Leetaru"`.
-- Public web search found Leetaru-authored Forbes articles and later commentary that reuse or discuss the NYT/SWB tone timelines. These are evidence-only plot/commentary sources, not downloadable monthly data and not a comparable successor series for reconstruction.
+Leetaru, Kalev H. 2011. "Culturomics 2.0: Forecasting Large-Scale Human
+Behavior Using Global News Media Tone in Time and Space." *First Monday* 16
+(9). DOI: https://doi.org/10.5210/fm.v16i9.3663.
 
-## Reconstruction
+The publisher article is stored as
+`data/candidates/leetaru_2011_article_legacy.html`. Its Figures 10 and 11 are the
+two component series Pinker combined. GDELT's 2019 mirror states that it hosts
+the original high-resolution figures after the earlier external host disappeared.
+Those files are stored as `leetaru_2011_figure10_nyt.png` and
+`leetaru_2011_figure11_swb.png`.
 
-No reconstruction data file was accepted. The generated comparison images include a Supplemental PDF reference crop and a source-recovery status panel only.
+## Original data and method
 
-## Next Action
+Leetaru identifies the input populations precisely:
 
-Recover the underlying monthly Leetaru 2011 tone data for New York Times and Summary of World Broadcasts, or a reproducible corpus/sentiment extraction matching Leetaru's method. If available, confirm the same source line in Kindle during a separate audit.
+- complete full text of 5.9 million NYT articles, 1 January 1945 through
+  31 December 2005, totaling 2.9 billion words;
+- 3.9 million SWB articles, January 1979 through July 2010; and
+- monthly aggregation, displayed as standard deviations from each series mean.
+
+The article says sentiment mining counted words in precompiled positive and
+negative dictionaries and that the algorithms were adapted from the Carbon
+Capture Report. It also says more than 1,500 dictionary categories were tested,
+but does not identify a fixed final word list, publish code, or provide the
+monthly aggregate values. The article page offers HTML and figures only. The
+2019 GDELT mirror offers original high-resolution images only. Targeted web and
+archive searches found no CSV, spreadsheet, repository, supplement, or machine-
+readable table for Figures 10-11.
+
+Thus the original dataset is identified as two derived monthly series computed
+from the licensed NYT and SWB corpora, but the derived values are unpublished.
+Recomputing them would additionally require the unreleased exact sentiment
+configuration. The stored PNGs are citable primary-source visual evidence, not
+a numeric dataset.
+
+## Archive and successor review
+
+The original `contentanalysis.ichass.illinois.edu/Culturomics20/` figure host is
+no longer live. GDELT restored the author-supplied high-resolution figures at:
+
+- https://blog.gdeltproject.org/culturomics-2-0-high-resolution-figures/
+- https://data.gdeltproject.org/blog/2011-culturomics-20/figure10.png
+- https://data.gdeltproject.org/blog/2011-culturomics-20/figure11.png
+
+Internet Archive wildcard/CDX lookup of the former host returned a service
+error during this run; ordinary indexed archive and web searches found images
+but no data files. Current GDELT event/GKG products are not accepted as a
+successor extension: they use different source collections, coverage rules,
+and tone variables, and do not continue the licensed NYT/SWB monthly series
+under Leetaru's 2011 method.
+
+## Reconstruction decision
+
+No values were digitized from either source plot. That would create approximate
+pixel measurements rather than recovered data and would violate the project's
+data-fidelity rule. Consequently there is no book-period reconstruction, no
+fidelity tolerance claim, and no extension. The source-evidence panel preserves
+the original component plots at their published axes and labels without
+presenting them as a recreated Figure 4-1.

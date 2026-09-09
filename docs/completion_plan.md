@@ -2,7 +2,7 @@
 
 Approved direction: 2026-09-09.
 Plan version: 1.0.
-Current checkpoint: Phase 1, inventory performed; consolidation not completed.
+Current checkpoint: Phase 1, histories imported; canonical state and visual baseline reconciliation in progress.
 
 This is the canonical execution plan approved by the project owner. It records
 the route from the fragmented July project state to a reproducible research
@@ -304,7 +304,7 @@ ledger into the orchestrator repository.
 
 | Phase | State | Evidence or next action |
 | --- | --- | --- |
-| 1. Consolidation | In progress: initial inventory only | Starting Evidence above; reconcile remote main, local production, worker commits, and original references. |
+| 1. Consolidation | In progress: histories imported | [Import evidence](../reports/consolidation/README.md); 83 conflicts resolved on production-loop, nine verified plot packages unchanged; canonical state and baseline validation next. |
 | 2. Consistent state | Not started | Design scientific/execution/publication separation and generated views after reconciliation. |
 | 3. Shared source library | Not started | Existing PDF, bibliography files, and source-adapter notes are inputs, not completed coverage. |
 | 4. Portable reproduction | Not started | Remove observed absolute-path and temporary-file dependencies; verify clean rebuilds. |

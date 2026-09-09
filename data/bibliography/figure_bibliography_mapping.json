@@ -6,7 +6,7 @@
     "bibliography_entries": "Roser, Max. Oil spills / Global number of oil spills from tankers. Our World in Data, 2016.",
     "datasets": "owid_itopf_oil_spills; unctad_seaborne_oil_trade",
     "source_fidelity": "B/C",
-    "initial_estimate": "Exact OWID publication candidate for spill counts; institutional successor only for UNCTAD oil-shipped series.",
+    "initial_estimate": "Exact OWID publication candidate for spill counts; current UNCTAD successor recovered but rejected for the book gray line because it starts in 2000 and fails RMT scale validation.",
     "mapping_status": "partial"
   },
   {
@@ -38,5 +38,15 @@
     "source_fidelity": "B/C",
     "initial_estimate": "LM-WPID source-family dataset recovered; exact Milanovic 2016 plotted summary_data.xls remains unresolved.",
     "mapping_status": "partial"
+  },
+  {
+    "figure_id": "5-3",
+    "figure_title": "Maternal mortality, 1751-2013",
+    "bibliography_keys": "Roser 2016p; Hanson 2010",
+    "bibliography_entries": "Roser, Max and Hannah Ritchie. Maternal Mortality. Our World in Data; Hanson, Claudia. Data on Maternal Mortality. Gapminder Documentation 010, 2010.",
+    "datasets": "owid_522_maternal_mortality; gapminder_gd010",
+    "source_fidelity": "A",
+    "initial_estimate": "Book-era OWID table preserved with embedded 2017 provenance; historical Gapminder workbook independently recovered.",
+    "mapping_status": "resolved"
   }
 ]

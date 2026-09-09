@@ -1,1 +1,11 @@
-Figure 10-5: Oil spills, 1970-2016. The black line shows annual tanker oil spills of at least 7 tonnes from ITOPF/OWID. The gray oil-shipped-by-sea line is digitized from an archived 2016 ITOPF chart image that cites UNCTADStat for total crude oil, petroleum product, and gas loaded; it is not recovered from the original annual UNCTADStat table. No post-2016 extension is plotted because a same-method annual successor series has not been recovered.
+Figure 10-5: Oil spills, 1970-2016. This is a partial reconstruction. The
+black line plots verified OWID/ITOPF tanker oil-spill counts of at least 7
+metric tons for 1970-2016. The book's gray oil-shipped-by-sea line is not
+plotted because the annual 1970-2016 Roser 2016r/ITOPF/UNCTADStat source was
+not recovered. A current UNCTADStat US.SeaborneTrade bulk file was recovered
+and archived in this repository, but it is labeled "From 2000 to 2024" and its
+World cargo 11+12 values differ from UNCTAD Review of Maritime Transport 2020
+selected-year tanker-trade values by about 31-48 percent on overlap, so it is
+not used as a comparable substitute. The extended artifact carries forward only
+the same OWID/ITOPF spill-count series through 2025; no oil-shipping successor
+line is plotted.

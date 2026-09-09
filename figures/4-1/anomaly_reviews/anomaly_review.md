@@ -1,32 +1,42 @@
-# Figure 4-1 Anomaly Review
+# Anomaly and editorial review - Figure 4-1
 
-## Visible Differences
+Status: `source_unavailable`.
 
-- The left side of the comparison is the Supplemental PDF reference crop.
-- The right side is a source-recovery status panel, not a chart or reconstruction.
-- This is intentional because the original monthly data were not recovered.
+## Rapid visual review
 
-## Reviewer Challenge
+The evidence panel is legible and preserves both GDELT-mirrored source figures.
+It intentionally does not mimic Pinker's combined styling, because no recovered
+numeric values support a reconstruction. The source images show the required
+component ranges: NYT 1945-2005 with approximately -3 to 3, and SWB 1979-2010
+with -2.5 to 2. Pinker's indexed supplemental page specifies the combined -3 to
+3 scale and 1945-2010 labeled range.
 
-- Pinker would likely ask why the Leetaru monthly values are not plotted. They were not recovered as data.
-- A data journalist would ask whether the published chart was digitized. It was not.
-- A peer reviewer would require either Leetaru's monthly table or a reproducible corpus extraction before accepting any reconstruction.
-- A skeptical reader would immediately notice the missing recreated line; the status panel and caption explain the blocker.
+## Issue classification
 
-## Editorial Review Gate
+- Critical: no numeric reconstruction and no direct supplemental page image.
+  Both are explicitly documented; the figure remains unavailable, not complete.
+- Major: original monthly data and exact final sentiment configuration are
+  unpublished. No substitute is plotted.
+- Minor: source figures use different y-axis extents and dated Excel styling;
+  these are original-source properties, not recreation defects.
 
-- Critical issues found: missing accepted reconstruction data.
-- Major issues found: no book-period or extended reconstruction.
-- Minor issues found: none beyond the status-panel nature of the artifact.
-- Issues automatically corrected: the figure now has a reference crop, status panels, metadata, source log, provenance, caption, and checksums.
-- Issues remaining: source recovery is still required before reconstruction.
-- 2026-07-09 editorial re-audit: no new data source was recovered; existing status-only visual treatment remains correct.
-- Publication decision: acceptable only as a documented source-recovery-blocked artifact, not as a completed figure.
+## Reviewer challenge
 
-## Confidence
+- Pinker would likely ask whether these are exactly his two inputs: the dates,
+  labels, trends, and citation establish that they are Leetaru Figures 10-11,
+  but the precise editorial transformation cannot be audited without his data.
+- A data journalist would ask for the monthly table: it was not published.
+- A peer reviewer would ask for the dictionary and normalization code: the
+  article provides only a general method and adaptation provenance.
+- A skeptical reader would notice the absence of a recreated chart: this is
+  deliberate, because pixels and a non-comparable successor are not data.
 
-- Overall confidence: low/source-blocked
-- Book reconstruction: not attempted without accepted data
-- Extension: not available
-- Source provenance: citation and candidate visual source-chain evidence recovered; original monthly data unresolved
-- Recommended next action: recover Leetaru's monthly NYT/SWB tone data or a reproducible corpus extraction; do not extend from later GDELT/Forbes imagery without a comparable monthly table and method documentation.
+## Editorial review summary
+
+Critical issues found: two. Major issues found: one. Minor issues found: one.
+Issues corrected: recovered and displayed the two original high-resolution
+component plots; aligned all documentation with the unavailable status; removed
+any implication of reconstruction or extension. Issues remaining: the direct
+book page image, numeric aggregates, and exact method configuration. This is an
+acceptable documented source-recovery outcome, but it is not publication-ready
+as a reproduced figure.

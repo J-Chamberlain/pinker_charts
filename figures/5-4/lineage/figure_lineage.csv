@@ -1,9 +1,6 @@
-stage,value
-Book Figure,"Figure 5-4: Life expectancy, UK, 1701-2013"
-Book Citation,"Our World in Data, Roser 2016n. Data before 1845 are for England and Wales and come from OECD Clio Infra, van Zanden et al. 2014. Data from 1845 on are for mid-decade years only, and come from the Human Mortality Database."
-Supplemental PDF Reference,figures/5-4/plots/comparisons/supplemental_pdf_reference_figure_5_4.png
-Source Family,"OECD Clio Infra / van Zanden et al. 2014 before 1845; Human Mortality Database England & Wales total population from 1845 on"
-Dataset Used,"Partial local OWID/Roser-era files only; exact OWID/Roser 2016n age-specific export remains unrecovered"
-Source Audit,figures/5-4/data/clean/figure_5_4_source_recovery_audit.csv
-Transformation Script,scripts/reconstruct_5_4_targeted_source_recovery.py
-Generated Plot,figures/5-4/plots/
+stage,artifact,classification,notes
+book_evidence,searchable book text,primary figure text,"Title, source note, and narrative anchors recovered; image unavailable"
+raw,owid_clio_infra_life_expectancy_at_birth.csv,cited-source successor,"United Kingdom birth series, 1703-1843 selected"
+raw,ons_expected_age_to_reach_males.csv,diagnostic proxy,"Male decennial expected age; not book data"
+clean,figure_5_4_partial_source_recovery.csv,mixed explicitly flagged,"No interpolation; series_status distinguishes source component from proxy"
+plot,figure_5_4_partial_diagnostic.png,diagnostic,"Not a reconstruction and not an extension"

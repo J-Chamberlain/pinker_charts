@@ -1,0 +1,1085 @@
+{
+  "schema_version": 1,
+  "local_parent": "efca1264944eabab2f733bc399027e22b8df6381",
+  "remote_parent": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+  "merge_base": "6af6613a297a96e4c976dd88897f03ee6cbbb558",
+  "figure_policies": {
+    "4-1": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+    "5-2": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+    "5-3": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+    "5-4": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+    "10-5": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+    "19-1": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial."
+  },
+  "resolutions": [
+    {
+      "path": "reports/consolidation/snapshots/local/PROJECT_STATE.md",
+      "origin": "efca1264944eabab2f733bc399027e22b8df6381",
+      "reason": "Immutable pre-consolidation evidence; scientific claims are historical.",
+      "local_sha256": null,
+      "selected_sha256": "6ead6cfd8c57858972ef667a771668b612814337e28043f4c21ad0d0f6a58f22"
+    },
+    {
+      "path": "reports/consolidation/snapshots/local/data/figure_registry.csv",
+      "origin": "efca1264944eabab2f733bc399027e22b8df6381",
+      "reason": "Immutable pre-consolidation evidence; scientific claims are historical.",
+      "local_sha256": null,
+      "selected_sha256": "65500c6ff44568caf399643c3d680acc514c03a92b54d3c66c2f32380ed1ed71"
+    },
+    {
+      "path": "reports/consolidation/snapshots/local/data/figure_registry.json",
+      "origin": "efca1264944eabab2f733bc399027e22b8df6381",
+      "reason": "Immutable pre-consolidation evidence; scientific claims are historical.",
+      "local_sha256": null,
+      "selected_sha256": "001c8363001c1ee93780b15fd6d8004eef0bdfebd82e7a98e10427e81a0edffe"
+    },
+    {
+      "path": "reports/consolidation/snapshots/local/data/metadata/figure_metadata.csv",
+      "origin": "efca1264944eabab2f733bc399027e22b8df6381",
+      "reason": "Immutable pre-consolidation evidence; scientific claims are historical.",
+      "local_sha256": null,
+      "selected_sha256": "4c46a6fb43e5327e5523175bb925c31981b7d675747e15ac9aa70a199b1d4311"
+    },
+    {
+      "path": "reports/consolidation/snapshots/github_main/PROJECT_STATE.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Immutable pre-consolidation evidence; scientific claims are historical.",
+      "local_sha256": null,
+      "selected_sha256": "af30beb894a29b4e5efd5421197fc914e7664fda979dd9f76507d9deb940b865"
+    },
+    {
+      "path": "reports/consolidation/snapshots/github_main/data/figure_registry.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Immutable pre-consolidation evidence; scientific claims are historical.",
+      "local_sha256": null,
+      "selected_sha256": "18d9b6fcc97826ae24f6968de88e2d105fbbabcc2ee88d6c2a885158179e8fc2"
+    },
+    {
+      "path": "reports/consolidation/snapshots/github_main/data/figure_registry.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Immutable pre-consolidation evidence; scientific claims are historical.",
+      "local_sha256": null,
+      "selected_sha256": "b60e5325920080561792ea0e170a6850aa60e95fa0a393ee0b6b67886777ee75"
+    },
+    {
+      "path": "reports/consolidation/snapshots/github_main/data/metadata/figure_metadata.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Immutable pre-consolidation evidence; scientific claims are historical.",
+      "local_sha256": null,
+      "selected_sha256": "168545fcce56f45c5351b876a0937790f82a6cd6f28b2b01d24556d987696e0c"
+    },
+    {
+      "path": "figures/10-5/README.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "6e6c60f3f62119b4bf56db3737d311c4da64d0175852d4736b6b5495a6d4ce43",
+      "selected_sha256": "706fa14889abdc2e166e43c0698ad93afd2419008c49bf9e36b9eda0cf08056f"
+    },
+    {
+      "path": "figures/10-5/anomaly_reviews/anomaly_review.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "6828e17569103d689f188d8456df8f42a970a7d2fd6a9846acfe9d6bda8557ba",
+      "selected_sha256": "6e39be950046fbd3d6783d77570a53d33e19a5cee3658b514433a7c72067a288"
+    },
+    {
+      "path": "figures/10-5/captions/caption.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "dd5911ff0dd71d6a1a1a4c6ae3b2a1aa048d5c97ee13c1701819ee166820fd76",
+      "selected_sha256": "c576300f4ba78597e0ccdf6963892fd917082d917946cb6781008f96e0ee925a"
+    },
+    {
+      "path": "figures/10-5/checksums/plot_sha256sums.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "24a8a5f1c0c428831e934876a0fc79ef9aeb918e64f05ba304f52dd6b7346b0d",
+      "selected_sha256": "db711df3258ccb4c97e12732e56c99f71e79ace157c61674bbaebceada1a6169"
+    },
+    {
+      "path": "figures/10-5/checksums/sha256sums.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "22ca2917a068edfa4404481871272c04ec657164ffc91fa1296804c6bab3cfce",
+      "selected_sha256": "eba7aceae5b311d547f9de1585933a5583eb20f3d794ad9cae4faf31ee10ffc9"
+    },
+    {
+      "path": "figures/10-5/data/candidates/unctad_current_bulk_vs_rmt_scale_check.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": null,
+      "selected_sha256": "5c1c61eb885a6d8433a1f379986110d4f0fa05b81d058f31ac0e101f0c9709e0"
+    },
+    {
+      "path": "figures/10-5/data/candidates/unctad_us_seaborne_trade_bulk_2000_2024.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": null,
+      "selected_sha256": "a5db84dcdf3591958b5878ca64f87328e33743a2fe76a83f4009d69fd35da5c1"
+    },
+    {
+      "path": "figures/10-5/data/candidates/unctad_us_seaborne_trade_bulk_2000_2024.csv.7z",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": null,
+      "selected_sha256": "f6db1a947966dbd0cc94c776f5da81715760247a78148d085034a27138b05259"
+    },
+    {
+      "path": "figures/10-5/data/candidates/unctad_us_seaborne_trade_bulkfiles_current.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": null,
+      "selected_sha256": "bb4f3ddbcf18af6ee0b6ebf5716807e1984d5a265db3145f11e111317bc2a0fa"
+    },
+    {
+      "path": "figures/10-5/data/candidates/unctad_us_seaborne_trade_metadata_current.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": null,
+      "selected_sha256": "3d71f06cea65769bca16cad2a7d33427cc9492c0d6e2ced239500e23e97a2b0b"
+    },
+    {
+      "path": "figures/10-5/data/candidates/unctad_us_seaborne_trade_title_current.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": null,
+      "selected_sha256": "5ac6a2adaf11e00a6dd13c1cc4789b09a871b180f0ae9aff47ab32ec99b173a1"
+    },
+    {
+      "path": "figures/10-5/data/clean/figure_10_5_current_unctad_bulk_oil_cargo_2000_2024.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": null,
+      "selected_sha256": "9900364dc0baa5eef0182b221035d064467d44e94ac4e0fdcba43e11ee9362f6"
+    },
+    {
+      "path": "figures/10-5/discrepancy_logs/discrepancy_log.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "005b2859e0f06117b31ab7dd1b1c08c99980651f12d0f73b65bab8ff4e25ab1a",
+      "selected_sha256": "ac755f3cc2a1e55f9e6e139c5ab12e5471389e1c3ee0f8f782208a6a4980dc48"
+    },
+    {
+      "path": "figures/10-5/lineage/figure_lineage.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "23e0146aa405956363888d79127a99b2485b8dd0d2fc91056650752aef8a8cf6",
+      "selected_sha256": "e6e53d0c8d6d2709fecff9f5e515e9e9b1102577e61ccfcebebd8485f998ddcc"
+    },
+    {
+      "path": "figures/10-5/lineage/figure_lineage.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "3ae50d6a3f2fd08eed95610a7f45f75239949516c8ae1870261aebd5422e868c",
+      "selected_sha256": "c34ebacb362308f7f8d9385304dd042ee69cceaa4929a31edddf7c5b968a3716"
+    },
+    {
+      "path": "figures/10-5/metadata/metadata.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "054fc1eb9a9aa6089fd1655c7a7d1ff3aa4a2191fece88cb7552a941d590005f",
+      "selected_sha256": "9b25cdadb67586921a51b81901772a102b3c11bbf741c772f6c622a6037f21a9"
+    },
+    {
+      "path": "figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "ca554a2a5a6b3e585c1a19d0db3b6a27cf8cd146cafb0a1cc5017407333dcfb2",
+      "selected_sha256": "8810707eda9741f3085f6225a3a65913be607437ef2d26b12836761dee5734e4"
+    },
+    {
+      "path": "figures/10-5/plots/comparisons/figure_10_5_book_style_comparison.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "f0eef7259931d875f3dcb2e16474e8108370fa19bb6b9e3075e51c49a3602803",
+      "selected_sha256": "f720d6d29fc5cee62664cea8b55fcc61e4bc321bfa33b471d1990945f17da701"
+    },
+    {
+      "path": "figures/10-5/plots/comparisons/figure_10_5_book_style_comparison_captioned.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "f5716c4bbebc93722114eb115292224a76546a88a60682b43bcc8b551eca281d",
+      "selected_sha256": "5bd4e0341f5c75b69ebccd13ca4f78b85d79a2a684caf156106fa41afc658c2c"
+    },
+    {
+      "path": "figures/10-5/plots/comparisons/figure_10_5_extended_comparison.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "339ba5b21d33efd5f3cb90aac8bdabeb4fab77c7c721d424bce014b8bbe390ce",
+      "selected_sha256": "5cbd76abb252a77d61771d0b3f3205303ada156670b69e027afaba150ba735fe"
+    },
+    {
+      "path": "figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "8f3883ce7a777d40ac3f5134cf895c6c859a199d600e8a0262e7eb2492c6c484",
+      "selected_sha256": "a7ecd8defd98acccca802c2d864e1b48d2a74b9396546da5f8cce1b2ea1f88e9"
+    },
+    {
+      "path": "figures/10-5/plots/extended/figure_10_5_extended_reconstruction.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "ccdefb52b73a3ffd0f6baa2a51f6c61696f7f8c7aca28c19804c8d5d116fefae",
+      "selected_sha256": "c8c54ac325f104b7dcf916509c8a1f3e77855a57e0ff86a3d92481ef04710549"
+    },
+    {
+      "path": "figures/10-5/provenance/provenance.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": "239ac59df885d9e781b8d1be38eaf7c23ff7cdd35eaa718eec9102c5dacee18d",
+      "selected_sha256": "420ec75bde99420f277ce450139dc12c61da9e31aa463692283bb8dbcad8a7f0"
+    },
+    {
+      "path": "figures/10-5/remediation_evidence.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered and rejected current UNCTAD bulk series; the unsupported image-derived oil-shipping line is not canonical reconstruction input.",
+      "local_sha256": null,
+      "selected_sha256": "38cc7d29a9f173ab7509e8084fa9d2512948277ce543d95dd6128b2fe87387ef"
+    },
+    {
+      "path": "figures/10-5/search_iterations/search_iterations.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "5e533522602227cb1c1579f17f721a3f8c98e410520d57689892642868816c9c",
+      "selected_sha256": "c53064de10a6a995dff2c52f212e509273886a1649bb818355e9eda9eeb12186"
+    },
+    {
+      "path": "figures/10-5/source_logs/source_log.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "063d8d4a8deb5de60f18cb80aa068c32fb781c81c67510f25cbe851837e94a4a",
+      "selected_sha256": "817dccb794e3cd85f722ad037291730d8190b75f0eac192ef97f65965cabadda"
+    },
+    {
+      "path": "figures/19-1/README.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "055eb4a860f9644d81505a7588151ec69c870bac20a1c44cabd1448ffa9b4a9a",
+      "selected_sha256": "53ad74fc1ea4f1093aa987b719d5ed38302154f2a87297f150504e26adf3f85b"
+    },
+    {
+      "path": "figures/19-1/anomaly_reviews/anomaly_review.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "2127e276fd7d1a98b2b7bc5adb45a3f9c81fcc17400039fffd35acf2121bc2bc",
+      "selected_sha256": "0104a6222332b6cbed9c61b9d8aef87fee793376839af629dc6b27b8a765652d"
+    },
+    {
+      "path": "figures/19-1/captions/caption.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "e87c21a67f0bb01329f2b4262c27508b4a6aa57f40d41c8a614c806de81d7577",
+      "selected_sha256": "0837746761d293cc2d57ec9be7295caeaa7022dff05d9eae00422943fe5fa373"
+    },
+    {
+      "path": "figures/19-1/checksums/sha256sums.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "5bed7732fdc5b8e4f43d9f7f0705b81b433378af85154d4b1a5fbdb7fdc630ba",
+      "selected_sha256": "9f2996c52c743198815714afe6349c564abdedc41999f43957c1da120e4329e6"
+    },
+    {
+      "path": "figures/19-1/data/clean/figure_19_1_book_period_clean.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "4fc9d00e6a204b4781f1d27c33d15ce36cc524cf9c677bf9856ab91aedac55cf",
+      "selected_sha256": "b4d281a628611556f8100f6ddce163acef13e3c2e826d0c5eb5099d96b606391"
+    },
+    {
+      "path": "figures/19-1/data/clean/figure_19_1_extended_clean.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "7c035a1c73ee9024188d3bc59cd1026aa552bed66aae8e61222f4b1a3551749e",
+      "selected_sha256": "b4d281a628611556f8100f6ddce163acef13e3c2e826d0c5eb5099d96b606391"
+    },
+    {
+      "path": "figures/19-1/data/raw/humanprogress_static_2927_20160814.html",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": null,
+      "selected_sha256": "c794c6eb702115b96f41908e42cc77e0fdbb298451049cb29198412b11ea15bb"
+    },
+    {
+      "path": "figures/19-1/data/raw/humanprogress_static_2927_recovered.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": null,
+      "selected_sha256": "89a8794360fca230051555dc0e6894b4ca7dea6909b3691f49eaaf1504e75082"
+    },
+    {
+      "path": "figures/19-1/discrepancy_logs/discrepancy_log.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "ffd9ae461dbe073832f6fe77dcf8680d154cd71cf800f416ef656784b72e9a82",
+      "selected_sha256": "e00bdbbd2ebc773b18edef584bc83d25dc3498310006fb208c7bb8103399fc51"
+    },
+    {
+      "path": "figures/19-1/lineage/figure_lineage.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "5fb690ef738b79ce1462ecea86366a016151ebcbf69b2363870a76b1a4ace96d",
+      "selected_sha256": "bb0ec5a5b0fbe9fae646b0957c9bec1afe809b28a432badc7535fc9a89aa3104"
+    },
+    {
+      "path": "figures/19-1/lineage/figure_lineage.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "9ee1ce89d1a3dbafc51041381fbdc269fc259dffe9ab59bf2807d77210f7459b",
+      "selected_sha256": "0d3e0998c1077c680c04aebbc9d499efb822c45beb9d9555721be5d9edbcbf17"
+    },
+    {
+      "path": "figures/19-1/metadata/metadata.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "44395159a793d0faa2d6d50938d7df407f399fbf69b70c55bc7baa1b6a6b38bd",
+      "selected_sha256": "26ba9d4d2d6230a0ae1c9d696197ff2d7924e01be4f93098bf32f4d11c460839"
+    },
+    {
+      "path": "figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "489f4ef57684ff48d11cd26c5dc279328b9b7a1055746e9957b017c9d711688e",
+      "selected_sha256": "2f71af93823ecad48807d5fbaa74c5432864fd332ce457c2a15aebd7c5315030"
+    },
+    {
+      "path": "figures/19-1/plots/comparisons/figure_19_1_book_period_comparison.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "2803ff6903db075517eb00b9fdce65518dd51a3976ebe698fab51b95afb863f6",
+      "selected_sha256": "8b6f3236d523afd016a8fa1e8c03e32ad48b538aa6328898e220f44e7e50b9c4"
+    },
+    {
+      "path": "figures/19-1/plots/comparisons/figure_19_1_extended_comparison.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "285ce3ac3c6981254970672861d14df61c66de10adc0fa1e51fef286dc650f4e",
+      "selected_sha256": "583204fa9662293b840da205c37c3c761c4f42aafd5eeeab46226c7a797d5e05"
+    },
+    {
+      "path": "figures/19-1/plots/extended/figure_19_1_extended_reconstruction.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "7233f5c1ef080da624e6efae4b753054290b7745ddaf78e73a7dc8c2004f5c28",
+      "selected_sha256": "6e7d45e25a245b86e03d79140dfef5b6da464290237c1c861cbabaa6c1060cde"
+    },
+    {
+      "path": "figures/19-1/provenance/provenance.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "c537958293a783f4ed04e55fa4d9f3cf7d95f01d5ff78d4d80a802a4d27bbfd3",
+      "selected_sha256": "84aa7630f294fb22bd20e54ef15d1178522394df19ec94ed8ddee4d593bdfbe0"
+    },
+    {
+      "path": "figures/19-1/review_checklist.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered archived HumanProgress principal-country values and stacked-area reconstruction; minor-country vintage remains partial.",
+      "local_sha256": "5a72eea518241cc1be5d99cd5e0bd682960e9425ae42f1e02ba354b0a6c370d0",
+      "selected_sha256": "243b514fb7865660e3534f9f6a9a735587aca61f38f30efc36fc4eeea3666027"
+    },
+    {
+      "path": "figures/19-1/search_iterations/search_iterations.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "ba6002bc2dff52459ab65bd9f6f614238be3eadb5a176bd75c7cecd9374190d4",
+      "selected_sha256": "2028e65dafe0a5d70ecfdb92a0c754c3123465668ee8ce22b13e77ca0c9ea280"
+    },
+    {
+      "path": "figures/19-1/source_logs/source_log.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "65c2d20438843375371d22c8fb4cf05b13ee4dc32d4da3071e762144890b7267",
+      "selected_sha256": "27dd964e3e16dd812fef11863d3d5f809843c7bea154115eeb16b9c5c229ee7f"
+    },
+    {
+      "path": "figures/4-1/README.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": "4615b2ee548eaedf676638fec6ae4aab10106fd12ed8c53acef317770191fedf",
+      "selected_sha256": "a29f24e6491fca64ce99ce020db0b2f65a2ae6da6bd972e182b0d08d11e1f818"
+    },
+    {
+      "path": "figures/4-1/anomaly_reviews/anomaly_review.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": "97bc8e610abc3640f2d7773575070bb270274c7cc00932f3d12442f7bb37f6a3",
+      "selected_sha256": "ff336e6ac3c705590bce3590af1bca89bd0493dff2601e6558ac903fb357e130"
+    },
+    {
+      "path": "figures/4-1/captions/caption.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": "8e667eec77ff3800e78eea27c3c75c788093a8ecbcdddaba17e9eb3c097c7047",
+      "selected_sha256": "dd1eb98a80084acf194d2fede9c8392903de3e3b0c6112be0ee62d02da0ab5fb"
+    },
+    {
+      "path": "figures/4-1/checksums/sha256sums.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": "4f26134efc817d96f99609cd52e72ad0ed9cfc48d4faf81a8dd2fb737868ce5d",
+      "selected_sha256": "091021a395659cc86432f19c0dbe9ab6ff1287925d64d43af112ae50c2f6030a"
+    },
+    {
+      "path": "figures/4-1/data/candidates/leetaru_2011_article.html",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": null,
+      "selected_sha256": "8a09b8dce835fc62d31cfe333e1ca478269694f7cdb3ad679498c5494dd5980c"
+    },
+    {
+      "path": "figures/4-1/data/candidates/leetaru_2011_article_legacy.html",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": null,
+      "selected_sha256": "d3eaa2ecd84af696f187c582464ebfb909b0107e2f37ae1fe4fea066c01a7102"
+    },
+    {
+      "path": "figures/4-1/data/candidates/leetaru_2011_figure10_nyt.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": null,
+      "selected_sha256": "98b697632a436e35c99ce989cd72991e60792fd09ba879a1230de9735e673641"
+    },
+    {
+      "path": "figures/4-1/data/candidates/leetaru_2011_figure11_swb.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": null,
+      "selected_sha256": "d2f9b7a0bb6dd3c7694d45cea8ecaed2a1634f5fec30f4af4270fadad71533ad"
+    },
+    {
+      "path": "figures/4-1/discrepancy_logs/discrepancy_log.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": "9a54c8e16d78306cc27c8d687a4a228cf650939f03afa706c6f8f6ec2fd0c763",
+      "selected_sha256": "bbccff8f87bbf28eda777a8cad4c76bdb3d708b09ac046d7c59add2a38b025d8"
+    },
+    {
+      "path": "figures/4-1/lineage/figure_lineage.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": "ab3dc85fe8b1428b8b778f28d95a8d6b648e8cbb15dc9b83f22be3f536eb7b5c",
+      "selected_sha256": "9fced2f26a1b0ef78baf76e35f03ebdc3e2506a50bfddc77a0373e6791ea1f79"
+    },
+    {
+      "path": "figures/4-1/metadata/metadata.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": "77bc96b03d5ce3ad225ba842bc8747e379052a093a4f181b5d2b0236aed7a38f",
+      "selected_sha256": "7c7b13e6b494e58f88608e582871f37e20ba7cf3c925a93aeb92673b93b9901d"
+    },
+    {
+      "path": "figures/4-1/plots/comparisons/figure_4_1_source_evidence.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": null,
+      "selected_sha256": "b54311be3b442571b8bc4eaf157b8547a436362be6ac85ea90c391cc31e62ecd"
+    },
+    {
+      "path": "figures/4-1/provenance/provenance.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": "83634df8b7659aa6a976659f2cd0742b827b6f3ca5964becf23b30e4816eb23b",
+      "selected_sha256": "f654b1f04bec62a7b95742776becd7326df50fa7c69da9d7bb4c11fffc15f960"
+    },
+    {
+      "path": "figures/4-1/review_checklist.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "More complete Leetaru publication and source-availability evidence; no numeric reconstruction claimed.",
+      "local_sha256": "174f015bbc32695c9617077e90357144159ee6f959c429dea05e875ce943df83",
+      "selected_sha256": "90b7e85d958ff3f6bc3bf558227c64f7946b2d54be704caa4dfdbf8a04e0fc34"
+    },
+    {
+      "path": "figures/4-1/search_iterations/search_iterations.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "d84bed8bde1563be718e5320bf2dcedbd8d23e747d39f74144fc08aa62fd6df0",
+      "selected_sha256": "3bfcc679b27be6b3f70a91c3b6044dbe71da2812019a6f4772db64a7df7ed541"
+    },
+    {
+      "path": "figures/4-1/source_logs/source_log.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "0f720566bf919aaecaa874e32d81d60833954163a70223b1e49775f06c4452c7",
+      "selected_sha256": "308043725e7209ae4a243a018e0143419a7c89c8f906c67ced6849edadb42171"
+    },
+    {
+      "path": "figures/5-2/README.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "88a81ef84c8b7b1a31cbc608e9fd304b57f0b3198cee4c5b5606443e1f35bd72",
+      "selected_sha256": "374891d63591f2774e34f5d154bc9443be37e3bf849231de33104f742e1b9d4d"
+    },
+    {
+      "path": "figures/5-2/anomaly_reviews/anomaly_review.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "c07f5de5e6e2d30a572177e98fe18fd0f0618ae85c9d99ebb8da7daa2cd5e263",
+      "selected_sha256": "3abf6b30c2b5a6d18ec0dbda479f9822c7249dde898b5293967d7b10f0ab605a"
+    },
+    {
+      "path": "figures/5-2/captions/caption.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "4cf959dff44026dead1b695039b1088f49f8bce5dd63ab040a5eb18e94552046",
+      "selected_sha256": "de11594b6dc48997b64b2305a22b7d4a4004164a3b8b4c2cb96b753df1f12638"
+    },
+    {
+      "path": "figures/5-2/checksums/sha256sums.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "376ef6557b3fd185d47c940496c3a2f15f8150e99660ad4c7f27a8c60ebf7a8c",
+      "selected_sha256": "29785e87ea610df393933d68ae2d5d503ca00471631e9555f6d3dab64755faf8"
+    },
+    {
+      "path": "figures/5-2/data/candidates/owid_cme_info_2016.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": null,
+      "selected_sha256": "ba4f8d20536088a9bc4203069624a2a1b5b1c726750f36f982cbf93af1c08bbf"
+    },
+    {
+      "path": "figures/5-2/data/candidates/owid_cme_info_2016_datapackage.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": null,
+      "selected_sha256": "2cd7a7927566ebdd762a6534c960c92a402b9c05523e6c4c9a20e24ffe03bb76"
+    },
+    {
+      "path": "figures/5-2/data/clean/figure_5_2_book_period_clean.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "bf16578b719e42b15014384e8a49f3ba68362e8570f96df63101cd5856bf3b94",
+      "selected_sha256": "65de76b26db180df8ad737b39f4807eeafc70619d6963baa8931a37a64e90abe"
+    },
+    {
+      "path": "figures/5-2/data/clean/figure_5_2_extended_clean.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "c4e34e22c846c257e4cbbbdec6a2e4201afd5fecb6c15bd6a42e7f5b98acdd19",
+      "selected_sha256": "65de76b26db180df8ad737b39f4807eeafc70619d6963baa8931a37a64e90abe"
+    },
+    {
+      "path": "figures/5-2/data/raw/README.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "e08b5dc8d541c4cb9812a3b1d3aa487d59f1d8eaccf1568ab7fe4f21a02817a4",
+      "selected_sha256": "92965d9729c869b36c537a67d028445b8d034dcc0b12f15714b9c4728fae983b"
+    },
+    {
+      "path": "figures/5-2/data/raw/owid_current_child_mortality.metadata.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "e86905d235a394a89b0ed7bb9069e392bf3c8fc3b936f0c35a47c37052dd5982",
+      "selected_sha256": "ca8cf224abe5748c2900c701fa7a4cfb02555788526826ff02bf18dfa18eaa01"
+    },
+    {
+      "path": "figures/5-2/discrepancy_logs/discrepancy_log.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "cb357d25f34a0d813e2aa44513587f9b0fd82ac0c4e8f83bc74f3f734218996f",
+      "selected_sha256": "d89e5b084a5cc5c7c4a9528cd18255272f924390d929a514541009bd1659a862"
+    },
+    {
+      "path": "figures/5-2/lineage/figure_lineage.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "1c11ed5f3f9ea8bf8712b0bb8545e918e0a8a74d246a98252af395f2d3cae206",
+      "selected_sha256": "da18793192f6e45c52c29969cd6aea5f4d1d0bdee3aa975b39aec2286c8efc5d"
+    },
+    {
+      "path": "figures/5-2/lineage/figure_lineage.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "b23cedfc90a1d538620e93245ed337e58f75c22fcf565ff8a311114ee27d8d21",
+      "selected_sha256": "1964b543b2c62b8bb9b9a6b5b027de11492db6d064fdb8c4bead5e1f82b06430"
+    },
+    {
+      "path": "figures/5-2/metadata/metadata.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "ee57ef4e21c7cf79cc68498c232285a157179f3d2d8bb32fbe5004b7bff0c043",
+      "selected_sha256": "50c10d37dc5834d2ea599ee88ec64726c3c50b0faf52f834e2e8fb44fc7a3a26"
+    },
+    {
+      "path": "figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "54ea6aeeb8359af865836af5788706bb7b89ba6b62649246e3f95c328aa5ca06",
+      "selected_sha256": "f3498813634cbdc9883974fb02fc97c36beb6ae2b9ca443215e6f150f9f233aa"
+    },
+    {
+      "path": "figures/5-2/plots/comparisons/figure_5_2_book_period_comparison.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "ba7881821862cbb23a5c6196fe4418e68cb0309679e3a76ca548b332dc7f8d3d",
+      "selected_sha256": "0c21b5509e666ce3b5bdeb3246e20afb66fd039efc69d36f2ab2999f3beff7b0"
+    },
+    {
+      "path": "figures/5-2/plots/comparisons/figure_5_2_extended_comparison.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "4324df645c6bad5dbea05cc200b216efa00004c84087deabc28e2b10315d323a",
+      "selected_sha256": "675190af78a1c2d4330c2f1c07ca8b18ce2f80159fe7308c9306f4240dae614e"
+    },
+    {
+      "path": "figures/5-2/plots/extended/figure_5_2_extended_reconstruction.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "16b9be91176291ec8a87fe9e70cd0b3f1160ad48ae3fb30ff2e9fafa6f576a96",
+      "selected_sha256": "778a253df7a53a9c9a726c9321e1e2d6aaadfabbde3322ed9391abf9efac76f3"
+    },
+    {
+      "path": "figures/5-2/provenance/provenance.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "b98548289b75dec073f165f10d98531003da1f92a5860ed3fb0fe7a00dd1702c",
+      "selected_sha256": "ca38a439695e7ef0f0f879d7687d9d51930daffde0f21ee464daf9ccacf940d0"
+    },
+    {
+      "path": "figures/5-2/review_checklist.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered immutable CME Info 2016 component and explicitly clipped successor; remains partial.",
+      "local_sha256": "ff7b83c65de23c8842aa410d6ed50b232ccff153d49421ad77a869ef4db7b621",
+      "selected_sha256": "177daaf39abc47f769c91960a0027decf9049a4424926a366e19cc8b4dc406ae"
+    },
+    {
+      "path": "figures/5-2/search_iterations/search_iterations.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "bf6c81daabca0c3b4d1548a8816ad25ca76e6a81382720e885a3eae995834262",
+      "selected_sha256": "cf0550c6d06aa6b57c4558527cea7e85e3d16408271ab8afe1de4894a4155761"
+    },
+    {
+      "path": "figures/5-2/source_logs/source_log.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "8bad4b1b262876d54899be09f45796b306bc2d4ce6e4df01bad5a5a7c608a22f",
+      "selected_sha256": "f11890ddf825409eb5e213a6ac0c31d37e36c0358458c90c88231ad446c70317"
+    },
+    {
+      "path": "figures/5-3/README.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "aa7a6ba688e28174a3f346bd478cb57387b962b7b3fd2a7bd5a8fc59d7dc10db",
+      "selected_sha256": "8391248f3ba6d6f94709d0da108bd05e32730daf403d49190a7cbf0f4886aac2"
+    },
+    {
+      "path": "figures/5-3/anomaly_reviews/anomaly_review.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "d243616883424f2691c285305e28aaf3fa0fbfabff2981057e5a04f0bb40ea0a",
+      "selected_sha256": "54d85a597c13a6063d335c349d4608ea22e3fc86ff768a7b70b3bceef6e56a6b"
+    },
+    {
+      "path": "figures/5-3/captions/caption.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "643d55aca0cb9a36d3e9ae3615c86cbce1ea7702386fb8dc405a04fd64c35d65",
+      "selected_sha256": "2cc64205a0eff429f09dcd84575f8f12efc2f87ae5f85919ff1ef4a03b343ef6"
+    },
+    {
+      "path": "figures/5-3/checksums/sha256sums.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "a8c49789a99421f99a33f1f993d99e06cecb4f268659c3cf7d965f568f6be879",
+      "selected_sha256": "587e2fb6f076badeb50aefc5eefa425ce96db769e6c20df7acac6121475cfa80"
+    },
+    {
+      "path": "figures/5-3/data/clean/figure_5_3_book_period_clean.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "fdc4993bba1a3d017a7f0cdc20d303451da5739d17885ca43cecc8d236085fb6",
+      "selected_sha256": "339d52af8f55ba4eb4e0354958badc6a152c3f6b1f0ab5df1c89a1394e6b3551"
+    },
+    {
+      "path": "figures/5-3/data/clean/figure_5_3_same_source_continuation_clean.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": null,
+      "selected_sha256": "fe6881c5d9e31045190b24f111bc3e647bfcba61aaf707e43ae7ea7d15eec75d"
+    },
+    {
+      "path": "figures/5-3/data/raw/gapminder_gd010_2010.xlsx",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": null,
+      "selected_sha256": "5f144d2ffd30694e0f0857095d8fe2c925180f0ea76eaa65392019cc346ff1ae"
+    },
+    {
+      "path": "figures/5-3/data/raw/owid_522_maternal_mortality.tab",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": null,
+      "selected_sha256": "251b73ca1934bafeefcd084b8a17350a6ee60cd3dee809fa02a422aaa6d938df"
+    },
+    {
+      "path": "figures/5-3/data/raw/owid_current_maternal_mortality.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": null,
+      "selected_sha256": "f66fa6a1f2c777f80a439e8634242a4ea196b9ebd12d152183e7cc7876215e2e"
+    },
+    {
+      "path": "figures/5-3/data/raw/owid_current_maternal_mortality.metadata.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": null,
+      "selected_sha256": "1126597403f0bd81ab6401252a0ede6c52562459a637f2bc21c720c90364c8c6"
+    },
+    {
+      "path": "figures/5-3/discrepancy_logs/discrepancy_log.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "74be6d030e033e20dc454934d2f505b93cbdb8ad22dd4d72cf6b6f0e11d7dc7c",
+      "selected_sha256": "11e1a7047b28261c37c6dbcbf7a709b15fa73501048d3fbab4b1f8b88893b81f"
+    },
+    {
+      "path": "figures/5-3/lineage/figure_lineage.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "0962aa62e571dad18e7408915378e4516a1c74631b91f74877598b10d9c40076",
+      "selected_sha256": "0c1cbb11fb7f98856674c91fecda0a25c2eea3f60ee70835a93f31d31414f20b"
+    },
+    {
+      "path": "figures/5-3/lineage/figure_lineage.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "555aa443506c1832571ed27b401e8a597172f2408a32778fa8e9823a784e0b01",
+      "selected_sha256": "a62b0c6f782eab21c27654e7b2db034e6ecad49d91607c18f45b138b70db97f0"
+    },
+    {
+      "path": "figures/5-3/metadata/metadata.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "55f72122dbf74b8dd51b2852d1aeb8f28fa368a198d7dfe0f691ac04f9221175",
+      "selected_sha256": "c4866cda197d5950d9bd24561719f4c091deac17ef9e2e9bb27b561f53f084a5"
+    },
+    {
+      "path": "figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "d984cb16468ba0bc66176d916c11dfc50248ca171206b7acd919b393d4fdf14a",
+      "selected_sha256": "24522d4fd1b522050bf97b5dbaaa224b54866613da67a1ee35acd95d3382fe70"
+    },
+    {
+      "path": "figures/5-3/plots/comparisons/figure_5_3_book_period_comparison.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "de3e72d2a5bc4f1a8210b7998056664124dfd2d5305c4698afee2e26cd56d8bf",
+      "selected_sha256": "c7e441fd8ab9a41febdc295d9e27e773d10b98456bddf16332758e3576a9a488"
+    },
+    {
+      "path": "figures/5-3/plots/comparisons/figure_5_3_extended_comparison.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "5acf41637e3fa91cc03996b54729886bc92eca12bbb79dcc46dcd2b9af9148f9",
+      "selected_sha256": "cfc7a66bf50410cfa5c114fc68810ad0b9075e12192a360142cf231655147e9c"
+    },
+    {
+      "path": "figures/5-3/plots/comparisons/supplemental_reference_facsimile_figure_5_3.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": null,
+      "selected_sha256": "e4de9f94ac3033a728220887f8c5a4bdf290b78f5279a8c24749a94b30b0f40d"
+    },
+    {
+      "path": "figures/5-3/plots/extended/figure_5_3_same_source_continuation.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": null,
+      "selected_sha256": "650a47de8c40ec4d392caede0825847755e4af9c0c1c64105d56a5d7ad43cf4e"
+    },
+    {
+      "path": "figures/5-3/provenance/provenance.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "19cd9f5fc2d7766b1dda43b70b4f2ee72279e193a7250460ca9ee85c88169824",
+      "selected_sha256": "6bf5e812f62e1cebdbe0258917ae504c6c0732dc92d11afe0397233650ce30de"
+    },
+    {
+      "path": "figures/5-3/review_checklist.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered OWID 522 raw table and exact conversion; facsimile comparisons require replacement with retained original PDF pixels.",
+      "local_sha256": "e690aff025e992c9e387d671f51adeea47182b14533095cd2544fbf23bfb9993",
+      "selected_sha256": "cf7c59583b46070254e106ba9b4d2a9af978b45996ea2e356d3e0ac8ad106088"
+    },
+    {
+      "path": "figures/5-3/search_iterations/search_iterations.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "0c19df8231b6ce3407181852a70b13e9ac336c017842aa2b65df1400cf11451e",
+      "selected_sha256": "1ad9264d0d8feaeadaaaa27223d48da1af76846a86068690b2bcc3fe4f06d916"
+    },
+    {
+      "path": "figures/5-3/source_logs/source_log.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "4403ca1e435caa51c3bbec1e2a0b26ae1260009fd207babfe14ab48ae44f36f0",
+      "selected_sha256": "c77ac7ceb13fbf4b303b9710ec493dcf5abac646a746563dbefc54fce883ef16"
+    },
+    {
+      "path": "figures/5-4/README.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "d757dc005002d85aa7795c24ab5f07fbcd49a855b2ea06fa24512dced4f8d8ff",
+      "selected_sha256": "102c1128f6132095306903154818daa466aae043cd3fe4395e8b95adbc463c4f"
+    },
+    {
+      "path": "figures/5-4/anomaly_reviews/anomaly_review.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "c150a88b280c709936b5ef765fc49466439db3454db135dca41077c5994e0643",
+      "selected_sha256": "46c48d474c2bb5b7713f38fbfda0e15a64df2733eb94b4d6a99cbab185712a15"
+    },
+    {
+      "path": "figures/5-4/captions/caption.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "401319dd91d42b3aeba2363a75eab8b2e38dfd79d82f181d45bf193ddb827286",
+      "selected_sha256": "5ed46fc0657d7d4dead44df2227397c447590baa397ce0b14f7d8b3f979b2195"
+    },
+    {
+      "path": "figures/5-4/checksums/sha256sums.txt",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "112b640d401ac0586730b0e02e74c45a9f59d33ab983bffaddd6088e3ea870a9",
+      "selected_sha256": "72538204db795180d41d5c8e57ff50c56af6ac7bb822776997ccc2293718cd12"
+    },
+    {
+      "path": "figures/5-4/data/clean/figure_5_4_partial_source_recovery.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": null,
+      "selected_sha256": "66386b9625433b79e6e35a23c36ea6cc471cd1febaf297b2238bc0e14e445d10"
+    },
+    {
+      "path": "figures/5-4/data/raw/README.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "cd61f2a1008c3c34177c5db96f39ec76296b07eb8e094176634f2d45fee0d636",
+      "selected_sha256": "cec1802f8dada6d4f4fc49a695e2bc55741488a9290e5783f6daf33e181d4ceb"
+    },
+    {
+      "path": "figures/5-4/data/raw/ons_expected_age_to_reach_males.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": null,
+      "selected_sha256": "b448a220b6ca154aa10398dc3dc05ef3bc411ef71f582c7dc671f5591131913f"
+    },
+    {
+      "path": "figures/5-4/data/raw/owid_clio_infra_life_expectancy_at_birth.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": null,
+      "selected_sha256": "a16aa7bd62ee5c9ed78bb2e8638d98954aea7167955c1303cfa103c545bad974"
+    },
+    {
+      "path": "figures/5-4/discrepancy_logs/discrepancy_log.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "7b66bf2fe08096a52e5e041e3063546bf2dcfea04955f23a86ad4b49caef9265",
+      "selected_sha256": "6631142f33c566c131efa893517e958ab50804645319e8c2e9c703c2f9bfb0d1"
+    },
+    {
+      "path": "figures/5-4/lineage/figure_lineage.csv",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "a39b5601f193f95d1aaf8ef4d78898dac1e8fc839405023ed828a4a317813a22",
+      "selected_sha256": "def6bde2226b2c340e9d6ad2b7bcd02709a9915341a7470d9b320e24a528671d"
+    },
+    {
+      "path": "figures/5-4/lineage/figure_lineage.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "4c07eadde0f3f10419a064d9b9172a078739514d0ecd1f65dacd82768b06bfc5",
+      "selected_sha256": "b3a14c5719209300a77b9ab8e3d27a6ff65371676009ff9ac1fee476ad2fc120"
+    },
+    {
+      "path": "figures/5-4/metadata/metadata.json",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "f459cb4622858e2520a05949c9bc9a2641527802d3462105034532d531f6f5e5",
+      "selected_sha256": "fa7d6634330d99eda178f7a1790e4344b1bff7269033d0746540c2450306468e"
+    },
+    {
+      "path": "figures/5-4/plots/book_period/figure_5_4_partial_diagnostic.png",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": null,
+      "selected_sha256": "814295abce25a7bb7ce29806f83b6574715f6b24d757ab3b273a7988a2954380"
+    },
+    {
+      "path": "figures/5-4/provenance/provenance.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "4569b31004fdfa5c2cc0dc856417aa0add6bb97257c56a4287e56d048fc493b0",
+      "selected_sha256": "eaf4a550df29589a7684cf91a2e4c744196e916dadd3ab48b1ef36d90b599c8c"
+    },
+    {
+      "path": "figures/5-4/review_checklist.md",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Recovered Clio birth component and ONS diagnostic; no exact multi-age reconstruction claimed. Local original references retained.",
+      "local_sha256": "6e28d406f373747ffbf39a6ac252c6e6b1d604be468ff8b718b79759dec66706",
+      "selected_sha256": "2f29e4d7a3051a43402e6f4516a1b7eaffb029afb98d003325dcaba5c5a9b36a"
+    },
+    {
+      "path": "figures/5-4/search_iterations/search_iterations.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "c1023704c713cd1ba2b318f0817d97b6e556cfd1d21752e24d0f6fb064123d6c",
+      "selected_sha256": "20b05c74e2d8655a9dfd3c65a981e934c9adeed1218f7fd95b70023c7e7bf225"
+    },
+    {
+      "path": "figures/5-4/source_logs/source_log.md",
+      "origin": "both_parents",
+      "reason": "Preserve both search histories; do not repeat exhausted searches.",
+      "local_sha256": "84692bbedd259d2d7ba1c6794c467c95d7b6473de17f8d278115c82ff052d5a6",
+      "selected_sha256": "64a5bb5fe2126e9e0f3367b429ab85e033446c892070bc74fa55744f93e7d4cc"
+    },
+    {
+      "path": "scripts/build_figure_4_1_evidence.py",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Plot/transformation code paired with imported source data; not executed during import.",
+      "local_sha256": null,
+      "selected_sha256": "9cb8714d6aea2259345f7bdc00a8ac5d4bdff09d3711af90352e36083a7e06a2"
+    },
+    {
+      "path": "scripts/reconstruct_10_5_source_recovery.py",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Plot/transformation code paired with imported source data; not executed during import.",
+      "local_sha256": null,
+      "selected_sha256": "a044aa46e9292d675a48fe66fb3822f90f68e97e01baa4ce56838a2f2e5ff519"
+    },
+    {
+      "path": "scripts/reconstruct_5_1_5_2_8_4_19_1.py",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Plot/transformation code paired with imported source data; not executed during import.",
+      "local_sha256": "89c7d395a851ca335d8802be9da1804c9b6280ccaf933b540ad8efacf3d4a77d",
+      "selected_sha256": "1ba125cf46dacf944e25dafaabea8938e87e509cb756496d848f4819ace57aed"
+    },
+    {
+      "path": "scripts/reconstruct_5_3.py",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Plot/transformation code paired with imported source data; not executed during import.",
+      "local_sha256": null,
+      "selected_sha256": "fd8fc7cf46a0cca5cf8ede766f39aa5a9afcc9a16bc293a611ea1daac647593a"
+    },
+    {
+      "path": "scripts/reconstruct_5_4.py",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Plot/transformation code paired with imported source data; not executed during import.",
+      "local_sha256": null,
+      "selected_sha256": "d403db33835d30c48a4badea7eca066bd2f59f8b8874bfcbdb0d61ad35a2ba83"
+    },
+    {
+      "path": "scripts/reconstruct_figure_5_2.py",
+      "origin": "9a19519494ec20f45b3ac3e6b3122d38a2bc0892",
+      "reason": "Plot/transformation code paired with imported source data; not executed during import.",
+      "local_sha256": null,
+      "selected_sha256": "889986334ed5cc28cb4eaaa058a096d0f15b2900fc65aa3437c43359c2ca9d31"
+    },
+    {
+      "path": "data/bibliography/bibliography_database.csv",
+      "origin": "structured_union",
+      "reason": "Union by documented catalog key; retain remote additions/changed recovery records and all local-only records.",
+      "local_sha256": "469247fffbc32da9e792f0b480f578d3a495f2b7ddadea5a8e031908564bd1c9",
+      "selected_sha256": "87889651f17410951b319883e1a3f9756bb1614de7c641be0bbbbbb3248730ab"
+    },
+    {
+      "path": "data/bibliography/bibliography_database.json",
+      "origin": "structured_union",
+      "reason": "JSON mirror generated from the exact reconciled CSV rows.",
+      "local_sha256": "3a827ae41ff3c7399e33ca7bf4090a047a0491bbb121543742db938c9e4f3a91",
+      "selected_sha256": "823e0e9de01f8946e73d0a6b0d39e81ea66174c010183c8e10da005b1c53278f"
+    },
+    {
+      "path": "data/bibliography/citation_key_lookup.csv",
+      "origin": "structured_union",
+      "reason": "Union by documented catalog key; retain remote additions/changed recovery records and all local-only records.",
+      "local_sha256": "f33dc65a28d5fa36b09f1bfa71ab122f70b633077cc8cbbcb20b3e7eef945219",
+      "selected_sha256": "88ceec072c8a2b3bbe9768b0590b26ff33bfe1ae4c787483d5a28ae3a31f34a7"
+    },
+    {
+      "path": "data/bibliography/citation_key_lookup.json",
+      "origin": "structured_union",
+      "reason": "JSON mirror generated from the exact reconciled CSV rows.",
+      "local_sha256": "173b942525872a0e3e26efe6cb13c9f840d78ef369fd29d4becab6272e007f1b",
+      "selected_sha256": "2ea3fcd4f88676e6b56e4253d32fe691685f3f1ae79f99ea47e96637d2f4894a"
+    },
+    {
+      "path": "data/bibliography/dataset_reference_catalog.csv",
+      "origin": "structured_union",
+      "reason": "Union by documented catalog key; retain remote additions/changed recovery records and all local-only records.",
+      "local_sha256": "c05fdb145c3d1e2b20b5d1c758bf12a59f6b44d1ff8787dd54856e4680f8e69e",
+      "selected_sha256": "bc7d5405e71908409c5ab4d149e2ac5039d773e9c4fdc0aa0fe5fe5a12fd128c"
+    },
+    {
+      "path": "data/bibliography/dataset_reference_catalog.json",
+      "origin": "structured_union",
+      "reason": "JSON mirror generated from the exact reconciled CSV rows.",
+      "local_sha256": "5a765c9557103159efd37236fd5dba487bdec5bd94f140d7044cfc4737fe8648",
+      "selected_sha256": "09be92285ab068fa453b5f1fadc1cb35f6982b89503ee19cb80591a0923c3c61"
+    },
+    {
+      "path": "data/bibliography/figure_bibliography_mapping.csv",
+      "origin": "structured_union",
+      "reason": "Union by documented catalog key; retain remote additions/changed recovery records and all local-only records.",
+      "local_sha256": "ff42e1f2d915800db3a15f56005a053d245b82b163354b3f4dcbf4383f4edf67",
+      "selected_sha256": "2d32c111ac801e8441905cb762d9dd0ed77fbc3b025de85f6bd9fcbf7ef0be20"
+    },
+    {
+      "path": "data/bibliography/figure_bibliography_mapping.json",
+      "origin": "structured_union",
+      "reason": "JSON mirror generated from the exact reconciled CSV rows.",
+      "local_sha256": "1726234336e31cad0ce87f3c3300dd5f1ecb662ee2f251eb634eeaacaf278b38",
+      "selected_sha256": "549ca81356b336f5e1a5a21f55961b64d15687595301299fb41b5a7c429d5be4"
+    },
+    {
+      "path": "data/bibliography/archive_index.csv",
+      "origin": "structured_union",
+      "reason": "Union by documented catalog key; retain remote additions/changed recovery records and all local-only records.",
+      "local_sha256": "6cd14b828e52a16d3670af3ff790c52f34600b1c9d4e2e556c5b46b3a7138ca4",
+      "selected_sha256": "dbef69a639431a293047c4c9af8bf760919de112186214b65ca5466cfa76f05d"
+    },
+    {
+      "path": "data/bibliography/archive_index.json",
+      "origin": "structured_union",
+      "reason": "JSON mirror generated from the exact reconciled CSV rows.",
+      "local_sha256": "2f4aabfc55888b9f1a6e231daf9b80e9cca9657ebe30247dbeb573a007678fa8",
+      "selected_sha256": "205bc9bc28cd423154a03b1df732ad00d5d0c464a35e1f2150b6b275fc680de6"
+    },
+    {
+      "path": "data/figure_registry.csv",
+      "origin": "structured_union",
+      "reason": "Preserve local inventory; import six reviewed remote package claims pending scientific/scheduling separation.",
+      "local_sha256": "65500c6ff44568caf399643c3d680acc514c03a92b54d3c66c2f32380ed1ed71",
+      "selected_sha256": "093846112d636e91e83e82978867feffef44922117f2a4bb1ae0c55ff7e075e8"
+    },
+    {
+      "path": "data/metadata/figure_metadata.csv",
+      "origin": "structured_union",
+      "reason": "Preserve local inventory; import six reviewed remote package claims pending scientific/scheduling separation.",
+      "local_sha256": "4c46a6fb43e5327e5523175bb925c31981b7d675747e15ac9aa70a199b1d4311",
+      "selected_sha256": "4e7855e73c5da8ec0da66f505ebc0bef998d555e608239416bd48d6f9a7846fb"
+    },
+    {
+      "path": "PROJECT_STATE.md",
+      "origin": "efca1264944eabab2f733bc399027e22b8df6381",
+      "reason": "Keep complete local inventory and approved plan; regenerate stale summary after state migration.",
+      "local_sha256": "6ead6cfd8c57858972ef667a771668b612814337e28043f4c21ad0d0f6a58f22",
+      "selected_sha256": "6ead6cfd8c57858972ef667a771668b612814337e28043f4c21ad0d0f6a58f22"
+    },
+    {
+      "path": "docs/lessons_learned.md",
+      "origin": "both_parents",
+      "reason": "Retain both histories; deduplication can follow evidence review.",
+      "local_sha256": "8f399a43aaa6606f78205fedbcc398585532df9245264cb037cd21c54e45f789",
+      "selected_sha256": "751abd533b1f52b37beabfc8ade87e9e4a3144d82e555c88cbca44a898c50661"
+    }
+  ],
+  "limitations": [
+    "No scientific statuses promoted by import.",
+    "5-3 facsimile comparisons retained as historical evidence; original-pixel comparison pending.",
+    "Historical PROJECT_STATE/registry views require the next structured-state migration."
+  ]
+}

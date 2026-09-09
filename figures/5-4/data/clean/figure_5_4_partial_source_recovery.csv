@@ -1,0 +1,96 @@
+entity,year,expected_age_at_death,age_at_observation,series_status
+United Kingdom,1703,38.47,0,cited_source_component
+United Kingdom,1708,38.5,0,cited_source_component
+United Kingdom,1713,36.89,0,cited_source_component
+United Kingdom,1718,35.75,0,cited_source_component
+United Kingdom,1723,35.49,0,cited_source_component
+United Kingdom,1728,25.34,0,cited_source_component
+United Kingdom,1733,36.34,0,cited_source_component
+United Kingdom,1738,35.26,0,cited_source_component
+United Kingdom,1743,34.27,0,cited_source_component
+United Kingdom,1748,36.47,0,cited_source_component
+United Kingdom,1753,39.77,0,cited_source_component
+United Kingdom,1758,38.12,0,cited_source_component
+United Kingdom,1763,35.37,0,cited_source_component
+United Kingdom,1768,36.19,0,cited_source_component
+United Kingdom,1773,39.09,0,cited_source_component
+United Kingdom,1778,37.74,0,cited_source_component
+United Kingdom,1783,35.81,0,cited_source_component
+United Kingdom,1788,38.97,0,cited_source_component
+United Kingdom,1793,37.92,0,cited_source_component
+United Kingdom,1798,38.93,0,cited_source_component
+United Kingdom,1803,40.02,0,cited_source_component
+United Kingdom,1808,40.58,0,cited_source_component
+United Kingdom,1813,41.25,0,cited_source_component
+United Kingdom,1818,40.84,0,cited_source_component
+United Kingdom,1823,40.47,0,cited_source_component
+United Kingdom,1828,41.43,0,cited_source_component
+United Kingdom,1833,40.89,0,cited_source_component
+United Kingdom,1838,40.56,0,cited_source_component
+England and Wales (males),1841,40.17,0,diagnostic_proxy_not_book_data
+United Kingdom,1842,40.995,0,cited_source_component
+United Kingdom,1843,41.56,0,cited_source_component
+United Kingdom,1844,41.24,0,cited_source_component
+England and Wales (males),1851,39.91,0,diagnostic_proxy_not_book_data
+England and Wales (males),1871,41.35,0,diagnostic_proxy_not_book_data
+England and Wales (males),1881,43.66,0,diagnostic_proxy_not_book_data
+England and Wales (males),1891,44.13,0,diagnostic_proxy_not_book_data
+England and Wales (males),1901,48.53,0,diagnostic_proxy_not_book_data
+England and Wales (males),1911,51.5,0,diagnostic_proxy_not_book_data
+England and Wales (males),1921,55.62,0,diagnostic_proxy_not_book_data
+England and Wales (males),1931,58.74,0,diagnostic_proxy_not_book_data
+England and Wales (males),1951,66.42,0,diagnostic_proxy_not_book_data
+England and Wales (males),1961,68.09,0,diagnostic_proxy_not_book_data
+England and Wales (males),1971,69.0,0,diagnostic_proxy_not_book_data
+England and Wales (males),1981,71.043,0,diagnostic_proxy_not_book_data
+England and Wales (males),1991,73.413,0,diagnostic_proxy_not_book_data
+England and Wales (males),2001,75.95795686,0,diagnostic_proxy_not_book_data
+England and Wales (males),2011,78.97,0,diagnostic_proxy_not_book_data
+England and Wales (males),1841,47.72,1,diagnostic_proxy_not_book_data
+England and Wales (males),1851,47.65,1,diagnostic_proxy_not_book_data
+England and Wales (males),1871,49.05,1,diagnostic_proxy_not_book_data
+England and Wales (males),1881,51.97,1,diagnostic_proxy_not_book_data
+England and Wales (males),1891,53.22,1,diagnostic_proxy_not_book_data
+England and Wales (males),1901,56.68,1,diagnostic_proxy_not_book_data
+England and Wales (males),1911,58.51,1,diagnostic_proxy_not_book_data
+England and Wales (males),1921,61.07,1,diagnostic_proxy_not_book_data
+England and Wales (males),1931,63.25,1,diagnostic_proxy_not_book_data
+England and Wales (males),1951,68.66,1,diagnostic_proxy_not_book_data
+England and Wales (males),1961,69.8,1,diagnostic_proxy_not_book_data
+England and Wales (males),1971,70.39,1,diagnostic_proxy_not_book_data
+England and Wales (males),1981,71.956,1,diagnostic_proxy_not_book_data
+England and Wales (males),1991,74.019,1,diagnostic_proxy_not_book_data
+England and Wales (males),2001,76.41154718,1,diagnostic_proxy_not_book_data
+England and Wales (males),2011,79.34,1,diagnostic_proxy_not_book_data
+England and Wales (males),1841,63.13,30,diagnostic_proxy_not_book_data
+England and Wales (males),1851,62.76,30,diagnostic_proxy_not_book_data
+England and Wales (males),1871,62.1,30,diagnostic_proxy_not_book_data
+England and Wales (males),1881,62.52,30,diagnostic_proxy_not_book_data
+England and Wales (males),1891,63.07,30,diagnostic_proxy_not_book_data
+England and Wales (males),1901,64.76,30,diagnostic_proxy_not_book_data
+England and Wales (males),1911,65.81,30,diagnostic_proxy_not_book_data
+England and Wales (males),1921,67.4,30,diagnostic_proxy_not_book_data
+England and Wales (males),1931,68.21,30,diagnostic_proxy_not_book_data
+England and Wales (males),1951,70.27,30,diagnostic_proxy_not_book_data
+England and Wales (males),1961,71.06,30,diagnostic_proxy_not_book_data
+England and Wales (males),1971,71.51,30,diagnostic_proxy_not_book_data
+England and Wales (males),1981,72.899,30,diagnostic_proxy_not_book_data
+England and Wales (males),1991,74.883,30,diagnostic_proxy_not_book_data
+England and Wales (males),2001,77.15960636,30,diagnostic_proxy_not_book_data
+England and Wales (males),2011,79.87,30,diagnostic_proxy_not_book_data
+England and Wales (males),1841,78.52,70,diagnostic_proxy_not_book_data
+England and Wales (males),1851,78.45,70,diagnostic_proxy_not_book_data
+England and Wales (males),1871,78.27,70,diagnostic_proxy_not_book_data
+England and Wales (males),1881,78.04,70,diagnostic_proxy_not_book_data
+England and Wales (males),1891,78.05,70,diagnostic_proxy_not_book_data
+England and Wales (males),1901,78.39,70,diagnostic_proxy_not_book_data
+England and Wales (males),1911,78.53,70,diagnostic_proxy_not_book_data
+England and Wales (males),1921,78.75,70,diagnostic_proxy_not_book_data
+England and Wales (males),1931,78.62,70,diagnostic_proxy_not_book_data
+England and Wales (males),1951,79.0,70,diagnostic_proxy_not_book_data
+England and Wales (males),1961,79.29,70,diagnostic_proxy_not_book_data
+England and Wales (males),1971,79.5,70,diagnostic_proxy_not_book_data
+England and Wales (males),1981,80.123,70,diagnostic_proxy_not_book_data
+England and Wales (males),1991,81.187,70,diagnostic_proxy_not_book_data
+England and Wales (males),2001,82.55566195,70,diagnostic_proxy_not_book_data
+England and Wales (males),2011,84.56,70,diagnostic_proxy_not_book_data

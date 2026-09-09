@@ -1,3 +1,9 @@
+# Consolidated Research History: Figure 4-1
+
+These are historical search records, not the current acceptance decision.
+
+## Local Work At efca1264944eabab2f733bc399027e22b8df6381
+
 # Figure 4-1 Source Log
 
 Date: 2026-07-09
@@ -47,3 +53,20 @@ Date: 2026-07-09
 ## Durable Blocker Rationale
 
 The only recovered Figure 10/11 objects are plot images embedded in First Monday or mirrored by GDELT. The project rule forbids digitizing Pinker's chart or Leetaru/GDELT plot images as source data. The original corpora are not included in the public article package, and no inspectable monthly table or reproducible extraction package was recovered.
+
+
+## GitHub Recovery At 9a19519494ec20f45b3ac3e6b3122d38a2bc0892
+
+# Source log - Figure 4-1
+
+| Candidate | Result | Decision |
+| --- | --- | --- |
+| *Enlightenment Now: Supplemental Graphics*, indexed page 1 | Exact title, axes, series, source line, and monthly note recovered; downloadable PDF unavailable from the host without account access | Accepted as book textual evidence; direct page-image verification remains unavailable |
+| Leetaru 2011, DOI 10.5210/fm.v16i9.3663 | Original article, method, corpus sizes, dates, and Figures 10-11 recovered | Accepted as original publication |
+| GDELT 2019 high-resolution mirror | States it mirrors the original high-resolution figures; PNGs recovered | Accepted as primary visual evidence |
+| Former ICHASS `Culturomics20` host | Moved/offline; archive wildcard query returned 503 | No numeric files recovered |
+| Current GDELT event/GKG data | Different corpus, collection process, and tone pipeline | Rejected as comparable successor |
+| Pixel extraction from Figures 10-11 | Would be digitization, not source recovery | Rejected |
+
+No monthly table, code repository, supplement, or exact final tone dictionary
+was linked from the paper or found in targeted searches.

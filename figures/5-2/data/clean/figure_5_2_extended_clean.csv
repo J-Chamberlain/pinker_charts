@@ -1,656 +1,528 @@
-Entity,Code,Year,under5_mortality_percent
-Canada,CAN,1900,30.41
-Canada,CAN,1901,27.16
-Canada,CAN,1902,21.66
-Canada,CAN,1903,21.28
-Canada,CAN,1904,16.78
-Canada,CAN,1906,20.53
-Canada,CAN,1908,33.99
-Canada,CAN,1909,22.22
-Canada,CAN,1910,28.27
-Canada,CAN,1911,30.08
-Canada,CAN,1912,26.19
-Canada,CAN,1913,27.32
-Canada,CAN,1914,26.19
-Canada,CAN,1915,24.79
-Canada,CAN,1916,26.85
-Canada,CAN,1917,21.66
-Canada,CAN,1918,22.03
-Canada,CAN,1919,22.78
-Canada,CAN,1920,26.52
-Canada,CAN,1921,14.44
-Canada,CAN,1922,14.39
-Canada,CAN,1923,14.11
-Canada,CAN,1924,12.71
-Canada,CAN,1925,12.24
-Canada,CAN,1926,13.26
-Canada,CAN,1927,12.49
-Canada,CAN,1928,12.07
-Canada,CAN,1929,12.75
-Canada,CAN,1930,12.47
-Canada,CAN,1931,11.56
-Canada,CAN,1932,9.88
-Canada,CAN,1933,9.29
-Canada,CAN,1934,9.19
-Canada,CAN,1935,9.15
-Canada,CAN,1936,8.62
-Canada,CAN,1937,10.33
-Canada,CAN,1938,8.64
-Canada,CAN,1939,8.08
-Canada,CAN,1940,7.78
-Canada,CAN,1941,8.06
-Canada,CAN,1942,7.31
-Canada,CAN,1943,7.02
-Canada,CAN,1944,6.87
-Canada,CAN,1945,6.13
-Canada,CAN,1946,6.12
-Canada,CAN,1947,5.99
-Canada,CAN,1948,5.39
-Canada,CAN,1949,5.13
-Canada,CAN,1950,4.86
-Canada,CAN,1951,4.61
-Canada,CAN,1952,4.38
-Canada,CAN,1953,4.17
-Canada,CAN,1954,3.99
-Canada,CAN,1955,3.83
-Canada,CAN,1956,3.7
-Canada,CAN,1957,3.58
-Canada,CAN,1958,3.47
-Canada,CAN,1959,3.36
-Canada,CAN,1960,3.26
-Canada,CAN,1961,3.16
-Canada,CAN,1962,3.05
-Canada,CAN,1963,2.94
-Canada,CAN,1964,2.82
-Canada,CAN,1965,2.71
-Canada,CAN,1966,2.6
-Canada,CAN,1967,2.5
-Canada,CAN,1968,2.39
-Canada,CAN,1969,2.29
-Canada,CAN,1970,2.2
-Canada,CAN,1971,2.1
-Canada,CAN,1972,1.99
-Canada,CAN,1973,1.89
-Canada,CAN,1974,1.79
-Canada,CAN,1975,1.7
-Canada,CAN,1976,1.6
-Canada,CAN,1977,1.51
-Canada,CAN,1978,1.42
-Canada,CAN,1979,1.33
-Canada,CAN,1980,1.25
-Canada,CAN,1981,1.18
-Canada,CAN,1982,1.12
-Canada,CAN,1983,1.06
-Canada,CAN,1984,1.01
-Canada,CAN,1985,0.97
-Canada,CAN,1986,0.94
-Canada,CAN,1987,0.91
-Canada,CAN,1988,0.88
-Canada,CAN,1989,0.86
-Canada,CAN,1990,0.83
-Canada,CAN,1991,0.8
-Canada,CAN,1992,0.77
-Canada,CAN,1993,0.74
-Canada,CAN,1994,0.72
-Canada,CAN,1995,0.69
-Canada,CAN,1996,0.67
-Canada,CAN,1997,0.65
-Canada,CAN,1998,0.64
-Canada,CAN,1999,0.63
-Canada,CAN,2000,0.62
-Canada,CAN,2001,0.62
-Canada,CAN,2002,0.62
-Canada,CAN,2003,0.62
-Canada,CAN,2004,0.61
-Canada,CAN,2005,0.61
-Canada,CAN,2006,0.6
-Canada,CAN,2007,0.6
-Canada,CAN,2008,0.59
-Canada,CAN,2009,0.58
-Canada,CAN,2010,0.57
-Canada,CAN,2011,0.56
-Canada,CAN,2012,0.56
-Canada,CAN,2013,0.55
-Canada,CAN,2014,0.54
-Canada,CAN,2015,0.53
-Canada,CAN,2016,0.53
-Canada,CAN,2017,0.52
-Canada,CAN,2018,0.52
-Canada,CAN,2019,0.52
-Canada,CAN,2020,0.52
-Canada,CAN,2021,0.52
-Canada,CAN,2022,0.53
-Canada,CAN,2023,0.54
-Canada,CAN,2024,0.54
-Chile,CHL,1901,55.22
-Chile,CHL,1902,43.85
-Chile,CHL,1903,42.87
-Chile,CHL,1904,46.45
-Chile,CHL,1905,40.45
-Chile,CHL,1906,53.1
-Chile,CHL,1907,48.4
-Chile,CHL,1908,51.64
-Chile,CHL,1909,51.16
-Chile,CHL,1910,43.36
-Chile,CHL,1911,54.08
-Chile,CHL,1912,46.61
-Chile,CHL,1913,46.45
-Chile,CHL,1914,41.41
-Chile,CHL,1915,41.25
-Chile,CHL,1916,39.16
-Chile,CHL,1917,43.69
-Chile,CHL,1918,41.41
-Chile,CHL,1919,49.69
-Chile,CHL,1920,42.71
-Chile,CHL,1921,45.15
-Chile,CHL,1922,39.0
-Chile,CHL,1923,45.96
-Chile,CHL,1924,43.2
-Chile,CHL,1925,41.9
-Chile,CHL,1926,40.77
-Chile,CHL,1927,36.73
-Chile,CHL,1928,34.47
-Chile,CHL,1929,36.41
-Chile,CHL,1930,38.03
-Chile,CHL,1931,37.7
-Chile,CHL,1932,38.19
-Chile,CHL,1933,41.9
-Chile,CHL,1934,42.55
-Chile,CHL,1935,40.77
-Chile,CHL,1936,40.93
-Chile,CHL,1937,39.16
-Chile,CHL,1938,38.35
-Chile,CHL,1939,36.57
-Chile,CHL,1940,35.28
-Chile,CHL,1941,32.53
-Chile,CHL,1942,31.71
-Chile,CHL,1943,31.55
-Chile,CHL,1944,29.42
-Chile,CHL,1945,29.91
-Chile,CHL,1946,26.02
-Chile,CHL,1947,26.19
-Chile,CHL,1948,23.7
-Chile,CHL,1949,25.15
-Chile,CHL,1950,23.83
-Chile,CHL,1951,22.94
-Chile,CHL,1952,22.06
-Chile,CHL,1953,21.24
-Chile,CHL,1954,14.99
-Chile,CHL,1955,14.9
-Chile,CHL,1956,15.01
-Chile,CHL,1957,15.25
-Chile,CHL,1958,15.44
-Chile,CHL,1959,15.46
-Chile,CHL,1960,15.28
-Chile,CHL,1961,14.9
-Chile,CHL,1962,14.33
-Chile,CHL,1963,13.59
-Chile,CHL,1964,12.67
-Chile,CHL,1965,11.6
-Chile,CHL,1966,10.41
-Chile,CHL,1967,9.34
-Chile,CHL,1968,8.6
-Chile,CHL,1969,8.23
-Chile,CHL,1970,8.07
-Chile,CHL,1971,7.92
-Chile,CHL,1972,7.74
-Chile,CHL,1973,7.48
-Chile,CHL,1974,7.1
-Chile,CHL,1975,6.5
-Chile,CHL,1976,5.68
-Chile,CHL,1977,4.84
-Chile,CHL,1978,4.16
-Chile,CHL,1979,3.69
-Chile,CHL,1980,3.32
-Chile,CHL,1981,2.99
-Chile,CHL,1982,2.69
-Chile,CHL,1983,2.47
-Chile,CHL,1984,2.32
-Chile,CHL,1985,2.23
-Chile,CHL,1986,2.21
-Chile,CHL,1987,2.19
-Chile,CHL,1988,2.15
-Chile,CHL,1989,2.04
-Chile,CHL,1990,1.9
-Chile,CHL,1991,1.76
-Chile,CHL,1992,1.63
-Chile,CHL,1993,1.5
-Chile,CHL,1994,1.39
-Chile,CHL,1995,1.31
-Chile,CHL,1996,1.26
-Chile,CHL,1997,1.22
-Chile,CHL,1998,1.19
-Chile,CHL,1999,1.14
-Chile,CHL,2000,1.09
-Chile,CHL,2001,1.03
-Chile,CHL,2002,0.98
-Chile,CHL,2003,0.94
-Chile,CHL,2004,0.92
-Chile,CHL,2005,0.91
-Chile,CHL,2006,0.9
-Chile,CHL,2007,0.89
-Chile,CHL,2008,0.88
-Chile,CHL,2009,0.88
-Chile,CHL,2010,0.87
-Chile,CHL,2011,0.86
-Chile,CHL,2012,0.84
-Chile,CHL,2013,0.83
-Chile,CHL,2014,0.81
-Chile,CHL,2015,0.79
-Chile,CHL,2016,0.77
-Chile,CHL,2017,0.76
-Chile,CHL,2018,0.73
-Chile,CHL,2019,0.7
-Chile,CHL,2020,0.68
-Chile,CHL,2021,0.67
-Chile,CHL,2022,0.68
-Chile,CHL,2023,0.69
-Chile,CHL,2024,0.68
-Ethiopia,ETH,1966,25.14
-Ethiopia,ETH,1967,25.08
-Ethiopia,ETH,1968,25.03
-Ethiopia,ETH,1969,25.01
-Ethiopia,ETH,1970,24.96
-Ethiopia,ETH,1971,24.93
-Ethiopia,ETH,1972,28.9
-Ethiopia,ETH,1973,28.76
-Ethiopia,ETH,1974,28.61
-Ethiopia,ETH,1975,28.48
-Ethiopia,ETH,1976,24.7
-Ethiopia,ETH,1977,24.64
-Ethiopia,ETH,1978,24.57
-Ethiopia,ETH,1979,24.4
-Ethiopia,ETH,1980,24.19
-Ethiopia,ETH,1981,23.92
-Ethiopia,ETH,1982,23.58
-Ethiopia,ETH,1983,32.33
-Ethiopia,ETH,1984,31.73
-Ethiopia,ETH,1985,30.6
-Ethiopia,ETH,1986,29.95
-Ethiopia,ETH,1987,21.51
-Ethiopia,ETH,1988,21.09
-Ethiopia,ETH,1989,20.65
-Ethiopia,ETH,1990,20.2
-Ethiopia,ETH,1991,19.7
-Ethiopia,ETH,1992,19.15
-Ethiopia,ETH,1993,18.55
-Ethiopia,ETH,1994,17.89
-Ethiopia,ETH,1995,17.23
-Ethiopia,ETH,1996,16.56
-Ethiopia,ETH,1997,15.9
-Ethiopia,ETH,1998,15.25
-Ethiopia,ETH,1999,14.63
-Ethiopia,ETH,2000,14.01
-Ethiopia,ETH,2001,13.38
-Ethiopia,ETH,2002,12.74
-Ethiopia,ETH,2003,12.1
-Ethiopia,ETH,2004,11.46
-Ethiopia,ETH,2005,10.83
-Ethiopia,ETH,2006,10.24
-Ethiopia,ETH,2007,9.69
-Ethiopia,ETH,2008,9.18
-Ethiopia,ETH,2009,8.71
-Ethiopia,ETH,2010,8.27
-Ethiopia,ETH,2011,7.86
-Ethiopia,ETH,2012,7.48
-Ethiopia,ETH,2013,7.12
-Ethiopia,ETH,2014,6.77
-Ethiopia,ETH,2015,6.44
-Ethiopia,ETH,2016,6.13
-Ethiopia,ETH,2017,5.84
-Ethiopia,ETH,2018,5.58
-Ethiopia,ETH,2019,5.36
-Ethiopia,ETH,2020,5.15
-Ethiopia,ETH,2021,7.04
-Ethiopia,ETH,2022,6.81
-Ethiopia,ETH,2023,5.15
-Ethiopia,ETH,2024,4.45
-South Korea,KOR,1950,36.94
-South Korea,KOR,1951,31.29
-South Korea,KOR,1952,26.61
-South Korea,KOR,1953,22.76
-South Korea,KOR,1954,19.66
-South Korea,KOR,1955,17.23
-South Korea,KOR,1956,15.37
-South Korea,KOR,1957,13.92
-South Korea,KOR,1958,12.82
-South Korea,KOR,1959,11.97
-South Korea,KOR,1960,11.29
-South Korea,KOR,1961,10.72
-South Korea,KOR,1962,10.23
-South Korea,KOR,1963,9.74
-South Korea,KOR,1964,9.24
-South Korea,KOR,1965,8.73
-South Korea,KOR,1966,8.19
-South Korea,KOR,1967,7.65
-South Korea,KOR,1968,7.11
-South Korea,KOR,1969,6.6
-South Korea,KOR,1970,6.14
-South Korea,KOR,1971,5.72
-South Korea,KOR,1972,5.37
-South Korea,KOR,1973,5.08
-South Korea,KOR,1974,4.83
-South Korea,KOR,1975,4.62
-South Korea,KOR,1976,4.42
-South Korea,KOR,1977,4.24
-South Korea,KOR,1978,4.04
-South Korea,KOR,1979,3.85
-South Korea,KOR,1980,3.63
-South Korea,KOR,1981,3.4
-South Korea,KOR,1982,3.16
-South Korea,KOR,1983,2.93
-South Korea,KOR,1984,2.69
-South Korea,KOR,1985,2.46
-South Korea,KOR,1986,2.24
-South Korea,KOR,1987,2.05
-South Korea,KOR,1988,1.87
-South Korea,KOR,1989,1.71
-South Korea,KOR,1990,1.57
-South Korea,KOR,1991,1.45
-South Korea,KOR,1992,1.33
-South Korea,KOR,1993,1.23
-South Korea,KOR,1994,1.14
-South Korea,KOR,1995,1.05
-South Korea,KOR,1996,0.98
-South Korea,KOR,1997,0.91
-South Korea,KOR,1998,0.85
-South Korea,KOR,1999,0.8
-South Korea,KOR,2000,0.76
-South Korea,KOR,2001,0.72
-South Korea,KOR,2002,0.68
-South Korea,KOR,2003,0.64
-South Korea,KOR,2004,0.6
-South Korea,KOR,2005,0.56
-South Korea,KOR,2006,0.52
-South Korea,KOR,2007,0.48
-South Korea,KOR,2008,0.45
-South Korea,KOR,2009,0.43
-South Korea,KOR,2010,0.41
-South Korea,KOR,2011,0.4
-South Korea,KOR,2012,0.38
-South Korea,KOR,2013,0.37
-South Korea,KOR,2014,0.36
-South Korea,KOR,2015,0.35
-South Korea,KOR,2016,0.34
-South Korea,KOR,2017,0.33
-South Korea,KOR,2018,0.32
-South Korea,KOR,2019,0.31
-South Korea,KOR,2020,0.31
-South Korea,KOR,2021,0.3
-South Korea,KOR,2022,0.29
-South Korea,KOR,2023,0.29
-South Korea,KOR,2024,0.28
-Sweden,SWE,1751,29.98
-Sweden,SWE,1752,35.97
-Sweden,SWE,1753,30.34
-Sweden,SWE,1754,32.69
-Sweden,SWE,1755,34.5
-Sweden,SWE,1756,33.78
-Sweden,SWE,1757,35.63
-Sweden,SWE,1758,33.53
-Sweden,SWE,1759,28.5
-Sweden,SWE,1760,27.26
-Sweden,SWE,1761,31.56
-Sweden,SWE,1762,37.7
-Sweden,SWE,1763,39.53
-Sweden,SWE,1764,31.61
-Sweden,SWE,1765,31.6
-Sweden,SWE,1766,31.19
-Sweden,SWE,1767,29.85
-Sweden,SWE,1768,35.75
-Sweden,SWE,1769,35.85
-Sweden,SWE,1770,32.54
-Sweden,SWE,1771,32.33
-Sweden,SWE,1772,36.66
-Sweden,SWE,1773,48.97
-Sweden,SWE,1774,27.96
-Sweden,SWE,1775,30.59
-Sweden,SWE,1776,25.62
-Sweden,SWE,1777,30.21
-Sweden,SWE,1778,35.32
-Sweden,SWE,1779,39.42
-Sweden,SWE,1780,26.11
-Sweden,SWE,1781,30.04
-Sweden,SWE,1782,30.1
-Sweden,SWE,1783,34.46
-Sweden,SWE,1784,38.22
-Sweden,SWE,1785,34.46
-Sweden,SWE,1786,29.49
-Sweden,SWE,1787,27.03
-Sweden,SWE,1788,32.59
-Sweden,SWE,1789,34.38
-Sweden,SWE,1790,32.55
-Sweden,SWE,1791,28.62
-Sweden,SWE,1792,29.73
-Sweden,SWE,1793,29.98
-Sweden,SWE,1794,28.06
-Sweden,SWE,1795,31.45
-Sweden,SWE,1796,31.53
-Sweden,SWE,1797,29.4
-Sweden,SWE,1798,27.17
-Sweden,SWE,1799,28.9
-Sweden,SWE,1800,38.11
-Sweden,SWE,1801,32.88
-Sweden,SWE,1802,28.29
-Sweden,SWE,1803,27.53
-Sweden,SWE,1804,27.17
-Sweden,SWE,1805,26.59
-Sweden,SWE,1806,33.28
-Sweden,SWE,1807,27.83
-Sweden,SWE,1808,34.96
-Sweden,SWE,1809,36.59
-Sweden,SWE,1810,34.6
-Sweden,SWE,1811,32.46
-Sweden,SWE,1812,31.22
-Sweden,SWE,1813,30.36
-Sweden,SWE,1814,29.94
-Sweden,SWE,1815,27.46
-Sweden,SWE,1816,27.35
-Sweden,SWE,1817,27.61
-Sweden,SWE,1818,26.97
-Sweden,SWE,1819,29.36
-Sweden,SWE,1820,26.08
-Sweden,SWE,1821,30.51
-Sweden,SWE,1822,24.5
-Sweden,SWE,1823,21.76
-Sweden,SWE,1824,22.46
-Sweden,SWE,1825,22.79
-Sweden,SWE,1826,24.22
-Sweden,SWE,1827,22.63
-Sweden,SWE,1828,28.21
-Sweden,SWE,1829,30.3
-Sweden,SWE,1830,25.49
-Sweden,SWE,1831,27.59
-Sweden,SWE,1832,25.6
-Sweden,SWE,1833,24.44
-Sweden,SWE,1834,25.26
-Sweden,SWE,1835,20.0
-Sweden,SWE,1836,22.5
-Sweden,SWE,1837,27.97
-Sweden,SWE,1838,25.36
-Sweden,SWE,1839,25.16
-Sweden,SWE,1840,22.07
-Sweden,SWE,1841,22.08
-Sweden,SWE,1842,24.24
-Sweden,SWE,1843,23.27
-Sweden,SWE,1844,22.62
-Sweden,SWE,1845,21.48
-Sweden,SWE,1846,24.97
-Sweden,SWE,1847,27.01
-Sweden,SWE,1848,21.24
-Sweden,SWE,1849,22.7
-Sweden,SWE,1850,21.79
-Sweden,SWE,1851,23.23
-Sweden,SWE,1852,25.03
-Sweden,SWE,1853,25.74
-Sweden,SWE,1854,21.97
-Sweden,SWE,1855,22.62
-Sweden,SWE,1856,24.59
-Sweden,SWE,1857,30.99
-Sweden,SWE,1858,24.8
-Sweden,SWE,1859,23.21
-Sweden,SWE,1860,19.66
-Sweden,SWE,1861,21.68
-Sweden,SWE,1862,26.55
-Sweden,SWE,1863,23.67
-Sweden,SWE,1864,23.54
-Sweden,SWE,1865,23.29
-Sweden,SWE,1866,22.17
-Sweden,SWE,1867,21.06
-Sweden,SWE,1868,24.94
-Sweden,SWE,1869,27.14
-Sweden,SWE,1870,22.05
-Sweden,SWE,1871,18.35
-Sweden,SWE,1872,18.69
-Sweden,SWE,1873,19.74
-Sweden,SWE,1874,22.99
-Sweden,SWE,1875,23.25
-Sweden,SWE,1876,23.73
-Sweden,SWE,1877,22.78
-Sweden,SWE,1878,22.69
-Sweden,SWE,1879,19.69
-Sweden,SWE,1880,20.39
-Sweden,SWE,1881,19.49
-Sweden,SWE,1882,20.66
-Sweden,SWE,1883,19.73
-Sweden,SWE,1884,19.23
-Sweden,SWE,1885,19.5
-Sweden,SWE,1886,18.34
-Sweden,SWE,1887,17.34
-Sweden,SWE,1888,16.07
-Sweden,SWE,1889,16.25
-Sweden,SWE,1890,17.76
-Sweden,SWE,1891,17.89
-Sweden,SWE,1892,17.1
-Sweden,SWE,1893,16.69
-Sweden,SWE,1894,16.15
-Sweden,SWE,1895,14.7
-Sweden,SWE,1896,15.62
-Sweden,SWE,1897,14.86
-Sweden,SWE,1898,14.06
-Sweden,SWE,1899,17.17
-Sweden,SWE,1900,15.52
-Sweden,SWE,1901,15.71
-Sweden,SWE,1902,13.56
-Sweden,SWE,1903,13.86
-Sweden,SWE,1904,12.72
-Sweden,SWE,1905,13.18
-Sweden,SWE,1906,11.78
-Sweden,SWE,1907,11.22
-Sweden,SWE,1908,12.22
-Sweden,SWE,1909,10.34
-Sweden,SWE,1910,10.82
-Sweden,SWE,1911,10.42
-Sweden,SWE,1912,10.37
-Sweden,SWE,1913,9.76
-Sweden,SWE,1914,10.13
-Sweden,SWE,1915,10.53
-Sweden,SWE,1916,10.16
-Sweden,SWE,1917,9.3
-Sweden,SWE,1918,10.59
-Sweden,SWE,1919,10.48
-Sweden,SWE,1920,9.78
-Sweden,SWE,1921,8.46
-Sweden,SWE,1922,8.04
-Sweden,SWE,1923,7.38
-Sweden,SWE,1924,8.12
-Sweden,SWE,1925,7.34
-Sweden,SWE,1926,7.25
-Sweden,SWE,1927,7.85
-Sweden,SWE,1928,7.86
-Sweden,SWE,1929,7.32
-Sweden,SWE,1930,6.95
-Sweden,SWE,1931,7.14
-Sweden,SWE,1932,6.44
-Sweden,SWE,1933,6.1
-Sweden,SWE,1934,5.95
-Sweden,SWE,1935,5.82
-Sweden,SWE,1936,5.73
-Sweden,SWE,1937,5.85
-Sweden,SWE,1938,5.43
-Sweden,SWE,1939,4.97
-Sweden,SWE,1940,4.69
-Sweden,SWE,1941,4.72
-Sweden,SWE,1942,3.82
-Sweden,SWE,1943,3.82
-Sweden,SWE,1944,4.14
-Sweden,SWE,1945,3.82
-Sweden,SWE,1946,3.2
-Sweden,SWE,1947,3.05
-Sweden,SWE,1948,2.8
-Sweden,SWE,1949,2.76
-Sweden,SWE,1950,2.71
-Sweden,SWE,1951,2.57
-Sweden,SWE,1952,2.43
-Sweden,SWE,1953,2.32
-Sweden,SWE,1954,2.23
-Sweden,SWE,1955,2.16
-Sweden,SWE,1956,2.11
-Sweden,SWE,1957,2.06
-Sweden,SWE,1958,2.02
-Sweden,SWE,1959,1.99
-Sweden,SWE,1960,1.96
-Sweden,SWE,1961,1.91
-Sweden,SWE,1962,1.86
-Sweden,SWE,1963,1.79
-Sweden,SWE,1964,1.71
-Sweden,SWE,1965,1.63
-Sweden,SWE,1966,1.55
-Sweden,SWE,1967,1.49
-Sweden,SWE,1968,1.44
-Sweden,SWE,1969,1.39
-Sweden,SWE,1970,1.34
-Sweden,SWE,1971,1.28
-Sweden,SWE,1972,1.22
-Sweden,SWE,1973,1.16
-Sweden,SWE,1974,1.1
-Sweden,SWE,1975,1.03
-Sweden,SWE,1976,0.98
-Sweden,SWE,1977,0.94
-Sweden,SWE,1978,0.9
-Sweden,SWE,1979,0.87
-Sweden,SWE,1980,0.84
-Sweden,SWE,1981,0.82
-Sweden,SWE,1982,0.8
-Sweden,SWE,1983,0.78
-Sweden,SWE,1984,0.77
-Sweden,SWE,1985,0.76
-Sweden,SWE,1986,0.75
-Sweden,SWE,1987,0.74
-Sweden,SWE,1988,0.73
-Sweden,SWE,1989,0.72
-Sweden,SWE,1990,0.7
-Sweden,SWE,1991,0.66
-Sweden,SWE,1992,0.62
-Sweden,SWE,1993,0.57
-Sweden,SWE,1994,0.52
-Sweden,SWE,1995,0.48
-Sweden,SWE,1996,0.46
-Sweden,SWE,1997,0.44
-Sweden,SWE,1998,0.42
-Sweden,SWE,1999,0.42
-Sweden,SWE,2000,0.41
-Sweden,SWE,2001,0.4
-Sweden,SWE,2002,0.4
-Sweden,SWE,2003,0.39
-Sweden,SWE,2004,0.37
-Sweden,SWE,2005,0.36
-Sweden,SWE,2006,0.35
-Sweden,SWE,2007,0.33
-Sweden,SWE,2008,0.32
-Sweden,SWE,2009,0.31
-Sweden,SWE,2010,0.31
-Sweden,SWE,2011,0.3
-Sweden,SWE,2012,0.3
-Sweden,SWE,2013,0.29
-Sweden,SWE,2014,0.29
-Sweden,SWE,2015,0.29
-Sweden,SWE,2016,0.28
-Sweden,SWE,2017,0.28
-Sweden,SWE,2018,0.27
-Sweden,SWE,2019,0.26
-Sweden,SWE,2020,0.26
-Sweden,SWE,2021,0.25
-Sweden,SWE,2022,0.25
-Sweden,SWE,2023,0.24
-Sweden,SWE,2024,0.24
+Entity,Code,Year,under5_mortality_percent,source_role
+Canada,CAN,1921,14.44,current_owid_successor_proxy
+Canada,CAN,1922,14.39,current_owid_successor_proxy
+Canada,CAN,1923,14.11,current_owid_successor_proxy
+Canada,CAN,1924,12.71,current_owid_successor_proxy
+Canada,CAN,1925,12.24,current_owid_successor_proxy
+Canada,CAN,1926,13.26,current_owid_successor_proxy
+Canada,CAN,1927,12.49,current_owid_successor_proxy
+Canada,CAN,1928,12.07,current_owid_successor_proxy
+Canada,CAN,1929,12.75,current_owid_successor_proxy
+Canada,CAN,1930,12.47,current_owid_successor_proxy
+Canada,CAN,1931,11.56,current_owid_successor_proxy
+Canada,CAN,1932,9.88,current_owid_successor_proxy
+Canada,CAN,1933,9.29,current_owid_successor_proxy
+Canada,CAN,1934,9.19,current_owid_successor_proxy
+Canada,CAN,1935,9.15,current_owid_successor_proxy
+Canada,CAN,1936,8.62,current_owid_successor_proxy
+Canada,CAN,1937,10.33,current_owid_successor_proxy
+Canada,CAN,1938,8.64,current_owid_successor_proxy
+Canada,CAN,1939,8.08,current_owid_successor_proxy
+Canada,CAN,1940,7.78,current_owid_successor_proxy
+Canada,CAN,1941,8.06,current_owid_successor_proxy
+Canada,CAN,1942,7.31,current_owid_successor_proxy
+Canada,CAN,1943,7.02,current_owid_successor_proxy
+Canada,CAN,1944,6.87,current_owid_successor_proxy
+Canada,CAN,1945,6.13,current_owid_successor_proxy
+Canada,CAN,1946,6.12,current_owid_successor_proxy
+Canada,CAN,1947,5.99,current_owid_successor_proxy
+Canada,CAN,1948,5.39,current_owid_successor_proxy
+Canada,CAN,1949,5.13,current_owid_successor_proxy
+Canada,CAN,1950,4.86,current_owid_successor_proxy
+Canada,CAN,1951,4.61,current_owid_successor_proxy
+Canada,CAN,1952,4.38,current_owid_successor_proxy
+Canada,CAN,1953,4.17,current_owid_successor_proxy
+Canada,CAN,1954,3.99,current_owid_successor_proxy
+Canada,CAN,1955,3.83,current_owid_successor_proxy
+Canada,CAN,1956,3.7,current_owid_successor_proxy
+Canada,CAN,1957,3.58,current_owid_successor_proxy
+Canada,CAN,1958,3.47,current_owid_successor_proxy
+Canada,CAN,1959,3.36,current_owid_successor_proxy
+Canada,CAN,1960,3.26,current_owid_successor_proxy
+Canada,CAN,1961,3.16,current_owid_successor_proxy
+Canada,CAN,1962,3.05,current_owid_successor_proxy
+Canada,CAN,1963,2.94,current_owid_successor_proxy
+Canada,CAN,1964,2.82,current_owid_successor_proxy
+Canada,CAN,1965,2.71,current_owid_successor_proxy
+Canada,CAN,1966,2.6,current_owid_successor_proxy
+Canada,CAN,1967,2.5,current_owid_successor_proxy
+Canada,CAN,1968,2.39,current_owid_successor_proxy
+Canada,CAN,1969,2.29,current_owid_successor_proxy
+Canada,CAN,1970,2.2,current_owid_successor_proxy
+Canada,CAN,1971,2.1,current_owid_successor_proxy
+Canada,CAN,1972,1.99,current_owid_successor_proxy
+Canada,CAN,1973,1.89,current_owid_successor_proxy
+Canada,CAN,1974,1.79,current_owid_successor_proxy
+Canada,CAN,1975,1.7,current_owid_successor_proxy
+Canada,CAN,1976,1.6,current_owid_successor_proxy
+Canada,CAN,1977,1.51,current_owid_successor_proxy
+Canada,CAN,1978,1.42,current_owid_successor_proxy
+Canada,CAN,1979,1.33,current_owid_successor_proxy
+Canada,CAN,1980,1.25,current_owid_successor_proxy
+Canada,CAN,1981,1.18,current_owid_successor_proxy
+Canada,CAN,1982,1.12,current_owid_successor_proxy
+Canada,CAN,1983,1.06,current_owid_successor_proxy
+Canada,CAN,1984,1.01,current_owid_successor_proxy
+Canada,CAN,1985,0.97,current_owid_successor_proxy
+Canada,CAN,1986,0.94,current_owid_successor_proxy
+Canada,CAN,1987,0.91,current_owid_successor_proxy
+Canada,CAN,1988,0.88,current_owid_successor_proxy
+Canada,CAN,1989,0.86,current_owid_successor_proxy
+Canada,CAN,1990,0.83,current_owid_successor_proxy
+Canada,CAN,1991,0.8,current_owid_successor_proxy
+Canada,CAN,1992,0.77,current_owid_successor_proxy
+Canada,CAN,1993,0.74,current_owid_successor_proxy
+Canada,CAN,1994,0.72,current_owid_successor_proxy
+Canada,CAN,1995,0.69,current_owid_successor_proxy
+Canada,CAN,1996,0.67,current_owid_successor_proxy
+Canada,CAN,1997,0.65,current_owid_successor_proxy
+Canada,CAN,1998,0.64,current_owid_successor_proxy
+Canada,CAN,1999,0.63,current_owid_successor_proxy
+Canada,CAN,2000,0.62,current_owid_successor_proxy
+Canada,CAN,2001,0.62,current_owid_successor_proxy
+Canada,CAN,2002,0.62,current_owid_successor_proxy
+Canada,CAN,2003,0.62,current_owid_successor_proxy
+Canada,CAN,2004,0.61,current_owid_successor_proxy
+Canada,CAN,2005,0.61,current_owid_successor_proxy
+Canada,CAN,2006,0.6,current_owid_successor_proxy
+Canada,CAN,2007,0.6,current_owid_successor_proxy
+Canada,CAN,2008,0.59,current_owid_successor_proxy
+Canada,CAN,2009,0.58,current_owid_successor_proxy
+Canada,CAN,2010,0.57,current_owid_successor_proxy
+Canada,CAN,2011,0.56,current_owid_successor_proxy
+Canada,CAN,2012,0.56,current_owid_successor_proxy
+Canada,CAN,2013,0.55,current_owid_successor_proxy
+Chile,CHL,1955,14.9,current_owid_successor_proxy
+Chile,CHL,1956,15.01,current_owid_successor_proxy
+Chile,CHL,1957,15.25,current_owid_successor_proxy
+Chile,CHL,1958,15.44,current_owid_successor_proxy
+Chile,CHL,1959,15.46,current_owid_successor_proxy
+Chile,CHL,1960,15.28,current_owid_successor_proxy
+Chile,CHL,1961,14.9,current_owid_successor_proxy
+Chile,CHL,1962,14.33,current_owid_successor_proxy
+Chile,CHL,1963,13.59,current_owid_successor_proxy
+Chile,CHL,1964,12.67,current_owid_successor_proxy
+Chile,CHL,1965,11.6,current_owid_successor_proxy
+Chile,CHL,1966,10.41,current_owid_successor_proxy
+Chile,CHL,1967,9.34,current_owid_successor_proxy
+Chile,CHL,1968,8.6,current_owid_successor_proxy
+Chile,CHL,1969,8.23,current_owid_successor_proxy
+Chile,CHL,1970,8.07,current_owid_successor_proxy
+Chile,CHL,1971,7.92,current_owid_successor_proxy
+Chile,CHL,1972,7.74,current_owid_successor_proxy
+Chile,CHL,1973,7.48,current_owid_successor_proxy
+Chile,CHL,1974,7.1,current_owid_successor_proxy
+Chile,CHL,1975,6.5,current_owid_successor_proxy
+Chile,CHL,1976,5.68,current_owid_successor_proxy
+Chile,CHL,1977,4.84,current_owid_successor_proxy
+Chile,CHL,1978,4.16,current_owid_successor_proxy
+Chile,CHL,1979,3.69,current_owid_successor_proxy
+Chile,CHL,1980,3.32,current_owid_successor_proxy
+Chile,CHL,1981,2.99,current_owid_successor_proxy
+Chile,CHL,1982,2.69,current_owid_successor_proxy
+Chile,CHL,1983,2.47,current_owid_successor_proxy
+Chile,CHL,1984,2.32,current_owid_successor_proxy
+Chile,CHL,1985,2.23,current_owid_successor_proxy
+Chile,CHL,1986,2.21,current_owid_successor_proxy
+Chile,CHL,1987,2.19,current_owid_successor_proxy
+Chile,CHL,1988,2.15,current_owid_successor_proxy
+Chile,CHL,1989,2.04,current_owid_successor_proxy
+Chile,CHL,1990,1.9,current_owid_successor_proxy
+Chile,CHL,1991,1.76,current_owid_successor_proxy
+Chile,CHL,1992,1.63,current_owid_successor_proxy
+Chile,CHL,1993,1.5,current_owid_successor_proxy
+Chile,CHL,1994,1.39,current_owid_successor_proxy
+Chile,CHL,1995,1.31,current_owid_successor_proxy
+Chile,CHL,1996,1.26,current_owid_successor_proxy
+Chile,CHL,1997,1.22,current_owid_successor_proxy
+Chile,CHL,1998,1.19,current_owid_successor_proxy
+Chile,CHL,1999,1.14,current_owid_successor_proxy
+Chile,CHL,2000,1.09,current_owid_successor_proxy
+Chile,CHL,2001,1.03,current_owid_successor_proxy
+Chile,CHL,2002,0.98,current_owid_successor_proxy
+Chile,CHL,2003,0.94,current_owid_successor_proxy
+Chile,CHL,2004,0.92,current_owid_successor_proxy
+Chile,CHL,2005,0.91,current_owid_successor_proxy
+Chile,CHL,2006,0.9,current_owid_successor_proxy
+Chile,CHL,2007,0.89,current_owid_successor_proxy
+Chile,CHL,2008,0.88,current_owid_successor_proxy
+Chile,CHL,2009,0.88,current_owid_successor_proxy
+Chile,CHL,2010,0.87,current_owid_successor_proxy
+Chile,CHL,2011,0.86,current_owid_successor_proxy
+Chile,CHL,2012,0.84,current_owid_successor_proxy
+Chile,CHL,2013,0.83,current_owid_successor_proxy
+Ethiopia,ETH,1966,25.14,current_owid_successor_proxy
+Ethiopia,ETH,1967,25.08,current_owid_successor_proxy
+Ethiopia,ETH,1968,25.03,current_owid_successor_proxy
+Ethiopia,ETH,1969,25.01,current_owid_successor_proxy
+Ethiopia,ETH,1970,24.96,current_owid_successor_proxy
+Ethiopia,ETH,1971,24.93,current_owid_successor_proxy
+Ethiopia,ETH,1972,28.9,current_owid_successor_proxy
+Ethiopia,ETH,1973,28.76,current_owid_successor_proxy
+Ethiopia,ETH,1974,28.61,current_owid_successor_proxy
+Ethiopia,ETH,1975,28.48,current_owid_successor_proxy
+Ethiopia,ETH,1976,24.7,current_owid_successor_proxy
+Ethiopia,ETH,1977,24.64,current_owid_successor_proxy
+Ethiopia,ETH,1978,24.57,current_owid_successor_proxy
+Ethiopia,ETH,1979,24.4,current_owid_successor_proxy
+Ethiopia,ETH,1980,24.19,current_owid_successor_proxy
+Ethiopia,ETH,1981,23.92,current_owid_successor_proxy
+Ethiopia,ETH,1982,23.58,current_owid_successor_proxy
+Ethiopia,ETH,1983,32.33,current_owid_successor_proxy
+Ethiopia,ETH,1984,31.73,current_owid_successor_proxy
+Ethiopia,ETH,1985,30.6,current_owid_successor_proxy
+Ethiopia,ETH,1986,29.95,current_owid_successor_proxy
+Ethiopia,ETH,1987,21.51,current_owid_successor_proxy
+Ethiopia,ETH,1988,21.09,current_owid_successor_proxy
+Ethiopia,ETH,1989,20.65,current_owid_successor_proxy
+Ethiopia,ETH,1990,20.2,current_owid_successor_proxy
+Ethiopia,ETH,1991,19.7,current_owid_successor_proxy
+Ethiopia,ETH,1992,19.15,current_owid_successor_proxy
+Ethiopia,ETH,1993,18.55,current_owid_successor_proxy
+Ethiopia,ETH,1994,17.89,current_owid_successor_proxy
+Ethiopia,ETH,1995,17.23,current_owid_successor_proxy
+Ethiopia,ETH,1996,16.56,current_owid_successor_proxy
+Ethiopia,ETH,1997,15.9,current_owid_successor_proxy
+Ethiopia,ETH,1998,15.25,current_owid_successor_proxy
+Ethiopia,ETH,1999,14.63,current_owid_successor_proxy
+Ethiopia,ETH,2000,14.01,current_owid_successor_proxy
+Ethiopia,ETH,2001,13.38,current_owid_successor_proxy
+Ethiopia,ETH,2002,12.74,current_owid_successor_proxy
+Ethiopia,ETH,2003,12.1,current_owid_successor_proxy
+Ethiopia,ETH,2004,11.46,current_owid_successor_proxy
+Ethiopia,ETH,2005,10.83,current_owid_successor_proxy
+Ethiopia,ETH,2006,10.24,current_owid_successor_proxy
+Ethiopia,ETH,2007,9.69,current_owid_successor_proxy
+Ethiopia,ETH,2008,9.18,current_owid_successor_proxy
+Ethiopia,ETH,2009,8.71,current_owid_successor_proxy
+Ethiopia,ETH,2010,8.27,current_owid_successor_proxy
+Ethiopia,ETH,2011,7.86,current_owid_successor_proxy
+Ethiopia,ETH,2012,7.48,current_owid_successor_proxy
+Ethiopia,ETH,2013,7.12,current_owid_successor_proxy
+South Korea,KOR,1950,36.94,current_owid_successor_proxy
+South Korea,KOR,1951,31.29,current_owid_successor_proxy
+South Korea,KOR,1952,26.61,current_owid_successor_proxy
+South Korea,KOR,1953,22.76,current_owid_successor_proxy
+South Korea,KOR,1954,19.66,current_owid_successor_proxy
+South Korea,KOR,1955,17.23,current_owid_successor_proxy
+South Korea,KOR,1956,15.37,current_owid_successor_proxy
+South Korea,KOR,1957,13.92,current_owid_successor_proxy
+South Korea,KOR,1958,12.82,current_owid_successor_proxy
+South Korea,KOR,1959,11.97,current_owid_successor_proxy
+South Korea,KOR,1960,11.29,current_owid_successor_proxy
+South Korea,KOR,1961,10.72,current_owid_successor_proxy
+South Korea,KOR,1962,10.23,current_owid_successor_proxy
+South Korea,KOR,1963,9.74,current_owid_successor_proxy
+South Korea,KOR,1964,9.24,current_owid_successor_proxy
+South Korea,KOR,1965,8.73,current_owid_successor_proxy
+South Korea,KOR,1966,8.19,current_owid_successor_proxy
+South Korea,KOR,1967,7.65,current_owid_successor_proxy
+South Korea,KOR,1968,7.11,current_owid_successor_proxy
+South Korea,KOR,1969,6.6,current_owid_successor_proxy
+South Korea,KOR,1970,6.14,current_owid_successor_proxy
+South Korea,KOR,1971,5.72,current_owid_successor_proxy
+South Korea,KOR,1972,5.37,current_owid_successor_proxy
+South Korea,KOR,1973,5.08,current_owid_successor_proxy
+South Korea,KOR,1974,4.83,current_owid_successor_proxy
+South Korea,KOR,1975,4.62,current_owid_successor_proxy
+South Korea,KOR,1976,4.42,current_owid_successor_proxy
+South Korea,KOR,1977,4.24,current_owid_successor_proxy
+South Korea,KOR,1978,4.04,current_owid_successor_proxy
+South Korea,KOR,1979,3.85,current_owid_successor_proxy
+South Korea,KOR,1980,3.63,current_owid_successor_proxy
+South Korea,KOR,1981,3.4,current_owid_successor_proxy
+South Korea,KOR,1982,3.16,current_owid_successor_proxy
+South Korea,KOR,1983,2.93,current_owid_successor_proxy
+South Korea,KOR,1984,2.69,current_owid_successor_proxy
+South Korea,KOR,1985,2.46,current_owid_successor_proxy
+South Korea,KOR,1986,2.24,current_owid_successor_proxy
+South Korea,KOR,1987,2.05,current_owid_successor_proxy
+South Korea,KOR,1988,1.87,current_owid_successor_proxy
+South Korea,KOR,1989,1.71,current_owid_successor_proxy
+South Korea,KOR,1990,1.57,current_owid_successor_proxy
+South Korea,KOR,1991,1.45,current_owid_successor_proxy
+South Korea,KOR,1992,1.33,current_owid_successor_proxy
+South Korea,KOR,1993,1.23,current_owid_successor_proxy
+South Korea,KOR,1994,1.14,current_owid_successor_proxy
+South Korea,KOR,1995,1.05,current_owid_successor_proxy
+South Korea,KOR,1996,0.98,current_owid_successor_proxy
+South Korea,KOR,1997,0.91,current_owid_successor_proxy
+South Korea,KOR,1998,0.85,current_owid_successor_proxy
+South Korea,KOR,1999,0.8,current_owid_successor_proxy
+South Korea,KOR,2000,0.76,current_owid_successor_proxy
+South Korea,KOR,2001,0.72,current_owid_successor_proxy
+South Korea,KOR,2002,0.68,current_owid_successor_proxy
+South Korea,KOR,2003,0.64,current_owid_successor_proxy
+South Korea,KOR,2004,0.6,current_owid_successor_proxy
+South Korea,KOR,2005,0.56,current_owid_successor_proxy
+South Korea,KOR,2006,0.52,current_owid_successor_proxy
+South Korea,KOR,2007,0.48,current_owid_successor_proxy
+South Korea,KOR,2008,0.45,current_owid_successor_proxy
+South Korea,KOR,2009,0.43,current_owid_successor_proxy
+South Korea,KOR,2010,0.41,current_owid_successor_proxy
+South Korea,KOR,2011,0.4,current_owid_successor_proxy
+South Korea,KOR,2012,0.38,current_owid_successor_proxy
+South Korea,KOR,2013,0.37,current_owid_successor_proxy
+Sweden,SWE,1751,29.98,current_owid_successor_proxy
+Sweden,SWE,1752,35.97,current_owid_successor_proxy
+Sweden,SWE,1753,30.34,current_owid_successor_proxy
+Sweden,SWE,1754,32.69,current_owid_successor_proxy
+Sweden,SWE,1755,34.5,current_owid_successor_proxy
+Sweden,SWE,1756,33.78,current_owid_successor_proxy
+Sweden,SWE,1757,35.63,current_owid_successor_proxy
+Sweden,SWE,1758,33.53,current_owid_successor_proxy
+Sweden,SWE,1759,28.5,current_owid_successor_proxy
+Sweden,SWE,1760,27.26,current_owid_successor_proxy
+Sweden,SWE,1761,31.56,current_owid_successor_proxy
+Sweden,SWE,1762,37.7,current_owid_successor_proxy
+Sweden,SWE,1763,39.53,current_owid_successor_proxy
+Sweden,SWE,1764,31.61,current_owid_successor_proxy
+Sweden,SWE,1765,31.6,current_owid_successor_proxy
+Sweden,SWE,1766,31.19,current_owid_successor_proxy
+Sweden,SWE,1767,29.85,current_owid_successor_proxy
+Sweden,SWE,1768,35.75,current_owid_successor_proxy
+Sweden,SWE,1769,35.85,current_owid_successor_proxy
+Sweden,SWE,1770,32.54,current_owid_successor_proxy
+Sweden,SWE,1771,32.33,current_owid_successor_proxy
+Sweden,SWE,1772,36.66,current_owid_successor_proxy
+Sweden,SWE,1773,48.97,current_owid_successor_proxy
+Sweden,SWE,1774,27.96,current_owid_successor_proxy
+Sweden,SWE,1775,30.59,current_owid_successor_proxy
+Sweden,SWE,1776,25.62,current_owid_successor_proxy
+Sweden,SWE,1777,30.21,current_owid_successor_proxy
+Sweden,SWE,1778,35.32,current_owid_successor_proxy
+Sweden,SWE,1779,39.42,current_owid_successor_proxy
+Sweden,SWE,1780,26.11,current_owid_successor_proxy
+Sweden,SWE,1781,30.04,current_owid_successor_proxy
+Sweden,SWE,1782,30.1,current_owid_successor_proxy
+Sweden,SWE,1783,34.46,current_owid_successor_proxy
+Sweden,SWE,1784,38.22,current_owid_successor_proxy
+Sweden,SWE,1785,34.46,current_owid_successor_proxy
+Sweden,SWE,1786,29.49,current_owid_successor_proxy
+Sweden,SWE,1787,27.03,current_owid_successor_proxy
+Sweden,SWE,1788,32.59,current_owid_successor_proxy
+Sweden,SWE,1789,34.38,current_owid_successor_proxy
+Sweden,SWE,1790,32.55,current_owid_successor_proxy
+Sweden,SWE,1791,28.62,current_owid_successor_proxy
+Sweden,SWE,1792,29.73,current_owid_successor_proxy
+Sweden,SWE,1793,29.98,current_owid_successor_proxy
+Sweden,SWE,1794,28.06,current_owid_successor_proxy
+Sweden,SWE,1795,31.45,current_owid_successor_proxy
+Sweden,SWE,1796,31.53,current_owid_successor_proxy
+Sweden,SWE,1797,29.4,current_owid_successor_proxy
+Sweden,SWE,1798,27.17,current_owid_successor_proxy
+Sweden,SWE,1799,28.9,current_owid_successor_proxy
+Sweden,SWE,1800,38.11,current_owid_successor_proxy
+Sweden,SWE,1801,32.88,current_owid_successor_proxy
+Sweden,SWE,1802,28.29,current_owid_successor_proxy
+Sweden,SWE,1803,27.53,current_owid_successor_proxy
+Sweden,SWE,1804,27.17,current_owid_successor_proxy
+Sweden,SWE,1805,26.59,current_owid_successor_proxy
+Sweden,SWE,1806,33.28,current_owid_successor_proxy
+Sweden,SWE,1807,27.83,current_owid_successor_proxy
+Sweden,SWE,1808,34.96,current_owid_successor_proxy
+Sweden,SWE,1809,36.59,current_owid_successor_proxy
+Sweden,SWE,1810,34.6,current_owid_successor_proxy
+Sweden,SWE,1811,32.46,current_owid_successor_proxy
+Sweden,SWE,1812,31.22,current_owid_successor_proxy
+Sweden,SWE,1813,30.36,current_owid_successor_proxy
+Sweden,SWE,1814,29.94,current_owid_successor_proxy
+Sweden,SWE,1815,27.46,current_owid_successor_proxy
+Sweden,SWE,1816,27.35,current_owid_successor_proxy
+Sweden,SWE,1817,27.61,current_owid_successor_proxy
+Sweden,SWE,1818,26.97,current_owid_successor_proxy
+Sweden,SWE,1819,29.36,current_owid_successor_proxy
+Sweden,SWE,1820,26.08,current_owid_successor_proxy
+Sweden,SWE,1821,30.51,current_owid_successor_proxy
+Sweden,SWE,1822,24.5,current_owid_successor_proxy
+Sweden,SWE,1823,21.76,current_owid_successor_proxy
+Sweden,SWE,1824,22.46,current_owid_successor_proxy
+Sweden,SWE,1825,22.79,current_owid_successor_proxy
+Sweden,SWE,1826,24.22,current_owid_successor_proxy
+Sweden,SWE,1827,22.63,current_owid_successor_proxy
+Sweden,SWE,1828,28.21,current_owid_successor_proxy
+Sweden,SWE,1829,30.3,current_owid_successor_proxy
+Sweden,SWE,1830,25.49,current_owid_successor_proxy
+Sweden,SWE,1831,27.59,current_owid_successor_proxy
+Sweden,SWE,1832,25.6,current_owid_successor_proxy
+Sweden,SWE,1833,24.44,current_owid_successor_proxy
+Sweden,SWE,1834,25.26,current_owid_successor_proxy
+Sweden,SWE,1835,20.0,current_owid_successor_proxy
+Sweden,SWE,1836,22.5,current_owid_successor_proxy
+Sweden,SWE,1837,27.97,current_owid_successor_proxy
+Sweden,SWE,1838,25.36,current_owid_successor_proxy
+Sweden,SWE,1839,25.16,current_owid_successor_proxy
+Sweden,SWE,1840,22.07,current_owid_successor_proxy
+Sweden,SWE,1841,22.08,current_owid_successor_proxy
+Sweden,SWE,1842,24.24,current_owid_successor_proxy
+Sweden,SWE,1843,23.27,current_owid_successor_proxy
+Sweden,SWE,1844,22.62,current_owid_successor_proxy
+Sweden,SWE,1845,21.48,current_owid_successor_proxy
+Sweden,SWE,1846,24.97,current_owid_successor_proxy
+Sweden,SWE,1847,27.01,current_owid_successor_proxy
+Sweden,SWE,1848,21.24,current_owid_successor_proxy
+Sweden,SWE,1849,22.7,current_owid_successor_proxy
+Sweden,SWE,1850,21.79,current_owid_successor_proxy
+Sweden,SWE,1851,23.23,current_owid_successor_proxy
+Sweden,SWE,1852,25.03,current_owid_successor_proxy
+Sweden,SWE,1853,25.74,current_owid_successor_proxy
+Sweden,SWE,1854,21.97,current_owid_successor_proxy
+Sweden,SWE,1855,22.62,current_owid_successor_proxy
+Sweden,SWE,1856,24.59,current_owid_successor_proxy
+Sweden,SWE,1857,30.99,current_owid_successor_proxy
+Sweden,SWE,1858,24.8,current_owid_successor_proxy
+Sweden,SWE,1859,23.21,current_owid_successor_proxy
+Sweden,SWE,1860,19.66,current_owid_successor_proxy
+Sweden,SWE,1861,21.68,current_owid_successor_proxy
+Sweden,SWE,1862,26.55,current_owid_successor_proxy
+Sweden,SWE,1863,23.67,current_owid_successor_proxy
+Sweden,SWE,1864,23.54,current_owid_successor_proxy
+Sweden,SWE,1865,23.29,current_owid_successor_proxy
+Sweden,SWE,1866,22.17,current_owid_successor_proxy
+Sweden,SWE,1867,21.06,current_owid_successor_proxy
+Sweden,SWE,1868,24.94,current_owid_successor_proxy
+Sweden,SWE,1869,27.14,current_owid_successor_proxy
+Sweden,SWE,1870,22.05,current_owid_successor_proxy
+Sweden,SWE,1871,18.35,current_owid_successor_proxy
+Sweden,SWE,1872,18.69,current_owid_successor_proxy
+Sweden,SWE,1873,19.74,current_owid_successor_proxy
+Sweden,SWE,1874,22.99,current_owid_successor_proxy
+Sweden,SWE,1875,23.25,current_owid_successor_proxy
+Sweden,SWE,1876,23.73,current_owid_successor_proxy
+Sweden,SWE,1877,22.78,current_owid_successor_proxy
+Sweden,SWE,1878,22.69,current_owid_successor_proxy
+Sweden,SWE,1879,19.69,current_owid_successor_proxy
+Sweden,SWE,1880,20.39,current_owid_successor_proxy
+Sweden,SWE,1881,19.49,current_owid_successor_proxy
+Sweden,SWE,1882,20.66,current_owid_successor_proxy
+Sweden,SWE,1883,19.73,current_owid_successor_proxy
+Sweden,SWE,1884,19.23,current_owid_successor_proxy
+Sweden,SWE,1885,19.5,current_owid_successor_proxy
+Sweden,SWE,1886,18.34,current_owid_successor_proxy
+Sweden,SWE,1887,17.34,current_owid_successor_proxy
+Sweden,SWE,1888,16.07,current_owid_successor_proxy
+Sweden,SWE,1889,16.25,current_owid_successor_proxy
+Sweden,SWE,1890,17.76,current_owid_successor_proxy
+Sweden,SWE,1891,17.89,current_owid_successor_proxy
+Sweden,SWE,1892,17.1,current_owid_successor_proxy
+Sweden,SWE,1893,16.69,current_owid_successor_proxy
+Sweden,SWE,1894,16.15,current_owid_successor_proxy
+Sweden,SWE,1895,14.7,current_owid_successor_proxy
+Sweden,SWE,1896,15.62,current_owid_successor_proxy
+Sweden,SWE,1897,14.86,current_owid_successor_proxy
+Sweden,SWE,1898,14.06,current_owid_successor_proxy
+Sweden,SWE,1899,17.17,current_owid_successor_proxy
+Sweden,SWE,1900,15.52,current_owid_successor_proxy
+Sweden,SWE,1901,15.71,current_owid_successor_proxy
+Sweden,SWE,1902,13.56,current_owid_successor_proxy
+Sweden,SWE,1903,13.86,current_owid_successor_proxy
+Sweden,SWE,1904,12.72,current_owid_successor_proxy
+Sweden,SWE,1905,13.18,current_owid_successor_proxy
+Sweden,SWE,1906,11.78,current_owid_successor_proxy
+Sweden,SWE,1907,11.22,current_owid_successor_proxy
+Sweden,SWE,1908,12.22,current_owid_successor_proxy
+Sweden,SWE,1909,10.34,current_owid_successor_proxy
+Sweden,SWE,1910,10.82,current_owid_successor_proxy
+Sweden,SWE,1911,10.42,current_owid_successor_proxy
+Sweden,SWE,1912,10.37,current_owid_successor_proxy
+Sweden,SWE,1913,9.76,current_owid_successor_proxy
+Sweden,SWE,1914,10.13,current_owid_successor_proxy
+Sweden,SWE,1915,10.53,current_owid_successor_proxy
+Sweden,SWE,1916,10.16,current_owid_successor_proxy
+Sweden,SWE,1917,9.3,current_owid_successor_proxy
+Sweden,SWE,1918,10.59,current_owid_successor_proxy
+Sweden,SWE,1919,10.48,current_owid_successor_proxy
+Sweden,SWE,1920,9.78,current_owid_successor_proxy
+Sweden,SWE,1921,8.46,current_owid_successor_proxy
+Sweden,SWE,1922,8.04,current_owid_successor_proxy
+Sweden,SWE,1923,7.38,current_owid_successor_proxy
+Sweden,SWE,1924,8.12,current_owid_successor_proxy
+Sweden,SWE,1925,7.34,current_owid_successor_proxy
+Sweden,SWE,1926,7.25,current_owid_successor_proxy
+Sweden,SWE,1927,7.85,current_owid_successor_proxy
+Sweden,SWE,1928,7.86,current_owid_successor_proxy
+Sweden,SWE,1929,7.32,current_owid_successor_proxy
+Sweden,SWE,1930,6.95,current_owid_successor_proxy
+Sweden,SWE,1931,7.14,current_owid_successor_proxy
+Sweden,SWE,1932,6.44,current_owid_successor_proxy
+Sweden,SWE,1933,6.1,current_owid_successor_proxy
+Sweden,SWE,1934,5.95,current_owid_successor_proxy
+Sweden,SWE,1935,5.82,current_owid_successor_proxy
+Sweden,SWE,1936,5.73,current_owid_successor_proxy
+Sweden,SWE,1937,5.85,current_owid_successor_proxy
+Sweden,SWE,1938,5.43,current_owid_successor_proxy
+Sweden,SWE,1939,4.97,current_owid_successor_proxy
+Sweden,SWE,1940,4.69,current_owid_successor_proxy
+Sweden,SWE,1941,4.72,current_owid_successor_proxy
+Sweden,SWE,1942,3.82,current_owid_successor_proxy
+Sweden,SWE,1943,3.82,current_owid_successor_proxy
+Sweden,SWE,1944,4.14,current_owid_successor_proxy
+Sweden,SWE,1945,3.82,current_owid_successor_proxy
+Sweden,SWE,1946,3.2,current_owid_successor_proxy
+Sweden,SWE,1947,3.05,current_owid_successor_proxy
+Sweden,SWE,1948,2.8,current_owid_successor_proxy
+Sweden,SWE,1949,2.76,current_owid_successor_proxy
+Sweden,SWE,1950,2.71,current_owid_successor_proxy
+Sweden,SWE,1951,2.57,current_owid_successor_proxy
+Sweden,SWE,1952,2.43,current_owid_successor_proxy
+Sweden,SWE,1953,2.32,current_owid_successor_proxy
+Sweden,SWE,1954,2.23,current_owid_successor_proxy
+Sweden,SWE,1955,2.16,current_owid_successor_proxy
+Sweden,SWE,1956,2.11,current_owid_successor_proxy
+Sweden,SWE,1957,2.06,current_owid_successor_proxy
+Sweden,SWE,1958,2.02,current_owid_successor_proxy
+Sweden,SWE,1959,1.99,current_owid_successor_proxy
+Sweden,SWE,1960,1.96,current_owid_successor_proxy
+Sweden,SWE,1961,1.91,current_owid_successor_proxy
+Sweden,SWE,1962,1.86,current_owid_successor_proxy
+Sweden,SWE,1963,1.79,current_owid_successor_proxy
+Sweden,SWE,1964,1.71,current_owid_successor_proxy
+Sweden,SWE,1965,1.63,current_owid_successor_proxy
+Sweden,SWE,1966,1.55,current_owid_successor_proxy
+Sweden,SWE,1967,1.49,current_owid_successor_proxy
+Sweden,SWE,1968,1.44,current_owid_successor_proxy
+Sweden,SWE,1969,1.39,current_owid_successor_proxy
+Sweden,SWE,1970,1.34,current_owid_successor_proxy
+Sweden,SWE,1971,1.28,current_owid_successor_proxy
+Sweden,SWE,1972,1.22,current_owid_successor_proxy
+Sweden,SWE,1973,1.16,current_owid_successor_proxy
+Sweden,SWE,1974,1.1,current_owid_successor_proxy
+Sweden,SWE,1975,1.03,current_owid_successor_proxy
+Sweden,SWE,1976,0.98,current_owid_successor_proxy
+Sweden,SWE,1977,0.94,current_owid_successor_proxy
+Sweden,SWE,1978,0.9,current_owid_successor_proxy
+Sweden,SWE,1979,0.87,current_owid_successor_proxy
+Sweden,SWE,1980,0.84,current_owid_successor_proxy
+Sweden,SWE,1981,0.82,current_owid_successor_proxy
+Sweden,SWE,1982,0.8,current_owid_successor_proxy
+Sweden,SWE,1983,0.78,current_owid_successor_proxy
+Sweden,SWE,1984,0.77,current_owid_successor_proxy
+Sweden,SWE,1985,0.76,current_owid_successor_proxy
+Sweden,SWE,1986,0.75,current_owid_successor_proxy
+Sweden,SWE,1987,0.74,current_owid_successor_proxy
+Sweden,SWE,1988,0.73,current_owid_successor_proxy
+Sweden,SWE,1989,0.72,current_owid_successor_proxy
+Sweden,SWE,1990,0.7,current_owid_successor_proxy
+Sweden,SWE,1991,0.66,current_owid_successor_proxy
+Sweden,SWE,1992,0.62,current_owid_successor_proxy
+Sweden,SWE,1993,0.57,current_owid_successor_proxy
+Sweden,SWE,1994,0.52,current_owid_successor_proxy
+Sweden,SWE,1995,0.48,current_owid_successor_proxy
+Sweden,SWE,1996,0.46,current_owid_successor_proxy
+Sweden,SWE,1997,0.44,current_owid_successor_proxy
+Sweden,SWE,1998,0.42,current_owid_successor_proxy
+Sweden,SWE,1999,0.42,current_owid_successor_proxy
+Sweden,SWE,2000,0.41,current_owid_successor_proxy
+Sweden,SWE,2001,0.4,current_owid_successor_proxy
+Sweden,SWE,2002,0.4,current_owid_successor_proxy
+Sweden,SWE,2003,0.39,current_owid_successor_proxy
+Sweden,SWE,2004,0.37,current_owid_successor_proxy
+Sweden,SWE,2005,0.36,current_owid_successor_proxy
+Sweden,SWE,2006,0.35,current_owid_successor_proxy
+Sweden,SWE,2007,0.33,current_owid_successor_proxy
+Sweden,SWE,2008,0.32,current_owid_successor_proxy
+Sweden,SWE,2009,0.31,current_owid_successor_proxy
+Sweden,SWE,2010,0.31,current_owid_successor_proxy
+Sweden,SWE,2011,0.3,current_owid_successor_proxy
+Sweden,SWE,2012,0.3,current_owid_successor_proxy
+Sweden,SWE,2013,0.29,current_owid_successor_proxy

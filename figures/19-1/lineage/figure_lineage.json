@@ -8,15 +8,27 @@
     "value": "HumanProgress static 2927, based on Federation of Atomic Scientists, Kristensen & Norris 2016a, updated in Kristensen 2016."
   },
   {
-    "stage": "Downloaded File",
-    "value": "figures/19-1/data/raw/"
+    "stage": "Archived Source",
+    "value": "figures/19-1/data/raw/humanprogress_static_2927_20160814.html"
+  },
+  {
+    "stage": "Recovered Primary Table",
+    "value": "figures/19-1/data/raw/humanprogress_static_2927_recovered.csv"
+  },
+  {
+    "stage": "Minor-Series Successor",
+    "value": "figures/19-1/data/raw/owid_current_nuclear_warhead_stockpiles.csv"
   },
   {
     "stage": "Transformation Script",
     "value": "scripts/reconstruct_5_1_5_2_8_4_19_1.py"
   },
   {
+    "stage": "Clean Book Table",
+    "value": "figures/19-1/data/clean/figure_19_1_book_period_clean.csv"
+  },
+  {
     "stage": "Generated Plot",
-    "value": "figures/19-1/plots/"
+    "value": "figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png"
   }
 ]

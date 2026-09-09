@@ -4,10 +4,14 @@
 - [x] Title extracted
 - [x] Source note extracted
 - [x] Public source searched
+- [x] Archived HumanProgress 2927 payload recovered and preserved
+- [x] 138/138 primary observations checked at zero-value tolerance
 - [x] Book-period reconstruction generated
-- [x] Extension or successor evidence generated/documented
+- [x] Successor evidence documented; no post-2015 extension plotted
 - [x] Side-by-side comparison generated
 - [x] Caption written
 - [x] Anomaly review written
-- [x] Registry and PROJECT_STATE updated by batch script/manual review
+- [x] PROJECT_STATE and worker-owned metadata updated
+- [x] Registry intentionally not modified (orchestrator-owned for this run)
 - [x] Original chart-page visual capture completed
+- [x] Editorial self-review completed; status retained at `partial_match`

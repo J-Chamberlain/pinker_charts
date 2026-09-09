@@ -4,14 +4,18 @@ Title: Oil spills, 1970-2016
 
 Current status: `partial_match`
 
+All Figure 10-5 literal artifact paths in metadata, provenance, and lineage
+records are repository-relative (their base is the repository root). Markdown
+links in this README are document-relative links for navigation.
+
 ## Summary
 
 Figure 10-5 has been attempted through source recovery, book-style plotting,
-visual comparison, and discrepancy analysis. The oil-spill count series is well
-supported. This run recovered an archived 2016 ITOPF chart image for the
-oil-shipped-by-sea source family and digitized the oil-loaded line from that
-image, but the exact annual UNCTADStat table behind the book-period gray line
-has not been recovered.
+extension plotting, visual comparison, and discrepancy analysis. The oil-spill
+count series is well supported. The exact historical oil-shipped-by-sea or
+tanker-trade annual series used for the book-period gray line has not been
+recovered, so the current book-period artifact plots the verified spill-count
+line only and labels the missing gray line explicitly.
 
 Do not classify this figure as `verified_reproduction` until the full
 1970-2016 oil-shipping source is recovered or an exact archival equivalent is
@@ -31,13 +35,21 @@ located.
 - [plots/comparisons/](plots/comparisons/)
 - [plots/diagnostics/](plots/diagnostics/)
 - [checksums/](checksums/)
+- [remediation_evidence.md](remediation_evidence.md)
 
 ## Main Blocker
 
-The public evidence has not yet established the original annual right-axis
-series for oil shipped by sea from 1970 through 2016. The current gray line is
-image-derived from a Wayback-preserved ITOPF chart and should be treated as a
-diagnostic partial reconstruction.
+The public evidence has not yet established the exact annual right-axis series
+for oil shipped by sea from 1970 through 2016.
+
+## Latest Source-Recovery Result
+
+This run recovered the current UNCTADStat `US.SeaborneTrade` public bulk file
+and metadata. The live bulk file is labeled `From 2000 to 2024`, so it cannot
+cover 1970-1999. Its World cargo 11+12 values also differ from UNCTAD Review
+of Maritime Transport 2020 selected-year tanker-trade values by about 31-48
+percent on overlap. It is therefore retained as rejected successor/source-family
+evidence, not as reconstruction input.
 
 ## Canonical Artifacts
 
@@ -53,8 +65,7 @@ Canonical visual artifacts:
 - Extended comparison: [plots/comparisons/figure_10_5_extended_comparison_captioned.png](plots/comparisons/figure_10_5_extended_comparison_captioned.png)
 - Diagnostic plot: [plots/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png](plots/diagnostics/figure_10_5_unctad_partial_oil_shipping_diagnostic.png)
 - Diagnostic plot: [plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png](plots/diagnostics/figure_10_5_rmt_tanker_trade_selected_years_diagnostic.png)
-- Digitized oil-loaded data: [data/candidates/itopf_archived_seaborne_16_digitized_oil_loaded.csv](data/candidates/itopf_archived_seaborne_16_digitized_oil_loaded.csv)
-- Selected-year validation: [data/candidates/itopf_digitized_vs_unctad_rmt2020_selected_year_validation.csv](data/candidates/itopf_digitized_vs_unctad_rmt2020_selected_year_validation.csv)
+- RMT diagnostic CSV: [data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv](data/candidates/unctad_rmt2020_tanker_trade_selected_years.csv)
 
 Canonical documentation:
 

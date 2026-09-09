@@ -1,13 +1,16 @@
 # Figure 4-1: Tone of the news, 1945-2010
 
-Status: `manual_review_needed`
+Status: `source_unavailable`
 
-This package documents a source-recovery blocker. The Supplemental PDF source
-line and Leetaru/GDELT visual source chain were recovered, but the underlying
-monthly New York Times and Summary of World Broadcasts tone data were not.
-The PNG panels in this package are status artifacts, not reconstructions.
+The cited publication and its two original high-resolution charts were recovered,
+but the monthly numeric series was not published. No reconstruction or extension
+is presented. See `provenance/provenance.md` for the evidence trail.
 
-2026-07-09 re-audit: Supplemental PDF, Crossref/DataCite, live GDELT links,
-Internet Archive CDX inventories, authenticated GitHub code search, and later
-Leetaru Forbes leads were checked. No original monthly table or comparable
-successor series was recovered.
+## Canonical artifacts
+
+- Source-evidence panel: `plots/comparisons/figure_4_1_source_evidence.png`
+- Caption: `captions/caption.txt`
+- Provenance: `provenance/provenance.md`
+- Anomaly review: `anomaly_reviews/anomaly_review.md`
+- Metadata: `metadata/metadata.json`
+- Review checklist: `review_checklist.md`

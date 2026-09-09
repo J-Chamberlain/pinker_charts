@@ -1,29 +1,31 @@
 # Discrepancy Log: Figure 10-5
 
-Last updated: 2026-07-09
+Accessed: 2026-06-28
 
 ## Current Discrepancies
 
-- Exact source version: Roser 2016r / OWID historical data snapshot was not recovered as an archived CSV or data bundle.
-- Gray-line source data: the annual UNCTADStat table for total crude oil, petroleum product, and gas loaded was not recovered.
-- Current reconstruction input: the gray line is digitized from an archived ITOPF chart image, so it carries image-reading/calibration tolerance and is not original tabular data.
-- Live UNCTADStat route: current `US.SeaborneTrade` version 2231 gives 2000-2016 values that do not match the ITOPF/RMT/book scale on overlap and omits 1970-1999.
-- Extension: no post-2016 extension is plotted because no same-method annual successor for the oil-loaded line was recovered.
+- Missing years: the current public UNCTADStat bulk file for `US.SeaborneTrade` is labeled `From 2000 to 2024`; the book figure requires an annual oil-shipped-by-sea series for 1970-2016.
+- Missing exact source version: Roser 2016r / OWID historical figure data was not recovered as an archived CSV.
+- Validation policy correction: the main recreated plot excludes the right-side oil-shipping line because the annual 1970-2016 source is unrecovered.
+- Diagnostic evidence: UNCTAD RMT selected-year tanker-trade values and current UNCTADStat bulk/API values are retained as source-family evidence only.
+- Numeric gap: spill-count series is numeric and reproducible; oil-shipping values before 2000 are unresolved.
+- Scale gap: current UNCTADStat World cargo 11+12 values differ from RMT 2020 selected-year tanker trade by roughly 31-48 percent on overlap, so the current bulk file is not a comparable substitute for the book gray line.
 
-## Resolved Or Improved
+## Search Hypotheses Triggered
 
-- The Supplemental Graphics PDF source note and surrounding text were checked directly.
-- The spill-count line is supported by current OWID/ITOPF annual data and agrees with the book's black line.
-- An archived ITOPF 2016 statistics page and `seaborne_16.JPG` chart image were recovered from the Internet Archive.
-- The archived ITOPF image matches the book's right-axis concept and line shape and cites UNCTADStat.
-- The image-derived oil-loaded series was checked against UNCTAD RMT 2020 selected-year tanker-trade values: MAE 0.058 billion metric tons; maximum absolute difference 0.194.
+- The gray series may be UNCTADStat `US.SeaborneTrade` cargo types 11 and 12 summed.
+- An old UNCTAD report version or exported CSV may contain 1970-2016.
+- OWID/Roser 2016r may have bundled the UNCTAD values in an archived grapher CSV or historical repository commit.
+- ITOPF 2017 may have plotted UNCTAD values without publishing the underlying table.
 
-## Search Hypotheses Still Open
+## Research Mode Discrepancy Update
+- Improved: historical UNCTAD/RMT selected-year tanker trade evidence now covers the concept back to 1970.
+- Improved: RMT selected-year values match the book's right-axis scale better than the live UNCTADStat v2231 cargo-sum candidate.
+- Still unresolved: exact annual 1970-2016 oil-shipped-by-sea series behind the original gray line has not been recovered.
+- Current best hypothesis: the original gray line used a retired UNCTADStat export/report version or ITOPF/UNCTAD chart data, not a currently public annual API endpoint.
 
-- The original gray line may come from a retired UNCTADStat export/report version not exposed through the current API.
-- OWID/Roser may have stored the oil-loaded values in an unpublished or unarchived figure-preparation file.
-- ITOPF may have had an internal chart source table for the archived `seaborne_16.JPG` image.
-
-## Editorial Disposition
-
-Keep status at `partial_match`. The current book-period artifact is useful for visual comparison and source-family documentation, but it is not a verified reproduction from original annual data.
+## Targeted 2026-07-09 Update
+- Recovered current UNCTADStat metadata and bulk archive for `US.SeaborneTrade`.
+- Recovered bulk-file metadata states the public file is `From 2000 to 2024`, confirming that the live public bulk release cannot fill the 1970-1999 gap.
+- Current metadata endpoints reject report version `585`; the observed 2023 filename `US.SeaborneTrade_585_20231104_101924.csv` was not recovered from live UNCTAD, web search, or current bulk-file routes.
+- Regenerated book-period and extended comparison artifacts now show the verified oil-spill line only and explicitly label the missing oil-shipped-by-sea source.

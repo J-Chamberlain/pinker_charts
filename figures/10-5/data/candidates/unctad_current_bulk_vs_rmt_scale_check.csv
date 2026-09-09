@@ -1,0 +1,17 @@
+year,current_unctad_bulk_billion_tons,rmt2020_tanker_trade_billion_tons,absolute_difference,relative_difference_pct,verdict
+2000,2.983940,2.163000,0.820940,37.95,scale_or_definition_mismatch
+2005,3.592539,2.422000,1.170539,48.33,scale_or_definition_mismatch
+2006,3.742204,2.698000,1.044204,38.70,scale_or_definition_mismatch
+2007,3.615707,2.747000,0.868707,31.62,scale_or_definition_mismatch
+2008,3.818958,2.742000,1.076958,39.28,scale_or_definition_mismatch
+2009,3.458385,2.641000,0.817385,30.95,scale_or_definition_mismatch
+2010,3.708606,2.752000,0.956606,34.76,scale_or_definition_mismatch
+2011,3.864933,2.785000,1.079933,38.78,scale_or_definition_mismatch
+2012,3.880846,2.840000,1.040846,36.65,scale_or_definition_mismatch
+2013,3.871917,2.828000,1.043917,36.91,scale_or_definition_mismatch
+2014,3.709303,2.825000,0.884303,31.30,scale_or_definition_mismatch
+2015,3.834035,2.932000,0.902035,30.77,scale_or_definition_mismatch
+2016,4.085502,3.058000,1.027502,33.60,scale_or_definition_mismatch
+2017,4.185345,3.146000,1.039345,33.04,scale_or_definition_mismatch
+2018,4.261245,3.201000,1.060245,33.12,scale_or_definition_mismatch
+2019,4.350188,3.169000,1.181188,37.27,scale_or_definition_mismatch

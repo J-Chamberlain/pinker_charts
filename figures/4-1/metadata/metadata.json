@@ -1,24 +1,20 @@
 {
   "figure_id": "4-1",
-  "title": "Tone of the news, 1945-2010",
   "chapter": "4",
-  "book_page": "Supplemental PDF page 2; Kindle not inspected in this executor session",
-  "year_range": "1945-2010",
-  "claim_summary": "News coverage tone became more negative across the New York Times and Summary of World Broadcasts monthly series.",
-  "book_citation": "Leetaru 2011. Plotted by month, beginning in January.",
-  "original_dataset": "Leetaru 2011 monthly NYT/SWB tone data not recovered as an inspectable table.",
-  "dataset_url": "",
-  "archive_url": "",
-  "download_date": "2026-07-09",
-  "reproduction_status": "manual_review_needed",
-  "confidence_score": 0.35,
-  "visual_validation": "blocked",
-  "notes": "2026-07-09 re-audit checked Supplemental PDF, Crossref/DataCite, GDELT live/sidecar URLs, Internet Archive CDX inventories, authenticated GitHub code search, and Leetaru Forbes leads. No original monthly data table or comparable successor series was recovered; status panels are not reconstructions.",
+  "title": "Tone of the news, 1945-2010",
+  "book_page": "Supplemental Graphics page 1 (text-indexed; local PDF page unavailable)",
+  "claim_summary": "The tone of New York Times and international news coverage became more negative over the periods shown.",
+  "book_citation": "Leetaru 2011",
+  "resolved_citation": "Leetaru, Kalev H. 2011. Culturomics 2.0. First Monday 16(9). doi:10.5210/fm.v16i9.3663",
+  "original_dataset": "Unpublished monthly standardized tone aggregates derived from licensed New York Times (1945-2005) and Summary of World Broadcasts (1979-July 2010) full-text corpora",
+  "download_date": "2026-07-10",
+  "reproduction_status": "source_unavailable",
+  "confidence_score": 0.88,
+  "visual_validation": "not_applicable",
+  "notes": "Original publication and author-supplied high-resolution component plots recovered. Monthly numeric values, exact final sentiment dictionary, and code were not published or recovered. No reconstruction, digitization, or extension was made.",
   "canonical_artifacts": {
-    "supplemental_pdf_reference": "figures/4-1/plots/comparisons/supplemental_pdf_reference_figure_4_1.png",
-    "book_period_source_recovery_status": "figures/4-1/plots/book_period/figure_4_1_book_period_source_recovery_status.png",
-    "extended_source_recovery_status": "figures/4-1/plots/extended/figure_4_1_extended_source_recovery_status.png",
-    "book_period_status_comparison": "figures/4-1/plots/comparisons/figure_4_1_book_period_status_comparison.png",
-    "extended_status_comparison": "figures/4-1/plots/comparisons/figure_4_1_extended_status_comparison.png"
+    "source_evidence": "figures/4-1/plots/comparisons/figure_4_1_source_evidence.png",
+    "provenance": "figures/4-1/provenance/provenance.md",
+    "caption": "figures/4-1/captions/caption.txt"
   }
 }

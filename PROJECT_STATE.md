@@ -14,9 +14,11 @@ The owner approved the [ten-phase completion plan](docs/completion_plan.md).
 It defines the remaining work, evidence required to advance, operating limits,
 and the single progress ledger for this effort. Read it before selecting work.
 
-Current phase: **1. Consolidate existing evidence**, initial inventory only.
-The plan is documented; consolidation, state-schema migration, and replacement
-of text-only API review with actual visual review have not been implemented.
+Current phase: **1. Consolidate existing evidence**, histories imported on
+`production-loop`. [Import evidence](reports/consolidation/README.md) records
+both parents and all conflict resolutions. The nine previously verified plot
+packages are unchanged. State-schema migration and actual API image review
+remain pending.
 
 The figure tables and classifications below are a historical working snapshot,
 not a reconciled release. The planning audit found 14 CSV/JSON status mismatches

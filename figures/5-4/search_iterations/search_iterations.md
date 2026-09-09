@@ -1,3 +1,9 @@
+# Consolidated Research History: Figure 5-4
+
+These are historical search records, not the current acceptance decision.
+
+## Local Work At efca1264944eabab2f733bc399027e22b8df6381
+
 # Search Iterations: Figure 5-4
 
 ## 2026-07-09 Targeted Source Recovery
@@ -24,3 +30,18 @@
 ## Outcome
 
 The source family is identified and citable, but the exact book-era OWID/Roser 2016n export or authenticated/archive HMD `GBRTENW` period life table was not recovered. Status remains `needs_targeted_source_recovery`.
+
+
+## GitHub Recovery At 9a19519494ec20f45b3ac3e6b3122d38a2bc0892
+
+# Search iterations
+
+- Exact title/source-note searches: recovered source note and narrative anchors.
+- Supplemental Graphics searches: located indexed document record, not an accessible
+  Figure 5-4 page image.
+- OWID Git history: full-history filename and commit search; exact 2016n multi-age data
+  absent.
+- HMD endpoints: confirmed login barrier for the England-and-Wales life-table files.
+- Internet Archive CDX: no matching OWID grapher CSV capture.
+- Institutional successor search: recovered ONS 2015 decennial male data; retained only
+  as a labeled diagnostic.

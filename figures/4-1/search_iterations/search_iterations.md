@@ -1,3 +1,9 @@
+# Consolidated Research History: Figure 4-1
+
+These are historical search records, not the current acceptance decision.
+
+## Local Work At efca1264944eabab2f733bc399027e22b8df6381
+
 # Figure 4-1 Search Iterations
 
 Date: 2026-07-09
@@ -60,3 +66,27 @@ Authenticated GitHub code searches:
 - `"Culturomics 2.0" "Leetaru"`
 
 Result: no public GitHub code/data matches. Public web results surfaced Leetaru Forbes articles and media commentary that quote or reuse the timelines, but no downloadable monthly NYT/SWB table or reproducible extraction package.
+
+
+## GitHub Recovery At 9a19519494ec20f45b3ac3e6b3122d38a2bc0892
+
+# Search iterations - Figure 4-1
+
+## 2026-07-10
+
+1. Searched for the Supplemental Graphics PDF and exact figure title. Located
+   an indexed 39-page supplemental document page exposing page-1 text and the
+   complete Figure 4-1 source line, but not an unauthenticated PDF download.
+2. Resolved "Leetaru 2011" to the First Monday article by DOI and downloaded
+   its legacy HTML.
+3. Read the method, corpus descriptions, Figure 10/11 captions, and surrounding
+   results. Confirmed that Pinker's lines are those two monthly series.
+4. Located GDELT's 2019 restoration of the author-supplied high-resolution
+   figures and downloaded both originals.
+5. Searched for CSV, spreadsheet, supplemental data, code, monthly values, and
+   filenames on GDELT and the web. None were found.
+6. Queried the Internet Archive for the old ICHASS host. The wildcard CDX
+   request returned HTTP 503; exact-name and broader indexed searches did not
+   reveal numeric data.
+7. Evaluated current GDELT products and rejected them as a successor because
+   they do not preserve the same source population or sentiment method.
