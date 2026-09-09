@@ -7,6 +7,13 @@ This repository is now the canonical project memory. Future work should begin
 by reading [PROJECT_STATE.md](PROJECT_STATE.md), then the relevant figure
 directory, before using chat history or doing new research.
 
+## Approved Completion Plan
+
+The [completion plan](docs/completion_plan.md) records the approved ten phases
+for completing all 75 registered figures, their exit criteria, and the current
+progress ledger. Read it after PROJECT_STATE before choosing work. Consolidate
+the divergent local and GitHub evidence before resuming figure production.
+
 ## Canonical Figure Reference
 
 Future figure reconstruction should begin with the Supplemental Graphics PDF:

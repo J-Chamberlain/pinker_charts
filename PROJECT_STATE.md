@@ -1,12 +1,37 @@
 # Project State
 
-Last update: 2026-07-09 America/Los_Angeles
+Last update: 2026-09-09 America/Los_Angeles (completion-plan documentation)
 
 Project version: `1.16-source-recovery-figure-7-1-calories`
 
 This file is the canonical project memory. Future Codex or ChatGPT runs should
 read this file first, then update it before finishing any project-state-changing
 work.
+
+## Approved Completion Plan And Current Checkpoint
+
+The owner approved the [ten-phase completion plan](docs/completion_plan.md).
+It defines the remaining work, evidence required to advance, operating limits,
+and the single progress ledger for this effort. Read it before selecting work.
+
+Current phase: **1. Consolidate existing evidence**, initial inventory only.
+The plan is documented; consolidation, state-schema migration, and replacement
+of text-only API review with actual visual review have not been implemented.
+
+The figure tables and classifications below are a historical working snapshot,
+not a reconciled release. The planning audit found 14 CSV/JSON status mismatches
+and newer source recoveries on GitHub main alongside additional local figure
+packages. Resolve these using actual data and references before promoting any
+figure. Documentation of the plan changes no scientific classifications.
+
+Next action: reconcile GitHub main, the local production branch, worker commits,
+and original references, recording the source commit and rationale for each
+retained package. The preferred integration branch is `production-loop`; it has
+not yet been established from the combined evidence.
+
+The external-API spending ceiling and public-deployment scope remain unspecified.
+Continue work that does not depend on those choices. OpenAI-backed production
+requires current credential preflight and a defined spending budget.
 
 ## Mission
 

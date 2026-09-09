@@ -1,5 +1,22 @@
 # Workflow
 
+## Approved Execution Order
+
+Read the [completion plan](completion_plan.md) after PROJECT_STATE. Its progress
+ledger identifies the current phase and the evidence required to advance.
+Consolidation and runner validation precede new figure production. The existing
+scientific and editorial standards below remain in force.
+
+The approved plan governs scheduling and deferral where older instructions
+conflict: a documented blocker may be committed and deferred while another
+figure proceeds, but it must remain scientifically incomplete. Completion of a
+source-recovery package does not satisfy reconstruction acceptance.
+
+The plan's state-generation and multimodal-review requirements are pending
+implementation, not current capabilities. Until the state migration is tested,
+record conflicts explicitly and coordinate registry writes with the component
+that owns them. Do not classify scientific fidelity from a scheduling label.
+
 ## Start Of Work
 
 1. Read [../PROJECT_STATE.md](../PROJECT_STATE.md).
