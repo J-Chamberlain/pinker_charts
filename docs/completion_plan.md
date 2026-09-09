@@ -326,7 +326,7 @@ ledger into the orchestrator repository.
 | 5. Scientific/visual gate | Direct evidence and visual review active | Original-PDF comparisons for new Figures 17-4 and 17-8 inspected at full resolution; explicit source-vintage distinctions preserved. No external reviewer approval claimed. |
 | 6. Unattended calibration | API track superseded by owner direction | Direct in-task research now proceeds without paid calibration or model API credentials. Historical lab tests remain useful infrastructure evidence, not a dependency for figure completion. |
 | 7. Existing incomplete figures | First consolidation-enabled repair | Figure 5-3 regained 49 early Sweden years from original GD010 table; exact count/overlap tests pass, both comparisons visually inspected. Remains partial pending independent review. |
-| 8. Untouched figures | Direct production active | Figure 17-4 verified book-period reconstruction with revised extension to 2023; 17-8 partial with extension to 2025; 17-7 targeted source recovery. 37 untouched figures remain. No paid reviewer dependency. |
+| 8. Untouched figures | Direct production active | 17-4 verified book period with revised extension; 17-8, 17-1 and 17-2 partial reconstructions; 17-7 targeted source recovery. 35 untouched figures remain. No paid reviewer dependency. |
 | 9. Final recovery/review | Not started | Apply new evidence to deferred work and audit all released comparisons. |
 | 10. Release | Not started | Fresh-checkout validation, gallery, PDF, release manifest, and completion accounting. |
 
@@ -363,3 +363,13 @@ SQLite now catalogs 369 files / 71 clean tables / 37,188 rows, retaining earlier
 snapshots. All 60 project tests and canonical-state/data-library checks pass.
 Next: Figure 17-1, work hours, using the same historical OWID recovery path.
 This is a progress checkpoint, not completion of the 75-figure objective.
+
+2026-09-09 work/retirement checkpoint: 17-1 and 17-2 use recovered original
+numeric publications, not digitized values. Both remain partial because small
+book-level differences remain. 17-1 has no defensible comparable extension;
+17-2 adds BLS annual 2011-2024 data with a verified original 2010 anchor and
+explicit historical definition caveat. Current library: 394 retained files,
+76 clean tables / 37,308 rows. All 63 tests pass. Review PDF: 30 figures,
+60 comparison pages; new pages 51-54 rendered and inspected. Next: remaining
+Chapter 17 source families, then continue the untouched queue and deferred
+recovery. Legacy data-use audit and portable refresh layer remain pending.
