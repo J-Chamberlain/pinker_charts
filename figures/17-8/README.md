@@ -28,5 +28,6 @@ A historical verified classification is not a fresh publication review.
 - Original reference: [../../references/figures/figure_17_8.png](../../references/figures/figure_17_8.png)
 - Book period comparison: [plots/comparisons/figure_17_8_book_period_review.png](plots/comparisons/figure_17_8_book_period_review.png)
 - Extended comparison: [plots/comparisons/figure_17_8_extended_review.png](plots/comparisons/figure_17_8_extended_review.png)
+- Lineage csv: [lineage/lineage.csv](lineage/lineage.csv)
 
 <!-- canonical-state:end -->

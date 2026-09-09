@@ -1,0 +1,1564 @@
+{
+  "short_name": "lighting_prices",
+  "title": "A Historical Perspective on Energy Innovation",
+  "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+  "dataset": {
+    "channel": "grapher",
+    "namespace": "light",
+    "short_name": "energy_innovation_long_run",
+    "title": "A Historical Perspective on Energy Innovation",
+    "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+    "is_public": true,
+    "version": "2026-01-21",
+    "update_period_days": 365,
+    "non_redistributable": false,
+    "jsonld": false,
+    "owners": [
+      "Pablo Arriagada"
+    ],
+    "source_checksum": "a7e7316dd2d6f0cada51f9f0fbe4c043"
+  },
+  "primary_key": [
+    "country",
+    "year"
+  ],
+  "dimensions": [
+    {
+      "name": "country",
+      "slug": "country"
+    },
+    {
+      "name": "year",
+      "slug": "year"
+    },
+    {
+      "name": "lighting_source",
+      "slug": "lighting_source"
+    },
+    {
+      "name": "price_year",
+      "slug": "price_year"
+    }
+  ],
+  "fields": {
+    "country": {},
+    "year": {
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ]
+    },
+    "lighting_price__lighting_source_average__price_year_2000": {
+      "title": "Price of lighting (average, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (average)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (average, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "average"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "average",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (average, 2000 prices)"
+    },
+    "lighting_price__lighting_source_average__price_year_2025": {
+      "title": "Price of lighting (average, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (average)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (average, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "average"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "average",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (average, 2025 prices)"
+    },
+    "lighting_price__lighting_source_candles__price_year_2000": {
+      "title": "Price of lighting (candles, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (candles)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (candles, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "candles"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "candles",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (candles, 2000 prices)"
+    },
+    "lighting_price__lighting_source_candles__price_year_2025": {
+      "title": "Price of lighting (candles, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (candles)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (candles, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "candles"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "candles",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (candles, 2025 prices)"
+    },
+    "lighting_price__lighting_source_electricity__price_year_2000": {
+      "title": "Price of lighting (electricity, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (electricity)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (electricity, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "electricity"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "electricity",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (electricity, 2000 prices)"
+    },
+    "lighting_price__lighting_source_electricity__price_year_2025": {
+      "title": "Price of lighting (electricity, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (electricity)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (electricity, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "electricity"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "electricity",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (electricity, 2025 prices)"
+    },
+    "lighting_price__lighting_source_gas__price_year_2000": {
+      "title": "Price of lighting (gas, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (gas)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (gas, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "gas"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "gas",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (gas, 2000 prices)"
+    },
+    "lighting_price__lighting_source_gas__price_year_2025": {
+      "title": "Price of lighting (gas, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (gas)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (gas, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "gas"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "gas",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (gas, 2025 prices)"
+    },
+    "lighting_price__lighting_source_kerosene__price_year_2000": {
+      "title": "Price of lighting (kerosene, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (kerosene)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (kerosene, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "kerosene"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "kerosene",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (kerosene, 2000 prices)"
+    },
+    "lighting_price__lighting_source_kerosene__price_year_2025": {
+      "title": "Price of lighting (kerosene, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (kerosene)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (kerosene, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "kerosene"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "kerosene",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (kerosene, 2025 prices)"
+    },
+    "lighting_price__lighting_source_whale_oil__price_year_2000": {
+      "title": "Price of lighting (whale oil, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (whale oil)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (whale oil, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "whale oil"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "whale oil",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (whale oil, 2000 prices)"
+    },
+    "lighting_price__lighting_source_whale_oil__price_year_2025": {
+      "title": "Price of lighting (whale oil, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (whale oil)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price",
+          "originalName": "Price of lighting (whale oil, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "whale oil"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "dimensions": {
+        "lighting_source": "whale oil",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price",
+      "original_title": "Price of lighting (whale oil, 2025 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_average__price_year_2000": {
+      "title": "5-year rolling average of the price of lighting (average, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (average)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (average, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "average"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "average",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (average, 2000 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_average__price_year_2025": {
+      "title": "5-year rolling average of the price of lighting (average, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (average)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (average, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "average"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "average",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (average, 2025 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_candles__price_year_2000": {
+      "title": "5-year rolling average of the price of lighting (candles, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (candles)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (candles, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "candles"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "candles",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (candles, 2000 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_candles__price_year_2025": {
+      "title": "5-year rolling average of the price of lighting (candles, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (candles)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (candles, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "candles"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "candles",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (candles, 2025 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_electricity__price_year_2000": {
+      "title": "5-year rolling average of the price of lighting (electricity, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (electricity)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (electricity, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "electricity"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "electricity",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (electricity, 2000 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_electricity__price_year_2025": {
+      "title": "5-year rolling average of the price of lighting (electricity, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (electricity)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (electricity, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "electricity"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "electricity",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (electricity, 2025 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_gas__price_year_2000": {
+      "title": "5-year rolling average of the price of lighting (gas, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (gas)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (gas, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "gas"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "gas",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (gas, 2000 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_gas__price_year_2025": {
+      "title": "5-year rolling average of the price of lighting (gas, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (gas)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (gas, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "gas"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "gas",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (gas, 2025 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_kerosene__price_year_2000": {
+      "title": "5-year rolling average of the price of lighting (kerosene, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (kerosene)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (kerosene, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "kerosene"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "kerosene",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (kerosene, 2000 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_kerosene__price_year_2025": {
+      "title": "5-year rolling average of the price of lighting (kerosene, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (kerosene)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (kerosene, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "kerosene"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "kerosene",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (kerosene, 2025 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_whale_oil__price_year_2000": {
+      "title": "5-year rolling average of the price of lighting (whale oil, 2000 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2000 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (whale oil)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2000 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (whale oil, 2000 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "whale oil"
+            },
+            {
+              "name": "price_year",
+              "value": 2000
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2000 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "whale oil",
+        "price_year": 2000
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (whale oil, 2000 prices)"
+    },
+    "lighting_price_rolling_avg__lighting_source_whale_oil__price_year_2025": {
+      "title": "5-year rolling average of the price of lighting (whale oil, 2025 prices)",
+      "description_short": "Price for lighting per million lumen-hours. 1 lumen-hour is equal to the luminous energy emitted in 1 hour by a light source emitting a luminous flux of 1 lumen. For comparison: a standard 100W incandescent light bulb emits around 1600 lumen.",
+      "description_key": "- To calculate the price of lighting \u2013 today or historically \u2013 three different prices need to be known: (1) the prices of the relevant energy source, (2) the equipment to provide this light (e.g. a kerosene lamp), (3) how efficiently the available technology at the time can turn the energy into light. The latter is referred to as the _lighting technology efficiency_ in the literature and is measured in units of energy used for each lumen-hour of light generated.\n- Prices are weighted from the combination of lighting sources at any given period of time. For example, prices of lighting from candles, whale oil, and gas will differ. The average price is, therefore, weighted by the share of each source in total lighting consumption.\n- This data is adjusted for inflation, using long-run consumer price indices from the Bank of England's A Millennium of Macroeconomic Data dataset.\n- We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "origins": [
+        {
+          "producer": "Fouquet",
+          "title": "A Historical Perspective on Energy Innovation",
+          "description": "Data on the evolution of lighting prices, efficiency of lighting technology, transport technology, stationary power provision, and consumer surplus in the long run.",
+          "citation_full": "- Fouquet, R. (2026). A Historical Perspective on Energy Innovation: Energy Transitions, Efficiency Improvements, Rebound Effects and Consumer Welfare Impacts in Anadon, L.D., Sagar, A., Verdolini, E., and Malhotra, A. (ed.) Handbook on Energy Innovation. Edward Elgar Publications. Cheltenham, UK, and Northampton, MA, USA.\n- Fouquet, R. and P.J.G. Pearson (2006). Seven centuries of energy services: the price and use of lighting in the United Kingdom (1300-2000). The Energy Journal 27(1) 139-77.",
+          "attribution": "Fouquet (2026); Fouquet and Pearson (2006)",
+          "url_main": "https://www.jstor.org/stable/23296980",
+          "date_accessed": "2025-12-29",
+          "date_published": "2026",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.jstor.org/stable/23296980"
+          }
+        }
+      ],
+      "unit": "constant 2025 British pounds per million lumen-hours",
+      "short_unit": "\u00a3",
+      "display": {
+        "name": "Price of lighting (whale oil)",
+        "numDecimalPlaces": 2,
+        "tolerance": 0,
+        "shortUnit": "\u00a3",
+        "unit": "constant 2025 British pounds per million lumen-hours"
+      },
+      "additional_info": {
+        "dimensions": {
+          "originalShortName": "lighting_price_rolling_avg",
+          "originalName": "5-year rolling average of the price of lighting (whale oil, 2025 prices)",
+          "filters": [
+            {
+              "name": "lighting_source",
+              "value": "whale oil"
+            },
+            {
+              "name": "price_year",
+              "value": 2025
+            }
+          ]
+        }
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2025 British pounds, which means it is adjusted for inflation. Shown is a 5-year rolling average."
+        },
+        "topic_tags": [
+          "Light at Night",
+          "Energy"
+        ]
+      },
+      "description_processing": "We calculated a 5-year rolling average to smooth out short-term fluctuations and highlight longer-term trends in the price of lighting.",
+      "dimensions": {
+        "lighting_source": "whale oil",
+        "price_year": 2025
+      },
+      "original_short_name": "lighting_price_rolling_avg",
+      "original_title": "5-year rolling average of the price of lighting (whale oil, 2025 prices)"
+    }
+  }
+}

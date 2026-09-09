@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "4a5e475abde03f0f0b43fe86da44335db400e4830ae5c30d67682b4b5407344b",
+  "snapshot_id": "5c22471c6682a60943c1b4944cf4e3bda27763189533ecf2da0afa6275f3159d",
   "figures": 75,
-  "saved_files": 353,
-  "clean_tables": 68,
-  "clean_rows": 35041,
+  "saved_files": 369,
+  "clean_tables": 71,
+  "clean_rows": 37188,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -526,14 +526,14 @@
     {
       "figure_id": "17-4",
       "title": "Cost of light, England, 1300-2006",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "verified_reproduction",
+      "artifact_kind": "reconstruction",
+      "saved_files": 16,
+      "raw_files": 9,
+      "clean_tables": 3,
+      "canonical_declared_clean_tables": 3,
+      "clean_rows": 2147,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "17-5",

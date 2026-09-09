@@ -1,0 +1,31 @@
+{
+  "figure_id": "17-4",
+  "book_citation": "Roser 2016o; Fouquet & Pearson 2012",
+  "script": "scripts/reconstruct_17_4.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": ["figures/17-4/data/raw/owid_legacy.csv", "figures/17-4/data/raw/legacy_indicator_data.json"],
+      "selection": "All 706 annual legacy observations, 1301-2006; API confirms CSV values",
+      "transformation": "Rename columns, add units/version/entity; no extra averaging or interpolation",
+      "clean": "figures/17-4/data/clean/figure_17_4_book_period.csv",
+      "plot": "figures/17-4/plots/book_period/figure_17_4_book_period.png"
+    },
+    {
+      "role": "extended",
+      "raw_inputs": ["figures/17-4/data/raw/owid_legacy.csv", "figures/17-4/data/raw/owid_current.csv"],
+      "selection": "Legacy history plus revised 1995-2023 overlap and extension",
+      "transformation": "No rescaling or forced join; dashed successor already a five-year average; enlarged inset",
+      "clean": "figures/17-4/data/clean/figure_17_4_extended.csv",
+      "plot": "figures/17-4/plots/extended/figure_17_4_extended.png"
+    },
+    {
+      "role": "diagnostic_only",
+      "raw_inputs": ["figures/17-4/data/raw/owid_legacy.csv", "figures/17-4/data/raw/owid_current.csv"],
+      "selection": "706 overlapping source years",
+      "transformation": "Join on year, preserve each value and compute revised/legacy - 1",
+      "clean": "figures/17-4/data/clean/figure_17_4_source_versions.csv",
+      "plot": "figures/17-4/plots/diagnostics/source_versions.png"
+    }
+  ]
+}

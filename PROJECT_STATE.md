@@ -43,12 +43,12 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 38 |
+| not_started | 37 |
 | partial_match | 12 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 7 |
-| verified_reproduction | 9 |
+| verified_reproduction | 10 |
 
 ## Figure Queue
 
@@ -118,7 +118,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 17-1 | Work hours, Western Europe and US, 1870-2000 | not_started | not_started | incomplete |
 | 17-2 | Retirement, US, 1880-2010 | not_started | not_started | incomplete |
 | 17-3 | Utilities, appliances, and housework, US, 1900-2015 | not_started | not_started | incomplete |
-| 17-4 | Cost of light, England, 1300-2006 | not_started | not_started | incomplete |
+| 17-4 | Cost of light, England, 1300-2006 | verified_reproduction | processed | not_reviewed |
 | 17-5 | Spending on necessities, US, 1929-2016 | not_started | not_started | incomplete |
 | 17-6 | Leisure time, US, 1965-2015 | not_started | not_started | incomplete |
 | 17-7 | Cost of air travel, US, 1979-2015 | needs_targeted_source_recovery | blocked | incomplete |
@@ -747,6 +747,32 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 - Legacy metadata: [figures/12-9/metadata/metadata.json](figures/12-9/metadata/metadata.json)
 - Metadata: [figures/12-9/figure.json](figures/12-9/figure.json)
 
+### Figure 17-4 - Cost of light, England, 1300-2006
+
+Status: `verified_reproduction`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/17-4/figure.json](figures/17-4/figure.json)
+- Original reference: [references/figures/figure_17_4.png](references/figures/figure_17_4.png)
+- Provenance: [figures/17-4/provenance/provenance.md](figures/17-4/provenance/provenance.md)
+- Source log: [figures/17-4/source_logs/source_log.md](figures/17-4/source_logs/source_log.md)
+- Search log: [figures/17-4/search_iterations/search_iterations.md](figures/17-4/search_iterations/search_iterations.md)
+- Caption: [figures/17-4/captions/caption.txt](figures/17-4/captions/caption.txt)
+- Anomaly review: [figures/17-4/anomaly_reviews/anomaly_review.md](figures/17-4/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/17-4/discrepancy_logs/discrepancy_log.md](figures/17-4/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/17-4/review_checklist.md](figures/17-4/review_checklist.md)
+- Download log: [figures/17-4/source_logs/downloads.json](figures/17-4/source_logs/downloads.json)
+- Book period reconstruction: [figures/17-4/plots/book_period/figure_17_4_book_period.png](figures/17-4/plots/book_period/figure_17_4_book_period.png)
+- Extended reconstruction: [figures/17-4/plots/extended/figure_17_4_extended.png](figures/17-4/plots/extended/figure_17_4_extended.png)
+- Diagnostic plot: [figures/17-4/plots/diagnostics/source_versions.png](figures/17-4/plots/diagnostics/source_versions.png)
+- Book period clean: [figures/17-4/data/clean/figure_17_4_book_period.csv](figures/17-4/data/clean/figure_17_4_book_period.csv)
+- Extended clean: [figures/17-4/data/clean/figure_17_4_extended.csv](figures/17-4/data/clean/figure_17_4_extended.csv)
+- Diagnostic clean: [figures/17-4/data/clean/figure_17_4_source_versions.csv](figures/17-4/data/clean/figure_17_4_source_versions.csv)
+- Reconstruction script: [scripts/reconstruct_17_4.py](scripts/reconstruct_17_4.py)
+- Book period comparison: [figures/17-4/plots/comparisons/figure_17_4_book_period_review.png](figures/17-4/plots/comparisons/figure_17_4_book_period_review.png)
+- Extended comparison: [figures/17-4/plots/comparisons/figure_17_4_extended_review.png](figures/17-4/plots/comparisons/figure_17_4_extended_review.png)
+- Lineage: [figures/17-4/lineage/lineage.json](figures/17-4/lineage/lineage.json)
+- Lineage csv: [figures/17-4/lineage/lineage.csv](figures/17-4/lineage/lineage.csv)
+
 ### Figure 17-7 - Cost of air travel, US, 1979-2015
 
 Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
@@ -787,6 +813,7 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Original reference: [references/figures/figure_17_8.png](references/figures/figure_17_8.png)
 - Book period comparison: [figures/17-8/plots/comparisons/figure_17_8_book_period_review.png](figures/17-8/plots/comparisons/figure_17_8_book_period_review.png)
 - Extended comparison: [figures/17-8/plots/comparisons/figure_17_8_extended_review.png](figures/17-8/plots/comparisons/figure_17_8_extended_review.png)
+- Lineage csv: [figures/17-8/lineage/lineage.csv](figures/17-8/lineage/lineage.csv)
 
 ### Figure 19-1 - Nuclear weapons, 1945-2015
 

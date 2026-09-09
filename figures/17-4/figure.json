@@ -8,29 +8,58 @@
   "year_range": "1300-2006",
   "source_type_guess": "economic_historical_dataset",
   "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "current_owner": "codex_direct",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Retain frozen legacy data; complete release-level review and document any future successor methodology changes.",
+  "notes": "Original source dataset 187 / indicator 250 recovered with 706 observations; 2016 archived page confirms source identity. Revised 2026 series shown separately through 2023, with overlap and recent-year inset.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Roser 2016o, based on data from Fouquet & Pearson 2012. Cost of one million lumen-hours, in pounds sterling (inflation-adjusted to the year 2000).",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "basis": "2016 chart identifies indicator 250; archived source CSV and current legacy API agree exactly on all 706 values; direct original-PDF visual match reviewed 2026-09-09.",
     "previous_registry_status": "not_started"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
+    "status": "inspected",
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_17_4.png",
+        "sha256": "7665d01d3d0d1ed2576be49ae09515e202688503865ceeb97023a6df2232022d"
+      },
+      {
+        "path": "figures/17-4/plots/book_period/figure_17_4_book_period.png",
+        "sha256": "7ace3f23cff85de558070c8c3917dad2fe6a34fd3fc8378053d7a0ff03469a68"
+      },
+      {
+        "path": "figures/17-4/plots/extended/figure_17_4_extended.png",
+        "sha256": "bc3fc940a6079809e9f7fc30983428c70ea094e37f0ca4ef7708414f00a44f61"
+      },
+      {
+        "path": "figures/17-4/plots/comparisons/figure_17_4_book_period_review.png",
+        "sha256": "dac80752b09bb4f6b741e141168b991c875ec5716a901e387952c1209a67bae8"
+      },
+      {
+        "path": "figures/17-4/plots/comparisons/figure_17_4_extended_review.png",
+        "sha256": "3f13520c8367609364a1783bbabd42918498ce207fcd0b12f3d5c40730d15ad6"
+      },
+      {
+        "path": "figures/17-4/plots/diagnostics/source_versions.png",
+        "sha256": "02e7ebfa9b748960873f1eb9883abdb21c34a00e576284dd9473aa436a904a4a"
+      }
+    ],
+    "issues": [
+      "Minor typography and axis-frame differences; underlying line closely matches.",
+      "Book caption says England and 1300; source metadata says UK and begins in 1301. Disclosed, not altered.",
+      "Revised extension shown separately; no exact source-vintage continuity claimed."
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "comparable_successor",
+    "label": "revised series to 2023, dashed and separately scaled inset",
+    "notes": "Same research family and units, but revised history. OWID five-year averages retained unchanged; overlap shown without normalization or a forced join."
   },
   "artifacts": {
     "metadata": {
@@ -40,16 +69,92 @@
     "original_reference": {
       "path": "references/figures/figure_17_4.png",
       "sha256": "7665d01d3d0d1ed2576be49ae09515e202688503865ceeb97023a6df2232022d"
+    },
+    "provenance": {
+      "path": "figures/17-4/provenance/provenance.md",
+      "sha256": "8ff3e37221b5f05a52135b124d0cdccdecdcc460b6e0f8ed91dcaaf894576a94"
+    },
+    "source_log": {
+      "path": "figures/17-4/source_logs/source_log.md",
+      "sha256": "d7d8ba157518d6024e72d5e3596faf0e8a2c880afa58eee0c309937c12698225"
+    },
+    "search_log": {
+      "path": "figures/17-4/search_iterations/search_iterations.md",
+      "sha256": "89ef06fb172aac413f217179b0dc05bc426fa47fd382a54a722e8b217974d978"
+    },
+    "caption": {
+      "path": "figures/17-4/captions/caption.txt",
+      "sha256": "f0da2c66f5acb630f29bb6593a4f6cee580e47ebc649bda9a18ffa18016de548"
+    },
+    "anomaly_review": {
+      "path": "figures/17-4/anomaly_reviews/anomaly_review.md",
+      "sha256": "fc694ed2826ff9c0ce8408f1ed018635fe04bc511d8810428c83a4a4eb6ec2f8"
+    },
+    "discrepancy_log": {
+      "path": "figures/17-4/discrepancy_logs/discrepancy_log.md",
+      "sha256": "5bd2ae3dff8a500048ef26f6b10f997a9fbee29820a01f2de2e99640a5c98dd7"
+    },
+    "review_checklist": {
+      "path": "figures/17-4/review_checklist.md",
+      "sha256": "a4e1bb34679dbfd0852752c0e2db36e84dbb4b42a134b55f8b72059b00a64404"
+    },
+    "download_log": {
+      "path": "figures/17-4/source_logs/downloads.json",
+      "sha256": "61f4af97d53761ed82945d6e357de62b0108ace36deed51e0bef2559f9a3c833"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/17-4/plots/book_period/figure_17_4_book_period.png",
+      "sha256": "7ace3f23cff85de558070c8c3917dad2fe6a34fd3fc8378053d7a0ff03469a68"
+    },
+    "extended_reconstruction": {
+      "path": "figures/17-4/plots/extended/figure_17_4_extended.png",
+      "sha256": "bc3fc940a6079809e9f7fc30983428c70ea094e37f0ca4ef7708414f00a44f61"
+    },
+    "diagnostic_plot": {
+      "path": "figures/17-4/plots/diagnostics/source_versions.png",
+      "sha256": "02e7ebfa9b748960873f1eb9883abdb21c34a00e576284dd9473aa436a904a4a"
+    },
+    "book_period_clean": {
+      "path": "figures/17-4/data/clean/figure_17_4_book_period.csv",
+      "sha256": "57974381c706b0aabd50a2e8a0f63d727557e10f3f4c3777975704ad7ac3d52e"
+    },
+    "extended_clean": {
+      "path": "figures/17-4/data/clean/figure_17_4_extended.csv",
+      "sha256": "bcc39ff2a33851ce0a62aead05570f954e70fb8fc83937093550f8255245b565"
+    },
+    "diagnostic_clean": {
+      "path": "figures/17-4/data/clean/figure_17_4_source_versions.csv",
+      "sha256": "ad25acf7fae4a1c3e31b4995e8ec2114e0ab7a7a3c1a8f80dca7c76b851ce0a9"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_17_4.py",
+      "sha256": "8619980d72d522f19f9904858b1edf0037744605ec57e3b12bfe44257ae232df"
+    },
+    "book_period_comparison": {
+      "path": "figures/17-4/plots/comparisons/figure_17_4_book_period_review.png",
+      "sha256": "dac80752b09bb4f6b741e141168b991c875ec5716a901e387952c1209a67bae8"
+    },
+    "extended_comparison": {
+      "path": "figures/17-4/plots/comparisons/figure_17_4_extended_review.png",
+      "sha256": "3f13520c8367609364a1783bbabd42918498ce207fcd0b12f3d5c40730d15ad6"
+    },
+    "lineage": {
+      "path": "figures/17-4/lineage/lineage.json",
+      "sha256": "7b0d687514ee6126e90ea9897630733f919b5819601ead9d5e552d32b8c7ffdd"
+    },
+    "lineage_csv": {
+      "path": "figures/17-4/lineage/lineage.csv",
+      "sha256": "d238e7ef0568a2c646d9cc3a7c83730d4648ca7802564212c5fc391d4de34e19"
     }
   },
   "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "book_page": "Supplemental Graphics PDF p34, lower panel",
+    "claim_summary": "The real price of lighting fell dramatically across seven centuries.",
+    "original_dataset": "Fouquet & Pearson (2012), OWID dataset 187 / indicator 250",
+    "dataset_url": "https://api.ourworldindata.org/v1/indicators/250.data.json",
+    "archive_url": "https://web.archive.org/web/20160815131249id_/https://ourworldindata.org/grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound-1300-2006",
+    "download_date": "2026-09-09",
+    "confidence_score": "High book-period source and visual match; medium successor continuity"
   },
   "reference": {
     "figure_id": "17-4",
@@ -79,7 +184,7 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 17-4: Cost of light, England, 1300-2006",
     "source_note_ocr": "Our World in Data, Roser 20160, based on data from Fouquet & Pearson 2012. Cost of one million lumen-hours (about 833 hours from an 80-watt incandescent bulb), in pounds sterling (inflation-adjusted to the year 2000).",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "visually_confirmed_against_original_pdf",
+    "visual_review": "full_resolution_original_inspected_2026-09-09"
   }
 }

@@ -1,0 +1,155 @@
+[
+  {
+    "url": "https://ourworldindata.org/grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound.csv",
+    "path": "figures/17-4/data/raw/owid_current.csv",
+    "retrieved_at": "2026-09-09T23:15:53.705908+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "18b8698a79df14a30673f8961df87c145c67f4ca5d14fef2408fbedd713383ba",
+    "bytes": 24482
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound.metadata.json",
+    "path": "figures/17-4/data/raw/owid_current.metadata.json",
+    "retrieved_at": "2026-09-09T23:15:54.276464+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "eee6d58ade8709b719d270eba7788f2b351ed5bcca796258cb12706f3762a9c6",
+    "bytes": 2806
+  },
+  {
+    "url": "https://api.github.com/repos/owid/owid-datasets/git/trees/master?recursive=1",
+    "path": "figures/17-4/data/candidates/owid_tree.json",
+    "retrieved_at": "2026-09-09T23:15:54.650427+00:00",
+    "http_status": 200,
+    "final_url": "https://api.github.com/repos/owid/owid-datasets/git/trees/master?recursive=1",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "70da740dbe93105b840cb01cd1eee1802e755bb8edefe3e4d5b41ed1fad4ef90",
+    "bytes": 898792
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Price%20for%20Light%20%E2%80%93%20Fouquet/Price%20for%20Light%20%E2%80%93%20Fouquet.csv",
+    "path": "figures/17-4/data/raw/owid_legacy.csv",
+    "retrieved_at": "2026-09-09T23:16:08.642507+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Price%20for%20Light%20%E2%80%93%20Fouquet/Price%20for%20Light%20%E2%80%93%20Fouquet.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "e615b9070479e16dc935106ea29d53102b27e9c5a1a166982101f6b97bbda1ce",
+    "bytes": 23481
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Price%20for%20Light%20%E2%80%93%20Fouquet/datapackage.json",
+    "path": "figures/17-4/data/raw/owid_legacy.metadata.json",
+    "retrieved_at": "2026-09-09T23:16:08.865590+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Price%20for%20Light%20%E2%80%93%20Fouquet/datapackage.json",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "39677aa0540547d9ba745b11d81b36d9d6aebf3e1b58a686f69dddcab3fb9c0c",
+    "bytes": 1345
+  },
+  {
+    "url": "https://api.github.com/repos/owid/owid-datasets/commits?path=datasets%2FPrice+for+Light+%E2%80%93+Fouquet&per_page=100",
+    "path": "figures/17-4/data/candidates/legacy_commits.json",
+    "retrieved_at": "2026-09-09T23:16:09.035817+00:00",
+    "http_status": 200,
+    "final_url": "https://api.github.com/repos/owid/owid-datasets/commits?path=datasets%2FPrice+for+Light+%E2%80%93+Fouquet&per_page=100",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "55dfaafdd88de3c23ad6c96b004d59ef80a46c1aba08759489a588dbb207adb8",
+    "bytes": 1432
+  },
+  {
+    "url": "https://api.ourworldindata.org/v1/indicators/1144138.metadata.json",
+    "path": "figures/17-4/data/raw/current_indicator_metadata.json",
+    "retrieved_at": "2026-09-09T23:16:09.650948+00:00",
+    "http_status": 200,
+    "final_url": "https://api.ourworldindata.org/v1/indicators/1144138.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "8036dc5f0220c96b56d40e09104c4f7caca14665280793eba8db5a6682e194a6",
+    "bytes": 13991
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org%2Fgrapher%2Fthe-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound%2A&output=json&filter=statuscode%3A200&from=2014&to=2018&collapse=timestamp%3A4",
+    "path": "figures/17-4/data/candidates/wayback_cdx.json",
+    "retrieved_at": "2026-09-09T23:16:29.448179+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org%2Fgrapher%2Fthe-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound%2A&output=json&filter=statuscode%3A200&from=2014&to=2018&collapse=timestamp%3A4",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "e92c47fabab2e5a235ebbdc131c000311b799a31d351d1cbb05fcef0c1a9bc97",
+    "bytes": 1612
+  },
+  {
+    "url": "https://catalog.ourworldindata.org/grapher/light/2026-01-21/energy_innovation_long_run/lighting_prices.meta.json",
+    "path": "figures/17-4/data/raw/current_table_metadata.json",
+    "retrieved_at": "2026-09-09T23:16:49.949736+00:00",
+    "http_status": 200,
+    "final_url": "https://catalog.ourworldindata.org/grapher/light/2026-01-21/energy_innovation_long_run/lighting_prices.meta.json",
+    "content_type": null,
+    "status": "downloaded",
+    "sha256": "1b8b2fa24d072cc0a2d60ecdf995d9fcc4474b522f565ffd5ed42b32ae687c2d",
+    "bytes": 99650
+  },
+  {
+    "url": "https://web.archive.org/web/20160815131249id_/https://ourworldindata.org/grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound-1300-2006",
+    "path": "figures/17-4/data/raw/owid_chart_20160815.html",
+    "retrieved_at": "2026-09-09T23:16:54.921680+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20160815131249id_/https://ourworldindata.org/grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound-1300-2006",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "a22039ae23ca6248cd76b95d4db645a62b500fbff5db5b1b9da573986c7ba279",
+    "bytes": 16981
+  },
+  {
+    "url": "https://catalog.ourworldindata.org/grapher/light/2026-01-21/energy_innovation_long_run/lighting_prices.csv",
+    "path": "figures/17-4/data/raw/current_lighting_prices.csv",
+    "retrieved_at": "2026-09-09T23:17:12.981279+00:00",
+    "http_status": 404,
+    "final_url": "https://catalog.ourworldindata.org/grapher/light/2026-01-21/energy_innovation_long_run/lighting_prices.csv",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://catalog.ourworldindata.org/grapher/light/2026-01-21/energy_innovation_long_run/lighting_prices.csv"
+  },
+  {
+    "url": "https://api.ourworldindata.org/v1/indicators/250.metadata.json",
+    "path": "figures/17-4/data/raw/legacy_indicator_metadata.json",
+    "retrieved_at": "2026-09-09T23:17:13.397302+00:00",
+    "http_status": 200,
+    "final_url": "https://api.ourworldindata.org/v1/indicators/250.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "b3791340308de9ac74499a86aa7c546f7b5ce50ff7993c3ca42715e847e316a9",
+    "bytes": 11270
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org%2Fgrapher%2F%2A250%2A&output=json&filter=statuscode%3A200&from=2015&to=2017&collapse=urlkey",
+    "path": "figures/17-4/data/candidates/variable_250_cdx.json",
+    "retrieved_at": "2026-09-09T23:17:19.016117+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org%2Fgrapher%2F%2A250%2A&output=json&filter=statuscode%3A200&from=2015&to=2017&collapse=urlkey",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "url": "https://api.ourworldindata.org/v1/indicators/250.data.json",
+    "path": "figures/17-4/data/raw/legacy_indicator_data.json",
+    "retrieved_at": "2026-09-09T23:17:42.655047+00:00",
+    "http_status": 200,
+    "final_url": "https://api.ourworldindata.org/v1/indicators/250.data.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "f9168058c0dd5d559753f63d494ce52f8c6c1bd3ee744fabdedd9ceb2206fc20",
+    "bytes": 14281
+  }
+]

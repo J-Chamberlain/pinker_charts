@@ -146,6 +146,10 @@
     "extended_comparison": {
       "path": "figures/17-8/plots/comparisons/figure_17_8_extended_review.png",
       "sha256": "71c628d2a376ef83623b3df5618a3ee1eed99709bd52a4521fd8bf3a9b8f36cf"
+    },
+    "lineage_csv": {
+      "path": "figures/17-8/lineage/lineage.csv",
+      "sha256": "46633ef3f7b863d8eecb3fa12140e013d58b7e434930c99e6b536080371edf15"
     }
   },
   "research": {
