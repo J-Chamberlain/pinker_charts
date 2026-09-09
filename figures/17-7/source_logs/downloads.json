@@ -1,0 +1,150 @@
+[
+  {
+    "url": "https://www.airlines.org/dataset/annual-round-trip-fares-and-fees-domestic/",
+    "path": "figures/17-7/data/raw/a4a_domestic_fares_page_2026_09_09.html",
+    "retrieved_at": "2026-09-09T23:09:02.651561+00:00",
+    "http_status": 200,
+    "final_url": "https://www.airlines.org/dataset/annual-round-trip-fares-and-fees-domestic/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "939cb92843cab7f6dd8c2f32b3577519483567a1ff8915ad79ab6a640643e55f",
+    "bytes": 139012
+  },
+  {
+    "url": "https://public.tableau.com/views/AverageDomesticAirfareTimeSeries_16855689739630/Dashboard_DomesticTimeSeries.csv?:showVizHome=no",
+    "path": "figures/17-7/data/raw/a4a_tableau_current_2026_09_09.csv",
+    "retrieved_at": "2026-09-09T23:09:31.810715+00:00",
+    "http_status": 404,
+    "final_url": "https://public.tableau.com/views/AverageDomesticAirfareTimeSeries_16855689739630/Dashboard_DomesticTimeSeries.csv?:showVizHome=no",
+    "content_type": "application/json;charset=UTF-8",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://public.tableau.com/views/AverageDomesticAirfareTimeSeries_16855689739630/Dashboard_DomesticTimeSeries.csv?:showVizHome=no"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=airlines.org/dataset/annual-round-trip-fares-and-fees-domestic/&output=json&filter=statuscode:200&from=2016&to=2016&collapse=timestamp:4",
+    "path": "figures/17-7/data/candidates/a4a_2016_cdx.json",
+    "retrieved_at": "2026-09-09T23:09:32.897181+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=airlines.org/dataset/annual-round-trip-fares-and-fees-domestic/&output=json&filter=statuscode:200&from=2016&to=2016&collapse=timestamp:4",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "url": "https://public.tableau.com/workbooks/AverageDomesticAirfareTimeSeries_16855689739630.twb?showVizHome=no",
+    "path": "figures/17-7/data/candidates/a4a_current_workbook.twb",
+    "retrieved_at": "2026-09-09T23:10:05.174297+00:00",
+    "http_status": 404,
+    "final_url": "https://public.tableau.com/workbooks/AverageDomesticAirfareTimeSeries_16855689739630.twb?showVizHome=no",
+    "content_type": null,
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://public.tableau.com/workbooks/AverageDomesticAirfareTimeSeries_16855689739630.twb?showVizHome=no"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.airlines.org/dataset/annual-round-trip-fares-and-fees-domestic/&output=json&filter=statuscode:200&from=2016&to=2016&collapse=timestamp:4",
+    "path": "figures/17-7/data/candidates/a4a_www_2016_cdx.json",
+    "retrieved_at": "2026-09-09T23:10:17.826109+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=www.airlines.org/dataset/annual-round-trip-fares-and-fees-domestic/&output=json&filter=statuscode:200&from=2016&to=2016&collapse=timestamp:4",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=airlines.org/dataset/annual-round-trip-fares-and-fees-domestic*&output=json&from=2014&to=2018&collapse=timestamp:4",
+    "path": "figures/17-7/data/candidates/a4a_prefix_2014_2018_cdx.json",
+    "retrieved_at": "2026-09-09T23:10:34.868309+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=airlines.org/dataset/annual-round-trip-fares-and-fees-domestic*&output=json&from=2014&to=2018&collapse=timestamp:4",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "33775228ac3ae8077a5ac3075665326c40f08a9f5b3295539b157b2c99deeb50",
+    "bytes": 518
+  },
+  {
+    "url": "https://www.bts.gov/sites/bts.dot.gov/files/2025-09/table_03_20_092625.xlsx",
+    "path": "figures/17-7/data/raw/bts_table_03_20_2025_09_26.xlsx",
+    "retrieved_at": "2026-09-09T23:10:52.298018+00:00",
+    "http_status": 403,
+    "final_url": "https://www.bts.gov/sites/bts.dot.gov/files/2025-09/table_03_20_092625.xlsx",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://www.bts.gov/sites/bts.dot.gov/files/2025-09/table_03_20_092625.xlsx"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.airlines.org/dataset/annual-round-trip-fares-and-fees-domestic*&output=json&filter=statuscode:200&collapse=timestamp:4",
+    "path": "figures/17-7/data/candidates/a4a_all_archives_cdx.json",
+    "retrieved_at": "2026-09-09T23:10:52.756364+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=www.airlines.org/dataset/annual-round-trip-fares-and-fees-domestic*&output=json&filter=statuscode:200&collapse=timestamp:4",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "74144103e2bfd45b28e92f2cd95915d54d8b7fdfe7e1d7710d2147785e5b1a19",
+    "bytes": 3025
+  },
+  {
+    "url": "https://public.tableau.com/views/AverageDomesticAirfareTimeSeries_16855689739630/Dashboard_DomesticTimeSeries?:showVizHome=no",
+    "path": "figures/17-7/data/candidates/tableau_view.html",
+    "retrieved_at": "2026-09-09T23:11:07.424672+00:00",
+    "http_status": 200,
+    "final_url": "https://public.tableau.com/views/AverageDomesticAirfareTimeSeries_16855689739630/Dashboard_DomesticTimeSeries?:showVizHome=no",
+    "content_type": "text/html;charset=utf-8",
+    "status": "downloaded",
+    "sha256": "e11bef2be741058279e7f5305b6d2418ab9eab12ae667e3f47f27b49bb1d5df4",
+    "bytes": 6569
+  },
+  {
+    "url": "https://web.archive.org/web/20170401223135id_/http://airlines.org:80/dataset/annual-round-trip-fares-and-fees-domestic/",
+    "path": "figures/17-7/data/raw/a4a_domestic_fares_20170401.html",
+    "retrieved_at": "2026-09-09T23:11:12.713897+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170401223135id_/http://airlines.org:80/dataset/annual-round-trip-fares-and-fees-domestic/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "c6d436c94395bf33f0cb52e1351ca9cb48469c58ab934a8efe67612ead794290",
+    "bytes": 59922
+  },
+  {
+    "url": "https://web.archive.org/web/20230130141950id_/https://www.airlines.org/dataset/annual-round-trip-fares-and-fees-domestic/",
+    "path": "figures/17-7/data/raw/a4a_domestic_fares_20230130.html",
+    "retrieved_at": "2026-09-09T23:11:26.615802+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20230130141950id_/https://www.airlines.org/dataset/annual-round-trip-fares-and-fees-domestic/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "99b29491efa67b552e8314859366b2bd21923d56ea3fde90b46d9b370e264172",
+    "bytes": 40423
+  },
+  {
+    "url": "https://public.tableau.com/views/AnnualDomesticRTAirfares/Dashboard1.csv?:showVizHome=no",
+    "path": "figures/17-7/data/raw/a4a_legacy_tableau_2026_09_09.csv",
+    "retrieved_at": "2026-09-09T23:11:53.105227+00:00",
+    "http_status": 404,
+    "final_url": "https://public.tableau.com/views/AnnualDomesticRTAirfares/Dashboard1.csv?:showVizHome=no",
+    "content_type": "application/json;charset=UTF-8",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://public.tableau.com/views/AnnualDomesticRTAirfares/Dashboard1.csv?:showVizHome=no"
+  },
+  {
+    "url": "https://public.tableau.com/views/AverageDomesticAirfareTimeSeries/Dashboard_DomesticTimeSeries.csv?:showVizHome=no",
+    "path": "figures/17-7/data/raw/a4a_2023_workbook_2026_09_09.csv",
+    "retrieved_at": "2026-09-09T23:11:53.559339+00:00",
+    "http_status": 404,
+    "final_url": "https://public.tableau.com/views/AverageDomesticAirfareTimeSeries/Dashboard_DomesticTimeSeries.csv?:showVizHome=no",
+    "content_type": "application/json;charset=UTF-8",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://public.tableau.com/views/AverageDomesticAirfareTimeSeries/Dashboard_DomesticTimeSeries.csv?:showVizHome=no"
+  },
+  {
+    "url": "https://www.bts.dot.gov/sites/bts.dot.gov/files/2025-09/table_03_20_092625.xlsx",
+    "path": "figures/17-7/data/raw/bts_table_03_20_2025_09_26.xlsx",
+    "retrieved_at": "2026-09-09T23:11:54.166849+00:00",
+    "http_status": 403,
+    "final_url": "https://www.bts.dot.gov/sites/bts.dot.gov/files/2025-09/table_03_20_092625.xlsx",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://www.bts.dot.gov/sites/bts.dot.gov/files/2025-09/table_03_20_092625.xlsx"
+  }
+]

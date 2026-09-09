@@ -1212,16 +1212,16 @@
     "title": "Cost of air travel, US, 1979-2015",
     "page": "",
     "year_range": "1979-2015",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "needs_targeted_source_recovery",
+    "lifecycle_stage": "source_recovery",
     "source_type_guess": "economic_historical_dataset",
     "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-    "execution_status": "not_started",
+    "current_owner": "codex_direct",
+    "next_action": "Recover the A4A annual base-fare and miles workbook through Tableau or an author-held 2016 snapshot; validate CPI and fee treatment before plotting.",
+    "notes": "Original PDF inspected; Thompson 2013 and A4A citation resolved. Archived pages recovered, but embedded numeric data not recovered. BTS successor has methodological revisions and has not been substituted.",
+    "execution_status": "blocked",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "source_recovery"
   },
   {
     "figure_id": "17-8",

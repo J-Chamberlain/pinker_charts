@@ -42,7 +42,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | --- | ---: |
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
-| not_started | 39 |
+| needs_targeted_source_recovery | 1 |
+| not_started | 38 |
 | partial_match | 12 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
@@ -120,7 +121,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 17-4 | Cost of light, England, 1300-2006 | not_started | not_started | incomplete |
 | 17-5 | Spending on necessities, US, 1929-2016 | not_started | not_started | incomplete |
 | 17-6 | Leisure time, US, 1965-2015 | not_started | not_started | incomplete |
-| 17-7 | Cost of air travel, US, 1979-2015 | not_started | not_started | incomplete |
+| 17-7 | Cost of air travel, US, 1979-2015 | needs_targeted_source_recovery | blocked | incomplete |
 | 17-8 | International tourism, 1995-2015 | partial_match | processed | incomplete |
 | 18-1 | Life satisfaction and income, 2006 | not_started | not_started | incomplete |
 | 18-2 | Loneliness, US students, 1978-2011 | not_started | not_started | incomplete |
@@ -745,6 +746,21 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 - Discrepancy log: [figures/12-9/discrepancy_logs/discrepancy_log.md](figures/12-9/discrepancy_logs/discrepancy_log.md)
 - Legacy metadata: [figures/12-9/metadata/metadata.json](figures/12-9/metadata/metadata.json)
 - Metadata: [figures/12-9/figure.json](figures/12-9/figure.json)
+
+### Figure 17-7 - Cost of air travel, US, 1979-2015
+
+Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
+
+- Metadata: [figures/17-7/figure.json](figures/17-7/figure.json)
+- Original reference: [references/figures/figure_17_7.png](references/figures/figure_17_7.png)
+- Provenance: [figures/17-7/provenance/provenance.md](figures/17-7/provenance/provenance.md)
+- Source log: [figures/17-7/source_logs/source_log.md](figures/17-7/source_logs/source_log.md)
+- Download log: [figures/17-7/source_logs/downloads.json](figures/17-7/source_logs/downloads.json)
+- Search log: [figures/17-7/search_iterations/search_iterations.md](figures/17-7/search_iterations/search_iterations.md)
+- Caption: [figures/17-7/captions/caption.txt](figures/17-7/captions/caption.txt)
+- Anomaly review: [figures/17-7/anomaly_reviews/anomaly_review.md](figures/17-7/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/17-7/discrepancy_logs/discrepancy_log.md](figures/17-7/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/17-7/review_checklist.md](figures/17-7/review_checklist.md)
 
 ### Figure 17-8 - International tourism, 1995-2015
 

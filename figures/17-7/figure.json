@@ -8,29 +8,30 @@
   "year_range": "1979-2015",
   "source_type_guess": "economic_historical_dataset",
   "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "current_owner": "codex_direct",
+  "scientific_status": "needs_targeted_source_recovery",
+  "execution_status": "blocked",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "source_recovery",
+  "next_action": "Recover the A4A annual base-fare and miles workbook through Tableau or an author-held 2016 snapshot; validate CPI and fee treatment before plotting.",
+  "notes": "Original PDF inspected; Thompson 2013 and A4A citation resolved. Archived pages recovered, but embedded numeric data not recovered. BTS successor has methodological revisions and has not been substituted.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "Thompson 2013, updated with data from Airlines for America, http://airlines.org/dataset/annual-round-trip-fares-and-fees-domestic/. Domestic travel, excluding checked baggage fees.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "basis": "Original PDF inspection, archived institutional pages, public download and browser attempts, 2026-09-09",
     "previous_registry_status": "not_started"
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
-    "issues": []
+    "issues": [
+      "No legitimate reconstructed series yet; no visual comparison or publication approval."
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_plotted",
+    "notes": "BTS successor located but revised definition and failed spreadsheet download require follow-up."
   },
   "artifacts": {
     "metadata": {
@@ -40,16 +41,48 @@
     "original_reference": {
       "path": "references/figures/figure_17_7.png",
       "sha256": "0bac56a0244090d7dd56c2ab13b3b4d4fcfb89d3a39aa275c711e65f316b3916"
+    },
+    "provenance": {
+      "path": "figures/17-7/provenance/provenance.md",
+      "sha256": "6067fee63ca9f6a34801bee32433adf07c84ebae7360e6eb98b2e5b09df647ee"
+    },
+    "source_log": {
+      "path": "figures/17-7/source_logs/source_log.md",
+      "sha256": "7981eb3a358646465fed085ceb0009af27bf91ca9d9f6886e16b3dc05b355535"
+    },
+    "download_log": {
+      "path": "figures/17-7/source_logs/downloads.json",
+      "sha256": "73d395cd4dda75063e4aab6f9802d5870a5731e2299cead9810191d3ac4e3a6b"
+    },
+    "search_log": {
+      "path": "figures/17-7/search_iterations/search_iterations.md",
+      "sha256": "e5056253c392b44b00ba96468f4f080d838d2c407c6361c23cee9369acaaea0f"
+    },
+    "caption": {
+      "path": "figures/17-7/captions/caption.txt",
+      "sha256": "3a6a73c27790c13e336cbb2872ff16357ee64236383218fb4d70c6408f84fdae"
+    },
+    "anomaly_review": {
+      "path": "figures/17-7/anomaly_reviews/anomaly_review.md",
+      "sha256": "21de86bdc69d777b2e35a7fc880f167f912c8bf176d5970dc1c5ff81efafb0f0"
+    },
+    "discrepancy_log": {
+      "path": "figures/17-7/discrepancy_logs/discrepancy_log.md",
+      "sha256": "2d6a0fde3d0e28cd203784fc498a9a2a3dad231b761b0a06fe256d625536545d"
+    },
+    "review_checklist": {
+      "path": "figures/17-7/review_checklist.md",
+      "sha256": "0ad1ef3e691ebbc1dc3e209901f1f4493a360ec1d8f136b09912733757de60e3"
     }
   },
   "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "book_page": "Supplemental Graphics PDF p36, upper panel",
+    "claim_summary": "Inflation-adjusted domestic air travel cost per mile fell over 1979-2015.",
+    "original_dataset": "A4A annual domestic round-trip fares, fees and distance; exact book-era workbook not recovered",
+    "dataset_url": "https://www.airlines.org/dataset/annual-round-trip-fares-and-fees-domestic/",
+    "archive_url": "https://web.archive.org/web/20170401223135id_/http://airlines.org:80/dataset/annual-round-trip-fares-and-fees-domestic/",
+    "download_date": "2026-09-09",
+    "confidence_score": "High for citation chain; no numeric reconstruction confidence"
   },
   "reference": {
     "figure_id": "17-7",
@@ -79,7 +112,7 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 17-7: Cost of air travel, US, 1979-2015",
     "source_note_ocr": "Thompson 2013, updated with data from Airlines for America, http://airlines.org/dataset/annual -round-trip-fares-and-fees-domestic/. Domestic travel, excluding checked baggage fees (which would raise the average cost for baggage-checking passengers by about a half-cent per mile since 2008).",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "visually_confirmed_against_original_pdf",
+    "visual_review": "full_resolution_original_inspected_2026-09-09"
   }
 }
