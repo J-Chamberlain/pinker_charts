@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "10-1",
+  "book": "Enlightenment Now",
+  "chapter": "10",
+  "title": "Population and population growth, 1750-2015 and projected to 2100",
+  "page": "",
+  "year_range": "1750-2015",
+  "source_type_guess": "population_projection_dataset",
+  "priority": "completed_monitor",
+  "current_owner": "Codex",
+  "scientific_status": "updated_equivalent",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "updated_equivalent_with_current_owid_un_projection",
+  "next_action": "Search archived OWID 2016 grapher data and IIASA projection files before promoting to verified_reproduction.",
+  "notes": "Uses current OWID grapher successor data (HYDE 2023, Gapminder 2022, UN WPP 2024) rather than the exact 2016 OWID/HYDE/IIASA source vintage cited by the book.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Ortiz-Ospina & Roser 2016d; UN Population Division and HYDE; post-2015 IIASA medium projection.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "updated_equivalent"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/10-1/plots/comparisons/pdf_reference_figure_10_1.png",
+      "sha256": "76478c7a67a1e62f21f285e65816e290080e0571d35dcffb2cb92333298a80a5"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/10-1/plots/book_period/figure_10_1_book_period_reconstruction.png",
+      "sha256": "90a92dc475236bd2a53619be5bf90edee6fabccdb3f70de0181f3b2eae846da9"
+    },
+    "extended_reconstruction": {
+      "path": "figures/10-1/plots/extended/figure_10_1_extended_reconstruction.png",
+      "sha256": "90a92dc475236bd2a53619be5bf90edee6fabccdb3f70de0181f3b2eae846da9"
+    },
+    "book_period_comparison": {
+      "path": "figures/10-1/plots/comparisons/figure_10_1_book_period_comparison.png",
+      "sha256": "a13946ff31358a212fcb4bc093f225df3a38d1839703149bba76ff8d76eecc66"
+    },
+    "extended_comparison": {
+      "path": "figures/10-1/plots/comparisons/figure_10_1_extended_comparison.png",
+      "sha256": "b0a047cef7f2f223a1bd32e048e55742291bc046e535400b103512cbe0b4e14a"
+    },
+    "caption": {
+      "path": "figures/10-1/captions/caption.txt",
+      "sha256": "9bc2177409677a1722655342188a9445f11e012d4a1b6a8b9490857b991024f8"
+    },
+    "provenance": {
+      "path": "figures/10-1/provenance/provenance.md",
+      "sha256": "336e77ed92eb6095224929735d75fb5c190f91c5bdc9e5b3348537be8307561f"
+    },
+    "anomaly_review": {
+      "path": "figures/10-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "0e6261d3499852b188f45c42a2c84f9b2ac54e68022028c1fd0fdefdf90e0bdf"
+    },
+    "review_checklist": {
+      "path": "figures/10-1/review_checklist.md",
+      "sha256": "83b4cc5c6b997c5d96dc0eba1db911df4b81e7c84477b04422df4b2423d29e3b"
+    },
+    "source_log": {
+      "path": "figures/10-1/source_logs/source_log.md",
+      "sha256": "d238f38979eaea17220467f442add04dae83ef930b6447527d4f62e74df14dd2"
+    },
+    "search_log": {
+      "path": "figures/10-1/search_iterations/search_iterations.md",
+      "sha256": "6e3726a2a51ba742baa0763567ab1eb568aa8a4dc02a5f4e4069243655c10b4b"
+    },
+    "discrepancy_log": {
+      "path": "figures/10-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "bc145ac0856b76e01c59c3a7d20e346031a2371245f8bb18a70ee456ea4b6d5d"
+    },
+    "legacy_metadata": {
+      "path": "figures/10-1/metadata/metadata.json",
+      "sha256": "877c9f0fd43a89e816b94908b43917aad3c4831aeeb8a238a3d71ef8b9c4ca5a"
+    },
+    "metadata": {
+      "path": "figures/10-1/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental PDF page 12",
+    "claim_summary": "World population growth peaked in the late 20th century while total population continued rising and was projected to level off by 2100.",
+    "original_dataset": "Exact 2016 OWID/HYDE/IIASA snapshot not recovered.",
+    "dataset_url": "https://ourworldindata.org/grapher/population.csv; https://ourworldindata.org/grapher/population-growth-rate.csv; https://ourworldindata.org/grapher/population-with-un-projections.csv",
+    "archive_url": "Not captured in this pass.",
+    "download_date": "2026-07-01",
+    "confidence_score": 0.82
+  }
+}

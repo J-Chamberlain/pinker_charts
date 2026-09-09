@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "8-5",
+  "book": "Enlightenment Now",
+  "chapter": "8",
+  "title": "Extreme poverty (number), 1820-2015",
+  "page": "",
+  "year_range": "1820-2015",
+  "source_type_guess": "OWID historical extreme-poverty absolute-count dataset",
+  "priority": "publication_review",
+  "current_owner": "Codex",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "editorial_audited_verified_reproduction",
+  "next_action": "No source blocker; retain verified_reproduction unless future audit finds a material issue.",
+  "notes": "A falsification audit found no material source, encoding, or endpoint issue. The reconstruction uses the cited OWID historical absolute-count series and matches the stacked-area visual claim; remaining differences are production styling only.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Roser & Ortiz-Ospina 2017, based on data from Bourguignon & Morrison 2002 (1820-1992) and the World Bank 2016g (1981-2015).",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "verified_reproduction"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/8-5/plots/comparisons/kindle_reference_figure_8_5.png",
+      "sha256": "46d7d653857b1d5db873da1a65b255023e2f32e229f7ea6187567c74b6624156"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/8-5/plots/book_period/figure_8_5_book_period_reconstruction.png",
+      "sha256": "d1240f5009db1cb2a458a8217e7c1969df4c58c0d99223e06a2f8bfe12e19a59"
+    },
+    "extended_reconstruction": {
+      "path": "figures/8-5/plots/extended/figure_8_5_extended_reconstruction.png",
+      "sha256": "9a4e411367c23f6f23676eba79c797a06474b4f1d41d13e3e29f12419ffbf7e7"
+    },
+    "book_period_comparison": {
+      "path": "figures/8-5/plots/comparisons/figure_8_5_book_period_comparison.png",
+      "sha256": "2112d0d228510108b06523b5a8ec234d5fe7f837c8024e73e482fa4fc4bc137b"
+    },
+    "extended_comparison": {
+      "path": "figures/8-5/plots/comparisons/figure_8_5_extended_comparison.png",
+      "sha256": "f191b9c252ae8c448c134ece25101c81d4f758fb89a77c892ac2c091c958e7ec"
+    },
+    "caption": {
+      "path": "figures/8-5/captions/caption.txt",
+      "sha256": "5c050ef41dd6f41dcb209d165baca4ed956cfe02bf1431debdcab461d105f19b"
+    },
+    "provenance": {
+      "path": "figures/8-5/provenance/provenance.md",
+      "sha256": "4827e47c7e44eefaba91d871a3aac940af688ad620dacdb6a024d03d35e71f89"
+    },
+    "anomaly_review": {
+      "path": "figures/8-5/anomaly_reviews/anomaly_review.md",
+      "sha256": "c6de2ade92422c4978910c10ae9d0bf012365fc14506d8c409ec563f967ee62d"
+    },
+    "review_checklist": {
+      "path": "figures/8-5/review_checklist.md",
+      "sha256": "1879499111fc526fed89923a4ff4b6035f75953375ece5c6c6d871508c78c1cc"
+    },
+    "source_log": {
+      "path": "figures/8-5/source_logs/source_log.md",
+      "sha256": "68ece755578620857aa7e1dff9c48ecaab078a23bd4e100807db030ce9eae094"
+    },
+    "search_log": {
+      "path": "figures/8-5/search_iterations/search_iterations.md",
+      "sha256": "20d5dd1bd1f5bbb34e350c0ed895d0c909ab5f83bddfc7a616f16fbec407e8c9"
+    },
+    "discrepancy_log": {
+      "path": "figures/8-5/discrepancy_logs/discrepancy_log.md",
+      "sha256": "db1c6da41a8fd5d91f939d35084fc4dffe4b68af1cf0364942f8387ca12e50ac"
+    },
+    "legacy_metadata": {
+      "path": "figures/8-5/metadata/metadata.json",
+      "sha256": "5f3b18d4902b958e11bc64582bf8f61e551854c90ec3689d5f6ce9736d617be6"
+    },
+    "metadata": {
+      "path": "figures/8-5/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Rendered PDF preview page page-09.png",
+    "claim_summary": "The number of people in extreme poverty fell even as the number not in extreme poverty rose rapidly.",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-06-30",
+    "confidence_score": "high"
+  }
+}

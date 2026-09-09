@@ -10,6 +10,15 @@ The original parent versions remain in Git; selected state snapshots are also
 preserved under `snapshots/` for audit. Those snapshots are historical claims,
 not current figure state.
 
+[worker_import_manifest.json](worker_import_manifest.json) records a further
+116 worker-delta file decisions. The 7-3 and 12-5 packages now include recovered
+archived FAO regional data and a better ASN/World Bank successor indicator.
+Missing 5-3 source files were added while retaining the newer OWID 522 package.
+The 7-4 worker reconstruction used transcribed source-chart labels: its work is
+quarantined under `worker_candidates/7-4`, and its plots are not canonical.
+This prevents a visually convincing but insufficiently independent input from
+being accepted as a reconstruction. Usable source/event-table evidence is retained.
+
 ## Figure Decisions
 
 | Figure | Retained improvement | Limitations |

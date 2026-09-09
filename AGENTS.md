@@ -17,6 +17,11 @@ Do not equate execution acceptance with scientific verification. Inspect actual
 original-reference and comparison images before claiming visual validation.
 Never use digitized plotted values as reconstruction input.
 
+Canonical state is `figures/<id>/figure.json`. Follow
+[the state contract](docs/canonical_state.md); do not hand-edit generated registry
+mirrors or PROJECT_STATE tables. Run `scripts/project_state.py generate` and
+`scripts/project_state.py check` after canonical record changes.
+
 Preserve existing work. At a meaningful checkpoint, update the plan's progress
 ledger and PROJECT_STATE with evidence, remaining blockers, and the exact next
 action. Unimplemented plan requirements must remain labeled as pending.

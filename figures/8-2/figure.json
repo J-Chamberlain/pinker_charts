@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "8-2",
+  "book": "Enlightenment Now",
+  "chapter": "8",
+  "title": "GDP per capita, 1600-2015",
+  "page": "",
+  "year_range": "1600-2015",
+  "source_type_guess": "Maddison/World Bank GDP per capita",
+  "priority": "high",
+  "current_owner": "Codex",
+  "scientific_status": "updated_equivalent",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "editorial_reviewed_successor_equivalent",
+  "next_action": "Recover exact Maddison Project 2014/World Bank 2016 vintage before considering verified_reproduction.",
+  "notes": "The selected countries and line ordering broadly match the book, but current Maddison 2020/OWID data are not the cited Maddison Project 2014/World Bank 2016 vintage. Remaining differences are not typography-only.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Roser 2016c, based on data from the World Bank and from Maddison Project 2014.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "updated_equivalent"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/8-2/plots/comparisons/kindle_reference_figure_8_2.png",
+      "sha256": "8616eaf0ee430b46338a6f3d08a61a467cac9526d6c714fbb9edfaf38fd0ed22"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/8-2/plots/book_period/figure_8_2_book_period_reconstruction.png",
+      "sha256": "64539b433eca2d5de571b415f4d8a09d09ab93956b84498a64e5b970693a3d31"
+    },
+    "extended_reconstruction": {
+      "path": "figures/8-2/plots/extended/figure_8_2_extended_reconstruction.png",
+      "sha256": "c69cfeb6d648e7f247a700056c6f025d5ef4aaf9aae1d68cba3e25acc5eeb72c"
+    },
+    "book_period_comparison": {
+      "path": "figures/8-2/plots/comparisons/figure_8_2_book_period_comparison.png",
+      "sha256": "466050bd45d6910cb9109a88a622e4d84e25a0df7d670b234e18a750630860b7"
+    },
+    "extended_comparison": {
+      "path": "figures/8-2/plots/comparisons/figure_8_2_extended_comparison.png",
+      "sha256": "2ecbc59607df921efa7c2a683c757bbd4ce5a421ac5083dcabd7340070a9e94e"
+    },
+    "caption": {
+      "path": "figures/8-2/captions/caption.txt",
+      "sha256": "eddf2c616206c9c26a29195423d0cb49bca3e65e24a4fa9aad84757e79dea228"
+    },
+    "provenance": {
+      "path": "figures/8-2/provenance/provenance.md",
+      "sha256": "0a0f0c2886f5ca49dce02ebc0de873d3b5d0214ddfc70bbf2d5fc703d7f6bfb4"
+    },
+    "anomaly_review": {
+      "path": "figures/8-2/anomaly_reviews/anomaly_review.md",
+      "sha256": "80dadb866530597fe4dafa145f280b8284d42c6e3313afcdaeecb1ec7de33fbd"
+    },
+    "review_checklist": {
+      "path": "figures/8-2/review_checklist.md",
+      "sha256": "9f8e777aac8c5eb24d4b66bd92c6a072271b088e6fe89a5cc7181fac5ac03c3a"
+    },
+    "source_log": {
+      "path": "figures/8-2/source_logs/source_log.md",
+      "sha256": "a2eee11644016d1bd37f578ea50fc3fcf5fe462db15c34801ff7efde48a84e6f"
+    },
+    "search_log": {
+      "path": "figures/8-2/search_iterations/search_iterations.md",
+      "sha256": "39cced4cb0c062cb8f95f54aa1f76ed7f9c5b9dfd4557031c3c55476f2dc06ee"
+    },
+    "discrepancy_log": {
+      "path": "figures/8-2/discrepancy_logs/discrepancy_log.md",
+      "sha256": "c78989ea725baf1ad31988cc3d89f5ad99e6fee3cbc75619c85fc5bdb0b708ac"
+    },
+    "legacy_metadata": {
+      "path": "figures/8-2/metadata/metadata.json",
+      "sha256": "2dea2da355b80de35865451c58b739174dfa81d54c5261ff2c6bf7d258d74899"
+    },
+    "metadata": {
+      "path": "figures/8-2/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Rendered PDF preview page page-07.png",
+    "claim_summary": "Selected countries and the world became much richer, with uneven timing and levels.",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-06-30",
+    "confidence_score": "medium"
+  }
+}

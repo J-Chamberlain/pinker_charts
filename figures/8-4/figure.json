@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "8-4",
+  "book": "Enlightenment Now",
+  "chapter": "8",
+  "title": "Extreme poverty (proportion), 1820-2015",
+  "page": "",
+  "year_range": "1820-2015",
+  "source_type_guess": "OWID poverty historical dataset",
+  "priority": "high",
+  "current_owner": "Codex",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "reviewed_book_period_reconstruction_no_comparable_extension",
+  "next_action": "Publication review; add post-2015 extension only if a methodologically comparable World successor series is recovered and documented.",
+  "notes": "Book-period reconstruction is verified. The comparison layout was remediated so the recreated plot area is comparable to the Kindle crop; no comparable world extension is plotted.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Roser & Ortiz-Ospina 2017, based on Bourguignon & Morrisson 2002 and World Bank 2016g.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "verified_reproduction"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/8-4/plots/comparisons/kindle_reference_figure_8_4.png",
+      "sha256": "75400d863d497d23aec91213f62efa07a919595071ee0a30bcef7e6deaba60f6"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/8-4/plots/book_period/figure_8_4_book_period_reconstruction.png",
+      "sha256": "3bbfcf8fb0fc5daa062b3ffb1bb777f91ede1644e06b6c4835e75a14eb8dc8b5"
+    },
+    "extended_reconstruction": {
+      "path": "figures/8-4/plots/extended/figure_8_4_extended_reconstruction.png",
+      "sha256": "e1728ca333e83a986e28b076e621abcc734d32a9fcb579460ec2a55beaa4bcb4"
+    },
+    "book_period_comparison": {
+      "path": "figures/8-4/plots/comparisons/figure_8_4_book_period_comparison.png",
+      "sha256": "2910fb79aa287eb944982b0a1424eca1088b912bc2f48f8a67ab5f06fd24a14d"
+    },
+    "extended_comparison": {
+      "path": "figures/8-4/plots/comparisons/figure_8_4_extended_comparison.png",
+      "sha256": "ca17a48c5cbe85db5c08e375315f1b98d1cf1f26458e012d62bebfa55d474d3a"
+    },
+    "caption": {
+      "path": "figures/8-4/captions/caption.txt",
+      "sha256": "ca59076240d1e48cbe7bf799abe85ca87f342b56f7e565fcc55a8c2246e4ea59"
+    },
+    "provenance": {
+      "path": "figures/8-4/provenance/provenance.md",
+      "sha256": "4f29f50d71c79927109633d95a81ae4ec143dc5c3bf7e13698913f8acb2d624c"
+    },
+    "anomaly_review": {
+      "path": "figures/8-4/anomaly_reviews/anomaly_review.md",
+      "sha256": "84c4bdc81f95a5446bd84aa242741953551c035c58b0ee84d8f29e04b3649a9b"
+    },
+    "review_checklist": {
+      "path": "figures/8-4/review_checklist.md",
+      "sha256": "249820119dacab657c38edbb252f92e126f3c3b3a83aa77553173a5aed80ca39"
+    },
+    "source_log": {
+      "path": "figures/8-4/source_logs/source_log.md",
+      "sha256": "be879d7a76f64876c31336ba885a98b09962569a6854d6cd1967dc691c2c8be0"
+    },
+    "search_log": {
+      "path": "figures/8-4/search_iterations/search_iterations.md",
+      "sha256": "79365f15af04c2555cd846428afd447e52426c078edc83a95ea31e9c45a4d43e"
+    },
+    "discrepancy_log": {
+      "path": "figures/8-4/discrepancy_logs/discrepancy_log.md",
+      "sha256": "758892b5e7e06301492fd89c44f44bf5625590fe95c84bd0aa5cba6ed9fc1247"
+    },
+    "legacy_metadata": {
+      "path": "figures/8-4/metadata/metadata.json",
+      "sha256": "268b2822aab2ea808404ec7a22e88156b0b2a491af3aff88b81e8c3e21b2b2e3"
+    },
+    "metadata": {
+      "path": "figures/8-4/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Kindle page 87 search result",
+    "claim_summary": "The proportion of the world population in extreme poverty fell sharply from the nineteenth century to 2015.",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-06-29",
+    "confidence_score": 0.84
+  }
+}

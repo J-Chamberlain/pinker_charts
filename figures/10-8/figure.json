@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "10-8",
+  "book": "Enlightenment Now",
+  "chapter": "10",
+  "title": "CO2 emissions, 1960-2015",
+  "page": "",
+  "year_range": "1960-2015",
+  "source_type_guess": "environment_institutional_dataset",
+  "priority": "completed_monitor",
+  "current_owner": "repository",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "review_complete_book_period_with_successor_extension",
+  "next_action": "No further source recovery required before moving to another figure; revisit only for publication typography or source-version audit.",
+  "notes": "Book-period stack uses the exact OWID 2017 regional CDIAC dataset named by the source chain. Extension is visually separated by a 2015 boundary because source definitions changed.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Ritchie & Roser 2017, the OWID annual CO2 emissions by region grapher, CDIAC, and Le Quere et al. 2016; international air and sea corresponds to bunker fuels, and Other corresponds to statistical difference.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "verified_reproduction"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/10-8/plots/comparisons/kindle_reference_figure_10_8.png",
+      "sha256": "50011e084da26f56cf94f011780ca6c579befbc5e570dd9ae9a3e2ff899c1bb7"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/10-8/plots/book_period/figure_10_8_book_period_reconstruction.png",
+      "sha256": "28ae06e1190b0e312f5bd7587586d9c8a9779b827b49bc114ec2b69f661b376a"
+    },
+    "extended_reconstruction": {
+      "path": "figures/10-8/plots/extended/figure_10_8_extended_reconstruction.png",
+      "sha256": "fbda6268e3d161fc9b61d861571c1f98efa3e8ab7d9b9977e03c08939137c31d"
+    },
+    "book_period_comparison": {
+      "path": "figures/10-8/plots/comparisons/figure_10_8_book_period_comparison.png",
+      "sha256": "35877965e6f1b10c2987eb240682e5346c5e60b32023c1c820e1fed829e22ae0"
+    },
+    "extended_comparison": {
+      "path": "figures/10-8/plots/comparisons/figure_10_8_extended_comparison.png",
+      "sha256": "7a6797589c7f048fb5fc2896f62ab78f30ccfd2656f66ca3e4a224a3c653c7db"
+    },
+    "caption": {
+      "path": "figures/10-8/captions/caption.txt",
+      "sha256": "3f63b1980f285289bef00d6007bdd4ff4f3b37f9882f8e66972f0ba023e2f2d3"
+    },
+    "provenance": {
+      "path": "figures/10-8/provenance/provenance.md",
+      "sha256": "cb72b623cc848a696f667ebea2233b30e7a33deea92e9b21db98e236422ceee4"
+    },
+    "anomaly_review": {
+      "path": "figures/10-8/anomaly_reviews/anomaly_review.md",
+      "sha256": "16683a88d61bb44a462f9273759d593bbe477030853b632dd2fd08b602dcedc4"
+    },
+    "review_checklist": {
+      "path": "figures/10-8/review_checklist.md",
+      "sha256": "15390821e0f31062f8eeb9e51a0ad3c6e76ca7f388a207174443d98341e9afa5"
+    },
+    "source_log": {
+      "path": "figures/10-8/source_logs/source_log.md",
+      "sha256": "92d19195b62a4a3414ea2be39ce0242573b876149940d5ba50b51ee0d3e1c345"
+    },
+    "search_log": {
+      "path": "figures/10-8/search_iterations/search_iterations.md",
+      "sha256": "e6ca2febc4519a23f7835721c40d93e673b8b8d51de1fdc87e1d1ee3a2e81897"
+    },
+    "discrepancy_log": {
+      "path": "figures/10-8/discrepancy_logs/discrepancy_log.md",
+      "sha256": "7569205dcb22c91d2e18fb972d1f3829712fc38cd7b1f7b00cdd54284a65880a"
+    },
+    "legacy_metadata": {
+      "path": "figures/10-8/metadata/metadata.json",
+      "sha256": "fb2058bbfb1497c54455061bb0f8ef79ce5770335706a9d33717a444666a70f2"
+    },
+    "metadata": {
+      "path": "figures/10-8/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "",
+    "claim_summary": "",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "",
+    "confidence_score": ""
+  }
+}

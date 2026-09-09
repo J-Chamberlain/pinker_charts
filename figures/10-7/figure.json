@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "10-7",
+  "book": "Enlightenment Now",
+  "chapter": "10",
+  "title": "Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014",
+  "page": "",
+  "year_range": "1820-2014",
+  "source_type_guess": "economic_historical_dataset",
+  "priority": "completed_monitor",
+  "current_owner": "repository",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "review_complete_book_period_with_successor_extension",
+  "next_action": "No further source recovery required before moving to another figure; revisit only for publication typography or source-version audit.",
+  "notes": "Book-period source and visual geometry closely match. Extension is useful but explicitly successor-series only.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Ritchie & Roser 2017, based on data from CDIAC; GDP in 2011 international dollars with pre-1990 GDP from Maddison Project 2014.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "verified_reproduction"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/10-7/plots/comparisons/kindle_reference_figure_10_7.png",
+      "sha256": "c3d8f1bc27b088f35fd5ff4a637b6a09fedfe340ec31efba60ae186bd90e6bad"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/10-7/plots/book_period/figure_10_7_book_period_reconstruction.png",
+      "sha256": "7c49422f94f2ae31b2c59a90830aed9fb709bb6fdabfda7a22c0ec5b942710a1"
+    },
+    "extended_reconstruction": {
+      "path": "figures/10-7/plots/extended/figure_10_7_extended_reconstruction.png",
+      "sha256": "832223997089b2bf89cc055190cd0335a546a7dff0068c5c93054a3abf8cacd5"
+    },
+    "book_period_comparison": {
+      "path": "figures/10-7/plots/comparisons/figure_10_7_book_period_comparison.png",
+      "sha256": "792b96cd7c79c0ec5f8f803960f49c13a5664156cb1686ac9589fb8921f2020a"
+    },
+    "extended_comparison": {
+      "path": "figures/10-7/plots/comparisons/figure_10_7_extended_comparison.png",
+      "sha256": "7a455a8dbb6f7ed95c5d549bc964ffddc3c6fa4b264f11e6f2cf5633104813fe"
+    },
+    "caption": {
+      "path": "figures/10-7/captions/caption.txt",
+      "sha256": "067f4a8107b72cf9bc4f87f8c74554c365a2eaa763c4babc0087aa7f8a3d53fc"
+    },
+    "provenance": {
+      "path": "figures/10-7/provenance/provenance.md",
+      "sha256": "79c405153190edec470ca6c89995cadfc32834183d7fd0dcc4b75ce0c2f00e7c"
+    },
+    "anomaly_review": {
+      "path": "figures/10-7/anomaly_reviews/anomaly_review.md",
+      "sha256": "52171d00d2555fca7e9435598d46070bc8e94b943a60be248d852f30c471350b"
+    },
+    "review_checklist": {
+      "path": "figures/10-7/review_checklist.md",
+      "sha256": "cf5693ad7c1fb4fb5695e5bece60ce89d34bebb49711415745e76c8e5df41bd0"
+    },
+    "source_log": {
+      "path": "figures/10-7/source_logs/source_log.md",
+      "sha256": "bda5eb212d1f0a46c08cab21a105377b6821072ce56cb048493a31ddb266e055"
+    },
+    "search_log": {
+      "path": "figures/10-7/search_iterations/search_iterations.md",
+      "sha256": "28e48be58da01e5aec2186a280de34e644706da848c58491e13c1c992e52efb0"
+    },
+    "discrepancy_log": {
+      "path": "figures/10-7/discrepancy_logs/discrepancy_log.md",
+      "sha256": "07374c589558b4f9b0a34e679c477d49402edb251c1a82eda8d7db228b8b7a1f"
+    },
+    "legacy_metadata": {
+      "path": "figures/10-7/metadata/metadata.json",
+      "sha256": "bcfb2db95e5d4b9ef99b462a9ce271a32a1ff082eff93e86378b9620d6dc9438"
+    },
+    "metadata": {
+      "path": "figures/10-7/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "",
+    "claim_summary": "",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "",
+    "confidence_score": ""
+  }
+}

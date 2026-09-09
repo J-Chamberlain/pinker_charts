@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "9-6",
+  "book": "Enlightenment Now",
+  "chapter": "9",
+  "title": "Poverty, US, 1960-2016",
+  "page": "",
+  "year_range": "1960-2016",
+  "source_type_guess": "economic_historical_dataset",
+  "priority": "completed_monitor",
+  "current_owner": "Codex",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "verified_reproduction_with_single_year_extension",
+  "next_action": "Locate any spreadsheet companion data for archival completeness; otherwise monitor only.",
+  "notes": "The cited report was recovered and Table 1 contains the two plotted book-period series. Values are extracted from the source table, not digitized from Pinker's figure.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Meyer & Sullivan 2017.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "verified_reproduction"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/9-6/plots/comparisons/pdf_reference_figure_9_6.png",
+      "sha256": "00e2a7cddc2534201c618bb5caf22b14a0ef8132a8310d6dc8686967661eb2c6"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/9-6/plots/book_period/figure_9_6_book_period_reconstruction.png",
+      "sha256": "0dbe2083025a0daf4e9d5e0cb1372093cebb29fefc57be33357dd5cb8fe905ad"
+    },
+    "extended_reconstruction": {
+      "path": "figures/9-6/plots/extended/figure_9_6_extended_reconstruction.png",
+      "sha256": "0f4cc4f0db00043722aef087387e27b2b489e1ea72815c815794a576be6f83c2"
+    },
+    "book_period_comparison": {
+      "path": "figures/9-6/plots/comparisons/figure_9_6_book_period_comparison.png",
+      "sha256": "520a5899d868ed78ab258ebe5e54515e463cddf548dac46121a760bf758d316a"
+    },
+    "extended_comparison": {
+      "path": "figures/9-6/plots/comparisons/figure_9_6_extended_comparison.png",
+      "sha256": "8dd058054b6712ae69d74d5be56bffc4a288211288a48f37699918f0241855d0"
+    },
+    "caption": {
+      "path": "figures/9-6/captions/caption.txt",
+      "sha256": "29c2b72ffd8a8d00695a670b19f432d20a70e4d00163d33291c57c29074ba9ec"
+    },
+    "provenance": {
+      "path": "figures/9-6/provenance/provenance.md",
+      "sha256": "ddc70e976a20914e1ae515db4c2ec1b4ba82c92b7663b5aba2e65863c1a0c3d3"
+    },
+    "anomaly_review": {
+      "path": "figures/9-6/anomaly_reviews/anomaly_review.md",
+      "sha256": "4092e8502ec14623264b04f0388d5ff2ff58e1f30a1204095248913ac131b031"
+    },
+    "review_checklist": {
+      "path": "figures/9-6/review_checklist.md",
+      "sha256": "a5600293902e9f0d52deafc370ebcc0431227af844bb15e039b7e05017ec375a"
+    },
+    "source_log": {
+      "path": "figures/9-6/source_logs/source_log.md",
+      "sha256": "9f2bb595239561ac06f4b309c83cb6f8e726b7f3e98f2c0ef48eef6f3fa3537e"
+    },
+    "search_log": {
+      "path": "figures/9-6/search_iterations/search_iterations.md",
+      "sha256": "7f556f1728e2808e8161ee5c74ee91f3aa05cd3f6c955db3cca33e57ab6727b5"
+    },
+    "discrepancy_log": {
+      "path": "figures/9-6/discrepancy_logs/discrepancy_log.md",
+      "sha256": "d846111218f6f7fc5e80b78613e7d2f6d4873f811e707910f0cca83d9c553a6e"
+    },
+    "legacy_metadata": {
+      "path": "figures/9-6/metadata/metadata.json",
+      "sha256": "2d8a000c7f6e63c34f0b5fff0c4553f134e94338a241ce49beff3c6107cbd251"
+    },
+    "metadata": {
+      "path": "figures/9-6/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental PDF page 12",
+    "claim_summary": "US poverty measured by after-tax disposable income and consumption declined substantially, with consumption poverty falling farther.",
+    "original_dataset": "Meyer & Sullivan 2017 Annual Report on U.S. Consumption Poverty, Table 1.",
+    "dataset_url": "https://www.aei.org/wp-content/uploads/2018/11/2017-Consumption-Poverty-Report-Meyer-Sullivan-final.pdf",
+    "archive_url": "Not captured in this pass.",
+    "download_date": "2026-07-01",
+    "confidence_score": 0.91
+  }
+}

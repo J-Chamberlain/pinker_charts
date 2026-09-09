@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "5-1",
+  "book": "Enlightenment Now",
+  "chapter": "5",
+  "title": "Life expectancy, 1771-2015",
+  "page": "",
+  "year_range": "1771-2015",
+  "source_type_guess": "OWID historical health dataset",
+  "priority": "high",
+  "current_owner": "Codex",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "reviewed_book_period_reconstruction_no_comparable_extension",
+  "next_action": "Publication review; do not describe the current extended artifact as a true extension unless a comparable regional successor series is recovered.",
+  "notes": "Book-period reconstruction is verified. The extended artifact intentionally plots no successor segment because a comparable regional successor series has not been accepted.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Roser 2016n, based on Riley 2005 before 2000 and WHO/World Bank after.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "verified_reproduction"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/5-1/plots/comparisons/kindle_reference_figure_5_1.png",
+      "sha256": "4debd2f6e60ef4927af86e545c7c0329fcca6afab0aa656d8c4ec0a62ac1c6f7"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/5-1/plots/book_period/figure_5_1_book_period_reconstruction.png",
+      "sha256": "d31e8f378910cfb2a372e63ab4687d4e7932ba70582fb9045bc78897219e4df1"
+    },
+    "extended_reconstruction": {
+      "path": "figures/5-1/plots/extended/figure_5_1_extended_reconstruction.png",
+      "sha256": "b021186785cfbb04ac06c50ee5629d079703ca6377e0b28d07f58c5f2eb6e42c"
+    },
+    "book_period_comparison": {
+      "path": "figures/5-1/plots/comparisons/figure_5_1_book_period_comparison.png",
+      "sha256": "8c514560babdf2584dee1512b246ba1e301cf51f46ef1b8aae1d4a2c2ee896fb"
+    },
+    "extended_comparison": {
+      "path": "figures/5-1/plots/comparisons/figure_5_1_extended_comparison.png",
+      "sha256": "65c2c7e1ecede111edaf4592562ae4043bc7b4c9a3c2d972898d483768cd0956"
+    },
+    "caption": {
+      "path": "figures/5-1/captions/caption.txt",
+      "sha256": "13b43d6d0e064a534aa7c1d337a78204f37554492cf559a3fd2c242ad282058e"
+    },
+    "provenance": {
+      "path": "figures/5-1/provenance/provenance.md",
+      "sha256": "967bfc98e42cc9f07eb44657a5e5c85ac40b21d22eb95104d48a24792a535a59"
+    },
+    "anomaly_review": {
+      "path": "figures/5-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "1d833a0766038355bfbfada413c7529e2bf5c9354ee9373b9f8fe925ce7b6e8b"
+    },
+    "review_checklist": {
+      "path": "figures/5-1/review_checklist.md",
+      "sha256": "249820119dacab657c38edbb252f92e126f3c3b3a83aa77553173a5aed80ca39"
+    },
+    "source_log": {
+      "path": "figures/5-1/source_logs/source_log.md",
+      "sha256": "6bf6ccab0ffb6c83e69fdd93e2bbb42acea4de07f9d13aeb3820155e4c56a7b8"
+    },
+    "search_log": {
+      "path": "figures/5-1/search_iterations/search_iterations.md",
+      "sha256": "4d8e9b701abf497dfbf9a466dd1bae4fd07fd9e6cbc3606e318dbc8857ddbbf0"
+    },
+    "discrepancy_log": {
+      "path": "figures/5-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "ebe838021ed1466a8168a59a0b029fd16d6d086b5008003b34de7993c1d258d7"
+    },
+    "legacy_metadata": {
+      "path": "figures/5-1/metadata/metadata.json",
+      "sha256": "22158b727b18717b7b77db2c4a54da78a7a0b9bbed881de72a08c931efcc752d"
+    },
+    "metadata": {
+      "path": "figures/5-1/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Kindle page 54 search result",
+    "claim_summary": "Average life expectancy increased across world regions from the Enlightenment era to 2015.",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-06-29",
+    "confidence_score": 0.86
+  }
+}

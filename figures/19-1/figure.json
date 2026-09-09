@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "19-1",
+  "book": "Enlightenment Now",
+  "chapter": "19",
+  "title": "Nuclear weapons, 1945-2015",
+  "page": "",
+  "year_range": "1945-2015",
+  "source_type_guess": "HumanProgress/FAS nuclear inventory",
+  "priority": "medium",
+  "current_owner": "Codex",
+  "scientific_status": "partial_match",
+  "execution_status": "blocked",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "source_recovery_and_visual_discrepancy_analysis",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Archived HumanProgress static 2927 was recovered with 138 non-generated United States and USSR/Russia observations, all preserved exactly. The stacked-area reconstruction uses current same-institution FAS-derived successor values only for the six thin minor-country layers. No post-2015 extension is plotted. Status remains partial_match because the exact 2016 minor-country vintage is unresolved.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "HumanProgress static 2927, based on Federation of Atomic Scientists, Kristensen & Norris 2016a, updated in Kristensen 2016.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/19-1/plots/comparisons/kindle_reference_figure_19_1.png",
+      "sha256": "e36c759dddae5e66c8430e9edb5e931137700d7fcb37bb61ef3d3660e6815f78"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png",
+      "sha256": "2f71af93823ecad48807d5fbaa74c5432864fd332ce457c2a15aebd7c5315030"
+    },
+    "extended_reconstruction": {
+      "path": "figures/19-1/plots/extended/figure_19_1_extended_reconstruction.png",
+      "sha256": "6e7d45e25a245b86e03d79140dfef5b6da464290237c1c861cbabaa6c1060cde"
+    },
+    "book_period_comparison": {
+      "path": "figures/19-1/plots/comparisons/figure_19_1_book_period_comparison.png",
+      "sha256": "8b6f3236d523afd016a8fa1e8c03e32ad48b538aa6328898e220f44e7e50b9c4"
+    },
+    "extended_comparison": {
+      "path": "figures/19-1/plots/comparisons/figure_19_1_extended_comparison.png",
+      "sha256": "583204fa9662293b840da205c37c3c761c4f42aafd5eeeab46226c7a797d5e05"
+    },
+    "caption": {
+      "path": "figures/19-1/captions/caption.txt",
+      "sha256": "0837746761d293cc2d57ec9be7295caeaa7022dff05d9eae00422943fe5fa373"
+    },
+    "provenance": {
+      "path": "figures/19-1/provenance/provenance.md",
+      "sha256": "84aa7630f294fb22bd20e54ef15d1178522394df19ec94ed8ddee4d593bdfbe0"
+    },
+    "anomaly_review": {
+      "path": "figures/19-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "0104a6222332b6cbed9c61b9d8aef87fee793376839af629dc6b27b8a765652d"
+    },
+    "review_checklist": {
+      "path": "figures/19-1/review_checklist.md",
+      "sha256": "243b514fb7865660e3534f9f6a9a735587aca61f38f30efc36fc4eeea3666027"
+    },
+    "source_log": {
+      "path": "figures/19-1/source_logs/source_log.md",
+      "sha256": "27dd964e3e16dd812fef11863d3d5f809843c7bea154115eeb16b9c5c229ee7f"
+    },
+    "search_log": {
+      "path": "figures/19-1/search_iterations/search_iterations.md",
+      "sha256": "2028e65dafe0a5d70ecfdb92a0c754c3123465668ee8ce22b13e77ca0c9ea280"
+    },
+    "discrepancy_log": {
+      "path": "figures/19-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "e00bdbbd2ebc773b18edef584bc83d25dc3498310006fb208c7bb8103399fc51"
+    },
+    "legacy_metadata": {
+      "path": "figures/19-1/metadata/metadata.json",
+      "sha256": "26ba9d4d2d6230a0ae1c9d696197ff2d7924e01be4f93098bf32f4d11c460839"
+    },
+    "metadata": {
+      "path": "figures/19-1/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Kindle page 318 search result",
+    "claim_summary": "Global, U.S., and Russian/Soviet nuclear arsenals declined after Cold War peaks.",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-07-10",
+    "confidence_score": 0.82
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "10-2",
+  "book": "Enlightenment Now",
+  "chapter": "10",
+  "title": "Sustainability, 1955-2109",
+  "page": "",
+  "year_range": "1955-2109",
+  "source_type_guess": "Google Ngram/XKCD text-frequency chart",
+  "priority": "completed_monitor",
+  "current_owner": "Codex",
+  "scientific_status": "updated_equivalent",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "updated_equivalent_with_xkcd_calibrated_projection",
+  "next_action": "Archive live Google Ngram responses or locate a January 2012 Ngram endpoint capture and XKCD plotting/regression source before considering verified_reproduction.",
+  "notes": "Updated-equivalent is retained because the official XKCD image, Supplemental PDF crop, and Google Ngram source family are recovered. The solid recreated projection is calibrated to XKCD's labeled future points; the data-only Ngram fit is retained as a dotted diagnostic and does not match every label year. No values were digitized from Pinker's printed figure.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Randall Munroe, XKCD 1007, http://xkcd.com/1007/. Internal data source: Google Ngrams.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "updated_equivalent"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/10-2/plots/comparisons/pdf_reference_figure_10_2.png",
+      "sha256": "3cd20513baf439e65866d5edded5850c227a1ab69ffb48a9dc2e6f6c99a49b70"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/10-2/plots/book_period/figure_10_2_book_period_reconstruction.png",
+      "sha256": "028e2f88d70c0ec4860cdffabe8208c70a0d49023cb9004497bf8e8358b29f0f"
+    },
+    "extended_reconstruction": {
+      "path": "figures/10-2/plots/extended/figure_10_2_extended_reconstruction.png",
+      "sha256": "97e9dfa1f697a5b48105ea601f529dcea5eedc6f3527a1274e3869202cdba5fc"
+    },
+    "book_period_comparison": {
+      "path": "figures/10-2/plots/comparisons/figure_10_2_book_period_comparison.png",
+      "sha256": "7929ebd83cdc5faf1b90a7d9e8bd37d32f4b15425e6ef5a340de0002f7b97d8c"
+    },
+    "extended_comparison": {
+      "path": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png",
+      "sha256": "6ba0698eb3c6cf463ee147b21feb4539a3c05394f1f74e0ab450097ce5bd68c6"
+    },
+    "caption": {
+      "path": "figures/10-2/captions/caption.txt",
+      "sha256": "1c8f0850dc1f0b3c43c73031c1ccbf3b90d59698e70a5c3f7b500983006421e9"
+    },
+    "provenance": {
+      "path": "figures/10-2/provenance/provenance.md",
+      "sha256": "9e1c19d549007895fd1feaeedb2dc83353c81bd75450ba31abf17f922dfa906d"
+    },
+    "anomaly_review": {
+      "path": "figures/10-2/anomaly_reviews/anomaly_review.md",
+      "sha256": "4c697c003181393d21c3e1e088c466367ea5634c995e85a507d5579d172a635f"
+    },
+    "review_checklist": {
+      "path": "figures/10-2/review_checklist.md",
+      "sha256": "09e8be0dae4328ee0646afd34b67b46aabaa6388ccf62a6792c32ef925cc0c78"
+    },
+    "source_log": {
+      "path": "figures/10-2/source_logs/source_log.md",
+      "sha256": "ca5c6fe0c89015085e87c7353fb2525769dfe1167183b52b495cbf1a86a29e49"
+    },
+    "search_log": {
+      "path": "figures/10-2/search_iterations/search_iterations.md",
+      "sha256": "49ccd96dc7bd56bab9e9fa50fd4eb2f0402285402b07915ef2daf11077bb5182"
+    },
+    "discrepancy_log": {
+      "path": "figures/10-2/discrepancy_logs/discrepancy_log.md",
+      "sha256": "3853f30ce51e76c289e05eeedc7faaeb43a7cf5a0253dbba2a98bbd6123be092"
+    },
+    "legacy_metadata": {
+      "path": "figures/10-2/metadata/metadata.json",
+      "sha256": "4ff0d978e40cf9651d90682aa1b2501c0330e1154bb7ba161e56373036d9e230"
+    },
+    "metadata": {
+      "path": "figures/10-2/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental PDF page 13",
+    "claim_summary": "The word 'sustainable' rose rapidly in US English books, with XKCD extrapolating the trend satirically into the future.",
+    "original_dataset": "Google Books Ngram American English 2009/v1 corpus for 'sustainable' (corpus=5), 1955-2008.",
+    "dataset_url": "https://books.google.com/ngrams/json?content=sustainable&year_start=1955&year_end=2008&corpus=5&smoothing=0",
+    "archive_url": "Not found; live Google Ngram endpoint retained with raw JSON payload.",
+    "download_date": "2026-07-05",
+    "confidence_score": 0.76
+  }
+}

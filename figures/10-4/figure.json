@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "figure_id": "10-4",
+  "book": "Enlightenment Now",
+  "chapter": "10",
+  "title": "Deforestation, 1700-2010",
+  "page": "",
+  "year_range": "1700-2010",
+  "source_type_guess": "environment_institutional_dataset",
+  "priority": "active_high",
+  "current_owner": "Codex",
+  "scientific_status": "manual_review_needed",
+  "execution_status": "blocked",
+  "publication_status": "incomplete",
+  "lifecycle_stage": "partial_source_recovery_final_period_blocked",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Williams period values for 1700-1995 were recovered from an accessible book/snippet source; the FAO 2010b/FRA 2010 1996-2010 tropical/temperate split behind SOFO 2012 Figure 2 remains unrecovered. Pinker's plotted values were not digitized.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "United Nations Food and Agriculture Organization 2012, p. 9.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/10-4/plots/comparisons/supplemental_pdf_reference_figure_10_4.png",
+      "sha256": "9b1f2c0f5694b638e8193fd88a10ce960f507f84012bb97637d2691f23eb1518"
+    },
+    "caption": {
+      "path": "figures/10-4/captions/caption.txt",
+      "sha256": "35db5393df4a5a0c1bbac9dbbfb39bf5d561627cf56b0b732c1f6b26ddae8830"
+    },
+    "provenance": {
+      "path": "figures/10-4/provenance/provenance.md",
+      "sha256": "b906e9a24d2e59f300409160dcb3d7f8a012d637ca48338d8865ad32bdb560f6"
+    },
+    "anomaly_review": {
+      "path": "figures/10-4/anomaly_reviews/anomaly_review.md",
+      "sha256": "5981dd379b4d217377a044eea867cf757019ec2d587705d27c7810991f7b2334"
+    },
+    "review_checklist": {
+      "path": "figures/10-4/review_checklist.md",
+      "sha256": "18e0cbf158d8a187c66cc43043fc1d3fee8c20f7d9f71590504a3b2a148be1e9"
+    },
+    "source_log": {
+      "path": "figures/10-4/source_logs/source_log.md",
+      "sha256": "e32b851a3ad38f4d28f843074caf2fd6722ce22d933cb9139c6b5dab23e54a10"
+    },
+    "search_log": {
+      "path": "figures/10-4/search_iterations/search_iterations.md",
+      "sha256": "a077615d3a8ccb1e380e6eba13aeae8cc21ad68040b94c7b9c4852be4ed4bc75"
+    },
+    "discrepancy_log": {
+      "path": "figures/10-4/discrepancy_logs/discrepancy_log.md",
+      "sha256": "29f10bf96098b0cdfe498037e8095c251fa9add2318cd3407b7acf2e3019b5e5"
+    },
+    "legacy_metadata": {
+      "path": "figures/10-4/metadata/metadata.json",
+      "sha256": "c0e2c005caa71e0050bd1955b40bc3564b6cd5799098e9d8103179ed9aaa8310"
+    },
+    "metadata": {
+      "path": "figures/10-4/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental PDF page 14",
+    "claim_summary": "Temperate deforestation peaked earlier and then slowed/reversed, while tropical deforestation continued through the late twentieth century.",
+    "original_dataset": "Partially recovered. Williams Table 12.2 recovers 1700-1995 tropical/temperate period estimates; FAO 2010b/FRA 2010 1996-2010 split remains unrecovered.",
+    "dataset_url": "",
+    "archive_url": "Wayback CDX, archived FRA 2010 workbooks, remote-sensing reports, and OWID asset probes retained in data/candidates; no SOFO Figure 2 production data file recovered.",
+    "download_date": "2026-07-09",
+    "confidence_score": 0.55
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "7-3",
+  "book": "Enlightenment Now",
+  "chapter": "7",
+  "title": "Undernourishment, 1970-2015",
+  "page": "",
+  "year_range": "1970-2015",
+  "source_type_guess": "FAO/OWID undernourishment datasets",
+  "priority": "high",
+  "current_owner": "Codex",
+  "scientific_status": "partial_match",
+  "execution_status": "accepted",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "editorial_remediated_partial_source_family_reconstruction",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Archived FAO Food Security Indicators workbooks were recovered from the book-cited FAO page. March 17, 2016 workbook sheet V_2.6 supplies named regional series from 1991-2015; the recovered November 2014 workbook documents the source family but does not extend to the 2015 endpoint.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Roser 2016j, based on data from the Food and Agriculture Organization 2014, also reported in FAOSTAT.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_accepted"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/7-3/plots/comparisons/supplemental_pdf_reference_figure_7_3.png",
+      "sha256": "eb69cec677b7ef373387aa19b85563472d09707f016893c6ad8641d9045b6386"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/7-3/plots/book_period/figure_7_3_book_period_reconstruction.png",
+      "sha256": "b76bb9e8ac9b8c2d7b4306d4b7879326555d94151961674706eb0679391b05cb"
+    },
+    "extended_reconstruction": {
+      "path": "figures/7-3/plots/extended/figure_7_3_extended_reconstruction.png",
+      "sha256": "864b5309147ee1b8e0dc6cc4b56a1c3249d34b037b17835e2a48e2001e76954e"
+    },
+    "book_period_comparison": {
+      "path": "figures/7-3/plots/comparisons/figure_7_3_book_period_comparison.png",
+      "sha256": "288a0477290ce3b14509d2bc4435deb72ba91aef083e04b679afd3c274c84fd0"
+    },
+    "extended_comparison": {
+      "path": "figures/7-3/plots/comparisons/figure_7_3_extended_comparison.png",
+      "sha256": "81b8da2688dcdce644590f3d3f68323ee9fc6fa57fd33af7abf215d08f84c41d"
+    },
+    "caption": {
+      "path": "figures/7-3/captions/caption.txt",
+      "sha256": "74235c79106f4ad4a8ce811ee389ac39ffa719eb2f36ec05b0afc25a6f6799bc"
+    },
+    "provenance": {
+      "path": "figures/7-3/provenance/provenance.md",
+      "sha256": "694bd7b85e0f08d6da8d202fdaa22e4d4209d71a217cd410047d1edcc310b108"
+    },
+    "anomaly_review": {
+      "path": "figures/7-3/anomaly_reviews/anomaly_review.md",
+      "sha256": "5eadb89089e2642c808a8e5add808b60f5436c6989ec759eb126c46599f64600"
+    },
+    "review_checklist": {
+      "path": "figures/7-3/review_checklist.md",
+      "sha256": "a5c38efe03e82c3a305845a04127c9c8920cc45e9a8b7a96bd7bbad9ce490b6c"
+    },
+    "source_log": {
+      "path": "figures/7-3/source_logs/source_log.md",
+      "sha256": "11006682d679dad785da81061278906df79ed0bf33ecbdb05d9ce5031eab438a"
+    },
+    "search_log": {
+      "path": "figures/7-3/search_iterations/search_iterations.md",
+      "sha256": "6111933f0fc3a63ef2d6b66f0f57affcbf1dd3deb03c1752570c61ceab4ae10a"
+    },
+    "discrepancy_log": {
+      "path": "figures/7-3/discrepancy_logs/discrepancy_log.md",
+      "sha256": "05ad874ff0c5513cbc98a3d7be752171aa5ee64d05da53b2acf1fa38379d9577"
+    },
+    "legacy_metadata": {
+      "path": "figures/7-3/metadata/metadata.json",
+      "sha256": "9050383e419f4b75f6f0adc7f06435f1b1cfeaa5db682b4242ce96e8fa0465a8"
+    },
+    "metadata": {
+      "path": "figures/7-3/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental Graphics PDF page 6 / book page 72",
+    "claim_summary": "The share of people in developing countries who are undernourished declined from 1970 to 2015.",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-07-09",
+    "confidence_score": "medium"
+  }
+}

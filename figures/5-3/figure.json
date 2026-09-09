@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "5-3",
+  "book": "Enlightenment Now",
+  "chapter": "5",
+  "title": "Maternal mortality, 1751-2013",
+  "page": "",
+  "year_range": "1751-2013",
+  "source_type_guess": "health_demographic_dataset",
+  "priority": "backlog",
+  "current_owner": "unassigned",
+  "scientific_status": "partial_match",
+  "execution_status": "accepted",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "not_started",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Book-era OWID dataset 522 was recovered with embedded 2017 provenance. All source-to-clean values pass exact conversion validation. Original supplemental pixels were blocked, so the comparison uses an explicitly labeled facsimile.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Roser 2016p, based partly on data from Claudia Hanson of Gapminder.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_accepted"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "facsimile",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/5-3/plots/comparisons/kindle_reference_figure_5_3.png",
+      "sha256": "ca25b3f4f96ad9c982348e01624b75f73f24906652dc05e70aed438d33701d57"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png",
+      "sha256": "24522d4fd1b522050bf97b5dbaaa224b54866613da67a1ee35acd95d3382fe70"
+    },
+    "extended_reconstruction": {
+      "path": "figures/5-3/plots/extended/figure_5_3_same_source_continuation.png",
+      "sha256": "650a47de8c40ec4d392caede0825847755e4af9c0c1c64105d56a5d7ad43cf4e"
+    },
+    "book_period_comparison": {
+      "path": "figures/5-3/plots/comparisons/figure_5_3_book_period_comparison.png",
+      "sha256": "c7e441fd8ab9a41febdc295d9e27e773d10b98456bddf16332758e3576a9a488"
+    },
+    "extended_comparison": {
+      "path": "figures/5-3/plots/comparisons/figure_5_3_extended_comparison.png",
+      "sha256": "cfc7a66bf50410cfa5c114fc68810ad0b9075e12192a360142cf231655147e9c"
+    },
+    "caption": {
+      "path": "figures/5-3/captions/caption.txt",
+      "sha256": "2cc64205a0eff429f09dcd84575f8f12efc2f87ae5f85919ff1ef4a03b343ef6"
+    },
+    "provenance": {
+      "path": "figures/5-3/provenance/provenance.md",
+      "sha256": "6bf5e812f62e1cebdbe0258917ae504c6c0732dc92d11afe0397233650ce30de"
+    },
+    "anomaly_review": {
+      "path": "figures/5-3/anomaly_reviews/anomaly_review.md",
+      "sha256": "54d85a597c13a6063d335c349d4608ea22e3fc86ff768a7b70b3bceef6e56a6b"
+    },
+    "review_checklist": {
+      "path": "figures/5-3/review_checklist.md",
+      "sha256": "cf7c59583b46070254e106ba9b4d2a9af978b45996ea2e356d3e0ac8ad106088"
+    },
+    "source_log": {
+      "path": "figures/5-3/source_logs/source_log.md",
+      "sha256": "c77ac7ceb13fbf4b303b9710ec493dcf5abac646a746563dbefc54fce883ef16"
+    },
+    "search_log": {
+      "path": "figures/5-3/search_iterations/search_iterations.md",
+      "sha256": "1ad9264d0d8feaeadaaaa27223d48da1af76846a86068690b2bcc3fe4f06d916"
+    },
+    "discrepancy_log": {
+      "path": "figures/5-3/discrepancy_logs/discrepancy_log.md",
+      "sha256": "11e1a7047b28261c37c6dbcbf7a709b15fa73501048d3fbab4b1f8b88893b81f"
+    },
+    "legacy_metadata": {
+      "path": "figures/5-3/metadata/metadata.json",
+      "sha256": "c4866cda197d5950d9bd24561719f4c091deac17ef9e2e9bb27b561f53f084a5"
+    },
+    "metadata": {
+      "path": "figures/5-3/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental Graphics indexed page 1; chapter 5 print page 57 context",
+    "claim_summary": "Maternal mortality declined sharply in four countries representative of their regions.",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-07-10",
+    "confidence_score": 0.9
+  }
+}

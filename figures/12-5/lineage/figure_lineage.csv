@@ -1,2 +1,6 @@
 figure_id,artifact,source,status
-12-5,kindle_source_evidence,Authorized Kindle page capture,captured
+12-5,supplemental_pdf_reference,Supplemental Graphics PDF page 20,captured
+12-5,asn_2017_wayback_page,https://web.archive.org/web/20171007141946/https://aviation-safety.net/statistics/,captured_no_data_table
+12-5,owid_successor_indicator,https://ourworldindata.org/grapher/aviation-fatalities-per-million-passengers.csv?v=1&csvType=full&useColumnShortNames=false,used_for_partial_match
+12-5,asn_current_sheet,https://docs.google.com/spreadsheets/d/1SDp7p1y6m7N5xD5_fpOkYOrJvd68V7iy6etXy2cetb8/gviz/tq?tqx=out:csv&sheet=Accidents+and+fatalities+per+year,provenance_support
+12-5,world_bank_passengers,WDI IS.AIR.PSGR via OWID metadata,provenance_support

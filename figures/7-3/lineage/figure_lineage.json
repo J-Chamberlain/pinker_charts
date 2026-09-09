@@ -19,8 +19,32 @@
     "figure_id": "7-3",
     "figure_title": "Undernourishment, 1970-2015",
     "stage_order": 3,
+    "stage": "Archived FAO Page",
+    "value": "https://web.archive.org/web/20141123184334/http://www.fao.org/economic/ess/ess-fs/ess-fadata/en/",
+    "stage_status": "recovered"
+  },
+  {
+    "figure_id": "7-3",
+    "figure_title": "Undernourishment, 1970-2015",
+    "stage_order": 4,
+    "stage": "Archived FAO Workbook",
+    "value": "figures/7-3/data/candidates/fao_food_security_indicators_archived_20160317.xlsx",
+    "stage_status": "recovered"
+  },
+  {
+    "figure_id": "7-3",
+    "figure_title": "Undernourishment, 1970-2015",
+    "stage_order": 5,
+    "stage": "Extracted Source Sheet",
+    "value": "figures/7-3/data/candidates/fao_food_security_indicators_archived_20160317_v_2_6_extracted.csv",
+    "stage_status": "generated"
+  },
+  {
+    "figure_id": "7-3",
+    "figure_title": "Undernourishment, 1970-2015",
+    "stage_order": 6,
     "stage": "Reconstruction Script",
-    "value": "scripts/reconstruct_track_b_economic_history.py",
+    "value": "scripts/reconstruct_7_3.py",
     "stage_status": "generated"
   }
 ]

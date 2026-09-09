@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "8-3",
+  "book": "Enlightenment Now",
+  "chapter": "8",
+  "title": "World income distribution, 1800, 1975, and 2015",
+  "page": "",
+  "year_range": "1800",
+  "source_type_guess": "economic_historical_dataset",
+  "priority": "completed_monitor",
+  "current_owner": "Codex",
+  "scientific_status": "updated_equivalent",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "updated_equivalent_with_gapminder_successor_workbook",
+  "next_action": "Search for archived 2017 Gapminder mountain tool/data snapshot before promoting to verified_reproduction.",
+  "notes": "Same Gapminder source family and variables were located, but the downloaded v2 workbook is a 2018 successor rather than a proven book-era snapshot. Shares were multiplied by workbook population to plot people in each income bin, matching the visible figure geometry more closely than normalized shares.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Gapminder, via Ola Rosling, http://www.gapminder.org/tools/mountain. The scale is in 2011 international dollars.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "updated_equivalent"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/8-3/plots/comparisons/kindle_reference_figure_8_3.png",
+      "sha256": "ec70c62169f2167d92053789ef74a6ed6948cade4e3da079846da9a64d455fec"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/8-3/plots/book_period/figure_8_3_book_period_reconstruction.png",
+      "sha256": "feda1c93ffce1d72348896daf491424c3d9690cca361a39c9b7a52cdbaa9b1eb"
+    },
+    "extended_reconstruction": {
+      "path": "figures/8-3/plots/extended/figure_8_3_extended_reconstruction.png",
+      "sha256": "94e14d33bedece68ce5e8160f6ed52c5208cee60a84ab33363a3ebd151f74d92"
+    },
+    "book_period_comparison": {
+      "path": "figures/8-3/plots/comparisons/figure_8_3_book_period_comparison.png",
+      "sha256": "0eb3dda92bb4abf215d32ac8295f7f9bf3b2eb3e95591b40cee459c900e5052a"
+    },
+    "extended_comparison": {
+      "path": "figures/8-3/plots/comparisons/figure_8_3_extended_comparison.png",
+      "sha256": "bafa631a07e0dcb6d6ed35a9eb52cd7b7293d90be3edbab43cfec6d0c70b5cf6"
+    },
+    "caption": {
+      "path": "figures/8-3/captions/caption.txt",
+      "sha256": "a77bf9980887e53110c54fb0adb8a453e121568c557005ea320e1aad0d64db57"
+    },
+    "provenance": {
+      "path": "figures/8-3/provenance/provenance.md",
+      "sha256": "2c0235e3fd8011ebd72c3f2bf8dd0c504644ce5e2450e15734772a8f1832d0e1"
+    },
+    "anomaly_review": {
+      "path": "figures/8-3/anomaly_reviews/anomaly_review.md",
+      "sha256": "513871d370959d4b5447e11452cdbaea0ade37de77ca13c15454aff781844f71"
+    },
+    "review_checklist": {
+      "path": "figures/8-3/review_checklist.md",
+      "sha256": "7d216607efedde76a5355cbc98aa6e114c93da1e390b1b062a558fd5ada70ba0"
+    },
+    "source_log": {
+      "path": "figures/8-3/source_logs/source_log.md",
+      "sha256": "85afbef44706461943e2f5b14afc830ced792f058522fabca8d41ffbe23f096d"
+    },
+    "search_log": {
+      "path": "figures/8-3/search_iterations/search_iterations.md",
+      "sha256": "12b608e90c581080d4d7c498b91f951b2fffab5258aba4f50badecbad161fe2b"
+    },
+    "discrepancy_log": {
+      "path": "figures/8-3/discrepancy_logs/discrepancy_log.md",
+      "sha256": "f49570a239416b0a3f7e56aeecd48aa80454a55c550a1d2b45ef0a66b616556d"
+    },
+    "legacy_metadata": {
+      "path": "figures/8-3/metadata/metadata.json",
+      "sha256": "3842bc5d1ff4a86934617a43cf3809772054df85487e6129efdd2dc8d30e6990"
+    },
+    "metadata": {
+      "path": "figures/8-3/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental PDF page 8",
+    "claim_summary": "World income distribution shifted rightward from 1800 to 2015, with the 1975 twin-hump distribution collapsing into a richer 2015 single-hump distribution.",
+    "original_dataset": "Gapminder Income Mountains dataset v2",
+    "dataset_url": "https://docs.google.com/spreadsheets/d/1939CzZ5HHoLreb0YyopaWfNjJ9mnN27IhywI6-TuwZs/export?format=xlsx",
+    "archive_url": "Not captured in this pass.",
+    "download_date": "2026-07-01",
+    "confidence_score": 0.78
+  }
+}

@@ -2,8 +2,37 @@
   "figure_id": "12-5",
   "title": "Plane crash deaths, 1970-2015",
   "status": "partial_match",
+  "lifecycle_stage": "source_recovery_and_discrepancy_analysis",
   "confidence": "medium",
-  "review_date": "2026-06-30",
-  "source_note": "Kindle cites Aviation Safety Network 2017 and World Bank 2016b passenger counts. Reconstruction uses OWID-hosted ASN 2019 successor fatality data by flight phase and OWID/World Bank passengers carried.",
-  "reconstructed": true
+  "review_date": "2026-07-09",
+  "source_note": "Supplemental PDF cites Aviation Safety Network 2017, with passengers from World Bank 2016b. The exact 2017 ASN extraction and World Bank 2016b passenger vintage have not been recovered. This run replaces the prior flight-phase proxy with OWID's processed aviation-fatalities-per-million-passengers indicator, which uses ASN annual airliner fatalities and World Bank passenger counts and documents the same calculation.",
+  "book_period_source": "Current OWID processed ASN/World Bank successor, not exact ASN 2017 vintage",
+  "extension_source": "Same OWID processed ASN/World Bank successor through 2022",
+  "source_urls": {
+    "owid_grapher_csv": "https://ourworldindata.org/grapher/aviation-fatalities-per-million-passengers.csv?v=1&csvType=full&useColumnShortNames=false",
+    "owid_grapher_metadata": "https://ourworldindata.org/grapher/aviation-fatalities-per-million-passengers.metadata.json",
+    "owid_indicator_metadata": "https://api.ourworldindata.org/v1/indicators/930564.metadata.json",
+    "asn_current_statistics": "https://aviation-safety.net/statistics/",
+    "asn_google_sheet_export": "https://docs.google.com/spreadsheets/d/1SDp7p1y6m7N5xD5_fpOkYOrJvd68V7iy6etXy2cetb8/gviz/tq?tqx=out:csv&sheet=Accidents+and+fatalities+per+year",
+    "asn_wayback_2017_capture": "https://web.archive.org/web/20171007141946/https://aviation-safety.net/statistics/",
+    "asn_wayback_cdx_2017_2018": "https://web.archive.org/cdx?url=https://aviation-safety.net/statistics/&from=2017&to=2018&output=json&fl=timestamp,original,statuscode,mimetype&filter=statuscode:200",
+    "world_bank_air_passengers_indicator": "https://data.worldbank.org/indicator/IS.AIR.PSGR",
+    "world_bank_wdi_bulk_download": "https://databankfiles.worldbank.org/public/ddpext_download/WDI_CSV.zip"
+  },
+  "canonical_artifacts": {
+    "book_period_reconstruction": "figures/12-5/plots/book_period/figure_12_5_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/12-5/plots/extended/figure_12_5_extended_reconstruction.png",
+    "book_period_comparison": "figures/12-5/plots/comparisons/figure_12_5_book_period_comparison.png",
+    "extended_comparison": "figures/12-5/plots/comparisons/figure_12_5_extended_comparison.png",
+    "provenance": "figures/12-5/provenance/provenance.md",
+    "metadata": "figures/12-5/metadata/metadata.json"
+  },
+  "caveats": [
+    "Keep status partial_match: the exact ASN 2017 extraction and World Bank 2016b passenger vintage remain unrecovered.",
+    "The current OWID successor rate series omits 1972 because the successor World-level passenger series lacks a 1972 observation; this is not asserted as a verified property of the original book source."
+  ],
+  "exact_original_recovered": false,
+  "registry_updated": false,
+  "registry_json_mirror_updated": true,
+  "registry_csv_updated": false
 }

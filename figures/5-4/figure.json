@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "figure_id": "5-4",
+  "book": "Enlightenment Now",
+  "chapter": "5",
+  "title": "Life expectancy, UK, 1701-2013",
+  "page": "",
+  "year_range": "1701-2013",
+  "source_type_guess": "health_demographic_dataset",
+  "priority": "backlog",
+  "current_owner": "unassigned",
+  "scientific_status": "partial_match",
+  "execution_status": "blocked",
+  "publication_status": "incomplete",
+  "lifecycle_stage": "source_recovery_and_diagnostic_analysis",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked. | [orchestrator run 20260711T022503-5-4-initial-w13sft: accept; prev current_status=not_started]",
+  "artifact_kind": "source_recovery",
+  "book_citation": "",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/5-4/plots/comparisons/supplemental_pdf_reference_figure_5_4.png",
+      "sha256": "7a3db702982949b9740a55c18ad6be09a0e8f534227169fda612eeaedbf72d09"
+    },
+    "caption": {
+      "path": "figures/5-4/captions/caption.txt",
+      "sha256": "5ed46fc0657d7d4dead44df2227397c447590baa397ce0b14f7d8b3f979b2195"
+    },
+    "provenance": {
+      "path": "figures/5-4/provenance/provenance.md",
+      "sha256": "eaf4a550df29589a7684cf91a2e4c744196e916dadd3ab48b1ef36d90b599c8c"
+    },
+    "anomaly_review": {
+      "path": "figures/5-4/anomaly_reviews/anomaly_review.md",
+      "sha256": "46c48d474c2bb5b7713f38fbfda0e15a64df2733eb94b4d6a99cbab185712a15"
+    },
+    "review_checklist": {
+      "path": "figures/5-4/review_checklist.md",
+      "sha256": "2f29e4d7a3051a43402e6f4516a1b7eaffb029afb98d003325dcaba5c5a9b36a"
+    },
+    "source_log": {
+      "path": "figures/5-4/source_logs/source_log.md",
+      "sha256": "64a5bb5fe2126e9e0f3367b429ab85e033446c892070bc74fa55744f93e7d4cc"
+    },
+    "search_log": {
+      "path": "figures/5-4/search_iterations/search_iterations.md",
+      "sha256": "20b05c74e2d8655a9dfd3c65a981e934c9adeed1218f7fd95b70023c7e7bf225"
+    },
+    "discrepancy_log": {
+      "path": "figures/5-4/discrepancy_logs/discrepancy_log.md",
+      "sha256": "6631142f33c566c131efa893517e958ab50804645319e8c2e9c703c2f9bfb0d1"
+    },
+    "legacy_metadata": {
+      "path": "figures/5-4/metadata/metadata.json",
+      "sha256": "fa7d6634330d99eda178f7a1790e4344b1bff7269033d0746540c2450306468e"
+    },
+    "metadata": {
+      "path": "figures/5-4/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "",
+    "claim_summary": "",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "",
+    "confidence_score": ""
+  }
+}

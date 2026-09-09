@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "5-2",
+  "book": "Enlightenment Now",
+  "chapter": "5",
+  "title": "Child mortality, 1751-2013",
+  "page": "",
+  "year_range": "1751-2013",
+  "source_type_guess": "OWID/Gapminder/UN-HMD child mortality",
+  "priority": "high",
+  "current_owner": "Codex",
+  "scientific_status": "partial_match",
+  "execution_status": "blocked",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "source_recovery_and_discrepancy_analysis",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Immutable OWID CME Info 2016 data were recovered from repository history, but they start in 1970 and are only one component of the cited source. The exact Roser 2016a UN/HMD assembly remains unrecovered. The plot uses current OWID successor values clipped to book-visible starts, with no post-2013 extension.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Roser 2016a, based on UN Child Mortality Estimates and the Human Mortality Database.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/5-2/plots/comparisons/kindle_reference_figure_5_2.png",
+      "sha256": "96c36908f47cbad58ec6b67aa42a8c4aec8d261e789602ca04fa8144ffab954e"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png",
+      "sha256": "f3498813634cbdc9883974fb02fc97c36beb6ae2b9ca443215e6f150f9f233aa"
+    },
+    "extended_reconstruction": {
+      "path": "figures/5-2/plots/extended/figure_5_2_extended_reconstruction.png",
+      "sha256": "778a253df7a53a9c9a726c9321e1e2d6aaadfabbde3322ed9391abf9efac76f3"
+    },
+    "book_period_comparison": {
+      "path": "figures/5-2/plots/comparisons/figure_5_2_book_period_comparison.png",
+      "sha256": "0c21b5509e666ce3b5bdeb3246e20afb66fd039efc69d36f2ab2999f3beff7b0"
+    },
+    "extended_comparison": {
+      "path": "figures/5-2/plots/comparisons/figure_5_2_extended_comparison.png",
+      "sha256": "675190af78a1c2d4330c2f1c07ca8b18ce2f80159fe7308c9306f4240dae614e"
+    },
+    "caption": {
+      "path": "figures/5-2/captions/caption.txt",
+      "sha256": "de11594b6dc48997b64b2305a22b7d4a4004164a3b8b4c2cb96b753df1f12638"
+    },
+    "provenance": {
+      "path": "figures/5-2/provenance/provenance.md",
+      "sha256": "ca38a439695e7ef0f0f879d7687d9d51930daffde0f21ee464daf9ccacf940d0"
+    },
+    "anomaly_review": {
+      "path": "figures/5-2/anomaly_reviews/anomaly_review.md",
+      "sha256": "3abf6b30c2b5a6d18ec0dbda479f9822c7249dde898b5293967d7b10f0ab605a"
+    },
+    "review_checklist": {
+      "path": "figures/5-2/review_checklist.md",
+      "sha256": "177daaf39abc47f769c91960a0027decf9049a4424926a366e19cc8b4dc406ae"
+    },
+    "source_log": {
+      "path": "figures/5-2/source_logs/source_log.md",
+      "sha256": "f11890ddf825409eb5e213a6ac0c31d37e36c0358458c90c88231ad446c70317"
+    },
+    "search_log": {
+      "path": "figures/5-2/search_iterations/search_iterations.md",
+      "sha256": "cf0550c6d06aa6b57c4558527cea7e85e3d16408271ab8afe1de4894a4155761"
+    },
+    "discrepancy_log": {
+      "path": "figures/5-2/discrepancy_logs/discrepancy_log.md",
+      "sha256": "d89e5b084a5cc5c7c4a9528cd18255272f924390d929a514541009bd1659a862"
+    },
+    "legacy_metadata": {
+      "path": "figures/5-2/metadata/metadata.json",
+      "sha256": "50c10d37dc5834d2ea599ee88ec64726c3c50b0faf52f834e2e8fb44fc7a3a26"
+    },
+    "metadata": {
+      "path": "figures/5-2/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Kindle page 56 search result",
+    "claim_summary": "Child mortality declined dramatically in representative countries.",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-07-10",
+    "confidence_score": 0.7
+  }
+}

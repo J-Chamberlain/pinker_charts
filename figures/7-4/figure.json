@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "figure_id": "7-4",
+  "book": "Enlightenment Now",
+  "chapter": "7",
+  "title": "Famine deaths, 1860-2016",
+  "page": "",
+  "year_range": "1860-2016",
+  "source_type_guess": "OWID/Hasell-Roser famine table with EM-DAT source family",
+  "priority": "high",
+  "current_owner": "Codex",
+  "scientific_status": "partial_match",
+  "execution_status": "blocked",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "editorial_remediated_successor_decadal_rate_reconstruction",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "The previous reconstruction recomputed rates from an event table with a current population denominator. Remediation uses OWID's explicit decadal famine-death-rate grapher series, which fixes the aggregation treatment, but it is a 2025 World Peace Foundation/OWID successor rather than the archived 2017 Hasell-Roser book vintage.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Hasell & Roser 2017, based on data from Devereux 2000; O Grada 2009; White 2011; EM-DAT; and other sources.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": [
+      "Worker chart-label-derived candidate quarantined in reports/consolidation/worker_candidates/7-4; current legitimate successor remains partial."
+    ]
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/7-4/plots/comparisons/kindle_reference_figure_7_4.png",
+      "sha256": "814336a2f6f38ddbc4b013c128528aac8ddcd7163b5d46d25da0e2c85ab705fd"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/7-4/plots/book_period/figure_7_4_book_period_reconstruction.png",
+      "sha256": "4b7ef488266095fa687127cc5b5d667cf6c19904a5a0a94a6739777b8ece7a7e"
+    },
+    "extended_reconstruction": {
+      "path": "figures/7-4/plots/extended/figure_7_4_extended_reconstruction.png",
+      "sha256": "9d457a090b383c6171811ebf650c81ac909000d6ece5a13ab08dfc55342ae46e"
+    },
+    "book_period_comparison": {
+      "path": "figures/7-4/plots/comparisons/figure_7_4_book_period_comparison.png",
+      "sha256": "5d1e8879a6804f825e565adc35fe925d7c2cd4cb61492a85337645c6f04b1cfd"
+    },
+    "extended_comparison": {
+      "path": "figures/7-4/plots/comparisons/figure_7_4_extended_comparison.png",
+      "sha256": "1c1d0e1954643f07b5856850ef8bb8c263b62200d3a48ce63f616257e979d979"
+    },
+    "caption": {
+      "path": "figures/7-4/captions/caption.txt",
+      "sha256": "59e3c4f722dde1990ba33ef2d0a6bf6612c62e7a4dce0965ae350cab541761a9"
+    },
+    "provenance": {
+      "path": "figures/7-4/provenance/provenance.md",
+      "sha256": "57daace7acbd5fa866f302dd7fced508345b219494222adb15bd94c09a62c7d4"
+    },
+    "anomaly_review": {
+      "path": "figures/7-4/anomaly_reviews/anomaly_review.md",
+      "sha256": "accebaae74643c21f6a24ab5bde889ab1ee91bc7d7869f849881c13c4665c38a"
+    },
+    "review_checklist": {
+      "path": "figures/7-4/review_checklist.md",
+      "sha256": "7953b03036d130d0cba16f4a33af57f0806389726ad9925881178f1641cc8720"
+    },
+    "source_log": {
+      "path": "figures/7-4/source_logs/source_log.md",
+      "sha256": "d852eceabb66496a689b556d978739ba09136f63a79e1064c37f794e4ffaee6f"
+    },
+    "search_log": {
+      "path": "figures/7-4/search_iterations/search_iterations.md",
+      "sha256": "8519045789c4493c91fa96ec7cff6ecc0636cca03f092355d752a83226a78daa"
+    },
+    "discrepancy_log": {
+      "path": "figures/7-4/discrepancy_logs/discrepancy_log.md",
+      "sha256": "4a8b867ad538a69563539f65016eca2b87c0248980999c724ffd4a3d3c9f8030"
+    },
+    "legacy_metadata": {
+      "path": "figures/7-4/metadata/metadata.json",
+      "sha256": "437fead54ee77b8bb66400413741e4afa3421390918740f7d713653b579f8d25"
+    },
+    "metadata": {
+      "path": "figures/7-4/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Rendered PDF preview page page-06.png",
+    "claim_summary": "Famine deaths per 100,000 people per decade fell sharply after the mid-twentieth century.",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-06-30",
+    "confidence_score": "medium-low"
+  }
+}

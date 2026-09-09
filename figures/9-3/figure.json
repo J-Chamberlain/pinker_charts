@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "figure_id": "9-3",
+  "book": "Enlightenment Now",
+  "chapter": "9",
+  "title": "Inequality, UK and US, 1688-2013",
+  "page": "",
+  "year_range": "1688-2013",
+  "source_type_guess": "economic_historical_dataset",
+  "priority": "active_high",
+  "current_owner": "Codex",
+  "scientific_status": "manual_review_needed",
+  "execution_status": "blocked",
+  "publication_status": "incomplete",
+  "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Source recovery improved but reconstruction remains blocked. Component-source notes were captured from Milanovic slide evidence; no values were digitized or substituted.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "Milanovic 2016, fig. 2.1, disposable income per capita.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/9-3/plots/comparisons/supplemental_pdf_reference_figure_9_3.png",
+      "sha256": "568116e130581e5ba07ce9088e09c34d215d97cbc9b700f5eebe83cef8e47c90"
+    },
+    "caption": {
+      "path": "figures/9-3/captions/caption.txt",
+      "sha256": "42b5cf007de9cf8b41f72731ccd63e1158255ab80ec97b589e4b056206a131f0"
+    },
+    "provenance": {
+      "path": "figures/9-3/provenance/provenance.md",
+      "sha256": "11df5a011f8fff9fafd7c3687d95432561fbcb412daf23a2674c938fbc8777da"
+    },
+    "anomaly_review": {
+      "path": "figures/9-3/anomaly_reviews/anomaly_review.md",
+      "sha256": "5a0a3760193c109b0b5449ff6daf7ef6d203faef47fbf92bbec44917a36b4439"
+    },
+    "review_checklist": {
+      "path": "figures/9-3/review_checklist.md",
+      "sha256": "66f70aaf8ef93c1189b0eeb0e3f9da119397dc9f1adba4aa41e522ecdb7d2363"
+    },
+    "source_log": {
+      "path": "figures/9-3/source_logs/source_log.md",
+      "sha256": "d1670f1d704bd3a0100e643802a5df323fd71c221a973c7c7cd2410450a9067e"
+    },
+    "search_log": {
+      "path": "figures/9-3/search_iterations/search_iterations.md",
+      "sha256": "774748c527d8345ea590fd96e48a7ee691aa180c80a695022fa87cd3a97fe08b"
+    },
+    "discrepancy_log": {
+      "path": "figures/9-3/discrepancy_logs/discrepancy_log.md",
+      "sha256": "171d9511366565676eb8231e8452346a8e839c36779b67ee9fc69e5a5f86de03"
+    },
+    "legacy_metadata": {
+      "path": "figures/9-3/metadata/metadata.json",
+      "sha256": "835e31bc564db205737e27072ac04bbb117fb2a2484f92f684eda91b5c3e90bf"
+    },
+    "metadata": {
+      "path": "figures/9-3/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental Graphics PDF page 10",
+    "claim_summary": "Long-run UK and US Gini series rose, fell in the mid-twentieth century, and rose again in recent decades.",
+    "original_dataset": "Likely workbook identified as US_and_uk.xls / uk_and_usa.xls, but not recovered as an inspectable data file.",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-07-09",
+    "confidence_score": 0.42
+  }
+}

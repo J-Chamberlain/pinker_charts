@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "9-4",
+  "book": "Enlightenment Now",
+  "chapter": "9",
+  "title": "Social spending, OECD countries, 1880-2016",
+  "page": "",
+  "year_range": "1880-2016",
+  "source_type_guess": "economic_historical_dataset",
+  "priority": "completed_monitor",
+  "current_owner": "Codex",
+  "scientific_status": "updated_equivalent",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "updated_equivalent_with_successor_extension",
+  "next_action": "For verification, recover the exact OWID Ortiz-Ospina & Roser 2016b/2017 chart data snapshot; otherwise keep updated_equivalent status.",
+  "notes": "For verification, recover the exact OWID Ortiz-Ospina & Roser 2016b/2017 chart data snapshot; otherwise keep updated_equivalent status.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Ortiz-Ospina & Roser 2016b, based on data from Lindert 2004 and OECD 1985, 2014, 2017.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "updated_equivalent"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/9-4/plots/comparisons/kindle_reference_figure_9_4.png",
+      "sha256": "b218d4ef30448729f131c0563c14cf1d240a0b2ae85637245b09a12635f6deae"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/9-4/plots/book_period/figure_9_4_book_period_reconstruction.png",
+      "sha256": "a532364e3021217ff9bed919435a89fac3971847d58408af9bef6be360da11ed"
+    },
+    "extended_reconstruction": {
+      "path": "figures/9-4/plots/extended/figure_9_4_extended_reconstruction.png",
+      "sha256": "6b67407907a5f82d5c1b08713c4ff3d11247e7d59487dc03b4ae4513bf170960"
+    },
+    "book_period_comparison": {
+      "path": "figures/9-4/plots/comparisons/figure_9_4_book_period_comparison.png",
+      "sha256": "52733394ab031ea8fb1880ee06a812ea68113851defa85c62e923b168b1c5d4d"
+    },
+    "extended_comparison": {
+      "path": "figures/9-4/plots/comparisons/figure_9_4_extended_comparison.png",
+      "sha256": "2783bd3441422020f47aaf363bc1db8d3d7bc933688d403b7265264263691540"
+    },
+    "caption": {
+      "path": "figures/9-4/captions/caption.txt",
+      "sha256": "804139fca7337b019578dc6210b4dd49635a91a1b41c24b6981ba5ebb0971dc6"
+    },
+    "provenance": {
+      "path": "figures/9-4/provenance/provenance.md",
+      "sha256": "0e55698d0eeb8e0c56895f1c064389cb8335fb6b8ed6f9450430b364b8a7b6bf"
+    },
+    "anomaly_review": {
+      "path": "figures/9-4/anomaly_reviews/anomaly_review.md",
+      "sha256": "e936f96b54e3353f83d5dfd5d837de9d5d9852e84616e98eba4135bf43cbacf0"
+    },
+    "review_checklist": {
+      "path": "figures/9-4/review_checklist.md",
+      "sha256": "21613e47c9cc48f3299b293cdb6a7126a3099efe4290550e7f07641e0e8c1a76"
+    },
+    "source_log": {
+      "path": "figures/9-4/source_logs/source_log.md",
+      "sha256": "2698e9b6da57aac97f28fb8233579af84ba3d9818c1742d13eed6e5ec1b6f51f"
+    },
+    "search_log": {
+      "path": "figures/9-4/search_iterations/search_iterations.md",
+      "sha256": "e41a8f3a88f0d56168072430613f7739a5cd370af14981d5de66d832d93c4275"
+    },
+    "discrepancy_log": {
+      "path": "figures/9-4/discrepancy_logs/discrepancy_log.md",
+      "sha256": "7f9309671d1c425dbbce3170dcf0514d39aba2fdc8b6724f9dc6c222e08b173e"
+    },
+    "legacy_metadata": {
+      "path": "figures/9-4/metadata/metadata.json",
+      "sha256": "42031370a920974b2b4a194e81403e229e134181217dfe9e892693fd9e49ba1b"
+    },
+    "metadata": {
+      "path": "figures/9-4/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Preview PDF page image page-11; Kindle-equivalent figure/source inspected",
+    "claim_summary": "Public social spending rose across market-democratic OECD countries from near-zero late nineteenth-century levels to substantial shares of GDP.",
+    "original_dataset": "Current OWID grapher successor located; exact 2016b/2017 OWID source snapshot was not recovered.",
+    "dataset_url": "https://ourworldindata.org/grapher/social-spending-oecd-longrun.csv?v=1&csvType=full&useColumnShortNames=false",
+    "archive_url": "",
+    "download_date": "2026-06-30",
+    "confidence_score": 0.78
+  }
+}

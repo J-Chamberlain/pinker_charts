@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "figure_id": "4-1",
+  "book": "Enlightenment Now",
+  "chapter": "4",
+  "title": "Tone of the news, 1945-2010",
+  "page": "",
+  "year_range": "1945-2010",
+  "source_type_guess": "media_text_analysis_dataset",
+  "priority": "backlog",
+  "current_owner": "unassigned",
+  "scientific_status": "source_unavailable",
+  "execution_status": "blocked",
+  "publication_status": "incomplete",
+  "lifecycle_stage": "not_started",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Original publication and author-supplied high-resolution component plots recovered. Monthly numeric values, exact final sentiment dictionary, and code were not published or recovered. No reconstruction, digitization, or extension was made.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "Leetaru 2011",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/4-1/plots/comparisons/supplemental_pdf_reference_figure_4_1.png",
+      "sha256": "cbdf60a7621b3133d1c9d7b22f944b65c1b16fbd38943106a031e51dbf0b37f8"
+    },
+    "caption": {
+      "path": "figures/4-1/captions/caption.txt",
+      "sha256": "dd1eb98a80084acf194d2fede9c8392903de3e3b0c6112be0ee62d02da0ab5fb"
+    },
+    "provenance": {
+      "path": "figures/4-1/provenance/provenance.md",
+      "sha256": "f654b1f04bec62a7b95742776becd7326df50fa7c69da9d7bb4c11fffc15f960"
+    },
+    "anomaly_review": {
+      "path": "figures/4-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "ff336e6ac3c705590bce3590af1bca89bd0493dff2601e6558ac903fb357e130"
+    },
+    "review_checklist": {
+      "path": "figures/4-1/review_checklist.md",
+      "sha256": "90b7e85d958ff3f6bc3bf558227c64f7946b2d54be704caa4dfdbf8a04e0fc34"
+    },
+    "source_log": {
+      "path": "figures/4-1/source_logs/source_log.md",
+      "sha256": "308043725e7209ae4a243a018e0143419a7c89c8f906c67ced6849edadb42171"
+    },
+    "search_log": {
+      "path": "figures/4-1/search_iterations/search_iterations.md",
+      "sha256": "3bfcc679b27be6b3f70a91c3b6044dbe71da2812019a6f4772db64a7df7ed541"
+    },
+    "discrepancy_log": {
+      "path": "figures/4-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "bbccff8f87bbf28eda777a8cad4c76bdb3d708b09ac046d7c59add2a38b025d8"
+    },
+    "legacy_metadata": {
+      "path": "figures/4-1/metadata/metadata.json",
+      "sha256": "7c7b13e6b494e58f88608e582871f37e20ba7cf3c925a93aeb92673b93b9901d"
+    },
+    "metadata": {
+      "path": "figures/4-1/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental Graphics page 1 (text-indexed; local PDF page unavailable)",
+    "claim_summary": "The tone of New York Times and international news coverage became more negative over the periods shown.",
+    "original_dataset": "Unpublished monthly standardized tone aggregates derived from licensed New York Times (1945-2005) and Summary of World Broadcasts (1979-July 2010) full-text corpora",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-07-10",
+    "confidence_score": 0.88
+  }
+}

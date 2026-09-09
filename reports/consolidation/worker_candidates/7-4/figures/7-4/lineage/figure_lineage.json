@@ -1,0 +1,27 @@
+[
+  {
+    "step": 1,
+    "evidence": "Supplemental PDF",
+    "status": "observed"
+  },
+  {
+    "step": 2,
+    "evidence": "OWID Hasell & Roser 2017 article",
+    "status": "recovered"
+  },
+  {
+    "step": 3,
+    "evidence": "OWID Google Sheet event table",
+    "status": "recovered"
+  },
+  {
+    "step": 4,
+    "evidence": "2018 Wayback topic page and PNG",
+    "status": "recovered"
+  },
+  {
+    "step": 5,
+    "evidence": "printed archived static source image labels",
+    "status": "partial_match"
+  }
+]

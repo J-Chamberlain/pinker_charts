@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "figure_id": "16-5",
+  "book": "Enlightenment Now",
+  "chapter": "16",
+  "title": "IQ gains, 1909-2013",
+  "page": "",
+  "year_range": "1909-2013",
+  "source_type_guess": "education_survey_dataset",
+  "priority": "backlog",
+  "current_owner": "unassigned",
+  "scientific_status": "not_started",
+  "execution_status": "not_started",
+  "publication_status": "incomplete",
+  "lifecycle_stage": "not_started",
+  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
+  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+  "artifact_kind": "not_started",
+  "book_citation": "",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "not_started"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "metadata": {
+      "path": "figures/16-5/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "",
+    "claim_summary": "",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "",
+    "confidence_score": ""
+  }
+}

@@ -1,5 +1,12 @@
 # Figure Registry
 
+Current authority: [canonical figure records](canonical_state.md).
+The CSV and JSON are generated mirrors, and `current_status` means scientific
+status. Scheduling outcomes are in `execution_status`; publication acceptance
+is in `publication_status`. The older workflow vocabulary below is historical
+guidance where it conflicts with this contract. Do not write either mirror
+directly. Update `figures/<id>/figure.json`, then generate and check the views.
+
 The figure registry is the project-wide queue and status table for all figures
 captured from the *Enlightenment Now* front-matter List of Figures.
 

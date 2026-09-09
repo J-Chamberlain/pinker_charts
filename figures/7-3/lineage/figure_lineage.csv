@@ -1,4 +1,7 @@
 figure_id,figure_title,stage_order,stage,value,stage_status
 7-3,"Undernourishment, 1970-2015",1,Book Figure,"Figure 7-3: Undernourishment, 1970-2015",observed
 7-3,"Undernourishment, 1970-2015",2,Source Note,"Our World in Data, Roser 2016j, based on data from the Food and Agriculture Organization 2014, also reported in FAOSTAT.",observed
-7-3,"Undernourishment, 1970-2015",3,Reconstruction Script,scripts/reconstruct_track_b_economic_history.py,generated
+7-3,"Undernourishment, 1970-2015",3,Archived FAO Page,"https://web.archive.org/web/20141123184334/http://www.fao.org/economic/ess/ess-fs/ess-fadata/en/",recovered
+7-3,"Undernourishment, 1970-2015",4,Archived FAO Workbook,"figures/7-3/data/candidates/fao_food_security_indicators_archived_20160317.xlsx",recovered
+7-3,"Undernourishment, 1970-2015",5,Extracted Source Sheet,"figures/7-3/data/candidates/fao_food_security_indicators_archived_20160317_v_2_6_extracted.csv",generated
+7-3,"Undernourishment, 1970-2015",6,Reconstruction Script,scripts/reconstruct_7_3.py,generated

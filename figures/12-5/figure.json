@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "12-5",
+  "book": "Enlightenment Now",
+  "chapter": "12",
+  "title": "Plane crash deaths, 1970-2015",
+  "page": "",
+  "year_range": "1970-2015",
+  "source_type_guess": "Aviation Safety Network / World Bank passengers",
+  "priority": "active_high",
+  "current_owner": "Codex",
+  "scientific_status": "partial_match",
+  "execution_status": "blocked",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "source_recovery_and_discrepancy_analysis",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Track D 2026-06-30: source-family reconstruction generated from OWID-hosted ASN 2019 successor data and World Bank passengers; early-1970s visual peak under-matches. | [orchestrator run 20260709T223127-12-5-remediation-ipqb3u: block; prev current_status=partial_match] | [orchestrator run 20260710T114312-12-5-re_review-q7rnep: accept; prev current_status=orchestrator_blocked]",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Supplemental PDF cites Aviation Safety Network 2017, with passengers from World Bank 2016b. The exact 2017 ASN extraction and World Bank 2016b passenger vintage have not been recovered. This run replaces the prior flight-phase proxy with OWID's processed aviation-fatalities-per-million-passengers indicator, which uses ASN annual airliner fatalities and World Bank passenger counts and documents the same calculation.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/12-5/plots/comparisons/supplemental_pdf_reference_figure_12_5.png",
+      "sha256": "beec8e27e05826582c417d9e6ba543007b3acea67d7182267d2ad6b8efdf4a67"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/12-5/plots/book_period/figure_12_5_book_period_reconstruction.png",
+      "sha256": "01d1810129335ea25e5f14356a9a65c2741d8d791174175285b3c0ecf7e2cff4"
+    },
+    "extended_reconstruction": {
+      "path": "figures/12-5/plots/extended/figure_12_5_extended_reconstruction.png",
+      "sha256": "9fa907aaa8ea506b74bd27c2197fb9e1b0a0ba57179b38f168c9bfb3a01ce6aa"
+    },
+    "book_period_comparison": {
+      "path": "figures/12-5/plots/comparisons/figure_12_5_book_period_comparison.png",
+      "sha256": "9d3d55fa3901b0de3a73445b0cf7c814bd986e702a9b9cbbb08a204705ced9fe"
+    },
+    "extended_comparison": {
+      "path": "figures/12-5/plots/comparisons/figure_12_5_extended_comparison.png",
+      "sha256": "769755902f5bfd924aadc2d7d136edfda0b4d0c8f7c2274dd01ebdd1cad919bb"
+    },
+    "caption": {
+      "path": "figures/12-5/captions/caption.txt",
+      "sha256": "7925485e6a3e259742cbfde9dc7280307bd09c948f350b05045271e06bf4cc5f"
+    },
+    "provenance": {
+      "path": "figures/12-5/provenance/provenance.md",
+      "sha256": "ebe8649e9f3e390fd0f2bece95acf348b2b5e3bc42824d59058fcb2ba96e51f8"
+    },
+    "anomaly_review": {
+      "path": "figures/12-5/anomaly_reviews/anomaly_review.md",
+      "sha256": "3a4960dface4114e111c60da154e2d419cfc8b95e379b6ebcb7addb260e0465b"
+    },
+    "review_checklist": {
+      "path": "figures/12-5/review_checklist.md",
+      "sha256": "2cea1beb09782d2b2a7c734458985c6825715729c0c4217a58e1b26a95272c84"
+    },
+    "source_log": {
+      "path": "figures/12-5/source_logs/source_log.md",
+      "sha256": "5d4a918baa3d75fb615f91d6a4a614c78a867e01f7b21fe081c361e9e2d29fb9"
+    },
+    "search_log": {
+      "path": "figures/12-5/search_iterations/search_iterations.md",
+      "sha256": "ed1dcd025c629baa0696539eab94a1756ae11bb54f44616cf09a0f6508652df0"
+    },
+    "discrepancy_log": {
+      "path": "figures/12-5/discrepancy_logs/discrepancy_log.md",
+      "sha256": "65b042d8f78b0b327f31142ca8e25dbdb5c4d1e48917da58f18db0dbe3425bd1"
+    },
+    "legacy_metadata": {
+      "path": "figures/12-5/metadata/metadata.json",
+      "sha256": "c8403657fc75df1a6a154c7a29d8f4e72cb33f3cb343e5842db9c1f4d24b6d80"
+    },
+    "metadata": {
+      "path": "figures/12-5/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "",
+    "claim_summary": "",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "",
+    "confidence_score": ""
+  }
+}

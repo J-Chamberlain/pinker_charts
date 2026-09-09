@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "7-1",
+  "book": "Enlightenment Now",
+  "chapter": "7",
+  "title": "Calories, 1700-2013",
+  "page": "",
+  "year_range": "1700-2013",
+  "source_type_guess": "health_demographic_dataset",
+  "priority": "active_track_a",
+  "current_owner": "Codex",
+  "scientific_status": "partial_match",
+  "execution_status": "blocked",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "track_a_timeboxed_reconstruction",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "2026-07-09 run recovered archived chart configuration but not book-era variable data. United Kingdom source series is displayed as England/UK; do not promote without exact Roser 2016d data.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "United States, England, and France: Our World in Data, Roser 2016d, based on Fogel 2004. China, India, and World: FAO.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/7-1/plots/comparisons/kindle_reference_figure_7_1.png",
+      "sha256": "7907fe8d5b7dbd7afe6206bdb792a17b633fe59592a3f8c0f4fbba51beb75399"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/7-1/plots/book_period/figure_7_1_book_period_reconstruction.png",
+      "sha256": "4176780a4b157d32e42543de96cc55a29dc7a183994976ab9fa0f17dbbddf522"
+    },
+    "extended_reconstruction": {
+      "path": "figures/7-1/plots/extended/figure_7_1_extended_reconstruction.png",
+      "sha256": "55171217db25cdec6d1327a1ca19fc0996b35b97d79d36b6d564733da9b3f499"
+    },
+    "book_period_comparison": {
+      "path": "figures/7-1/plots/comparisons/figure_7_1_book_period_comparison.png",
+      "sha256": "af793a7d6f8283adedba43cd6585391e7bd3016f155aa75c1b18e36aa4f0d930"
+    },
+    "extended_comparison": {
+      "path": "figures/7-1/plots/comparisons/figure_7_1_extended_comparison.png",
+      "sha256": "665444083de2c85257f8fdf8fd52f7ccc3eee8dcac9c2f719a02b437bd0a3eb3"
+    },
+    "caption": {
+      "path": "figures/7-1/captions/caption.txt",
+      "sha256": "1e6b4abfbc6fb32b91bf63267df0312cda63d7ec01e2e4bda23b3687c5963c8e"
+    },
+    "provenance": {
+      "path": "figures/7-1/provenance/provenance.md",
+      "sha256": "05d36fb1dbb66ce8d859f02c49e336dd1b0a3cfed9f4ef7b5e60959137b42dde"
+    },
+    "anomaly_review": {
+      "path": "figures/7-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "8ab8653568ca0a888a20c94cfc37990b11eb5c1e3d9ebafaca3e54fe84e122fe"
+    },
+    "review_checklist": {
+      "path": "figures/7-1/review_checklist.md",
+      "sha256": "b86fb377e883c6cb0fc789d3e0e521780e0e092970f5a6eb0aa013408943bda4"
+    },
+    "source_log": {
+      "path": "figures/7-1/source_logs/source_log.md",
+      "sha256": "6e88960c854a1dedd96c8f4829dd191f42b23a40dd4868d47270607ed8e76e14"
+    },
+    "search_log": {
+      "path": "figures/7-1/search_iterations/search_iterations.md",
+      "sha256": "3282568495fb7916917c2c7cf5c23ec1e20b4e56881d079ed779791c4f5070ec"
+    },
+    "discrepancy_log": {
+      "path": "figures/7-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "7b58adbc6d16d127932d5a64e17f12eef642f60c7963653f49bae424188c4c36"
+    },
+    "legacy_metadata": {
+      "path": "figures/7-1/metadata/metadata.json",
+      "sha256": "7ec8873c2814708b93c87d9f0fb21aa368d05bc2a8bdb3ed074597202d48106f"
+    },
+    "metadata": {
+      "path": "figures/7-1/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental PDF page 5; rendered and text-inspected 2026-07-09",
+    "claim_summary": "Average calorie availability rose in developed and developing regions.",
+    "original_dataset": "Exact Roser 2016d source vintage unrecovered; reconstruction uses OWID 2022 successor dataset based on UN FAO and historical sources",
+    "dataset_url": "Local raw file figures/7-1/data/raw/owid_daily_calories_fao_historical.csv; byte-identical to public owid/owid-datasets named dataset added 2022-02-14; live successor: https://ourworldindata.org/grapher/daily-per-capita-caloric-supply",
+    "archive_url": "2018 archived OWID Grapher page recovered for daily-per-capita-caloric-supply; old machine-readable variable endpoint /grapher/data/variables/3590 not recovered from Wayback",
+    "download_date": "2026-07-09",
+    "confidence_score": 0.72
+  }
+}

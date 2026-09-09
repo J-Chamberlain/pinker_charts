@@ -6,13 +6,16 @@
     "title": "Tone of the news, 1945-2010",
     "page": "",
     "year_range": "1945-2010",
-    "current_status": "manual_review_needed",
-    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
+    "current_status": "source_unavailable",
+    "lifecycle_stage": "not_started",
     "source_type_guess": "media_text_analysis_dataset",
-    "priority": "active_high",
-    "current_owner": "Codex",
-    "next_action": "Recover Leetaru 2011 monthly NYT/SWB tone data or reproducible source extraction; optionally audit Kindle source line.",
-    "notes": "Remediated 2026-07-05: deeper First Monday/GDELT/archive/repository recovery completed; no original monthly data table found; no plotted values digitized; artifacts relabeled as status-only."
+    "priority": "backlog",
+    "current_owner": "unassigned",
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Original publication and author-supplied high-resolution component plots recovered. Monthly numeric values, exact final sentiment dictionary, and code were not published or recovered. No reconstruction, digitization, or extension was made.",
+    "execution_status": "blocked",
+    "publication_status": "incomplete",
+    "artifact_kind": "source_recovery"
   },
   {
     "figure_id": "5-1",
@@ -27,7 +30,10 @@
     "priority": "high",
     "current_owner": "Codex",
     "next_action": "Publication review; do not describe the current extended artifact as a true extension unless a comparable regional successor series is recovered.",
-    "notes": "Remediated on 2026-06-29: book-period reconstruction remains verified; extended artifact visibly states that no comparable extension is plotted."
+    "notes": "Book-period reconstruction is verified. The extended artifact intentionally plots no successor segment because a comparable regional successor series has not been accepted.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "5-2",
@@ -37,12 +43,15 @@
     "page": "",
     "year_range": "1751-2013",
     "current_status": "partial_match",
-    "lifecycle_stage": "visual_qa_remediation_and_source_recovery",
+    "lifecycle_stage": "source_recovery_and_discrepancy_analysis",
     "source_type_guess": "OWID/Gapminder/UN-HMD child mortality",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Recover exact Roser 2016a UN/HMD assembled source; resolve remaining source-vintage and label-placement differences.",
-    "notes": "2026-06-30 visual QA: PDF reference added and proxy country coverage trimmed; remains partial_match."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Immutable OWID CME Info 2016 data were recovered from repository history, but they start in 1970 and are only one component of the cited source. The exact Roser 2016a UN/HMD assembly remains unrecovered. The plot uses current OWID successor values clipped to book-visible starts, with no post-2013 extension.",
+    "execution_status": "blocked",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "5-3",
@@ -52,12 +61,15 @@
     "page": "",
     "year_range": "1751-2013",
     "current_status": "partial_match",
-    "lifecycle_stage": "track_a_timeboxed_reconstruction",
+    "lifecycle_stage": "not_started",
     "source_type_guess": "health_demographic_dataset",
-    "priority": "active_track_a",
-    "current_owner": "Codex",
-    "next_action": "Recover exact book-era source vintage and rerun visual review before promotion.",
-    "notes": "Track A 2026-06-30: updated_equivalent; Maternal Mortality Ratio (Gapminder (2010), WHO (2019) and OECD (2022))."
+    "priority": "backlog",
+    "current_owner": "unassigned",
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Book-era OWID dataset 522 was recovered with embedded 2017 provenance. All source-to-clean values pass exact conversion validation. Original supplemental pixels were blocked, so the comparison uses an explicitly labeled facsimile.",
+    "execution_status": "accepted",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "5-4",
@@ -66,13 +78,16 @@
     "title": "Life expectancy, UK, 1701-2013",
     "page": "",
     "year_range": "1701-2013",
-    "current_status": "needs_targeted_source_recovery",
-    "lifecycle_stage": "track_a_timeboxed_reconstruction",
+    "current_status": "partial_match",
+    "lifecycle_stage": "source_recovery_and_diagnostic_analysis",
     "source_type_guess": "health_demographic_dataset",
-    "priority": "active_track_a",
-    "current_owner": "Codex",
-    "next_action": "Recover exact book-era source vintage and rerun visual review before promotion.",
-    "notes": "Track A 2026-06-30: needs_targeted_source_recovery; partial HMD/OWID age-specific life-expectancy sources."
+    "priority": "backlog",
+    "current_owner": "unassigned",
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked. | [orchestrator run 20260711T022503-5-4-initial-w13sft: accept; prev current_status=not_started]",
+    "execution_status": "blocked",
+    "publication_status": "incomplete",
+    "artifact_kind": "source_recovery"
   },
   {
     "figure_id": "6-1",
@@ -87,7 +102,10 @@
     "priority": "active_track_a",
     "current_owner": "Codex",
     "next_action": "Recover cited CHERG/WHO Liu et al. 2014 supplementary appendix annual deaths-by-cause data or verified equivalent.",
-    "notes": "2026-06-30 visual QA: removed misleading bar proxy; side-by-side now shows reconstruction blocked until annual line-series source is recovered."
+    "notes": "Track A health/nutrition batch. Source status: blocked_external_source.",
+    "execution_status": "processed",
+    "publication_status": "incomplete",
+    "artifact_kind": "source_recovery"
   },
   {
     "figure_id": "7-1",
@@ -101,8 +119,11 @@
     "source_type_guess": "health_demographic_dataset",
     "priority": "active_track_a",
     "current_owner": "Codex",
-    "next_action": "Recover exact book-era source vintage and rerun visual review before promotion.",
-    "notes": "Track A 2026-06-30: updated_equivalent; Daily supply of calories per person (OWID based on UN FAO & historical sources)."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "2026-07-09 run recovered archived chart configuration but not book-era variable data. United Kingdom source series is displayed as England/UK; do not promote without exact Roser 2016d data.",
+    "execution_status": "blocked",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "7-2",
@@ -117,7 +138,10 @@
     "priority": "active_track_a",
     "current_owner": "Codex",
     "next_action": "Recover exact book-era source vintage and rerun visual review before promotion.",
-    "notes": "Track A 2026-06-30: partial_match; World Bank stunting prevalence proxy; exact OWID/WHO NLIS vintage not recovered."
+    "notes": "Track A health/nutrition batch. Source status: partial_match.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "7-3",
@@ -131,8 +155,11 @@
     "source_type_guess": "FAO/OWID undernourishment datasets",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Research task: recover exact Roser 2016j / FAO 2014 regional data with early-1990s coverage before any promotion.",
-    "notes": "Editorial remediation 2026-06-30: all named regional successor curves now plotted where available; World substitution removed; confidence lowered because exact regional vintage and early regional segments remain unrecovered."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Archived FAO Food Security Indicators workbooks were recovered from the book-cited FAO page. March 17, 2016 workbook sheet V_2.6 supplies named regional series from 1991-2015; the recovered November 2014 workbook documents the source family but does not extend to the 2015 endpoint.",
+    "execution_status": "accepted",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "7-4",
@@ -146,8 +173,11 @@
     "source_type_guess": "OWID/Hasell-Roser famine table with EM-DAT source family",
     "priority": "high",
     "current_owner": "Codex",
-    "next_action": "Research task: recover archived 2017 Hasell-Roser OWID decadal-rate grapher/output and denominator notes.",
-    "notes": "Editorial remediation 2026-06-30: replaced hand-computed event-table rate with OWID decadal-rate successor series; confidence lowered because successor vintage diverges visibly from book-era curve."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "The previous reconstruction recomputed rates from an event table with a current population denominator. Remediation uses OWID's explicit decadal famine-death-rate grapher series, which fixes the aggregation treatment, but it is a 2025 World Peace Foundation/OWID successor rather than the archived 2017 Hasell-Roser book vintage.",
+    "execution_status": "blocked",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "8-1",
@@ -162,7 +192,10 @@
     "priority": "high",
     "current_owner": "Codex",
     "next_action": "Recover exact OWID Roser 2016c/Maddison Project 2014 vintage before considering verified_reproduction.",
-    "notes": "Editorial remediation 2026-06-30: remains updated_equivalent, not verified_reproduction, because current successor scaling differs from the printed 2015 endpoint."
+    "notes": "The successor OWID/Maddison/World Bank series preserves the hockey-stick shape and book-period coverage, but the 2015 scale is materially above the printed figure's apparent endpoint, so this is an updated equivalent rather than an exact reproduction.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "8-2",
@@ -177,7 +210,10 @@
     "priority": "high",
     "current_owner": "Codex",
     "next_action": "Recover exact Maddison Project 2014/World Bank 2016 vintage before considering verified_reproduction.",
-    "notes": "Editorial remediation 2026-06-30: remains updated_equivalent; source-vintage differences remain in addition to label/typography issues."
+    "notes": "The selected countries and line ordering broadly match the book, but current Maddison 2020/OWID data are not the cited Maddison Project 2014/World Bank 2016 vintage. Remaining differences are not typography-only.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "8-3",
@@ -192,7 +228,10 @@
     "priority": "completed_monitor",
     "current_owner": "Codex",
     "next_action": "Search for archived 2017 Gapminder mountain tool/data snapshot before promoting to verified_reproduction.",
-    "notes": "Processed in production loop on 2026-07-01 using Gapminder Income Mountains v2 workbook; exact book-era snapshot not recovered."
+    "notes": "Same Gapminder source family and variables were located, but the downloaded v2 workbook is a 2018 successor rather than a proven book-era snapshot. Shares were multiplied by workbook population to plot people in each income bin, matching the visible figure geometry more closely than normalized shares.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "8-4",
@@ -207,7 +246,10 @@
     "priority": "high",
     "current_owner": "Codex",
     "next_action": "Publication review; add post-2015 extension only if a methodologically comparable World successor series is recovered and documented.",
-    "notes": "Remediated on 2026-06-29: comparison layout enlarged; book-period reconstruction remains verified; no comparable extension plotted."
+    "notes": "Book-period reconstruction is verified. The comparison layout was remediated so the recreated plot area is comparable to the Kindle crop; no comparable world extension is plotted.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "8-5",
@@ -222,7 +264,10 @@
     "priority": "publication_review",
     "current_owner": "Codex",
     "next_action": "No source blocker; retain verified_reproduction unless future audit finds a material issue.",
-    "notes": "Editorial remediation 2026-06-30: falsification audit found no material issue; classification retained."
+    "notes": "A falsification audit found no material source, encoding, or endpoint issue. The reconstruction uses the cited OWID historical absolute-count series and matches the stacked-area visual claim; remaining differences are production styling only.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "9-1",
@@ -232,14 +277,15 @@
     "page": "",
     "year_range": "1820-2013",
     "current_status": "manual_review_needed",
-    "lifecycle_stage": "partial_source_recovery_manual_review_source_blocked_no_reconstruction",
-    "confidence": "0.45",
-    "disposition": "partial_source_recovered_weighted_series_blocked",
+    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
     "source_type_guess": "economic_historical_dataset",
     "priority": "active_high",
     "current_owner": "Codex",
-    "next_action": "Recover the Milanovic 2012 population-weighted international inequality source table, including Pinker's 2012-2013 personal-communication update, before considering reconstruction or verification.",
-    "notes": "Remediation 2026-07-09: partial source recovery only. OECD/IISH How Was Life? 2014 Chapter 11 Table 11.4 unweighted/between-country values were recovered for 1820-2000 and retained as a source-recovery diagnostic. The Milanovic population-weighted international inequality series through 2013 remains unrecovered as inspectable data. No digitized chart substitutes were used, and the figure is not fully reconstructed or verified."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Unweighted/between-country source values recovered from OECD/IISH Table 11.4 and plotted only as a source-recovery diagnostic. Full reconstruction remains blocked because the Milanovic population-weighted series through 2013 was not recovered as an inspectable data table. No chart-image values were digitized.",
+    "execution_status": "blocked",
+    "publication_status": "incomplete",
+    "artifact_kind": "source_recovery"
   },
   {
     "figure_id": "9-2",
@@ -253,8 +299,11 @@
     "source_type_guess": "economic_historical_dataset",
     "priority": "active_high",
     "current_owner": "Codex",
-    "next_action": "Recover Milanovic 2016 figure 3.1 spreadsheet or publisher/author supplementary data.",
-    "notes": "Processed in Track C on 2026-06-30. Milanovic 2016 figure 3.1 underlying table was not recovered as an inspectable data file. No digitized chart values were used."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Recover Milanovic 2016 figure 3.1 spreadsheet, publisher/author supplementary data, or the History/thepast.xls workbook with provenance tying it to figure 3.1. Milanovic 2024 was reviewed as a source-family successor but not plotted because it uses revised 2011-PPP methods and partly unpublished later estimates rather than the book figure's 1990/2005-dollar source vintage. Plotted images are source-recovery/status panels only.",
+    "execution_status": "blocked",
+    "publication_status": "incomplete",
+    "artifact_kind": "source_recovery"
   },
   {
     "figure_id": "9-3",
@@ -268,8 +317,11 @@
     "source_type_guess": "economic_historical_dataset",
     "priority": "active_high",
     "current_owner": "Codex",
-    "next_action": "Recover Milanovic 2016 figure 2.1 spreadsheet, including UK/England and US disposable-income-per-capita Gini series.",
-    "notes": "Processed in Track C on 2026-06-30. Milanovic 2016 figure 2.1 underlying table was not recovered as an inspectable data file. No digitized chart values were used."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Source recovery improved but reconstruction remains blocked. Component-source notes were captured from Milanovic slide evidence; no values were digitized or substituted.",
+    "execution_status": "blocked",
+    "publication_status": "incomplete",
+    "artifact_kind": "source_recovery"
   },
   {
     "figure_id": "9-4",
@@ -284,7 +336,10 @@
     "priority": "completed_monitor",
     "current_owner": "Codex",
     "next_action": "For verification, recover the exact OWID Ortiz-Ospina & Roser 2016b/2017 chart data snapshot; otherwise keep updated_equivalent status.",
-    "notes": "Processed in Track C on 2026-06-30. Current OWID grapher successor located; exact 2016b/2017 OWID source snapshot was not recovered. No digitized chart values were used."
+    "notes": "For verification, recover the exact OWID Ortiz-Ospina & Roser 2016b/2017 chart data snapshot; otherwise keep updated_equivalent status.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "9-5",
@@ -294,12 +349,15 @@
     "page": "",
     "year_range": "1988-2008",
     "current_status": "partial_match",
-    "lifecycle_stage": "partial_source_family_match",
-    "source_type_guess": "Lakner-Milanovic / LM-WPID source-family reconstruction",
-    "priority": "publication_review",
+    "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
+    "source_type_guess": "economic_historical_dataset",
+    "priority": "active_high",
     "current_owner": "Codex",
-    "next_action": "Recover Milanovic 2016 figure 1.3 exact plotted data, including the Lakner-Milanovic summary_data.xls/figure-data spreadsheet, or documented code that derives the exact book values from LM-WPID.",
-    "notes": "Remediated on 2026-07-09 as a medium-low confidence source-family reconstruction from recovered CUNY Stone Center LM-WPID Stata data. Exact Milanovic 2016 figure 1.3/summary_data.xls plotted values remain unresolved, so this is not a verified reproduction. JSON mirror records the accepted partial_source_family_match head state; the protected canonical registry CSV row remains queued for orchestrator-managed synchronization."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Medium-low confidence source-family reconstruction. Values are computed from LM-WPID country-decile data, not digitized from Pinker's chart. Because the exact Milanovic 2016 figure 1.3/summary_data.xls plotted data were not recovered and the recovered source-family curve differs visibly at some fractiles, this is not a verified reproduction.",
+    "execution_status": "blocked",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "9-6",
@@ -314,7 +372,10 @@
     "priority": "completed_monitor",
     "current_owner": "Codex",
     "next_action": "Locate any spreadsheet companion data for archival completeness; otherwise monitor only.",
-    "notes": "Processed in production loop on 2026-07-01 from Meyer & Sullivan 2017 Table 1."
+    "notes": "The cited report was recovered and Table 1 contains the two plotted book-period series. Values are extracted from the source table, not digitized from Pinker's figure.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "10-1",
@@ -329,7 +390,10 @@
     "priority": "completed_monitor",
     "current_owner": "Codex",
     "next_action": "Search archived OWID 2016 grapher data and IIASA projection files before promoting to verified_reproduction.",
-    "notes": "Processed in production loop on 2026-07-01 using current OWID successor population/growth/projection grapher data."
+    "notes": "Uses current OWID grapher successor data (HYDE 2023, Gapminder 2022, UN WPP 2024) rather than the exact 2016 OWID/HYDE/IIASA source vintage cited by the book.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "10-2",
@@ -344,7 +408,10 @@
     "priority": "completed_monitor",
     "current_owner": "Codex",
     "next_action": "Archive live Google Ngram responses or locate a January 2012 Ngram endpoint capture and XKCD plotting/regression source before considering verified_reproduction.",
-    "notes": "Remediated 2026-07-05: official XKCD image and Supplemental PDF crop retained; Ngram candidate-corpus comparison added; future markers now derive from one XKCD-label visual projection. No plotted values digitized."
+    "notes": "Updated-equivalent is retained because the official XKCD image, Supplemental PDF crop, and Google Ngram source family are recovered. The solid recreated projection is calibrated to XKCD's labeled future points; the data-only Ngram fit is retained as a dotted diagnostic and does not match every label year. No values were digitized from Pinker's printed figure.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "10-3",
@@ -359,7 +426,10 @@
     "priority": "completed_monitor",
     "current_owner": "Codex",
     "next_action": "Monitor EPA source revisions; optionally decompose six-pollutant aggregate if publication requires resolving the printed five-pollutant label.",
-    "notes": "Processed 2026-07-05: EPA 2016 embedded GrowthAndEmissions chart data recovered; 2025 EPA successor extension added; book/PDF five-pollutant label conflicts with EPA six-pollutant source label."
+    "notes": "The plotted reconstruction uses EPA's embedded 2016 chart values, not digitized Pinker values. The Supplemental PDF visibly labels the lower series as five pollutants while EPA's source chart and 2016 text define aggregate emissions as six common pollutants; the reconstruction follows the EPA source data and documents the book-label discrepancy.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "10-4",
@@ -373,8 +443,11 @@
     "source_type_guess": "environment_institutional_dataset",
     "priority": "active_high",
     "current_owner": "Codex",
-    "next_action": "Recover FAO 2010b/FRA 2010 production calculation for the 1996-2010 tropical/temperate split behind SOFO 2012 Figure 2; do not digitize Pinker values.",
-    "notes": "Source recovery 2026-07-05: Williams Table 12.2 values recovered for 1700-1995; FAO SOFO 2012 p. 9 Figure 2 and FRA 2010 sources captured; 1996-2010 split remains unresolved."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Williams period values for 1700-1995 were recovered from an accessible book/snippet source; the FAO 2010b/FRA 2010 1996-2010 tropical/temperate split behind SOFO 2012 Figure 2 remains unrecovered. Pinker's plotted values were not digitized.",
+    "execution_status": "blocked",
+    "publication_status": "incomplete",
+    "artifact_kind": "source_recovery"
   },
   {
     "figure_id": "10-5",
@@ -388,8 +461,11 @@
     "source_type_guess": "environment_institutional_dataset",
     "priority": "active_high",
     "current_owner": "repository",
-    "next_action": "Target exact Roser 2016r/ITOPF/UNCTADStat oil-shipped-by-sea source or archival equivalent; do not expand until status language remains explicit.",
-    "notes": "Current repository state: oil-spill line supported; exact annual oil-shipping gray-line source unresolved. See figures/10-5/."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Current repository state: oil-spill line supported; exact annual oil-shipping gray-line source unresolved. See figures/10-5/. | [orchestrator run 20260710T001719-10-5-initial-noetbc: remediate; prev current_status=partial_match] | [orchestrator run 20260710T185733-10-5-remediation-s43iuz: accept; prev current_status=orchestrator_remediation_needed]",
+    "execution_status": "blocked",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "10-6",
@@ -404,7 +480,10 @@
     "priority": "completed_monitor",
     "current_owner": "repository",
     "next_action": "Complete bibliographic cleanup around WRI/World Bank source chain; preserve verified status unless new evidence contradicts it.",
-    "notes": "Current repository state: archived WDI 2017 source verifies book-period reconstruction; extension is successor current WDI series. See figures/10-6/."
+    "notes": "Current repository state: archived WDI 2017 source verifies book-period reconstruction; extension is successor current WDI series. See figures/10-6/.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "10-7",
@@ -418,8 +497,11 @@
     "source_type_guess": "economic_historical_dataset",
     "priority": "completed_monitor",
     "current_owner": "repository",
-    "next_action": "Monitor source-version changes and improve typography only if preparing publication layout.",
-    "notes": "Book-period source and visual geometry closely match. Extension is useful but explicitly successor-series only."
+    "next_action": "No further source recovery required before moving to another figure; revisit only for publication typography or source-version audit.",
+    "notes": "Book-period source and visual geometry closely match. Extension is useful but explicitly successor-series only.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "10-8",
@@ -433,8 +515,11 @@
     "source_type_guess": "environment_institutional_dataset",
     "priority": "completed_monitor",
     "current_owner": "repository",
-    "next_action": "Monitor source-version changes and improve typography only if preparing publication layout.",
-    "notes": "Book-period stack uses the exact OWID 2017 regional CDIAC dataset named by the source chain. Extension is visually separated by a 2015 boundary because source definitions changed."
+    "next_action": "No further source recovery required before moving to another figure; revisit only for publication typography or source-version audit.",
+    "notes": "Book-period stack uses the exact OWID 2017 regional CDIAC dataset named by the source chain. Extension is visually separated by a 2015 boundary because source definitions changed.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "11-1",
@@ -449,7 +534,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "11-2",
@@ -464,7 +552,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "11-3",
@@ -479,7 +570,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "12-1",
@@ -494,7 +588,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "12-2",
@@ -509,7 +606,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "12-3",
@@ -524,7 +624,10 @@
     "priority": "active_high",
     "current_owner": "Codex",
     "next_action": "Recover archived informedforlife TRAFFICFATALITIES(1899-2005).pdf or equivalent pre-1966 NHTSA/FHWA table before reconstruction.",
-    "notes": "Track D 2026-06-30: Kindle source note captured; NHTSA 2015 PDF recovered; cited informedforlife pre-1966 PDF currently 404/no 200 CDX hit."
+    "notes": "Track D 2026-06-30: Kindle source note captured; NHTSA 2015 PDF recovered; cited informedforlife pre-1966 PDF currently 404/no 200 CDX hit.",
+    "execution_status": "processed",
+    "publication_status": "incomplete",
+    "artifact_kind": "source_recovery"
   },
   {
     "figure_id": "12-4",
@@ -539,7 +642,10 @@
     "priority": "active_high",
     "current_owner": "Codex",
     "next_action": "Recover exact FHWA 2003 and NCSA 1995/2006/2016/2017 tables before reconstruction.",
-    "notes": "Track D 2026-06-30: Kindle source note captured; source chain clear but exact historical pedestrian tables not recovered."
+    "notes": "Track D 2026-06-30: Kindle source note captured; source chain clear but exact historical pedestrian tables not recovered.",
+    "execution_status": "processed",
+    "publication_status": "incomplete",
+    "artifact_kind": "source_recovery"
   },
   {
     "figure_id": "12-5",
@@ -553,8 +659,11 @@
     "source_type_guess": "Aviation Safety Network / World Bank passengers",
     "priority": "active_high",
     "current_owner": "Codex",
-    "next_action": "Recover exact ASN 2017 extraction used by book or explain early-1970s peak difference.",
-    "notes": "Track D 2026-06-30: source-family reconstruction generated from OWID-hosted ASN 2019 successor data and World Bank passengers; early-1970s visual peak under-matches."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Track D 2026-06-30: source-family reconstruction generated from OWID-hosted ASN 2019 successor data and World Bank passengers; early-1970s visual peak under-matches. | [orchestrator run 20260709T223127-12-5-remediation-ipqb3u: block; prev current_status=partial_match] | [orchestrator run 20260710T114312-12-5-re_review-q7rnep: accept; prev current_status=orchestrator_blocked]",
+    "execution_status": "blocked",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "12-6",
@@ -569,7 +678,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "12-7",
@@ -584,7 +696,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "12-8",
@@ -599,7 +714,10 @@
     "priority": "completed_monitor",
     "current_owner": "Codex",
     "next_action": "Archive/version-pin the exact Roser 2016q OWID dataset snapshot if possible.",
-    "notes": "Track D 2026-06-30: OWID datasets repo EM-DAT death-rate reconstruction generated; current OWID successor extension added."
+    "notes": "Track D 2026-06-30: OWID datasets repo EM-DAT death-rate reconstruction generated; current OWID successor extension added.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "12-9",
@@ -614,7 +732,10 @@
     "priority": "completed_monitor",
     "current_owner": "Codex",
     "next_action": "Recover or construct methodologically identical post-2015 lightning-rate extension if publication requires it.",
-    "notes": "Track D 2026-06-30: OWID NOAA/Lopez-Holle fatality-rate dataset visually reproduces Kindle chart; no comparable post-2015 rate extension recovered."
+    "notes": "Track D 2026-06-30: OWID NOAA/Lopez-Holle fatality-rate dataset visually reproduces Kindle chart; no comparable post-2015 rate extension recovered.",
+    "execution_status": "processed",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "13-1",
@@ -629,7 +750,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "14-1",
@@ -644,7 +768,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "14-2",
@@ -659,7 +786,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "14-3",
@@ -674,7 +804,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "14-4",
@@ -689,7 +822,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "15-1",
@@ -704,7 +840,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "15-2",
@@ -719,7 +858,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "15-3",
@@ -734,7 +876,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "15-4",
@@ -749,7 +894,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "15-5",
@@ -764,7 +912,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "15-6",
@@ -779,7 +930,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "15-7",
@@ -794,7 +948,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "15-8",
@@ -809,7 +966,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "15-9",
@@ -824,7 +984,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "16-1",
@@ -839,7 +1002,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "16-2",
@@ -854,7 +1020,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "16-3",
@@ -869,7 +1038,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "16-4",
@@ -884,7 +1056,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "16-5",
@@ -899,7 +1074,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "16-6",
@@ -914,7 +1092,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "17-1",
@@ -929,7 +1110,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "17-2",
@@ -944,7 +1128,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "17-3",
@@ -959,7 +1146,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "17-4",
@@ -974,7 +1164,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "17-5",
@@ -989,7 +1182,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "17-6",
@@ -1004,7 +1200,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "17-7",
@@ -1019,7 +1218,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "17-8",
@@ -1034,7 +1236,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "18-1",
@@ -1049,7 +1254,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "18-2",
@@ -1064,7 +1272,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "18-3",
@@ -1079,7 +1290,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "18-4",
@@ -1094,7 +1308,10 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   },
   {
     "figure_id": "19-1",
@@ -1108,8 +1325,11 @@
     "source_type_guess": "HumanProgress/FAS nuclear inventory",
     "priority": "medium",
     "current_owner": "Codex",
-    "next_action": "Recover cited HumanProgress static 2927/FAS 2016 table or archival copy, then reconstruct stacked-area chart before visual validation can pass.",
-    "notes": "Remediated on 2026-06-29: actual Kindle chart-page crop captured and included; current OWID successor line reconstruction remains a poor visual match to the original stacked-area figure."
+    "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+    "notes": "Archived HumanProgress static 2927 was recovered with 138 non-generated United States and USSR/Russia observations, all preserved exactly. The stacked-area reconstruction uses current same-institution FAS-derived successor values only for the six thin minor-country layers. No post-2015 extension is plotted. Status remains partial_match because the exact 2016 minor-country vintage is unresolved.",
+    "execution_status": "blocked",
+    "publication_status": "not_reviewed",
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "20-1",
@@ -1124,6 +1344,9 @@
     "priority": "backlog",
     "current_owner": "unassigned",
     "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked."
+    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
+    "execution_status": "not_started",
+    "publication_status": "incomplete",
+    "artifact_kind": "not_started"
   }
 ]

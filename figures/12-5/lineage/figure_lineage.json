@@ -1,8 +1,32 @@
 [
   {
     "figure_id":"12-5",
-    "artifact":"kindle_source_evidence",
-    "source":"Authorized Kindle page capture",
+    "artifact":"supplemental_pdf_reference",
+    "source":"Supplemental Graphics PDF page 20",
     "status":"captured"
+  },
+  {
+    "figure_id":"12-5",
+    "artifact":"asn_2017_wayback_page",
+    "source":"https:\/\/web.archive.org\/web\/20171007141946\/https:\/\/aviation-safety.net\/statistics\/",
+    "status":"captured_no_data_table"
+  },
+  {
+    "figure_id":"12-5",
+    "artifact":"owid_successor_indicator",
+    "source":"https:\/\/ourworldindata.org\/grapher\/aviation-fatalities-per-million-passengers.csv?v=1&csvType=full&useColumnShortNames=false",
+    "status":"used_for_partial_match"
+  },
+  {
+    "figure_id":"12-5",
+    "artifact":"asn_current_sheet",
+    "source":"https:\/\/docs.google.com\/spreadsheets\/d\/1SDp7p1y6m7N5xD5_fpOkYOrJvd68V7iy6etXy2cetb8\/gviz\/tq?tqx=out:csv&sheet=Accidents+and+fatalities+per+year",
+    "status":"provenance_support"
+  },
+  {
+    "figure_id":"12-5",
+    "artifact":"world_bank_passengers",
+    "source":"WDI IS.AIR.PSGR via OWID metadata",
+    "status":"provenance_support"
   }
 ]

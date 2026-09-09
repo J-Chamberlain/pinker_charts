@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "9-5",
+  "book": "Enlightenment Now",
+  "chapter": "9",
+  "title": "Income gains, 1988-2008",
+  "page": "",
+  "year_range": "1988-2008",
+  "source_type_guess": "economic_historical_dataset",
+  "priority": "active_high",
+  "current_owner": "Codex",
+  "scientific_status": "partial_match",
+  "execution_status": "blocked",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Medium-low confidence source-family reconstruction. Values are computed from LM-WPID country-decile data, not digitized from Pinker's chart. Because the exact Milanovic 2016 figure 1.3/summary_data.xls plotted data were not recovered and the recovered source-family curve differs visibly at some fractiles, this is not a verified reproduction.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Milanovic 2016, fig. 1.3.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/9-5/plots/comparisons/supplemental_pdf_reference_figure_9_5.png",
+      "sha256": "b8afac382de0cdc6ade3871d3fcef8ca5cd9effc48596cb39f7402b5fb8def97"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png",
+      "sha256": "b461b3a5845370d9f37152f5d46631d0133760fb72488086496cae3ff04e4fc2"
+    },
+    "extended_reconstruction": {
+      "path": "figures/9-5/plots/extended/figure_9_5_extended_reconstruction.png",
+      "sha256": "aaa5c1facf2068993008b1e350fb4c1c8837586501b0adc6dc985466204d6647"
+    },
+    "book_period_comparison": {
+      "path": "figures/9-5/plots/comparisons/figure_9_5_book_period_comparison.png",
+      "sha256": "83a5dd163b4538246af64f437720083b5717784fcdbcbb0e024b79d914371e85"
+    },
+    "extended_comparison": {
+      "path": "figures/9-5/plots/comparisons/figure_9_5_extended_comparison.png",
+      "sha256": "53fba1cb3a288aaee107f06aef056dec87ea0b3bc701d974abcfb75a85bb8e78"
+    },
+    "caption": {
+      "path": "figures/9-5/captions/caption.txt",
+      "sha256": "f8309a189d0dfecbe85f4f392c761a19dadc2089b81cd5a2a3961e5cdfe78e15"
+    },
+    "provenance": {
+      "path": "figures/9-5/provenance/provenance.md",
+      "sha256": "808baf3cddc72333a87574278ab1036a4ca159d80b46a341ca86884a38048d8b"
+    },
+    "anomaly_review": {
+      "path": "figures/9-5/anomaly_reviews/anomaly_review.md",
+      "sha256": "1722a475a71b9d9bda7964b6fee098f90a4ea193fb0565f47226c6e4c714011d"
+    },
+    "review_checklist": {
+      "path": "figures/9-5/review_checklist.md",
+      "sha256": "7d4f11e5bac40d5ee0722db562df361dcbababe337d8701ce76bf275f40862f7"
+    },
+    "source_log": {
+      "path": "figures/9-5/source_logs/source_log.md",
+      "sha256": "c851a110f12c9bcd8d37e34de6cef92f2e309ec35befd9967e346f07296d243f"
+    },
+    "search_log": {
+      "path": "figures/9-5/search_iterations/search_iterations.md",
+      "sha256": "3cb3e3d6eb51b248ceacfe9c1bd14cd8b49331ca41f47327eff1d5bb171dfefb"
+    },
+    "discrepancy_log": {
+      "path": "figures/9-5/discrepancy_logs/discrepancy_log.md",
+      "sha256": "d85c7ff5bb7d3976547c95a26441d015f226efe98e82406e60fda5ae38f900ea"
+    },
+    "legacy_metadata": {
+      "path": "figures/9-5/metadata/metadata.json",
+      "sha256": "5db98f2392b97b731893c7a705a4fabe28bfffdee668a8541162f1a933b3b398"
+    },
+    "metadata": {
+      "path": "figures/9-5/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental Graphics PDF page 11",
+    "claim_summary": "The global growth-incidence curve from 1988 to 2008 has the elephant shape: strong middle-percentile gains, weak upper-middle gains, and renewed top-percentile gains.",
+    "original_dataset": "Exact Milanovic 2016 figure 1.3/Lakner-Milanovic 2015 summary_data.xls was not recovered. CUNY Stone Center LM-WPID Stata dataset was recovered as the closest inspectable source-family dataset.",
+    "dataset_url": "https://stonecenter.gc.cuny.edu/publications/lakner-milanovic-world-panel-income-distribution/",
+    "archive_url": "https://openknowledge.worldbank.org/entities/publication/16065899-c37d-5750-af68-e9742cec9456",
+    "download_date": "2026-07-09",
+    "confidence_score": 0.58
+  }
+}

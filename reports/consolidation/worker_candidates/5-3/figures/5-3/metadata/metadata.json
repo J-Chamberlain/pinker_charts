@@ -1,0 +1,31 @@
+{
+  "figure_id": "5-3",
+  "chapter": "5",
+  "title": "Maternal mortality, 1751-2013",
+  "book_page": "Supplemental PDF page 3",
+  "claim_summary": "Maternal mortality declined sharply in representative countries.",
+  "book_citation": "Our World in Data, Roser 2016p, based partly on data from Claudia Hanson of Gapminder.",
+  "original_dataset": "Source-improved partial reconstruction: Gapminder GD010 gapdata010.xls/gapdoc010.pdf recovered for Sweden, United States, and Malaysia where available; complete Roser 2016p OWID/World Bank 2015 machine-readable vintage remains unrecovered for Ethiopia and short post-Gapminder tails.",
+  "dataset_url": "https://www.gapminder.org/data/documentation/gd010/; https://www.gapminder.org/documentation/documentation/gapdata010.xls; https://www.gapminder.org/documentation/documentation/gapdoc010.pdf; successor fill only: https://ourworldindata.org/grapher/maternal-mortality.csv?v=1&csvType=full&useColumnShortNames=false",
+  "archive_url": "https://web.archive.org/web/20180202002318/https://ourworldindata.org/maternal-mortality",
+  "download_date": "2026-07-09",
+  "reproduction_status": "partial_match",
+  "lifecycle_stage": "source_improved_partial_reconstruction",
+  "confidence_score": 0.78,
+  "visual_validation": "improved_partial_match",
+  "provenance_summary": "Recovered Gapminder GD010 workbook and documentation support Sweden, United States, and Malaysia where available. The exact Roser 2016p OWID/World Bank 2015 machine-readable vintage was not recovered, so Ethiopia and short post-Gapminder tails are current OWID successor/equivalent fills only.",
+  "source_caveats": [
+    "Do not treat Ethiopia values as verified book-era Roser 2016p/World Bank 2015 values; Ethiopia is absent from recovered Gapminder GD010.",
+    "Do not treat short post-Gapminder tails as verified book-era Roser 2016p/World Bank 2015 values; the supplement remains unrecovered.",
+    "Do not promote beyond partial_match/source_improved_partial_reconstruction without recovering and validating the exact book-era Roser 2016p/World Bank 2015 source vintage."
+  ],
+  "notes": "Confidence is medium-high for the recovered Gapminder source component and lower for Ethiopia and short post-Gapminder tails. Ethiopia and tail rows use current OWID successor/equivalent fill and are explicitly not verified book-era Roser 2016p/World Bank 2015 values because that machine-readable vintage remains unrecovered.",
+  "canonical_artifacts": {
+    "original_reference": "figures/5-3/plots/comparisons/kindle_reference_figure_5_3.png",
+    "book_period_reconstruction": "figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png",
+    "extended_reconstruction": "figures/5-3/plots/extended/figure_5_3_extended_reconstruction.png",
+    "book_period_comparison": "figures/5-3/plots/comparisons/figure_5_3_book_period_comparison.png",
+    "extended_comparison": "figures/5-3/plots/comparisons/figure_5_3_extended_comparison.png",
+    "source_audit": "figures/5-3/data/clean/figure_5_3_gapminder_vs_owid_current_audit.csv"
+  }
+}

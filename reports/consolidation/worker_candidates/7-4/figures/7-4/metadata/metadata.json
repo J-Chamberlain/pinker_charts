@@ -1,0 +1,64 @@
+{
+  "figure_id": "7-4",
+  "chapter": "7",
+  "title": "Famine deaths, 1860-2016",
+  "book_page": "Supplemental Graphics PDF page 6",
+  "claim_summary": "Famine deaths per 100,000 people per decade fell sharply after the mid-twentieth century.",
+  "book_citation": "Our World in Data, Hasell & Roser 2017, based on data from Devereux 2000; O Grada 2009; White 2011; EM-DAT; and other sources.",
+  "reproduction_status": "partial_match",
+  "confidence_score": "medium",
+  "source_status": "source_family_static_source_image_labels_recovered_denominator_output_unresolved",
+  "extension_status": "no_comparable_successor_extension_plotted",
+  "visual_validation": "partial; archived 2018 OWID static source image with printed decadal-rate values recovered, but the underlying 2017 machine-readable rate output and denominator metadata were not recovered",
+  "source_recovery": {
+    "recovered": [
+      "Hasell & Roser 2017 OWID article preserved at ourworldindata.org/the-our-world-in-data-dataset-of-famines",
+      "Downloadable Google Sheet event table linked from the preserved OWID article",
+      "2018 Wayback capture of the OWID famines topic page with the rate-chart footnote",
+      "2018 Wayback capture of the static OWID chart image Famine-death-rate-since-1860s.png"
+    ],
+    "not_recovered": "No archived 2017 grapher CSV/config for a decadal famine-death-rate series was found; Wayback captures for the current death-rate-from-famines-by-decade grapher begin in 2025."
+  },
+  "reconstruction_method": "Canonical book-period values are transcribed from the printed bar labels in the archived OWID static source image. The linked Hasell-Roser event table and archived page footnote document the source family and calculation rule.",
+  "fidelity_limits": "No 2017 machine-readable decadal-rate CSV/config or exact population-denominator metadata was recovered. Recomputing from the current preserved event table with current OWID World population does not exactly match the archived static chart, so that calculation is retained only as a diagnostic proxy.",
+  "transcription_audit": {
+    "source_image": "figures/7-4/plots/comparisons/owid_archived_famine_death_rate_source_20180103.png",
+    "method": "Exact integer decadal values were transcribed from the printed bar labels in the archived static OWID image and checked against the visible labels after zoomed visual review.",
+    "expected_tolerance": "0 label units for label transcription; +/-0.5 deaths per 100,000 people per decade is the implied rounding tolerance only if comparing against unrecovered underlying continuous values.",
+    "checked_values": {
+      "1860": 301,
+      "1870": 1426,
+      "1880": 196,
+      "1890": 605,
+      "1900": 313,
+      "1910": 149,
+      "1920": 823,
+      "1930": 559,
+      "1940": 785,
+      "1950": 324,
+      "1960": 504,
+      "1970": 88,
+      "1980": 28,
+      "1990": 52,
+      "2000": 43,
+      "2010": 3
+    }
+  },
+  "book_period_rows": 16,
+  "canonical_artifacts": {
+    "supplemental_pdf_reference_legacy_filename": "figures/7-4/plots/comparisons/kindle_reference_figure_7_4.png",
+    "archived_owid_source_image": "figures/7-4/plots/comparisons/owid_archived_famine_death_rate_source_20180103.png",
+    "book_period_reconstruction": "figures/7-4/plots/book_period/figure_7_4_book_period_reconstruction.png",
+    "book_period_comparison": "figures/7-4/plots/comparisons/figure_7_4_book_period_comparison.png",
+    "source_image_comparison": "figures/7-4/plots/comparisons/figure_7_4_archived_source_comparison.png",
+    "no_successor_duplicate_clean_csv": "figures/7-4/data/clean/figure_7_4_extended_clean.csv",
+    "no_successor_duplicate_reconstruction": "figures/7-4/plots/extended/figure_7_4_extended_reconstruction.png",
+    "no_successor_status_comparison": "figures/7-4/plots/comparisons/figure_7_4_extended_comparison.png"
+  },
+  "artifact_notes": {
+    "kindle_reference_figure_7_4.png": "Legacy filename retained for compatibility; the current reference crop is treated as the book/Supplemental Graphics PDF reference, not as a Kindle-only source assertion.",
+    "figure_7_4_extended_clean.csv": "Book-period duplicate retained only as a no-successor status artifact. It is not a post-2016 extension.",
+    "figure_7_4_extended_reconstruction.png": "Book-period duplicate retained only as a no-successor status artifact. It is not a post-2016 extension.",
+    "figure_7_4_extended_comparison.png": "Status comparison showing no comparable successor extension is plotted."
+  }
+}

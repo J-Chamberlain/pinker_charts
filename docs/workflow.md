@@ -12,10 +12,10 @@ conflict: a documented blocker may be committed and deferred while another
 figure proceeds, but it must remain scientifically incomplete. Completion of a
 source-recovery package does not satisfy reconstruction acceptance.
 
-The plan's state-generation and multimodal-review requirements are pending
-implementation, not current capabilities. Until the state migration is tested,
-record conflicts explicitly and coordinate registry writes with the component
-that owns them. Do not classify scientific fidelity from a scheduling label.
+State generation is implemented in [canonical_state.md](canonical_state.md).
+Multimodal API review remains pending. Record conflicts explicitly and coordinate
+canonical-record updates with the integration owner. Do not classify scientific
+fidelity from a scheduling label.
 
 ## Start Of Work
 
@@ -61,7 +61,8 @@ For each figure, use this order:
 
 Each figure directory is an independent review package:
 
-- `metadata/metadata.json`: detailed figure-level status.
+- `figure.json`: canonical scientific/execution/publication state and artifact hashes.
+- `metadata/metadata.json`: attributed historical research metadata.
 - `provenance/provenance.md`: current source and reconstruction narrative.
 - `source_logs/source_log.md`: source discovery and acceptance/rejection log.
 - `search_iterations/search_iterations.md`: chronological search record.
@@ -75,12 +76,18 @@ Each figure directory is an independent review package:
 
 ## Status Update Rules
 
-When changing a figure status, update all of the following:
+When changing a figure status, update its canonical `figure.json`, invalidate
+reviews of changed evidence, and run `scripts/project_state.py generate` followed
+by `scripts/project_state.py check`. This synchronizes:
 
-- Per-figure `metadata/metadata.json`.
+- Canonical per-figure README summaries.
+- Registry CSV and JSON and the canonical artifact index.
 - [../data/metadata/figure_metadata.csv](../data/metadata/figure_metadata.csv).
 - [../PROJECT_STATE.md](../PROJECT_STATE.md).
-- The relevant provenance and discrepancy logs.
+
+Update the relevant provenance and discrepancy logs as research evidence, and
+refresh their hashes in the canonical record. Imported `metadata/metadata.json`
+files remain historical snapshots rather than a second status authority.
 
 Do not promote a figure to `verified_reproduction` unless the source chain and
 visual validation both support that classification.

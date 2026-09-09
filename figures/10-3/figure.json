@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "10-3",
+  "book": "Enlightenment Now",
+  "chapter": "10",
+  "title": "Pollution, energy, and growth, US, 1970-2015",
+  "page": "",
+  "year_range": "1970-2015",
+  "source_type_guess": "EPA air trends institutional chart data",
+  "priority": "completed_monitor",
+  "current_owner": "Codex",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "verified_book_period_reconstruction_with_successor_extension",
+  "next_action": "Monitor EPA source revisions; optionally decompose six-pollutant aggregate if publication requires resolving the printed five-pollutant label.",
+  "notes": "The plotted reconstruction uses EPA's embedded 2016 chart values, not digitized Pinker values. The Supplemental PDF visibly labels the lower series as five pollutants while EPA's source chart and 2016 text define aggregate emissions as six common pollutants; the reconstruction follows the EPA source data and documents the book-label discrepancy.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "US Environmental Protection Agency 2016; GDP from BEA; vehicle miles from FHWA; population from US Census; energy from US Department of Energy; CO2 from US Greenhouse Gas Inventory; emissions from EPA air-pollutant emissions trends data.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "verified_reproduction"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/10-3/plots/comparisons/pdf_reference_figure_10_3.png",
+      "sha256": "4841e1c2d48430df83f195e0476bac6297a06b58ecbee1116b723ace4ae3da45"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/10-3/plots/book_period/figure_10_3_book_period_reconstruction.png",
+      "sha256": "eda7ef007d13fada4a35c4f9fb3fdc513c4e45683506548bbaa620d1cda561fd"
+    },
+    "extended_reconstruction": {
+      "path": "figures/10-3/plots/extended/figure_10_3_extended_reconstruction.png",
+      "sha256": "8a2c6c80fb00300878a83674c221b2ff0bc0f20bc1171deaea47371d7f038632"
+    },
+    "book_period_comparison": {
+      "path": "figures/10-3/plots/comparisons/figure_10_3_book_period_comparison.png",
+      "sha256": "ec2cc7c5fb900cd5aac6d95293bf354808c802a2636e84c64b53092249e2f4cc"
+    },
+    "extended_comparison": {
+      "path": "figures/10-3/plots/comparisons/figure_10_3_extended_comparison.png",
+      "sha256": "f5bc2d950923010eb68529cccc0b3ec78ea22678e3571f9b74ffe2cbbeddddcf"
+    },
+    "caption": {
+      "path": "figures/10-3/captions/caption.txt",
+      "sha256": "2060e27ec759750040bbedbf49da50c698d323288a39149e2b410dbe11904745"
+    },
+    "provenance": {
+      "path": "figures/10-3/provenance/provenance.md",
+      "sha256": "4e3f1d5a0f88bbd867abe275cda7c42f49ed57418f762cbdfd719da3396e924f"
+    },
+    "anomaly_review": {
+      "path": "figures/10-3/anomaly_reviews/anomaly_review.md",
+      "sha256": "9e93c8e4970280720f1a7363ea7cad2c006620cc4a6ad02261f1014c0cd1a6b9"
+    },
+    "review_checklist": {
+      "path": "figures/10-3/review_checklist.md",
+      "sha256": "1d27ee284dc4a83aa2fd0e1f67d68cbace5a71d9b0e7c533a7a1f927e5f68798"
+    },
+    "source_log": {
+      "path": "figures/10-3/source_logs/source_log.md",
+      "sha256": "c2d05b5def9303ab4a749364be06904e8a1a2c1739bff99027bc30b9e9e4722a"
+    },
+    "search_log": {
+      "path": "figures/10-3/search_iterations/search_iterations.md",
+      "sha256": "806dab3f55787528f43b71a68560876f17ebd0eeef88f55e6b3ee6e4807f7f75"
+    },
+    "discrepancy_log": {
+      "path": "figures/10-3/discrepancy_logs/discrepancy_log.md",
+      "sha256": "69afb3a1af83a8518b78e828ea5858e9218316844a4b8e5a67ed1690f4dbb2a3"
+    },
+    "legacy_metadata": {
+      "path": "figures/10-3/metadata/metadata.json",
+      "sha256": "3029da3b5021b6c6fd5145238ef705b029c2fde43f407d7157eee4766c29f045"
+    },
+    "metadata": {
+      "path": "figures/10-3/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental PDF page 13",
+    "claim_summary": "The United States reduced aggregate air-pollutant emissions after 1970 while GDP, vehicle miles traveled, population, energy use, and CO2 emissions rose.",
+    "original_dataset": "EPA Our Nation's Air 2016 embedded Highcharts manual data for the GrowthAndEmissions chart.",
+    "dataset_url": "https://gispub.epa.gov/air/trendsreport/2016/dist/js/etrends.js",
+    "archive_url": "Not needed for reconstruction; live EPA 2016 source code and copied raw JS retained.",
+    "download_date": "2026-07-05",
+    "confidence_score": 0.9
+  }
+}

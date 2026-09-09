@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "figure_id": "12-9",
+  "book": "Enlightenment Now",
+  "chapter": "12",
+  "title": "Lightning strike deaths, US, 1900-2015",
+  "page": "",
+  "year_range": "1900-2015",
+  "source_type_guess": "OWID/Roser NOAA lightning fatality rates",
+  "priority": "completed_monitor",
+  "current_owner": "Codex",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "reviewed_book_period_reconstruction_no_comparable_extension",
+  "next_action": "Recover or construct methodologically identical post-2015 lightning-rate extension if publication requires it.",
+  "notes": "Track D 2026-06-30: OWID NOAA/Lopez-Holle fatality-rate dataset visually reproduces Kindle chart; no comparable post-2015 rate extension recovered.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Kindle cites Our World in Data, Roser 2016q, based on NOAA, the lightning-safety fatalities page, and Lopez & Holle 1998. Reconstruction uses OWID's NOAA/Lopez-Holle weather fatality-rate dataset.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "verified_reproduction"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/12-9/plots/comparisons/kindle_reference_figure_12_9.png",
+      "sha256": "fc66467d2a63e7f63eff300a75ebeba2298d2a156df8f49a9490b815588a7ebd"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/12-9/plots/book_period/figure_12_9_book_period_reconstruction.png",
+      "sha256": "8d117e7693f1077285d29113ddfbf8d21e438fb287782db776d65d936b7571fe"
+    },
+    "extended_reconstruction": {
+      "path": "figures/12-9/plots/extended/figure_12_9_extended_reconstruction.png",
+      "sha256": "d6b71c1cee7e4fd5b0feeeb21fcd34ec571ed2dfa6e77de18ac805451514bea1"
+    },
+    "book_period_comparison": {
+      "path": "figures/12-9/plots/comparisons/figure_12_9_book_period_comparison.png",
+      "sha256": "196f3349e531118fce125882316576a8e446e61d669663ebec830caf6b27ef5b"
+    },
+    "extended_comparison": {
+      "path": "figures/12-9/plots/comparisons/figure_12_9_extended_comparison.png",
+      "sha256": "f9a14bebea70b356b89cdf6793f8a59a304b73a517f6b23773c0b6f3c3e5dd07"
+    },
+    "caption": {
+      "path": "figures/12-9/captions/caption.txt",
+      "sha256": "cf33238396614dfc975ed0f6915eae6d3288706a764c112f4e42ec7f9a8b349f"
+    },
+    "provenance": {
+      "path": "figures/12-9/provenance/provenance.md",
+      "sha256": "8a96b6ee3910b71483d37820ecdae4fa7c37efbb4c6317c722af331b9ea3a728"
+    },
+    "anomaly_review": {
+      "path": "figures/12-9/anomaly_reviews/anomaly_review.md",
+      "sha256": "5d775ec416fd8957507c936155d840a56ff482ef38736e9a3a669dd0c35e9b43"
+    },
+    "review_checklist": {
+      "path": "figures/12-9/review_checklist.md",
+      "sha256": "0db3f2d69b9284685a3dce2c8058afb9877f8b1dd56e60defabd2d06b340c3c8"
+    },
+    "source_log": {
+      "path": "figures/12-9/source_logs/source_log.md",
+      "sha256": "cf8d8e8efaf035667497c4e99e1e8555be393503f851ad1ef6ba1394dadff65d"
+    },
+    "search_log": {
+      "path": "figures/12-9/search_iterations/search_iterations.md",
+      "sha256": "418c869b03fd2f61f0de95c751df70a89a4dc7f3fff71a521ec6304d10a9a746"
+    },
+    "discrepancy_log": {
+      "path": "figures/12-9/discrepancy_logs/discrepancy_log.md",
+      "sha256": "486f8bd2c11a95f226afbadb79c7ae22fdd38f28cca91008ae5f70c2b58bcee9"
+    },
+    "legacy_metadata": {
+      "path": "figures/12-9/metadata/metadata.json",
+      "sha256": "7f7df6db702ef910934a82dfcf5580ff66b45b00b4befba0f1d099026edc070e"
+    },
+    "metadata": {
+      "path": "figures/12-9/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "",
+    "claim_summary": "",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "",
+    "confidence_score": ""
+  }
+}

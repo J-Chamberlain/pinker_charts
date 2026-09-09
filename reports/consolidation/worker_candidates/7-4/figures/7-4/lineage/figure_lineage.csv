@@ -1,0 +1,6 @@
+figure_id,title,step,evidence,value,status
+7-4,"Famine deaths, 1860-2016",1,Supplemental PDF,"Figure title, y-axis label, source note",observed
+7-4,"Famine deaths, 1860-2016",2,OWID preserved article,"Hasell & Roser 2017 dataset covers 1860s-2016",recovered
+7-4,"Famine deaths, 1860-2016",3,OWID Google Sheet,"Parsed famine event table",recovered
+7-4,"Famine deaths, 1860-2016",4,Wayback 2018 topic page,"Decadal allocation footnote and static source PNG",recovered
+7-4,"Famine deaths, 1860-2016",5,Reconstruction,"Plotted values recovered from static image; denominator output unresolved",partial_match

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "figure_id": "12-3",
+  "book": "Enlightenment Now",
+  "chapter": "12",
+  "title": "Motor vehicle accident deaths, US, 1921-2015",
+  "page": "",
+  "year_range": "1921-2015",
+  "source_type_guess": "NHTSA/FARS traffic fatality source chain",
+  "priority": "active_high",
+  "current_owner": "Codex",
+  "scientific_status": "source_chain_recovered",
+  "execution_status": "processed",
+  "publication_status": "incomplete",
+  "lifecycle_stage": "source_chain_recovered",
+  "next_action": "Recover archived informedforlife TRAFFICFATALITIES(1899-2005).pdf or equivalent pre-1966 NHTSA/FHWA table before reconstruction.",
+  "notes": "Track D 2026-06-30: Kindle source note captured; NHTSA 2015 PDF recovered; cited informedforlife pre-1966 PDF currently 404/no 200 CDX hit.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "Kindle cites NHTSA, an informedforlife TRAFFICFATALITIES(1899-2005).pdf mirror, FARS, and NHTSA CrashStats publication 812384. The 2015 NHTSA PDF was recovered; the cited pre-1966 informedforlife PDF was 404 and had no 200 Wayback CDX hit in this pass.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "source_chain_recovered"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/12-3/plots/comparisons/kindle_reference_figure_12_3.png",
+      "sha256": "679b27f3c2a63ed48d9cb8f3adaa4e6ffaab99560da77aedb8cc67f832be1471"
+    },
+    "caption": {
+      "path": "figures/12-3/captions/caption.txt",
+      "sha256": "79c6dcbc8d060599d70603c574081ffc643b59b2f2c08f44f3ed63971668f11c"
+    },
+    "provenance": {
+      "path": "figures/12-3/provenance/provenance.md",
+      "sha256": "c6bd5a1bc40fb17cc289ba61b0188ffca4c1e490365c9f540b0e07c4f778af34"
+    },
+    "anomaly_review": {
+      "path": "figures/12-3/anomaly_reviews/anomaly_review.md",
+      "sha256": "86be658a068e13a323d54863886b5790e3a93e638b66ee8023af1da07c311588"
+    },
+    "review_checklist": {
+      "path": "figures/12-3/review_checklist.md",
+      "sha256": "e5c91808edb1f97121d7f274320230ff280337e6d8c867cdd58cf4d7cd3d4dbc"
+    },
+    "source_log": {
+      "path": "figures/12-3/source_logs/source_log.md",
+      "sha256": "d6e5282ce604a6ad944b1e972d1b57e424adf4dd3b9bb516f0ff9fb50202d6c9"
+    },
+    "search_log": {
+      "path": "figures/12-3/search_iterations/search_iterations.md",
+      "sha256": "4f6fa4f37dbe5aaafbfe3d06f13dae19aedb7b5f1bc293aeafa4756c37e938a3"
+    },
+    "discrepancy_log": {
+      "path": "figures/12-3/discrepancy_logs/discrepancy_log.md",
+      "sha256": "0a58d0574c42e480744da8932dfd653c79c1cbceb5ad6616427d479fe863ffee"
+    },
+    "legacy_metadata": {
+      "path": "figures/12-3/metadata/metadata.json",
+      "sha256": "ed523a05099ea1f86050316e9fe53a27508d66a1bd4a06fafbff51fb6596f1a7"
+    },
+    "metadata": {
+      "path": "figures/12-3/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "",
+    "claim_summary": "",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "",
+    "confidence_score": ""
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "figure_id": "10-5",
+  "book": "Enlightenment Now",
+  "chapter": "10",
+  "title": "Oil spills, 1970-2016",
+  "page": "",
+  "year_range": "1970-2016",
+  "source_type_guess": "environment_institutional_dataset",
+  "priority": "active_high",
+  "current_owner": "repository",
+  "scientific_status": "partial_match",
+  "execution_status": "blocked",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "source_recovery_and_discrepancy_analysis",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Current repository state: oil-spill line supported; exact annual oil-shipping gray-line source unresolved. See figures/10-5/. | [orchestrator run 20260710T001719-10-5-initial-noetbc: remediate; prev current_status=partial_match] | [orchestrator run 20260710T185733-10-5-remediation-s43iuz: accept; prev current_status=orchestrator_remediation_needed]",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Source: Our World in Data, Roser 2016r, based on data (updated) from the International Tanker Owners Pollution Federation.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/10-5/plots/comparisons/corrected_figure_10_5_book_crop.png",
+      "sha256": "eefcbbd35fea1327265fc709ecbc4f818f107f65fe30a223a35164ab5e0b2588"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png",
+      "sha256": "8810707eda9741f3085f6225a3a65913be607437ef2d26b12836761dee5734e4"
+    },
+    "extended_reconstruction": {
+      "path": "figures/10-5/plots/extended/figure_10_5_extended_reconstruction.png",
+      "sha256": "c8c54ac325f104b7dcf916509c8a1f3e77855a57e0ff86a3d92481ef04710549"
+    },
+    "book_period_comparison": {
+      "path": "figures/10-5/plots/comparisons/figure_10_5_book_style_comparison_captioned.png",
+      "sha256": "5bd4e0341f5c75b69ebccd13ca4f78b85d79a2a684caf156106fa41afc658c2c"
+    },
+    "extended_comparison": {
+      "path": "figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png",
+      "sha256": "a7ecd8defd98acccca802c2d864e1b48d2a74b9396546da5f8cce1b2ea1f88e9"
+    },
+    "caption": {
+      "path": "figures/10-5/captions/caption.txt",
+      "sha256": "c576300f4ba78597e0ccdf6963892fd917082d917946cb6781008f96e0ee925a"
+    },
+    "provenance": {
+      "path": "figures/10-5/provenance/provenance.md",
+      "sha256": "420ec75bde99420f277ce450139dc12c61da9e31aa463692283bb8dbcad8a7f0"
+    },
+    "anomaly_review": {
+      "path": "figures/10-5/anomaly_reviews/anomaly_review.md",
+      "sha256": "6e39be950046fbd3d6783d77570a53d33e19a5cee3658b514433a7c72067a288"
+    },
+    "source_log": {
+      "path": "figures/10-5/source_logs/source_log.md",
+      "sha256": "817dccb794e3cd85f722ad037291730d8190b75f0eac192ef97f65965cabadda"
+    },
+    "search_log": {
+      "path": "figures/10-5/search_iterations/search_iterations.md",
+      "sha256": "c53064de10a6a995dff2c52f212e509273886a1649bb818355e9eda9eeb12186"
+    },
+    "discrepancy_log": {
+      "path": "figures/10-5/discrepancy_logs/discrepancy_log.md",
+      "sha256": "ac755f3cc2a1e55f9e6e139c5ab12e5471389e1c3ee0f8f782208a6a4980dc48"
+    },
+    "legacy_metadata": {
+      "path": "figures/10-5/metadata/metadata.json",
+      "sha256": "9b25cdadb67586921a51b81901772a102b3c11bbf741c772f6c622a6037f21a9"
+    },
+    "metadata": {
+      "path": "figures/10-5/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "",
+    "claim_summary": "",
+    "original_dataset": "",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "",
+    "confidence_score": ""
+  }
+}

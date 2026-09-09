@@ -305,7 +305,7 @@ ledger into the orchestrator repository.
 | Phase | State | Evidence or next action |
 | --- | --- | --- |
 | 1. Consolidation | In progress: histories imported | [Import evidence](../reports/consolidation/README.md); 83 conflicts resolved on production-loop, nine verified plot packages unchanged; canonical state and baseline validation next. |
-| 2. Consistent state | Not started | Design scientific/execution/publication separation and generated views after reconciliation. |
+| 2. Consistent state | Implemented; integration writer pending | [State contract](canonical_state.md); 75 canonical records, generated mirrors and README summaries, hash validation, 12 offline tests. Orchestrator must adopt the new ownership contract before production. |
 | 3. Shared source library | Not started | Existing PDF, bibliography files, and source-adapter notes are inputs, not completed coverage. |
 | 4. Portable reproduction | Not started | Remove observed absolute-path and temporary-file dependencies; verify clean rebuilds. |
 | 5. Scientific/visual gate | Not started | Implement actual image input and evidence-bound review in the active runner. |

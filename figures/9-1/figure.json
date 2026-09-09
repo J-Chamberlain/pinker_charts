@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "figure_id": "9-1",
+  "book": "Enlightenment Now",
+  "chapter": "9",
+  "title": "International inequality, 1820-2013",
+  "page": "",
+  "year_range": "1820-2013",
+  "source_type_guess": "economic_historical_dataset",
+  "priority": "active_high",
+  "current_owner": "Codex",
+  "scientific_status": "manual_review_needed",
+  "execution_status": "blocked",
+  "publication_status": "incomplete",
+  "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Unweighted/between-country source values recovered from OECD/IISH Table 11.4 and plotted only as a source-recovery diagnostic. Full reconstruction remains blocked because the Milanovic population-weighted series through 2013 was not recovered as an inspectable data table. No chart-image values were digitized.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "International inequality: OECD Clio Infra Project, Moatsos et al. 2014; data are for market household income across countries. Population-weighted international inequality: Milanovic 2012; data for 2012 and 2013 provided by Branko Milanovic, personal communication.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/9-1/plots/comparisons/supplemental_pdf_reference_figure_9_1.png",
+      "sha256": "2dd6ed7e9aae716f00e26c7ab92fdcfcefe598a8b00b0c91b3c94749bde1018a"
+    },
+    "caption": {
+      "path": "figures/9-1/captions/caption.txt",
+      "sha256": "a3878fc82b75247bca52eeb53eac0d8e624343f278ee4035215e006ada12342a"
+    },
+    "provenance": {
+      "path": "figures/9-1/provenance/provenance.md",
+      "sha256": "8761c5809ce79ae42c236f26cc9c5fdb2b73871bfd05c0d407a86fd09b77731b"
+    },
+    "anomaly_review": {
+      "path": "figures/9-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "a889d722324dcf0c3426e13e2552dd4495be49c092049b3e541b686a1b2d1de8"
+    },
+    "review_checklist": {
+      "path": "figures/9-1/review_checklist.md",
+      "sha256": "bf377b562383e3e46b56936859b75f1c293f2702bf82e76c973aec60ef42cefc"
+    },
+    "source_log": {
+      "path": "figures/9-1/source_logs/source_log.md",
+      "sha256": "07a71f3ad04eaa92efbee502ab62f64031a6e03763dd64eb0784d525e35ceff4"
+    },
+    "search_log": {
+      "path": "figures/9-1/search_iterations/search_iterations.md",
+      "sha256": "4b7f9d8a628c25ab6434eb134674ee459d22fe8ebc93efd52a3a6e9a7380a2c9"
+    },
+    "discrepancy_log": {
+      "path": "figures/9-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "bbdbd385ba013231e71b1e1f8364f31d9d4e0b4d33789c5d9d4ad38815d80a95"
+    },
+    "legacy_metadata": {
+      "path": "figures/9-1/metadata/metadata.json",
+      "sha256": "3581ec730e3827a953ed0ef852ce0bd2a6cfbdf45ed9de41ae1702f69bfb226a"
+    },
+    "metadata": {
+      "path": "figures/9-1/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental Graphics PDF page 9",
+    "claim_summary": "Unweighted international inequality rose historically while population-weighted international inequality fell after the late twentieth century.",
+    "original_dataset": "Partial source recovery: OECD/IISH How Was Life? 2014 Table 11.4 recovered for the unweighted/between-country line, 1820-2000; Clio/IISH Dataverse Income Inequality source-input files recovered; Milanovic 2012 population-weighted line and 2012-2013 personal-communication update not recovered as inspectable data.",
+    "dataset_url": "https://hdl.handle.net/10622/6OHMDS; https://www.oecd.org/content/dam/oecd/en/publications/reports/2014/10/how-was-life_g1g43e0f/9789264214262-en.pdf",
+    "archive_url": "Wayback CDX retained at figures/9-1/data/raw/wayback_cdx_clio_income_inequality.json",
+    "download_date": "2026-07-09",
+    "confidence_score": 0.45
+  }
+}

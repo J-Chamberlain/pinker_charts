@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "figure_id": "9-2",
+  "book": "Enlightenment Now",
+  "chapter": "9",
+  "title": "Global inequality, 1820-2011",
+  "page": "",
+  "year_range": "1820-2011",
+  "source_type_guess": "economic_historical_dataset",
+  "priority": "active_high",
+  "current_owner": "Codex",
+  "scientific_status": "manual_review_needed",
+  "execution_status": "blocked",
+  "publication_status": "incomplete",
+  "lifecycle_stage": "source_recovery_blocked_no_reconstruction",
+  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
+  "notes": "Recover Milanovic 2016 figure 3.1 spreadsheet, publisher/author supplementary data, or the History/thepast.xls workbook with provenance tying it to figure 3.1. Milanovic 2024 was reviewed as a source-family successor but not plotted because it uses revised 2011-PPP methods and partly unpublished later estimates rather than the book figure's 1990/2005-dollar source vintage. Plotted images are source-recovery/status panels only.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "Milanovic 2016, fig. 3.1. The left-hand curve shows 1990 international dollars of disposable income per capita; the right-hand curve shows 2005 international dollars, and combines household surveys of per capita disposable income and consumption.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "orchestrator_blocked"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/9-2/plots/comparisons/supplemental_pdf_page_10_figure_9_2.png",
+      "sha256": "bd4ac0f882e70cdb01598e13eabe135a6a0fa8d783267d9f12d62165b204439d"
+    },
+    "caption": {
+      "path": "figures/9-2/captions/caption.txt",
+      "sha256": "3ef4452cdd497c4a50494606040850702858df1afd562190e5210f0c755c5075"
+    },
+    "provenance": {
+      "path": "figures/9-2/provenance/provenance.md",
+      "sha256": "2a0c5e0ace65fccb4af56083f40dd3e0eab4d2e7aed401b01dec6458c4417a71"
+    },
+    "anomaly_review": {
+      "path": "figures/9-2/anomaly_reviews/anomaly_review.md",
+      "sha256": "6a7d7c7dba014aaabf1c37b91b576bf67d62fd890eba4c41756e6e5af51912bd"
+    },
+    "review_checklist": {
+      "path": "figures/9-2/review_checklist.md",
+      "sha256": "0112255b41f8592afbd2db319181c71471356bf1b41bd87f59f6c3e8ff806990"
+    },
+    "source_log": {
+      "path": "figures/9-2/source_logs/source_log.md",
+      "sha256": "ea60fbd8637d1183b1633424038ae578212702e406f1ee56e15f99e7953a0c5b"
+    },
+    "search_log": {
+      "path": "figures/9-2/search_iterations/search_iterations.md",
+      "sha256": "6d2ca28ac1b42425a8ebe7e78e35a56094be957216ea2f9970ea3a17fd032946"
+    },
+    "discrepancy_log": {
+      "path": "figures/9-2/discrepancy_logs/discrepancy_log.md",
+      "sha256": "031db9e97a46a5f829d51542148651f03e6b6408258f57c4f2005a5ac1ef6152"
+    },
+    "legacy_metadata": {
+      "path": "figures/9-2/metadata/metadata.json",
+      "sha256": "de4896829154950f80c201bb63123b45726ebed235210a0a4c57c3e9e9f123cb"
+    },
+    "metadata": {
+      "path": "figures/9-2/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental Graphics PDF page 10",
+    "claim_summary": "Estimated global interpersonal Gini rose into the mid-twentieth century and declined in the 2005-dollar household-survey series after about 2000.",
+    "original_dataset": "Milanovic 2016 figure 3.1 underlying table was not recovered as an inspectable data file. Later source-family evidence points to a likely author workbook named History/thepast.xls, but the workbook itself was not recovered.",
+    "dataset_url": "",
+    "archive_url": "",
+    "download_date": "2026-07-09",
+    "confidence_score": 0.35
+  }
+}

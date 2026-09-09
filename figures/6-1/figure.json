@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "figure_id": "6-1",
+  "book": "Enlightenment Now",
+  "chapter": "6",
+  "title": "Childhood deaths from infectious disease, 2000-2013",
+  "page": "",
+  "year_range": "2000-2013",
+  "source_type_guess": "health_demographic_dataset",
+  "priority": "active_track_a",
+  "current_owner": "Codex",
+  "scientific_status": "blocked_external_source",
+  "execution_status": "processed",
+  "publication_status": "incomplete",
+  "lifecycle_stage": "visual_qa_blocked_at_source_recovery",
+  "next_action": "Recover cited CHERG/WHO Liu et al. 2014 supplementary appendix annual deaths-by-cause data or verified equivalent.",
+  "notes": "Track A health/nutrition batch. Source status: blocked_external_source.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "Child Health Epidemiology Reference Group of the World Health Organization; Liu et al. 2014, supplementary appendix.",
+  "status_evidence": {
+    "basis": "imported historical scientific claim; not newly verified",
+    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "previous_registry_status": "blocked_external_source"
+  },
+  "visual_review": {
+    "status": "pending",
+    "reference_basis": "original_reference_unconfirmed",
+    "inspected_artifacts": [],
+    "issues": []
+  },
+  "extension": {
+    "status": "pending_methodology_review",
+    "notes": "An extended filename alone does not establish an extension."
+  },
+  "artifacts": {
+    "original_reference": {
+      "path": "figures/6-1/plots/comparisons/kindle_reference_figure_6_1.png",
+      "sha256": "518377b34283bb289d17c1ed51b80b49af80251c7b58ad3010e88023eb8de7d9"
+    },
+    "caption": {
+      "path": "figures/6-1/captions/caption.txt",
+      "sha256": "302eb628ef54c57bd26ce79863f1326d183f6fc9bdf4558388612c9467d88940"
+    },
+    "provenance": {
+      "path": "figures/6-1/provenance/provenance.md",
+      "sha256": "b7c586aa5bdae44e03f4221a2bc22b15f2df5fc0e2b3f8282e760ebd30fe275c"
+    },
+    "anomaly_review": {
+      "path": "figures/6-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "d87dec9f58cd242e7b1e9d88cbb491847deb219996b3af927bb36f942790fada"
+    },
+    "review_checklist": {
+      "path": "figures/6-1/review_checklist.md",
+      "sha256": "438210f7c26b5bb4a7a348e636700125ccc9de764c9cc63160139b0c21f73261"
+    },
+    "source_log": {
+      "path": "figures/6-1/source_logs/source_log.md",
+      "sha256": "e5e110f525a5a131109cdc9cc0d6923998efcf244376a9d46927cfd4c91768f9"
+    },
+    "search_log": {
+      "path": "figures/6-1/search_iterations/search_iterations.md",
+      "sha256": "15c808e5486c21208fecb91de1655315185c2a8009836baa8ed7a9e0ab6b1b8b"
+    },
+    "discrepancy_log": {
+      "path": "figures/6-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "3b65c2eed43ce06528196b2bb8c77ee5fbfd90d51139a51b26e24e87e53b5047"
+    },
+    "legacy_metadata": {
+      "path": "figures/6-1/metadata/metadata.json",
+      "sha256": "0c7e45c40186c0deb5ef3c032bc3aea8ba7c6130b5d86a770c4e8fec9df39c36"
+    },
+    "metadata": {
+      "path": "figures/6-1/figure.json",
+      "self": true
+    }
+  },
+  "research": {
+    "book_page": "Supplemental PDF page 4; Kindle chart page not captured during Track A",
+    "claim_summary": "Childhood deaths from major infectious diseases fell between 2000 and 2013.",
+    "original_dataset": "IHME 2017 causes of child mortality proxy; cited Liu et al. appendix not recovered",
+    "dataset_url": "See source_logs/source_log.md and data/raw/.",
+    "archive_url": "Not recovered in Track A time-box.",
+    "download_date": "2026-06-30",
+    "confidence_score": 0.3
+  }
+}
