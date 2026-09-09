@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/9-4/plots/comparisons/kindle_reference_figure_9_4.png",
-      "sha256": "b218d4ef30448729f131c0563c14cf1d240a0b2ae85637245b09a12635f6deae"
+      "path": "references/figures/figure_9_4.png",
+      "sha256": "227d08dbd182c369e333aa3303605ed73e6f29f3d59c77d9dbd457d33b616da2"
     },
     "book_period_reconstruction": {
       "path": "figures/9-4/plots/book_period/figure_9_4_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "6b67407907a5f82d5c1b08713c4ff3d11247e7d59487dc03b4ae4513bf170960"
     },
     "book_period_comparison": {
-      "path": "figures/9-4/plots/comparisons/figure_9_4_book_period_comparison.png",
-      "sha256": "52733394ab031ea8fb1880ee06a812ea68113851defa85c62e923b168b1c5d4d"
+      "path": "figures/9-4/plots/comparisons/figure_9_4_book_period_review.png",
+      "sha256": "bd22687cdb0d20b695de15de5cc601cb678f3778d60ee6745258ef7b5a9d68ba"
     },
     "extended_comparison": {
-      "path": "figures/9-4/plots/comparisons/figure_9_4_extended_comparison.png",
-      "sha256": "2783bd3441422020f47aaf363bc1db8d3d7bc933688d403b7265264263691540"
+      "path": "figures/9-4/plots/comparisons/figure_9_4_extended_review.png",
+      "sha256": "3562ad28081f5dad17b9bd785f4f87fc329e5eed57922131f0d275a64970e90e"
     },
     "caption": {
       "path": "figures/9-4/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "2026-06-30",
     "confidence_score": 0.78
+  },
+  "reference": {
+    "figure_id": "9-4",
+    "registry_title": "Social spending, OECD countries, 1880-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 11,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      195,
+      226,
+      1460,
+      1085
+    ],
+    "crop_bounds_pdf_points": [
+      54.085,
+      62.715,
+      404.943,
+      301.087
+    ],
+    "path": "references/figures/figure_9_4.png",
+    "sha256": "227d08dbd182c369e333aa3303605ed73e6f29f3d59c77d9dbd457d33b616da2",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 9-4: Social spending, OECD countries, 1880-2016",
+    "source_note_ocr": "Our World in Data, Ortiz-Ospina & Roser 2016b, based on data from Lindert 2004 and OECD 1985, 2014, 2017. The Organisation for Economic Co-operation and Development includes thirty-five demo- cratic states with market economies.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

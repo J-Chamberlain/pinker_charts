@@ -106,3 +106,15 @@
 
 - [x] Accepted as `partial_match` (downgraded from verified_reproduction 2026-07-11) with documented visual-reference
   limitation.
+# 2026-09-09 Acceptance Checkpoint (Supersedes Earlier Checks)
+
+- [x] Actual PDF figure identified and inspected.
+- [x] Both current comparisons visually inspected.
+- [x] Missing early Sweden source table recovered and numerically checked.
+- [x] No digitized plotted values used.
+- [x] Caption and anomaly review updated with remaining discrepancies.
+- [ ] Independent source-vintage and trajectory review completed.
+- [ ] Independent extension review completed.
+- [ ] Publication acceptance passed.
+
+Historical checked items below do not override these incomplete gates.

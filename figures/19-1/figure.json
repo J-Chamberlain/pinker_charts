@@ -24,34 +24,34 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_plotted",
+    "notes": "No post-2015 extension; source-vintage comparability not established."
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/19-1/plots/comparisons/kindle_reference_figure_19_1.png",
-      "sha256": "e36c759dddae5e66c8430e9edb5e931137700d7fcb37bb61ef3d3660e6815f78"
+      "path": "references/figures/figure_19_1.png",
+      "sha256": "96d577c15e64d143b829713c7b2f2cf6f58be23a4c1e4688a27bdfbc4b4ad4dd"
     },
     "book_period_reconstruction": {
       "path": "figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png",
       "sha256": "2f71af93823ecad48807d5fbaa74c5432864fd332ce457c2a15aebd7c5315030"
     },
     "extended_reconstruction": {
-      "path": "figures/19-1/plots/extended/figure_19_1_extended_reconstruction.png",
-      "sha256": "6e7d45e25a245b86e03d79140dfef5b6da464290237c1c861cbabaa6c1060cde"
+      "path": "figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png",
+      "sha256": "2f71af93823ecad48807d5fbaa74c5432864fd332ce457c2a15aebd7c5315030"
     },
     "book_period_comparison": {
-      "path": "figures/19-1/plots/comparisons/figure_19_1_book_period_comparison.png",
-      "sha256": "8b6f3236d523afd016a8fa1e8c03e32ad48b538aa6328898e220f44e7e50b9c4"
+      "path": "figures/19-1/plots/comparisons/figure_19_1_book_period_review.png",
+      "sha256": "e026fe6bacd59e6ca5173e7e2942da4db4f7112baa669066c13f256fa1ecb498"
     },
     "extended_comparison": {
-      "path": "figures/19-1/plots/comparisons/figure_19_1_extended_comparison.png",
-      "sha256": "583204fa9662293b840da205c37c3c761c4f42aafd5eeeab46226c7a797d5e05"
+      "path": "figures/19-1/plots/comparisons/figure_19_1_extended_review.png",
+      "sha256": "26950f8d086a4d1252d6e84d5ea1f78115432c8a4325c16c6b2bb90d69f1306f"
     },
     "caption": {
       "path": "figures/19-1/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "2026-07-10",
     "confidence_score": 0.82
+  },
+  "reference": {
+    "figure_id": "19-1",
+    "registry_title": "Nuclear weapons, 1945-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 39,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      200,
+      188,
+      1470,
+      1155
+    ],
+    "crop_bounds_pdf_points": [
+      55.472,
+      52.17,
+      407.717,
+      320.512
+    ],
+    "path": "references/figures/figure_19_1.png",
+    "sha256": "96d577c15e64d143b829713c7b2f2cf6f58be23a4c1e4688a27bdfbc4b4ad4dd",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 19-1: Nuclear weapons, 1945-2015",
+    "source_note_ocr": "HumanProgress, http://humanprogress.org/static/2927, based on data from the Federation of Atomic Scientists, Kristensen & Norris 2016a, updated in Kristensen 2016; see Kristensen & Norris 2016b for additional explanation. The counts include weapons that are deployed and those that are stockpiled, but exclude weapons that are retired and awaiting dismantlement.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

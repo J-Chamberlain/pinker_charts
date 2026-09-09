@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/9-2/plots/comparisons/supplemental_pdf_page_10_figure_9_2.png",
-      "sha256": "bd4ac0f882e70cdb01598e13eabe135a6a0fa8d783267d9f12d62165b204439d"
+      "path": "references/figures/figure_9_2.png",
+      "sha256": "033dc93d156215cd8141bba69ed1902d9140ef7ca435cc92b4f6f6431dad7b55"
     },
     "caption": {
       "path": "figures/9-2/captions/caption.txt",
@@ -82,5 +82,36 @@
     "archive_url": "",
     "download_date": "2026-07-09",
     "confidence_score": 0.35
+  },
+  "reference": {
+    "figure_id": "9-2",
+    "registry_title": "Global inequality, 1820-2011",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 10,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      142,
+      239,
+      1374,
+      1157
+    ],
+    "crop_bounds_pdf_points": [
+      39.385,
+      66.323,
+      381.091,
+      321.067
+    ],
+    "path": "references/figures/figure_9_2.png",
+    "sha256": "033dc93d156215cd8141bba69ed1902d9140ef7ca435cc92b4f6f6431dad7b55",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 9-2: Global inequality, 1820-2011",
+    "source_note_ocr": "Milanovié 2016, fig. 3.1. The left-hand curve shows 1990 international dollars of disposable in- come per capita; the right-hand curve shows 2005 international dollars, and combines household surveys of per capita disposable income and consumption.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

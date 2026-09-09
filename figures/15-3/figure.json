@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/15-3/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_15_3.png",
+      "sha256": "43ccbb95203b3191bdd86176dcdc9493f661dbb87bd5838c18db099ebc2b61b3"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "15-3",
+    "registry_title": "Hate crimes, US, 1996-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 26,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      143,
+      220,
+      1381,
+      1121
+    ],
+    "crop_bounds_pdf_points": [
+      39.662,
+      61.05,
+      383.032,
+      311.077
+    ],
+    "path": "references/figures/figure_15_3.png",
+    "sha256": "43ccbb95203b3191bdd86176dcdc9493f661dbb87bd5838c18db099ebc2b61b3",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 15-3: Hate crimes, US, 1996-2015",
+    "source_note_ocr": "Federal Bureau of Investigation 2016b. The arrow points to 2008, the last year plotted in fig. 7-4 of Pinker 2011.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

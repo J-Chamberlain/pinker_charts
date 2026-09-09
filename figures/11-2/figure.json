@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/11-2/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_11_2.png",
+      "sha256": "9545b325d002e26be316983a15b4ef32da96f650a63a74a130cd3599ec1e21f6"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "11-2",
+    "registry_title": "Battle deaths, 1946-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 17,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      216,
+      150,
+      1419,
+      1175
+    ],
+    "crop_bounds_pdf_points": [
+      59.909,
+      41.625,
+      393.572,
+      326.062
+    ],
+    "path": "references/figures/figure_11_2.png",
+    "sha256": "9545b325d002e26be316983a15b4ef32da96f650a63a74a130cd3599ec1e21f6",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 11-2: Battle deaths, 1946-2016",
+    "source_note_ocr": "Adapted from Human Security Report Project 2007. For 1946-1988: Peace Research Institute of Oslo Battle Deaths Dataset 1946-2008, Lacina & Gleditsch 2005. For 1989-2015: UCDP Battle-Related Deaths Dataset version 5.0, Uppsala Conflict Data Program 2017, Melander, Pettersson, & Themnér 2016, updated with information from Therese Pettersson and Sam Taub of UCDP. World population figures: 1950-2016, US Census Bureau; 1946-1949, McEvedy & Jones 1978, with adjustments. The arrow points to 2008, the last year plotted in fig. 6-2 of Pinker 2011.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

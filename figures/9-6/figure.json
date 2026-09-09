@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/9-6/plots/comparisons/pdf_reference_figure_9_6.png",
-      "sha256": "00e2a7cddc2534201c618bb5caf22b14a0ef8132a8310d6dc8686967661eb2c6"
+      "path": "references/figures/figure_9_6.png",
+      "sha256": "4e02ba55f562be26dfbccc5973e000895f9dfa2458de3c65f8d12837c1fd3d3a"
     },
     "book_period_reconstruction": {
       "path": "figures/9-6/plots/book_period/figure_9_6_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "0f4cc4f0db00043722aef087387e27b2b489e1ea72815c815794a576be6f83c2"
     },
     "book_period_comparison": {
-      "path": "figures/9-6/plots/comparisons/figure_9_6_book_period_comparison.png",
-      "sha256": "520a5899d868ed78ab258ebe5e54515e463cddf548dac46121a760bf758d316a"
+      "path": "figures/9-6/plots/comparisons/figure_9_6_book_period_review.png",
+      "sha256": "094796d21bcca4312972d800982908f762325864c1bdfb6cbe27e60e752ae69e"
     },
     "extended_comparison": {
-      "path": "figures/9-6/plots/comparisons/figure_9_6_extended_comparison.png",
-      "sha256": "8dd058054b6712ae69d74d5be56bffc4a288211288a48f37699918f0241855d0"
+      "path": "figures/9-6/plots/comparisons/figure_9_6_extended_review.png",
+      "sha256": "9f329040c66e853f8349664a3c78ffa25ed59ebdde38b85df40b66ac1b0088fa"
     },
     "caption": {
       "path": "figures/9-6/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "Not captured in this pass.",
     "download_date": "2026-07-01",
     "confidence_score": 0.91
+  },
+  "reference": {
+    "figure_id": "9-6",
+    "registry_title": "Poverty, US, 1960-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 12,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      145,
+      133,
+      1372,
+      1188
+    ],
+    "crop_bounds_pdf_points": [
+      40.217,
+      36.907,
+      380.536,
+      329.67
+    ],
+    "path": "references/figures/figure_9_6.png",
+    "sha256": "4e02ba55f562be26dfbccc5973e000895f9dfa2458de3c65f8d12837c1fd3d3a",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 9-6: Poverty, US, 1960-2016",
+    "source_note_ocr": "Meyer & Sullivan 2017. “Disposable income” refers to their “After-tax money income,” includ- ing credits, adjusted for inflation using the bias-corrected CPI-U-RS, and representing a family with two adults and two children. “Consumption” refers to data from the BLS Consumer Expenditure Survey on food, housing, vehicles, appliances, furnishings, clothing, jewelry, insurance, and other expenses. “Pov- erty” corresponds to the US Census definition for 1980, adjusted for inflation; anchoring the poverty line in other years would result in different absolute numbers but the same trends. See Meyer & Sullivan 2011, 2012, and 2016 for details.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

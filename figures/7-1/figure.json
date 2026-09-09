@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/7-1/plots/comparisons/kindle_reference_figure_7_1.png",
-      "sha256": "7907fe8d5b7dbd7afe6206bdb792a17b633fe59592a3f8c0f4fbba51beb75399"
+      "path": "references/figures/figure_7_1.png",
+      "sha256": "cd5cad128f6e63968b6a5646bc8fe1d09e7e240b647720ff2fef885812bbbb38"
     },
     "book_period_reconstruction": {
       "path": "figures/7-1/plots/book_period/figure_7_1_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "55171217db25cdec6d1327a1ca19fc0996b35b97d79d36b6d564733da9b3f499"
     },
     "book_period_comparison": {
-      "path": "figures/7-1/plots/comparisons/figure_7_1_book_period_comparison.png",
-      "sha256": "af793a7d6f8283adedba43cd6585391e7bd3016f155aa75c1b18e36aa4f0d930"
+      "path": "figures/7-1/plots/comparisons/figure_7_1_book_period_review.png",
+      "sha256": "5de3c5bb1b121e061c20e46530efda4374d8bb9f96eea66b1373b75197dd9149"
     },
     "extended_comparison": {
-      "path": "figures/7-1/plots/comparisons/figure_7_1_extended_comparison.png",
-      "sha256": "665444083de2c85257f8fdf8fd52f7ccc3eee8dcac9c2f719a02b437bd0a3eb3"
+      "path": "figures/7-1/plots/comparisons/figure_7_1_extended_review.png",
+      "sha256": "343269be78e079fe94e2aeb747af34c410c80629e4c35aa821f298984b80790f"
     },
     "caption": {
       "path": "figures/7-1/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "2018 archived OWID Grapher page recovered for daily-per-capita-caloric-supply; old machine-readable variable endpoint /grapher/data/variables/3590 not recovered from Wayback",
     "download_date": "2026-07-09",
     "confidence_score": 0.72
+  },
+  "reference": {
+    "figure_id": "7-1",
+    "registry_title": "Calories, 1700-2013",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 5,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      196,
+      223,
+      1462,
+      1136
+    ],
+    "crop_bounds_pdf_points": [
+      54.362,
+      61.883,
+      405.498,
+      315.24
+    ],
+    "path": "references/figures/figure_7_1.png",
+    "sha256": "cd5cad128f6e63968b6a5646bc8fe1d09e7e240b647720ff2fef885812bbbb38",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 7-1: Calories, 1700-2013",
+    "source_note_ocr": "United States, England, and France: Our World in Data, Roser 2016d, based on data from Fogel 2004. China, India, and the World: Food and Agriculture Organization of the United Nations, http:// www.fao.org/faostat/en/#data.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

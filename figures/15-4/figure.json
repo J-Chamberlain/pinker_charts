@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/15-4/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_15_4.png",
+      "sha256": "9158a8e4093bb6f0e545e976b519e1076212bb6c461db6af702f399a9e5cea0b"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "15-4",
+    "registry_title": "Rape and domestic violence, US, 1993-2014",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 26,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      137,
+      1201,
+      1404,
+      2150
+    ],
+    "crop_bounds_pdf_points": [
+      37.998,
+      333.277,
+      389.411,
+      596.625
+    ],
+    "path": "references/figures/figure_15_4.png",
+    "sha256": "9158a8e4093bb6f0e545e976b519e1076212bb6c461db6af702f399a9e5cea0b",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 15-4: Rape and domestic violence, US, 1993-2014",
+    "source_note_ocr": "US Bureau of Justice Statistics, National Crime Victimization Survey, Victimization Analysis Tool, http://www.bjs.gov/index.cfm?ty=nvat, with additional data provided by Jennifer Truman of BJS. The gray line represents “Intimate partner violence” with female victims. The arrows point to 2005, the last year plotted in fig. 7-13, and 2008, the last year plotted in fig. 7-10, of Pinker 2011.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

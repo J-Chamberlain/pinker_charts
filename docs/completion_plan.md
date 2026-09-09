@@ -2,7 +2,7 @@
 
 Approved direction: 2026-09-09.
 Plan version: 1.0.
-Current checkpoint: Phase 1, histories imported; canonical state and visual baseline reconciliation in progress.
+Current checkpoint: consolidated records and original-pixel baseline built; integration writer and independent scientific review remain prerequisites to unattended production.
 
 This is the canonical execution plan approved by the project owner. It records
 the route from the fragmented July project state to a reproducible research
@@ -304,13 +304,13 @@ ledger into the orchestrator repository.
 
 | Phase | State | Evidence or next action |
 | --- | --- | --- |
-| 1. Consolidation | In progress: histories imported | [Import evidence](../reports/consolidation/README.md); 83 conflicts resolved on production-loop, nine verified plot packages unchanged; canonical state and baseline validation next. |
+| 1. Consolidation | Reconciled baseline built | [Import evidence](../reports/consolidation/README.md); both histories and stranded workers preserved; 75 records and [26-figure/52-page visual baseline](../reports/review_baseline/index.html). [Triage](../reports/review_baseline/triage.md) is not publication approval. |
 | 2. Consistent state | Implemented; integration writer pending | [State contract](canonical_state.md); 75 canonical records, generated mirrors and README summaries, hash validation, 12 offline tests. Orchestrator must adopt the new ownership contract before production. |
-| 3. Shared source library | Not started | Existing PDF, bibliography files, and source-adapter notes are inputs, not completed coverage. |
+| 3. Shared source library | Reference coverage implemented; source adapters pending | [Reference library](reference_library.md): 75 original crops, PDF coordinates/hashes and OCR title/source. Full-resolution source-note verification and reusable retrieval adapters remain. |
 | 4. Portable reproduction | Not started | Remove observed absolute-path and temporary-file dependencies; verify clean rebuilds. |
 | 5. Scientific/visual gate | Not started | Implement actual image input and evidence-bound review in the active runner. |
 | 6. Unattended calibration | Not started | Offline lifecycle verification first; paid production awaits budget and credential preflight. |
-| 7. Existing incomplete figures | Not started | Reconcile newer 5-3 and 19-1 recoveries before further figure research. |
+| 7. Existing incomplete figures | First consolidation-enabled repair | Figure 5-3 regained 49 early Sweden years from original GD010 table; exact count/overlap tests pass, both comparisons visually inspected. Remains partial pending independent review. |
 | 8. Untouched figures | Not started | Reconfirm provisional 40-figure queue after consolidation. |
 | 9. Final recovery/review | Not started | Apply new evidence to deferred work and audit all released comparisons. |
 | 10. Release | Not started | Fresh-checkout validation, gallery, PDF, release manifest, and completion accounting. |

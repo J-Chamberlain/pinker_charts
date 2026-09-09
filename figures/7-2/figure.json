@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/7-2/plots/comparisons/kindle_reference_figure_7_2.png",
-      "sha256": "8c1d7966e1f1c5d54575a2ac6d9da556a3b422692fcf4fae75ae80bf293b8009"
+      "path": "references/figures/figure_7_2.png",
+      "sha256": "6c1a2b8074fd7bdf6c982bc3d4ad2db0599dc15e0f874154b29e3da2bf89d389"
     },
     "book_period_reconstruction": {
       "path": "figures/7-2/plots/book_period/figure_7_2_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "aed475a214df7d008b0e45f94cbb68faefbe7c275d815720eb694c389639fa86"
     },
     "book_period_comparison": {
-      "path": "figures/7-2/plots/comparisons/figure_7_2_book_period_comparison.png",
-      "sha256": "7e72241a27697850e112de3bfca4fe994556cb1b58d978773ffa064d6f0931fc"
+      "path": "figures/7-2/plots/comparisons/figure_7_2_book_period_review.png",
+      "sha256": "71064d5562fef5f784a2d2b03ee11c2c85ac545e230640662bea421f27d05f14"
     },
     "extended_comparison": {
-      "path": "figures/7-2/plots/comparisons/figure_7_2_extended_comparison.png",
-      "sha256": "e094a29e43755d10be6f7d35259209556c68bf7beaa47049781e10cfc344c308"
+      "path": "figures/7-2/plots/comparisons/figure_7_2_extended_review.png",
+      "sha256": "0a4452ae42366eeb382fdaacdedcbab397ba91fb7fb69c7942e967fbe928197c"
     },
     "caption": {
       "path": "figures/7-2/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "Not recovered in Track A time-box.",
     "download_date": "2026-06-30",
     "confidence_score": 0.55
+  },
+  "reference": {
+    "figure_id": "7-2",
+    "registry_title": "Childhood stunting, 1966-2014",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 5,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      223,
+      1340,
+      1415,
+      2197
+    ],
+    "crop_bounds_pdf_points": [
+      61.851,
+      371.85,
+      392.462,
+      609.668
+    ],
+    "path": "references/figures/figure_7_2.png",
+    "sha256": "6c1a2b8074fd7bdf6c982bc3d4ad2db0599dc15e0f874154b29e3da2bf89d389",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 7-2: Childhood stunting, 1966-2014",
+    "source_note_ocr": "Our World in Data, Roser 2016j, based on data from the World Health Organization’s Nutrition Landscape Information System, http://www.who.int/nutrition/nlis/en/.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

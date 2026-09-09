@@ -24,34 +24,34 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_plotted",
+    "notes": "No methodologically identical post-2015 extension recovered in historical pass."
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/12-9/plots/comparisons/kindle_reference_figure_12_9.png",
-      "sha256": "fc66467d2a63e7f63eff300a75ebeba2298d2a156df8f49a9490b815588a7ebd"
+      "path": "references/figures/figure_12_9.png",
+      "sha256": "d4f41e102fa9dd9602e6614abad5f7d70898737c58e01f7a7c8bcc1e6bddda8b"
     },
     "book_period_reconstruction": {
       "path": "figures/12-9/plots/book_period/figure_12_9_book_period_reconstruction.png",
       "sha256": "8d117e7693f1077285d29113ddfbf8d21e438fb287782db776d65d936b7571fe"
     },
     "extended_reconstruction": {
-      "path": "figures/12-9/plots/extended/figure_12_9_extended_reconstruction.png",
-      "sha256": "d6b71c1cee7e4fd5b0feeeb21fcd34ec571ed2dfa6e77de18ac805451514bea1"
+      "path": "figures/12-9/plots/book_period/figure_12_9_book_period_reconstruction.png",
+      "sha256": "8d117e7693f1077285d29113ddfbf8d21e438fb287782db776d65d936b7571fe"
     },
     "book_period_comparison": {
-      "path": "figures/12-9/plots/comparisons/figure_12_9_book_period_comparison.png",
-      "sha256": "196f3349e531118fce125882316576a8e446e61d669663ebec830caf6b27ef5b"
+      "path": "figures/12-9/plots/comparisons/figure_12_9_book_period_review.png",
+      "sha256": "6fef9f5041ca4801d778a613f0aaf8f3ccc8157f9a250ff5d18b554f4492a3fc"
     },
     "extended_comparison": {
-      "path": "figures/12-9/plots/comparisons/figure_12_9_extended_comparison.png",
-      "sha256": "f9a14bebea70b356b89cdf6793f8a59a304b73a517f6b23773c0b6f3c3e5dd07"
+      "path": "figures/12-9/plots/comparisons/figure_12_9_extended_review.png",
+      "sha256": "b913c4393f1fc31903deece18b0d2818fb87423e64a5bd0c7864bcbcffc9f6a9"
     },
     "caption": {
       "path": "figures/12-9/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "12-9",
+    "registry_title": "Lightning strike deaths, US, 1900-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 22,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      142,
+      198,
+      1384,
+      1095
+    ],
+    "crop_bounds_pdf_points": [
+      39.385,
+      54.945,
+      383.864,
+      303.863
+    ],
+    "path": "references/figures/figure_12_9.png",
+    "sha256": "d4f41e102fa9dd9602e6614abad5f7d70898737c58e01f7a7c8bcc1e6bddda8b",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 12-9: Lightning strike deaths, US, 1900-2015",
+    "source_note_ocr": "Our World in Data, Roser 2016q, based on data from National Oceanic and Atmospheric Admin- istration, http://www. lightningsafety.noaa.gov/victims.shtml, and Lopez & Holle 1998.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

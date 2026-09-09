@@ -23,3 +23,12 @@
 - **Documented extension constraint:** the current OWID series is not appended
   because it uses revised UN/WHO inputs and major processing. Only 2014-2015
   from the same recovered OWID 522 table are shown as dashed continuation.
+# 2026-09-09 Current Disposition
+
+Actual PDF comparison exposed missing Sweden 1751-1799 and circular facsimile
+validation. The original GD010 table supplies all 49 missing years; numerical
+count/overlap checks passed. Updated labels, gray ordering and rotated years
+were visually inspected in both comparison pages. Remaining differences are
+font/geometry, a short extension, and historical source-version uncertainty.
+See the current anomaly review and figure.json. Historical entries below are
+retained as an audit trail, not present acceptance.

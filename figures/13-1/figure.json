@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/13-1/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_13_1.png",
+      "sha256": "3446642ef2985daeeda187a0aaa881f635892d6ed8e718bb16f01d6f5ca55853"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "13-1",
+    "registry_title": "Terrorism deaths, 1970-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 22,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      133,
+      1153,
+      1373,
+      2207
+    ],
+    "crop_bounds_pdf_points": [
+      36.889,
+      319.957,
+      380.813,
+      612.442
+    ],
+    "path": "references/figures/figure_13_1.png",
+    "sha256": "3446642ef2985daeeda187a0aaa881f635892d6ed8e718bb16f01d6f5ca55853",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 13-1: Terrorism deaths, 1970-2015",
+    "source_note_ocr": "“Global Terrorism Database,” National Consortium for the Study of Terrorism and Responses to Terrorism 2016, https://www.start.umd.edu/gtd/. The rate for the world excludes deaths in Afghan- istan after 2001, Iraq after 2003, Pakistan after 2004, Nigeria after 2009, Syria after 2011, and Libya after 2014. Population estimates for the world and Western Europe are from the European Unions 2015 Revi- sion of World Population Prospects (https://esa.un.org/unpd/wpp/); estimates for the United States are from US Census Bureau 2017. The vertical arrow points to 2007, the last year plotted in figs. 6-9, 6-10, and 6-11 in Pinker 2011",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

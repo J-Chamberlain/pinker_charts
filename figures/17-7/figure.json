@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/17-7/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_17_7.png",
+      "sha256": "0bac56a0244090d7dd56c2ab13b3b4d4fcfb89d3a39aa275c711e65f316b3916"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "17-7",
+    "registry_title": "Cost of air travel, US, 1979-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 36,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      132,
+      223,
+      1384,
+      1151
+    ],
+    "crop_bounds_pdf_points": [
+      36.611,
+      61.883,
+      383.864,
+      319.402
+    ],
+    "path": "references/figures/figure_17_7.png",
+    "sha256": "0bac56a0244090d7dd56c2ab13b3b4d4fcfb89d3a39aa275c711e65f316b3916",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 17-7: Cost of air travel, US, 1979-2015",
+    "source_note_ocr": "Thompson 2013, updated with data from Airlines for America, http://airlines.org/dataset/annual -round-trip-fares-and-fees-domestic/. Domestic travel, excluding checked baggage fees (which would raise the average cost for baggage-checking passengers by about a half-cent per mile since 2008).",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

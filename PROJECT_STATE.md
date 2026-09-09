@@ -25,6 +25,10 @@ A completed source search or accepted worker run is not a completed reconstructi
 - [Workflow](docs/workflow.md), [research review](docs/review_protocol.md), [editorial gate](docs/editorial_review_gate.md)
 - [Canonical artifact index](data/canonical_artifacts.json)
 
+- [Original reference index](references/figure_index.json)
+- [Consolidated visual audit gallery](reports/review_baseline/index.html)
+- [Current review PDF](output/pdf/recreated_figures_review_scroll.pdf) and [manifest](output/pdf/recreated_figures_review_scroll.manifest.json)
+
 Every future figure run must inspect and display actual book-period and extended
 comparisons where available. Record exact inspected hashes and unresolved issues.
 Do not digitize plotted values for reconstruction or promote weak source matches.
@@ -129,7 +133,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 
 Status: `source_unavailable`. Artifact kind: `source_recovery`.
 
-- Original reference: [figures/4-1/plots/comparisons/supplemental_pdf_reference_figure_4_1.png](figures/4-1/plots/comparisons/supplemental_pdf_reference_figure_4_1.png)
+- Original reference: [references/figures/figure_4_1.png](references/figures/figure_4_1.png)
 - Caption: [figures/4-1/captions/caption.txt](figures/4-1/captions/caption.txt)
 - Provenance: [figures/4-1/provenance/provenance.md](figures/4-1/provenance/provenance.md)
 - Anomaly review: [figures/4-1/anomaly_reviews/anomaly_review.md](figures/4-1/anomaly_reviews/anomaly_review.md)
@@ -144,11 +148,11 @@ Status: `source_unavailable`. Artifact kind: `source_recovery`.
 
 Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/5-1/plots/comparisons/kindle_reference_figure_5_1.png](figures/5-1/plots/comparisons/kindle_reference_figure_5_1.png)
+- Original reference: [references/figures/figure_5_1.png](references/figures/figure_5_1.png)
 - Book period reconstruction: [figures/5-1/plots/book_period/figure_5_1_book_period_reconstruction.png](figures/5-1/plots/book_period/figure_5_1_book_period_reconstruction.png)
-- Extended reconstruction: [figures/5-1/plots/extended/figure_5_1_extended_reconstruction.png](figures/5-1/plots/extended/figure_5_1_extended_reconstruction.png)
-- Book period comparison: [figures/5-1/plots/comparisons/figure_5_1_book_period_comparison.png](figures/5-1/plots/comparisons/figure_5_1_book_period_comparison.png)
-- Extended comparison: [figures/5-1/plots/comparisons/figure_5_1_extended_comparison.png](figures/5-1/plots/comparisons/figure_5_1_extended_comparison.png)
+- Extended reconstruction: [figures/5-1/plots/book_period/figure_5_1_book_period_reconstruction.png](figures/5-1/plots/book_period/figure_5_1_book_period_reconstruction.png)
+- Book period comparison: [figures/5-1/plots/comparisons/figure_5_1_book_period_review.png](figures/5-1/plots/comparisons/figure_5_1_book_period_review.png)
+- Extended comparison: [figures/5-1/plots/comparisons/figure_5_1_extended_review.png](figures/5-1/plots/comparisons/figure_5_1_extended_review.png)
 - Caption: [figures/5-1/captions/caption.txt](figures/5-1/captions/caption.txt)
 - Provenance: [figures/5-1/provenance/provenance.md](figures/5-1/provenance/provenance.md)
 - Anomaly review: [figures/5-1/anomaly_reviews/anomaly_review.md](figures/5-1/anomaly_reviews/anomaly_review.md)
@@ -163,11 +167,11 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
 Status: `partial_match`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/5-2/plots/comparisons/kindle_reference_figure_5_2.png](figures/5-2/plots/comparisons/kindle_reference_figure_5_2.png)
+- Original reference: [references/figures/figure_5_2.png](references/figures/figure_5_2.png)
 - Book period reconstruction: [figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png](figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png)
-- Extended reconstruction: [figures/5-2/plots/extended/figure_5_2_extended_reconstruction.png](figures/5-2/plots/extended/figure_5_2_extended_reconstruction.png)
-- Book period comparison: [figures/5-2/plots/comparisons/figure_5_2_book_period_comparison.png](figures/5-2/plots/comparisons/figure_5_2_book_period_comparison.png)
-- Extended comparison: [figures/5-2/plots/comparisons/figure_5_2_extended_comparison.png](figures/5-2/plots/comparisons/figure_5_2_extended_comparison.png)
+- Extended reconstruction: [figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png](figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png)
+- Book period comparison: [figures/5-2/plots/comparisons/figure_5_2_book_period_review.png](figures/5-2/plots/comparisons/figure_5_2_book_period_review.png)
+- Extended comparison: [figures/5-2/plots/comparisons/figure_5_2_extended_review.png](figures/5-2/plots/comparisons/figure_5_2_extended_review.png)
 - Caption: [figures/5-2/captions/caption.txt](figures/5-2/captions/caption.txt)
 - Provenance: [figures/5-2/provenance/provenance.md](figures/5-2/provenance/provenance.md)
 - Anomaly review: [figures/5-2/anomaly_reviews/anomaly_review.md](figures/5-2/anomaly_reviews/anomaly_review.md)
@@ -182,11 +186,11 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 
 Status: `partial_match`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/5-3/plots/comparisons/kindle_reference_figure_5_3.png](figures/5-3/plots/comparisons/kindle_reference_figure_5_3.png)
+- Original reference: [references/figures/figure_5_3.png](references/figures/figure_5_3.png)
 - Book period reconstruction: [figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png](figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png)
 - Extended reconstruction: [figures/5-3/plots/extended/figure_5_3_same_source_continuation.png](figures/5-3/plots/extended/figure_5_3_same_source_continuation.png)
-- Book period comparison: [figures/5-3/plots/comparisons/figure_5_3_book_period_comparison.png](figures/5-3/plots/comparisons/figure_5_3_book_period_comparison.png)
-- Extended comparison: [figures/5-3/plots/comparisons/figure_5_3_extended_comparison.png](figures/5-3/plots/comparisons/figure_5_3_extended_comparison.png)
+- Book period comparison: [figures/5-3/plots/comparisons/figure_5_3_book_period_review.png](figures/5-3/plots/comparisons/figure_5_3_book_period_review.png)
+- Extended comparison: [figures/5-3/plots/comparisons/figure_5_3_extended_review.png](figures/5-3/plots/comparisons/figure_5_3_extended_review.png)
 - Caption: [figures/5-3/captions/caption.txt](figures/5-3/captions/caption.txt)
 - Provenance: [figures/5-3/provenance/provenance.md](figures/5-3/provenance/provenance.md)
 - Anomaly review: [figures/5-3/anomaly_reviews/anomaly_review.md](figures/5-3/anomaly_reviews/anomaly_review.md)
@@ -196,12 +200,19 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Discrepancy log: [figures/5-3/discrepancy_logs/discrepancy_log.md](figures/5-3/discrepancy_logs/discrepancy_log.md)
 - Legacy metadata: [figures/5-3/metadata/metadata.json](figures/5-3/metadata/metadata.json)
 - Metadata: [figures/5-3/figure.json](figures/5-3/figure.json)
+- Source validation: [figures/5-3/provenance/early_sweden_validation.json](figures/5-3/provenance/early_sweden_validation.json)
+- Reconstruction script: [scripts/reconstruct_5_3.py](scripts/reconstruct_5_3.py)
+- Book period clean: [figures/5-3/data/clean/figure_5_3_book_period_clean.csv](figures/5-3/data/clean/figure_5_3_book_period_clean.csv)
+- Extended clean: [figures/5-3/data/clean/figure_5_3_same_source_continuation_clean.csv](figures/5-3/data/clean/figure_5_3_same_source_continuation_clean.csv)
+- Original source table: [figures/5-3/data/raw/gapminder_gd010_gapdata010.xls](figures/5-3/data/raw/gapminder_gd010_gapdata010.xls)
+- Preserved source table: [figures/5-3/data/raw/owid_522_maternal_mortality.tab](figures/5-3/data/raw/owid_522_maternal_mortality.tab)
+- Lineage: [figures/5-3/lineage/consolidated_lineage.json](figures/5-3/lineage/consolidated_lineage.json)
 
 ### Figure 5-4 - Life expectancy, UK, 1701-2013
 
 Status: `partial_match`. Artifact kind: `source_recovery`.
 
-- Original reference: [figures/5-4/plots/comparisons/supplemental_pdf_reference_figure_5_4.png](figures/5-4/plots/comparisons/supplemental_pdf_reference_figure_5_4.png)
+- Original reference: [references/figures/figure_5_4.png](references/figures/figure_5_4.png)
 - Caption: [figures/5-4/captions/caption.txt](figures/5-4/captions/caption.txt)
 - Provenance: [figures/5-4/provenance/provenance.md](figures/5-4/provenance/provenance.md)
 - Anomaly review: [figures/5-4/anomaly_reviews/anomaly_review.md](figures/5-4/anomaly_reviews/anomaly_review.md)
@@ -216,7 +227,7 @@ Status: `partial_match`. Artifact kind: `source_recovery`.
 
 Status: `blocked_external_source`. Artifact kind: `source_recovery`.
 
-- Original reference: [figures/6-1/plots/comparisons/kindle_reference_figure_6_1.png](figures/6-1/plots/comparisons/kindle_reference_figure_6_1.png)
+- Original reference: [references/figures/figure_6_1.png](references/figures/figure_6_1.png)
 - Caption: [figures/6-1/captions/caption.txt](figures/6-1/captions/caption.txt)
 - Provenance: [figures/6-1/provenance/provenance.md](figures/6-1/provenance/provenance.md)
 - Anomaly review: [figures/6-1/anomaly_reviews/anomaly_review.md](figures/6-1/anomaly_reviews/anomaly_review.md)
@@ -231,11 +242,11 @@ Status: `blocked_external_source`. Artifact kind: `source_recovery`.
 
 Status: `partial_match`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/7-1/plots/comparisons/kindle_reference_figure_7_1.png](figures/7-1/plots/comparisons/kindle_reference_figure_7_1.png)
+- Original reference: [references/figures/figure_7_1.png](references/figures/figure_7_1.png)
 - Book period reconstruction: [figures/7-1/plots/book_period/figure_7_1_book_period_reconstruction.png](figures/7-1/plots/book_period/figure_7_1_book_period_reconstruction.png)
 - Extended reconstruction: [figures/7-1/plots/extended/figure_7_1_extended_reconstruction.png](figures/7-1/plots/extended/figure_7_1_extended_reconstruction.png)
-- Book period comparison: [figures/7-1/plots/comparisons/figure_7_1_book_period_comparison.png](figures/7-1/plots/comparisons/figure_7_1_book_period_comparison.png)
-- Extended comparison: [figures/7-1/plots/comparisons/figure_7_1_extended_comparison.png](figures/7-1/plots/comparisons/figure_7_1_extended_comparison.png)
+- Book period comparison: [figures/7-1/plots/comparisons/figure_7_1_book_period_review.png](figures/7-1/plots/comparisons/figure_7_1_book_period_review.png)
+- Extended comparison: [figures/7-1/plots/comparisons/figure_7_1_extended_review.png](figures/7-1/plots/comparisons/figure_7_1_extended_review.png)
 - Caption: [figures/7-1/captions/caption.txt](figures/7-1/captions/caption.txt)
 - Provenance: [figures/7-1/provenance/provenance.md](figures/7-1/provenance/provenance.md)
 - Anomaly review: [figures/7-1/anomaly_reviews/anomaly_review.md](figures/7-1/anomaly_reviews/anomaly_review.md)
@@ -250,11 +261,11 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 
 Status: `partial_match`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/7-2/plots/comparisons/kindle_reference_figure_7_2.png](figures/7-2/plots/comparisons/kindle_reference_figure_7_2.png)
+- Original reference: [references/figures/figure_7_2.png](references/figures/figure_7_2.png)
 - Book period reconstruction: [figures/7-2/plots/book_period/figure_7_2_book_period_reconstruction.png](figures/7-2/plots/book_period/figure_7_2_book_period_reconstruction.png)
 - Extended reconstruction: [figures/7-2/plots/extended/figure_7_2_extended_reconstruction.png](figures/7-2/plots/extended/figure_7_2_extended_reconstruction.png)
-- Book period comparison: [figures/7-2/plots/comparisons/figure_7_2_book_period_comparison.png](figures/7-2/plots/comparisons/figure_7_2_book_period_comparison.png)
-- Extended comparison: [figures/7-2/plots/comparisons/figure_7_2_extended_comparison.png](figures/7-2/plots/comparisons/figure_7_2_extended_comparison.png)
+- Book period comparison: [figures/7-2/plots/comparisons/figure_7_2_book_period_review.png](figures/7-2/plots/comparisons/figure_7_2_book_period_review.png)
+- Extended comparison: [figures/7-2/plots/comparisons/figure_7_2_extended_review.png](figures/7-2/plots/comparisons/figure_7_2_extended_review.png)
 - Caption: [figures/7-2/captions/caption.txt](figures/7-2/captions/caption.txt)
 - Provenance: [figures/7-2/provenance/provenance.md](figures/7-2/provenance/provenance.md)
 - Anomaly review: [figures/7-2/anomaly_reviews/anomaly_review.md](figures/7-2/anomaly_reviews/anomaly_review.md)
@@ -269,11 +280,11 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 
 Status: `partial_match`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/7-3/plots/comparisons/supplemental_pdf_reference_figure_7_3.png](figures/7-3/plots/comparisons/supplemental_pdf_reference_figure_7_3.png)
+- Original reference: [references/figures/figure_7_3.png](references/figures/figure_7_3.png)
 - Book period reconstruction: [figures/7-3/plots/book_period/figure_7_3_book_period_reconstruction.png](figures/7-3/plots/book_period/figure_7_3_book_period_reconstruction.png)
-- Extended reconstruction: [figures/7-3/plots/extended/figure_7_3_extended_reconstruction.png](figures/7-3/plots/extended/figure_7_3_extended_reconstruction.png)
-- Book period comparison: [figures/7-3/plots/comparisons/figure_7_3_book_period_comparison.png](figures/7-3/plots/comparisons/figure_7_3_book_period_comparison.png)
-- Extended comparison: [figures/7-3/plots/comparisons/figure_7_3_extended_comparison.png](figures/7-3/plots/comparisons/figure_7_3_extended_comparison.png)
+- Extended reconstruction: [figures/7-3/plots/book_period/figure_7_3_book_period_reconstruction.png](figures/7-3/plots/book_period/figure_7_3_book_period_reconstruction.png)
+- Book period comparison: [figures/7-3/plots/comparisons/figure_7_3_book_period_review.png](figures/7-3/plots/comparisons/figure_7_3_book_period_review.png)
+- Extended comparison: [figures/7-3/plots/comparisons/figure_7_3_extended_review.png](figures/7-3/plots/comparisons/figure_7_3_extended_review.png)
 - Caption: [figures/7-3/captions/caption.txt](figures/7-3/captions/caption.txt)
 - Provenance: [figures/7-3/provenance/provenance.md](figures/7-3/provenance/provenance.md)
 - Anomaly review: [figures/7-3/anomaly_reviews/anomaly_review.md](figures/7-3/anomaly_reviews/anomaly_review.md)
@@ -288,11 +299,11 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 
 Status: `partial_match`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/7-4/plots/comparisons/kindle_reference_figure_7_4.png](figures/7-4/plots/comparisons/kindle_reference_figure_7_4.png)
+- Original reference: [references/figures/figure_7_4.png](references/figures/figure_7_4.png)
 - Book period reconstruction: [figures/7-4/plots/book_period/figure_7_4_book_period_reconstruction.png](figures/7-4/plots/book_period/figure_7_4_book_period_reconstruction.png)
 - Extended reconstruction: [figures/7-4/plots/extended/figure_7_4_extended_reconstruction.png](figures/7-4/plots/extended/figure_7_4_extended_reconstruction.png)
-- Book period comparison: [figures/7-4/plots/comparisons/figure_7_4_book_period_comparison.png](figures/7-4/plots/comparisons/figure_7_4_book_period_comparison.png)
-- Extended comparison: [figures/7-4/plots/comparisons/figure_7_4_extended_comparison.png](figures/7-4/plots/comparisons/figure_7_4_extended_comparison.png)
+- Book period comparison: [figures/7-4/plots/comparisons/figure_7_4_book_period_review.png](figures/7-4/plots/comparisons/figure_7_4_book_period_review.png)
+- Extended comparison: [figures/7-4/plots/comparisons/figure_7_4_extended_review.png](figures/7-4/plots/comparisons/figure_7_4_extended_review.png)
 - Caption: [figures/7-4/captions/caption.txt](figures/7-4/captions/caption.txt)
 - Provenance: [figures/7-4/provenance/provenance.md](figures/7-4/provenance/provenance.md)
 - Anomaly review: [figures/7-4/anomaly_reviews/anomaly_review.md](figures/7-4/anomaly_reviews/anomaly_review.md)
@@ -307,11 +318,11 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 
 Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/8-1/plots/comparisons/kindle_reference_figure_8_1.png](figures/8-1/plots/comparisons/kindle_reference_figure_8_1.png)
+- Original reference: [references/figures/figure_8_1.png](references/figures/figure_8_1.png)
 - Book period reconstruction: [figures/8-1/plots/book_period/figure_8_1_book_period_reconstruction.png](figures/8-1/plots/book_period/figure_8_1_book_period_reconstruction.png)
 - Extended reconstruction: [figures/8-1/plots/extended/figure_8_1_extended_reconstruction.png](figures/8-1/plots/extended/figure_8_1_extended_reconstruction.png)
-- Book period comparison: [figures/8-1/plots/comparisons/figure_8_1_book_period_comparison.png](figures/8-1/plots/comparisons/figure_8_1_book_period_comparison.png)
-- Extended comparison: [figures/8-1/plots/comparisons/figure_8_1_extended_comparison.png](figures/8-1/plots/comparisons/figure_8_1_extended_comparison.png)
+- Book period comparison: [figures/8-1/plots/comparisons/figure_8_1_book_period_review.png](figures/8-1/plots/comparisons/figure_8_1_book_period_review.png)
+- Extended comparison: [figures/8-1/plots/comparisons/figure_8_1_extended_review.png](figures/8-1/plots/comparisons/figure_8_1_extended_review.png)
 - Caption: [figures/8-1/captions/caption.txt](figures/8-1/captions/caption.txt)
 - Provenance: [figures/8-1/provenance/provenance.md](figures/8-1/provenance/provenance.md)
 - Anomaly review: [figures/8-1/anomaly_reviews/anomaly_review.md](figures/8-1/anomaly_reviews/anomaly_review.md)
@@ -326,11 +337,11 @@ Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
 Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/8-2/plots/comparisons/kindle_reference_figure_8_2.png](figures/8-2/plots/comparisons/kindle_reference_figure_8_2.png)
+- Original reference: [references/figures/figure_8_2.png](references/figures/figure_8_2.png)
 - Book period reconstruction: [figures/8-2/plots/book_period/figure_8_2_book_period_reconstruction.png](figures/8-2/plots/book_period/figure_8_2_book_period_reconstruction.png)
 - Extended reconstruction: [figures/8-2/plots/extended/figure_8_2_extended_reconstruction.png](figures/8-2/plots/extended/figure_8_2_extended_reconstruction.png)
-- Book period comparison: [figures/8-2/plots/comparisons/figure_8_2_book_period_comparison.png](figures/8-2/plots/comparisons/figure_8_2_book_period_comparison.png)
-- Extended comparison: [figures/8-2/plots/comparisons/figure_8_2_extended_comparison.png](figures/8-2/plots/comparisons/figure_8_2_extended_comparison.png)
+- Book period comparison: [figures/8-2/plots/comparisons/figure_8_2_book_period_review.png](figures/8-2/plots/comparisons/figure_8_2_book_period_review.png)
+- Extended comparison: [figures/8-2/plots/comparisons/figure_8_2_extended_review.png](figures/8-2/plots/comparisons/figure_8_2_extended_review.png)
 - Caption: [figures/8-2/captions/caption.txt](figures/8-2/captions/caption.txt)
 - Provenance: [figures/8-2/provenance/provenance.md](figures/8-2/provenance/provenance.md)
 - Anomaly review: [figures/8-2/anomaly_reviews/anomaly_review.md](figures/8-2/anomaly_reviews/anomaly_review.md)
@@ -345,11 +356,11 @@ Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
 Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/8-3/plots/comparisons/kindle_reference_figure_8_3.png](figures/8-3/plots/comparisons/kindle_reference_figure_8_3.png)
+- Original reference: [references/figures/figure_8_3.png](references/figures/figure_8_3.png)
 - Book period reconstruction: [figures/8-3/plots/book_period/figure_8_3_book_period_reconstruction.png](figures/8-3/plots/book_period/figure_8_3_book_period_reconstruction.png)
-- Extended reconstruction: [figures/8-3/plots/extended/figure_8_3_extended_reconstruction.png](figures/8-3/plots/extended/figure_8_3_extended_reconstruction.png)
-- Book period comparison: [figures/8-3/plots/comparisons/figure_8_3_book_period_comparison.png](figures/8-3/plots/comparisons/figure_8_3_book_period_comparison.png)
-- Extended comparison: [figures/8-3/plots/comparisons/figure_8_3_extended_comparison.png](figures/8-3/plots/comparisons/figure_8_3_extended_comparison.png)
+- Extended reconstruction: [figures/8-3/plots/book_period/figure_8_3_book_period_reconstruction.png](figures/8-3/plots/book_period/figure_8_3_book_period_reconstruction.png)
+- Book period comparison: [figures/8-3/plots/comparisons/figure_8_3_book_period_review.png](figures/8-3/plots/comparisons/figure_8_3_book_period_review.png)
+- Extended comparison: [figures/8-3/plots/comparisons/figure_8_3_extended_review.png](figures/8-3/plots/comparisons/figure_8_3_extended_review.png)
 - Caption: [figures/8-3/captions/caption.txt](figures/8-3/captions/caption.txt)
 - Provenance: [figures/8-3/provenance/provenance.md](figures/8-3/provenance/provenance.md)
 - Anomaly review: [figures/8-3/anomaly_reviews/anomaly_review.md](figures/8-3/anomaly_reviews/anomaly_review.md)
@@ -364,11 +375,11 @@ Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
 Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/8-4/plots/comparisons/kindle_reference_figure_8_4.png](figures/8-4/plots/comparisons/kindle_reference_figure_8_4.png)
+- Original reference: [references/figures/figure_8_4.png](references/figures/figure_8_4.png)
 - Book period reconstruction: [figures/8-4/plots/book_period/figure_8_4_book_period_reconstruction.png](figures/8-4/plots/book_period/figure_8_4_book_period_reconstruction.png)
-- Extended reconstruction: [figures/8-4/plots/extended/figure_8_4_extended_reconstruction.png](figures/8-4/plots/extended/figure_8_4_extended_reconstruction.png)
-- Book period comparison: [figures/8-4/plots/comparisons/figure_8_4_book_period_comparison.png](figures/8-4/plots/comparisons/figure_8_4_book_period_comparison.png)
-- Extended comparison: [figures/8-4/plots/comparisons/figure_8_4_extended_comparison.png](figures/8-4/plots/comparisons/figure_8_4_extended_comparison.png)
+- Extended reconstruction: [figures/8-4/plots/book_period/figure_8_4_book_period_reconstruction.png](figures/8-4/plots/book_period/figure_8_4_book_period_reconstruction.png)
+- Book period comparison: [figures/8-4/plots/comparisons/figure_8_4_book_period_review.png](figures/8-4/plots/comparisons/figure_8_4_book_period_review.png)
+- Extended comparison: [figures/8-4/plots/comparisons/figure_8_4_extended_review.png](figures/8-4/plots/comparisons/figure_8_4_extended_review.png)
 - Caption: [figures/8-4/captions/caption.txt](figures/8-4/captions/caption.txt)
 - Provenance: [figures/8-4/provenance/provenance.md](figures/8-4/provenance/provenance.md)
 - Anomaly review: [figures/8-4/anomaly_reviews/anomaly_review.md](figures/8-4/anomaly_reviews/anomaly_review.md)
@@ -383,11 +394,11 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
 Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/8-5/plots/comparisons/kindle_reference_figure_8_5.png](figures/8-5/plots/comparisons/kindle_reference_figure_8_5.png)
+- Original reference: [references/figures/figure_8_5.png](references/figures/figure_8_5.png)
 - Book period reconstruction: [figures/8-5/plots/book_period/figure_8_5_book_period_reconstruction.png](figures/8-5/plots/book_period/figure_8_5_book_period_reconstruction.png)
-- Extended reconstruction: [figures/8-5/plots/extended/figure_8_5_extended_reconstruction.png](figures/8-5/plots/extended/figure_8_5_extended_reconstruction.png)
-- Book period comparison: [figures/8-5/plots/comparisons/figure_8_5_book_period_comparison.png](figures/8-5/plots/comparisons/figure_8_5_book_period_comparison.png)
-- Extended comparison: [figures/8-5/plots/comparisons/figure_8_5_extended_comparison.png](figures/8-5/plots/comparisons/figure_8_5_extended_comparison.png)
+- Extended reconstruction: [figures/8-5/plots/book_period/figure_8_5_book_period_reconstruction.png](figures/8-5/plots/book_period/figure_8_5_book_period_reconstruction.png)
+- Book period comparison: [figures/8-5/plots/comparisons/figure_8_5_book_period_review.png](figures/8-5/plots/comparisons/figure_8_5_book_period_review.png)
+- Extended comparison: [figures/8-5/plots/comparisons/figure_8_5_extended_review.png](figures/8-5/plots/comparisons/figure_8_5_extended_review.png)
 - Caption: [figures/8-5/captions/caption.txt](figures/8-5/captions/caption.txt)
 - Provenance: [figures/8-5/provenance/provenance.md](figures/8-5/provenance/provenance.md)
 - Anomaly review: [figures/8-5/anomaly_reviews/anomaly_review.md](figures/8-5/anomaly_reviews/anomaly_review.md)
@@ -402,7 +413,7 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
 Status: `manual_review_needed`. Artifact kind: `source_recovery`.
 
-- Original reference: [figures/9-1/plots/comparisons/supplemental_pdf_reference_figure_9_1.png](figures/9-1/plots/comparisons/supplemental_pdf_reference_figure_9_1.png)
+- Original reference: [references/figures/figure_9_1.png](references/figures/figure_9_1.png)
 - Caption: [figures/9-1/captions/caption.txt](figures/9-1/captions/caption.txt)
 - Provenance: [figures/9-1/provenance/provenance.md](figures/9-1/provenance/provenance.md)
 - Anomaly review: [figures/9-1/anomaly_reviews/anomaly_review.md](figures/9-1/anomaly_reviews/anomaly_review.md)
@@ -417,7 +428,7 @@ Status: `manual_review_needed`. Artifact kind: `source_recovery`.
 
 Status: `manual_review_needed`. Artifact kind: `source_recovery`.
 
-- Original reference: [figures/9-2/plots/comparisons/supplemental_pdf_page_10_figure_9_2.png](figures/9-2/plots/comparisons/supplemental_pdf_page_10_figure_9_2.png)
+- Original reference: [references/figures/figure_9_2.png](references/figures/figure_9_2.png)
 - Caption: [figures/9-2/captions/caption.txt](figures/9-2/captions/caption.txt)
 - Provenance: [figures/9-2/provenance/provenance.md](figures/9-2/provenance/provenance.md)
 - Anomaly review: [figures/9-2/anomaly_reviews/anomaly_review.md](figures/9-2/anomaly_reviews/anomaly_review.md)
@@ -432,7 +443,7 @@ Status: `manual_review_needed`. Artifact kind: `source_recovery`.
 
 Status: `manual_review_needed`. Artifact kind: `source_recovery`.
 
-- Original reference: [figures/9-3/plots/comparisons/supplemental_pdf_reference_figure_9_3.png](figures/9-3/plots/comparisons/supplemental_pdf_reference_figure_9_3.png)
+- Original reference: [references/figures/figure_9_3.png](references/figures/figure_9_3.png)
 - Caption: [figures/9-3/captions/caption.txt](figures/9-3/captions/caption.txt)
 - Provenance: [figures/9-3/provenance/provenance.md](figures/9-3/provenance/provenance.md)
 - Anomaly review: [figures/9-3/anomaly_reviews/anomaly_review.md](figures/9-3/anomaly_reviews/anomaly_review.md)
@@ -447,11 +458,11 @@ Status: `manual_review_needed`. Artifact kind: `source_recovery`.
 
 Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/9-4/plots/comparisons/kindle_reference_figure_9_4.png](figures/9-4/plots/comparisons/kindle_reference_figure_9_4.png)
+- Original reference: [references/figures/figure_9_4.png](references/figures/figure_9_4.png)
 - Book period reconstruction: [figures/9-4/plots/book_period/figure_9_4_book_period_reconstruction.png](figures/9-4/plots/book_period/figure_9_4_book_period_reconstruction.png)
 - Extended reconstruction: [figures/9-4/plots/extended/figure_9_4_extended_reconstruction.png](figures/9-4/plots/extended/figure_9_4_extended_reconstruction.png)
-- Book period comparison: [figures/9-4/plots/comparisons/figure_9_4_book_period_comparison.png](figures/9-4/plots/comparisons/figure_9_4_book_period_comparison.png)
-- Extended comparison: [figures/9-4/plots/comparisons/figure_9_4_extended_comparison.png](figures/9-4/plots/comparisons/figure_9_4_extended_comparison.png)
+- Book period comparison: [figures/9-4/plots/comparisons/figure_9_4_book_period_review.png](figures/9-4/plots/comparisons/figure_9_4_book_period_review.png)
+- Extended comparison: [figures/9-4/plots/comparisons/figure_9_4_extended_review.png](figures/9-4/plots/comparisons/figure_9_4_extended_review.png)
 - Caption: [figures/9-4/captions/caption.txt](figures/9-4/captions/caption.txt)
 - Provenance: [figures/9-4/provenance/provenance.md](figures/9-4/provenance/provenance.md)
 - Anomaly review: [figures/9-4/anomaly_reviews/anomaly_review.md](figures/9-4/anomaly_reviews/anomaly_review.md)
@@ -466,11 +477,11 @@ Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
 Status: `partial_match`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/9-5/plots/comparisons/supplemental_pdf_reference_figure_9_5.png](figures/9-5/plots/comparisons/supplemental_pdf_reference_figure_9_5.png)
+- Original reference: [references/figures/figure_9_5.png](references/figures/figure_9_5.png)
 - Book period reconstruction: [figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png](figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png)
-- Extended reconstruction: [figures/9-5/plots/extended/figure_9_5_extended_reconstruction.png](figures/9-5/plots/extended/figure_9_5_extended_reconstruction.png)
-- Book period comparison: [figures/9-5/plots/comparisons/figure_9_5_book_period_comparison.png](figures/9-5/plots/comparisons/figure_9_5_book_period_comparison.png)
-- Extended comparison: [figures/9-5/plots/comparisons/figure_9_5_extended_comparison.png](figures/9-5/plots/comparisons/figure_9_5_extended_comparison.png)
+- Extended reconstruction: [figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png](figures/9-5/plots/book_period/figure_9_5_book_period_reconstruction.png)
+- Book period comparison: [figures/9-5/plots/comparisons/figure_9_5_book_period_review.png](figures/9-5/plots/comparisons/figure_9_5_book_period_review.png)
+- Extended comparison: [figures/9-5/plots/comparisons/figure_9_5_extended_review.png](figures/9-5/plots/comparisons/figure_9_5_extended_review.png)
 - Caption: [figures/9-5/captions/caption.txt](figures/9-5/captions/caption.txt)
 - Provenance: [figures/9-5/provenance/provenance.md](figures/9-5/provenance/provenance.md)
 - Anomaly review: [figures/9-5/anomaly_reviews/anomaly_review.md](figures/9-5/anomaly_reviews/anomaly_review.md)
@@ -485,11 +496,11 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 
 Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/9-6/plots/comparisons/pdf_reference_figure_9_6.png](figures/9-6/plots/comparisons/pdf_reference_figure_9_6.png)
+- Original reference: [references/figures/figure_9_6.png](references/figures/figure_9_6.png)
 - Book period reconstruction: [figures/9-6/plots/book_period/figure_9_6_book_period_reconstruction.png](figures/9-6/plots/book_period/figure_9_6_book_period_reconstruction.png)
 - Extended reconstruction: [figures/9-6/plots/extended/figure_9_6_extended_reconstruction.png](figures/9-6/plots/extended/figure_9_6_extended_reconstruction.png)
-- Book period comparison: [figures/9-6/plots/comparisons/figure_9_6_book_period_comparison.png](figures/9-6/plots/comparisons/figure_9_6_book_period_comparison.png)
-- Extended comparison: [figures/9-6/plots/comparisons/figure_9_6_extended_comparison.png](figures/9-6/plots/comparisons/figure_9_6_extended_comparison.png)
+- Book period comparison: [figures/9-6/plots/comparisons/figure_9_6_book_period_review.png](figures/9-6/plots/comparisons/figure_9_6_book_period_review.png)
+- Extended comparison: [figures/9-6/plots/comparisons/figure_9_6_extended_review.png](figures/9-6/plots/comparisons/figure_9_6_extended_review.png)
 - Caption: [figures/9-6/captions/caption.txt](figures/9-6/captions/caption.txt)
 - Provenance: [figures/9-6/provenance/provenance.md](figures/9-6/provenance/provenance.md)
 - Anomaly review: [figures/9-6/anomaly_reviews/anomaly_review.md](figures/9-6/anomaly_reviews/anomaly_review.md)
@@ -504,11 +515,11 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
 Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/10-1/plots/comparisons/pdf_reference_figure_10_1.png](figures/10-1/plots/comparisons/pdf_reference_figure_10_1.png)
+- Original reference: [references/figures/figure_10_1.png](references/figures/figure_10_1.png)
 - Book period reconstruction: [figures/10-1/plots/book_period/figure_10_1_book_period_reconstruction.png](figures/10-1/plots/book_period/figure_10_1_book_period_reconstruction.png)
 - Extended reconstruction: [figures/10-1/plots/extended/figure_10_1_extended_reconstruction.png](figures/10-1/plots/extended/figure_10_1_extended_reconstruction.png)
-- Book period comparison: [figures/10-1/plots/comparisons/figure_10_1_book_period_comparison.png](figures/10-1/plots/comparisons/figure_10_1_book_period_comparison.png)
-- Extended comparison: [figures/10-1/plots/comparisons/figure_10_1_extended_comparison.png](figures/10-1/plots/comparisons/figure_10_1_extended_comparison.png)
+- Book period comparison: [figures/10-1/plots/comparisons/figure_10_1_book_period_review.png](figures/10-1/plots/comparisons/figure_10_1_book_period_review.png)
+- Extended comparison: [figures/10-1/plots/comparisons/figure_10_1_extended_review.png](figures/10-1/plots/comparisons/figure_10_1_extended_review.png)
 - Caption: [figures/10-1/captions/caption.txt](figures/10-1/captions/caption.txt)
 - Provenance: [figures/10-1/provenance/provenance.md](figures/10-1/provenance/provenance.md)
 - Anomaly review: [figures/10-1/anomaly_reviews/anomaly_review.md](figures/10-1/anomaly_reviews/anomaly_review.md)
@@ -523,11 +534,11 @@ Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
 Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/10-2/plots/comparisons/pdf_reference_figure_10_2.png](figures/10-2/plots/comparisons/pdf_reference_figure_10_2.png)
+- Original reference: [references/figures/figure_10_2.png](references/figures/figure_10_2.png)
 - Book period reconstruction: [figures/10-2/plots/book_period/figure_10_2_book_period_reconstruction.png](figures/10-2/plots/book_period/figure_10_2_book_period_reconstruction.png)
 - Extended reconstruction: [figures/10-2/plots/extended/figure_10_2_extended_reconstruction.png](figures/10-2/plots/extended/figure_10_2_extended_reconstruction.png)
-- Book period comparison: [figures/10-2/plots/comparisons/figure_10_2_book_period_comparison.png](figures/10-2/plots/comparisons/figure_10_2_book_period_comparison.png)
-- Extended comparison: [figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png](figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png)
+- Book period comparison: [figures/10-2/plots/comparisons/figure_10_2_book_period_review.png](figures/10-2/plots/comparisons/figure_10_2_book_period_review.png)
+- Extended comparison: [figures/10-2/plots/comparisons/figure_10_2_extended_review.png](figures/10-2/plots/comparisons/figure_10_2_extended_review.png)
 - Caption: [figures/10-2/captions/caption.txt](figures/10-2/captions/caption.txt)
 - Provenance: [figures/10-2/provenance/provenance.md](figures/10-2/provenance/provenance.md)
 - Anomaly review: [figures/10-2/anomaly_reviews/anomaly_review.md](figures/10-2/anomaly_reviews/anomaly_review.md)
@@ -542,11 +553,11 @@ Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
 Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/10-3/plots/comparisons/pdf_reference_figure_10_3.png](figures/10-3/plots/comparisons/pdf_reference_figure_10_3.png)
+- Original reference: [references/figures/figure_10_3.png](references/figures/figure_10_3.png)
 - Book period reconstruction: [figures/10-3/plots/book_period/figure_10_3_book_period_reconstruction.png](figures/10-3/plots/book_period/figure_10_3_book_period_reconstruction.png)
 - Extended reconstruction: [figures/10-3/plots/extended/figure_10_3_extended_reconstruction.png](figures/10-3/plots/extended/figure_10_3_extended_reconstruction.png)
-- Book period comparison: [figures/10-3/plots/comparisons/figure_10_3_book_period_comparison.png](figures/10-3/plots/comparisons/figure_10_3_book_period_comparison.png)
-- Extended comparison: [figures/10-3/plots/comparisons/figure_10_3_extended_comparison.png](figures/10-3/plots/comparisons/figure_10_3_extended_comparison.png)
+- Book period comparison: [figures/10-3/plots/comparisons/figure_10_3_book_period_review.png](figures/10-3/plots/comparisons/figure_10_3_book_period_review.png)
+- Extended comparison: [figures/10-3/plots/comparisons/figure_10_3_extended_review.png](figures/10-3/plots/comparisons/figure_10_3_extended_review.png)
 - Caption: [figures/10-3/captions/caption.txt](figures/10-3/captions/caption.txt)
 - Provenance: [figures/10-3/provenance/provenance.md](figures/10-3/provenance/provenance.md)
 - Anomaly review: [figures/10-3/anomaly_reviews/anomaly_review.md](figures/10-3/anomaly_reviews/anomaly_review.md)
@@ -561,7 +572,7 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
 Status: `manual_review_needed`. Artifact kind: `source_recovery`.
 
-- Original reference: [figures/10-4/plots/comparisons/supplemental_pdf_reference_figure_10_4.png](figures/10-4/plots/comparisons/supplemental_pdf_reference_figure_10_4.png)
+- Original reference: [references/figures/figure_10_4.png](references/figures/figure_10_4.png)
 - Caption: [figures/10-4/captions/caption.txt](figures/10-4/captions/caption.txt)
 - Provenance: [figures/10-4/provenance/provenance.md](figures/10-4/provenance/provenance.md)
 - Anomaly review: [figures/10-4/anomaly_reviews/anomaly_review.md](figures/10-4/anomaly_reviews/anomaly_review.md)
@@ -576,11 +587,11 @@ Status: `manual_review_needed`. Artifact kind: `source_recovery`.
 
 Status: `partial_match`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/10-5/plots/comparisons/corrected_figure_10_5_book_crop.png](figures/10-5/plots/comparisons/corrected_figure_10_5_book_crop.png)
+- Original reference: [references/figures/figure_10_5.png](references/figures/figure_10_5.png)
 - Book period reconstruction: [figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png](figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png)
 - Extended reconstruction: [figures/10-5/plots/extended/figure_10_5_extended_reconstruction.png](figures/10-5/plots/extended/figure_10_5_extended_reconstruction.png)
-- Book period comparison: [figures/10-5/plots/comparisons/figure_10_5_book_style_comparison_captioned.png](figures/10-5/plots/comparisons/figure_10_5_book_style_comparison_captioned.png)
-- Extended comparison: [figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png](figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png)
+- Book period comparison: [figures/10-5/plots/comparisons/figure_10_5_book_period_review.png](figures/10-5/plots/comparisons/figure_10_5_book_period_review.png)
+- Extended comparison: [figures/10-5/plots/comparisons/figure_10_5_extended_review.png](figures/10-5/plots/comparisons/figure_10_5_extended_review.png)
 - Caption: [figures/10-5/captions/caption.txt](figures/10-5/captions/caption.txt)
 - Provenance: [figures/10-5/provenance/provenance.md](figures/10-5/provenance/provenance.md)
 - Anomaly review: [figures/10-5/anomaly_reviews/anomaly_review.md](figures/10-5/anomaly_reviews/anomaly_review.md)
@@ -594,11 +605,11 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 
 Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/10-6/plots/comparisons/corrected_figure_10_6_book_crop.png](figures/10-6/plots/comparisons/corrected_figure_10_6_book_crop.png)
+- Original reference: [references/figures/figure_10_6.png](references/figures/figure_10_6.png)
 - Book period reconstruction: [figures/10-6/plots/book_period/figure_10_6_book_period_reconstruction.png](figures/10-6/plots/book_period/figure_10_6_book_period_reconstruction.png)
 - Extended reconstruction: [figures/10-6/plots/extended/figure_10_6_extended_reconstruction.png](figures/10-6/plots/extended/figure_10_6_extended_reconstruction.png)
-- Book period comparison: [figures/10-6/plots/comparisons/figure_10_6_book_style_comparison_captioned.png](figures/10-6/plots/comparisons/figure_10_6_book_style_comparison_captioned.png)
-- Extended comparison: [figures/10-6/plots/comparisons/figure_10_6_extended_comparison_captioned.png](figures/10-6/plots/comparisons/figure_10_6_extended_comparison_captioned.png)
+- Book period comparison: [figures/10-6/plots/comparisons/figure_10_6_book_period_review.png](figures/10-6/plots/comparisons/figure_10_6_book_period_review.png)
+- Extended comparison: [figures/10-6/plots/comparisons/figure_10_6_extended_review.png](figures/10-6/plots/comparisons/figure_10_6_extended_review.png)
 - Caption: [figures/10-6/captions/caption.txt](figures/10-6/captions/caption.txt)
 - Provenance: [figures/10-6/provenance/provenance.md](figures/10-6/provenance/provenance.md)
 - Anomaly review: [figures/10-6/anomaly_reviews/anomaly_review.md](figures/10-6/anomaly_reviews/anomaly_review.md)
@@ -612,11 +623,11 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
 Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/10-7/plots/comparisons/kindle_reference_figure_10_7.png](figures/10-7/plots/comparisons/kindle_reference_figure_10_7.png)
+- Original reference: [references/figures/figure_10_7.png](references/figures/figure_10_7.png)
 - Book period reconstruction: [figures/10-7/plots/book_period/figure_10_7_book_period_reconstruction.png](figures/10-7/plots/book_period/figure_10_7_book_period_reconstruction.png)
 - Extended reconstruction: [figures/10-7/plots/extended/figure_10_7_extended_reconstruction.png](figures/10-7/plots/extended/figure_10_7_extended_reconstruction.png)
-- Book period comparison: [figures/10-7/plots/comparisons/figure_10_7_book_period_comparison.png](figures/10-7/plots/comparisons/figure_10_7_book_period_comparison.png)
-- Extended comparison: [figures/10-7/plots/comparisons/figure_10_7_extended_comparison.png](figures/10-7/plots/comparisons/figure_10_7_extended_comparison.png)
+- Book period comparison: [figures/10-7/plots/comparisons/figure_10_7_book_period_review.png](figures/10-7/plots/comparisons/figure_10_7_book_period_review.png)
+- Extended comparison: [figures/10-7/plots/comparisons/figure_10_7_extended_review.png](figures/10-7/plots/comparisons/figure_10_7_extended_review.png)
 - Caption: [figures/10-7/captions/caption.txt](figures/10-7/captions/caption.txt)
 - Provenance: [figures/10-7/provenance/provenance.md](figures/10-7/provenance/provenance.md)
 - Anomaly review: [figures/10-7/anomaly_reviews/anomaly_review.md](figures/10-7/anomaly_reviews/anomaly_review.md)
@@ -631,11 +642,11 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
 Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/10-8/plots/comparisons/kindle_reference_figure_10_8.png](figures/10-8/plots/comparisons/kindle_reference_figure_10_8.png)
+- Original reference: [references/figures/figure_10_8.png](references/figures/figure_10_8.png)
 - Book period reconstruction: [figures/10-8/plots/book_period/figure_10_8_book_period_reconstruction.png](figures/10-8/plots/book_period/figure_10_8_book_period_reconstruction.png)
 - Extended reconstruction: [figures/10-8/plots/extended/figure_10_8_extended_reconstruction.png](figures/10-8/plots/extended/figure_10_8_extended_reconstruction.png)
-- Book period comparison: [figures/10-8/plots/comparisons/figure_10_8_book_period_comparison.png](figures/10-8/plots/comparisons/figure_10_8_book_period_comparison.png)
-- Extended comparison: [figures/10-8/plots/comparisons/figure_10_8_extended_comparison.png](figures/10-8/plots/comparisons/figure_10_8_extended_comparison.png)
+- Book period comparison: [figures/10-8/plots/comparisons/figure_10_8_book_period_review.png](figures/10-8/plots/comparisons/figure_10_8_book_period_review.png)
+- Extended comparison: [figures/10-8/plots/comparisons/figure_10_8_extended_review.png](figures/10-8/plots/comparisons/figure_10_8_extended_review.png)
 - Caption: [figures/10-8/captions/caption.txt](figures/10-8/captions/caption.txt)
 - Provenance: [figures/10-8/provenance/provenance.md](figures/10-8/provenance/provenance.md)
 - Anomaly review: [figures/10-8/anomaly_reviews/anomaly_review.md](figures/10-8/anomaly_reviews/anomaly_review.md)
@@ -650,7 +661,7 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
 Status: `source_chain_recovered`. Artifact kind: `source_recovery`.
 
-- Original reference: [figures/12-3/plots/comparisons/kindle_reference_figure_12_3.png](figures/12-3/plots/comparisons/kindle_reference_figure_12_3.png)
+- Original reference: [references/figures/figure_12_3.png](references/figures/figure_12_3.png)
 - Caption: [figures/12-3/captions/caption.txt](figures/12-3/captions/caption.txt)
 - Provenance: [figures/12-3/provenance/provenance.md](figures/12-3/provenance/provenance.md)
 - Anomaly review: [figures/12-3/anomaly_reviews/anomaly_review.md](figures/12-3/anomaly_reviews/anomaly_review.md)
@@ -665,7 +676,7 @@ Status: `source_chain_recovered`. Artifact kind: `source_recovery`.
 
 Status: `source_chain_recovered`. Artifact kind: `source_recovery`.
 
-- Original reference: [figures/12-4/plots/comparisons/kindle_reference_figure_12_4.png](figures/12-4/plots/comparisons/kindle_reference_figure_12_4.png)
+- Original reference: [references/figures/figure_12_4.png](references/figures/figure_12_4.png)
 - Caption: [figures/12-4/captions/caption.txt](figures/12-4/captions/caption.txt)
 - Provenance: [figures/12-4/provenance/provenance.md](figures/12-4/provenance/provenance.md)
 - Anomaly review: [figures/12-4/anomaly_reviews/anomaly_review.md](figures/12-4/anomaly_reviews/anomaly_review.md)
@@ -680,11 +691,11 @@ Status: `source_chain_recovered`. Artifact kind: `source_recovery`.
 
 Status: `partial_match`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/12-5/plots/comparisons/supplemental_pdf_reference_figure_12_5.png](figures/12-5/plots/comparisons/supplemental_pdf_reference_figure_12_5.png)
+- Original reference: [references/figures/figure_12_5.png](references/figures/figure_12_5.png)
 - Book period reconstruction: [figures/12-5/plots/book_period/figure_12_5_book_period_reconstruction.png](figures/12-5/plots/book_period/figure_12_5_book_period_reconstruction.png)
 - Extended reconstruction: [figures/12-5/plots/extended/figure_12_5_extended_reconstruction.png](figures/12-5/plots/extended/figure_12_5_extended_reconstruction.png)
-- Book period comparison: [figures/12-5/plots/comparisons/figure_12_5_book_period_comparison.png](figures/12-5/plots/comparisons/figure_12_5_book_period_comparison.png)
-- Extended comparison: [figures/12-5/plots/comparisons/figure_12_5_extended_comparison.png](figures/12-5/plots/comparisons/figure_12_5_extended_comparison.png)
+- Book period comparison: [figures/12-5/plots/comparisons/figure_12_5_book_period_review.png](figures/12-5/plots/comparisons/figure_12_5_book_period_review.png)
+- Extended comparison: [figures/12-5/plots/comparisons/figure_12_5_extended_review.png](figures/12-5/plots/comparisons/figure_12_5_extended_review.png)
 - Caption: [figures/12-5/captions/caption.txt](figures/12-5/captions/caption.txt)
 - Provenance: [figures/12-5/provenance/provenance.md](figures/12-5/provenance/provenance.md)
 - Anomaly review: [figures/12-5/anomaly_reviews/anomaly_review.md](figures/12-5/anomaly_reviews/anomaly_review.md)
@@ -699,11 +710,11 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 
 Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/12-8/plots/comparisons/kindle_reference_figure_12_8.png](figures/12-8/plots/comparisons/kindle_reference_figure_12_8.png)
+- Original reference: [references/figures/figure_12_8.png](references/figures/figure_12_8.png)
 - Book period reconstruction: [figures/12-8/plots/book_period/figure_12_8_book_period_reconstruction.png](figures/12-8/plots/book_period/figure_12_8_book_period_reconstruction.png)
 - Extended reconstruction: [figures/12-8/plots/extended/figure_12_8_extended_reconstruction.png](figures/12-8/plots/extended/figure_12_8_extended_reconstruction.png)
-- Book period comparison: [figures/12-8/plots/comparisons/figure_12_8_book_period_comparison.png](figures/12-8/plots/comparisons/figure_12_8_book_period_comparison.png)
-- Extended comparison: [figures/12-8/plots/comparisons/figure_12_8_extended_comparison.png](figures/12-8/plots/comparisons/figure_12_8_extended_comparison.png)
+- Book period comparison: [figures/12-8/plots/comparisons/figure_12_8_book_period_review.png](figures/12-8/plots/comparisons/figure_12_8_book_period_review.png)
+- Extended comparison: [figures/12-8/plots/comparisons/figure_12_8_extended_review.png](figures/12-8/plots/comparisons/figure_12_8_extended_review.png)
 - Caption: [figures/12-8/captions/caption.txt](figures/12-8/captions/caption.txt)
 - Provenance: [figures/12-8/provenance/provenance.md](figures/12-8/provenance/provenance.md)
 - Anomaly review: [figures/12-8/anomaly_reviews/anomaly_review.md](figures/12-8/anomaly_reviews/anomaly_review.md)
@@ -718,11 +729,11 @@ Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
 Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/12-9/plots/comparisons/kindle_reference_figure_12_9.png](figures/12-9/plots/comparisons/kindle_reference_figure_12_9.png)
+- Original reference: [references/figures/figure_12_9.png](references/figures/figure_12_9.png)
 - Book period reconstruction: [figures/12-9/plots/book_period/figure_12_9_book_period_reconstruction.png](figures/12-9/plots/book_period/figure_12_9_book_period_reconstruction.png)
-- Extended reconstruction: [figures/12-9/plots/extended/figure_12_9_extended_reconstruction.png](figures/12-9/plots/extended/figure_12_9_extended_reconstruction.png)
-- Book period comparison: [figures/12-9/plots/comparisons/figure_12_9_book_period_comparison.png](figures/12-9/plots/comparisons/figure_12_9_book_period_comparison.png)
-- Extended comparison: [figures/12-9/plots/comparisons/figure_12_9_extended_comparison.png](figures/12-9/plots/comparisons/figure_12_9_extended_comparison.png)
+- Extended reconstruction: [figures/12-9/plots/book_period/figure_12_9_book_period_reconstruction.png](figures/12-9/plots/book_period/figure_12_9_book_period_reconstruction.png)
+- Book period comparison: [figures/12-9/plots/comparisons/figure_12_9_book_period_review.png](figures/12-9/plots/comparisons/figure_12_9_book_period_review.png)
+- Extended comparison: [figures/12-9/plots/comparisons/figure_12_9_extended_review.png](figures/12-9/plots/comparisons/figure_12_9_extended_review.png)
 - Caption: [figures/12-9/captions/caption.txt](figures/12-9/captions/caption.txt)
 - Provenance: [figures/12-9/provenance/provenance.md](figures/12-9/provenance/provenance.md)
 - Anomaly review: [figures/12-9/anomaly_reviews/anomaly_review.md](figures/12-9/anomaly_reviews/anomaly_review.md)
@@ -737,11 +748,11 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 
 Status: `partial_match`. Artifact kind: `reconstruction`.
 
-- Original reference: [figures/19-1/plots/comparisons/kindle_reference_figure_19_1.png](figures/19-1/plots/comparisons/kindle_reference_figure_19_1.png)
+- Original reference: [references/figures/figure_19_1.png](references/figures/figure_19_1.png)
 - Book period reconstruction: [figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png](figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png)
-- Extended reconstruction: [figures/19-1/plots/extended/figure_19_1_extended_reconstruction.png](figures/19-1/plots/extended/figure_19_1_extended_reconstruction.png)
-- Book period comparison: [figures/19-1/plots/comparisons/figure_19_1_book_period_comparison.png](figures/19-1/plots/comparisons/figure_19_1_book_period_comparison.png)
-- Extended comparison: [figures/19-1/plots/comparisons/figure_19_1_extended_comparison.png](figures/19-1/plots/comparisons/figure_19_1_extended_comparison.png)
+- Extended reconstruction: [figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png](figures/19-1/plots/book_period/figure_19_1_book_period_reconstruction.png)
+- Book period comparison: [figures/19-1/plots/comparisons/figure_19_1_book_period_review.png](figures/19-1/plots/comparisons/figure_19_1_book_period_review.png)
+- Extended comparison: [figures/19-1/plots/comparisons/figure_19_1_extended_review.png](figures/19-1/plots/comparisons/figure_19_1_extended_review.png)
 - Caption: [figures/19-1/captions/caption.txt](figures/19-1/captions/caption.txt)
 - Provenance: [figures/19-1/provenance/provenance.md](figures/19-1/provenance/provenance.md)
 - Anomaly review: [figures/19-1/anomaly_reviews/anomaly_review.md](figures/19-1/anomaly_reviews/anomaly_review.md)

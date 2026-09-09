@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/20-1/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_20_1.png",
+      "sha256": "e1dcf4c0502eab5903c4a3610223944350fec6c9eb6dac2c1e4c5a23a700c885"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "20-1",
+    "registry_title": "Populist support across generations, 2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 39,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      172,
+      1213,
+      1482,
+      2212
+    ],
+    "crop_bounds_pdf_points": [
+      47.706,
+      336.608,
+      411.045,
+      613.83
+    ],
+    "path": "references/figures/figure_20_1.png",
+    "sha256": "e1dcf4c0502eab5903c4a3610223944350fec6c9eb6dac2c1e4c5a23a700c885",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 20-1: Populist support across generations, 2016",
+    "source_note_ocr": "Trump: Exit polls conducted by Edison Research, New York Times 2016. Brexit: Exit polls con- ducted by Lord Ashcroft Polls, BBC News Magazine, June 24, 2016, http://www.bbc.com/news/magazine -36619342. European populist parties (2002-2014): Inglehart & Norris 2016, fig. 8. Data for each birth co- hort are plotted at the midpoint of their range.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

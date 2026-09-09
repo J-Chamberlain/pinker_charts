@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/17-2/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_17_2.png",
+      "sha256": "361e4a0587db52a654d9a9efe35dc6fe4ecf82921b0c672cea6225cffca48fff"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "17-2",
+    "registry_title": "Retirement, US, 1880-2010",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 33,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      203,
+      1235,
+      1440,
+      2102
+    ],
+    "crop_bounds_pdf_points": [
+      56.304,
+      342.712,
+      399.396,
+      583.305
+    ],
+    "path": "references/figures/figure_17_2.png",
+    "sha256": "361e4a0587db52a654d9a9efe35dc6fe4ecf82921b0c672cea6225cffca48fff",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 17-2: Retirement, US, 1880-2010",
+    "source_note_ocr": "Housel 2013, based on data from the Bureau of Labor Statistics, and Costa 1998.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

@@ -12,9 +12,9 @@
   "scientific_status": "partial_match",
   "execution_status": "accepted",
   "publication_status": "not_reviewed",
-  "lifecycle_stage": "not_started",
-  "next_action": "Review consolidated source evidence and remaining limitations; do not repeat status-only remediation.",
-  "notes": "Book-era OWID dataset 522 was recovered with embedded 2017 provenance. All source-to-clean values pass exact conversion validation. Original supplemental pixels were blocked, so the comparison uses an explicitly labeled facsimile.",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Independent source/trajectory review of combined GD010 early Sweden and OWID522; check overlap revisions without substituting data merely for appearance.",
+  "notes": "49 missing Sweden observations (1751-1799) recovered from original Hanson GD010 table; existing OWID 522 observations retained. Actual PDF comparison replaces circular facsimile evidence. Remains partial pending independent scientific review.",
   "artifact_kind": "reconstruction",
   "book_citation": "Our World in Data, Roser 2016p, based partly on data from Claudia Hanson of Gapminder.",
   "status_evidence": {
@@ -23,51 +23,77 @@
     "previous_registry_status": "orchestrator_accepted"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "facsimile",
-    "inspected_artifacts": [],
-    "issues": []
+    "status": "inspected_pending_independent_review",
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_5_3.png",
+        "sha256": "325dc99d2ec1fff6b64a4434bec7cfabb7cb6957e9ef53fe12ef435d65b011f0"
+      },
+      {
+        "path": "figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png",
+        "sha256": "a43e2ec42736bbb468fe4372c15276874ef66b989fa0edcf6b3c0247cbdc1965"
+      },
+      {
+        "path": "figures/5-3/plots/extended/figure_5_3_same_source_continuation.png",
+        "sha256": "4328ae2f2d97a365c656d0464fd6163b930ee22d3be9dd28a541553bc8919bf4"
+      },
+      {
+        "path": "figures/5-3/plots/comparisons/figure_5_3_book_period_review.png",
+        "sha256": "ccc455bc44c824e02053783b7a573394198fdc0059777f4a557c5b745803b2d7"
+      },
+      {
+        "path": "figures/5-3/plots/comparisons/figure_5_3_extended_review.png",
+        "sha256": "3eee415c72b39cb3afbf203992c150675379bfbc1777b02b7bcb57ca74b11f84"
+      }
+    ],
+    "issues": [
+      "Source-vintage identity and later overlap differences require independent scientific review.",
+      "Same-source 2014-2015 extension is very short at the original time scale."
+    ],
+    "review_date": "2026-09-09"
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "same_source",
+    "label": "dashed 2014-2015, same recovered source",
+    "notes": "Very short relative to 1751-2013; no modern revised successor appended."
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/5-3/plots/comparisons/kindle_reference_figure_5_3.png",
-      "sha256": "ca25b3f4f96ad9c982348e01624b75f73f24906652dc05e70aed438d33701d57"
+      "path": "references/figures/figure_5_3.png",
+      "sha256": "325dc99d2ec1fff6b64a4434bec7cfabb7cb6957e9ef53fe12ef435d65b011f0"
     },
     "book_period_reconstruction": {
       "path": "figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png",
-      "sha256": "24522d4fd1b522050bf97b5dbaaa224b54866613da67a1ee35acd95d3382fe70"
+      "sha256": "a43e2ec42736bbb468fe4372c15276874ef66b989fa0edcf6b3c0247cbdc1965"
     },
     "extended_reconstruction": {
       "path": "figures/5-3/plots/extended/figure_5_3_same_source_continuation.png",
-      "sha256": "650a47de8c40ec4d392caede0825847755e4af9c0c1c64105d56a5d7ad43cf4e"
+      "sha256": "4328ae2f2d97a365c656d0464fd6163b930ee22d3be9dd28a541553bc8919bf4"
     },
     "book_period_comparison": {
-      "path": "figures/5-3/plots/comparisons/figure_5_3_book_period_comparison.png",
-      "sha256": "c7e441fd8ab9a41febdc295d9e27e773d10b98456bddf16332758e3576a9a488"
+      "path": "figures/5-3/plots/comparisons/figure_5_3_book_period_review.png",
+      "sha256": "ccc455bc44c824e02053783b7a573394198fdc0059777f4a557c5b745803b2d7"
     },
     "extended_comparison": {
-      "path": "figures/5-3/plots/comparisons/figure_5_3_extended_comparison.png",
-      "sha256": "cfc7a66bf50410cfa5c114fc68810ad0b9075e12192a360142cf231655147e9c"
+      "path": "figures/5-3/plots/comparisons/figure_5_3_extended_review.png",
+      "sha256": "3eee415c72b39cb3afbf203992c150675379bfbc1777b02b7bcb57ca74b11f84"
     },
     "caption": {
       "path": "figures/5-3/captions/caption.txt",
-      "sha256": "2cc64205a0eff429f09dcd84575f8f12efc2f87ae5f85919ff1ef4a03b343ef6"
+      "sha256": "3d6395a60c71f4878f10fcdfc03822b6af3fbb4a374385dc5f599421658d3df1"
     },
     "provenance": {
       "path": "figures/5-3/provenance/provenance.md",
-      "sha256": "6bf5e812f62e1cebdbe0258917ae504c6c0732dc92d11afe0397233650ce30de"
+      "sha256": "1a237d17cc033764a0f6c78192203001f52e4abd573bc5bbb8c847562389db6a"
     },
     "anomaly_review": {
       "path": "figures/5-3/anomaly_reviews/anomaly_review.md",
-      "sha256": "54d85a597c13a6063d335c349d4608ea22e3fc86ff768a7b70b3bceef6e56a6b"
+      "sha256": "2a2c499cfddcc9c2d2194811f71569491dd2b68705759f624a973a323d248865"
     },
     "review_checklist": {
       "path": "figures/5-3/review_checklist.md",
-      "sha256": "cf7c59583b46070254e106ba9b4d2a9af978b45996ea2e356d3e0ac8ad106088"
+      "sha256": "65ee3b0b86b7d4b37bdd522bf526101db9174f0a20a9f1827fe941de3da14af3"
     },
     "source_log": {
       "path": "figures/5-3/source_logs/source_log.md",
@@ -79,7 +105,7 @@
     },
     "discrepancy_log": {
       "path": "figures/5-3/discrepancy_logs/discrepancy_log.md",
-      "sha256": "11e1a7047b28261c37c6dbcbf7a709b15fa73501048d3fbab4b1f8b88893b81f"
+      "sha256": "8339bce4ac7e804bf73c086bd67fe210f96796813de91c3898b26bb97957bea5"
     },
     "legacy_metadata": {
       "path": "figures/5-3/metadata/metadata.json",
@@ -88,15 +114,74 @@
     "metadata": {
       "path": "figures/5-3/figure.json",
       "self": true
+    },
+    "source_validation": {
+      "path": "figures/5-3/provenance/early_sweden_validation.json",
+      "sha256": "ddb9e4c07ac419c405e66c16b13313950040ce38b80f11af1014992742b02120"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_5_3.py",
+      "sha256": "1e78ad3986dd6507953d1cca72c60fd81a8e1e827ffb37f4998fc0c1d7139cab"
+    },
+    "book_period_clean": {
+      "path": "figures/5-3/data/clean/figure_5_3_book_period_clean.csv",
+      "sha256": "a2ee3e6155f7affa606d5c0bb65dc19b469beab867fbf5f43f92d10cfec1850c"
+    },
+    "extended_clean": {
+      "path": "figures/5-3/data/clean/figure_5_3_same_source_continuation_clean.csv",
+      "sha256": "ee9dcdae6e025daffade95fd6f6afe89254af60a85fcc684b40c4352cb1de657"
+    },
+    "original_source_table": {
+      "path": "figures/5-3/data/raw/gapminder_gd010_gapdata010.xls",
+      "sha256": "b92cd2e764309ace943b3646bf90c5bb148774e945ccecfddb4c387eed275ad6"
+    },
+    "preserved_source_table": {
+      "path": "figures/5-3/data/raw/owid_522_maternal_mortality.tab",
+      "sha256": "251b73ca1934bafeefcd084b8a17350a6ee60cd3dee809fa02a422aaa6d938df"
+    },
+    "lineage": {
+      "path": "figures/5-3/lineage/consolidated_lineage.json",
+      "sha256": "be99ac73efb927b40d62689329a859f63a5c0cf23667118b082251a340fa4631"
     }
   },
   "research": {
     "book_page": "Supplemental Graphics indexed page 1; chapter 5 print page 57 context",
     "claim_summary": "Maternal mortality declined sharply in four countries representative of their regions.",
-    "original_dataset": "",
+    "original_dataset": "Hanson GD010 early Sweden (1751-1799) plus preserved OWID 522 historical/World Bank 2015 series",
     "dataset_url": "",
     "archive_url": "",
     "download_date": "2026-07-10",
-    "confidence_score": 0.9
+    "confidence_score": "medium_pending_independent_review"
+  },
+  "reference": {
+    "figure_id": "5-3",
+    "registry_title": "Maternal mortality, 1751-2013",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 3,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      193,
+      1282,
+      1422,
+      2188
+    ],
+    "crop_bounds_pdf_points": [
+      53.53,
+      355.755,
+      394.404,
+      607.17
+    ],
+    "path": "references/figures/figure_5_3.png",
+    "sha256": "325dc99d2ec1fff6b64a4434bec7cfabb7cb6957e9ef53fe12ef435d65b011f0",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 5-3: Maternal mortality, 1751-2013",
+    "source_note_ocr": "Our World in Data, Roser 2016p, based partly on data from Claudia Hanson of Gapmtinder, https:// www.gapminder.org/data/documentation/gdo10/.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

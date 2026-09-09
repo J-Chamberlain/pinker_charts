@@ -24,34 +24,34 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_plotted",
+    "notes": "Contemporaneous UN-IGME/HMD assembly unresolved; no comparable post-2013 extension."
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/5-2/plots/comparisons/kindle_reference_figure_5_2.png",
-      "sha256": "96c36908f47cbad58ec6b67aa42a8c4aec8d261e789602ca04fa8144ffab954e"
+      "path": "references/figures/figure_5_2.png",
+      "sha256": "3e929e65f066b1b61d59a51b8eb77ac0cb581e9f63cdb24830aac954e1cf589a"
     },
     "book_period_reconstruction": {
       "path": "figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png",
       "sha256": "f3498813634cbdc9883974fb02fc97c36beb6ae2b9ca443215e6f150f9f233aa"
     },
     "extended_reconstruction": {
-      "path": "figures/5-2/plots/extended/figure_5_2_extended_reconstruction.png",
-      "sha256": "778a253df7a53a9c9a726c9321e1e2d6aaadfabbde3322ed9391abf9efac76f3"
+      "path": "figures/5-2/plots/book_period/figure_5_2_book_period_reconstruction.png",
+      "sha256": "f3498813634cbdc9883974fb02fc97c36beb6ae2b9ca443215e6f150f9f233aa"
     },
     "book_period_comparison": {
-      "path": "figures/5-2/plots/comparisons/figure_5_2_book_period_comparison.png",
-      "sha256": "0c21b5509e666ce3b5bdeb3246e20afb66fd039efc69d36f2ab2999f3beff7b0"
+      "path": "figures/5-2/plots/comparisons/figure_5_2_book_period_review.png",
+      "sha256": "f938fb0d22aea95b58c1b2a9063f6611e3a28c30b2355de7ee813d469688243f"
     },
     "extended_comparison": {
-      "path": "figures/5-2/plots/comparisons/figure_5_2_extended_comparison.png",
-      "sha256": "675190af78a1c2d4330c2f1c07ca8b18ce2f80159fe7308c9306f4240dae614e"
+      "path": "figures/5-2/plots/comparisons/figure_5_2_extended_review.png",
+      "sha256": "ac1e9f5fd4f7388c566ff26af6269cc35e6288064bc8e9d2d8137395b92f4021"
     },
     "caption": {
       "path": "figures/5-2/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "2026-07-10",
     "confidence_score": 0.7
+  },
+  "reference": {
+    "figure_id": "5-2",
+    "registry_title": "Child mortality, 1751-2013",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 3,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      201,
+      211,
+      1422,
+      1118
+    ],
+    "crop_bounds_pdf_points": [
+      55.749,
+      58.553,
+      394.404,
+      310.245
+    ],
+    "path": "references/figures/figure_5_2.png",
+    "sha256": "3e929e65f066b1b61d59a51b8eb77ac0cb581e9f63cdb24830aac954e1cf589a",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 5-2: Child mortality, 1751-2013",
+    "source_note_ocr": "Our World in Data, Roser 2016a, based on data from the UN Child Mortality estimates, http:// www.childmortality.org/, and the Human Mortality Database, http://www.mortality.org/",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

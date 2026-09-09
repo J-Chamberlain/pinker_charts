@@ -1,0 +1,2335 @@
+{
+  "schema_version": 1,
+  "source_pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+  "count": 75,
+  "method": "Poppler render of actual visible page; panel split then whitespace trim; OCR confirms caption ID. No plotted values are data.",
+  "renderer": "pdftoppm version 26.04.0",
+  "ocr": "tesseract 5.5.3",
+  "items": [
+    {
+      "figure_id": "4-1",
+      "registry_title": "Tone of the news, 1945-2010",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 2,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        140,
+        244,
+        1346,
+        1112
+      ],
+      "crop_bounds_pdf_points": [
+        38.83,
+        67.71,
+        373.325,
+        308.58
+      ],
+      "path": "references/figures/figure_4_1.png",
+      "sha256": "5efde42fe7081cb7b3b83a4aaf32ce568cd6611801582f7cb80ecf099c158fc7",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 4-1: Tone of the news, 1945-2010",
+      "source_note_ocr": "Leetaru 2011. Plotted by month, beginning in January.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "5-1",
+      "registry_title": "Life expectancy, 1771-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 2,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        133,
+        1254,
+        1391,
+        2176
+      ],
+      "crop_bounds_pdf_points": [
+        36.889,
+        347.985,
+        385.806,
+        603.84
+      ],
+      "path": "references/figures/figure_5_1.png",
+      "sha256": "7cc535e2af3631b78ca18746b057c2e3226cb010c4e30f94ecf77a60b883d94e",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 5-1: Life expectancy, 1771-2015",
+      "source_note_ocr": "Our World in Data, Roser 2016n, based on data from Riley 2005 for the years before 2000 and from the World Health Organization and the World Bank for the subsequent years. Updated with data provided by Max Roser.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "5-2",
+      "registry_title": "Child mortality, 1751-2013",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 3,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        201,
+        211,
+        1422,
+        1118
+      ],
+      "crop_bounds_pdf_points": [
+        55.749,
+        58.553,
+        394.404,
+        310.245
+      ],
+      "path": "references/figures/figure_5_2.png",
+      "sha256": "3e929e65f066b1b61d59a51b8eb77ac0cb581e9f63cdb24830aac954e1cf589a",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 5-2: Child mortality, 1751-2013",
+      "source_note_ocr": "Our World in Data, Roser 2016a, based on data from the UN Child Mortality estimates, http:// www.childmortality.org/, and the Human Mortality Database, http://www.mortality.org/",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "5-3",
+      "registry_title": "Maternal mortality, 1751-2013",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 3,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        193,
+        1282,
+        1422,
+        2188
+      ],
+      "crop_bounds_pdf_points": [
+        53.53,
+        355.755,
+        394.404,
+        607.17
+      ],
+      "path": "references/figures/figure_5_3.png",
+      "sha256": "325dc99d2ec1fff6b64a4434bec7cfabb7cb6957e9ef53fe12ef435d65b011f0",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 5-3: Maternal mortality, 1751-2013",
+      "source_note_ocr": "Our World in Data, Roser 2016p, based partly on data from Claudia Hanson of Gapmtinder, https:// www.gapminder.org/data/documentation/gdo10/.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "5-4",
+      "registry_title": "Life expectancy, UK, 1701-2013",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 4,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        161,
+        221,
+        1362,
+        1161
+      ],
+      "crop_bounds_pdf_points": [
+        44.655,
+        61.328,
+        377.762,
+        322.178
+      ],
+      "path": "references/figures/figure_5_4.png",
+      "sha256": "6a9631fb12a903a84832f2cecdd5802701e7618e97902555d460697c68ccd8f9",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 5-4: Life expectancy, UK, 1701-2013",
+      "source_note_ocr": "Our World in Data, Roser 2016n. Data before 1845 are for England and Wales and come from OECD Clio Infra, van Zanden et al. 2014. Data from 1845 on are for mid-decade years only, and come from the Human Mortality Database, http://www.mortality.org/.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "6-1",
+      "registry_title": "Childhood deaths from infectious disease, 2000-2013",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 4,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        137,
+        1309,
+        1406,
+        2194
+      ],
+      "crop_bounds_pdf_points": [
+        37.998,
+        363.248,
+        389.966,
+        608.835
+      ],
+      "path": "references/figures/figure_6_1.png",
+      "sha256": "d5e280817e083b23c9845bc9e56a9a3384a0053b6f3fc5101d630cd81c176941",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 6-1: Childhood deaths from infectious disease, 2000-2013",
+      "source_note_ocr": "Child Health Epidemiology Reference Group of the World Health Organization, Liu et al. 2014, supplementary appendix.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "7-1",
+      "registry_title": "Calories, 1700-2013",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 5,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        196,
+        223,
+        1462,
+        1136
+      ],
+      "crop_bounds_pdf_points": [
+        54.362,
+        61.883,
+        405.498,
+        315.24
+      ],
+      "path": "references/figures/figure_7_1.png",
+      "sha256": "cd5cad128f6e63968b6a5646bc8fe1d09e7e240b647720ff2fef885812bbbb38",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 7-1: Calories, 1700-2013",
+      "source_note_ocr": "United States, England, and France: Our World in Data, Roser 2016d, based on data from Fogel 2004. China, India, and the World: Food and Agriculture Organization of the United Nations, http:// www.fao.org/faostat/en/#data.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "7-2",
+      "registry_title": "Childhood stunting, 1966-2014",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 5,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        223,
+        1340,
+        1415,
+        2197
+      ],
+      "crop_bounds_pdf_points": [
+        61.851,
+        371.85,
+        392.462,
+        609.668
+      ],
+      "path": "references/figures/figure_7_2.png",
+      "sha256": "6c1a2b8074fd7bdf6c982bc3d4ad2db0599dc15e0f874154b29e3da2bf89d389",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 7-2: Childhood stunting, 1966-2014",
+      "source_note_ocr": "Our World in Data, Roser 2016j, based on data from the World Health Organization’s Nutrition Landscape Information System, http://www.who.int/nutrition/nlis/en/.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "7-3",
+      "registry_title": "Undernourishment, 1970-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 6,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        117,
+        135,
+        1376,
+        1095
+      ],
+      "crop_bounds_pdf_points": [
+        32.451,
+        37.462,
+        381.645,
+        303.863
+      ],
+      "path": "references/figures/figure_7_3.png",
+      "sha256": "e184e604e97d8c17e71b5f9f64a0c5ff9fc3c3714bcce856efbfc0b980873c13",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 7-3: Undernourishment, 1970-2015",
+      "source_note_ocr": "Our World in Data, Roser 2016), based on data from the Food and Agriculture Organization 2014, also reported in http://www.fao.org /economic/ess/ess-fs/ess-fadata/en/.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "7-4",
+      "registry_title": "Famine deaths, 1860-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 6,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        137,
+        1241,
+        1389,
+        2202
+      ],
+      "crop_bounds_pdf_points": [
+        37.998,
+        344.377,
+        385.251,
+        611.055
+      ],
+      "path": "references/figures/figure_7_4.png",
+      "sha256": "4da0e2fe480d9dafea6e1ccbd255fcf4300bd6718d48661d5a1743ac4fa0b588",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 7-4: Famine deaths, 1860-2016",
+      "source_note_ocr": "Our World in Data, Hasell & Roser 2017, based on data from Devereux 2000; OGrada 2009; White 2011, and EM-DAT, The International Disaster Database, http://w ww.emdat.be/; and other sources. “Fam- ine” is defined as in O Grada 2009.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "8-1",
+      "registry_title": "Gross World Product, 1-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 7,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        201,
+        198,
+        1439,
+        1073
+      ],
+      "crop_bounds_pdf_points": [
+        55.749,
+        54.945,
+        399.119,
+        297.757
+      ],
+      "path": "references/figures/figure_8_1.png",
+      "sha256": "1f50f55234d4544fb311cd23f84eec6109db60f9f1c1ffbd4177e39f35212897",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 8-1: Gross World Product, 1-2015",
+      "source_note_ocr": "Our World in Data, Roser 2016c, based on data from the World Bank and from Angus Maddison and Maddison Project 2014.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "8-2",
+      "registry_title": "GDP per capita, 1600-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 7,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        189,
+        1270,
+        1470,
+        2159
+      ],
+      "crop_bounds_pdf_points": [
+        52.421,
+        352.425,
+        407.717,
+        599.122
+      ],
+      "path": "references/figures/figure_8_2.png",
+      "sha256": "80da99d81163dc7dae6d6e54b76f0702d0e59f092198d3bd48ffc40e1fd8725e",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 8-2: GDP per capita, 1600-2015",
+      "source_note_ocr": "Our World in Data, Roser 2016c, based on data from the World Bank and from Maddison Proj- ect 2014.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "8-3",
+      "registry_title": "World income distribution, 1800, 1975, and 2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 8,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        169,
+        191,
+        1359,
+        1140
+      ],
+      "crop_bounds_pdf_points": [
+        46.874,
+        53.002,
+        376.93,
+        316.35
+      ],
+      "path": "references/figures/figure_8_3.png",
+      "sha256": "86eb9630a20594f78cb23ef62d8cf129e603d463ac41d67a01c452b8970256dc",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 8-3: World income distribution, 1800, 1975, and 2015",
+      "source_note_ocr": "Gapmiinder, via Ola Rosling, http://www.gapminder.org/tools/mountain. The scale is in 2011 international dollars.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "8-4",
+      "registry_title": "Extreme poverty (proportion), 1820-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 8,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        144,
+        1306,
+        1373,
+        2183
+      ],
+      "crop_bounds_pdf_points": [
+        39.94,
+        362.415,
+        380.813,
+        605.783
+      ],
+      "path": "references/figures/figure_8_4.png",
+      "sha256": "0329da989385ca10c390d5dddba891c6f256b46bab29d103157cd172dd584511",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 8-4: Extreme poverty (proportion), 1820-2015",
+      "source_note_ocr": "Our World in Data, Roser & Ortiz-Ospina 2017, based on data from Bourguignon & Morrison 2002 (1820-1992), averaging their “Extreme poverty” and “Poverty” percentages for commensurability with data on “Extreme poverty” for 1981-2015 from the World Bank 2016g.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "8-5",
+      "registry_title": "Extreme poverty (number), 1820-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 9,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        208,
+        222,
+        1446,
+        1107
+      ],
+      "crop_bounds_pdf_points": [
+        57.691,
+        61.605,
+        401.06,
+        307.192
+      ],
+      "path": "references/figures/figure_8_5.png",
+      "sha256": "27e0a00f6ae9d14313cb321871248539da3888afc53d2d203214df1f0635bdab",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 8-5: Extreme poverty (number), 1820-2015",
+      "source_note_ocr": "Our World in Data, Roser & Ortiz-Ospina 2017, based on data from Bourguignon & Morrison 2002 (1820-1992) and the World Bank 2016g (1981-2015).",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "9-1",
+      "registry_title": "International inequality, 1820-2013",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 9,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        204,
+        1276,
+        1453,
+        2191
+      ],
+      "crop_bounds_pdf_points": [
+        56.581,
+        354.09,
+        403.002,
+        608.003
+      ],
+      "path": "references/figures/figure_9_1.png",
+      "sha256": "05e3cfd323eae2a07ce28297606469269b60799653c77a0f9a3493131c1b317b",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 9-1: International inequality, 18320-2013",
+      "source_note_ocr": "International inequality: OECD Clio Infra Project, Moatsos et al. 2014; data are for market household income across countries. Population-weighted international inequality: Milanovié 2012; data for 2012 and 2013 provided by Branko Milanovié, personal communication.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "9-2",
+      "registry_title": "Global inequality, 1820-2011",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 10,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        142,
+        239,
+        1374,
+        1157
+      ],
+      "crop_bounds_pdf_points": [
+        39.385,
+        66.323,
+        381.091,
+        321.067
+      ],
+      "path": "references/figures/figure_9_2.png",
+      "sha256": "033dc93d156215cd8141bba69ed1902d9140ef7ca435cc92b4f6f6431dad7b55",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 9-2: Global inequality, 1820-2011",
+      "source_note_ocr": "Milanovié 2016, fig. 3.1. The left-hand curve shows 1990 international dollars of disposable in- come per capita; the right-hand curve shows 2005 international dollars, and combines household surveys of per capita disposable income and consumption.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "9-3",
+      "registry_title": "Inequality, UK and US, 1688-2013",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 10,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        143,
+        1334,
+        1351,
+        2190
+      ],
+      "crop_bounds_pdf_points": [
+        39.662,
+        370.185,
+        374.711,
+        607.725
+      ],
+      "path": "references/figures/figure_9_3.png",
+      "sha256": "9328929312be29b5e5030040529c02256079099972af66b2fdcc4b0b2384da0f",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 9-3: Inequality, UK and US, 1688-2013",
+      "source_note_ocr": "Milanovicé 2016, fig. 2.1, disposable income per capita.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "9-4",
+      "registry_title": "Social spending, OECD countries, 1880-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 11,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        195,
+        226,
+        1460,
+        1085
+      ],
+      "crop_bounds_pdf_points": [
+        54.085,
+        62.715,
+        404.943,
+        301.087
+      ],
+      "path": "references/figures/figure_9_4.png",
+      "sha256": "227d08dbd182c369e333aa3303605ed73e6f29f3d59c77d9dbd457d33b616da2",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 9-4: Social spending, OECD countries, 1880-2016",
+      "source_note_ocr": "Our World in Data, Ortiz-Ospina & Roser 2016b, based on data from Lindert 2004 and OECD 1985, 2014, 2017. The Organisation for Economic Co-operation and Development includes thirty-five demo- cratic states with market economies.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "9-5",
+      "registry_title": "Income gains, 1988-2008",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 11,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        200,
+        1277,
+        1425,
+        2181
+      ],
+      "crop_bounds_pdf_points": [
+        55.472,
+        354.368,
+        395.236,
+        605.227
+      ],
+      "path": "references/figures/figure_9_5.png",
+      "sha256": "130a2b8bf6028e9e6b814f501f703e2e375d21b69df8ab2b1b002eeb091ad4ed",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 9-5: Income gains, 1988-2008",
+      "source_note_ocr": "Milanovic¢ 2016, fig. 1.3.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "9-6",
+      "registry_title": "Poverty, US, 1960-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 12,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        145,
+        133,
+        1372,
+        1188
+      ],
+      "crop_bounds_pdf_points": [
+        40.217,
+        36.907,
+        380.536,
+        329.67
+      ],
+      "path": "references/figures/figure_9_6.png",
+      "sha256": "4e02ba55f562be26dfbccc5973e000895f9dfa2458de3c65f8d12837c1fd3d3a",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 9-6: Poverty, US, 1960-2016",
+      "source_note_ocr": "Meyer & Sullivan 2017. “Disposable income” refers to their “After-tax money income,” includ- ing credits, adjusted for inflation using the bias-corrected CPI-U-RS, and representing a family with two adults and two children. “Consumption” refers to data from the BLS Consumer Expenditure Survey on food, housing, vehicles, appliances, furnishings, clothing, jewelry, insurance, and other expenses. “Pov- erty” corresponds to the US Census definition for 1980, adjusted for inflation; anchoring the poverty line in other years would result in different absolute numbers but the same trends. See Meyer & Sullivan 2011, 2012, and 2016 for details.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "10-1",
+      "registry_title": "Population and population growth, 1750-2015 and projected to 2100",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 12,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        144,
+        1286,
+        1376,
+        2272
+      ],
+      "crop_bounds_pdf_points": [
+        39.94,
+        356.865,
+        381.645,
+        630.48
+      ],
+      "path": "references/figures/figure_10_1.png",
+      "sha256": "5323fb3438806d29343edda756f06c66ba179a62cb42d66aa48ede84fc6050fb",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 10-1: Population and population growth, 1750-2015 and projected to 2100",
+      "source_note_ocr": "Our World in Data, Ortiz-Ospina & Roser 2016d. 1750-2015: United Nations Population Division and History Database of the Global Environment (HYDE), PBL Netherlands Environmental Assessment Agency (undated). Post-2015 projections: International Institute for Applied Systems Analysis, Medium Projection (aggregate of country-specific estimates, taking education into account), Lutz, Butz, & Samir 2014.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "10-2",
+      "registry_title": "Sustainability, 1955-2109",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 13,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        234,
+        101,
+        1424,
+        1182
+      ],
+      "crop_bounds_pdf_points": [
+        64.902,
+        28.027,
+        394.958,
+        328.005
+      ],
+      "path": "references/figures/figure_10_2.png",
+      "sha256": "668ea58be843659fa51f9aae6c060c6ac5ed38c194d5d76b89513ff0b0653692",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 10-2: Sustainability, 1955-2109",
+      "source_note_ocr": "Randall Munroe, XKCD, http://xkcd.com/1007/. Credit: Randall Munroe, xked.com.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "10-3",
+      "registry_title": "Pollution, energy, and growth, US, 1970-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 13,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        198,
+        1287,
+        1446,
+        2269
+      ],
+      "crop_bounds_pdf_points": [
+        54.917,
+        357.142,
+        401.06,
+        629.648
+      ],
+      "path": "references/figures/figure_10_3.png",
+      "sha256": "db4ba96b66cc748922fd509f319e1f3e257b3d611eef729b37c3ab64739c329b",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 10-3: Pollution, energy, and growth, US, 1970-2015",
+      "source_note_ocr": "US Environmental Protection Agency 2016, based on the following sources. GDP: Bureau of Economic Analysis. Vehicle miles traveled: Federal Highway Administration. Population: US Census Bureau. Energy Consumption: US Department of Energy. CO,: US Greenhouse Gas Inventory Report. Emissions (carbon monoxide, oxides of nitrogen, particulate matter smaller than 10 micrometers, sulfur dioxide, and volatile organic compounds): EPA, https://www.epa.gov/air-emissions-inventories/air -pollutant-emissions-trends-data.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "10-4",
+      "registry_title": "Deforestation, 1700-2010",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 14,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        136,
+        253,
+        1382,
+        1113
+      ],
+      "crop_bounds_pdf_points": [
+        37.721,
+        70.207,
+        383.309,
+        308.858
+      ],
+      "path": "references/figures/figure_10_4.png",
+      "sha256": "76ade67c792f26ffce0c3332d38ebbac016c15c643b47c8910335b42ae680649",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 10-4: Deforestation, 1700-2010",
+      "source_note_ocr": "United Nations Food and Agriculture Organization 2012, p. 9.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "10-5",
+      "registry_title": "Oil spills, 1970-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 14,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        122,
+        1264,
+        1383,
+        2167
+      ],
+      "crop_bounds_pdf_points": [
+        33.838,
+        350.76,
+        383.587,
+        601.342
+      ],
+      "path": "references/figures/figure_10_5.png",
+      "sha256": "39f12290a3ec7290707b1b37f11f73ebd75e538ff10465c894f4fff77e4dbb33",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 10-5: Oil spills, 1970-2016",
+      "source_note_ocr": "Our World in Data, Roser 2016r, based on data (updated) from the International Tanker Owners Pollution Federation, http://www.itopf.com/knowledge-resources/data-statistics/statistics/. Oil spills include all those that result in the loss of at least 7 metric tons of oil. Oil shipped consists of “total crude oil, petroleum product, and gas loaded.”",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "10-6",
+      "registry_title": "Protected areas, 1990-2014",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 15,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        204,
+        239,
+        1435,
+        1127
+      ],
+      "crop_bounds_pdf_points": [
+        56.581,
+        66.323,
+        398.009,
+        312.743
+      ],
+      "path": "references/figures/figure_10_6.png",
+      "sha256": "91ab3d0aecf4725308976a4a3a3c77f4ead8edad1ab9f4697cb443b6dc1db2eb",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 10-6: Protected areas, 1990-2014",
+      "source_note_ocr": "World Bank 2016h and 2017, based on data from the United Nations Environment Programme and the World Conservation Monitoring Centre, compiled by the World Resources Institute.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "10-7",
+      "registry_title": "Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 15,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        200,
+        1239,
+        1450,
+        2155
+      ],
+      "crop_bounds_pdf_points": [
+        55.472,
+        343.822,
+        402.17,
+        598.013
+      ],
+      "path": "references/figures/figure_10_7.png",
+      "sha256": "8a83ca70d74c127b8f681119ced23228debc5bb7bda4191e74fe787de5b81686",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 10-7: Carbon intensity (CO, emissions per dollar of GDP), 1820-2014",
+      "source_note_ocr": "Ritchie & Roser 2017, based on data from the Carbon Dioxide Information Analysis Center, http://cdiac.ornl.gov/trends/emis/tre_coun.html. GDP is in 2011 international dollars; for the years be- fore 1990, GDP comes from Maddison Project 2014.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "10-8",
+      "registry_title": "CO2 emissions, 1960-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 16,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        127,
+        195,
+        1372,
+        1196
+      ],
+      "crop_bounds_pdf_points": [
+        35.225,
+        54.112,
+        380.536,
+        331.89
+      ],
+      "path": "references/figures/figure_10_8.png",
+      "sha256": "95df577b8935835482ced36ab0a8522efc5baa3e14b4395a43f6c37f8accfaaf",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 10-8: CO, emissions, 1960-2015",
+      "source_note_ocr": "Our World in Data, Ritchie & Roser 2017 and https://ourworldindata.org/grapher/annual -co2-emissions-by-region, based on data from the Carbon Dioxide Information Analysis Center, http:// cdiac.ornl.gov/CO2_Emission/, and Le Quéré et al. 2016. “International air & sea” refers to aviation and sea transport; it corresponds to “Bunker fuels” in the original sources. “Other” refers to the difference between estimated global CO, emissions and the sum of the regional and national totals; it corresponds to the “Statistical difference” component.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "11-1",
+      "registry_title": "Great power war, 1500-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 16,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        131,
+        1288,
+        1382,
+        2204
+      ],
+      "crop_bounds_pdf_points": [
+        36.334,
+        357.42,
+        383.309,
+        611.61
+      ],
+      "path": "references/figures/figure_11_1.png",
+      "sha256": "b5c8708e6b8cf04468320b7214513fff58951a0d4e7532278316968e95acad58",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 11-1: Great power war, 1500-2015",
+      "source_note_ocr": "Levy & Thompson 2011, updated for the 21st century. Percentage of years the great powers fought each other in wars, aggregated over 25-year periods, except for 2000-2015. The arrow points to 1975-1999, the last quarter-century plotted in fig. 5-12 of Pinker 2011.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "11-2",
+      "registry_title": "Battle deaths, 1946-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 17,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        216,
+        150,
+        1419,
+        1175
+      ],
+      "crop_bounds_pdf_points": [
+        59.909,
+        41.625,
+        393.572,
+        326.062
+      ],
+      "path": "references/figures/figure_11_2.png",
+      "sha256": "9545b325d002e26be316983a15b4ef32da96f650a63a74a130cd3599ec1e21f6",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 11-2: Battle deaths, 1946-2016",
+      "source_note_ocr": "Adapted from Human Security Report Project 2007. For 1946-1988: Peace Research Institute of Oslo Battle Deaths Dataset 1946-2008, Lacina & Gleditsch 2005. For 1989-2015: UCDP Battle-Related Deaths Dataset version 5.0, Uppsala Conflict Data Program 2017, Melander, Pettersson, & Themnér 2016, updated with information from Therese Pettersson and Sam Taub of UCDP. World population figures: 1950-2016, US Census Bureau; 1946-1949, McEvedy & Jones 1978, with adjustments. The arrow points to 2008, the last year plotted in fig. 6-2 of Pinker 2011.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "11-3",
+      "registry_title": "Genocide deaths, 1956-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 17,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        217,
+        1235,
+        1433,
+        2233
+      ],
+      "crop_bounds_pdf_points": [
+        60.187,
+        342.712,
+        397.455,
+        619.658
+      ],
+      "path": "references/figures/figure_11_3.png",
+      "sha256": "ead3ed1cc3ce1b541b904e6b261910d0b55035b7ac378c8cc4d4d0bdaa802e91",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 11-3: Genocide deaths, 1956-2016",
+      "source_note_ocr": "PITF, 1955-2008: Political Instability Task Force State Failure Problem Set, 1955-2008, Marshall, Gurr, & Harff 2009; Center for Systemic Peace 2015. Calculations described in Pinker 2011, p. 338. UCDP, 1989-2016: UCDP One-Sided Violence Dataset v. 2.5-2016, Melander, Pettersson, & Themnér 2016; Uppsala Conflict Data Program 2017, “High fatality” estimates, updated with data provided by Sam Taub of UCDP, scaled by world population figures from US Census Bureau. The arrow points to 2008, the last year plotted in fig. 6-8 of Pinker 2011.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "12-1",
+      "registry_title": "Homicide deaths, Western Europe, US, and Mexico, 1300-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 18,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        146,
+        112,
+        1362,
+        1197
+      ],
+      "crop_bounds_pdf_points": [
+        40.494,
+        31.08,
+        377.762,
+        332.168
+      ],
+      "path": "references/figures/figure_12_1.png",
+      "sha256": "4f9420918cfead20c6213dad87cac42dec6e89f6a14ee586b03354ff80d26014",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 12-1: Homicide deaths, Western Europe, US, and Mexico, 1300-2015",
+      "source_note_ocr": "England, Netherlands & Belgium, Italy, 1300-1994: Eisner 2003, plotted in fig. 3-3 of Pinker 2011. England, 2000-2014: UK Office for National Statistics. Italy and Netherlands, 2010-2012: United Nations Office on Drugs and Crime 2014. New England (New England, whites only, 1636-1790, and Vermont and New Hampshire, 1780-1890): Roth 2009, plotted in fig. 3-13 of Pinker 2011; 2006 and 2014 from FBI Uniform Crime Reports. Southwest US (Arizona, Nevada, and New Mexico), 1850 and 1914: Roth 2009, plotted in fig. 3-16 of Pinker 2011; 2006 and 2014 from FBI Uniform Crime Reports. Mexico: Carlos Vilalta, personal communication, originally from Instituto Nacional de Estadistica y Geografia 2016 and Botello 2016, averaged over decades until 2010.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "12-2",
+      "registry_title": "Homicide deaths, 1967-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 18,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        145,
+        1254,
+        1366,
+        2270
+      ],
+      "crop_bounds_pdf_points": [
+        40.217,
+        347.985,
+        378.872,
+        629.925
+      ],
+      "path": "references/figures/figure_12_2.png",
+      "sha256": "64ef16dd2a9d01dabe4a8d8401cc542d88dc1f0904d6e065e40e7b3b501a21a3",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 12-2: Homicide deaths, 1967-2015",
+      "source_note_ocr": "United States: FBI Uniform Crime Reports, https://ucr.fbi.gov/, and Federal Bureau of Investi- gation 2016. England (data include Wales): Office for National Statistics 2017. World, 2000: Krug et al. 2002. World, 2003-2011: United Nations Economic and Social Council 2014, fig. 1; the percentages were converted to homicide rates by setting the 2012 rate at 6.2, the estimate reported in United Nations Office on Drugs and Crime 2014, p. 12. The arrows point to the most recent years plotted in Pinker 2011 for the world (2004, fig. 3-9), US (2009, fig. 3-18), and England (2009, fig. 3-19).",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "12-3",
+      "registry_title": "Motor vehicle accident deaths, US, 1921-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 19,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        226,
+        198,
+        1426,
+        1143
+      ],
+      "crop_bounds_pdf_points": [
+        62.683,
+        54.945,
+        395.513,
+        317.183
+      ],
+      "path": "references/figures/figure_12_3.png",
+      "sha256": "fd345ba3430411ae733cf407b8276eb0b082376ccbfca43cbff2846122f7364b",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 12-3: Motor vehicle accident deaths, US, 1921-2015",
+      "source_note_ocr": "National Highway Traffic Safety Administration, accessed from http://www.informedforlife .org/demos/FCKeditor/UserFiles/File/TRAFFICFATALITIES(1899-2005).pdf, http://www-fars.nhtsa .dot.gov/Main/index.aspx, and https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812384.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "12-4",
+      "registry_title": "Pedestrian deaths, US, 1927-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 19,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        211,
+        1253,
+        1441,
+        2202
+      ],
+      "crop_bounds_pdf_points": [
+        58.523,
+        347.707,
+        399.674,
+        611.055
+      ],
+      "path": "references/figures/figure_12_4.png",
+      "sha256": "8a97685d087cf7b53516e866c2e75783f0b28c76d69cd1f3b4a146ff35355269",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 12-4: Pedestrian deaths, US, 1927-2015",
+      "source_note_ocr": "National Highway Traffic Safety Administration. For 1927-1984: Federal Highway Adminis- tration 2003. For 1985-1995: National Center for Statistics and Analysis 1995. For 1995-2005: National Center for Statistics and Analysis 2006. For 2005-2014: National Center for Statistics and Analysis 2016. For 2015: National Center for Statistics and Analysis 2017.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "12-5",
+      "registry_title": "Plane crash deaths, 1970-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 20,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        152,
+        192,
+        1373,
+        1128
+      ],
+      "crop_bounds_pdf_points": [
+        42.158,
+        53.28,
+        380.813,
+        313.02
+      ],
+      "path": "references/figures/figure_12_5.png",
+      "sha256": "401739b71efdc25c9f6c7966d75807f83eb0a95e815d5719d5d81366fa9ea326",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 12-5: Plane crash deaths, 1970-2015",
+      "source_note_ocr": "Aviation Safety Network 2017. Data on the number of passengers are from World Bank 2016b.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "12-6",
+      "registry_title": "Deaths from falls, fire, drowning, and poison, US, 1903-2014",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 20,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        154,
+        1231,
+        1367,
+        2199
+      ],
+      "crop_bounds_pdf_points": [
+        42.713,
+        341.603,
+        379.149,
+        610.222
+      ],
+      "path": "references/figures/figure_12_6.png",
+      "sha256": "853eb57eba1fba1bfdc436280c56dc1cdcf70211e1cfdb4f41dbca61fcf220b4",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 12-6: Deaths from falls, fire, drowning, and poison, US, 1903-2014",
+      "source_note_ocr": "National Safety Council 2016. Data for Fire, Drowning, and Poison (solid or liquid) are aggre- gated over 1903-1998 and 1999-2014 datasets. For 1999-2014, data for Poison (solid or liquid) include poisonings by gas or vapor. Data for Falls extend only to 1992 because of reporting artifacts in subse- quent years (see note 50 for details).",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "12-7",
+      "registry_title": "Occupational accident deaths, US, 1913-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 21,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        205,
+        121,
+        1455,
+        1219
+      ],
+      "crop_bounds_pdf_points": [
+        56.858,
+        33.578,
+        403.557,
+        338.272
+      ],
+      "path": "references/figures/figure_12_7.png",
+      "sha256": "cf997d5499a0a2e234d0cf9aa6c39f9f6fabe6299975c708dec7d1ca2199e693",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 12-7: Occupational accident deaths, US, 1913-2015",
+      "source_note_ocr": "Data are from different sources and may not be completely commensurable (see note 63 for de- tails). For 1913, 1933, and 1980: Bureau of Labor Statistics, National Safety Council, and CDC National Institute for Occupational Safety and Health, respectively, cited in Centers for Disease Control 1999. For 1970: Occupational Safety and Health Administration, “Timeline of OSHA’s 4o Year History,” https:// www.osha.gov/osha4o/timeline.html. For 1993-1994: Bureau of Labor Statistics, cited in Pegula & Jano- cha 2013. For 1995-2005: National Center for Health Statistics 2014, table 38. For 2006-2014: Bureau of Labor Statistics 2016a. The latter data were reported as deaths per full-time-equivalent workers and are multiplied by .95 for rough commensurability with the preceding years, based on the year 2007, when the Census of Fatal Occupation Injuries reported rates both per worker (3.8) and per FTE (4.0).",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "12-8",
+      "registry_title": "Natural disaster deaths, 1900-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 21,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        208,
+        1277,
+        1435,
+        2287
+      ],
+      "crop_bounds_pdf_points": [
+        57.691,
+        354.368,
+        398.009,
+        634.643
+      ],
+      "path": "references/figures/figure_12_8.png",
+      "sha256": "033e65ed0d1932d7f56ce838dfecda3af201021c5d82fc18ea1a00c12181268c",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 12-8: Natural disaster deaths, 1900-2015",
+      "source_note_ocr": "Our World in Data, Roser 2016q, based on data from EM-DAT, The International Disaster Database, www.emdat.be. The graph plots the sum of the death rates for Drought, Earthquake, Extreme tempera- ture, Flood, Impact, Landslide, Mass movement (dry), Storm, Volcanic activity, and Wildfire (excluding Epidemics). In many decades a single disaster type dominates the numbers: droughts in the 1910s, 1920s, 19308, and 1960s; floods in the 1930s and 1950s; earthquakes in the 1970s, 2000s, and 2010s.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "12-9",
+      "registry_title": "Lightning strike deaths, US, 1900-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 22,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        142,
+        198,
+        1384,
+        1095
+      ],
+      "crop_bounds_pdf_points": [
+        39.385,
+        54.945,
+        383.864,
+        303.863
+      ],
+      "path": "references/figures/figure_12_9.png",
+      "sha256": "d4f41e102fa9dd9602e6614abad5f7d70898737c58e01f7a7c8bcc1e6bddda8b",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 12-9: Lightning strike deaths, US, 1900-2015",
+      "source_note_ocr": "Our World in Data, Roser 2016q, based on data from National Oceanic and Atmospheric Admin- istration, http://www. lightningsafety.noaa.gov/victims.shtml, and Lopez & Holle 1998.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "13-1",
+      "registry_title": "Terrorism deaths, 1970-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 22,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        133,
+        1153,
+        1373,
+        2207
+      ],
+      "crop_bounds_pdf_points": [
+        36.889,
+        319.957,
+        380.813,
+        612.442
+      ],
+      "path": "references/figures/figure_13_1.png",
+      "sha256": "3446642ef2985daeeda187a0aaa881f635892d6ed8e718bb16f01d6f5ca55853",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 13-1: Terrorism deaths, 1970-2015",
+      "source_note_ocr": "“Global Terrorism Database,” National Consortium for the Study of Terrorism and Responses to Terrorism 2016, https://www.start.umd.edu/gtd/. The rate for the world excludes deaths in Afghan- istan after 2001, Iraq after 2003, Pakistan after 2004, Nigeria after 2009, Syria after 2011, and Libya after 2014. Population estimates for the world and Western Europe are from the European Unions 2015 Revi- sion of World Population Prospects (https://esa.un.org/unpd/wpp/); estimates for the United States are from US Census Bureau 2017. The vertical arrow points to 2007, the last year plotted in figs. 6-9, 6-10, and 6-11 in Pinker 2011",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "14-1",
+      "registry_title": "Democracy versus autocracy, 1800-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 23,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        210,
+        214,
+        1433,
+        1156
+      ],
+      "crop_bounds_pdf_points": [
+        58.245,
+        59.385,
+        397.455,
+        320.79
+      ],
+      "path": "references/figures/figure_14_1.png",
+      "sha256": "26569d83fb896feba423298d46e96443d5174f37fea75144596582be127776b9",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 14-1: Democracy versus autocracy, 18300-2015",
+      "source_note_ocr": "HumanProgress, http://humanprogress.org/f1/2560, based on Polity 1V Annual Time-Series, 1800— 2015, Marshall, Gurr, & Jaggers 2016. Scores are summed over sovereign states with a population greater than 500,000, and range from —10 for a complete autocracy to 10 for a perfect democracy. The arrow points to 2008, the last year plotted in fig. 5-23 of Pinker 2011.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "14-2",
+      "registry_title": "Human rights, 1949-2014",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 23,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        211,
+        1199,
+        1428,
+        2158
+      ],
+      "crop_bounds_pdf_points": [
+        58.523,
+        332.723,
+        396.068,
+        598.845
+      ],
+      "path": "references/figures/figure_14_2.png",
+      "sha256": "390c05cfe153f6435813e5d0f955c79fa9fd085c7dd7dd9e578c460344b72a05",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 14-2: Human rights, 1949-2014",
+      "source_note_ocr": "Our World in Data, Roser 2016i, graphing an index devised by Fariss 2014, which estimates pro- uo is the mean tection from torture, extrajudicial killing, political imprisonment, and disappearances. over all countries and years; the units are standard deviations.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "14-3",
+      "registry_title": "Death penalty abolitions, 1863-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 24,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        137,
+        229,
+        1393,
+        1188
+      ],
+      "crop_bounds_pdf_points": [
+        37.998,
+        63.547,
+        386.36,
+        329.67
+      ],
+      "path": "references/figures/figure_14_3.png",
+      "sha256": "7f2c4a90301392a76f025112c56fa3618850f97274492c1254a940246a350cfc",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 14-3: Death penalty abolitions, 1863-2016",
+      "source_note_ocr": "“Capital Punishment by Country: Abolition Chronology,” Wikipedia, retrieved Aug. 15, 2016. Several European countries abolished the death penalty in their mainland earlier than indicated here, but the time line records the last abolition in any territory under their jurisdiction. The arrow points to 2008, the last year plotted in fig. 4-3 of Pinker 2011.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "14-4",
+      "registry_title": "Executions, US, 1780-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 24,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        146,
+        1269,
+        1364,
+        2173
+      ],
+      "crop_bounds_pdf_points": [
+        40.494,
+        352.147,
+        378.317,
+        603.008
+      ],
+      "path": "references/figures/figure_14_4.png",
+      "sha256": "1a0b0c18aed8b16fa87c11369b764ae8e572c0b66fb34b7807491e79d41708df",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 14-4: Executions, US, 1780-2016",
+      "source_note_ocr": "Death Penalty Information Center 2017. Population estimates from US Census Bureau 2017. The arrow points to 2010, the last year plotted in fig. 4-4 of Pinker 2011.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "15-1",
+      "registry_title": "Racist, sexist, and homophobic opinions, US, 1987-2012",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 25,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        195,
+        217,
+        1426,
+        1107
+      ],
+      "crop_bounds_pdf_points": [
+        54.085,
+        60.218,
+        395.513,
+        307.192
+      ],
+      "path": "references/figures/figure_15_1.png",
+      "sha256": "0286048f07fd936f646013f1271ce055ff112dcec09ff21c6bf199593d5d76da",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 15-1: Racist, sexist, and homophobic opinions, US, 1987-2012",
+      "source_note_ocr": "Pew Research Center 2012b. The arrows point to the most recent years plotted in Pinker 2011 for similar questions: Blacks, 1997 (fig. 7-7); Women, 1995 (fig. 7-11); Homosexuals, 2009 (fig. 7-24).",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "15-2",
+      "registry_title": "Racist, sexist, and homophobic Web searches, US, 2004-2017",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 25,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        202,
+        1243,
+        1445,
+        2175
+      ],
+      "crop_bounds_pdf_points": [
+        56.026,
+        344.933,
+        400.783,
+        603.562
+      ],
+      "path": "references/figures/figure_15_2.png",
+      "sha256": "332166f4f94a75f1b038643cf54e780cdf8d70ab6b461458bbf300b8bdf09d31",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 15-2: Racist, sexist, and homophobic Web searches, US, 2004-2017",
+      "source_note_ocr": "Google Trends (www.google.com/trends), searches for “nigger jokes,” “bitch jokes,” and “fag jokes,” United States, 2004-2017, relative to total search volume. Data (accessed Jan. 22, 2017) are by month, expressed as a percentage of the peak month for each search term, then averaged over the months of each year, and smoothed.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "15-3",
+      "registry_title": "Hate crimes, US, 1996-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 26,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        143,
+        220,
+        1381,
+        1121
+      ],
+      "crop_bounds_pdf_points": [
+        39.662,
+        61.05,
+        383.032,
+        311.077
+      ],
+      "path": "references/figures/figure_15_3.png",
+      "sha256": "43ccbb95203b3191bdd86176dcdc9493f661dbb87bd5838c18db099ebc2b61b3",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 15-3: Hate crimes, US, 1996-2015",
+      "source_note_ocr": "Federal Bureau of Investigation 2016b. The arrow points to 2008, the last year plotted in fig. 7-4 of Pinker 2011.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "15-4",
+      "registry_title": "Rape and domestic violence, US, 1993-2014",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 26,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        137,
+        1201,
+        1404,
+        2150
+      ],
+      "crop_bounds_pdf_points": [
+        37.998,
+        333.277,
+        389.411,
+        596.625
+      ],
+      "path": "references/figures/figure_15_4.png",
+      "sha256": "9158a8e4093bb6f0e545e976b519e1076212bb6c461db6af702f399a9e5cea0b",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 15-4: Rape and domestic violence, US, 1993-2014",
+      "source_note_ocr": "US Bureau of Justice Statistics, National Crime Victimization Survey, Victimization Analysis Tool, http://www.bjs.gov/index.cfm?ty=nvat, with additional data provided by Jennifer Truman of BJS. The gray line represents “Intimate partner violence” with female victims. The arrows point to 2005, the last year plotted in fig. 7-13, and 2008, the last year plotted in fig. 7-10, of Pinker 2011.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "15-5",
+      "registry_title": "Decriminalization of homosexuality, 1791-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 27,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        196,
+        187,
+        1452,
+        1149
+      ],
+      "crop_bounds_pdf_points": [
+        54.362,
+        51.892,
+        402.725,
+        318.848
+      ],
+      "path": "references/figures/figure_15_5.png",
+      "sha256": "6ff6929e98780f4df2c3c600cb8a0c2f86122905b9e19bea4002ca135be3938e",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 15-5: Decriminalization of homosexuality, 1791-2016",
+      "source_note_ocr": "Ottosson 2006, 2009. Dates for an additional sixteen countries were obtained from “LGBT Rights by Country or Territory,” Wikipedia, retrieved July 31, 2016. Dates for an additional thirty-six countries that currently allow homosexuality are not listed in either source. The arrow points to 2009, the last year plotted in fig. 7-23 of Pinker 2011.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "15-6",
+      "registry_title": "Liberal values across time and generations, developed countries, 1980-2005",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 27,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        222,
+        1201,
+        1425,
+        2204
+      ],
+      "crop_bounds_pdf_points": [
+        61.574,
+        333.277,
+        395.236,
+        611.61
+      ],
+      "path": "references/figures/figure_15_6.png",
+      "sha256": "cdda14a30725bc20ec7cf0b81d23d9503a7f90bc166b1f98c8c34909f69510fe",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 15-6: Liberal values across time and generations, developed countries, 1980— 2005",
+      "source_note_ocr": "Welzel 2013, fig. 4.1. World Values Survey data are from Australia, Canada, France, West Ger- many, Italy, Japan, the Netherlands, Norway, Sweden, the United Kingdom, and the United States (each country weighted equally).",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "15-7",
+      "registry_title": "Liberal values across time (extrapolated), world's culture zones, 1960-2006",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 28,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        140,
+        453,
+        1370,
+        1619
+      ],
+      "crop_bounds_pdf_points": [
+        38.83,
+        125.707,
+        379.981,
+        449.272
+      ],
+      "path": "references/figures/figure_15_7.png",
+      "sha256": "66007324fd32218708500cff8877d40f1218e86c02265fa50a9b086bd6639459",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 15-7: Liberal values across time (extrapolated), world’s culture zones, 1960-— 2006",
+      "source_note_ocr": "World Values Survey, as analyzed in Welzel 2013, fig. 4.4, updated with data provided by Welzel. Emancipative value estimates for each country in each year are calculated for a hypothetical sample of a fixed age, based on each respondent's birth cohort, the year of testing, and a country-specific period B effect. The labels are geographic mnemonics for Welzel’s “ culture zones” and do not literally apply to every country in a zone. I have renamed some of the zones: Protestant Western Europe corresponds to Welzel’s “Reformed West.” US, Canada, Australia, New Zealand = “New West.” Catholic & Southern Europe = “Old West.” Central & Eastern Europe = “Returned West.” East Asia = “Sinic East.” Former Yugoslavia & USSR = “Orthodox East.” South & Southeast Asia = “Indic East.” Countries in each zone are weighted equally.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "15-8",
+      "registry_title": "Victimization of children, US, 1993-2012",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 29,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        210,
+        136,
+        1458,
+        1178
+      ],
+      "crop_bounds_pdf_points": [
+        58.245,
+        37.74,
+        404.389,
+        326.895
+      ],
+      "path": "references/figures/figure_15_8.png",
+      "sha256": "c615ab82d975e8b6ef25a7e467a227882709a67e7537d814f425882411e142b7",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 15-8: Victimization of children, US, 1993-2012",
+      "source_note_ocr": "Physical abuse and Sexual abuse (mainly by caregivers): National Child Abuse and Neglect Data System, http://www.ndacan.cornell.edu/, analyzed by Finkelhor 2014; Finkelhor et al. 2014. Vio- lent victimization at school: US Bureau of Justice Statistics, National Crime Victimization Survey, Victim- ization Analysis Tool, http://www.bjs.gov/index.cfm?ty=nvat. Rates for physical and sexual abuse are per 100,000 children younger than 18. Rates for violent victimization at school are per 10,000 children aged 12-17. The arrows point to 2003 and 2007, the last years plotted in fig. 7-22 and fig. 7-20 in Pinker 2011, respectively.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "15-9",
+      "registry_title": "Child labor, 1850-2012",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 29,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        215,
+        1246,
+        1445,
+        2248
+      ],
+      "crop_bounds_pdf_points": [
+        59.632,
+        345.765,
+        400.783,
+        623.82
+      ],
+      "path": "references/figures/figure_15_9.png",
+      "sha256": "9e0a761ffe50d045eb752811a88e632ae222d754ffa24eb7f8c69c46783cc24f",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 15-9: Child labor, 1850-2012",
+      "source_note_ocr": "Our World in Data, Ortiz-Ospina & Roser 2016a, and the following. England: Percentage of children aged 10-14 recorded as working, Cunningham 1996. United States: Whaples 2005. Italy: Child work incidence, ages 10-14, Tonioli & Vecchi 2007. World ILO-EPEAP (International Labour Organiza- tion Programme on Estimates and Projections of the Economically Active Population): Child Labor, ages 10-14, Basu 1999. World ILO-IPEC (International Labour Organization International Programme on the Elimination of Child Labour): Child Labor, ages 5-17, International Labour Organization 2013.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "16-1",
+      "registry_title": "Literacy, 1475-2010",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 30,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        121,
+        224,
+        1410,
+        1164
+      ],
+      "crop_bounds_pdf_points": [
+        33.56,
+        62.16,
+        391.075,
+        323.01
+      ],
+      "path": "references/figures/figure_16_1.png",
+      "sha256": "0793731f790fdb74dab85cce7a603efabb1e91528fc02381d6a4fea8250e2035",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 16-1: Literacy, 1475-2010",
+      "source_note_ocr": "Our World in Data, Roser & Ortiz-Ospina 2016b, including data from the following. Before 1800: Buringh & Van Zanden 2009. World: van Zanden et al. 2014. US: National Center for Education Statistics. After 2000: Central Intelligence Agency 2016.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "16-2",
+      "registry_title": "Basic education, 1820-2010",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 30,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        141,
+        1236,
+        1356,
+        2179
+      ],
+      "crop_bounds_pdf_points": [
+        39.108,
+        342.99,
+        376.098,
+        604.673
+      ],
+      "path": "references/figures/figure_16_2.png",
+      "sha256": "8eac92be6c1323ee363ad97f01a2ffd8c9524140028f5055a24d331b841da51c",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 16-2: Basic education, 1820-2010",
+      "source_note_ocr": "Our World in Data, Roser & Nagdy 2016c, based on data from van Zanden et al. 2014. The graphs indicate the share of the population aged 15 or older that had completed at least a year of education (more in later eras); see van Leeuwen & van Leewen-Li 2014, pp. 88-93.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "16-3",
+      "registry_title": "Years of schooling, 1870-2010",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 31,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        194,
+        218,
+        1433,
+        1125
+      ],
+      "crop_bounds_pdf_points": [
+        53.808,
+        60.495,
+        397.455,
+        312.188
+      ],
+      "path": "references/figures/figure_16_3.png",
+      "sha256": "3922161d0e5134e4070c3d391d0b19f59845d35bea6eac84e206c2227803e28c",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 16-3: Years of schooling, 1870-2010",
+      "source_note_ocr": "Our World in Data, Roser & Ortiz-Ospina 2016a, based on data from Lee & Lee 2016. Data are for the population aged 15-64.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "16-4",
+      "registry_title": "Female literacy, 1750-2014",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 31,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        196,
+        1212,
+        1428,
+        2159
+      ],
+      "crop_bounds_pdf_points": [
+        54.362,
+        336.33,
+        396.068,
+        599.122
+      ],
+      "path": "references/figures/figure_16_4.png",
+      "sha256": "2c4f5412c0cc54a5fc7cf3ba84601479920fc61257cb070f9027bccba046f09c",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 16-4: Female literacy, 1750-2014",
+      "source_note_ocr": "England (all adults): Clark 2007, p. 179. World, Pakistan, & Afghanistan (ages 15-24): Human- Progress, http://www.humanprogress.org/f1/2101, based on data from UNESCO Institute for Statistics, summarized in World Bank 2016f. Data for the world are averaged over slightly different sets of countries in different years.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "16-5",
+      "registry_title": "IQ gains, 1909-2013",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 32,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        134,
+        207,
+        1378,
+        1082
+      ],
+      "crop_bounds_pdf_points": [
+        37.166,
+        57.443,
+        382.2,
+        300.255
+      ],
+      "path": "references/figures/figure_16_5.png",
+      "sha256": "735403678b4839f966be5db75d1e953ac792d3a63681117e939e789738127df5",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 16-5: 1Q gains, 1909-2013",
+      "source_note_ocr": "Pietschnig & Voracek 2015, supplemental online material. The lines display changes in IQ mea- sured by different tests starting at different times and cannot be compared with one another.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "16-6",
+      "registry_title": "Global well-being, 1820-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 32,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        136,
+        1197,
+        1397,
+        2148
+      ],
+      "crop_bounds_pdf_points": [
+        37.721,
+        332.168,
+        387.47,
+        596.07
+      ],
+      "path": "references/figures/figure_16_6.png",
+      "sha256": "f40df4b0db2b78c0f8c2aee3d3abb74931d15cd89ecf756fd26473b69d2840d9",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 16-6: Global well-being, 1820-2015",
+      "source_note_ocr": "Historical Index of Human Development: Prados de la Escosura 2015, 0-1 scale, available at Our World in Data, Roser 2016h. Well-Being Composite: Rijpma 2014, p. 259, standard deviation scale over country-decades.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "17-1",
+      "registry_title": "Work hours, Western Europe and US, 1870-2000",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 33,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        206,
+        226,
+        1435,
+        1112
+      ],
+      "crop_bounds_pdf_points": [
+        57.136,
+        62.715,
+        398.009,
+        308.58
+      ],
+      "path": "references/figures/figure_17_1.png",
+      "sha256": "89018c76321b0170374f169a56f8dc961661c3e95f4211d1896c9ca9279a7682",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 17-1: Work hours, Western Europe and US, 1870-2000",
+      "source_note_ocr": "Roser 2016t, based on data from Huberman & Minns 2007 on full-time production workers (both sexes) in nonagricultural activities.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "17-2",
+      "registry_title": "Retirement, US, 1880-2010",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 33,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        203,
+        1235,
+        1440,
+        2102
+      ],
+      "crop_bounds_pdf_points": [
+        56.304,
+        342.712,
+        399.396,
+        583.305
+      ],
+      "path": "references/figures/figure_17_2.png",
+      "sha256": "361e4a0587db52a654d9a9efe35dc6fe4ecf82921b0c672cea6225cffca48fff",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 17-2: Retirement, US, 1880-2010",
+      "source_note_ocr": "Housel 2013, based on data from the Bureau of Labor Statistics, and Costa 1998.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "17-3",
+      "registry_title": "Utilities, appliances, and housework, US, 1900-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 34,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        138,
+        233,
+        1403,
+        1112
+      ],
+      "crop_bounds_pdf_points": [
+        38.275,
+        64.657,
+        389.134,
+        308.58
+      ],
+      "path": "references/figures/figure_17_3.png",
+      "sha256": "d9fac534d90378f2db473a22c899f7e0035d3da8b750fce74aba866a42b0e27f",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 17-3: Utilities, appliances, and housework, US, 1900-2015",
+      "source_note_ocr": "Before 2005: Greenwood, Seshadri, & Yorukoglu 2005. Appliances, 2005 and 2011: US Census Bureau, Siebens 2013. Housework, 2015: Our World in Data, Roser 2016t, based on the American Time Use Survey, Bureau of Labor Statistics 2016b.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "17-4",
+      "registry_title": "Cost of light, England, 1300-2006",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 34,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        133,
+        1215,
+        1396,
+        2158
+      ],
+      "crop_bounds_pdf_points": [
+        36.889,
+        337.163,
+        387.192,
+        598.845
+      ],
+      "path": "references/figures/figure_17_4.png",
+      "sha256": "7665d01d3d0d1ed2576be49ae09515e202688503865ceeb97023a6df2232022d",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 17-4: Cost of light, England, 1300-2006",
+      "source_note_ocr": "Our World in Data, Roser 20160, based on data from Fouquet & Pearson 2012. Cost of one million lumen-hours (about 833 hours from an 80-watt incandescent bulb), in pounds sterling (inflation-adjusted to the year 2000).",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "17-5",
+      "registry_title": "Spending on necessities, US, 1929-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 35,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        208,
+        65,
+        1443,
+        1048
+      ],
+      "crop_bounds_pdf_points": [
+        57.691,
+        18.038,
+        400.228,
+        290.82
+      ],
+      "path": "references/figures/figure_17_5.png",
+      "sha256": "2fa202c8b5b676cce13d53737fd30c97a8719efd45390a51e2aa5498d42d8679",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 17-5: Spending on necessities, US, 1929-2016",
+      "source_note_ocr": "HumanProgress, http://humanprogress.org/static/1937, adapted from a graph by Mark Perry, using data from the Bureau of Economic Analysis, http://www.bea.gov/iTable/iTable.cfm?ReqID=9& step=1#reqid=9&step=1&isuri=1. Proportion of disposable income spent on food at home, cars, clothing, household furnishings, housing, utilities, and gasoline. Data from 1941 to 1946 are omitted because they are distorted by rationing and soldiers’ salaries during World War II.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "17-6",
+      "registry_title": "Leisure time, US, 1965-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 35,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        193,
+        1212,
+        1434,
+        2130
+      ],
+      "crop_bounds_pdf_points": [
+        53.53,
+        336.33,
+        397.732,
+        591.075
+      ],
+      "path": "references/figures/figure_17_6.png",
+      "sha256": "77c120ad5e3c2e4c9fbf4bffb94df22fcbf54a58a974acd8d21cea7209b2ad35",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 17-6: Leisure time, US, 1965-2015",
+      "source_note_ocr": "1965-2003: Aguiar & Hurst 2007, table III, Leisure Measure 1. 2015: American Time Use Survey, Bureau of Labor Statistics 2016c, summing Leisure and Sports, Lawn and Garden Care, and Volunteering for commensurability with Aguiar & Hurst’s Measure 1.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "17-7",
+      "registry_title": "Cost of air travel, US, 1979-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 36,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        132,
+        223,
+        1384,
+        1151
+      ],
+      "crop_bounds_pdf_points": [
+        36.611,
+        61.883,
+        383.864,
+        319.402
+      ],
+      "path": "references/figures/figure_17_7.png",
+      "sha256": "0bac56a0244090d7dd56c2ab13b3b4d4fcfb89d3a39aa275c711e65f316b3916",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 17-7: Cost of air travel, US, 1979-2015",
+      "source_note_ocr": "Thompson 2013, updated with data from Airlines for America, http://airlines.org/dataset/annual -round-trip-fares-and-fees-domestic/. Domestic travel, excluding checked baggage fees (which would raise the average cost for baggage-checking passengers by about a half-cent per mile since 2008).",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "17-8",
+      "registry_title": "International tourism, 1995-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 36,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        133,
+        1244,
+        1366,
+        2125
+      ],
+      "crop_bounds_pdf_points": [
+        36.889,
+        345.21,
+        378.872,
+        589.688
+      ],
+      "path": "references/figures/figure_17_8.png",
+      "sha256": "3748602c49613e955aab742901931bde2d1dc45d27633de1ed8e740581f172c4",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 17-8: International tourism, 1995-2015",
+      "source_note_ocr": "World Bank 2016e, based on data from the World Tourism Organization, Yearbook of Tourism Statistics.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "18-1",
+      "registry_title": "Life satisfaction and income, 2006",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 37,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        230,
+        146,
+        1421,
+        1170
+      ],
+      "crop_bounds_pdf_points": [
+        63.792,
+        40.515,
+        394.126,
+        324.675
+      ],
+      "path": "references/figures/figure_18_1.png",
+      "sha256": "377d590e2639bea09ff1869cb4465b9fe0877c14bb52dee737fb1258815380ac",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 18-1: Life satisfaction and income, 2006",
+      "source_note_ocr": "Stevenson & Wolfers 2008a, fig. 11, based on data from the Gallup World Poll 2006. Credit: Betsey Stevenson and Justin Wolfers.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "18-2",
+      "registry_title": "Loneliness, US students, 1978-2011",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 37,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        236,
+        1251,
+        1427,
+        2254
+      ],
+      "crop_bounds_pdf_points": [
+        65.457,
+        347.152,
+        395.791,
+        625.485
+      ],
+      "path": "references/figures/figure_18_2.png",
+      "sha256": "7ba9a500e094c2c2e7195ca4d507e7d14821b91901eab1c4c6963fb78eb95090",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 18-2: Loneliness, US students, 1978-2011",
+      "source_note_ocr": "Clark, Loxton, & Tobin 2015. College students (left axis): Revised UCLA Loneliness Scale, trend line across many samples, taken from their fig. 1. High school students (right axis): Mean rating of six loneliness items from the Monitoring the Future survey, triennial means, taken from their fig. 4. Each axis spans half a standard deviation, so the slopes of the college and high school curves are commensu- rable, but their relative heights are not.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "18-3",
+      "registry_title": "Suicide, England, Switzerland, and US, 1860-2014",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 38,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        134,
+        268,
+        1369,
+        1239
+      ],
+      "crop_bounds_pdf_points": [
+        37.166,
+        74.37,
+        379.704,
+        343.822
+      ],
+      "path": "references/figures/figure_18_3.png",
+      "sha256": "bbce52a58c68a9a19ce111c28ff43026e65c7cb3ff320ac031f882943e229d90",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 18-3: Suicide, England, Switzerland, and US, 1860-2014",
+      "source_note_ocr": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. The series has not been extended because the data are not commensurable with current records. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: Centers for Disease Control, Carter et al. 2000, table Abg50. United States, 1999-2014: Centers for Disease Control 2015.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "18-4",
+      "registry_title": "Happiness and excitement, US, 1972-2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 38,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        144,
+        1320,
+        1375,
+        2217
+      ],
+      "crop_bounds_pdf_points": [
+        39.94,
+        366.3,
+        381.368,
+        615.217
+      ],
+      "path": "references/figures/figure_18_4.png",
+      "sha256": "b3e7550e44b8514d6a71a2648e57450e712171c1311bce6b3556a44455c5136c",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 18-4: Happiness and excitement, US, 1972-2016",
+      "source_note_ocr": "“General Social Survey,” Smith, Son, & Schapiro 2015, figs. 1 and 5, updated for 2016 from https://gssdataexplorer.norc.org/projects/15157/variables/438/vshow. Data exclude nonresponses.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "19-1",
+      "registry_title": "Nuclear weapons, 1945-2015",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 39,
+      "panel": 1,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        200,
+        188,
+        1470,
+        1155
+      ],
+      "crop_bounds_pdf_points": [
+        55.472,
+        52.17,
+        407.717,
+        320.512
+      ],
+      "path": "references/figures/figure_19_1.png",
+      "sha256": "96d577c15e64d143b829713c7b2f2cf6f58be23a4c1e4688a27bdfbc4b4ad4dd",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 19-1: Nuclear weapons, 1945-2015",
+      "source_note_ocr": "HumanProgress, http://humanprogress.org/static/2927, based on data from the Federation of Atomic Scientists, Kristensen & Norris 2016a, updated in Kristensen 2016; see Kristensen & Norris 2016b for additional explanation. The counts include weapons that are deployed and those that are stockpiled, but exclude weapons that are retired and awaiting dismantlement.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    },
+    {
+      "figure_id": "20-1",
+      "registry_title": "Populist support across generations, 2016",
+      "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+      "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+      "pdf_page": 39,
+      "panel": 2,
+      "render_dimensions": [
+        1590,
+        2400
+      ],
+      "crop_bounds_pixels": [
+        172,
+        1213,
+        1482,
+        2212
+      ],
+      "crop_bounds_pdf_points": [
+        47.706,
+        336.608,
+        411.045,
+        613.83
+      ],
+      "path": "references/figures/figure_20_1.png",
+      "sha256": "e1dcf4c0502eab5903c4a3610223944350fec6c9eb6dac2c1e4c5a23a700c885",
+      "identity_validation": "ocr_id_confirmed",
+      "caption_ocr": "Figure 20-1: Populist support across generations, 2016",
+      "source_note_ocr": "Trump: Exit polls conducted by Edison Research, New York Times 2016. Brexit: Exit polls con- ducted by Lord Ashcroft Polls, BBC News Magazine, June 24, 2016, http://www.bbc.com/news/magazine -36619342. European populist parties (2002-2014): Inglehart & Norris 2016, fig. 8. Data for each birth co- hort are plotted at the midpoint of their range.",
+      "source_note_validation": "machine_extracted_pending_source_review",
+      "visual_review": "pending_full_resolution_review"
+    }
+  ]
+}

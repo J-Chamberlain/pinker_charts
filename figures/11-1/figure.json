@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/11-1/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_11_1.png",
+      "sha256": "b5c8708e6b8cf04468320b7214513fff58951a0d4e7532278316968e95acad58"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "11-1",
+    "registry_title": "Great power war, 1500-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 16,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      131,
+      1288,
+      1382,
+      2204
+    ],
+    "crop_bounds_pdf_points": [
+      36.334,
+      357.42,
+      383.309,
+      611.61
+    ],
+    "path": "references/figures/figure_11_1.png",
+    "sha256": "b5c8708e6b8cf04468320b7214513fff58951a0d4e7532278316968e95acad58",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 11-1: Great power war, 1500-2015",
+    "source_note_ocr": "Levy & Thompson 2011, updated for the 21st century. Percentage of years the great powers fought each other in wars, aggregated over 25-year periods, except for 2000-2015. The arrow points to 1975-1999, the last quarter-century plotted in fig. 5-12 of Pinker 2011.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/12-7/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_12_7.png",
+      "sha256": "cf997d5499a0a2e234d0cf9aa6c39f9f6fabe6299975c708dec7d1ca2199e693"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "12-7",
+    "registry_title": "Occupational accident deaths, US, 1913-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 21,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      205,
+      121,
+      1455,
+      1219
+    ],
+    "crop_bounds_pdf_points": [
+      56.858,
+      33.578,
+      403.557,
+      338.272
+    ],
+    "path": "references/figures/figure_12_7.png",
+    "sha256": "cf997d5499a0a2e234d0cf9aa6c39f9f6fabe6299975c708dec7d1ca2199e693",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 12-7: Occupational accident deaths, US, 1913-2015",
+    "source_note_ocr": "Data are from different sources and may not be completely commensurable (see note 63 for de- tails). For 1913, 1933, and 1980: Bureau of Labor Statistics, National Safety Council, and CDC National Institute for Occupational Safety and Health, respectively, cited in Centers for Disease Control 1999. For 1970: Occupational Safety and Health Administration, “Timeline of OSHA’s 4o Year History,” https:// www.osha.gov/osha4o/timeline.html. For 1993-1994: Bureau of Labor Statistics, cited in Pegula & Jano- cha 2013. For 1995-2005: National Center for Health Statistics 2014, table 38. For 2006-2014: Bureau of Labor Statistics 2016a. The latter data were reported as deaths per full-time-equivalent workers and are multiplied by .95 for rough commensurability with the preceding years, based on the year 2007, when the Census of Fatal Occupation Injuries reported rates both per worker (3.8) and per FTE (4.0).",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

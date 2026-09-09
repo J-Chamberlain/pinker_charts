@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/5-4/plots/comparisons/supplemental_pdf_reference_figure_5_4.png",
-      "sha256": "7a3db702982949b9740a55c18ad6be09a0e8f534227169fda612eeaedbf72d09"
+      "path": "references/figures/figure_5_4.png",
+      "sha256": "6a9631fb12a903a84832f2cecdd5802701e7618e97902555d460697c68ccd8f9"
     },
     "caption": {
       "path": "figures/5-4/captions/caption.txt",
@@ -82,5 +82,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "5-4",
+    "registry_title": "Life expectancy, UK, 1701-2013",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 4,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      161,
+      221,
+      1362,
+      1161
+    ],
+    "crop_bounds_pdf_points": [
+      44.655,
+      61.328,
+      377.762,
+      322.178
+    ],
+    "path": "references/figures/figure_5_4.png",
+    "sha256": "6a9631fb12a903a84832f2cecdd5802701e7618e97902555d460697c68ccd8f9",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 5-4: Life expectancy, UK, 1701-2013",
+    "source_note_ocr": "Our World in Data, Roser 2016n. Data before 1845 are for England and Wales and come from OECD Clio Infra, van Zanden et al. 2014. Data from 1845 on are for mid-decade years only, and come from the Human Mortality Database, http://www.mortality.org/.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

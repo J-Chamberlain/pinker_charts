@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/8-1/plots/comparisons/kindle_reference_figure_8_1.png",
-      "sha256": "c69b40977ad7cb1f10ff65df128bff652733f7c68d27930a0f8eba799b496d82"
+      "path": "references/figures/figure_8_1.png",
+      "sha256": "1f50f55234d4544fb311cd23f84eec6109db60f9f1c1ffbd4177e39f35212897"
     },
     "book_period_reconstruction": {
       "path": "figures/8-1/plots/book_period/figure_8_1_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "d2816653ffa4e5362d7f18668b8562415df0a9a2cc31537994b7342ef117f074"
     },
     "book_period_comparison": {
-      "path": "figures/8-1/plots/comparisons/figure_8_1_book_period_comparison.png",
-      "sha256": "4a6df130ab52fbc30774af47407f7a97b4d4af4e8404cc93060a8c3387b32fbe"
+      "path": "figures/8-1/plots/comparisons/figure_8_1_book_period_review.png",
+      "sha256": "c205c6d9160e1f0b10cfc8ea435f200411162bb0b73daab5ee7a07a029d86fb8"
     },
     "extended_comparison": {
-      "path": "figures/8-1/plots/comparisons/figure_8_1_extended_comparison.png",
-      "sha256": "282c0db1e087ce2ccadeb70b843440a811f5fd9062cb617c2ce2d20ddc963dd8"
+      "path": "figures/8-1/plots/comparisons/figure_8_1_extended_review.png",
+      "sha256": "6ac4aa98ac4dd7b84028e04a48a50b4edffad08e352abc1726f369f5c216f6ab"
     },
     "caption": {
       "path": "figures/8-1/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "2026-06-30",
     "confidence_score": "medium"
+  },
+  "reference": {
+    "figure_id": "8-1",
+    "registry_title": "Gross World Product, 1-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 7,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      201,
+      198,
+      1439,
+      1073
+    ],
+    "crop_bounds_pdf_points": [
+      55.749,
+      54.945,
+      399.119,
+      297.757
+    ],
+    "path": "references/figures/figure_8_1.png",
+    "sha256": "1f50f55234d4544fb311cd23f84eec6109db60f9f1c1ffbd4177e39f35212897",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 8-1: Gross World Product, 1-2015",
+    "source_note_ocr": "Our World in Data, Roser 2016c, based on data from the World Bank and from Angus Maddison and Maddison Project 2014.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

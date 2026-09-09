@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/18-2/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_18_2.png",
+      "sha256": "7ba9a500e094c2c2e7195ca4d507e7d14821b91901eab1c4c6963fb78eb95090"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "18-2",
+    "registry_title": "Loneliness, US students, 1978-2011",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 37,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      236,
+      1251,
+      1427,
+      2254
+    ],
+    "crop_bounds_pdf_points": [
+      65.457,
+      347.152,
+      395.791,
+      625.485
+    ],
+    "path": "references/figures/figure_18_2.png",
+    "sha256": "7ba9a500e094c2c2e7195ca4d507e7d14821b91901eab1c4c6963fb78eb95090",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 18-2: Loneliness, US students, 1978-2011",
+    "source_note_ocr": "Clark, Loxton, & Tobin 2015. College students (left axis): Revised UCLA Loneliness Scale, trend line across many samples, taken from their fig. 1. High school students (right axis): Mean rating of six loneliness items from the Monitoring the Future survey, triennial means, taken from their fig. 4. Each axis spans half a standard deviation, so the slopes of the college and high school curves are commensu- rable, but their relative heights are not.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

@@ -24,9 +24,11 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
-    "issues": []
+    "issues": [
+      "Comparison display crops excess right whitespace and bottom source footer; source explanation remains in caption and original plot is preserved. Satirical fit to labeled future annotations requires special-case scientific review."
+    ]
   },
   "extension": {
     "status": "pending_methodology_review",
@@ -34,8 +36,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/10-2/plots/comparisons/pdf_reference_figure_10_2.png",
-      "sha256": "3cd20513baf439e65866d5edded5850c227a1ab69ffb48a9dc2e6f6c99a49b70"
+      "path": "references/figures/figure_10_2.png",
+      "sha256": "668ea58be843659fa51f9aae6c060c6ac5ed38c194d5d76b89513ff0b0653692"
     },
     "book_period_reconstruction": {
       "path": "figures/10-2/plots/book_period/figure_10_2_book_period_reconstruction.png",
@@ -46,12 +48,12 @@
       "sha256": "97e9dfa1f697a5b48105ea601f529dcea5eedc6f3527a1274e3869202cdba5fc"
     },
     "book_period_comparison": {
-      "path": "figures/10-2/plots/comparisons/figure_10_2_book_period_comparison.png",
-      "sha256": "7929ebd83cdc5faf1b90a7d9e8bd37d32f4b15425e6ef5a340de0002f7b97d8c"
+      "path": "figures/10-2/plots/comparisons/figure_10_2_book_period_review.png",
+      "sha256": "1b6beb9ece0c2cb4f825db29584269365c5df14cec49c6be10f8af86ebb6495c"
     },
     "extended_comparison": {
-      "path": "figures/10-2/plots/comparisons/figure_10_2_extended_comparison.png",
-      "sha256": "6ba0698eb3c6cf463ee147b21feb4539a3c05394f1f74e0ab450097ce5bd68c6"
+      "path": "figures/10-2/plots/comparisons/figure_10_2_extended_review.png",
+      "sha256": "640d5a8d470cb2b5e717aadc8d42b615a999ba289c2203554ced42bb2e475017"
     },
     "caption": {
       "path": "figures/10-2/captions/caption.txt",
@@ -98,5 +100,50 @@
     "archive_url": "Not found; live Google Ngram endpoint retained with raw JSON payload.",
     "download_date": "2026-07-05",
     "confidence_score": 0.76
+  },
+  "reference": {
+    "figure_id": "10-2",
+    "registry_title": "Sustainability, 1955-2109",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 13,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      234,
+      101,
+      1424,
+      1182
+    ],
+    "crop_bounds_pdf_points": [
+      64.902,
+      28.027,
+      394.958,
+      328.005
+    ],
+    "path": "references/figures/figure_10_2.png",
+    "sha256": "668ea58be843659fa51f9aae6c060c6ac5ed38c194d5d76b89513ff0b0653692",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 10-2: Sustainability, 1955-2109",
+    "source_note_ocr": "Randall Munroe, XKCD, http://xkcd.com/1007/. Credit: Randall Munroe, xked.com.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
+  },
+  "comparison_viewports": {
+    "book_period": [
+      0,
+      0,
+      1550,
+      930
+    ],
+    "extended": [
+      0,
+      0,
+      1550,
+      930
+    ]
   }
 }

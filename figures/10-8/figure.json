@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/10-8/plots/comparisons/kindle_reference_figure_10_8.png",
-      "sha256": "50011e084da26f56cf94f011780ca6c579befbc5e570dd9ae9a3e2ff899c1bb7"
+      "path": "references/figures/figure_10_8.png",
+      "sha256": "95df577b8935835482ced36ab0a8522efc5baa3e14b4395a43f6c37f8accfaaf"
     },
     "book_period_reconstruction": {
       "path": "figures/10-8/plots/book_period/figure_10_8_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "fbda6268e3d161fc9b61d861571c1f98efa3e8ab7d9b9977e03c08939137c31d"
     },
     "book_period_comparison": {
-      "path": "figures/10-8/plots/comparisons/figure_10_8_book_period_comparison.png",
-      "sha256": "35877965e6f1b10c2987eb240682e5346c5e60b32023c1c820e1fed829e22ae0"
+      "path": "figures/10-8/plots/comparisons/figure_10_8_book_period_review.png",
+      "sha256": "cd6df4490084eecb3656395c303a915b00d923aed4f68623583789deecdea13d"
     },
     "extended_comparison": {
-      "path": "figures/10-8/plots/comparisons/figure_10_8_extended_comparison.png",
-      "sha256": "7a6797589c7f048fb5fc2896f62ab78f30ccfd2656f66ca3e4a224a3c653c7db"
+      "path": "figures/10-8/plots/comparisons/figure_10_8_extended_review.png",
+      "sha256": "5db5f15b8e0d0454d61f967820d53350bbbe3a9ec4aac32b965a104c78443b33"
     },
     "caption": {
       "path": "figures/10-8/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "10-8",
+    "registry_title": "CO2 emissions, 1960-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 16,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      127,
+      195,
+      1372,
+      1196
+    ],
+    "crop_bounds_pdf_points": [
+      35.225,
+      54.112,
+      380.536,
+      331.89
+    ],
+    "path": "references/figures/figure_10_8.png",
+    "sha256": "95df577b8935835482ced36ab0a8522efc5baa3e14b4395a43f6c37f8accfaaf",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 10-8: CO, emissions, 1960-2015",
+    "source_note_ocr": "Our World in Data, Ritchie & Roser 2017 and https://ourworldindata.org/grapher/annual -co2-emissions-by-region, based on data from the Carbon Dioxide Information Analysis Center, http:// cdiac.ornl.gov/CO2_Emission/, and Le Quéré et al. 2016. “International air & sea” refers to aviation and sea transport; it corresponds to “Bunker fuels” in the original sources. “Other” refers to the difference between estimated global CO, emissions and the sum of the regional and national totals; it corresponds to the “Statistical difference” component.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

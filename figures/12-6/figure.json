@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/12-6/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_12_6.png",
+      "sha256": "853eb57eba1fba1bfdc436280c56dc1cdcf70211e1cfdb4f41dbca61fcf220b4"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "12-6",
+    "registry_title": "Deaths from falls, fire, drowning, and poison, US, 1903-2014",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 20,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      154,
+      1231,
+      1367,
+      2199
+    ],
+    "crop_bounds_pdf_points": [
+      42.713,
+      341.603,
+      379.149,
+      610.222
+    ],
+    "path": "references/figures/figure_12_6.png",
+    "sha256": "853eb57eba1fba1bfdc436280c56dc1cdcf70211e1cfdb4f41dbca61fcf220b4",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 12-6: Deaths from falls, fire, drowning, and poison, US, 1903-2014",
+    "source_note_ocr": "National Safety Council 2016. Data for Fire, Drowning, and Poison (solid or liquid) are aggre- gated over 1903-1998 and 1999-2014 datasets. For 1999-2014, data for Poison (solid or liquid) include poisonings by gas or vapor. Data for Falls extend only to 1992 because of reporting artifacts in subse- quent years (see note 50 for details).",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

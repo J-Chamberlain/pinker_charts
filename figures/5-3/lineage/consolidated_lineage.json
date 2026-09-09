@@ -1,0 +1,52 @@
+{
+  "figure_id": "5-3",
+  "status": "partial_match",
+  "source_note": "Our World in Data, Roser 2016p, based partly on data from Claudia Hanson of Gapminder.",
+  "source_components": [
+    {
+      "path": "figures/5-3/data/raw/gapminder_gd010_gapdata010.xls",
+      "sha256": "b92cd2e764309ace943b3646bf90c5bb148774e945ccecfddb4c387eed275ad6",
+      "scope": "Sweden 1751-1799 only",
+      "source_url": "https://www.gapminder.org/documentation/documentation/gapdata010.xls"
+    },
+    {
+      "path": "figures/5-3/data/raw/owid_522_maternal_mortality.tab",
+      "sha256": "251b73ca1934bafeefcd084b8a17350a6ee60cd3dee809fa02a422aaa6d938df",
+      "scope": "All existing OWID522 observations retained"
+    }
+  ],
+  "transformation": {
+    "path": "scripts/reconstruct_5_3.py",
+    "sha256": "1e78ad3986dd6507953d1cca72c60fd81a8e1e827ffb37f4998fc0c1d7139cab"
+  },
+  "outputs": {
+    "book_period_clean": {
+      "path": "figures/5-3/data/clean/figure_5_3_book_period_clean.csv",
+      "sha256": "a2ee3e6155f7affa606d5c0bb65dc19b469beab867fbf5f43f92d10cfec1850c"
+    },
+    "extended_clean": {
+      "path": "figures/5-3/data/clean/figure_5_3_same_source_continuation_clean.csv",
+      "sha256": "ee9dcdae6e025daffade95fd6f6afe89254af60a85fcc684b40c4352cb1de657"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/5-3/plots/book_period/figure_5_3_book_period_reconstruction.png",
+      "sha256": "a43e2ec42736bbb468fe4372c15276874ef66b989fa0edcf6b3c0247cbdc1965"
+    },
+    "extended_reconstruction": {
+      "path": "figures/5-3/plots/extended/figure_5_3_same_source_continuation.png",
+      "sha256": "4328ae2f2d97a365c656d0464fd6163b930ee22d3be9dd28a541553bc8919bf4"
+    },
+    "book_period_comparison": {
+      "path": "figures/5-3/plots/comparisons/figure_5_3_book_period_review.png",
+      "sha256": "ccc455bc44c824e02053783b7a573394198fdc0059777f4a557c5b745803b2d7"
+    },
+    "extended_comparison": {
+      "path": "figures/5-3/plots/comparisons/figure_5_3_extended_review.png",
+      "sha256": "3eee415c72b39cb3afbf203992c150675379bfbc1777b02b7bcb57ca74b11f84"
+    }
+  },
+  "validation": {
+    "path": "figures/5-3/provenance/early_sweden_validation.json",
+    "sha256": "ddb9e4c07ac419c405e66c16b13313950040ce38b80f11af1014992742b02120"
+  }
+}

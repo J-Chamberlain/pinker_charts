@@ -7,11 +7,11 @@ Publication: `not_reviewed`. Artifact kind: `reconstruction`.
 This generated summary and [figure.json](figure.json) supersede historical status claims below.
 A historical verified classification is not a fresh publication review.
 
-- Original reference: [plots/comparisons/supplemental_pdf_reference_figure_9_5.png](plots/comparisons/supplemental_pdf_reference_figure_9_5.png)
+- Original reference: [../../references/figures/figure_9_5.png](../../references/figures/figure_9_5.png)
 - Book period reconstruction: [plots/book_period/figure_9_5_book_period_reconstruction.png](plots/book_period/figure_9_5_book_period_reconstruction.png)
-- Extended reconstruction: [plots/extended/figure_9_5_extended_reconstruction.png](plots/extended/figure_9_5_extended_reconstruction.png)
-- Book period comparison: [plots/comparisons/figure_9_5_book_period_comparison.png](plots/comparisons/figure_9_5_book_period_comparison.png)
-- Extended comparison: [plots/comparisons/figure_9_5_extended_comparison.png](plots/comparisons/figure_9_5_extended_comparison.png)
+- Extended reconstruction: [plots/book_period/figure_9_5_book_period_reconstruction.png](plots/book_period/figure_9_5_book_period_reconstruction.png)
+- Book period comparison: [plots/comparisons/figure_9_5_book_period_review.png](plots/comparisons/figure_9_5_book_period_review.png)
+- Extended comparison: [plots/comparisons/figure_9_5_extended_review.png](plots/comparisons/figure_9_5_extended_review.png)
 - Caption: [captions/caption.txt](captions/caption.txt)
 - Provenance: [provenance/provenance.md](provenance/provenance.md)
 - Anomaly review: [anomaly_reviews/anomaly_review.md](anomaly_reviews/anomaly_review.md)

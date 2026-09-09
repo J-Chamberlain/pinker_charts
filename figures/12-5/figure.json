@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/12-5/plots/comparisons/supplemental_pdf_reference_figure_12_5.png",
-      "sha256": "beec8e27e05826582c417d9e6ba543007b3acea67d7182267d2ad6b8efdf4a67"
+      "path": "references/figures/figure_12_5.png",
+      "sha256": "401739b71efdc25c9f6c7966d75807f83eb0a95e815d5719d5d81366fa9ea326"
     },
     "book_period_reconstruction": {
       "path": "figures/12-5/plots/book_period/figure_12_5_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "9fa907aaa8ea506b74bd27c2197fb9e1b0a0ba57179b38f168c9bfb3a01ce6aa"
     },
     "book_period_comparison": {
-      "path": "figures/12-5/plots/comparisons/figure_12_5_book_period_comparison.png",
-      "sha256": "9d3d55fa3901b0de3a73445b0cf7c814bd986e702a9b9cbbb08a204705ced9fe"
+      "path": "figures/12-5/plots/comparisons/figure_12_5_book_period_review.png",
+      "sha256": "117bde442e067e9cfb3a42f98074a2e24584354ca106478824a16c2cb6fbb2df"
     },
     "extended_comparison": {
-      "path": "figures/12-5/plots/comparisons/figure_12_5_extended_comparison.png",
-      "sha256": "769755902f5bfd924aadc2d7d136edfda0b4d0c8f7c2274dd01ebdd1cad919bb"
+      "path": "figures/12-5/plots/comparisons/figure_12_5_extended_review.png",
+      "sha256": "6b6f606384bc08520a7f4c3909f40bd4368aa6a7a06e688ca4e957b2a3ec192c"
     },
     "caption": {
       "path": "figures/12-5/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "12-5",
+    "registry_title": "Plane crash deaths, 1970-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 20,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      152,
+      192,
+      1373,
+      1128
+    ],
+    "crop_bounds_pdf_points": [
+      42.158,
+      53.28,
+      380.813,
+      313.02
+    ],
+    "path": "references/figures/figure_12_5.png",
+    "sha256": "401739b71efdc25c9f6c7966d75807f83eb0a95e815d5719d5d81366fa9ea326",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 12-5: Plane crash deaths, 1970-2015",
+    "source_note_ocr": "Aviation Safety Network 2017. Data on the number of passengers are from World Bank 2016b.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/10-3/plots/comparisons/pdf_reference_figure_10_3.png",
-      "sha256": "4841e1c2d48430df83f195e0476bac6297a06b58ecbee1116b723ace4ae3da45"
+      "path": "references/figures/figure_10_3.png",
+      "sha256": "db4ba96b66cc748922fd509f319e1f3e257b3d611eef729b37c3ab64739c329b"
     },
     "book_period_reconstruction": {
       "path": "figures/10-3/plots/book_period/figure_10_3_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "8a2c6c80fb00300878a83674c221b2ff0bc0f20bc1171deaea47371d7f038632"
     },
     "book_period_comparison": {
-      "path": "figures/10-3/plots/comparisons/figure_10_3_book_period_comparison.png",
-      "sha256": "ec2cc7c5fb900cd5aac6d95293bf354808c802a2636e84c64b53092249e2f4cc"
+      "path": "figures/10-3/plots/comparisons/figure_10_3_book_period_review.png",
+      "sha256": "d91e5fabc1b4d599be5a61e2e54ce2c991f492147c1aaad2d5bd8170a2eda517"
     },
     "extended_comparison": {
-      "path": "figures/10-3/plots/comparisons/figure_10_3_extended_comparison.png",
-      "sha256": "f5bc2d950923010eb68529cccc0b3ec78ea22678e3571f9b74ffe2cbbeddddcf"
+      "path": "figures/10-3/plots/comparisons/figure_10_3_extended_review.png",
+      "sha256": "1e95b87c8c05602352c235962595ed3b684aede9a431995d09bea22f0d77fe2c"
     },
     "caption": {
       "path": "figures/10-3/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "Not needed for reconstruction; live EPA 2016 source code and copied raw JS retained.",
     "download_date": "2026-07-05",
     "confidence_score": 0.9
+  },
+  "reference": {
+    "figure_id": "10-3",
+    "registry_title": "Pollution, energy, and growth, US, 1970-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 13,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      198,
+      1287,
+      1446,
+      2269
+    ],
+    "crop_bounds_pdf_points": [
+      54.917,
+      357.142,
+      401.06,
+      629.648
+    ],
+    "path": "references/figures/figure_10_3.png",
+    "sha256": "db4ba96b66cc748922fd509f319e1f3e257b3d611eef729b37c3ab64739c329b",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 10-3: Pollution, energy, and growth, US, 1970-2015",
+    "source_note_ocr": "US Environmental Protection Agency 2016, based on the following sources. GDP: Bureau of Economic Analysis. Vehicle miles traveled: Federal Highway Administration. Population: US Census Bureau. Energy Consumption: US Department of Energy. CO,: US Greenhouse Gas Inventory Report. Emissions (carbon monoxide, oxides of nitrogen, particulate matter smaller than 10 micrometers, sulfur dioxide, and volatile organic compounds): EPA, https://www.epa.gov/air-emissions-inventories/air -pollutant-emissions-trends-data.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

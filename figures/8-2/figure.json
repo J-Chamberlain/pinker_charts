@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/8-2/plots/comparisons/kindle_reference_figure_8_2.png",
-      "sha256": "8616eaf0ee430b46338a6f3d08a61a467cac9526d6c714fbb9edfaf38fd0ed22"
+      "path": "references/figures/figure_8_2.png",
+      "sha256": "80da99d81163dc7dae6d6e54b76f0702d0e59f092198d3bd48ffc40e1fd8725e"
     },
     "book_period_reconstruction": {
       "path": "figures/8-2/plots/book_period/figure_8_2_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "c69cfeb6d648e7f247a700056c6f025d5ef4aaf9aae1d68cba3e25acc5eeb72c"
     },
     "book_period_comparison": {
-      "path": "figures/8-2/plots/comparisons/figure_8_2_book_period_comparison.png",
-      "sha256": "466050bd45d6910cb9109a88a622e4d84e25a0df7d670b234e18a750630860b7"
+      "path": "figures/8-2/plots/comparisons/figure_8_2_book_period_review.png",
+      "sha256": "a485300bedb0cd2ec2169a4eac88d011d5f10c4b5de0dbed4c8bb186a0014a6a"
     },
     "extended_comparison": {
-      "path": "figures/8-2/plots/comparisons/figure_8_2_extended_comparison.png",
-      "sha256": "2ecbc59607df921efa7c2a683c757bbd4ce5a421ac5083dcabd7340070a9e94e"
+      "path": "figures/8-2/plots/comparisons/figure_8_2_extended_review.png",
+      "sha256": "adeb8171335adb5bb3fe405f2c931424a01113c7dc1549224d11fe10633b8325"
     },
     "caption": {
       "path": "figures/8-2/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "2026-06-30",
     "confidence_score": "medium"
+  },
+  "reference": {
+    "figure_id": "8-2",
+    "registry_title": "GDP per capita, 1600-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 7,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      189,
+      1270,
+      1470,
+      2159
+    ],
+    "crop_bounds_pdf_points": [
+      52.421,
+      352.425,
+      407.717,
+      599.122
+    ],
+    "path": "references/figures/figure_8_2.png",
+    "sha256": "80da99d81163dc7dae6d6e54b76f0702d0e59f092198d3bd48ffc40e1fd8725e",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 8-2: GDP per capita, 1600-2015",
+    "source_note_ocr": "Our World in Data, Roser 2016c, based on data from the World Bank and from Maddison Proj- ect 2014.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

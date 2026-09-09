@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/17-8/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_17_8.png",
+      "sha256": "3748602c49613e955aab742901931bde2d1dc45d27633de1ed8e740581f172c4"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "17-8",
+    "registry_title": "International tourism, 1995-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 36,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      133,
+      1244,
+      1366,
+      2125
+    ],
+    "crop_bounds_pdf_points": [
+      36.889,
+      345.21,
+      378.872,
+      589.688
+    ],
+    "path": "references/figures/figure_17_8.png",
+    "sha256": "3748602c49613e955aab742901931bde2d1dc45d27633de1ed8e740581f172c4",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 17-8: International tourism, 1995-2015",
+    "source_note_ocr": "World Bank 2016e, based on data from the World Tourism Organization, Yearbook of Tourism Statistics.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

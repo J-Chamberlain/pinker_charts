@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/15-7/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_15_7.png",
+      "sha256": "66007324fd32218708500cff8877d40f1218e86c02265fa50a9b086bd6639459"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "15-7",
+    "registry_title": "Liberal values across time (extrapolated), world's culture zones, 1960-2006",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 28,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      140,
+      453,
+      1370,
+      1619
+    ],
+    "crop_bounds_pdf_points": [
+      38.83,
+      125.707,
+      379.981,
+      449.272
+    ],
+    "path": "references/figures/figure_15_7.png",
+    "sha256": "66007324fd32218708500cff8877d40f1218e86c02265fa50a9b086bd6639459",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 15-7: Liberal values across time (extrapolated), world’s culture zones, 1960-— 2006",
+    "source_note_ocr": "World Values Survey, as analyzed in Welzel 2013, fig. 4.4, updated with data provided by Welzel. Emancipative value estimates for each country in each year are calculated for a hypothetical sample of a fixed age, based on each respondent's birth cohort, the year of testing, and a country-specific period B effect. The labels are geographic mnemonics for Welzel’s “ culture zones” and do not literally apply to every country in a zone. I have renamed some of the zones: Protestant Western Europe corresponds to Welzel’s “Reformed West.” US, Canada, Australia, New Zealand = “New West.” Catholic & Southern Europe = “Old West.” Central & Eastern Europe = “Returned West.” East Asia = “Sinic East.” Former Yugoslavia & USSR = “Orthodox East.” South & Southeast Asia = “Indic East.” Countries in each zone are weighted equally.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

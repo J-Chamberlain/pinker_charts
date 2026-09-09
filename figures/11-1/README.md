@@ -8,5 +8,6 @@ This generated summary and [figure.json](figure.json) supersede historical statu
 A historical verified classification is not a fresh publication review.
 
 - Metadata: [figure.json](figure.json)
+- Original reference: [../../references/figures/figure_11_1.png](../../references/figures/figure_11_1.png)
 
 <!-- canonical-state:end -->

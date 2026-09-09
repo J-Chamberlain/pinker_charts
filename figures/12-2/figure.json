@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/12-2/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_12_2.png",
+      "sha256": "64ef16dd2a9d01dabe4a8d8401cc542d88dc1f0904d6e065e40e7b3b501a21a3"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "12-2",
+    "registry_title": "Homicide deaths, 1967-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 18,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      145,
+      1254,
+      1366,
+      2270
+    ],
+    "crop_bounds_pdf_points": [
+      40.217,
+      347.985,
+      378.872,
+      629.925
+    ],
+    "path": "references/figures/figure_12_2.png",
+    "sha256": "64ef16dd2a9d01dabe4a8d8401cc542d88dc1f0904d6e065e40e7b3b501a21a3",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 12-2: Homicide deaths, 1967-2015",
+    "source_note_ocr": "United States: FBI Uniform Crime Reports, https://ucr.fbi.gov/, and Federal Bureau of Investi- gation 2016. England (data include Wales): Office for National Statistics 2017. World, 2000: Krug et al. 2002. World, 2003-2011: United Nations Economic and Social Council 2014, fig. 1; the percentages were converted to homicide rates by setting the 2012 rate at 6.2, the estimate reported in United Nations Office on Drugs and Crime 2014, p. 12. The arrows point to the most recent years plotted in Pinker 2011 for the world (2004, fig. 3-9), US (2009, fig. 3-18), and England (2009, fig. 3-19).",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

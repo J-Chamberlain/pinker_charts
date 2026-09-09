@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/4-1/plots/comparisons/supplemental_pdf_reference_figure_4_1.png",
-      "sha256": "cbdf60a7621b3133d1c9d7b22f944b65c1b16fbd38943106a031e51dbf0b37f8"
+      "path": "references/figures/figure_4_1.png",
+      "sha256": "5efde42fe7081cb7b3b83a4aaf32ce568cd6611801582f7cb80ecf099c158fc7"
     },
     "caption": {
       "path": "figures/4-1/captions/caption.txt",
@@ -82,5 +82,36 @@
     "archive_url": "",
     "download_date": "2026-07-10",
     "confidence_score": 0.88
+  },
+  "reference": {
+    "figure_id": "4-1",
+    "registry_title": "Tone of the news, 1945-2010",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 2,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      140,
+      244,
+      1346,
+      1112
+    ],
+    "crop_bounds_pdf_points": [
+      38.83,
+      67.71,
+      373.325,
+      308.58
+    ],
+    "path": "references/figures/figure_4_1.png",
+    "sha256": "5efde42fe7081cb7b3b83a4aaf32ce568cd6611801582f7cb80ecf099c158fc7",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 4-1: Tone of the news, 1945-2010",
+    "source_note_ocr": "Leetaru 2011. Plotted by month, beginning in January.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

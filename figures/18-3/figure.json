@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/18-3/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_18_3.png",
+      "sha256": "bbce52a58c68a9a19ce111c28ff43026e65c7cb3ff320ac031f882943e229d90"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "18-3",
+    "registry_title": "Suicide, England, Switzerland, and US, 1860-2014",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 38,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      134,
+      268,
+      1369,
+      1239
+    ],
+    "crop_bounds_pdf_points": [
+      37.166,
+      74.37,
+      379.704,
+      343.822
+    ],
+    "path": "references/figures/figure_18_3.png",
+    "sha256": "bbce52a58c68a9a19ce111c28ff43026e65c7cb3ff320ac031f882943e229d90",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 18-3: Suicide, England, Switzerland, and US, 1860-2014",
+    "source_note_ocr": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. The series has not been extended because the data are not commensurable with current records. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: Centers for Disease Control, Carter et al. 2000, table Abg50. United States, 1999-2014: Centers for Disease Control 2015.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

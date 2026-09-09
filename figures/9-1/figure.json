@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/9-1/plots/comparisons/supplemental_pdf_reference_figure_9_1.png",
-      "sha256": "2dd6ed7e9aae716f00e26c7ab92fdcfcefe598a8b00b0c91b3c94749bde1018a"
+      "path": "references/figures/figure_9_1.png",
+      "sha256": "05e3cfd323eae2a07ce28297606469269b60799653c77a0f9a3493131c1b317b"
     },
     "caption": {
       "path": "figures/9-1/captions/caption.txt",
@@ -82,5 +82,36 @@
     "archive_url": "Wayback CDX retained at figures/9-1/data/raw/wayback_cdx_clio_income_inequality.json",
     "download_date": "2026-07-09",
     "confidence_score": 0.45
+  },
+  "reference": {
+    "figure_id": "9-1",
+    "registry_title": "International inequality, 1820-2013",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 9,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      204,
+      1276,
+      1453,
+      2191
+    ],
+    "crop_bounds_pdf_points": [
+      56.581,
+      354.09,
+      403.002,
+      608.003
+    ],
+    "path": "references/figures/figure_9_1.png",
+    "sha256": "05e3cfd323eae2a07ce28297606469269b60799653c77a0f9a3493131c1b317b",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 9-1: International inequality, 18320-2013",
+    "source_note_ocr": "International inequality: OECD Clio Infra Project, Moatsos et al. 2014; data are for market household income across countries. Population-weighted international inequality: Milanovié 2012; data for 2012 and 2013 provided by Branko Milanovié, personal communication.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

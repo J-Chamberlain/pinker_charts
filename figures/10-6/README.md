@@ -7,11 +7,11 @@ Publication: `not_reviewed`. Artifact kind: `reconstruction`.
 This generated summary and [figure.json](figure.json) supersede historical status claims below.
 A historical verified classification is not a fresh publication review.
 
-- Original reference: [plots/comparisons/corrected_figure_10_6_book_crop.png](plots/comparisons/corrected_figure_10_6_book_crop.png)
+- Original reference: [../../references/figures/figure_10_6.png](../../references/figures/figure_10_6.png)
 - Book period reconstruction: [plots/book_period/figure_10_6_book_period_reconstruction.png](plots/book_period/figure_10_6_book_period_reconstruction.png)
 - Extended reconstruction: [plots/extended/figure_10_6_extended_reconstruction.png](plots/extended/figure_10_6_extended_reconstruction.png)
-- Book period comparison: [plots/comparisons/figure_10_6_book_style_comparison_captioned.png](plots/comparisons/figure_10_6_book_style_comparison_captioned.png)
-- Extended comparison: [plots/comparisons/figure_10_6_extended_comparison_captioned.png](plots/comparisons/figure_10_6_extended_comparison_captioned.png)
+- Book period comparison: [plots/comparisons/figure_10_6_book_period_review.png](plots/comparisons/figure_10_6_book_period_review.png)
+- Extended comparison: [plots/comparisons/figure_10_6_extended_review.png](plots/comparisons/figure_10_6_extended_review.png)
 - Caption: [captions/caption.txt](captions/caption.txt)
 - Provenance: [provenance/provenance.md](provenance/provenance.md)
 - Anomaly review: [anomaly_reviews/anomaly_review.md](anomaly_reviews/anomaly_review.md)

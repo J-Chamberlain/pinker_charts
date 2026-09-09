@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/15-6/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_15_6.png",
+      "sha256": "cdda14a30725bc20ec7cf0b81d23d9503a7f90bc166b1f98c8c34909f69510fe"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "15-6",
+    "registry_title": "Liberal values across time and generations, developed countries, 1980-2005",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 27,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      222,
+      1201,
+      1425,
+      2204
+    ],
+    "crop_bounds_pdf_points": [
+      61.574,
+      333.277,
+      395.236,
+      611.61
+    ],
+    "path": "references/figures/figure_15_6.png",
+    "sha256": "cdda14a30725bc20ec7cf0b81d23d9503a7f90bc166b1f98c8c34909f69510fe",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 15-6: Liberal values across time and generations, developed countries, 1980— 2005",
+    "source_note_ocr": "Welzel 2013, fig. 4.1. World Values Survey data are from Australia, Canada, France, West Ger- many, Italy, Japan, the Netherlands, Norway, Sweden, the United Kingdom, and the United States (each country weighted equally).",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

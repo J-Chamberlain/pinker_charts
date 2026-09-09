@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/10-5/plots/comparisons/corrected_figure_10_5_book_crop.png",
-      "sha256": "eefcbbd35fea1327265fc709ecbc4f818f107f65fe30a223a35164ab5e0b2588"
+      "path": "references/figures/figure_10_5.png",
+      "sha256": "39f12290a3ec7290707b1b37f11f73ebd75e538ff10465c894f4fff77e4dbb33"
     },
     "book_period_reconstruction": {
       "path": "figures/10-5/plots/book_period/figure_10_5_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "c8c54ac325f104b7dcf916509c8a1f3e77855a57e0ff86a3d92481ef04710549"
     },
     "book_period_comparison": {
-      "path": "figures/10-5/plots/comparisons/figure_10_5_book_style_comparison_captioned.png",
-      "sha256": "5bd4e0341f5c75b69ebccd13ca4f78b85d79a2a684caf156106fa41afc658c2c"
+      "path": "figures/10-5/plots/comparisons/figure_10_5_book_period_review.png",
+      "sha256": "94e3316d61bc4f15e4737b35637470694027c139cf672c31f45e8ef38373a928"
     },
     "extended_comparison": {
-      "path": "figures/10-5/plots/comparisons/figure_10_5_extended_comparison_captioned.png",
-      "sha256": "a7ecd8defd98acccca802c2d864e1b48d2a74b9396546da5f8cce1b2ea1f88e9"
+      "path": "figures/10-5/plots/comparisons/figure_10_5_extended_review.png",
+      "sha256": "d17f922458a4a7141fd98454ff757fbf3788fbeafd0312b3ae009915dd36f61b"
     },
     "caption": {
       "path": "figures/10-5/captions/caption.txt",
@@ -94,5 +94,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "10-5",
+    "registry_title": "Oil spills, 1970-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 14,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      122,
+      1264,
+      1383,
+      2167
+    ],
+    "crop_bounds_pdf_points": [
+      33.838,
+      350.76,
+      383.587,
+      601.342
+    ],
+    "path": "references/figures/figure_10_5.png",
+    "sha256": "39f12290a3ec7290707b1b37f11f73ebd75e538ff10465c894f4fff77e4dbb33",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 10-5: Oil spills, 1970-2016",
+    "source_note_ocr": "Our World in Data, Roser 2016r, based on data (updated) from the International Tanker Owners Pollution Federation, http://www.itopf.com/knowledge-resources/data-statistics/statistics/. Oil spills include all those that result in the loss of at least 7 metric tons of oil. Oil shipped consists of “total crude oil, petroleum product, and gas loaded.”",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/10-7/plots/comparisons/kindle_reference_figure_10_7.png",
-      "sha256": "c3d8f1bc27b088f35fd5ff4a637b6a09fedfe340ec31efba60ae186bd90e6bad"
+      "path": "references/figures/figure_10_7.png",
+      "sha256": "8a83ca70d74c127b8f681119ced23228debc5bb7bda4191e74fe787de5b81686"
     },
     "book_period_reconstruction": {
       "path": "figures/10-7/plots/book_period/figure_10_7_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "832223997089b2bf89cc055190cd0335a546a7dff0068c5c93054a3abf8cacd5"
     },
     "book_period_comparison": {
-      "path": "figures/10-7/plots/comparisons/figure_10_7_book_period_comparison.png",
-      "sha256": "792b96cd7c79c0ec5f8f803960f49c13a5664156cb1686ac9589fb8921f2020a"
+      "path": "figures/10-7/plots/comparisons/figure_10_7_book_period_review.png",
+      "sha256": "5642b7118e2bf84037f2d09c914cb816853d53a105a5b0e1b7410f59996b91cd"
     },
     "extended_comparison": {
-      "path": "figures/10-7/plots/comparisons/figure_10_7_extended_comparison.png",
-      "sha256": "7a455a8dbb6f7ed95c5d549bc964ffddc3c6fa4b264f11e6f2cf5633104813fe"
+      "path": "figures/10-7/plots/comparisons/figure_10_7_extended_review.png",
+      "sha256": "7e86aac983ddd10a974941b0dc23a5daa261541b95bcbb4af43a30f3774b7db0"
     },
     "caption": {
       "path": "figures/10-7/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "10-7",
+    "registry_title": "Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 15,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      200,
+      1239,
+      1450,
+      2155
+    ],
+    "crop_bounds_pdf_points": [
+      55.472,
+      343.822,
+      402.17,
+      598.013
+    ],
+    "path": "references/figures/figure_10_7.png",
+    "sha256": "8a83ca70d74c127b8f681119ced23228debc5bb7bda4191e74fe787de5b81686",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 10-7: Carbon intensity (CO, emissions per dollar of GDP), 1820-2014",
+    "source_note_ocr": "Ritchie & Roser 2017, based on data from the Carbon Dioxide Information Analysis Center, http://cdiac.ornl.gov/trends/emis/tre_coun.html. GDP is in 2011 international dollars; for the years be- fore 1990, GDP comes from Maddison Project 2014.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

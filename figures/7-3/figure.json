@@ -24,34 +24,34 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_plotted",
+    "notes": "Long-run FAO series discontinued/methodology changed; see caption."
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/7-3/plots/comparisons/supplemental_pdf_reference_figure_7_3.png",
-      "sha256": "eb69cec677b7ef373387aa19b85563472d09707f016893c6ad8641d9045b6386"
+      "path": "references/figures/figure_7_3.png",
+      "sha256": "e184e604e97d8c17e71b5f9f64a0c5ff9fc3c3714bcce856efbfc0b980873c13"
     },
     "book_period_reconstruction": {
       "path": "figures/7-3/plots/book_period/figure_7_3_book_period_reconstruction.png",
       "sha256": "b76bb9e8ac9b8c2d7b4306d4b7879326555d94151961674706eb0679391b05cb"
     },
     "extended_reconstruction": {
-      "path": "figures/7-3/plots/extended/figure_7_3_extended_reconstruction.png",
-      "sha256": "864b5309147ee1b8e0dc6cc4b56a1c3249d34b037b17835e2a48e2001e76954e"
+      "path": "figures/7-3/plots/book_period/figure_7_3_book_period_reconstruction.png",
+      "sha256": "b76bb9e8ac9b8c2d7b4306d4b7879326555d94151961674706eb0679391b05cb"
     },
     "book_period_comparison": {
-      "path": "figures/7-3/plots/comparisons/figure_7_3_book_period_comparison.png",
-      "sha256": "288a0477290ce3b14509d2bc4435deb72ba91aef083e04b679afd3c274c84fd0"
+      "path": "figures/7-3/plots/comparisons/figure_7_3_book_period_review.png",
+      "sha256": "1f95ab1f51df72d74170cb547fd9787b0df9a80b2d1155e561b611b2467e1a12"
     },
     "extended_comparison": {
-      "path": "figures/7-3/plots/comparisons/figure_7_3_extended_comparison.png",
-      "sha256": "81b8da2688dcdce644590f3d3f68323ee9fc6fa57fd33af7abf215d08f84c41d"
+      "path": "figures/7-3/plots/comparisons/figure_7_3_extended_review.png",
+      "sha256": "72806779884ed37f1fc69b48a6b6a4f3d87645e3a05ed8d73449bbb4f0c04fe8"
     },
     "caption": {
       "path": "figures/7-3/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "2026-07-09",
     "confidence_score": "medium"
+  },
+  "reference": {
+    "figure_id": "7-3",
+    "registry_title": "Undernourishment, 1970-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 6,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      117,
+      135,
+      1376,
+      1095
+    ],
+    "crop_bounds_pdf_points": [
+      32.451,
+      37.462,
+      381.645,
+      303.863
+    ],
+    "path": "references/figures/figure_7_3.png",
+    "sha256": "e184e604e97d8c17e71b5f9f64a0c5ff9fc3c3714bcce856efbfc0b980873c13",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 7-3: Undernourishment, 1970-2015",
+    "source_note_ocr": "Our World in Data, Roser 2016), based on data from the Food and Agriculture Organization 2014, also reported in http://www.fao.org /economic/ess/ess-fs/ess-fadata/en/.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

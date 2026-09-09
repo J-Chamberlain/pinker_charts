@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/14-4/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_14_4.png",
+      "sha256": "1a0b0c18aed8b16fa87c11369b764ae8e572c0b66fb34b7807491e79d41708df"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "14-4",
+    "registry_title": "Executions, US, 1780-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 24,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      146,
+      1269,
+      1364,
+      2173
+    ],
+    "crop_bounds_pdf_points": [
+      40.494,
+      352.147,
+      378.317,
+      603.008
+    ],
+    "path": "references/figures/figure_14_4.png",
+    "sha256": "1a0b0c18aed8b16fa87c11369b764ae8e572c0b66fb34b7807491e79d41708df",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 14-4: Executions, US, 1780-2016",
+    "source_note_ocr": "Death Penalty Information Center 2017. Population estimates from US Census Bureau 2017. The arrow points to 2010, the last year plotted in fig. 4-4 of Pinker 2011.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

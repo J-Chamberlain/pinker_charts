@@ -24,34 +24,34 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_plotted",
+    "notes": "Retained successor lacks directly comparable World row; see caption."
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/8-4/plots/comparisons/kindle_reference_figure_8_4.png",
-      "sha256": "75400d863d497d23aec91213f62efa07a919595071ee0a30bcef7e6deaba60f6"
+      "path": "references/figures/figure_8_4.png",
+      "sha256": "0329da989385ca10c390d5dddba891c6f256b46bab29d103157cd172dd584511"
     },
     "book_period_reconstruction": {
       "path": "figures/8-4/plots/book_period/figure_8_4_book_period_reconstruction.png",
       "sha256": "3bbfcf8fb0fc5daa062b3ffb1bb777f91ede1644e06b6c4835e75a14eb8dc8b5"
     },
     "extended_reconstruction": {
-      "path": "figures/8-4/plots/extended/figure_8_4_extended_reconstruction.png",
-      "sha256": "e1728ca333e83a986e28b076e621abcc734d32a9fcb579460ec2a55beaa4bcb4"
+      "path": "figures/8-4/plots/book_period/figure_8_4_book_period_reconstruction.png",
+      "sha256": "3bbfcf8fb0fc5daa062b3ffb1bb777f91ede1644e06b6c4835e75a14eb8dc8b5"
     },
     "book_period_comparison": {
-      "path": "figures/8-4/plots/comparisons/figure_8_4_book_period_comparison.png",
-      "sha256": "2910fb79aa287eb944982b0a1424eca1088b912bc2f48f8a67ab5f06fd24a14d"
+      "path": "figures/8-4/plots/comparisons/figure_8_4_book_period_review.png",
+      "sha256": "46afe5b67749618f98c3af1cafb329f29ece3c40c900ea68794d10017d038de7"
     },
     "extended_comparison": {
-      "path": "figures/8-4/plots/comparisons/figure_8_4_extended_comparison.png",
-      "sha256": "ca17a48c5cbe85db5c08e375315f1b98d1cf1f26458e012d62bebfa55d474d3a"
+      "path": "figures/8-4/plots/comparisons/figure_8_4_extended_review.png",
+      "sha256": "c4cfe4a808e0e160d53e12444910f01eabf74e07f83de262078eb9041399f41a"
     },
     "caption": {
       "path": "figures/8-4/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "2026-06-29",
     "confidence_score": 0.84
+  },
+  "reference": {
+    "figure_id": "8-4",
+    "registry_title": "Extreme poverty (proportion), 1820-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 8,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      144,
+      1306,
+      1373,
+      2183
+    ],
+    "crop_bounds_pdf_points": [
+      39.94,
+      362.415,
+      380.813,
+      605.783
+    ],
+    "path": "references/figures/figure_8_4.png",
+    "sha256": "0329da989385ca10c390d5dddba891c6f256b46bab29d103157cd172dd584511",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 8-4: Extreme poverty (proportion), 1820-2015",
+    "source_note_ocr": "Our World in Data, Roser & Ortiz-Ospina 2017, based on data from Bourguignon & Morrison 2002 (1820-1992), averaging their “Extreme poverty” and “Poverty” percentages for commensurability with data on “Extreme poverty” for 1981-2015 from the World Bank 2016g.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

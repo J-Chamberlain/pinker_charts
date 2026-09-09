@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/15-5/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_15_5.png",
+      "sha256": "6ff6929e98780f4df2c3c600cb8a0c2f86122905b9e19bea4002ca135be3938e"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "15-5",
+    "registry_title": "Decriminalization of homosexuality, 1791-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 27,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      196,
+      187,
+      1452,
+      1149
+    ],
+    "crop_bounds_pdf_points": [
+      54.362,
+      51.892,
+      402.725,
+      318.848
+    ],
+    "path": "references/figures/figure_15_5.png",
+    "sha256": "6ff6929e98780f4df2c3c600cb8a0c2f86122905b9e19bea4002ca135be3938e",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 15-5: Decriminalization of homosexuality, 1791-2016",
+    "source_note_ocr": "Ottosson 2006, 2009. Dates for an additional sixteen countries were obtained from “LGBT Rights by Country or Territory,” Wikipedia, retrieved July 31, 2016. Dates for an additional thirty-six countries that currently allow homosexuality are not listed in either source. The arrow points to 2009, the last year plotted in fig. 7-23 of Pinker 2011.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

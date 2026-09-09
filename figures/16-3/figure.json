@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/16-3/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_16_3.png",
+      "sha256": "3922161d0e5134e4070c3d391d0b19f59845d35bea6eac84e206c2227803e28c"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "16-3",
+    "registry_title": "Years of schooling, 1870-2010",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 31,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      194,
+      218,
+      1433,
+      1125
+    ],
+    "crop_bounds_pdf_points": [
+      53.808,
+      60.495,
+      397.455,
+      312.188
+    ],
+    "path": "references/figures/figure_16_3.png",
+    "sha256": "3922161d0e5134e4070c3d391d0b19f59845d35bea6eac84e206c2227803e28c",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 16-3: Years of schooling, 1870-2010",
+    "source_note_ocr": "Our World in Data, Roser & Ortiz-Ospina 2016a, based on data from Lee & Lee 2016. Data are for the population aged 15-64.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

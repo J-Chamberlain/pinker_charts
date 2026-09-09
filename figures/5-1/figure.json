@@ -24,34 +24,34 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_plotted",
+    "notes": "Regional successor comparability not established; book-period result repeated."
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/5-1/plots/comparisons/kindle_reference_figure_5_1.png",
-      "sha256": "4debd2f6e60ef4927af86e545c7c0329fcca6afab0aa656d8c4ec0a62ac1c6f7"
+      "path": "references/figures/figure_5_1.png",
+      "sha256": "7cc535e2af3631b78ca18746b057c2e3226cb010c4e30f94ecf77a60b883d94e"
     },
     "book_period_reconstruction": {
       "path": "figures/5-1/plots/book_period/figure_5_1_book_period_reconstruction.png",
       "sha256": "d31e8f378910cfb2a372e63ab4687d4e7932ba70582fb9045bc78897219e4df1"
     },
     "extended_reconstruction": {
-      "path": "figures/5-1/plots/extended/figure_5_1_extended_reconstruction.png",
-      "sha256": "b021186785cfbb04ac06c50ee5629d079703ca6377e0b28d07f58c5f2eb6e42c"
+      "path": "figures/5-1/plots/book_period/figure_5_1_book_period_reconstruction.png",
+      "sha256": "d31e8f378910cfb2a372e63ab4687d4e7932ba70582fb9045bc78897219e4df1"
     },
     "book_period_comparison": {
-      "path": "figures/5-1/plots/comparisons/figure_5_1_book_period_comparison.png",
-      "sha256": "8c514560babdf2584dee1512b246ba1e301cf51f46ef1b8aae1d4a2c2ee896fb"
+      "path": "figures/5-1/plots/comparisons/figure_5_1_book_period_review.png",
+      "sha256": "4928ff1bbd007127193c90fc1b3dfe25799610a4d434f58295662958ebb6339f"
     },
     "extended_comparison": {
-      "path": "figures/5-1/plots/comparisons/figure_5_1_extended_comparison.png",
-      "sha256": "65c2c7e1ecede111edaf4592562ae4043bc7b4c9a3c2d972898d483768cd0956"
+      "path": "figures/5-1/plots/comparisons/figure_5_1_extended_review.png",
+      "sha256": "6b96df3dff76dc514f942fd0b9bcef6051113de7927df1acb060f1d9493c356f"
     },
     "caption": {
       "path": "figures/5-1/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "2026-06-29",
     "confidence_score": 0.86
+  },
+  "reference": {
+    "figure_id": "5-1",
+    "registry_title": "Life expectancy, 1771-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 2,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      133,
+      1254,
+      1391,
+      2176
+    ],
+    "crop_bounds_pdf_points": [
+      36.889,
+      347.985,
+      385.806,
+      603.84
+    ],
+    "path": "references/figures/figure_5_1.png",
+    "sha256": "7cc535e2af3631b78ca18746b057c2e3226cb010c4e30f94ecf77a60b883d94e",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 5-1: Life expectancy, 1771-2015",
+    "source_note_ocr": "Our World in Data, Roser 2016n, based on data from Riley 2005 for the years before 2000 and from the World Health Organization and the World Bank for the subsequent years. Updated with data provided by Max Roser.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

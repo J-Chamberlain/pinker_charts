@@ -78,3 +78,22 @@ source evidence but is not appended: its metadata documents a new combination
 of UN MMEIG 2023, WHO Mortality Database 2025, UN WPP 2024, and Gapminder 2010
 with major OWID processing. That is not a like-for-like continuation of OWID
 522.
+# 2026-09-09 Consolidation Addendum (Current)
+
+The actual Supplemental Graphics PDF is now the visual authority, indexed at
+`references/figure_index.json` (PDF page 3, lower figure). The historical
+facsimile below is obsolete and cannot establish visual fidelity.
+
+The complementary worker recovery supplied Hanson's original GD010 workbook:
+`data/raw/gapminder_gd010_gapdata010.xls`, source URL
+https://www.gapminder.org/documentation/documentation/gapdata010.xls.
+Import evidence identifies worker commit 547f52fd and the original file hash.
+The reconstruction adds only Sweden 1751-1799 from that table and retains all
+existing OWID 522 observations. No plotted values or source-owner chart labels
+are reconstruction inputs. See `early_sweden_validation.json` for the source
+hash, exact count-ratio test, and overlap test. Historical overlap 1800-1949
+differs by at most 0.049983 deaths per 100,000, consistent with OWID rounding.
+Later overlap differences remain a source-version research question.
+
+Current status is partial_match, not publication-ready. Earlier acceptance
+language below is historical and superseded by the current anomaly review.

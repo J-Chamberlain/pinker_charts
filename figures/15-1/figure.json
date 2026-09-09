@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/15-1/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_15_1.png",
+      "sha256": "0286048f07fd936f646013f1271ce055ff112dcec09ff21c6bf199593d5d76da"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "15-1",
+    "registry_title": "Racist, sexist, and homophobic opinions, US, 1987-2012",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 25,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      195,
+      217,
+      1426,
+      1107
+    ],
+    "crop_bounds_pdf_points": [
+      54.085,
+      60.218,
+      395.513,
+      307.192
+    ],
+    "path": "references/figures/figure_15_1.png",
+    "sha256": "0286048f07fd936f646013f1271ce055ff112dcec09ff21c6bf199593d5d76da",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 15-1: Racist, sexist, and homophobic opinions, US, 1987-2012",
+    "source_note_ocr": "Pew Research Center 2012b. The arrows point to the most recent years plotted in Pinker 2011 for similar questions: Blacks, 1997 (fig. 7-7); Women, 1995 (fig. 7-11); Homosexuals, 2009 (fig. 7-24).",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": [
       "Worker chart-label-derived candidate quarantined in reports/consolidation/worker_candidates/7-4; current legitimate successor remains partial."
@@ -36,8 +36,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/7-4/plots/comparisons/kindle_reference_figure_7_4.png",
-      "sha256": "814336a2f6f38ddbc4b013c128528aac8ddcd7163b5d46d25da0e2c85ab705fd"
+      "path": "references/figures/figure_7_4.png",
+      "sha256": "4da0e2fe480d9dafea6e1ccbd255fcf4300bd6718d48661d5a1743ac4fa0b588"
     },
     "book_period_reconstruction": {
       "path": "figures/7-4/plots/book_period/figure_7_4_book_period_reconstruction.png",
@@ -48,12 +48,12 @@
       "sha256": "9d457a090b383c6171811ebf650c81ac909000d6ece5a13ab08dfc55342ae46e"
     },
     "book_period_comparison": {
-      "path": "figures/7-4/plots/comparisons/figure_7_4_book_period_comparison.png",
-      "sha256": "5d1e8879a6804f825e565adc35fe925d7c2cd4cb61492a85337645c6f04b1cfd"
+      "path": "figures/7-4/plots/comparisons/figure_7_4_book_period_review.png",
+      "sha256": "59a109cc5eebb4a90606469cb7b64373b1555df0ab1fbc37b80a905cdfa5046e"
     },
     "extended_comparison": {
-      "path": "figures/7-4/plots/comparisons/figure_7_4_extended_comparison.png",
-      "sha256": "1c1d0e1954643f07b5856850ef8bb8c263b62200d3a48ce63f616257e979d979"
+      "path": "figures/7-4/plots/comparisons/figure_7_4_extended_review.png",
+      "sha256": "0a5ccd5d3964e2d5133b316abeb3daf6bedf759f9c832c1588e905cd171c5a14"
     },
     "caption": {
       "path": "figures/7-4/captions/caption.txt",
@@ -100,5 +100,36 @@
     "archive_url": "",
     "download_date": "2026-06-30",
     "confidence_score": "medium-low"
+  },
+  "reference": {
+    "figure_id": "7-4",
+    "registry_title": "Famine deaths, 1860-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 6,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      137,
+      1241,
+      1389,
+      2202
+    ],
+    "crop_bounds_pdf_points": [
+      37.998,
+      344.377,
+      385.251,
+      611.055
+    ],
+    "path": "references/figures/figure_7_4.png",
+    "sha256": "4da0e2fe480d9dafea6e1ccbd255fcf4300bd6718d48661d5a1743ac4fa0b588",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 7-4: Famine deaths, 1860-2016",
+    "source_note_ocr": "Our World in Data, Hasell & Roser 2017, based on data from Devereux 2000; OGrada 2009; White 2011, and EM-DAT, The International Disaster Database, http://w ww.emdat.be/; and other sources. “Fam- ine” is defined as in O Grada 2009.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

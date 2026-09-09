@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/18-4/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_18_4.png",
+      "sha256": "b3e7550e44b8514d6a71a2648e57450e712171c1311bce6b3556a44455c5136c"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "18-4",
+    "registry_title": "Happiness and excitement, US, 1972-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 38,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      144,
+      1320,
+      1375,
+      2217
+    ],
+    "crop_bounds_pdf_points": [
+      39.94,
+      366.3,
+      381.368,
+      615.217
+    ],
+    "path": "references/figures/figure_18_4.png",
+    "sha256": "b3e7550e44b8514d6a71a2648e57450e712171c1311bce6b3556a44455c5136c",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 18-4: Happiness and excitement, US, 1972-2016",
+    "source_note_ocr": "“General Social Survey,” Smith, Son, & Schapiro 2015, figs. 1 and 5, updated for 2016 from https://gssdataexplorer.norc.org/projects/15157/variables/438/vshow. Data exclude nonresponses.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

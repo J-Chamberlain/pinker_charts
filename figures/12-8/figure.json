@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/12-8/plots/comparisons/kindle_reference_figure_12_8.png",
-      "sha256": "2a6696c8a7fd09054998fec92d263cb8304067f62e492b8a5f879431f4c6209e"
+      "path": "references/figures/figure_12_8.png",
+      "sha256": "033e65ed0d1932d7f56ce838dfecda3af201021c5d82fc18ea1a00c12181268c"
     },
     "book_period_reconstruction": {
       "path": "figures/12-8/plots/book_period/figure_12_8_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "3e98684025dde305806ebc62207c4e3782ce21a8a75e13ca3bbfc90739305047"
     },
     "book_period_comparison": {
-      "path": "figures/12-8/plots/comparisons/figure_12_8_book_period_comparison.png",
-      "sha256": "5dd2fac08f607dfb416f3b5d69fb89e20fcaf8656e38441aa9d0b776c9904888"
+      "path": "figures/12-8/plots/comparisons/figure_12_8_book_period_review.png",
+      "sha256": "326bcddf4fb9a649ebec2f57f6deab89940941dcc91bfddbe4e9939e4a7557c6"
     },
     "extended_comparison": {
-      "path": "figures/12-8/plots/comparisons/figure_12_8_extended_comparison.png",
-      "sha256": "81fc32e50032062500fd15263614f811e9e4904f6eb385fe3fa438ae7db19923"
+      "path": "figures/12-8/plots/comparisons/figure_12_8_extended_review.png",
+      "sha256": "2941e4fd37d8e2f576b1afcba54a7ec872f43f4644220f9b0631aaf691847cc2"
     },
     "caption": {
       "path": "figures/12-8/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "12-8",
+    "registry_title": "Natural disaster deaths, 1900-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 21,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      208,
+      1277,
+      1435,
+      2287
+    ],
+    "crop_bounds_pdf_points": [
+      57.691,
+      354.368,
+      398.009,
+      634.643
+    ],
+    "path": "references/figures/figure_12_8.png",
+    "sha256": "033e65ed0d1932d7f56ce838dfecda3af201021c5d82fc18ea1a00c12181268c",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 12-8: Natural disaster deaths, 1900-2015",
+    "source_note_ocr": "Our World in Data, Roser 2016q, based on data from EM-DAT, The International Disaster Database, www.emdat.be. The graph plots the sum of the death rates for Drought, Earthquake, Extreme tempera- ture, Flood, Impact, Landslide, Mass movement (dry), Storm, Volcanic activity, and Wildfire (excluding Epidemics). In many decades a single disaster type dominates the numbers: droughts in the 1910s, 1920s, 19308, and 1960s; floods in the 1930s and 1950s; earthquakes in the 1970s, 2000s, and 2010s.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

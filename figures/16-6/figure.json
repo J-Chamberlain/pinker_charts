@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/16-6/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_16_6.png",
+      "sha256": "f40df4b0db2b78c0f8c2aee3d3abb74931d15cd89ecf756fd26473b69d2840d9"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "16-6",
+    "registry_title": "Global well-being, 1820-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 32,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      136,
+      1197,
+      1397,
+      2148
+    ],
+    "crop_bounds_pdf_points": [
+      37.721,
+      332.168,
+      387.47,
+      596.07
+    ],
+    "path": "references/figures/figure_16_6.png",
+    "sha256": "f40df4b0db2b78c0f8c2aee3d3abb74931d15cd89ecf756fd26473b69d2840d9",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 16-6: Global well-being, 1820-2015",
+    "source_note_ocr": "Historical Index of Human Development: Prados de la Escosura 2015, 0-1 scale, available at Our World in Data, Roser 2016h. Well-Being Composite: Rijpma 2014, p. 259, standard deviation scale over country-decades.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

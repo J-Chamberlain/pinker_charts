@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/17-6/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_17_6.png",
+      "sha256": "77c120ad5e3c2e4c9fbf4bffb94df22fcbf54a58a974acd8d21cea7209b2ad35"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "17-6",
+    "registry_title": "Leisure time, US, 1965-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 35,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      193,
+      1212,
+      1434,
+      2130
+    ],
+    "crop_bounds_pdf_points": [
+      53.53,
+      336.33,
+      397.732,
+      591.075
+    ],
+    "path": "references/figures/figure_17_6.png",
+    "sha256": "77c120ad5e3c2e4c9fbf4bffb94df22fcbf54a58a974acd8d21cea7209b2ad35",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 17-6: Leisure time, US, 1965-2015",
+    "source_note_ocr": "1965-2003: Aguiar & Hurst 2007, table III, Leisure Measure 1. 2015: American Time Use Survey, Bureau of Labor Statistics 2016c, summing Leisure and Sports, Lawn and Garden Care, and Volunteering for commensurability with Aguiar & Hurst’s Measure 1.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

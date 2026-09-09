@@ -24,34 +24,34 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_plotted",
+    "notes": "No verified comparable post-2015 distribution recovered."
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/8-3/plots/comparisons/kindle_reference_figure_8_3.png",
-      "sha256": "ec70c62169f2167d92053789ef74a6ed6948cade4e3da079846da9a64d455fec"
+      "path": "references/figures/figure_8_3.png",
+      "sha256": "86eb9630a20594f78cb23ef62d8cf129e603d463ac41d67a01c452b8970256dc"
     },
     "book_period_reconstruction": {
       "path": "figures/8-3/plots/book_period/figure_8_3_book_period_reconstruction.png",
       "sha256": "feda1c93ffce1d72348896daf491424c3d9690cca361a39c9b7a52cdbaa9b1eb"
     },
     "extended_reconstruction": {
-      "path": "figures/8-3/plots/extended/figure_8_3_extended_reconstruction.png",
-      "sha256": "94e14d33bedece68ce5e8160f6ed52c5208cee60a84ab33363a3ebd151f74d92"
+      "path": "figures/8-3/plots/book_period/figure_8_3_book_period_reconstruction.png",
+      "sha256": "feda1c93ffce1d72348896daf491424c3d9690cca361a39c9b7a52cdbaa9b1eb"
     },
     "book_period_comparison": {
-      "path": "figures/8-3/plots/comparisons/figure_8_3_book_period_comparison.png",
-      "sha256": "0eb3dda92bb4abf215d32ac8295f7f9bf3b2eb3e95591b40cee459c900e5052a"
+      "path": "figures/8-3/plots/comparisons/figure_8_3_book_period_review.png",
+      "sha256": "572667dbc10c93dd816064c89031f207e77a62d8a5cc2f09e033c225de621cc4"
     },
     "extended_comparison": {
-      "path": "figures/8-3/plots/comparisons/figure_8_3_extended_comparison.png",
-      "sha256": "bafa631a07e0dcb6d6ed35a9eb52cd7b7293d90be3edbab43cfec6d0c70b5cf6"
+      "path": "figures/8-3/plots/comparisons/figure_8_3_extended_review.png",
+      "sha256": "e79ef7c152250f990e32cd0508fbcdbd953e57e97c68879308c009c51b516390"
     },
     "caption": {
       "path": "figures/8-3/captions/caption.txt",
@@ -98,5 +98,36 @@
     "archive_url": "Not captured in this pass.",
     "download_date": "2026-07-01",
     "confidence_score": 0.78
+  },
+  "reference": {
+    "figure_id": "8-3",
+    "registry_title": "World income distribution, 1800, 1975, and 2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 8,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      169,
+      191,
+      1359,
+      1140
+    ],
+    "crop_bounds_pdf_points": [
+      46.874,
+      53.002,
+      376.93,
+      316.35
+    ],
+    "path": "references/figures/figure_8_3.png",
+    "sha256": "86eb9630a20594f78cb23ef62d8cf129e603d463ac41d67a01c452b8970256dc",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 8-3: World income distribution, 1800, 1975, and 2015",
+    "source_note_ocr": "Gapmiinder, via Ola Rosling, http://www.gapminder.org/tools/mountain. The scale is in 2011 international dollars.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

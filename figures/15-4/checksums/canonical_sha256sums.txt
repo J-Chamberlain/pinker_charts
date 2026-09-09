@@ -1,0 +1,3 @@
+133c2f042a3f7fd1f9273cb4bf73fa16dfe19e4948d134d1cf83644947e0d52f  figures/15-4/README.md
+834b12f3e682e1ba9be0b2a11d26c9bd02a9f1e177a401dc8c4e15ddd09c4331  figures/15-4/figure.json
+9158a8e4093bb6f0e545e976b519e1076212bb6c461db6af702f399a9e5cea0b  references/figures/figure_15_4.png

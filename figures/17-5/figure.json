@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/17-5/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_17_5.png",
+      "sha256": "2fa202c8b5b676cce13d53737fd30c97a8719efd45390a51e2aa5498d42d8679"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "17-5",
+    "registry_title": "Spending on necessities, US, 1929-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 35,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      208,
+      65,
+      1443,
+      1048
+    ],
+    "crop_bounds_pdf_points": [
+      57.691,
+      18.038,
+      400.228,
+      290.82
+    ],
+    "path": "references/figures/figure_17_5.png",
+    "sha256": "2fa202c8b5b676cce13d53737fd30c97a8719efd45390a51e2aa5498d42d8679",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 17-5: Spending on necessities, US, 1929-2016",
+    "source_note_ocr": "HumanProgress, http://humanprogress.org/static/1937, adapted from a graph by Mark Perry, using data from the Bureau of Economic Analysis, http://www.bea.gov/iTable/iTable.cfm?ReqID=9& step=1#reqid=9&step=1&isuri=1. Proportion of disposable income spent on food at home, cars, clothing, household furnishings, housing, utilities, and gasoline. Data from 1941 to 1946 are omitted because they are distorted by rationing and soldiers’ salaries during World War II.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

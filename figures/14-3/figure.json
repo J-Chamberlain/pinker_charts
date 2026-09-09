@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/14-3/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_14_3.png",
+      "sha256": "7f2c4a90301392a76f025112c56fa3618850f97274492c1254a940246a350cfc"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "14-3",
+    "registry_title": "Death penalty abolitions, 1863-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 24,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      137,
+      229,
+      1393,
+      1188
+    ],
+    "crop_bounds_pdf_points": [
+      37.998,
+      63.547,
+      386.36,
+      329.67
+    ],
+    "path": "references/figures/figure_14_3.png",
+    "sha256": "7f2c4a90301392a76f025112c56fa3618850f97274492c1254a940246a350cfc",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 14-3: Death penalty abolitions, 1863-2016",
+    "source_note_ocr": "“Capital Punishment by Country: Abolition Chronology,” Wikipedia, retrieved Aug. 15, 2016. Several European countries abolished the death penalty in their mainland earlier than indicated here, but the time line records the last abolition in any territory under their jurisdiction. The arrow points to 2008, the last year plotted in fig. 4-3 of Pinker 2011.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

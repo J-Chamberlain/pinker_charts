@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/9-3/plots/comparisons/supplemental_pdf_reference_figure_9_3.png",
-      "sha256": "568116e130581e5ba07ce9088e09c34d215d97cbc9b700f5eebe83cef8e47c90"
+      "path": "references/figures/figure_9_3.png",
+      "sha256": "9328929312be29b5e5030040529c02256079099972af66b2fdcc4b0b2384da0f"
     },
     "caption": {
       "path": "figures/9-3/captions/caption.txt",
@@ -82,5 +82,36 @@
     "archive_url": "",
     "download_date": "2026-07-09",
     "confidence_score": 0.42
+  },
+  "reference": {
+    "figure_id": "9-3",
+    "registry_title": "Inequality, UK and US, 1688-2013",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 10,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      143,
+      1334,
+      1351,
+      2190
+    ],
+    "crop_bounds_pdf_points": [
+      39.662,
+      370.185,
+      374.711,
+      607.725
+    ],
+    "path": "references/figures/figure_9_3.png",
+    "sha256": "9328929312be29b5e5030040529c02256079099972af66b2fdcc4b0b2384da0f",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 9-3: Inequality, UK and US, 1688-2013",
+    "source_note_ocr": "Milanovicé 2016, fig. 2.1, disposable income per capita.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

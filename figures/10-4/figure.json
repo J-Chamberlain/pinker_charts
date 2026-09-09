@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/10-4/plots/comparisons/supplemental_pdf_reference_figure_10_4.png",
-      "sha256": "9b1f2c0f5694b638e8193fd88a10ce960f507f84012bb97637d2691f23eb1518"
+      "path": "references/figures/figure_10_4.png",
+      "sha256": "76ade67c792f26ffce0c3332d38ebbac016c15c643b47c8910335b42ae680649"
     },
     "caption": {
       "path": "figures/10-4/captions/caption.txt",
@@ -82,5 +82,36 @@
     "archive_url": "Wayback CDX, archived FRA 2010 workbooks, remote-sensing reports, and OWID asset probes retained in data/candidates; no SOFO Figure 2 production data file recovered.",
     "download_date": "2026-07-09",
     "confidence_score": 0.55
+  },
+  "reference": {
+    "figure_id": "10-4",
+    "registry_title": "Deforestation, 1700-2010",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 14,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      136,
+      253,
+      1382,
+      1113
+    ],
+    "crop_bounds_pdf_points": [
+      37.721,
+      70.207,
+      383.309,
+      308.858
+    ],
+    "path": "references/figures/figure_10_4.png",
+    "sha256": "76ade67c792f26ffce0c3332d38ebbac016c15c643b47c8910335b42ae680649",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 10-4: Deforestation, 1700-2010",
+    "source_note_ocr": "United Nations Food and Agriculture Organization 2012, p. 9.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

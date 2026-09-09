@@ -215,6 +215,9 @@ def projections(records: list[dict]) -> dict[str, str]:
              "- [Registry](data/figure_registry.csv) and [JSON mirror](data/figure_registry.json)",
              "- [Workflow](docs/workflow.md), [research review](docs/review_protocol.md), [editorial gate](docs/editorial_review_gate.md)",
              "- [Canonical artifact index](data/canonical_artifacts.json)", "",
+             "- [Original reference index](references/figure_index.json)",
+             "- [Consolidated visual audit gallery](reports/review_baseline/index.html)",
+             "- [Current review PDF](output/pdf/recreated_figures_review_scroll.pdf) and [manifest](output/pdf/recreated_figures_review_scroll.manifest.json)", "",
              "Every future figure run must inspect and display actual book-period and extended",
              "comparisons where available. Record exact inspected hashes and unresolved issues.",
              "Do not digitize plotted values for reconstruction or promote weak source matches.",
@@ -277,6 +280,12 @@ def synchronize(root: Path, check: bool) -> list[str]:
         return errors
     outputs = projections(records)
     outputs.update({f"figures/{r['figure_id']}/README.md": readme_projection(root, r) for r in records})
+    for record in records:
+        fid = record["figure_id"]
+        hashes = {a["path"]: sha(safe_path(root, a["path"])) for a in record["artifacts"].values()}
+        readme = f"figures/{fid}/README.md"
+        hashes[readme] = hashlib.sha256(outputs[readme].encode()).hexdigest()
+        outputs[f"figures/{fid}/checksums/canonical_sha256sums.txt"] = "".join(f"{value}  {path}\n" for path, value in sorted(hashes.items()))
     for relative, text in outputs.items():
         path = root / relative
         if check:

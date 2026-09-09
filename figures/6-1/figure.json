@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/6-1/plots/comparisons/kindle_reference_figure_6_1.png",
-      "sha256": "518377b34283bb289d17c1ed51b80b49af80251c7b58ad3010e88023eb8de7d9"
+      "path": "references/figures/figure_6_1.png",
+      "sha256": "d5e280817e083b23c9845bc9e56a9a3384a0053b6f3fc5101d630cd81c176941"
     },
     "caption": {
       "path": "figures/6-1/captions/caption.txt",
@@ -82,5 +82,36 @@
     "archive_url": "Not recovered in Track A time-box.",
     "download_date": "2026-06-30",
     "confidence_score": 0.3
+  },
+  "reference": {
+    "figure_id": "6-1",
+    "registry_title": "Childhood deaths from infectious disease, 2000-2013",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 4,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      137,
+      1309,
+      1406,
+      2194
+    ],
+    "crop_bounds_pdf_points": [
+      37.998,
+      363.248,
+      389.966,
+      608.835
+    ],
+    "path": "references/figures/figure_6_1.png",
+    "sha256": "d5e280817e083b23c9845bc9e56a9a3384a0053b6f3fc5101d630cd81c176941",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 6-1: Childhood deaths from infectious disease, 2000-2013",
+    "source_note_ocr": "Child Health Epidemiology Reference Group of the World Health Organization, Liu et al. 2014, supplementary appendix.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

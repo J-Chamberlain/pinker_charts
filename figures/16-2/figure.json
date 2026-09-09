@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/16-2/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_16_2.png",
+      "sha256": "8eac92be6c1323ee363ad97f01a2ffd8c9524140028f5055a24d331b841da51c"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "16-2",
+    "registry_title": "Basic education, 1820-2010",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 30,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      141,
+      1236,
+      1356,
+      2179
+    ],
+    "crop_bounds_pdf_points": [
+      39.108,
+      342.99,
+      376.098,
+      604.673
+    ],
+    "path": "references/figures/figure_16_2.png",
+    "sha256": "8eac92be6c1323ee363ad97f01a2ffd8c9524140028f5055a24d331b841da51c",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 16-2: Basic education, 1820-2010",
+    "source_note_ocr": "Our World in Data, Roser & Nagdy 2016c, based on data from van Zanden et al. 2014. The graphs indicate the share of the population aged 15 or older that had completed at least a year of education (more in later eras); see van Leeuwen & van Leewen-Li 2014, pp. 88-93.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

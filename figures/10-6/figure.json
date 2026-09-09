@@ -24,7 +24,7 @@
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
     "issues": []
   },
@@ -34,8 +34,8 @@
   },
   "artifacts": {
     "original_reference": {
-      "path": "figures/10-6/plots/comparisons/corrected_figure_10_6_book_crop.png",
-      "sha256": "00d82ae4cc1c3374a4aa6a8a2e369f31633f0fcc5fc34427cbc88ce29b67ff86"
+      "path": "references/figures/figure_10_6.png",
+      "sha256": "91ab3d0aecf4725308976a4a3a3c77f4ead8edad1ab9f4697cb443b6dc1db2eb"
     },
     "book_period_reconstruction": {
       "path": "figures/10-6/plots/book_period/figure_10_6_book_period_reconstruction.png",
@@ -46,12 +46,12 @@
       "sha256": "94993a091ea757fe150efc1da538e501824550d2325027011558b2ef999b7b7f"
     },
     "book_period_comparison": {
-      "path": "figures/10-6/plots/comparisons/figure_10_6_book_style_comparison_captioned.png",
-      "sha256": "d8b66b4d940da288eb24944eec0a8e8cf945c3c62abf78c882eab3b5658d21fe"
+      "path": "figures/10-6/plots/comparisons/figure_10_6_book_period_review.png",
+      "sha256": "02a13217f334e987c4d3f25c62b3a05edd601b08c188138616417254df66b0ea"
     },
     "extended_comparison": {
-      "path": "figures/10-6/plots/comparisons/figure_10_6_extended_comparison_captioned.png",
-      "sha256": "9b7fbf5b1ac52f7f5cad81a63a67d7abf71a55023dcc633b1645a5062321d1b9"
+      "path": "figures/10-6/plots/comparisons/figure_10_6_extended_review.png",
+      "sha256": "6df4740ec4af91a2975baa79c10864c71f93715422162ae9a01de88b13b8e54e"
     },
     "caption": {
       "path": "figures/10-6/captions/caption.txt",
@@ -94,5 +94,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "10-6",
+    "registry_title": "Protected areas, 1990-2014",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 15,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      204,
+      239,
+      1435,
+      1127
+    ],
+    "crop_bounds_pdf_points": [
+      56.581,
+      66.323,
+      398.009,
+      312.743
+    ],
+    "path": "references/figures/figure_10_6.png",
+    "sha256": "91ab3d0aecf4725308976a4a3a3c77f4ead8edad1ab9f4697cb443b6dc1db2eb",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 10-6: Protected areas, 1990-2014",
+    "source_note_ocr": "World Bank 2016h and 2017, based on data from the United Nations Environment Programme and the World Conservation Monitoring Centre, compiled by the World Resources Institute.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

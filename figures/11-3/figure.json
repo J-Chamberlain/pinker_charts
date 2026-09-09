@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/11-3/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_11_3.png",
+      "sha256": "ead3ed1cc3ce1b541b904e6b261910d0b55035b7ac378c8cc4d4d0bdaa802e91"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "11-3",
+    "registry_title": "Genocide deaths, 1956-2016",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 17,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      217,
+      1235,
+      1433,
+      2233
+    ],
+    "crop_bounds_pdf_points": [
+      60.187,
+      342.712,
+      397.455,
+      619.658
+    ],
+    "path": "references/figures/figure_11_3.png",
+    "sha256": "ead3ed1cc3ce1b541b904e6b261910d0b55035b7ac378c8cc4d4d0bdaa802e91",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 11-3: Genocide deaths, 1956-2016",
+    "source_note_ocr": "PITF, 1955-2008: Political Instability Task Force State Failure Problem Set, 1955-2008, Marshall, Gurr, & Harff 2009; Center for Systemic Peace 2015. Calculations described in Pinker 2011, p. 338. UCDP, 1989-2016: UCDP One-Sided Violence Dataset v. 2.5-2016, Melander, Pettersson, & Themnér 2016; Uppsala Conflict Data Program 2017, “High fatality” estimates, updated with data provided by Sam Taub of UCDP, scaled by world population figures from US Census Bureau. The arrow points to 2008, the last year plotted in fig. 6-8 of Pinker 2011.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/16-1/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_16_1.png",
+      "sha256": "0793731f790fdb74dab85cce7a603efabb1e91528fc02381d6a4fea8250e2035"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "16-1",
+    "registry_title": "Literacy, 1475-2010",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 30,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      121,
+      224,
+      1410,
+      1164
+    ],
+    "crop_bounds_pdf_points": [
+      33.56,
+      62.16,
+      391.075,
+      323.01
+    ],
+    "path": "references/figures/figure_16_1.png",
+    "sha256": "0793731f790fdb74dab85cce7a603efabb1e91528fc02381d6a4fea8250e2035",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 16-1: Literacy, 1475-2010",
+    "source_note_ocr": "Our World in Data, Roser & Ortiz-Ospina 2016b, including data from the following. Before 1800: Buringh & Van Zanden 2009. World: van Zanden et al. 2014. US: National Center for Education Statistics. After 2000: Central Intelligence Agency 2016.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

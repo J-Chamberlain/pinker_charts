@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/16-5/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_16_5.png",
+      "sha256": "735403678b4839f966be5db75d1e953ac792d3a63681117e939e789738127df5"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "16-5",
+    "registry_title": "IQ gains, 1909-2013",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 32,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      134,
+      207,
+      1378,
+      1082
+    ],
+    "crop_bounds_pdf_points": [
+      37.166,
+      57.443,
+      382.2,
+      300.255
+    ],
+    "path": "references/figures/figure_16_5.png",
+    "sha256": "735403678b4839f966be5db75d1e953ac792d3a63681117e939e789738127df5",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 16-5: 1Q gains, 1909-2013",
+    "source_note_ocr": "Pietschnig & Voracek 2015, supplemental online material. The lines display changes in IQ mea- sured by different tests starting at different times and cannot be compared with one another.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

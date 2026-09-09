@@ -7,7 +7,7 @@ Publication: `incomplete`. Artifact kind: `source_recovery`.
 This generated summary and [figure.json](figure.json) supersede historical status claims below.
 A historical verified classification is not a fresh publication review.
 
-- Original reference: [plots/comparisons/supplemental_pdf_page_10_figure_9_2.png](plots/comparisons/supplemental_pdf_page_10_figure_9_2.png)
+- Original reference: [../../references/figures/figure_9_2.png](../../references/figures/figure_9_2.png)
 - Caption: [captions/caption.txt](captions/caption.txt)
 - Provenance: [provenance/provenance.md](provenance/provenance.md)
 - Anomaly review: [anomaly_reviews/anomaly_review.md](anomaly_reviews/anomaly_review.md)

@@ -1,58 +1,62 @@
-# Anomaly and Editorial Review: Figure 5-3
+# Figure 5-3: Consolidated Visual Review
 
-Review date: 2026-07-10
+Review date: 2026-09-09. Supersedes the July facsimile-based acceptance claim.
+Scientific status remains partial_match; publication readiness is not passed.
 
-## Visible review
+## Evidence Actually Inspected
 
-The recreated chart matches the indexed supplemental axes, percent scale,
-country set, jagged historical paths, staggered starting years, and labeled
-1751-2013 range. Malaysia and Ethiopia begin high and late; Sweden is the
-earliest recovered series but begins in 1800 despite the 1751 title; the United States begins around 1900. Direct labels are
-legible and do not overlap materially.
+The original PDF crop and both regenerated book-period/extended comparisons
+were opened and inspected. Current hashes are recorded in figure.json.
+The source table was parsed, not digitized from either chart. The earlier
+facsimile was generated from reconstruction data and was circular evidence;
+it cannot support visual validation, even when disclosed.
 
-The left panel is not an original page crop. It is visibly labeled as a
-supplemental-layout facsimile and contains a footer explaining that original
-pixels were unavailable. This prevents circular visual evidence from being
-mistaken for a separate source.
+## Differences And Corrections
 
-## Reviewer challenge
+- Critical, corrected: actual original reference replaced the generated facsimile.
+- Major, corrected: Sweden's missing 1751-1799 segment was recovered from
+  Claudia Hanson's GD010 workbook. These 49 source-table observations reproduce
+  maternal deaths / live births * 100,000 to floating-point precision. The
+  1800-1949 overlap agrees with OWID 522 within its one-decimal rounding.
+- Major, corrected: Sweden's label overlapped its line. Direct labels now sit
+  in open plot areas; US/Malaysia/Ethiopia gray ordering matches the original.
+- Minor, corrected: rotated year labels now resemble the original layout.
+- Remaining: fonts and exact plot geometry differ. The four-series pattern and
+  early Swedish fluctuations now closely resemble the original. This is not a
+  point-by-point independent scientific verification.
+- Remaining: the 2014-2015 continuation is only two years relative to a
+  260-year historical span. Dashes and the 2013 boundary are visible on close
+  inspection but necessarily small. The panel and caption disclose this.
+- Remaining: GD010 and OWID differ in some post-1950 observations (largest
+  Swedish overlap difference 22.39146 per 100,000 in 1967). Existing OWID values
+  are retained, not replaced to fit appearance. Investigate source processing
+  and definitions before claiming exact book-data identity.
 
-1. **What would Steven Pinker question?** Whether the four trajectories and
-   percent units are the same as his source. Resolved by OWID 522's book-era
-   provenance, named series, and exact unit conversion.
-2. **What would a data journalist question?** Whether "percentage of mothers"
-   is literally a share of unique mothers. Documented: the source measure is a
-   maternal mortality ratio per live births; the plot follows the book's label.
-3. **What would a peer reviewer question?** Whether the current OWID revision
-   was silently substituted. Resolved: it is archived but excluded from the
-   plotted continuation.
-4. **What would a skeptical reader notice immediately?** The facsimile rather
-   than an original screenshot. Documented prominently in the image, caption,
-   provenance, and discrepancy log.
+## Reviewer Challenge
 
-## Editorial Review Summary
+1. Pinker: Does the combined source match the exact Roser 2016p version?
+   Stronger evidence now exists, but exact source-vintage identity is still
+   pending independent assessment. Do not promote automatically.
+2. Data journalist: Is this a literal percentage of unique mothers? No: the
+   denominator is live births. The percent axis follows the book's wording;
+   provenance documents the source measure.
+3. Peer reviewer: Was the missing segment fitted to the chart? No. Independent
+   birth/death columns validate it; numerical overlap validates compatibility.
+   Source versions diverge later and are kept separate.
+4. Skeptical reader: Is the extension meaningful? It is explicitly a limited
+   same-source continuation, not an up-to-date maternal-health series.
 
-- Critical issues found: none in the reconstruction package.
-- Major issues found: original supplemental pixels unavailable from the
-  located host. This is explicitly disclosed and does not affect data fidelity.
-- Minor issues found: approximate fonts and label placement.
-- Issues automatically corrected: aligned axis limits, tick intervals, units,
-  direct labels, and comparison-panel scale; distinguished 2014-2015 with a
-  dashed segment and boundary marker.
-- Issues remaining: no independent pixel-level overlay against the original;
-  minor typographic differences.
-- Publication decision: acceptable as a verified data reconstruction with a
-  documented visual-reference limitation. The comparison must retain the word
-  "facsimile" until an original PDF page crop is recovered.
+## Editorial Decision And Confidence
 
-## Confidence
+No known Critical issue remains in these two comparison pages. Major missing
+history and circular-reference problems were corrected, not merely explained.
+Remaining provenance/version issues are documented research tasks. Independent
+scientific acceptance and extension assessment are still required.
 
-- Overall confidence: high.
-- Book reconstruction: high.
-- Extension: high for the limited 2014-2015 same-source continuation; no modern
-  successor appended.
-- Source provenance: high.
-- Outstanding risk: lack of original supplemental pixels prevents pixel-level
-  visual verification.
-- Recommended next action: replace the facsimile with an original crop if a
-  legally accessible Supplemental Graphics PDF becomes downloadable.
+Overall confidence: medium pending independent review.
+Book reconstruction: visually close; source-vintage identity unresolved.
+Extension: limited same-source 2014-2015 only.
+Source provenance: original Hanson table plus preserved OWID 522.
+Outstanding risks: version differences; precise maternal-death definitions.
+Recommended next action: independently audit combined-source identity and all
+four trajectories; do not redo the recovered early segment or use a facsimile.

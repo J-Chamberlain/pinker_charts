@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/17-3/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_17_3.png",
+      "sha256": "d9fac534d90378f2db473a22c899f7e0035d3da8b750fce74aba866a42b0e27f"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "17-3",
+    "registry_title": "Utilities, appliances, and housework, US, 1900-2015",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 34,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      138,
+      233,
+      1403,
+      1112
+    ],
+    "crop_bounds_pdf_points": [
+      38.275,
+      64.657,
+      389.134,
+      308.58
+    ],
+    "path": "references/figures/figure_17_3.png",
+    "sha256": "d9fac534d90378f2db473a22c899f7e0035d3da8b750fce74aba866a42b0e27f",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 17-3: Utilities, appliances, and housework, US, 1900-2015",
+    "source_note_ocr": "Before 2005: Greenwood, Seshadri, & Yorukoglu 2005. Appliances, 2005 and 2011: US Census Bureau, Siebens 2013. Housework, 2015: Our World in Data, Roser 2016t, based on the American Time Use Survey, Bureau of Labor Statistics 2016b.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

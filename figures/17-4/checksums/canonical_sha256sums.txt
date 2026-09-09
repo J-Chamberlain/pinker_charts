@@ -1,0 +1,3 @@
+68eddb8ffa473c1c1bda8b5a50b58e8ac549ff5ca1654be53fd6a01ddf2ed1d0  figures/17-4/README.md
+67244d2ddaa04a204ed4b9d6e5e4e778833aa60a03a50fed5212b2afeaa123ee  figures/17-4/figure.json
+7665d01d3d0d1ed2576be49ae09515e202688503865ceeb97023a6df2232022d  references/figures/figure_17_4.png

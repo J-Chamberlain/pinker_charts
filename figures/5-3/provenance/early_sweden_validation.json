@@ -1,0 +1,18 @@
+{
+  "source_path": "figures/5-3/data/raw/gapminder_gd010_gapdata010.xls",
+  "sha256": "b92cd2e764309ace943b3646bf90c5bb148774e945ccecfddb4c387eed275ad6",
+  "source_url": "https://www.gapminder.org/documentation/documentation/gapdata010.xls",
+  "rows_added": 49,
+  "year_range": [
+    1751,
+    1799
+  ],
+  "count_ratio_max_error": 2.2737367544323206e-13,
+  "overlap_year_range": [
+    1800,
+    1949
+  ],
+  "overlap_rows": 150,
+  "overlap_max_mmr_error": 0.0499823242439561,
+  "policy": "Add missing early Sweden only. Keep OWID 522 for all existing rows; later source versions differ and are not overwritten."
+}

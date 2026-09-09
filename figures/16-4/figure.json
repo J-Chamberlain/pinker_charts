@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/16-4/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_16_4.png",
+      "sha256": "2c4f5412c0cc54a5fc7cf3ba84601479920fc61257cb070f9027bccba046f09c"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "16-4",
+    "registry_title": "Female literacy, 1750-2014",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 31,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      196,
+      1212,
+      1428,
+      2159
+    ],
+    "crop_bounds_pdf_points": [
+      54.362,
+      336.33,
+      396.068,
+      599.122
+    ],
+    "path": "references/figures/figure_16_4.png",
+    "sha256": "2c4f5412c0cc54a5fc7cf3ba84601479920fc61257cb070f9027bccba046f09c",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 16-4: Female literacy, 1750-2014",
+    "source_note_ocr": "England (all adults): Clark 2007, p. 179. World, Pakistan, & Afghanistan (ages 15-24): Human- Progress, http://www.humanprogress.org/f1/2101, based on data from UNESCO Institute for Statistics, summarized in World Bank 2016f. Data for the world are averaged over slightly different sets of countries in different years.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

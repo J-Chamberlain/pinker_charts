@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/15-2/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_15_2.png",
+      "sha256": "332166f4f94a75f1b038643cf54e780cdf8d70ab6b461458bbf300b8bdf09d31"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "15-2",
+    "registry_title": "Racist, sexist, and homophobic Web searches, US, 2004-2017",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 25,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      202,
+      1243,
+      1445,
+      2175
+    ],
+    "crop_bounds_pdf_points": [
+      56.026,
+      344.933,
+      400.783,
+      603.562
+    ],
+    "path": "references/figures/figure_15_2.png",
+    "sha256": "332166f4f94a75f1b038643cf54e780cdf8d70ab6b461458bbf300b8bdf09d31",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 15-2: Racist, sexist, and homophobic Web searches, US, 2004-2017",
+    "source_note_ocr": "Google Trends (www.google.com/trends), searches for “nigger jokes,” “bitch jokes,” and “fag jokes,” United States, 2004-2017, relative to total search volume. Data (accessed Jan. 22, 2017) are by month, expressed as a percentage of the peak month for each search term, then averaged over the months of each year, and smoothed.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

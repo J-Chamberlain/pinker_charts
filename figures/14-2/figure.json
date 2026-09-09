@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/14-2/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_14_2.png",
+      "sha256": "390c05cfe153f6435813e5d0f955c79fa9fd085c7dd7dd9e578c460344b72a05"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "14-2",
+    "registry_title": "Human rights, 1949-2014",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 23,
+    "panel": 2,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      211,
+      1199,
+      1428,
+      2158
+    ],
+    "crop_bounds_pdf_points": [
+      58.523,
+      332.723,
+      396.068,
+      598.845
+    ],
+    "path": "references/figures/figure_14_2.png",
+    "sha256": "390c05cfe153f6435813e5d0f955c79fa9fd085c7dd7dd9e578c460344b72a05",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 14-2: Human rights, 1949-2014",
+    "source_note_ocr": "Our World in Data, Roser 2016i, graphing an index devised by Fariss 2014, which estimates pro- uo is the mean tection from torture, extrajudicial killing, political imprisonment, and disappearances. over all countries and years; the units are standard deviations.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/17-1/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_17_1.png",
+      "sha256": "89018c76321b0170374f169a56f8dc961661c3e95f4211d1896c9ca9279a7682"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "17-1",
+    "registry_title": "Work hours, Western Europe and US, 1870-2000",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 33,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      206,
+      226,
+      1435,
+      1112
+    ],
+    "crop_bounds_pdf_points": [
+      57.136,
+      62.715,
+      398.009,
+      308.58
+    ],
+    "path": "references/figures/figure_17_1.png",
+    "sha256": "89018c76321b0170374f169a56f8dc961661c3e95f4211d1896c9ca9279a7682",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 17-1: Work hours, Western Europe and US, 1870-2000",
+    "source_note_ocr": "Roser 2016t, based on data from Huberman & Minns 2007 on full-time production workers (both sexes) in nonagricultural activities.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }

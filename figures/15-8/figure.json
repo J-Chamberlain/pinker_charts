@@ -36,6 +36,10 @@
     "metadata": {
       "path": "figures/15-8/figure.json",
       "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_15_8.png",
+      "sha256": "c615ab82d975e8b6ef25a7e467a227882709a67e7537d814f425882411e142b7"
     }
   },
   "research": {
@@ -46,5 +50,36 @@
     "archive_url": "",
     "download_date": "",
     "confidence_score": ""
+  },
+  "reference": {
+    "figure_id": "15-8",
+    "registry_title": "Victimization of children, US, 1993-2012",
+    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
+    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
+    "pdf_page": 29,
+    "panel": 1,
+    "render_dimensions": [
+      1590,
+      2400
+    ],
+    "crop_bounds_pixels": [
+      210,
+      136,
+      1458,
+      1178
+    ],
+    "crop_bounds_pdf_points": [
+      58.245,
+      37.74,
+      404.389,
+      326.895
+    ],
+    "path": "references/figures/figure_15_8.png",
+    "sha256": "c615ab82d975e8b6ef25a7e467a227882709a67e7537d814f425882411e142b7",
+    "identity_validation": "ocr_id_confirmed",
+    "caption_ocr": "Figure 15-8: Victimization of children, US, 1993-2012",
+    "source_note_ocr": "Physical abuse and Sexual abuse (mainly by caregivers): National Child Abuse and Neglect Data System, http://www.ndacan.cornell.edu/, analyzed by Finkelhor 2014; Finkelhor et al. 2014. Vio- lent victimization at school: US Bureau of Justice Statistics, National Crime Victimization Survey, Victim- ization Analysis Tool, http://www.bjs.gov/index.cfm?ty=nvat. Rates for physical and sexual abuse are per 100,000 children younger than 18. Rates for violent victimization at school are per 10,000 children aged 12-17. The arrows point to 2003 and 2007, the last years plotted in fig. 7-22 and fig. 7-20 in Pinker 2011, respectively.",
+    "source_note_validation": "machine_extracted_pending_source_review",
+    "visual_review": "pending_full_resolution_review"
   }
 }
