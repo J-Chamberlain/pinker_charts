@@ -299,10 +299,50 @@ def synchronize(root: Path, check: bool) -> list[str]:
     return errors
 
 
+def record_execution(root: Path, fid: str, status: str, run_id: str, next_action=None, note=None) -> dict:
+    """Integration-owned scheduling write. Scientific/publication state is immutable here."""
+    if not re.fullmatch(r"\d+-\d+", fid) or status not in EXECUTION or not run_id.strip():
+        raise ValueError("Invalid figure ID, execution status, or empty run ID")
+    errors = synchronize(root, check=True)
+    if errors:
+        raise ValueError("Cannot update inconsistent state: " + "; ".join(errors))
+    path = root / "figures" / fid / "figure.json"
+    previous = path.read_bytes()
+    record = json.loads(previous)
+    history = record.setdefault("execution_history", [])
+    if any(event["run_id"] == run_id for event in history):
+        raise ValueError(f"Run {run_id} already recorded; no duplicate write-back")
+    history.append({"run_id": run_id, "previous_status": record["execution_status"],
+                    "status": status, "next_action": next_action, "note": note})
+    record["execution_status"] = status
+    # Preserve the research next_action; scheduling advice lives in its own history.
+    try:
+        path.write_text(dumps(record))
+        errors = synchronize(root, check=False)
+        if errors:
+            raise ValueError("; ".join(errors))
+    except Exception:
+        path.write_bytes(previous)
+        synchronize(root, check=False)
+        raise
+    return {"figure_id": fid, "run_id": run_id, "execution_status": status,
+            "scientific_status": record["scientific_status"], "publication_status": record["publication_status"]}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["bootstrap", "generate", "check"])
+    parser.add_argument("command", choices=["bootstrap", "generate", "check", "record-execution"])
+    parser.add_argument("--figure-id")
+    parser.add_argument("--execution-status", choices=sorted(EXECUTION))
+    parser.add_argument("--run-id")
+    parser.add_argument("--next-action")
+    parser.add_argument("--note")
     args = parser.parse_args()
+    if args.command == "record-execution":
+        if not all([args.figure_id, args.execution_status, args.run_id]):
+            parser.error("record-execution requires --figure-id, --execution-status and --run-id")
+        print(dumps(record_execution(ROOT, args.figure_id, args.execution_status, args.run_id, args.next_action, args.note)))
+        return
     if args.command == "bootstrap":
         bootstrap(ROOT)
     errors = synchronize(ROOT, check=args.command == "check")

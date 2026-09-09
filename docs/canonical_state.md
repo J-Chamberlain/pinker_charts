@@ -48,3 +48,13 @@ status; scheduling consumers must read `execution_status` separately.
 records. Import scripts and historical snapshots are not regular build commands.
 The active orchestrator must implement this ownership contract before another
 production batch; its old registry writer is not compatible with these views.
+# Integration Write-Back
+
+The external runner must call `scripts/project_state.py record-execution`
+with `--figure-id`, `--execution-status`, and `--run-id`. Optional scheduling
+advice goes in `--next-action` and `--note`, retained in execution history,
+not in scientific research fields. This command refuses stale generated views,
+duplicate run IDs, and invalid statuses. It regenerates all projections and
+does not change scientific status or publication readiness. The caller holds
+the repository execution lock, requires a clean checkout, validates the result,
+and commits the coherent update. API/reviewer failures are not source blockers.

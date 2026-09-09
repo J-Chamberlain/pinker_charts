@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.project_state import imported_status, projections, safe_path, validate_record
+from scripts.project_state import imported_status, projections, safe_path, validate_record, synchronize, record_execution
 
 
 def test_scheduling_outcome_cannot_be_scientific_evidence():
@@ -76,3 +76,36 @@ def test_self_reference_cannot_skip_plot_hash_verification(tmp_path):
     (tmp_path / "plot.png").write_bytes(b"x")
     r["artifacts"]["comparison"] = {"path": "plot.png", "self": True}
     assert any("invalid self-reference" in e for e in validate_record(tmp_path, r))
+
+
+def make_canonical_fixture(root):
+    for n in range(1, 76):
+        r = record()
+        r.update(figure_id=f"1-{n}", next_action="Investigate original data")
+        p = root / f"figures/1-{n}/figure.json"
+        p.parent.mkdir(parents=True)
+        p.write_text(json.dumps(r))
+    assert not synchronize(root, False)
+
+
+def test_execution_writeback_preserves_scientific_record_and_regenerates(tmp_path):
+    make_canonical_fixture(tmp_path)
+    result = record_execution(tmp_path, "1-1", "blocked", "run-a", "Manual review required")
+    assert result["scientific_status"] == "partial_match"
+    r = json.loads((tmp_path / "figures/1-1/figure.json").read_text())
+    assert r["next_action"] == "Investigate original data"
+    assert r["publication_status"] == "not_reviewed"
+    assert r["execution_history"][0]["next_action"] == "Manual review required"
+    assert not synchronize(tmp_path, True)
+    with pytest.raises(ValueError, match="already recorded"):
+        record_execution(tmp_path, "1-1", "accepted", "run-a")
+
+
+def test_execution_writeback_refuses_stale_views_without_mutation(tmp_path):
+    make_canonical_fixture(tmp_path)
+    p = tmp_path / "figures/1-1/figure.json"
+    before = p.read_bytes()
+    (tmp_path / "data/figure_registry.csv").write_text("stale")
+    with pytest.raises(ValueError, match="inconsistent"):
+        record_execution(tmp_path, "1-1", "accepted", "run-a")
+    assert p.read_bytes() == before

@@ -192,10 +192,14 @@ def test_reviewer_supervisor_status_helpers_distinguish_failure_manual_and_noop(
 
 
 def test_local_loop_dry_run_can_iterate_multiple_tasks():
+    import csv
+
     config = load_config(ROOT / "orchestrator/examples/pinker_charts.config.example.yaml")
+    with (ROOT / "data/figure_registry.csv").open(newline="") as handle:
+        expected = [r["figure_id"] for r in csv.DictReader(handle) if r["current_status"] in {"", "not_started"}][:3]
     decisions = run_loop(config, "local-loop", max_iterations=3)
     assert len(decisions) == 3
     task_ids = [decision.task.id for decision in decisions if decision.task]
     assert len(set(task_ids)) == 3
-    assert task_ids[0] == "4-1"
+    assert task_ids == expected
     assert all(decision.action == "executed" for decision in decisions)
