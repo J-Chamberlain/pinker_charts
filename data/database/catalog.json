@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "efb100f084667949ab3223a87b1ac0cd08f5b35b4c59118c0881ad5ef7afb9e7",
+  "snapshot_id": "2c83ec37140e27616090f121b00d2aafaa97d405ebec0a0cb95d70aa0f89b8fd",
   "figures": 75,
-  "saved_files": 321,
-  "clean_tables": 65,
-  "clean_rows": 34968,
+  "saved_files": 345,
+  "clean_tables": 68,
+  "clean_rows": 35041,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -574,14 +574,14 @@
     {
       "figure_id": "17-8",
       "title": "International tourism, 1995-2015",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 24,
+      "raw_files": 15,
+      "clean_tables": 3,
+      "canonical_declared_clean_tables": 3,
+      "clean_rows": 73,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "18-1",

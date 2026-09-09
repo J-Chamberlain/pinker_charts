@@ -326,7 +326,7 @@ ledger into the orchestrator repository.
 | 5. Scientific/visual gate | Implemented and mocked; calibration pending | Active lab `b7a5ef9` packages exact-commit sources/data/code/images and sends actual pixels. Strict parsing and manual-review guards tested; actual 5-3 package contains 21 files and three image inputs. Real scientific judgment is not yet calibrated. |
 | 6. Unattended calibration | Offline checks progressing | 283 active-lab tests pass. Atomic integration, whole-run locking, budget enforcement and live calibration remain. No paid calls; spending ceiling and credential preflight still required. |
 | 7. Existing incomplete figures | First consolidation-enabled repair | Figure 5-3 regained 49 early Sweden years from original GD010 table; exact count/overlap tests pass, both comparisons visually inspected. Remains partial pending independent review. |
-| 8. Untouched figures | Not started | Reconfirm provisional 40-figure queue after consolidation. |
+| 8. Untouched figures | Direct production begun | Figure 17-8 recovered as partial_match with original-PDF comparisons, 2016 WDI history and explicit successor extension to 2025; 39 untouched figures remain. No paid reviewer dependency. |
 | 9. Final recovery/review | Not started | Apply new evidence to deferred work and audit all released comparisons. |
 | 10. Release | Not started | Fresh-checkout validation, gallery, PDF, release manifest, and completion accounting. |
 
@@ -343,3 +343,12 @@ catalogs 321 retained files and imports 65 clean tables / 34,968 rows. All 75
 figures have coverage entries. Original files are untouched; exact per-plot input
 mapping and automated provider refreshes remain incomplete. Prioritize this
 reusable-data work alongside reconstruction, without requiring paid API review.
+
+2026-09-09 direct-production checkpoint: Figure 17-8 adds 21 book-period and
+32 version-labelled extended observations (including overlap), plus a 20-row
+source-vintage diagnostic. SQLite now retains 345 files, 68 clean tables and
+35,041 clean rows. Full-resolution side-by-side inspection is recorded; exact
+original-vintage 2015 tourism data remain a targeted recovery task. Archive
+searches and rejected data are retained, not silently discarded. The next action
+is another untouched figure; the global review PDF will refresh after the next
+coherent group. No external API review or new orchestrator work performed.

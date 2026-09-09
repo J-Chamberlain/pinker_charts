@@ -1,0 +1,32 @@
+{
+  "figure_id": "17-8",
+  "book_citation": "World Bank 2016e, based on World Tourism Organization, Yearbook of Tourism Statistics",
+  "script": "scripts/reconstruct_17_8.py",
+  "source_extraction_script": "scripts/recover_17_8_tables.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": ["figures/17-8/data/raw/wdi_2016_world_row.csv", "figures/17-8/data/raw/wdi_2017_october_world_row.csv"],
+      "selection": "2016 vintage 1995-2014 plus explicitly revised 2017-vintage 2015 endpoint",
+      "transformation": "arrivals / 1e9; no interpolation or adjustment",
+      "clean": "figures/17-8/data/clean/figure_17_8_book_period.csv",
+      "plot": "figures/17-8/plots/book_period/figure_17_8_book_period.png"
+    },
+    {
+      "role": "extended",
+      "raw_inputs": ["figures/17-8/data/raw/wdi_2016_world_row.csv", "figures/17-8/data/raw/wdi_2017_october_world_row.csv", "figures/17-8/data/candidates/owid_regional_arrivals_2026_09_09.csv", "figures/17-8/data/raw/un_tourism_2026_01_world_table.csv"],
+      "selection": "book history plus five complete regional sums 2015-2018 and World table 2019-2025",
+      "transformation": "arrivals / 1e9; recent table millions / 1000; keep overlaps and source-version breaks",
+      "clean": "figures/17-8/data/clean/figure_17_8_extended.csv",
+      "plot": "figures/17-8/plots/extended/figure_17_8_extended.png"
+    },
+    {
+      "role": "diagnostic_only",
+      "raw_inputs": ["figures/17-8/data/raw/wdi_2016_world_row.csv", "figures/17-8/data/raw/wdi_2017_october_world_row.csv", "figures/17-8/data/raw/world_bank_tourism_current_2026_09_09.json"],
+      "selection": "World annual overlap, 1995-2014",
+      "transformation": "retain each version separately and compute current / 2016 ratio",
+      "clean": "figures/17-8/data/clean/figure_17_8_source_version_diagnostic.csv",
+      "plot": "figures/17-8/plots/diagnostics/source_versions.png"
+    }
+  ]
+}

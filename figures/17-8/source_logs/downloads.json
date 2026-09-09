@@ -1,0 +1,148 @@
+[
+  {
+    "url": "https://api.worldbank.org/v2/country/WLD/indicator/ST.INT.ARVL?format=json&per_page=1000",
+    "path": "figures/17-8/data/raw/world_bank_tourism_current_2026_09_09.json",
+    "retrieved_at": "2026-09-09T22:58:35.873793+00:00",
+    "http_status": 200,
+    "final_url": "https://api.worldbank.org/v2/country/WLD/indicator/ST.INT.ARVL?format=json&per_page=1000",
+    "content_type": "application/json;charset=utf-8",
+    "status": "downloaded",
+    "sha256": "e83ac8aee2314f52a56eb74112deee3136094d4dc4094c9043af740a14e34f9e",
+    "bytes": 14514
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=databank.worldbank.org/data/download/WDI_csv.zip&output=json&filter=statuscode:200&filter=mimetype:application/zip&from=2016&to=2016&collapse=timestamp:6",
+    "path": "figures/17-8/data/candidates/wdi_2016_cdx.json",
+    "retrieved_at": "2026-09-09T22:58:36.553605+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=databank.worldbank.org/data/download/WDI_csv.zip&output=json&filter=statuscode:200&filter=mimetype:application/zip&from=2016&to=2016&collapse=timestamp:6",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=databank.worldbank.org/data/download/WDI_csv.zip&output=json&filter=statuscode:200&from=2015&to=2017&collapse=timestamp:4",
+    "path": "figures/17-8/data/candidates/wdi_archive_cdx.json",
+    "retrieved_at": "2026-09-09T22:58:53.471166+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=databank.worldbank.org/data/download/WDI_csv.zip&output=json&filter=statuscode:200&from=2015&to=2017&collapse=timestamp:4",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "3b8c33f40970df9a1e86730da5cbfa28ba3efd02446469d8c07a3e008ee3641d",
+    "bytes": 717
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=databank.worldbank.org/data/download/WDI_csv.zip&output=json&filter=statuscode:200&from=2016&to=2016&collapse=timestamp:6",
+    "path": "figures/17-8/data/candidates/wdi_2016_monthly_cdx.json",
+    "retrieved_at": "2026-09-09T23:00:42.523139+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=databank.worldbank.org/data/download/WDI_csv.zip&output=json&filter=statuscode:200&from=2016&to=2016&collapse=timestamp:6",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "2fe3a51b0b09eb3fa0987a89ff8cb36afbd8c66d2fd2118e3c227e6cb0c0abb5",
+    "bytes": 717
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/international-tourist-arrivals-by-world-region.csv",
+    "path": "figures/17-8/data/candidates/owid_regional_arrivals_2026_09_09.csv",
+    "retrieved_at": "2026-09-09T23:01:10.054421+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/international-tourist-trips-by-destination-region.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "c04306936c0e293f367a4a49223eeef55ac793bb622fba3d5692bc4cc6518693",
+    "bytes": 5865
+  },
+  {
+    "url": "https://cms.czechtourism.cz/cms/getmedia/9db51d67-8a8f-4731-86b9-16b079568886/2025-world-tourism-barometer-and-statistical-annex-november-2025.pdf",
+    "path": "figures/17-8/data/raw/un_tourism_barometer_2025_11.pdf",
+    "retrieved_at": "2026-09-09T23:01:11.218386+00:00",
+    "http_status": 200,
+    "final_url": "https://cms.czechtourism.cz/cms/getmedia/9db51d67-8a8f-4731-86b9-16b079568886/2025-world-tourism-barometer-and-statistical-annex-november-2025.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "21f67d854af59607ef2d99841a9e11b905e19813aad0f10f18bb36ec5cf11cf3",
+    "bytes": 2074170
+  },
+  {
+    "url": "https://web.archive.org/web/20161119172134id_/http://databank.worldbank.org/data/download/WDI_csv.zip",
+    "path": "figures/17-8/data/raw/WDI_csv_20161119172134.zip",
+    "retrieved_at": "2026-09-09T23:01:23.673438+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20161119172134id_/http://databank.worldbank.org/data/download/WDI_csv.zip",
+    "content_type": "application/x-zip-compressed",
+    "status": "downloaded",
+    "sha256": "b1640ee18a6e2aff7d47509d14f92f1445ec0cc3e00b2187edbf952ec948c67f",
+    "bytes": 56607967
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/international-tourist-trips-by-destination-region.metadata.json",
+    "path": "figures/17-8/data/candidates/owid_regional_metadata_2026_09_09.json",
+    "retrieved_at": "2026-09-09T23:01:45.323694+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/international-tourist-trips-by-destination-region.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "02a5a4ca1c12db1b76efea8391e5f74520d6c2e308d69daa70be9b4094b5e3ad",
+    "bytes": 1164
+  },
+  {
+    "url": "https://pre-webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2026-01/World_Tourism%20Barometer_Jan26_excerpt_v2.pdf?VersionId=u75u9KWPa6Dzc2CUHld7AvQ49FYrDTQC",
+    "path": "tmp/source_cache/un_tourism_barometer_2026_01.pdf",
+    "retrieved_at": "2026-09-09T23:01:55.109562+00:00",
+    "http_status": 200,
+    "final_url": "https://pre-webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2026-01/World_Tourism%20Barometer_Jan26_excerpt_v2.pdf?VersionId=u75u9KWPa6Dzc2CUHld7AvQ49FYrDTQC",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "b70beb7efe8db27e581ec3b3bf740b13f5694fb360f08643df4913656eb54503",
+    "bytes": 1018922
+  },
+  {
+    "url": "https://web.archive.org/web/20170119005005id_/http://databank.worldbank.org/data/download/WDI_csv.zip",
+    "path": "figures/17-8/data/raw/WDI_csv_20170119005005.zip",
+    "retrieved_at": "2026-09-09T23:02:27.311496+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170119005005id_/http://databank.worldbank.org/data/download/WDI_csv.zip",
+    "content_type": "application/x-zip-compressed",
+    "status": "downloaded",
+    "sha256": "803f31571d5df6482caff258f5529b0af2a524bf69d9a4c8e783b3529d83287b",
+    "bytes": 57460014
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=databank.worldbank.org/data/download/WDI_csv.zip&output=json&filter=statuscode:200&from=2017&to=2017&collapse=timestamp:6",
+    "path": "figures/17-8/data/candidates/wdi_2017_monthly_cdx.json",
+    "retrieved_at": "2026-09-09T23:03:02.759228+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=databank.worldbank.org/data/download/WDI_csv.zip&output=json&filter=statuscode:200&from=2017&to=2017&collapse=timestamp:6",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "40ed728794570c58bc370913cb36e1db06f0bfc9125e4fa633db22aa755d6f6a",
+    "bytes": 1143
+  },
+  {
+    "url": "https://web.archive.org/web/20170508232524id_/http://databank.worldbank.org/data/download/WDI_csv.zip",
+    "path": "tmp/source_cache/WDI_csv_20170508232524.zip",
+    "retrieved_at": "2026-09-09T23:04:30.107170+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170508232524id_/http://databank.worldbank.org/data/download/WDI_csv.zip",
+    "content_type": "application/x-zip-compressed",
+    "status": "downloaded",
+    "sha256": "239b9c9e6d9ab31691c85daa60b7d76886c1b83ca6e5216d36e620ec63331adc",
+    "bytes": 57328851
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/international-tourist-trips.csv?v=1&csvType=full&useColumnShortNames=false",
+    "path": "figures/17-8/data/raw/owid_un_tourism_2026_09_09.csv",
+    "retrieved_at": "2026-09-09T23:04:44.579955+00:00",
+    "status": "retained_existing_no_network",
+    "sha256": "630bac7c8c1738b4818029ada7c0f8d597cc340bf2777bed1eac799ad73d6267"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/international-tourist-trips.metadata.json?v=1&csvType=full&useColumnShortNames=false",
+    "path": "figures/17-8/data/raw/owid_un_tourism_metadata_2026_09_09.json",
+    "retrieved_at": "2026-09-09T23:04:44.729300+00:00",
+    "status": "retained_existing_no_network",
+    "sha256": "a937ef02fee2a83f119f9c494df6afd4848aaa680e32ca277baf00f51c4c30f0"
+  }
+]

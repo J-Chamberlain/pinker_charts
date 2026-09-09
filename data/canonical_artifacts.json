@@ -2460,9 +2460,77 @@
     }
   },
   "17-8": {
-    "scientific_status": "not_started",
-    "artifact_kind": "not_started",
+    "scientific_status": "partial_match",
+    "artifact_kind": "reconstruction",
     "artifacts": {
+      "anomaly_review": {
+        "path": "figures/17-8/anomaly_reviews/anomaly_review.md",
+        "sha256": "0df92414fb7b72b42c5010846b3f57f03f843c7e58d085015bc78ab9b6340e7e"
+      },
+      "discrepancy_log": {
+        "path": "figures/17-8/discrepancy_logs/discrepancy_log.md",
+        "sha256": "8ee8c6877d107fab12b69c1f8aab4b6a2cd6427c40e2235875962fb5899dffbe"
+      },
+      "review_checklist": {
+        "path": "figures/17-8/review_checklist.md",
+        "sha256": "c3e5bcd96c6df956ae9863e921a85fc133ae873b263e5c3dfce950fb7ad3f988"
+      },
+      "lineage": {
+        "path": "figures/17-8/lineage/lineage.json",
+        "sha256": "731a3a5904ab4b18201814e82780662b5370e73ee6d170869059cb8088172cee"
+      },
+      "book_period_reconstruction": {
+        "path": "figures/17-8/plots/book_period/figure_17_8_book_period.png",
+        "sha256": "d9c780f9416cd523bcd615a88e94ab7556389b91a0326ad4305d5c01df4f8ec9"
+      },
+      "extended_reconstruction": {
+        "path": "figures/17-8/plots/extended/figure_17_8_extended.png",
+        "sha256": "af41473be195d2ce112c96b36bc3f3fc1a4a910dd63b840e14a176dc4fd96130"
+      },
+      "diagnostic_plot": {
+        "path": "figures/17-8/plots/diagnostics/source_versions.png",
+        "sha256": "673a31055818e84e2ddc4ec38569356e89ae3000b4583e45b6d7dec0d4c8d92e"
+      },
+      "caption": {
+        "path": "figures/17-8/captions/caption.txt",
+        "sha256": "1cb67db48ed48a447431fc8db5abf2b74f24479583f7b90de751de4ec0dbb57b"
+      },
+      "provenance": {
+        "path": "figures/17-8/provenance/provenance.md",
+        "sha256": "f064ce38b86b0256cc9db5b737402e324c98c117072ac72cecd7c506f9a95848"
+      },
+      "source_log": {
+        "path": "figures/17-8/source_logs/source_log.md",
+        "sha256": "23e4b4510fc748af885bc0ef26dbe7c70f2be43c55a3e263a35d31c2831923d3"
+      },
+      "download_log": {
+        "path": "figures/17-8/source_logs/downloads.json",
+        "sha256": "91b907ee386d02ac0389cad3b0ba03342e21667fc20ee2258c65360f0a9fae93"
+      },
+      "search_log": {
+        "path": "figures/17-8/search_iterations/search_iterations.md",
+        "sha256": "e5ee076c6e9fc731b6465f930d57d2602ab2d02c0bf949f9af8c264e285c45a3"
+      },
+      "reconstruction_script": {
+        "path": "scripts/reconstruct_17_8.py",
+        "sha256": "0d136f2541405420eba7a03aea13fe43766a5fa90d0473340b636d20505e7211"
+      },
+      "source_extraction_script": {
+        "path": "scripts/recover_17_8_tables.py",
+        "sha256": "7289525f7c2bb47e38d7b1c1fbfc63b54bc1938957563127f62b8cae073d36ad"
+      },
+      "book_period_clean": {
+        "path": "figures/17-8/data/clean/figure_17_8_book_period.csv",
+        "sha256": "7521cde78adcb5572e3f1e5d38ad1f61e10d65f559249bac761c7cdb4573f8e7"
+      },
+      "extended_clean": {
+        "path": "figures/17-8/data/clean/figure_17_8_extended.csv",
+        "sha256": "6f209145c4e3255553dcd87adc2315092adf390b126db33478b154c3637af9f5"
+      },
+      "diagnostic_clean": {
+        "path": "figures/17-8/data/clean/figure_17_8_source_version_diagnostic.csv",
+        "sha256": "b0b2757197319c58ae0cee41528955997ad153dfa4ed745a91041728eabb189a"
+      },
       "metadata": {
         "path": "figures/17-8/figure.json",
         "self": true
@@ -2470,6 +2538,14 @@
       "original_reference": {
         "path": "references/figures/figure_17_8.png",
         "sha256": "3748602c49613e955aab742901931bde2d1dc45d27633de1ed8e740581f172c4"
+      },
+      "book_period_comparison": {
+        "path": "figures/17-8/plots/comparisons/figure_17_8_book_period_review.png",
+        "sha256": "7bdb94ca7a722867deb114610600c1ff5c99ec037b2d8ae709177af4c40bc364"
+      },
+      "extended_comparison": {
+        "path": "figures/17-8/plots/comparisons/figure_17_8_extended_review.png",
+        "sha256": "71c628d2a376ef83623b3df5618a3ee1eed99709bd52a4521fd8bf3a9b8f36cf"
       }
     }
   },

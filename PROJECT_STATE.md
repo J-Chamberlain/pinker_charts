@@ -42,8 +42,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | --- | ---: |
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
-| not_started | 40 |
-| partial_match | 11 |
+| not_started | 39 |
+| partial_match | 12 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 7 |
@@ -121,7 +121,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 17-5 | Spending on necessities, US, 1929-2016 | not_started | not_started | incomplete |
 | 17-6 | Leisure time, US, 1965-2015 | not_started | not_started | incomplete |
 | 17-7 | Cost of air travel, US, 1979-2015 | not_started | not_started | incomplete |
-| 17-8 | International tourism, 1995-2015 | not_started | not_started | incomplete |
+| 17-8 | International tourism, 1995-2015 | partial_match | processed | incomplete |
 | 18-1 | Life satisfaction and income, 2006 | not_started | not_started | incomplete |
 | 18-2 | Loneliness, US students, 1978-2011 | not_started | not_started | incomplete |
 | 18-3 | Suicide, England, Switzerland, and US, 1860-2014 | not_started | not_started | incomplete |
@@ -745,6 +745,32 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 - Discrepancy log: [figures/12-9/discrepancy_logs/discrepancy_log.md](figures/12-9/discrepancy_logs/discrepancy_log.md)
 - Legacy metadata: [figures/12-9/metadata/metadata.json](figures/12-9/metadata/metadata.json)
 - Metadata: [figures/12-9/figure.json](figures/12-9/figure.json)
+
+### Figure 17-8 - International tourism, 1995-2015
+
+Status: `partial_match`. Artifact kind: `reconstruction`.
+
+- Anomaly review: [figures/17-8/anomaly_reviews/anomaly_review.md](figures/17-8/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/17-8/discrepancy_logs/discrepancy_log.md](figures/17-8/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/17-8/review_checklist.md](figures/17-8/review_checklist.md)
+- Lineage: [figures/17-8/lineage/lineage.json](figures/17-8/lineage/lineage.json)
+- Book period reconstruction: [figures/17-8/plots/book_period/figure_17_8_book_period.png](figures/17-8/plots/book_period/figure_17_8_book_period.png)
+- Extended reconstruction: [figures/17-8/plots/extended/figure_17_8_extended.png](figures/17-8/plots/extended/figure_17_8_extended.png)
+- Diagnostic plot: [figures/17-8/plots/diagnostics/source_versions.png](figures/17-8/plots/diagnostics/source_versions.png)
+- Caption: [figures/17-8/captions/caption.txt](figures/17-8/captions/caption.txt)
+- Provenance: [figures/17-8/provenance/provenance.md](figures/17-8/provenance/provenance.md)
+- Source log: [figures/17-8/source_logs/source_log.md](figures/17-8/source_logs/source_log.md)
+- Download log: [figures/17-8/source_logs/downloads.json](figures/17-8/source_logs/downloads.json)
+- Search log: [figures/17-8/search_iterations/search_iterations.md](figures/17-8/search_iterations/search_iterations.md)
+- Reconstruction script: [scripts/reconstruct_17_8.py](scripts/reconstruct_17_8.py)
+- Source extraction script: [scripts/recover_17_8_tables.py](scripts/recover_17_8_tables.py)
+- Book period clean: [figures/17-8/data/clean/figure_17_8_book_period.csv](figures/17-8/data/clean/figure_17_8_book_period.csv)
+- Extended clean: [figures/17-8/data/clean/figure_17_8_extended.csv](figures/17-8/data/clean/figure_17_8_extended.csv)
+- Diagnostic clean: [figures/17-8/data/clean/figure_17_8_source_version_diagnostic.csv](figures/17-8/data/clean/figure_17_8_source_version_diagnostic.csv)
+- Metadata: [figures/17-8/figure.json](figures/17-8/figure.json)
+- Original reference: [references/figures/figure_17_8.png](references/figures/figure_17_8.png)
+- Book period comparison: [figures/17-8/plots/comparisons/figure_17_8_book_period_review.png](figures/17-8/plots/comparisons/figure_17_8_book_period_review.png)
+- Extended comparison: [figures/17-8/plots/comparisons/figure_17_8_extended_review.png](figures/17-8/plots/comparisons/figure_17_8_extended_review.png)
 
 ### Figure 19-1 - Nuclear weapons, 1945-2015
 

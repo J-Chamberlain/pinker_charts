@@ -1230,16 +1230,16 @@
     "title": "International tourism, 1995-2015",
     "page": "",
     "year_range": "1995-2015",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "visual_review",
     "source_type_guess": "economic_historical_dataset",
     "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-    "execution_status": "not_started",
+    "current_owner": "codex_direct",
+    "next_action": "Recover an author-saved or indicator-specific 2016/early-2017 source with the 2015 World endpoint; preserve current version-separated extension.",
+    "notes": "2016 WDI history recovered for 1995-2014. Missing 2015 endpoint explicitly substituted from revised 2017 WDI. Dashed UN Tourism successor segments extend to provisional 2025. Actual PDF comparison, not a facsimile.",
+    "execution_status": "processed",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "18-1",

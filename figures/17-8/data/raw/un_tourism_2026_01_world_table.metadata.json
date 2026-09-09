@@ -1,0 +1,20 @@
+{
+  "source_pdf_sha256": "b70beb7efe8db27e581ec3b3bf740b13f5694fb360f08643df4913656eb54503",
+  "pdf_page": 6,
+  "table": "International Tourist Arrivals by (Sub)region",
+  "row": "World",
+  "release": "January 2026",
+  "units": "millions of arrivals",
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "extraction": "pypdf text table cells; not chart digitization; rendered page visually checked",
+  "source_url": "https://pre-webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2026-01/World_Tourism%20Barometer_Jan26_excerpt_v2.pdf?VersionId=u75u9KWPa6Dzc2CUHld7AvQ49FYrDTQC",
+  "rights": "Full PDF retained in ignored local cache only; source permits attributed quotations. Seven numeric observations redistributed, not the report."
+}
