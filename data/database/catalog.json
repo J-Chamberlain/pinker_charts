@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "35e063dcc997a2120f53d25e10c5048cbce4fe14390d1e0bc7e317560f3335b5",
+  "snapshot_id": "248967010bdd86c580d22f2f36a5f2eafa9c50d9ce5d914b669fe6444bb4b431",
   "figures": 75,
-  "saved_files": 382,
-  "clean_tables": 73,
-  "clean_rows": 37253,
+  "saved_files": 394,
+  "clean_tables": 76,
+  "clean_rows": 37308,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -502,14 +502,14 @@
     {
       "figure_id": "17-2",
       "title": "Retirement, US, 1880-2010",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 12,
+      "raw_files": 7,
+      "clean_tables": 3,
+      "canonical_declared_clean_tables": 3,
+      "clean_rows": 55,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "17-3",

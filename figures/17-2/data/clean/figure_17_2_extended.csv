@@ -1,0 +1,30 @@
+year,lfpr_percent,source_version,definition,segment,entity,sex,age,unit
+1880,78.0,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1890,73.8,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1900,65.4,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1910,58.1,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1920,60.1,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1930,58.0,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1940,43.5,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1950,47.0,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1960,40.8,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1970,35.2,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1980,24.7,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+1990,18.4,Costa 1998 Table 2A.1,gainful employment (occupation in preceding year),book,United States,men,65+,percent
+2000,17.5,Short 2002 Table 1 citing BLS,labor-force participation; original release not established,book,United States,men,65+,percent
+2010,22.1,BLS 2010 annual Table 3,CPS survey-week labor-force participation,book,United States,men,65+,percent
+2010,22.1,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2011,22.8,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2012,23.6,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2013,23.5,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2014,23.0,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2015,23.4,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2016,24.0,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2017,23.9,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2018,24.0,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2019,24.7,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2020,23.9,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2021,23.3,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2022,23.7,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2023,23.2,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent
+2024,23.4,BLS May 2025 Chart 2 numeric table,CPS survey-week labor-force participation,extension,United States,men,65+,percent

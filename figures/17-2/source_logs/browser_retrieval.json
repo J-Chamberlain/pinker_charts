@@ -1,0 +1,11 @@
+{
+  "url": "https://www.bls.gov/opub/btn/volume-14/golden-years-older-americans-at-work-and-play.htm",
+  "retrieved_date": "2026-09-09",
+  "method": "Computer Use in-app browser; View Chart Data for Chart 2; DOM outerHTML of visible uniquely labeled table",
+  "path": "figures/17-2/data/raw/bls_2025_table.html",
+  "table_id": "BLStable_2025_5_19_9_30",
+  "table_years": "1948-2024",
+  "manual_numeric_transcription": false,
+  "chart_digitization": false,
+  "notes": "Normal requests fetch returned 403. Public browser page loaded normally without authentication. content.export was unsupported; DOM table extraction succeeded. File checksum is recorded in canonical checksums/database."
+}

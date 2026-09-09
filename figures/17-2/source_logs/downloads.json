@@ -1,0 +1,89 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Labor%20Force%20Participation%20Rates%20of%20Men%20Age%2065%20and%20Over%20in%20the%20US%20%E2%80%93%20OWID%20based%20on%20Short%20%282002%29%20and%20OE/Labor%20Force%20Participation%20Rates%20of%20Men%20Age%2065%20and%20Over%20in%20the%20US%20%E2%80%93%20OWID%20based%20on%20Short%20%282002%29%20and%20OE.csv",
+    "path": "figures/17-2/data/raw/owid_legacy.csv",
+    "retrieved_at": "2026-09-09T23:26:52.370709+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Labor%20Force%20Participation%20Rates%20of%20Men%20Age%2065%20and%20Over%20in%20the%20US%20%E2%80%93%20OWID%20based%20on%20Short%20%282002%29%20and%20OE/Labor%20Force%20Participation%20Rates%20of%20Men%20Age%2065%20and%20Over%20in%20the%20US%20%E2%80%93%20OWID%20based%20on%20Short%20%282002%29%20and%20OE.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "34f30dbe5511a5be1308aa564b5f4ad76e9e28049683ebe9b41e70285da650a0",
+    "bytes": 897
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Labor%20Force%20Participation%20Rates%20of%20Men%20Age%2065%20and%20Over%20in%20the%20US%20%E2%80%93%20OWID%20based%20on%20Short%20%282002%29%20and%20OE/datapackage.json",
+    "path": "figures/17-2/data/raw/owid_legacy.metadata.json",
+    "retrieved_at": "2026-09-09T23:26:52.622886+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Labor%20Force%20Participation%20Rates%20of%20Men%20Age%2065%20and%20Over%20in%20the%20US%20%E2%80%93%20OWID%20based%20on%20Short%20%282002%29%20and%20OE/datapackage.json",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "1a80a4be493f4786484a4b23324e4be031ac5c4a9a15f502a7c9210d2b44211b",
+    "bytes": 3644
+  },
+  {
+    "url": "https://eh.net/encyclopedia/economic-history-of-retirement-in-the-united-states/",
+    "path": "figures/17-2/data/raw/short_2002_page.html",
+    "retrieved_at": "2026-09-09T23:26:52.836869+00:00",
+    "http_status": 200,
+    "final_url": "https://eh.net/encyclopedia/economic-history-of-retirement-in-the-united-states/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "9b4cae18cc68a901736067867bc5888ca60fa12888a8da6c96e1df16d62d03cf",
+    "bytes": 234843
+  },
+  {
+    "url": "https://www.bls.gov/opub/btn/volume-14/golden-years-older-americans-at-work-and-play.htm",
+    "path": "figures/17-2/data/raw/bls_2025_retirement.html",
+    "retrieved_at": "2026-09-09T23:27:11.490315+00:00",
+    "http_status": 403,
+    "final_url": "https://www.bls.gov/opub/btn/volume-14/golden-years-older-americans-at-work-and-play.htm",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://www.bls.gov/opub/btn/volume-14/golden-years-older-americans-at-work-and-play.htm"
+  },
+  {
+    "url": "https://www.nber.org/books-and-chapters/evolution-retirement-american-economic-history-1880-1990",
+    "path": "figures/17-2/data/candidates/costa_book_page.html",
+    "retrieved_at": "2026-09-09T23:27:11.675876+00:00",
+    "http_status": 200,
+    "final_url": "https://www.nber.org/books-and-chapters/evolution-retirement-american-economic-history-1880-1990",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "1c5cfb244b05dcfdda7ed6c8f3b3a84eb32e21fc9162dcd28998e50c18c46192",
+    "bytes": 92987
+  },
+  {
+    "url": "https://www.nber.org/books-and-chapters/evolution-retirement-american-economic-history-1880-1990/evolution-retirement",
+    "path": "figures/17-2/data/candidates/costa_chapter_page.html",
+    "retrieved_at": "2026-09-09T23:29:26.883110+00:00",
+    "http_status": 200,
+    "final_url": "https://www.nber.org/books-and-chapters/evolution-retirement-american-economic-history-1880-1990/evolution-retirement",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "9fbf636db937ffcb58796cba91dfb8eb30533c999fbd111f7d01621c3978bcc7",
+    "bytes": 87104
+  },
+  {
+    "url": "https://www.nber.org/system/files/chapters/c6108/c6108.pdf",
+    "path": "tmp/source_cache/costa_1998_chapter2.pdf",
+    "retrieved_at": "2026-09-09T23:29:33.210634+00:00",
+    "http_status": 200,
+    "final_url": "https://www.nber.org/system/files/chapters/c6108/c6108.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "64be14ad115220a5f88a4161715878d198edff7dc43ab3622613e666e9d96018",
+    "bytes": 344056
+  },
+  {
+    "url": "https://www.bls.gov/cps/aa2010/cpsaat3.pdf",
+    "path": "figures/17-2/data/raw/bls_2010_table3.pdf",
+    "retrieved_at": "2026-09-09T23:30:36.304801+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/cps/aa2010/cpsaat3.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "1f7219486fbe5ab45270666b844ea8a0d41cff8283c0962cb0220c6bbce8c860",
+    "bytes": 28003
+  }
+]
