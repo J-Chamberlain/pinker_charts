@@ -1,0 +1,121 @@
+year,sex,activity,hours_per_day,population,source_file
+2015,total,Leisure and sports,5.21,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,men,Leisure and sports,5.58,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,women,Leisure and sports,4.86,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,total,Lawn and garden care,0.20,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,men,Lawn and garden care,0.28,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,women,Lawn and garden care,0.12,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,total,Volunteering (organizational and civic activities),0.15,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,men,Volunteering (organizational and civic activities),0.13,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,women,Volunteering (organizational and civic activities),0.16,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,total,Animals and pets,0.11,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,men,Animals and pets,0.10,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2015,women,Animals and pets,0.12,civilian noninstitutional population 15+,bls_a1_2015.pdf
+2016,total,Leisure and sports,5.13,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,men,Leisure and sports,5.51,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,women,Leisure and sports,4.77,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,total,Lawn and garden care,0.19,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,men,Lawn and garden care,0.25,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,women,Lawn and garden care,0.13,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,total,Volunteering (organizational and civic activities),0.13,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,men,Volunteering (organizational and civic activities),0.12,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,women,Volunteering (organizational and civic activities),0.14,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,total,Animals and pets,0.12,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,men,Animals and pets,0.10,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2016,women,Animals and pets,0.14,civilian noninstitutional population 15+,bls_a1_2016.pdf
+2017,total,Leisure and sports,5.24,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,men,Leisure and sports,5.53,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,women,Leisure and sports,4.98,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,total,Lawn and garden care,0.18,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,men,Lawn and garden care,0.25,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,women,Lawn and garden care,0.11,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,total,Volunteering (organizational and civic activities),0.15,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,men,Volunteering (organizational and civic activities),0.12,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,women,Volunteering (organizational and civic activities),0.19,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,total,Animals and pets,0.13,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,men,Animals and pets,0.12,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2017,women,Animals and pets,0.13,civilian noninstitutional population 15+,bls_a1_2017.pdf
+2018,total,Leisure and sports,5.27,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,men,Leisure and sports,5.69,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,women,Leisure and sports,4.87,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,total,Lawn and garden care,0.18,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,men,Lawn and garden care,0.25,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,women,Lawn and garden care,0.11,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,total,Volunteering (organizational and civic activities),0.13,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,men,Volunteering (organizational and civic activities),0.12,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,women,Volunteering (organizational and civic activities),0.14,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,total,Animals and pets,0.12,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,men,Animals and pets,0.11,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2018,women,Animals and pets,0.14,civilian noninstitutional population 15+,bls_a1_2018.pdf
+2019,total,Leisure and sports,5.19,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,men,Leisure and sports,5.53,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,women,Leisure and sports,4.86,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,total,Lawn and garden care,0.17,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,men,Lawn and garden care,0.24,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,women,Lawn and garden care,0.11,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,total,Volunteering (organizational and civic activities),0.13,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,men,Volunteering (organizational and civic activities),0.11,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,women,Volunteering (organizational and civic activities),0.14,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,total,Animals and pets,0.12,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,men,Animals and pets,0.09,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2019,women,Animals and pets,0.15,civilian noninstitutional population 15+,bls_a1_2019.pdf
+2021,total,Leisure and sports,5.27,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,men,Leisure and sports,5.61,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,women,Leisure and sports,4.94,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,total,Lawn and garden care,0.20,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,men,Lawn and garden care,0.27,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,women,Lawn and garden care,0.14,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,total,Volunteering (organizational and civic activities),0.09,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,men,Volunteering (organizational and civic activities),0.10,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,women,Volunteering (organizational and civic activities),0.08,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,total,Animals and pets,0.15,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,men,Animals and pets,0.13,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2021,women,Animals and pets,0.17,civilian noninstitutional population 15+,bls_a1_2021.pdf
+2022,total,Leisure and sports,5.20,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,men,Leisure and sports,5.58,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,women,Leisure and sports,4.84,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,total,Lawn and garden care,0.18,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,men,Lawn and garden care,0.24,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,women,Lawn and garden care,0.12,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,total,Volunteering (organizational and civic activities),0.10,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,men,Volunteering (organizational and civic activities),0.09,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,women,Volunteering (organizational and civic activities),0.11,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,total,Animals and pets,0.15,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,men,Animals and pets,0.13,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2022,women,Animals and pets,0.17,civilian noninstitutional population 15+,bls_a1_2022.pdf
+2023,total,Leisure and sports,5.15,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,men,Leisure and sports,5.56,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,women,Leisure and sports,4.76,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,total,Lawn and garden care,0.17,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,men,Lawn and garden care,0.22,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,women,Lawn and garden care,0.11,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,total,Volunteering (organizational and civic activities),0.10,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,men,Volunteering (organizational and civic activities),0.09,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,women,Volunteering (organizational and civic activities),0.10,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,total,Animals and pets,0.15,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,men,Animals and pets,0.13,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2023,women,Animals and pets,0.16,civilian noninstitutional population 15+,bls_a1_2023.pdf
+2024,total,Leisure and sports,5.07,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,men,Leisure and sports,5.48,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,women,Leisure and sports,4.67,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,total,Lawn and garden care,0.20,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,men,Lawn and garden care,0.27,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,women,Lawn and garden care,0.13,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,total,Volunteering (organizational and civic activities),0.13,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,men,Volunteering (organizational and civic activities),0.11,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,women,Volunteering (organizational and civic activities),0.16,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,total,Animals and pets,0.15,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,men,Animals and pets,0.12,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2024,women,Animals and pets,0.17,civilian noninstitutional population 15+,bls_a1_2024.pdf
+2025,total,Leisure and sports,5.16,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,men,Leisure and sports,5.58,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,women,Leisure and sports,4.76,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,total,Lawn and garden care,0.19,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,men,Lawn and garden care,0.26,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,women,Lawn and garden care,0.13,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,total,Volunteering (organizational and civic activities),0.12,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,men,Volunteering (organizational and civic activities),0.11,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,women,Volunteering (organizational and civic activities),0.12,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,total,Animals and pets,0.14,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,men,Animals and pets,0.12,civilian noninstitutional population 15+,bls_a1_2025.pdf
+2025,women,Animals and pets,0.17,civilian noninstitutional population 15+,bls_a1_2025.pdf

@@ -1,0 +1,189 @@
+{
+  "source_url": "https://www.dropbox.com/scl/fo/g3mi6dmg2ehwljty1l0ld/AG25K690ppAR-qRUCncFdAE?rlkey=v05wqn6v0hd9md0xy3s5n8t9i&dl=1",
+  "discovery_url": "https://www.markaguiar.com/",
+  "retrieved_date": "2026-09-09",
+  "archive_sha256": "7ebb1e29257d274fed53a9a857770d0cb7e53bec8073cfc4f3ccb2e3eab3be95",
+  "entries": [
+    {
+      "name": "cells.dta",
+      "bytes": 123902,
+      "sha256": "837ac8a233ae158a9f1f67b6db4e3025db6125013f0026e9713946f7370789bf",
+      "retained_in_repository": true
+    },
+    {
+      "name": "atusact.dta",
+      "bytes": 18157754,
+      "sha256": "e295c152c6688e6b977e6435aff747dace90c4cefd192b44cb136c1c5c4a9c55",
+      "retained_in_repository": false
+    },
+    {
+      "name": "atuscps.dta",
+      "bytes": 46293968,
+      "sha256": "d881d237e927b7039d76cc8d2e1ff7c35c4a0e1c90019796bd4dccc00c91ccea",
+      "retained_in_repository": false
+    },
+    {
+      "name": "format_75.do",
+      "bytes": 8278,
+      "sha256": "e3145734ff97302a4e93104dd5c57e5b3282a7516ff1c9f025c676d0e8eaf810",
+      "retained_in_repository": false
+    },
+    {
+      "name": "format_65.do",
+      "bytes": 8596,
+      "sha256": "66a052cefb93a9b10367a94edc15ba554a7ea2f913fb4e2db20632a90833c5c7",
+      "retained_in_repository": false
+    },
+    {
+      "name": "format_93.do",
+      "bytes": 9638,
+      "sha256": "6a6d0b437456ed1851a5a783f9f47a0b9d11bba2ab7149cca3c189ad4364c897",
+      "retained_in_repository": false
+    },
+    {
+      "name": "format_85.do",
+      "bytes": 10635,
+      "sha256": "9d4a339bc3addc1e6c01746c4f94f12aadf0f1540a369223a710864671c0ad94",
+      "retained_in_repository": false
+    },
+    {
+      "name": "format_03.do",
+      "bytes": 19890,
+      "sha256": "26e08cdcb8be2edd25b449d3f34a177f7e35280494fcd53a2e8dacf66a4960ee",
+      "retained_in_repository": false
+    },
+    {
+      "name": "atusrost.dta",
+      "bytes": 944150,
+      "sha256": "ab27e83ab335eb95924080e7597f92ac6d94e00729a5fe1218f5d2f181f340f6",
+      "retained_in_repository": false
+    },
+    {
+      "name": "atusresp.dta",
+      "bytes": 4624904,
+      "sha256": "3639c8295a6e03ad95b0709b80d4fd46da94b76f5df405283939fa5c0ea40377",
+      "retained_in_repository": false
+    },
+    {
+      "name": "dispersion.do",
+      "bytes": 1914,
+      "sha256": "56b2b1956f64f69561575710fc31c949098ef5a5669712cb66fdc09f3b77ab03",
+      "retained_in_repository": false
+    },
+    {
+      "name": "jmp_decomp.do",
+      "bytes": 2074,
+      "sha256": "d57f7bf0f3bdebc8b75e9fd063bf9ed5f92a4391cfca95050677225f2e3be59d",
+      "retained_in_repository": false
+    },
+    {
+      "name": "datapage.html",
+      "bytes": 8554,
+      "sha256": "76c13edb515a14f597ee0414d7a971f262097d8938a8bb49f976690e487fd12e",
+      "retained_in_repository": false
+    },
+    {
+      "name": "timeuse_85.dta",
+      "bytes": 1280945,
+      "sha256": "ec7de687d2c4b98970631e8992bfea9e79530265d4adab1de39286cca836e1cc",
+      "retained_in_repository": false
+    },
+    {
+      "name": "timeuse_65.dta",
+      "bytes": 1797995,
+      "sha256": "81bf6d0759df9ac2597cd2bb5128d914a32e2ee078b79e10c6bf79414c5e19a0",
+      "retained_in_repository": false
+    },
+    {
+      "name": "timeuse_93.dta",
+      "bytes": 6349942,
+      "sha256": "75aadbe3eaa0da62a84bf1b404ca130daaae6e468f84fae98ba8db23050cbc9f",
+      "retained_in_repository": false
+    },
+    {
+      "name": "timeuse_75.dta",
+      "bytes": 29768858,
+      "sha256": "d1c00f5a799825c7cfc825c39dd6e20471ace8095d8f4242c689e6ccd74f22d6",
+      "retained_in_repository": false
+    },
+    {
+      "name": "merge_datasets.do",
+      "bytes": 252,
+      "sha256": "6f5a42994c162441c867166ef21affb6681e842e5c6bfe0957027a4d270b7acd",
+      "retained_in_repository": false
+    },
+    {
+      "name": "ramey_comment.pdf",
+      "bytes": 83107,
+      "sha256": "347d185bf33b1e623c0b363ef70771f9143b5185012d38803682952ab8649798",
+      "retained_in_repository": false
+    },
+    {
+      "name": "merged_datasets.zip",
+      "bytes": 3233445,
+      "sha256": "524ad89946997b86c8220a5983751e8ce605fd909bfa610fa227c3c1bad1430e",
+      "retained_in_repository": true
+    },
+    {
+      "name": "tables_and_figures.do",
+      "bytes": 9888,
+      "sha256": "3886c17823b9b817e89939ecb19d709684e63887f5e94156068f162fbea74aae",
+      "retained_in_repository": false
+    },
+    {
+      "name": "response_to_ramey.pdf",
+      "bytes": 64750,
+      "sha256": "ac628308c1b4fdf58a7be1f7da541d02880dd7213cb7b8e5959a916add66f251",
+      "retained_in_repository": false
+    },
+    {
+      "name": "variable_glossary.doc",
+      "bytes": 77312,
+      "sha256": "1d4d720b429a5a3719ce50cb1b6848bd76692c8c83e7b0ac504c0e2cb74449bb",
+      "retained_in_repository": false
+    },
+    {
+      "name": "098750001Codebook.pdf",
+      "bytes": 120470,
+      "sha256": "a7eec7da964f9ac7c44e781796b91fd4c5d2213ed8c7e696f26f8080e25ee800",
+      "retained_in_repository": false
+    },
+    {
+      "name": "072540001Codebook.pdf",
+      "bytes": 17714760,
+      "sha256": "91fae369779e1d5a64d687b26272eb78e44062893ece943a7b71cec29837eac2",
+      "retained_in_repository": false
+    },
+    {
+      "name": "075800001Codebook.pdf",
+      "bytes": 27344914,
+      "sha256": "67941f416db38503b790c5233f4e8afd98a8c6ffde1e289159e19d4898578459",
+      "retained_in_repository": false
+    },
+    {
+      "name": "robustness_appendix.pdf",
+      "bytes": 51493,
+      "sha256": "466cc6fef47b7852ce8529a2fdf460c87fd42188c03e90634fde4d6b1dd5c3d4",
+      "retained_in_repository": false
+    },
+    {
+      "name": "robustness_appendix.doc",
+      "bytes": 203264,
+      "sha256": "04edfe6ee4c67bf8f96b7fbc52874cbb99878564c81b990cbe1044b108d42d1a",
+      "retained_in_repository": false
+    },
+    {
+      "name": "tables_and_figures_wp.do",
+      "bytes": 33150,
+      "sha256": "ecbb7be5c495ac7bbcd9f7da7d9318097d705ddf7b8b598847c9de245d9c02b0",
+      "retained_in_repository": false
+    },
+    {
+      "name": "aguiar_hurst_leisure_revision_9_06.pdf",
+      "bytes": 337674,
+      "sha256": "144c8dffa73b0908bffe4ae4074144a1018b0797c8c54b90810e330289b0616d",
+      "retained_in_repository": false
+    }
+  ],
+  "note": "Only numeric analysis datasets retained in Git. Full archive remains a local retrieval cache; not required to replot. Author code inspected, not executed or redistributed."
+}

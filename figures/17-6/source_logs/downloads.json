@@ -1,0 +1,165 @@
+[
+  {
+    "url": "https://www.markaguiar.com/files/leisuretrends.pdf",
+    "path": "tmp/source_cache/aguiar_hurst_2007.pdf",
+    "retrieved_at": "2026-09-09T23:49:00.031734+00:00",
+    "http_status": 200,
+    "final_url": "https://www.markaguiar.com/files/leisuretrends.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "7298e81315cd74c6f9ce642890bf2fede33294b5c980fcbd179efab13057df01",
+    "bytes": 657211
+  },
+  {
+    "url": "https://www.bls.gov/news.release/archives/atus_06242016.htm",
+    "path": "figures/17-6/data/raw/bls_2015_release.html",
+    "retrieved_at": "2026-09-09T23:49:00.478318+00:00",
+    "http_status": 403,
+    "final_url": "https://www.bls.gov/news.release/archives/atus_06242016.htm",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://www.bls.gov/news.release/archives/atus_06242016.htm"
+  },
+  {
+    "url": "https://www.bls.gov/news.release/atus.htm",
+    "path": "figures/17-6/data/raw/bls_current_release.html",
+    "retrieved_at": "2026-09-09T23:49:00.658380+00:00",
+    "http_status": 403,
+    "final_url": "https://www.bls.gov/news.release/atus.htm",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://www.bls.gov/news.release/atus.htm"
+  },
+  {
+    "url": "https://www.bls.gov/tus/tables/a1-2025.pdf",
+    "path": "figures/17-6/data/raw/bls_a1_2025.pdf",
+    "retrieved_at": "2026-09-09T23:50:13.583994+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/tus/tables/a1-2025.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "be62d65f1a5e9196f52d3aac3f38e17ee8350d200db37c9ecb4f45653e2848fa",
+    "bytes": 30627
+  },
+  {
+    "url": "https://www.bls.gov/tus/tables/a1-2024.pdf",
+    "path": "figures/17-6/data/raw/bls_a1_2024.pdf",
+    "retrieved_at": "2026-09-09T23:50:13.909521+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/tus/tables/a1-2024.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "0778b8b3517d93e6eb2fc8ab901c10604904ff62ab4e2daab2e711bafc18686a",
+    "bytes": 32243
+  },
+  {
+    "url": "https://www.bls.gov/tus/tables/a1-2023.pdf",
+    "path": "figures/17-6/data/raw/bls_a1_2023.pdf",
+    "retrieved_at": "2026-09-09T23:50:14.128476+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/tus/tables/a1-2023.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "ec095a539e187cde354603adc0a8902c53298d6feb8218252c37d03d5b35f62c",
+    "bytes": 30633
+  },
+  {
+    "url": "https://www.bls.gov/tus/tables/a1-2022.pdf",
+    "path": "figures/17-6/data/raw/bls_a1_2022.pdf",
+    "retrieved_at": "2026-09-09T23:50:14.708508+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/tus/tables/a1-2022.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "3f88340fd89efaed9f74b15da2796f1e9a913af1cf005117eb711b498b27b79a",
+    "bytes": 30412
+  },
+  {
+    "url": "https://www.bls.gov/tus/tables/a1-2021.pdf",
+    "path": "figures/17-6/data/raw/bls_a1_2021.pdf",
+    "retrieved_at": "2026-09-09T23:50:15.199570+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/tus/tables/a1-2021.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "f678b4957125c4825201935b75f6704e88b61ffd0413a54fb43c39fca74c0a55",
+    "bytes": 30364
+  },
+  {
+    "url": "https://www.bls.gov/tus/tables/a1-2019.pdf",
+    "path": "figures/17-6/data/raw/bls_a1_2019.pdf",
+    "retrieved_at": "2026-09-09T23:50:15.526391+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/tus/tables/a1-2019.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "afd4b6b1fd515b4a5dac62db8c5d829d56546136ced5112d7f5dd49c08410b66",
+    "bytes": 34996
+  },
+  {
+    "url": "https://www.bls.gov/tus/tables/a1-2018.pdf",
+    "path": "figures/17-6/data/raw/bls_a1_2018.pdf",
+    "retrieved_at": "2026-09-09T23:50:15.799063+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/tus/tables/a1-2018.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "66b52b5ba369052cfaf2d2c374d0f9be913aa18ac450ea607d789347f8a9648a",
+    "bytes": 32291
+  },
+  {
+    "url": "https://www.bls.gov/tus/tables/a1_2017.pdf",
+    "path": "figures/17-6/data/raw/bls_a1_2017.pdf",
+    "retrieved_at": "2026-09-09T23:50:16.167364+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/tus/tables/a1_2017.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "5302674bb1b5fa6f4a4d6b7410be0d23b738fd724b9a80e04bbeb40457b68255",
+    "bytes": 32089
+  },
+  {
+    "url": "https://www.bls.gov/tus/tables/a1_2016.pdf",
+    "path": "figures/17-6/data/raw/bls_a1_2016.pdf",
+    "retrieved_at": "2026-09-09T23:50:16.498852+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/tus/tables/a1_2016.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "5058009dd9ff29c3d6a8f03d63e13c367e9aa5e9a9bb61cfdad8f3c904dc3ae4",
+    "bytes": 31581
+  },
+  {
+    "url": "https://www.bls.gov/tus/tables/a1_2015.pdf",
+    "path": "figures/17-6/data/raw/bls_a1_2015.pdf",
+    "retrieved_at": "2026-09-09T23:50:16.742778+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bls.gov/tus/tables/a1_2015.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "a8924c53c05fcc0807b2c670b87ddcfaf30d7132f5326828d80165ee1ba4f313",
+    "bytes": 28456
+  },
+  {
+    "url": "https://markaguiar.com/papers/timeuse_data/aguiar_hurst_leisure_revision_9_06.pdf",
+    "path": "tmp/source_cache/aguiar_hurst_2006_revision.pdf",
+    "retrieved_at": "2026-09-09T23:50:17.060620+00:00",
+    "http_status": 200,
+    "final_url": "https://markaguiar.com/papers/timeuse_data/aguiar_hurst_leisure_revision_9_06.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "144c8dffa73b0908bffe4ae4074144a1018b0797c8c54b90810e330289b0616d",
+    "bytes": 337674
+  },
+  {
+    "url": "https://www.dropbox.com/scl/fo/g3mi6dmg2ehwljty1l0ld/AG25K690ppAR-qRUCncFdAE?rlkey=v05wqn6v0hd9md0xy3s5n8t9i&dl=1",
+    "path": "tmp/source_cache/aguiar_timeuse_data.zip",
+    "retrieved_at": "2026-09-09T23:52:27.771502+00:00",
+    "http_status": 200,
+    "final_url": "https://ucc766fe4646ffd3f6472821f6c8.dl.dropboxusercontent.com/zip_download_get/CrOK5L0DqolqBVPyHsFhxVUYDBS-N74RzZ_X4GSJfrIofqERUKGwwJwSPu6l7xF__rkYDvd0uXXT3RYWrP6CtmxymBFeeAUBnGiMycIHTyBMow",
+    "content_type": "application/zip",
+    "status": "downloaded",
+    "sha256": "7ebb1e29257d274fed53a9a857770d0cb7e53bec8073cfc4f3ccb2e3eab3be95",
+    "bytes": 158690888
+  }
+]

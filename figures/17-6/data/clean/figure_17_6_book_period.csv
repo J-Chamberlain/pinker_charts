@@ -1,0 +1,13 @@
+year,sex,hours_per_week,version,population,measure,pdf_page,unrounded_hours_per_week,Animals and pets,Lawn and garden care,Leisure and sports,Volunteering (organizational and civic activities),with_pet_care_hours_per_week,unit
+1965,men,31.8,2007 published Table III,"21-65, nonretired nonstudents, fixed demographics",Leisure Measure 1,9.0,31.79658531524204,,,,,,hours per week
+1975,men,33.36,2007 published Table III,"21-65, nonretired nonstudents, fixed demographics",Leisure Measure 1,9.0,33.363360310067264,,,,,,hours per week
+1985,men,35.15,2007 published Table III,"21-65, nonretired nonstudents, fixed demographics",Leisure Measure 1,9.0,35.14725552790081,,,,,,hours per week
+1993,men,37.65,2007 published Table III,"21-65, nonretired nonstudents, fixed demographics",Leisure Measure 1,9.0,37.647523750824305,,,,,,hours per week
+2003,men,37.4,2007 published Table III,"21-65, nonretired nonstudents, fixed demographics",Leisure Measure 1,9.0,37.40153478758718,,,,,,hours per week
+1965,women,29.89,2007 published Table III,"21-65, nonretired nonstudents, fixed demographics",Leisure Measure 1,9.0,29.885245642181562,,,,,,hours per week
+1975,women,33.14,2007 published Table III,"21-65, nonretired nonstudents, fixed demographics",Leisure Measure 1,9.0,33.13603241345759,,,,,,hours per week
+1985,women,34.46,2007 published Table III,"21-65, nonretired nonstudents, fixed demographics",Leisure Measure 1,9.0,34.462926229256674,,,,,,hours per week
+1993,women,37.32,2007 published Table III,"21-65, nonretired nonstudents, fixed demographics",Leisure Measure 1,9.0,37.319272785058,,,,,,hours per week
+2003,women,33.54,2007 published Table III,"21-65, nonretired nonstudents, fixed demographics",Leisure Measure 1,9.0,33.53737543434524,,,,,,hours per week
+2015,men,41.93,"BLS annual A-1 tables, retrieved 2026-09-09",civilian noninstitutional population 15+; not fixed-demographic reweighted,leisure/sports + lawn/garden + volunteering; book endpoint definition,,,0.1,0.28,5.58,0.13,42.63,hours per week
+2015,women,35.98,"BLS annual A-1 tables, retrieved 2026-09-09",civilian noninstitutional population 15+; not fixed-demographic reweighted,leisure/sports + lawn/garden + volunteering; book endpoint definition,,,0.12,0.12,4.86,0.16,36.82,hours per week

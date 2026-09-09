@@ -1,0 +1,31 @@
+{
+  "figure_id": "17-6",
+  "book_citation": "Aguiar and Hurst 2007 Table III; BLS 2016c ATUS 2015",
+  "script": "scripts/reconstruct_17_6.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": ["figures/17-6/data/raw/cells.dta", "figures/17-6/data/raw/aguiar_hurst_2007_table_iii.csv", "figures/17-6/data/raw/aguiar_hurst_2006_table3.csv", "figures/17-6/data/raw/bls_2015_table1.html", "figures/17-6/data/raw/bls_a1_2015.pdf", "figures/17-6/data/raw/bls_activity_tables.csv"],
+      "selection": "Author cells 1965,1975,1985,1993,2003 by sex; 2015 BLS all-person daily means for three cited activities",
+      "transformation": "Weighted mean leisure_1 using cell_weight, rounded to published 2 decimals and cross-checked; BLS daily component sum times 7; population break intentionally dotted, not harmonized",
+      "clean": "figures/17-6/data/clean/figure_17_6_book_period.csv",
+      "plot": "figures/17-6/plots/book_period/figure_17_6_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": ["figures/17-6/data/raw/cells.dta", "figures/17-6/data/raw/aguiar_hurst_2007_table_iii.csv", "figures/17-6/data/raw/bls_activity_tables.csv", "figures/17-6/data/raw/bls_a1_2015.pdf", "figures/17-6/data/raw/bls_a1_2016.pdf", "figures/17-6/data/raw/bls_a1_2017.pdf", "figures/17-6/data/raw/bls_a1_2018.pdf", "figures/17-6/data/raw/bls_a1_2019.pdf", "figures/17-6/data/raw/bls_a1_2021.pdf", "figures/17-6/data/raw/bls_a1_2022.pdf", "figures/17-6/data/raw/bls_a1_2023.pdf", "figures/17-6/data/raw/bls_a1_2024.pdf", "figures/17-6/data/raw/bls_a1_2025.pdf"],
+      "selection": "Same BLS three-category basket/population 2015-2025; display alongside frozen historical reconstruction",
+      "transformation": "Daily all-person means times 7; dashed after 2015; explicit missing 2020, no interpolation; unchanged historical book line",
+      "clean": "figures/17-6/data/clean/figure_17_6_extended.csv",
+      "plot": "figures/17-6/plots/extended/figure_17_6_extended.png"
+    },
+    {
+      "role": "activity_definition_diagnostic",
+      "raw_inputs": ["figures/17-6/data/raw/bls_activity_tables.csv", "figures/17-6/data/raw/bls_table_urls.json"],
+      "selection": "BLS annual A-1 values, men/women, 2015-2025 excluding unavailable 2020",
+      "transformation": "Compare defined book BLS basket against same basket plus separately reported pet-care hours; not a matched-population claim",
+      "clean": "figures/17-6/data/clean/figure_17_6_extended.csv",
+      "plot": "figures/17-6/plots/diagnostics/pet_care_sensitivity.png"
+    }
+  ]
+}

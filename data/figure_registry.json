@@ -1194,16 +1194,16 @@
     "title": "Leisure time, US, 1965-2015",
     "page": "",
     "year_range": "1965-2015",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "discrepancy_analysis",
     "source_type_guess": "economic_historical_dataset",
     "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-    "execution_status": "not_started",
+    "current_owner": "codex_direct",
+    "next_action": "Resolve final Pinker assembly and small level differences; construct matched-population ATUS diagnostic separately; review author-data publication rights.",
+    "notes": "Original author analysis cells reproduce published Table III. BLS 2015 and continuation through 2025 recovered. Population/definition break disclosed; no annual 2020 data or pixel digitization.",
+    "execution_status": "processed",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "17-7",

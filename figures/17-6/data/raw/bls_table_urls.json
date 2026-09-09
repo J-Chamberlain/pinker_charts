@@ -1,0 +1,46 @@
+{
+  "source": "https://www.bls.gov/tus/tables.htm",
+  "retrieved_date": "2026-09-09",
+  "tables": [
+    {
+      "url": "https://www.bls.gov/tus/tables/a1-2025.pdf",
+      "year": 2025
+    },
+    {
+      "url": "https://www.bls.gov/tus/tables/a1-2024.pdf",
+      "year": 2024
+    },
+    {
+      "url": "https://www.bls.gov/tus/tables/a1-2023.pdf",
+      "year": 2023
+    },
+    {
+      "url": "https://www.bls.gov/tus/tables/a1-2022.pdf",
+      "year": 2022
+    },
+    {
+      "url": "https://www.bls.gov/tus/tables/a1-2021.pdf",
+      "year": 2021
+    },
+    {
+      "url": "https://www.bls.gov/tus/tables/a1-2019.pdf",
+      "year": 2019
+    },
+    {
+      "url": "https://www.bls.gov/tus/tables/a1-2018.pdf",
+      "year": 2018
+    },
+    {
+      "url": "https://www.bls.gov/tus/tables/a1_2017.pdf",
+      "year": 2017
+    },
+    {
+      "url": "https://www.bls.gov/tus/tables/a1_2016.pdf",
+      "year": 2016
+    },
+    {
+      "url": "https://www.bls.gov/tus/tables/a1_2015.pdf",
+      "year": 2015
+    }
+  ]
+}
