@@ -2,7 +2,7 @@
 
 Approved direction: 2026-09-09.
 Plan version: 1.0.
-Current checkpoint: consolidated records and original-pixel baseline built; canonical writer bridge and multimodal evidence packaging tested offline. Atomic integration, reproducibility expansion and real independent-review calibration remain prerequisites to unattended production.
+Current checkpoint: owner authorized direct in-task production and set API orchestration aside. Consolidation and the reusable data library are established; complete figures and data lineage directly, retaining scientific and editorial checks.
 
 This is the canonical execution plan approved by the project owner. It records
 the route from the fragmented July project state to a reproducible research
@@ -276,6 +276,13 @@ complete artifact index, and separate counts for verified, updated, partial,
 and unreconstructed figures. Public deployment remains a distinct scope choice.
 
 ## Operating Agreement
+
+Owner direction, 2026-09-09: no further API-process work is required. Continue
+research and reconstruction directly in the continuing Codex task. API budget,
+worker-branch integration and paid reviewer calibration are not prerequisites
+for this execution route. Conduct a separate skeptical self-review of actual
+images and source evidence; label it honestly as in-task review, not an external
+independent reviewer. Do not weaken data provenance or promote uncertain figures.
 
 - One continuing lead retains scientific context. Use narrowly scoped workers
   where they help; keep independent review of meaningful scientific submissions.

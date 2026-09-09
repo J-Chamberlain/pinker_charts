@@ -10,6 +10,9 @@ For this repository, start with:
 
 Follow the approved phases and their exit evidence. Complete the current
 consolidation and validation gates before starting another production batch.
+Owner direction (2026-09-09): proceed directly in the continuing Codex task;
+set API orchestration/calibration aside. Do not block research on that optional
+infrastructure. Preserve source validation, actual visual review and data history.
 Use current repository evidence; do not assume a prior conversation's branch,
 credentials, status labels, or reviewer capabilities are still accurate.
 
