@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "93b79b91dbae235590ab629f47a23b4d0ea8eb13641e23b08917d6ac635f3eae",
+  "snapshot_id": "35e063dcc997a2120f53d25e10c5048cbce4fe14390d1e0bc7e317560f3335b5",
   "figures": 75,
-  "saved_files": 369,
-  "clean_tables": 71,
-  "clean_rows": 37188,
+  "saved_files": 382,
+  "clean_tables": 73,
+  "clean_rows": 37253,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -490,14 +490,14 @@
     {
       "figure_id": "17-1",
       "title": "Work hours, Western Europe and US, 1870-2000",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 13,
+      "raw_files": 10,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 65,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "17-2",

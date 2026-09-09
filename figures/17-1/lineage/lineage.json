@@ -1,0 +1,39 @@
+{
+  "figure_id": "17-1",
+  "book_citation": "Roser 2016t, based on data from Huberman & Minns 2007 on full-time production workers (both sexes) in nonagricultural activities.",
+  "script": "scripts/reconstruct_17_1.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/17-1/data/raw/days_hours.csv",
+        "figures/17-1/data/raw/working_hours.csv"
+      ],
+      "selection": "United States and unweighted Old World; thirteen source benchmark years",
+      "transformation": "Source one-decimal precision; 2000 equal male/female mean; no fitted offset",
+      "clean": "figures/17-1/data/clean/figure_17_1_book_period.csv",
+      "plot": "figures/17-1/plots/book_period/figure_17_1_book_period.png"
+    },
+    {
+      "role": "extension_not_plotted",
+      "raw_inputs": [
+        "figures/17-1/data/raw/days_hours.csv",
+        "figures/17-1/data/raw/working_hours.csv"
+      ],
+      "selection": "Book-period data repeated; no later observations",
+      "transformation": "No extension due population incompatibility",
+      "clean": "figures/17-1/data/clean/figure_17_1_book_period.csv",
+      "plot": "figures/17-1/plots/extended/figure_17_1_extended.png"
+    },
+    {
+      "role": "diagnostic_only",
+      "raw_inputs": [
+        "figures/17-1/data/raw/days_hours.csv"
+      ],
+      "selection": "US and both weighted/unweighted Old World aggregates",
+      "transformation": "Source-table precision and 2000 equal-sex mean",
+      "clean": "figures/17-1/data/clean/figure_17_1_weighting_diagnostic.csv",
+      "plot": "figures/17-1/plots/diagnostics/weighting.png"
+    }
+  ]
+}

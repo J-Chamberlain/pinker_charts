@@ -43,8 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 37 |
-| partial_match | 12 |
+| not_started | 36 |
+| partial_match | 13 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 7 |
@@ -115,7 +115,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 16-4 | Female literacy, 1750-2014 | not_started | not_started | incomplete |
 | 16-5 | IQ gains, 1909-2013 | not_started | not_started | incomplete |
 | 16-6 | Global well-being, 1820-2015 | not_started | not_started | incomplete |
-| 17-1 | Work hours, Western Europe and US, 1870-2000 | not_started | not_started | incomplete |
+| 17-1 | Work hours, Western Europe and US, 1870-2000 | partial_match | processed | incomplete |
 | 17-2 | Retirement, US, 1880-2010 | not_started | not_started | incomplete |
 | 17-3 | Utilities, appliances, and housework, US, 1900-2015 | not_started | not_started | incomplete |
 | 17-4 | Cost of light, England, 1300-2006 | verified_reproduction | processed | not_reviewed |
@@ -746,6 +746,31 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 - Discrepancy log: [figures/12-9/discrepancy_logs/discrepancy_log.md](figures/12-9/discrepancy_logs/discrepancy_log.md)
 - Legacy metadata: [figures/12-9/metadata/metadata.json](figures/12-9/metadata/metadata.json)
 - Metadata: [figures/12-9/figure.json](figures/12-9/figure.json)
+
+### Figure 17-1 - Work hours, Western Europe and US, 1870-2000
+
+Status: `partial_match`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/17-1/figure.json](figures/17-1/figure.json)
+- Original reference: [references/figures/figure_17_1.png](references/figures/figure_17_1.png)
+- Provenance: [figures/17-1/provenance/provenance.md](figures/17-1/provenance/provenance.md)
+- Caption: [figures/17-1/captions/caption.txt](figures/17-1/captions/caption.txt)
+- Source log: [figures/17-1/source_logs/source_log.md](figures/17-1/source_logs/source_log.md)
+- Search log: [figures/17-1/search_iterations/search_iterations.md](figures/17-1/search_iterations/search_iterations.md)
+- Download log: [figures/17-1/source_logs/downloads.json](figures/17-1/source_logs/downloads.json)
+- Anomaly review: [figures/17-1/anomaly_reviews/anomaly_review.md](figures/17-1/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/17-1/discrepancy_logs/discrepancy_log.md](figures/17-1/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/17-1/review_checklist.md](figures/17-1/review_checklist.md)
+- Book period reconstruction: [figures/17-1/plots/book_period/figure_17_1_book_period.png](figures/17-1/plots/book_period/figure_17_1_book_period.png)
+- Extended reconstruction: [figures/17-1/plots/extended/figure_17_1_extended.png](figures/17-1/plots/extended/figure_17_1_extended.png)
+- Diagnostic plot: [figures/17-1/plots/diagnostics/weighting.png](figures/17-1/plots/diagnostics/weighting.png)
+- Book period clean: [figures/17-1/data/clean/figure_17_1_book_period.csv](figures/17-1/data/clean/figure_17_1_book_period.csv)
+- Diagnostic clean: [figures/17-1/data/clean/figure_17_1_weighting_diagnostic.csv](figures/17-1/data/clean/figure_17_1_weighting_diagnostic.csv)
+- Reconstruction script: [scripts/reconstruct_17_1.py](scripts/reconstruct_17_1.py)
+- Lineage: [figures/17-1/lineage/lineage.json](figures/17-1/lineage/lineage.json)
+- Lineage csv: [figures/17-1/lineage/lineage.csv](figures/17-1/lineage/lineage.csv)
+- Book period comparison: [figures/17-1/plots/comparisons/figure_17_1_book_period_review.png](figures/17-1/plots/comparisons/figure_17_1_book_period_review.png)
+- Extended comparison: [figures/17-1/plots/comparisons/figure_17_1_extended_review.png](figures/17-1/plots/comparisons/figure_17_1_extended_review.png)
 
 ### Figure 17-4 - Cost of light, England, 1300-2006
 

@@ -1,0 +1,134 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Days%20and%20hours%20of%20work%20in%20Old%20and%20New%20Worlds%20-%20Huberman%20and%20Minns%20%282007%29/Days%20and%20hours%20of%20work%20in%20Old%20and%20New%20Worlds%20-%20Huberman%20and%20Minns%20%282007%29.csv",
+    "path": "figures/17-1/data/raw/days_hours.csv",
+    "retrieved_at": "2026-09-09T23:22:44.510100+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Days%20and%20hours%20of%20work%20in%20Old%20and%20New%20Worlds%20-%20Huberman%20and%20Minns%20%282007%29/Days%20and%20hours%20of%20work%20in%20Old%20and%20New%20Worlds%20-%20Huberman%20and%20Minns%20%282007%29.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "def83ed8827bc69e4714d910ebe024afdb044db4e670032bc4d37e86e3cc0e7c",
+    "bytes": 6997
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Days%20and%20hours%20of%20work%20in%20Old%20and%20New%20Worlds%20-%20Huberman%20and%20Minns%20%282007%29/datapackage.json",
+    "path": "figures/17-1/data/raw/days_hours.metadata.json",
+    "retrieved_at": "2026-09-09T23:22:44.681655+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Days%20and%20hours%20of%20work%20in%20Old%20and%20New%20Worlds%20-%20Huberman%20and%20Minns%20%282007%29/datapackage.json",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "a61cb3640c97c2269f9409142ab565658ac1f9d6f09e4af4ec9ccf299df478a0",
+    "bytes": 4165
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Working%20Hours%20Data%20-%20Huberman%20%26%20Minns%20%282007%29/Working%20Hours%20Data%20-%20Huberman%20%26%20Minns%20%282007%29.csv",
+    "path": "figures/17-1/data/raw/working_hours.csv",
+    "retrieved_at": "2026-09-09T23:22:44.962513+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Working%20Hours%20Data%20-%20Huberman%20%26%20Minns%20%282007%29/Working%20Hours%20Data%20-%20Huberman%20%26%20Minns%20%282007%29.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "534c2e6df4c4d8ca165598052021b70fe4143ddba68fe0f4ae61b3f9a1482291",
+    "bytes": 5513
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Working%20Hours%20Data%20-%20Huberman%20%26%20Minns%20%282007%29/datapackage.json",
+    "path": "figures/17-1/data/raw/working_hours.metadata.json",
+    "retrieved_at": "2026-09-09T23:22:45.205331+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Working%20Hours%20Data%20-%20Huberman%20%26%20Minns%20%282007%29/datapackage.json",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "99c047264eb01a2460b0c6c9f45a176c25a45cb7470dbcd4ebd25865edeb09cc",
+    "bytes": 3432
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/work-hours-per-week.csv",
+    "path": "figures/17-1/data/raw/owid_current.csv",
+    "retrieved_at": "2026-09-09T23:22:45.398131+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/work-hours-per-week.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "9b5d6a4bd6f4bcc5b115238b5c8a6169d11341e5d1bdb0b0d3331d38ee981cb8",
+    "bytes": 3983
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/work-hours-per-week.metadata.json",
+    "path": "figures/17-1/data/raw/owid_current.metadata.json",
+    "retrieved_at": "2026-09-09T23:22:46.012414+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/work-hours-per-week.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "ffdda6632d83490f0ae607b4499bc2ce6bd13845fcba81af5ba23529a366dddb",
+    "bytes": 1743
+  },
+  {
+    "url": "https://personal.lse.ac.uk/minns/huberman_minns_eeh_2007.pdf",
+    "path": "tmp/source_cache/huberman_minns_2007.pdf",
+    "retrieved_at": "2026-09-09T23:22:46.311021+00:00",
+    "http_status": 200,
+    "final_url": "https://personal.lse.ac.uk/minns/huberman_minns_eeh_2007.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "970082648a0d4150c3096d7ba9c92a1b6753f915ad7d2f6d16fc07e906f0214f",
+    "bytes": 365180
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org%2Fgrapher%2Fwork-hours-per-week%2A&from=2015&to=2017&output=json&filter=statuscode%3A200&collapse=timestamp%3A4",
+    "path": "figures/17-1/data/candidates/wayback_work_hours_cdx.json",
+    "retrieved_at": "2026-09-09T23:23:07.977252+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org%2Fgrapher%2Fwork-hours-per-week%2A&from=2015&to=2017&output=json&filter=statuscode%3A200&collapse=timestamp%3A4",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "75b98732ee224b3beb2c05187b3925203fefe64f7d2bc121ea50277ad0fd0ebf",
+    "bytes": 1165
+  },
+  {
+    "url": "https://web.archive.org/web/20160815131241id_/https://ourworldindata.org/grapher/work-hours-per-week?country=BEL+FRA+ITA+CHE+USA",
+    "path": "figures/17-1/data/raw/owid_chart_20160815.html",
+    "retrieved_at": "2026-09-09T23:23:35.585820+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20160815131241id_/https://ourworldindata.org/grapher/work-hours-per-week?country=BEL+FRA+ITA+CHE+USA",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "d551f1d48cefe6c60448ffb59a5bf07f6f17aae2530d36d7eef092d59e13f06a",
+    "bytes": 16982
+  },
+  {
+    "url": "https://api.ourworldindata.org/v1/indicators/1103665.metadata.json",
+    "path": "figures/17-1/data/raw/current_indicator_metadata.json",
+    "retrieved_at": "2026-09-09T23:23:36.181827+00:00",
+    "http_status": 200,
+    "final_url": "https://api.ourworldindata.org/v1/indicators/1103665.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "9d55753edb7a474d4c2a37702645ca24ddb49a177c701f4b22fb4406edbd1362",
+    "bytes": 7175
+  },
+  {
+    "url": "https://api.ourworldindata.org/v1/indicators/348.metadata.json",
+    "path": "figures/17-1/data/raw/legacy_indicator_metadata.json",
+    "retrieved_at": "2026-09-09T23:24:30.677748+00:00",
+    "http_status": 200,
+    "final_url": "https://api.ourworldindata.org/v1/indicators/348.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "5271ff3f31ffb6c6036d9803ec00a38d66a34b7a497b4987fffa504a61370817",
+    "bytes": 2792
+  },
+  {
+    "url": "https://api.ourworldindata.org/v1/indicators/348.data.json",
+    "path": "figures/17-1/data/raw/legacy_indicator_data.json",
+    "retrieved_at": "2026-09-09T23:24:31.197324+00:00",
+    "http_status": 200,
+    "final_url": "https://api.ourworldindata.org/v1/indicators/348.data.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "f532c8ce6897d5da13c51c7278a63aacfdaf1f7ac2ff1f388219064a608201bb",
+    "bytes": 2644
+  }
+]

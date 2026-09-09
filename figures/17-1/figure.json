@@ -8,29 +8,56 @@
   "year_range": "1870-2000",
   "source_type_guess": "economic_historical_dataset",
   "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "current_owner": "codex_direct",
+  "scientific_status": "partial_match",
+  "execution_status": "processed",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "discrepancy_analysis",
+  "next_action": "Resolve the roughly one-hour visual level difference against the author's book-era assembly; obtain matching full-time production-worker successor coverage before extending.",
+  "notes": "Original paper and OWID numeric data recovered. Shapes closely agree, but published book appears lower by roughly one hour. Values are not shifted to force a match. No comparable post-2000 extension.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Roser 2016t, based on data from Huberman & Minns 2007 on full-time production workers (both sexes) in nonagricultural activities.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "basis": "Original PDF inspected; paper Table 1 and retained OWID data used directly, with documented 2000 sex averaging. Unexplained visual level difference prevents verified status.",
     "previous_registry_status": "not_started"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
+    "status": "inspected",
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_17_1.png",
+        "sha256": "89018c76321b0170374f169a56f8dc961661c3e95f4211d1896c9ca9279a7682"
+      },
+      {
+        "path": "figures/17-1/plots/book_period/figure_17_1_book_period.png",
+        "sha256": "ab4042f1491ea7db0e0a5465cc3a1f861504f599dc6e0f6adcc39f872692f8d8"
+      },
+      {
+        "path": "figures/17-1/plots/extended/figure_17_1_extended.png",
+        "sha256": "ab4042f1491ea7db0e0a5465cc3a1f861504f599dc6e0f6adcc39f872692f8d8"
+      },
+      {
+        "path": "figures/17-1/plots/comparisons/figure_17_1_book_period_review.png",
+        "sha256": "bc52ffbe699308a30689489d75d66bd1f0750b52aec4e5dcab48958613aca964"
+      },
+      {
+        "path": "figures/17-1/plots/comparisons/figure_17_1_extended_review.png",
+        "sha256": "9b9c6fafb06365e733732f83ea85d198fffb5932bc7143eeba1a7ad58a491db1"
+      },
+      {
+        "path": "figures/17-1/plots/diagnostics/weighting.png",
+        "sha256": "a80df2ca50bf1207506da1c099bfbe5e755d663b067488eea525389d6d4f6b7d"
+      }
+    ],
+    "issues": [
+      "Recreated series appear roughly one hour above original; no fitted numerical offset used.",
+      "No comparable extension recovered; extended panel explicitly repeats book-period result."
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_plotted",
+    "notes": "Current OWID same-variable data end in 2000. JRC 2024 extension uses all workers from 1992 and differs in population; OECD manufacturing measures do not establish identical aggregate. No unsupported splice."
   },
   "artifacts": {
     "metadata": {
@@ -40,16 +67,88 @@
     "original_reference": {
       "path": "references/figures/figure_17_1.png",
       "sha256": "89018c76321b0170374f169a56f8dc961661c3e95f4211d1896c9ca9279a7682"
+    },
+    "provenance": {
+      "path": "figures/17-1/provenance/provenance.md",
+      "sha256": "ab296a07d6b7cdb83a2d2c8260aa193d224db1fe09d6bb55a831e9deae5d508c"
+    },
+    "caption": {
+      "path": "figures/17-1/captions/caption.txt",
+      "sha256": "bc4720e9595de5ba96ef6de3df4e34282222fc1e986073de03d062d4ac44fada"
+    },
+    "source_log": {
+      "path": "figures/17-1/source_logs/source_log.md",
+      "sha256": "08c9fce9701b150af85d2539f6b9451e2113c7c9e536ca7bc71dd9dfd99576cf"
+    },
+    "search_log": {
+      "path": "figures/17-1/search_iterations/search_iterations.md",
+      "sha256": "28da8c8a6afaab5ceb794de9ede2220c3a36982927770b1e5795636c5e0916b0"
+    },
+    "download_log": {
+      "path": "figures/17-1/source_logs/downloads.json",
+      "sha256": "8381268eb45605064dfa843442ee4e6eb23108431d75a62004503e41358ebb95"
+    },
+    "anomaly_review": {
+      "path": "figures/17-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "e8b24b95ca37c4c9463c6d624e53649a7de54aec2da43d6bbe015a3d15b8170a"
+    },
+    "discrepancy_log": {
+      "path": "figures/17-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "f2ddda50e3cf7ce2603bfb2b225b458e8ffc5011211a43c28b3d21968f00a27f"
+    },
+    "review_checklist": {
+      "path": "figures/17-1/review_checklist.md",
+      "sha256": "90781d47d231237552ee71b96fdaa189eadcfa4b4aebced78b5106f652b0617f"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/17-1/plots/book_period/figure_17_1_book_period.png",
+      "sha256": "ab4042f1491ea7db0e0a5465cc3a1f861504f599dc6e0f6adcc39f872692f8d8"
+    },
+    "extended_reconstruction": {
+      "path": "figures/17-1/plots/extended/figure_17_1_extended.png",
+      "sha256": "ab4042f1491ea7db0e0a5465cc3a1f861504f599dc6e0f6adcc39f872692f8d8"
+    },
+    "diagnostic_plot": {
+      "path": "figures/17-1/plots/diagnostics/weighting.png",
+      "sha256": "a80df2ca50bf1207506da1c099bfbe5e755d663b067488eea525389d6d4f6b7d"
+    },
+    "book_period_clean": {
+      "path": "figures/17-1/data/clean/figure_17_1_book_period.csv",
+      "sha256": "57044cb0a18abafa2752f66e377d7e31c790d0536d6304331a321902564f4c0f"
+    },
+    "diagnostic_clean": {
+      "path": "figures/17-1/data/clean/figure_17_1_weighting_diagnostic.csv",
+      "sha256": "903f5787c935ec50eb704648a1f7f938f83f3f9423ed6f5fd09f9c46270f7510"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_17_1.py",
+      "sha256": "d8b753533ae5f46ff1522146087e6f0186024ab8dc3884f898fc2a2e2c234ccc"
+    },
+    "lineage": {
+      "path": "figures/17-1/lineage/lineage.json",
+      "sha256": "fa19edf992fd11537bcd198833ed8a530fad1e9accbf5c55ab72890b9a765219"
+    },
+    "lineage_csv": {
+      "path": "figures/17-1/lineage/lineage.csv",
+      "sha256": "0754cd2ddd792aa9ea918022bb3ca1979091b8b8bf6b571ba4dc3fc156448b82"
+    },
+    "book_period_comparison": {
+      "path": "figures/17-1/plots/comparisons/figure_17_1_book_period_review.png",
+      "sha256": "bc52ffbe699308a30689489d75d66bd1f0750b52aec4e5dcab48958613aca964"
+    },
+    "extended_comparison": {
+      "path": "figures/17-1/plots/comparisons/figure_17_1_extended_review.png",
+      "sha256": "9b9c6fafb06365e733732f83ea85d198fffb5932bc7143eeba1a7ad58a491db1"
     }
   },
   "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "book_page": "Supplemental Graphics PDF p33, upper panel",
+    "claim_summary": "Weekly work hours fell for full-time nonagricultural production workers in Western Europe and the US.",
+    "original_dataset": "Huberman & Minns (2007), Table 1; OWID retained datasets 234 and days/hours export",
+    "dataset_url": "https://ourworldindata.org/grapher/work-hours-per-week",
+    "archive_url": "https://web.archive.org/web/20160815131241id_/https://ourworldindata.org/grapher/work-hours-per-week?country=BEL+FRA+ITA+CHE+USA",
+    "download_date": "2026-09-09",
+    "confidence_score": "High for source values; medium for book assembly/visual fidelity"
   },
   "reference": {
     "figure_id": "17-1",
@@ -79,7 +178,7 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 17-1: Work hours, Western Europe and US, 1870-2000",
     "source_note_ocr": "Roser 2016t, based on data from Huberman & Minns 2007 on full-time production workers (both sexes) in nonagricultural activities.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "visually_confirmed_against_original_pdf",
+    "visual_review": "full_resolution_original_inspected_2026-09-09"
   }
 }

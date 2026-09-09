@@ -1104,16 +1104,16 @@
     "title": "Work hours, Western Europe and US, 1870-2000",
     "page": "",
     "year_range": "1870-2000",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "discrepancy_analysis",
     "source_type_guess": "economic_historical_dataset",
     "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-    "execution_status": "not_started",
+    "current_owner": "codex_direct",
+    "next_action": "Resolve the roughly one-hour visual level difference against the author's book-era assembly; obtain matching full-time production-worker successor coverage before extending.",
+    "notes": "Original paper and OWID numeric data recovered. Shapes closely agree, but published book appears lower by roughly one hour. Values are not shifted to force a match. No comparable post-2000 extension.",
+    "execution_status": "processed",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "17-2",
