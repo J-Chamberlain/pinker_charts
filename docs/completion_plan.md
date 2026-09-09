@@ -2,7 +2,7 @@
 
 Approved direction: 2026-09-09.
 Plan version: 1.0.
-Current checkpoint: consolidated records and original-pixel baseline built; integration writer and independent scientific review remain prerequisites to unattended production.
+Current checkpoint: consolidated records and original-pixel baseline built; canonical writer bridge and multimodal evidence packaging tested offline. Atomic integration, reproducibility expansion and real independent-review calibration remain prerequisites to unattended production.
 
 This is the canonical execution plan approved by the project owner. It records
 the route from the fragmented July project state to a reproducible research
@@ -305,11 +305,11 @@ ledger into the orchestrator repository.
 | Phase | State | Evidence or next action |
 | --- | --- | --- |
 | 1. Consolidation | Reconciled baseline built | [Import evidence](../reports/consolidation/README.md); both histories and stranded workers preserved; 75 records and [26-figure/52-page visual baseline](../reports/review_baseline/index.html). [Triage](../reports/review_baseline/triage.md) is not publication approval. |
-| 2. Consistent state | Implemented; integration writer pending | [State contract](canonical_state.md); 75 canonical records, generated mirrors and README summaries, hash validation, 12 offline tests. Orchestrator must adopt the new ownership contract before production. |
+| 2. Consistent state | Implemented; writer bridge tested offline | [State contract](canonical_state.md); 75 canonical records and generated views, 14 state tests. Active orchestrator commits `303518a`/`b7a5ef9` preserve scientific status and enforce worker isolation. Full branch integration remains a Phase 6 gate. |
 | 3. Shared source library | Reference coverage implemented; source adapters pending | [Reference library](reference_library.md): 75 original crops, PDF coordinates/hashes and OCR title/source. Full-resolution source-note verification and reusable retrieval adapters remain. |
-| 4. Portable reproduction | Not started | Remove observed absolute-path and temporary-file dependencies; verify clean rebuilds. |
-| 5. Scientific/visual gate | Not started | Implement actual image input and evidence-bound review in the active runner. |
-| 6. Unattended calibration | Not started | Offline lifecycle verification first; paid production awaits budget and credential preflight. |
+| 4. Portable reproduction | First isolated rebuild checked | Figure 5-3 clean CSVs and both plots reproduce four canonical hashes using existing environment at `7759c56`; fresh dependency install and remaining scripts not yet validated. |
+| 5. Scientific/visual gate | Implemented and mocked; calibration pending | Active lab `b7a5ef9` packages exact-commit sources/data/code/images and sends actual pixels. Strict parsing and manual-review guards tested; actual 5-3 package contains 21 files and three image inputs. Real scientific judgment is not yet calibrated. |
+| 6. Unattended calibration | Offline checks progressing | 283 active-lab tests pass. Atomic integration, whole-run locking, budget enforcement and live calibration remain. No paid calls; spending ceiling and credential preflight still required. |
 | 7. Existing incomplete figures | First consolidation-enabled repair | Figure 5-3 regained 49 early Sweden years from original GD010 table; exact count/overlap tests pass, both comparisons visually inspected. Remains partial pending independent review. |
 | 8. Untouched figures | Not started | Reconfirm provisional 40-figure queue after consolidation. |
 | 9. Final recovery/review | Not started | Apply new evidence to deferred work and audit all released comparisons. |
@@ -318,3 +318,7 @@ ledger into the orchestrator repository.
 2026-09-09 checkpoint: approved plan recorded and linked from repository startup
 documents. No figures reconstructed, statuses promoted, paid production calls
 made, or branches merged as part of this documentation checkpoint.
+
+2026-09-09 execution checkpoint: [validation and exact next actions](../reports/completion_checkpoint_2026_09_09.md).
+Consolidation and a source-supported Figure 5-3 repair are now committed; the
+earlier paragraph describes plan documentation only, not subsequent execution.

@@ -208,6 +208,7 @@ def projections(records: list[dict]) -> dict[str, str]:
              "## Current Work", "", "Integration branch: `production-loop`.",
              "Read the completion-plan ledger for the current phase, exit evidence, and next action.",
              "[Consolidation evidence](reports/consolidation/README.md) preserves both histories.",
+             "[Execution checkpoint](reports/completion_checkpoint_2026_09_09.md) records validation and remaining gates.",
              "Historical classifications are retained as claims until independently re-reviewed.",
              "A completed source search or accepted worker run is not a completed reconstruction.", "",
              "## Reference And Review", "",
