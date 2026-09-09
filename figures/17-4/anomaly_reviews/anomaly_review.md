@@ -4,7 +4,7 @@
 
 Historical line: early-century spikes, long middle plateau, and nineteenth-century collapse match the original's overall line and local features. Same linear 0-45,000 scale and 50-year ticks; no log-scale replacement. Typography, stroke width and axis-frame padding differ slightly. Source starts 1301 although title says 1300; no fabricated observation. Source metadata says UK while book says England, disclosed in caption.
 
-Successor: at 2006 legacy is 2.89 and current five-year average is 2.166527 GBP 2000. These are source-table numbers, not pixel readings. Revised history is not rescaled. Main-axis continuation is near zero; inset makes it visible, shows overlap and identifies different scale. First draft inset clipped the 1995 legacy value; automatic correction raised its maximum to 5. No unexplained seamless splice remains.
+Successor: at 2006 legacy is 2.89 and current five-year average is 2.1665275 GBP 2000. These are source-table numbers, not pixel readings. Revised history is not rescaled. Main-axis continuation is near zero; inset makes it visible, shows overlap and identifies different scale. First draft inset clipped the 1995 legacy value; automatic correction raised its maximum to 5. No unexplained seamless splice remains.
 
 ## Severity and disposition
 

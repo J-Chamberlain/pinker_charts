@@ -2433,7 +2433,7 @@
       },
       "anomaly_review": {
         "path": "figures/17-4/anomaly_reviews/anomaly_review.md",
-        "sha256": "fc694ed2826ff9c0ce8408f1ed018635fe04bc511d8810428c83a4a4eb6ec2f8"
+        "sha256": "6aa7420ee3b05428239d29af4ecd4ba377b37a092e60d863c0df023c2dff224e"
       },
       "discrepancy_log": {
         "path": "figures/17-4/discrepancy_logs/discrepancy_log.md",

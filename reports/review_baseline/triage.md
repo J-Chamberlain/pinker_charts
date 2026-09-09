@@ -1,5 +1,18 @@
 # Consolidated Visual Triage - 2026-09-09
 
+## Direct-Production Addendum
+
+The original 52-page scan below is historical. Current gallery: 28 figures,
+56 comparison pages. New Figures 17-4 and 17-8 were inspected individually,
+including actual PDF references, both comparison PNGs and rendered PDF pages
+51-54. Figure 17-4's first inset clipped an early overlap value; corrected before
+publication of this review snapshot. Lighting is a verified book-period
+reproduction with an explicitly revised successor. Tourism remains partial
+because its exact-vintage 2015 endpoint is missing. Figure 17-7 has no numeric
+reconstruction and is excluded, not represented by a placeholder.
+
+## Original Consolidation Scan
+
 All 52 comparison pages were visually scanned as contact sheets. Figure 5-3
 was additionally inspected full-resolution before and after source/style
 repair; Figure 10-2 was inspected full-resolution after viewport correction.

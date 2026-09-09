@@ -323,10 +323,10 @@ ledger into the orchestrator repository.
 | 2. Consistent state | Implemented; writer bridge tested offline | [State contract](canonical_state.md); 75 canonical records and generated views, 14 state tests. Active orchestrator commits `303518a`/`b7a5ef9` preserve scientific status and enforce worker isolation. Full branch integration remains a Phase 6 gate. |
 | 3. Shared source library | Reference coverage implemented; source adapters pending | [Reference library](reference_library.md): 75 original crops, PDF coordinates/hashes and OCR title/source. Full-resolution source-note verification and reusable retrieval adapters remain. |
 | 4. Portable reproduction | First isolated rebuild checked | Figure 5-3 clean CSVs and both plots reproduce four canonical hashes using existing environment at `7759c56`; fresh dependency install and remaining scripts not yet validated. |
-| 5. Scientific/visual gate | Implemented and mocked; calibration pending | Active lab `b7a5ef9` packages exact-commit sources/data/code/images and sends actual pixels. Strict parsing and manual-review guards tested; actual 5-3 package contains 21 files and three image inputs. Real scientific judgment is not yet calibrated. |
-| 6. Unattended calibration | Offline checks progressing | 283 active-lab tests pass. Atomic integration, whole-run locking, budget enforcement and live calibration remain. No paid calls; spending ceiling and credential preflight still required. |
+| 5. Scientific/visual gate | Direct evidence and visual review active | Original-PDF comparisons for new Figures 17-4 and 17-8 inspected at full resolution; explicit source-vintage distinctions preserved. No external reviewer approval claimed. |
+| 6. Unattended calibration | API track superseded by owner direction | Direct in-task research now proceeds without paid calibration or model API credentials. Historical lab tests remain useful infrastructure evidence, not a dependency for figure completion. |
 | 7. Existing incomplete figures | First consolidation-enabled repair | Figure 5-3 regained 49 early Sweden years from original GD010 table; exact count/overlap tests pass, both comparisons visually inspected. Remains partial pending independent review. |
-| 8. Untouched figures | Direct production begun | Figure 17-8 recovered as partial_match with original-PDF comparisons, 2016 WDI history and explicit successor extension to 2025; 39 untouched figures remain. No paid reviewer dependency. |
+| 8. Untouched figures | Direct production active | Figure 17-4 verified book-period reconstruction with revised extension to 2023; 17-8 partial with extension to 2025; 17-7 targeted source recovery. 37 untouched figures remain. No paid reviewer dependency. |
 | 9. Final recovery/review | Not started | Apply new evidence to deferred work and audit all released comparisons. |
 | 10. Release | Not started | Fresh-checkout validation, gallery, PDF, release manifest, and completion accounting. |
 
@@ -352,3 +352,14 @@ original-vintage 2015 tourism data remain a targeted recovery task. Archive
 searches and rejected data are retained, not silently discarded. The next action
 is another untouched figure; the global review PDF will refresh after the next
 coherent group. No external API review or new orchestrator work performed.
+
+2026-09-09 next checkpoint: Figure 17-4 recovered the original 706-observation
+source series, with numeric cross-checks and actual original-PDF comparisons.
+Its revised successor is separate, not silently substituted. Figure 17-7 has
+archived source-chain evidence but no usable numeric export; it is excluded
+from the visual gallery. The gallery/PDF now contain 28 figures / 56 real
+comparison pages. New PDF pages 51-54 were rendered and visually inspected.
+SQLite now catalogs 369 files / 71 clean tables / 37,188 rows, retaining earlier
+snapshots. All 60 project tests and canonical-state/data-library checks pass.
+Next: Figure 17-1, work hours, using the same historical OWID recovery path.
+This is a progress checkpoint, not completion of the 75-figure objective.

@@ -23,6 +23,6 @@ def test_extension_preserves_vintage_overlap_without_rebasing():
     current = extended[extended.role.eq("successor")]
     assert current.year.tolist() == list(range(1995, 2024))
     assert len(extended) == 735
-    assert current.loc[current.year.eq(2006), "value"].item() == 2.166527
+    assert current.loc[current.year.eq(2006), "value"].item() == 2.1665275
     assert current.loc[current.year.eq(2023), "value"].item() == 2.148248
     assert not extended[["source_version", "year"]].duplicated().any()
