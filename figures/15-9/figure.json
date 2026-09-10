@@ -27,30 +27,9 @@
     ]
   },
   "visual_review": {
-    "status": "inspected",
+    "status": "pending",
     "reference_basis": "original",
-    "inspected_artifacts": [
-      {
-        "path": "references/figures/figure_15_9.png",
-        "sha256": "9e0a761ffe50d045eb752811a88e632ae222d754ffa24eb7f8c69c46783cc24f"
-      },
-      {
-        "path": "figures/15-9/plots/book_period/figure_15_9_book_period.png",
-        "sha256": "219d48d3cda10d7695e2c70ec7951516828df9d9f72f07646002c3d91120bb5d"
-      },
-      {
-        "path": "figures/15-9/plots/extended/figure_15_9_extended.png",
-        "sha256": "d7073ea0e5d301db30b77f6969afb9984c623a116ce3bd91c69fe21b01a2afd6"
-      },
-      {
-        "path": "figures/15-9/plots/comparisons/figure_15_9_book_period_review.png",
-        "sha256": "d153d5c054c78e094415e986784d871c96278fb78fdcb0cc4053155f783a1712"
-      },
-      {
-        "path": "figures/15-9/plots/comparisons/figure_15_9_extended_review.png",
-        "sha256": "d894c63286b39d926787f4b979aca5caa632b3626a312fa687bdfa0aa48154db"
-      }
-    ],
+    "inspected_artifacts": [],
     "issues": [
       "Reference uses sparse historical observations and labels; recreated styling is approximate",
       "Series definitions and age bands are heterogeneous by source"
@@ -83,11 +62,11 @@
     },
     "book_period_comparison": {
       "path": "figures/15-9/plots/comparisons/figure_15_9_book_period_review.png",
-      "sha256": "d153d5c054c78e094415e986784d871c96278fb78fdcb0cc4053155f783a1712"
+      "sha256": "5aee30f0a688b0d3d5a1a2417a14e4b9370c67e7ac64d4cdd3e0ece18d7b4eef"
     },
     "extended_comparison": {
       "path": "figures/15-9/plots/comparisons/figure_15_9_extended_review.png",
-      "sha256": "d894c63286b39d926787f4b979aca5caa632b3626a312fa687bdfa0aa48154db"
+      "sha256": "301ea9e91c31c4aaa44377987daf62fd5137b078fff932c35a8cb49c484bde4c"
     },
     "caption": {
       "path": "figures/15-9/captions/caption.txt",

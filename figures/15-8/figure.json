@@ -65,11 +65,11 @@
     },
     "book_period_comparison": {
       "path": "figures/15-8/plots/comparisons/figure_15_8_book_period_review.png",
-      "sha256": "d6a9787bc222e6c41ebba8418ebf9a8a16b38a9fff6d8b00dc1e0f3e70b0771d"
+      "sha256": "9ba9552b8e0436443678af9efebec662f0d0533289ca31b1ca1cf8efd1458923"
     },
     "extended_comparison": {
       "path": "figures/15-8/plots/comparisons/figure_15_8_extended_review.png",
-      "sha256": "b373de63c74999472469107e2adc77c647186fc9669a6443f49a099fb306048e"
+      "sha256": "13827f449a5408835c69e7fe707e5dbe8b576f5ca5ee917b20e8b260fb2e5d53"
     },
     "caption": {
       "path": "figures/15-8/captions/caption.txt",
