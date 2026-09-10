@@ -28,9 +28,30 @@
     "blocker": "The exact 2015/2016 Data Explorer extract and its weighting/project configuration were not recovered."
   },
   "visual_review": {
-    "status": "pending",
+    "status": "inspected",
     "reference_basis": "original",
-    "inspected_artifacts": [],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_18_4.png",
+        "sha256": "b3e7550e44b8514d6a71a2648e57450e712171c1311bce6b3556a44455c5136c"
+      },
+      {
+        "path": "figures/18-4/plots/book_period/figure_18_4_book_period.png",
+        "sha256": "e4d57c7e0291d2bc3b1f59e1993f9936c374e8baba6cb6e450b9d4b158cb6cbd"
+      },
+      {
+        "path": "figures/18-4/plots/extended/figure_18_4_extended.png",
+        "sha256": "c5c9dab75cabaee0f14faa308e0c61c97651800de3490fdec8b1d36f64a3f036"
+      },
+      {
+        "path": "figures/18-4/plots/comparisons/figure_18_4_book_period_review.png",
+        "sha256": "f6883e1853711559224b2f926309ea4bde932030889b404cd3e595ad34801774"
+      },
+      {
+        "path": "figures/18-4/plots/comparisons/figure_18_4_extended_review.png",
+        "sha256": "e144a844d36030a11d1bf232a60530731b4c3b1a37bb042cdba65b261fb9fa75"
+      }
+    ],
     "issues": [
       "current release differs modestly from report vintage",
       "LIFE series has survey-year gaps"
