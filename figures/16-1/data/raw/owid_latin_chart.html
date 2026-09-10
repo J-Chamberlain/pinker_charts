@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link href="nv.d3.css" rel="stylesheet" type="text/css">
+<link href="../../maxstyle_for_d3/max.nv.d3.css" rel="stylesheet" type="text/css">
+<style>body{overflow-y:hidden;overflow-x:hidden;margin:0px 4px 0px 0px;}#CreditsContainer{position:absolute;height:40px;background-color:#FAFAFA;width:100%;bottom:0;margin:0;border:0;padding:0;}#chart1,#chart2{position:absolute;}#chart1 .nv-lineChart circle.nv-point,#chart2 .nv-lineChart circle.nv-point{fill-opacity:0.7;}#chart1 .nv-lineChart path.nv-line,#chart2 .nv-lineChart path.nv-line{stroke-opacity:1px;stroke-width:1.3px;}.tick line{opacity:0.3;}</style>
+<body>
+<div>
+<svg id="chart1"></svg>
+</div>
+<div>
+<svg id="CreditsContainer"></svg>
+</div>
+<script src="d3.v3.js"></script>
+<script src="nv.d3.js"></script>
+<script>
+
+
+
+   
+
+var chartdata = [ {
+    key    : "Chile",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Brazil",
+    values : []
+  },  {
+    key    : "Bolivia",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Argentina",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Colombia",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Costa Rica",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Cuba",
+    values : []
+  },  {
+    key    : "Dominican Republic",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Ecuador",
+    values : []
+  },  {
+    key    : "El Salvador",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Guatemala",
+    values : []
+  },  {
+    key    : "Haiti",
+    values : []
+  },  {
+    key    : "Honduras",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Mexico",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Nicaragua",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Panama",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Paraguay",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Peru",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Uruguay",
+    	disabled: true,
+    values : []
+  },  {
+    key    : "Venezuela",
+    	disabled: true,
+    values : []
+  }
+];
+//    	disabled: true,
+
+
+d3.csv("illiteracyRatesLatinAmerica_OxLAD.csv", function (error, csv) {
+	  if (error) return console.log("there was an error loading the csv: " + error);
+	  console.log("there are " + csv.length + " elements in my csv set");
+
+ 	  var columndata = ["Chile","Brazil","Bolivia","Argentina","Colombia","Costa Rica","Cuba","Dominican Republic","Ecuador","El Salvador","Guatemala","Haiti","Honduras","Mexico","Nicaragua","Panama","Paraguay","Peru","Uruguay","Venezuela"];
+
+for (var i = 0; i < columndata.length; i++) { 
+ //chartdata[i].key = columndata[i];
+ chartdata[i].values = csv.map(function(d) { 
+ 							return [  
+ 								+d["year"], 
+ 								+d[columndata[i]] ];
+  						    })
+  						    .filter(function(d){ return d[1]||(d[1] === null); });
+ 											 }
+
+
+
+
+//var colors = d3.scale.ordinal()
+    //      .range(["darkgrey", "darkblue","lightblue","orange", "green","darkred","#388E8E", "","red","teal","lightgreen"])
+      //    .domain(d3.range(0,11));
+		  
+//keyColor = function(d, i) {return colors(d.key)};
+
+
+    var d3_category20max = [ 
+      "#235BAD",
+      "#C90F0E", 
+      "#299629", 
+      "#F2681C", 
+      "#7C98E0",
+      "#FFBC8C", 
+      "#A65543", 
+      "#F21B17", 
+      "#59C717", 
+      "#FFD434", 
+      "#D16B62", 
+      "#CE6FD9", 
+      "#FC811D", 
+      "#98df8a", 
+      "#7f7f7f", 
+      "#B557E3", 
+      "#F5A10E", 
+      "#17becf", 
+      "#c7c7c7",
+      "#86C5E5" ];
+      
+d3.scale.category20 = function() {
+    return d3.scale.ordinal().range(d3_category20max);
+  };
+
+var colors = d3.scale.category20();
+
+keyColor = function(d, i) {return colors(d.key)};
+
+var chart;
+
+nv.addGraph(function() {
+    chart = nv.models.lineChart()
+		.margin({top: 30, right: 20, bottom: 70, left: 50}) 
+		.tooltipContent(function(key, x, y, e, graph) {return '<h3>' + key + '</h3>' +
+               '<p>' +  y + ' in ' + x + '</p>'			})
+                .x(function(d) { return d[0] })
+                .y(function(d) { return d[1]/100 })  
+                .color(keyColor);
+  chart.xAxis
+      .tickFormat();
+      
+  chart.yAxis
+      .axisLabel('Illiteracy Rate (% of adult population)')
+  	  .axisLabelDistance(40)
+      .tickFormat(d3.format(',%f'));
+	  
+	  
+  d3.select('#chart1')
+    .datum(chartdata)
+      .transition().call(chart);
+  
+  nv.utils.windowResize(chart.update);
+  
+  chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
+  /*setTimeout(function() {
+              $('#my-chart .nv-lineChart circle.nv-point').attr("r", "3.5");
+          }, 500);*/
+  return chart;
+});
+
+
+// end read csv
+});
+
+
+
+
+var logoCanvas = d3.select("#chart1")
+
+logoCanvas.append("svg:image")
+   		.attr('x',2)
+   		.attr('y',0)
+   		.attr('width', 51)
+   		.attr('height', 25)
+   		.attr("xlink:href","../../maxstyle_for_d3/EPLogo.png");
+
+
+
+/*--------------------------------------------------*/
+/*    				  Credits    					*/
+/*--------------------------------------------------*/
+   		
+var creditsCanvas = d3.select("#CreditsContainer")
+		var xorigin=8;
+		var yorigin=1;
+
+
+/*1. Zeile*/	
+creditsCanvas
+	.append("text")
+	.text("The author Max Roser licensed this visualisation under a")
+	.attr("x",xorigin+0)
+	.attr("y",yorigin+10)
+	.attr("id",'erstesTextstuck').attr('class','creditsText');
+var erstesTextstuckLange = document.getElementById('erstesTextstuck').getComputedTextLength();
+
+creditsCanvas.append("svg:a")
+		  .attr("xlink:href", "http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US")
+		  .attr("target","_blank")
+		  .append("svg:text")
+		  .attr("x", xorigin+erstesTextstuckLange+3)
+		  .attr("y", yorigin+10)
+		  .attr('class','creditsLink').attr("id",'zweitesTextstuck')
+	      .text("CC BY-NC-SA license");
+var zweitesTextstuckLange = document.getElementById('zweitesTextstuck').getComputedTextLength();
+
+
+creditsCanvas
+	.append("text")
+	.text(". You are welcome to share but please refer to its source where you")
+	.attr("x",xorigin+erstesTextstuckLange+3+zweitesTextstuckLange+1)
+	.attr("y",yorigin+10)
+	.attr("id",'drittesTextstuck').attr('class','creditsText');	
+var drittesTextstuckLange = document.getElementById('drittesTextstuck').getComputedTextLength();
+
+	
+/*1. oder 2. Zeile*/	
+
+var TextViertesTextstuck = creditsCanvas
+	.append("text")
+	.text("find more information:")
+	.attr("id",'viertesTextstuck')
+	.attr('class','creditsText');
+	var viertesTextstuckLange = document.getElementById('viertesTextstuck').getComputedTextLength();
+	
+var TextFunftesTextstuck = creditsCanvas.append("svg:a")
+		  .attr("xlink:href", "http://www.OurWorldinData.org/data/education-knowledge/literacy")
+		  .attr("target","_blank")
+		  .append("svg:text")
+		  .attr('class','creditsLink')
+	      .text("www.OurWorldinData.org/data/education-knowledge/literacy")
+		  .attr("id",'funftesTextstuck');
+var funftesTextstuckLange = document.getElementById('funftesTextstuck').getComputedTextLength();
+
+var creditsCanvasWidth = parseInt(creditsCanvas.style('width'));
+var LongTextWidth = parseInt( xorigin + erstesTextstuckLange + 3 + zweitesTextstuckLange + 1 + drittesTextstuckLange + 3 + viertesTextstuckLange + 3 + funftesTextstuckLange );
+
+if (creditsCanvasWidth > LongTextWidth ) {
+TextViertesTextstuck
+	.attr("x",xorigin+erstesTextstuckLange+3+zweitesTextstuckLange+1+drittesTextstuckLange+3)
+	.attr("y",yorigin+10);
+	}
+ else
+  {
+TextViertesTextstuck
+	.attr("x",xorigin+0)
+	.attr("y",yorigin+21);
+	  }
+
+	
+if (creditsCanvasWidth > LongTextWidth ) {
+	TextFunftesTextstuck
+		  .attr("x",xorigin+erstesTextstuckLange+3+zweitesTextstuckLange+1+drittesTextstuckLange+3+viertesTextstuckLange+3)
+		  .attr("y", yorigin+10);
+	}
+ else
+  {
+TextFunftesTextstuck
+		  .attr("x", xorigin+102)
+		  .attr("y", yorigin+21);
+	  }
+
+
+
+/*3. Zeile*/	
+creditsCanvas
+  	.append("text")
+  	.text("Data Source: OxLAD")
+  	.attr("x",xorigin+0)
+  	.attr("y",yorigin+32)
+  	.attr('class','creditsText');
+	
+/* ------- end credits ------ */
+		  
+		  
+
+
+</script>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:1478937462,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"db2cffc0da8c07e7457abc28280f3aaa",petok:"2cd3ae28f4d413c178bccb5c31e43eaabf9fc088-1479557111-86400",zone:"ourworldindata.org",rocket:"0",apps:{"abetterbrowser":{"ie":"8","opera":null,"chrome":null,"safari":null,"firefox":null},"ga_key":{"ua":"UA-42018644-1","ga_bs":"2"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=088620b277/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42018644-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</html>

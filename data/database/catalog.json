@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2bb03638459e1fb119ed34785b481d118eb7d7115944a3cf214a798e62fcf3a0",
+  "snapshot_id": "55854252459acc66f945a20d0476015d2a4e523f3fec62f02f8acd6c90605268",
   "figures": 75,
-  "saved_files": 446,
-  "clean_tables": 88,
-  "clean_rows": 39811,
+  "saved_files": 467,
+  "clean_tables": 92,
+  "clean_rows": 40022,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -418,14 +418,14 @@
     {
       "figure_id": "16-1",
       "title": "Literacy, 1475-2010",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "verified_reproduction",
+      "artifact_kind": "reconstruction",
+      "saved_files": 21,
+      "raw_files": 12,
+      "clean_tables": 4,
+      "canonical_declared_clean_tables": 4,
+      "clean_rows": 211,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "16-2",

@@ -1,0 +1,189 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Cross-country%20literacy%20rates%20-%20World%20Bank%2C%20CIA%20World%20Factbook%2C%20and%20other%20sources/Cross-country%20literacy%20rates%20-%20World%20Bank%2C%20CIA%20World%20Factbook%2C%20and%20other%20sources.csv",
+    "path": "figures/16-1/data/raw/owid_legacy.csv",
+    "retrieved_at": "2026-09-10T00:06:00.432448+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Cross-country%20literacy%20rates%20-%20World%20Bank%2C%20CIA%20World%20Factbook%2C%20and%20other%20sources/Cross-country%20literacy%20rates%20-%20World%20Bank%2C%20CIA%20World%20Factbook%2C%20and%20other%20sources.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "439c40bad170922f15fe7ac7a4683cb5afad2f2afc6b8b9d659597ebb66e6e4d",
+    "bytes": 32993
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Cross-country%20literacy%20rates%20-%20World%20Bank%2C%20CIA%20World%20Factbook%2C%20and%20other%20sources/datapackage.json",
+    "path": "figures/16-1/data/raw/owid_legacy.metadata.json",
+    "retrieved_at": "2026-09-10T00:06:00.621894+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Cross-country%20literacy%20rates%20-%20World%20Bank%2C%20CIA%20World%20Factbook%2C%20and%20other%20sources/datapackage.json",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "a58343c2ced6a41c190b800e87220e98d24cb3b9d0047bedb8bb4e999608bc77",
+    "bytes": 6980
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/cross-country-literacy-rates.csv",
+    "path": "figures/16-1/data/raw/owid_current.csv",
+    "retrieved_at": "2026-09-10T00:06:49.897218+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/cross-country-literacy-rates.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "0940c5b33e5433e2a2db003be50d2cd0dfed6176e975512437034d3f241e2f6c",
+    "bytes": 66296
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/cross-country-literacy-rates.metadata.json",
+    "path": "figures/16-1/data/raw/owid_current.metadata.json",
+    "retrieved_at": "2026-09-10T00:06:50.906151+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/cross-country-literacy-rates.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "e21b968be9e8db2f529713ea056d6d29cc71c8e32d112b4c60afd637dcea474f",
+    "bytes": 6715
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org/grapher/cross-country-literacy-rates*&output=json&filter=statuscode:200&from=2015&to=2017&collapse=timestamp:6",
+    "path": "figures/16-1/data/candidates/chart_cdx.json",
+    "retrieved_at": "2026-09-10T00:06:48.894439+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org/grapher/cross-country-literacy-rates*&output=json&filter=statuscode:200&from=2015&to=2017&collapse=timestamp:6",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "url": "https://web.archive.org/web/20170101000000id_/https://ourworldindata.org/literacy/",
+    "path": "figures/16-1/data/candidates/owid_literacy_2016.html",
+    "retrieved_at": "2026-09-10T00:07:13.543458+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170101130054id_/https://ourworldindata.org/literacy/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "6a2ff6767b7a2d1a888a3b56686e830ed3378e3d19a3e660e0bcbd468e1e06ac",
+    "bytes": 91059
+  },
+  {
+    "url": "https://api.github.com/repos/owid/owid-datasets/commits?path=datasets/Cross-country%20literacy%20rates%20-%20World%20Bank%2C%20CIA%20World%20Factbook%2C%20and%20other%20sources&per_page=100",
+    "path": "figures/16-1/data/candidates/legacy_commits.json",
+    "retrieved_at": "2026-09-10T00:07:14.742314+00:00",
+    "http_status": 200,
+    "final_url": "https://api.github.com/repos/owid/owid-datasets/commits?path=datasets/Cross-country%20literacy%20rates%20-%20World%20Bank%2C%20CIA%20World%20Factbook%2C%20and%20other%20sources&per_page=100",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "ffe1463be88ea6c170256bd40598160b0440948f0b1bb475b7968ed9426589b5",
+    "bytes": 2963
+  },
+  {
+    "url": "https://ourworldindata.org/uploads/2018/06/cross-country-literacy-sources-final.csv",
+    "path": "figures/16-1/data/raw/owid_source_map.csv",
+    "retrieved_at": "2026-09-10T00:07:15.332142+00:00",
+    "http_status": 200,
+    "final_url": "https://assets.ourworldindata.org/uploads/2018/06/cross-country-literacy-sources-final.csv",
+    "content_type": "text/csv; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "cf75e7b70f5f2575ab144ae6bc9d31324f8de7909851b6b94ca0ca783214e9df",
+    "bytes": 62547
+  },
+  {
+    "url": "https://nces.ed.gov/naal/lit_history.asp",
+    "path": "figures/16-1/data/raw/nces_literacy.html",
+    "retrieved_at": "2026-09-10T00:07:16.170410+00:00",
+    "http_status": 200,
+    "final_url": "https://nces.ed.gov/naal/lit_history.asp",
+    "content_type": "text/html",
+    "status": "downloaded",
+    "sha256": "f5fe33fd80cdcb2d31188da1cdf058c2597a05384c274db3d945e8b49dcb1690",
+    "bytes": 27675
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Global%20literacy%20since%201800%20%28OWID%20based%20on%20OECD%20%26%20UNESCO%20%282019%29%29/Global%20literacy%20since%201800%20%28OWID%20based%20on%20OECD%20%26%20UNESCO%20%282019%29%29.csv",
+    "path": "figures/16-1/data/raw/owid_global_2019.csv",
+    "retrieved_at": "2026-09-10T00:07:36.642073+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Global%20literacy%20since%201800%20%28OWID%20based%20on%20OECD%20%26%20UNESCO%20%282019%29%29/Global%20literacy%20since%201800%20%28OWID%20based%20on%20OECD%20%26%20UNESCO%20%282019%29%29.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "cf187109340c8c64608d7e8410304de6635e37711f78c238e9ab1a7fdff6669c",
+    "bytes": 749
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Global%20literacy%20since%201800%20%28OWID%20based%20on%20OECD%20%26%20UNESCO%20%282019%29%29/datapackage.json",
+    "path": "figures/16-1/data/raw/owid_global_2019.metadata.json",
+    "retrieved_at": "2026-09-10T00:07:37.208268+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Global%20literacy%20since%201800%20%28OWID%20based%20on%20OECD%20%26%20UNESCO%20%282019%29%29/datapackage.json",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "6b4eb50e442847c98adb4603dc545e4fdcc59d3cd1ac1ac17e801f6dc2e7e85e",
+    "bytes": 4645
+  },
+  {
+    "url": "https://web.archive.org/web/20161201000000id_/https://ourworldindata.org/roser/graphs/LiteracyRatesGlobalLongRun/LiteracyRatesGlobalLongRun.html",
+    "path": "figures/16-1/data/raw/owid_historical_chart.html",
+    "retrieved_at": "2026-09-10T00:07:47.477000+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20161119120506id_/https://ourworldindata.org/roser/graphs/LiteracyRatesGlobalLongRun/LiteracyRatesGlobalLongRun.html",
+    "content_type": "text/html",
+    "status": "downloaded",
+    "sha256": "04021da3c0ff48c05775faac993636f698fced1968557da8dc7390c4b049e161",
+    "bytes": 10915
+  },
+  {
+    "url": "https://web.archive.org/web/20161201000000id_/https://ourworldindata.org/wp-content/uploads/nvd3/illiteracyRatesLatinAmerica_OxLAD/illiteracyRatesLatinAmerica_OxLAD.html",
+    "path": "figures/16-1/data/raw/owid_latin_chart.html",
+    "retrieved_at": "2026-09-10T00:07:48.650841+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20161119120511id_/https://ourworldindata.org/wp-content/uploads/nvd3/illiteracyRatesLatinAmerica_OxLAD/illiteracyRatesLatinAmerica_OxLAD.html",
+    "content_type": "text/html",
+    "status": "downloaded",
+    "sha256": "c11905361deeb308c330f86c72938dd6083ec7f6dc88619eb397277231194624",
+    "bytes": 10150
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/literate-and-illiterate-world-population.metadata.json",
+    "path": "figures/16-1/data/candidates/owid_world_current_metadata.json",
+    "retrieved_at": "2026-09-10T00:07:58.347443+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/literate-and-illiterate-world-population.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "9e3646aa27c38b82fd96687bcfafa2a26209bf6f572a8229c35e39b5a1d579b2",
+    "bytes": 12818
+  },
+  {
+    "url": "https://web.archive.org/web/20161119120506id_/http://ourworldindata.org/roser/graphs/LiteracyRatesGlobalLongRun/LiteracyRatesGlobalLongRun.csv",
+    "path": "figures/16-1/data/raw/owid_2016_long_run.csv",
+    "retrieved_at": "2026-09-10T00:08:09.056123+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20160325002542id_/http://ourworldindata.org/roser/graphs/LiteracyRatesGlobalLongRun/LiteracyRatesGlobalLongRun.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "08301aedb7469da9c2ae19a915a65b69fb7b2bf81f132f49f167d03fea4b2be9",
+    "bytes": 1251
+  },
+  {
+    "url": "https://web.archive.org/web/20161119120511id_/http://ourworldindata.org/wp-content/uploads/nvd3/illiteracyRatesLatinAmerica_OxLAD/illiteracyRatesLatinAmerica_OxLAD.csv",
+    "path": "figures/16-1/data/raw/owid_2016_latin.csv",
+    "retrieved_at": "2026-09-10T00:08:10.237105+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20160405144224id_/http://ourworldindata.org/wp-content/uploads/nvd3/illiteracyRatesLatinAmerica_OxLAD/illiteracyRatesLatinAmerica_OxLAD.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "e9e591bd1f2ed993a362dcc4ae4e990efa312ea08852ee64259333277114f463",
+    "bytes": 2541
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org/roser/graphs/LiteracyRatesGlobalLongRun/LiteracyRatesGlobalLongRun.csv&output=json&filter=statuscode:200&collapse=digest",
+    "path": "figures/16-1/data/candidates/original_csv_cdx.json",
+    "retrieved_at": "2026-09-10T00:10:56.717112+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org/roser/graphs/LiteracyRatesGlobalLongRun/LiteracyRatesGlobalLongRun.csv&output=json&filter=statuscode:200&collapse=digest",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "5d567c9060624c9e7e36e447ff3fe24a549608db2ac64569638871ddbd735637",
+    "bytes": 625
+  }
+]

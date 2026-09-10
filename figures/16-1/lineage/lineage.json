@@ -1,0 +1,50 @@
+{
+  "figure_id": "16-1",
+  "book_citation": "Our World in Data, Roser & Ortiz-Ospina 2016b, including data from the following. Before 1800: Buringh & Van Zanden 2009. World: van Zanden et al. 2014. US: National Center for Education Statistics. After 2000: Central Intelligence Agency 2016.",
+  "script": "scripts/reconstruct_16_1.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/16-1/data/raw/owid_2016_long_run.csv"
+      ],
+      "selection": "Eight named series through 2010; blank values dropped",
+      "transformation": "Melt long form; labels renamed; exact source values preserved",
+      "clean": "figures/16-1/data/clean/figure_16_1_book_period.csv",
+      "plot": "figures/16-1/plots/book_period/figure_16_1_book_period.png"
+    },
+    {
+      "role": "revised_successor",
+      "raw_inputs": [
+        "figures/16-1/data/raw/owid_current.csv"
+      ],
+      "selection": "World Italy Chile Mexico 2000 onward",
+      "transformation": "No rebasing; dotted overlap through 2010, dashed later records; no carry-forward",
+      "clean": "figures/16-1/data/clean/figure_16_1_successor.csv",
+      "plot": "figures/16-1/plots/extended/figure_16_1_extended.png"
+    },
+    {
+      "role": "nces_crosscheck",
+      "raw_inputs": [
+        "figures/16-1/data/raw/owid_2016_long_run.csv",
+        "figures/16-1/data/raw/nces_literacy.html"
+      ],
+      "selection": "Fourteen US 1870-1979 records and NCES total column",
+      "transformation": "100 minus NCES illiteracy; compare exact archived percentage",
+      "clean": "figures/16-1/data/clean/figure_16_1_nces_check.csv",
+      "plot": "figures/16-1/plots/book_period/figure_16_1_book_period.png"
+    },
+    {
+      "role": "world_vintage_diagnostic",
+      "raw_inputs": [
+        "figures/16-1/data/raw/owid_2016_long_run.csv",
+        "figures/16-1/data/raw/owid_global_2019.csv",
+        "figures/16-1/data/raw/owid_current.csv"
+      ],
+      "selection": "World series, explicit literacy columns only",
+      "transformation": "Compare retained vintages without altering original; no digitization",
+      "clean": "figures/16-1/data/clean/figure_16_1_world_vintages.csv",
+      "plot": "figures/16-1/plots/diagnostics/world_vintages.png"
+    }
+  ]
+}

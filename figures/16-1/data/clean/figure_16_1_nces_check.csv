@@ -1,0 +1,15 @@
+year,source_series,value,series,unit,vintage,illiterate,nces_literate,difference_pp
+1870,USA,80.0,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,20.0,80.0,0.0
+1880,USA,83.0,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,17.0,83.0,0.0
+1890,USA,86.7,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,13.3,86.7,0.0
+1900,USA,89.3,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,10.7,89.3,0.0
+1910,USA,92.3,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,7.7,92.3,0.0
+1920,USA,94.0,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,6.0,94.0,0.0
+1930,USA,95.7,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,4.3,95.7,0.0
+1940,USA,97.1,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,2.9,97.1,0.0
+1947,USA,97.3,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,2.7,97.3,0.0
+1950,USA,96.8,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,3.2,96.8,0.0
+1952,USA,97.5,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,2.5,97.5,0.0
+1959,USA,97.8,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,2.2,97.8,0.0
+1969,USA,99.0,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,1.0,99.0,0.0
+1979,USA,99.4,United States,percent literate; heterogeneous historical definitions,OWID CSV archived 2016-03-25,0.6,99.4,0.0
