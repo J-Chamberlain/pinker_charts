@@ -11,12 +11,15 @@ No model API calls, new agent branches, or main merges.
 | 17-4 Cost of light | verified_reproduction | Original source dataset, 706 observations, 2016 identity and exact legacy CSV/API equality. Full line matches book. Revised 2026 source extends to 2023 without a forced join. |
 | 17-1 Work hours | partial_match | Original paper table/OWID recovered; small visual level differences remain. No comparable post-2000 extension, explicitly labeled. |
 | 17-2 Retirement | partial_match | Costa original table and BLS 2010 archive recovered; Short 2000 release/author assembly unresolved. Dashed BLS extension to 2024; historical definitions disclosed. |
+| 17-5 Spending on necessities | partial_match | Original 2016 HumanProgress five-component values cross-check BEA to numerical precision; adding energy recovers the book concept. Historical 2015 and revised 2025 data kept distinct; exact book component/endpoint remains unresolved. |
+| 17-6 Leisure | partial_match | Original author analysis cells reproduce all ten published means at two decimals. BLS continuation to 2025 has no annual 2020 estimate. Population/activity changes and small book-level differences prevent verification. |
+| 17-3 Utilities/appliances/housework | partial_match | Eight adoption curves from original author workbook and cited Census table. Housework only two confirmed numeric anchors; no fabricated trajectory. Stove definition changes; no comparable extension claimed. |
 
 ## Data Deliverable
 
 `data/database/pinker_data.sqlite` retains immutable snapshots, original clean
-cell values and row data. Current catalog: 394 retained files, 76 clean CSV
-tables, 37,308 rows. Counts include source-vintage overlap and diagnostics,
+cell values and row data. Current catalog: 446 retained files, 88 clean CSV
+tables, 39,811 rows. Counts include source-vintage overlap and diagnostics,
 not just unique observations. Raw files stay in Git; the database indexes them.
 New reconstructed figures declare exact raw -> clean -> script -> plot mappings
 in per-figure lineage JSON and CSV with file checksums. Legacy mappings still
@@ -31,15 +34,17 @@ variables preserved. Extension differences explained, not hidden. Lighting
 inset clipping corrected automatically. Neither new figure uses digitized
 chart values. This is direct self-review, not independent external approval.
 
-Review gallery and PDF now contain 30 real figure packages / 60 pages. New pages
-51-54 (work hours/retirement) rendered from the final PDF and inspected for clipping and legibility.
+Review gallery and PDF now contain 33 real figure packages / 66 pages. Earlier pages
+51-54 (work hours/retirement) were inspected at the preceding checkpoint. Current
+pages 55-62 contain utilities, lighting, necessities, and leisure; original comparison
+PNGs inspected and final PDF render checked for clipping and legibility.
 No new Critical visual issue remains in those four pages. Air travel has a
 Critical absence of data/reconstruction and is explicitly blocked from the
 gallery. Other legacy packages retain their earlier unresolved QA findings.
 
 ## Validation
 
-63 project tests pass using `.venv/bin/pytest -q`. A test initially compared a
+68 project tests pass using `.venv/bin/pytest -q`. A test initially compared a
 rounded display value to the exact retained successor value; corrected the
 test to 2.1665275, without changing any source data. Added root pytest path
 configuration so direct pytest and python -m pytest resolve scripts equally.
@@ -48,8 +53,9 @@ checks pass. No paid API needed. Source download failures remain in logs.
 
 ## Remaining Work
 
-35 figures have not started. Source-only packages and legacy partials are not
-finished reconstructions. Continue remaining Chapter 17 sources, preserving source-family
-continuity. Full-project data-use audit, portable dependency rebuilds, provider
+32 figures have not started. Source-only packages and legacy partials are not
+finished reconstructions. All Chapter 17 figures now have reconstruction or recovery
+packages, but only lighting is verified. Next: Figure 16-1 literacy, continuing OWID
+archive recovery. Full-project data-use audit, portable dependency rebuilds, provider
 refresh adapters, unresolved-source recovery and final publication review are
 still pending. This checkpoint is not a completion claim.

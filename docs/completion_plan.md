@@ -326,7 +326,7 @@ ledger into the orchestrator repository.
 | 5. Scientific/visual gate | Direct evidence and visual review active | Original-PDF comparisons for new Figures 17-4 and 17-8 inspected at full resolution; explicit source-vintage distinctions preserved. No external reviewer approval claimed. |
 | 6. Unattended calibration | API track superseded by owner direction | Direct in-task research now proceeds without paid calibration or model API credentials. Historical lab tests remain useful infrastructure evidence, not a dependency for figure completion. |
 | 7. Existing incomplete figures | First consolidation-enabled repair | Figure 5-3 regained 49 early Sweden years from original GD010 table; exact count/overlap tests pass, both comparisons visually inspected. Remains partial pending independent review. |
-| 8. Untouched figures | Direct production active | 17-4 verified book period with revised extension; 17-8, 17-1 and 17-2 partial reconstructions; 17-7 targeted source recovery. 35 untouched figures remain. No paid reviewer dependency. |
+| 8. Untouched figures | Direct production active | All Chapter 17 figures now have a package: 17-4 verified, six partial, 17-7 targeted recovery. 32 untouched figures remain. No paid reviewer dependency. |
 | 9. Final recovery/review | Not started | Apply new evidence to deferred work and audit all released comparisons. |
 | 10. Release | Not started | Fresh-checkout validation, gallery, PDF, release manifest, and completion accounting. |
 
@@ -373,3 +373,12 @@ explicit historical definition caveat. Current library: 394 retained files,
 60 comparison pages; new pages 51-54 rendered and inspected. Next: remaining
 Chapter 17 source families, then continue the untouched queue and deferred
 recovery. Legacy data-use audit and portable refresh layer remain pending.
+
+2026-09-09 necessities/leisure/appliance checkpoint: 17-5, 17-6 and 17-3 are
+partial reconstructions with original numeric evidence, not visual approximations
+of missing values. 17-6 replication cells reproduce the original published means;
+17-3 has a documented missing housework trajectory and separated stove definitions.
+Current library: 446 retained files, 88 clean tables, 39,811 rows. All 68 tests and
+canonical-state/library checks pass. Review PDF now 33 figures / 66 pages.
+32 untouched figures remain. Next: 16-1 literacy; legacy recovery and typed refresh
+library still pending. No paid model APIs or background executor processes used.
