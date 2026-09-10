@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_id": "05d7da1a1f2ede7076ec8d6e1057a5878572068777e8db59d6a14a82f0a845b6",
+  "snapshot_id": "fdcade1b349cdb358768cf81275e45c02e585419a2531ae8cb29b81a1233d93b",
   "figures": 75,
   "saved_files": 743,
   "clean_tables": 151,
@@ -610,8 +610,8 @@
     {
       "figure_id": "18-3",
       "title": "Suicide, England, Switzerland, and US, 1860-2014",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
+      "scientific_status": "needs_targeted_source_recovery",
+      "artifact_kind": "source_recovery",
       "saved_files": 0,
       "raw_files": 0,
       "clean_tables": 0,

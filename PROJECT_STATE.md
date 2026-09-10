@@ -42,8 +42,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | --- | ---: |
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
-| needs_targeted_source_recovery | 5 |
-| not_started | 3 |
+| needs_targeted_source_recovery | 6 |
+| not_started | 2 |
 | partial_match | 35 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
@@ -125,7 +125,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 17-8 | International tourism, 1995-2015 | partial_match | processed | incomplete |
 | 18-1 | Life satisfaction and income, 2006 | needs_targeted_source_recovery | blocked | incomplete |
 | 18-2 | Loneliness, US students, 1978-2011 | needs_targeted_source_recovery | blocked | incomplete |
-| 18-3 | Suicide, England, Switzerland, and US, 1860-2014 | not_started | not_started | incomplete |
+| 18-3 | Suicide, England, Switzerland, and US, 1860-2014 | needs_targeted_source_recovery | blocked | incomplete |
 | 18-4 | Happiness and excitement, US, 1972-2016 | not_started | not_started | incomplete |
 | 19-1 | Nuclear weapons, 1945-2015 | partial_match | blocked | not_reviewed |
 | 20-1 | Populist support across generations, 2016 | not_started | not_started | incomplete |
@@ -1594,6 +1594,20 @@ Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
 - Discrepancy log: [figures/18-2/discrepancy_logs/discrepancy_log.md](figures/18-2/discrepancy_logs/discrepancy_log.md)
 - Review checklist: [figures/18-2/review_checklist.md](figures/18-2/review_checklist.md)
 - Caption: [figures/18-2/captions/caption.txt](figures/18-2/captions/caption.txt)
+
+### Figure 18-3 - Suicide, England, Switzerland, and US, 1860-2014
+
+Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
+
+- Metadata: [figures/18-3/figure.json](figures/18-3/figure.json)
+- Original reference: [references/figures/figure_18_3.png](references/figures/figure_18_3.png)
+- Provenance: [figures/18-3/provenance/provenance.md](figures/18-3/provenance/provenance.md)
+- Source log: [figures/18-3/source_logs/source_log.md](figures/18-3/source_logs/source_log.md)
+- Search log: [figures/18-3/search_iterations/search_iterations.md](figures/18-3/search_iterations/search_iterations.md)
+- Anomaly review: [figures/18-3/anomaly_reviews/anomaly_review.md](figures/18-3/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/18-3/discrepancy_logs/discrepancy_log.md](figures/18-3/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/18-3/review_checklist.md](figures/18-3/review_checklist.md)
+- Caption: [figures/18-3/captions/caption.txt](figures/18-3/captions/caption.txt)
 
 ### Figure 19-1 - Nuclear weapons, 1945-2015
 

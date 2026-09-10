@@ -197,9 +197,10 @@ def test_local_loop_dry_run_can_iterate_multiple_tasks():
     config = load_config(ROOT / "orchestrator/examples/pinker_charts.config.example.yaml")
     with (ROOT / "data/figure_registry.csv").open(newline="") as handle:
         expected = [r["figure_id"] for r in csv.DictReader(handle) if r["current_status"] in {"", "not_started"}][:3]
-    decisions = run_loop(config, "local-loop", max_iterations=3)
-    assert len(decisions) == 3
+    iterations = min(3, len(expected))
+    decisions = run_loop(config, "local-loop", max_iterations=iterations)
+    assert len(decisions) == iterations
     task_ids = [decision.task.id for decision in decisions if decision.task]
-    assert len(set(task_ids)) == 3
+    assert len(set(task_ids)) == iterations
     assert task_ids == expected
     assert all(decision.action == "executed" for decision in decisions)

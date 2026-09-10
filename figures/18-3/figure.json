@@ -6,50 +6,50 @@
   "title": "Suicide, England, Switzerland, and US, 1860-2014",
   "page": "",
   "year_range": "1860-2014",
-  "source_type_guess": "health_demographic_dataset",
-  "priority": "backlog",
+  "source_type_guess": "historical_mortality_dataset",
+  "priority": "high",
   "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "scientific_status": "needs_targeted_source_recovery",
+  "execution_status": "blocked",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "source_recovery",
+  "next_action": "Recover the author/ONS England-Wales series and the historical Swiss table, then version and harmonize the WHO/OECD and CDC segments.",
+  "notes": "Exact source families and date breaks are resolved. Complete numeric inputs for the England/Wales and early Swiss lines were not recovered. No incompatible splice or plotted-value digitization was used.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: CDC, Carter et al. 2000, table Abg50. United States, 1999-2014: CDC 2015.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+    "basis": "source chain resolved across five cited source components; complete definitionally aligned numeric table not recovered",
+    "source_chain": [
+      "Pinker Figure 18-3",
+      "Thomas and Gunnell (2010), Figure 1",
+      "Ajdacic-Gross et al. (2006), Figure 1",
+      "WHO Mortality Database / OECD 2015b",
+      "CDC historical tables / Carter et al. (2000) / CDC 2015"
+    ],
+    "blocker": "The England/Wales series was author-supplied and pre-1911 records were transcribed from paper; the early Swiss series is available through the cited paper rather than a recovered table. A complete reconstruction requires targeted author/archive access."
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
-    "issues": []
+    "issues": [
+      "No complete reconstructed data are available",
+      "No book-period comparison can be generated",
+      "No extension can be evaluated"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
-  },
-  "artifacts": {
-    "metadata": {
-      "path": "figures/18-3/figure.json",
-      "self": true
-    },
-    "original_reference": {
-      "path": "references/figures/figure_18_3.png",
-      "sha256": "bbce52a58c68a9a19ce111c28ff43026e65c7cb3ff320ac031f882943e229d90"
-    }
+    "status": "not_attempted",
+    "notes": "England/Wales was explicitly not extended in the source note because current records are not commensurable. Do not add extensions until each country source boundary is documented."
   },
   "research": {
     "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "claim_summary": "Suicide rates per 100,000 people varied substantially across England/Wales, Switzerland, and the United States over the historical periods shown.",
+    "original_dataset": "Mixed historical mortality sources: ONS/Thomas-Gunnell, Ajdacic-Gross et al., WHO/OECD, and CDC/Carter et al.",
+    "dataset_url": "https://www.cdc.gov/nchs/nvss/mortality_historical_data.htm",
+    "archive_url": "https://doi.org/10.1093/ije/dyq094",
+    "download_date": "2026-09-10",
+    "confidence_score": "high for source chain; low for complete numeric recovery"
   },
   "reference": {
     "figure_id": "18-3",
@@ -79,7 +79,45 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 18-3: Suicide, England, Switzerland, and US, 1860-2014",
     "source_note_ocr": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. The series has not been extended because the data are not commensurable with current records. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: Centers for Disease Control, Carter et al. 2000, table Abg50. United States, 1999-2014: Centers for Disease Control 2015.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "machine_extracted_and_source_reviewed",
+    "visual_review": "original_reference_inspected_no_reconstruction"
+  },
+  "artifacts": {
+    "metadata": {
+      "path": "figures/18-3/figure.json",
+      "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_18_3.png",
+      "sha256": "bbce52a58c68a9a19ce111c28ff43026e65c7cb3ff320ac031f882943e229d90"
+    },
+    "provenance": {
+      "path": "figures/18-3/provenance/provenance.md",
+      "sha256": "0304ed9f985c69ccfeeac1216ee9856c127005f08c34f179d48a1831539c3ded"
+    },
+    "source_log": {
+      "path": "figures/18-3/source_logs/source_log.md",
+      "sha256": "c44a5544ac06e2bfb95245dee0271d14667e16aaa0a18d98db920bbf8043dd53"
+    },
+    "search_log": {
+      "path": "figures/18-3/search_iterations/search_iterations.md",
+      "sha256": "51e2ce189839b97267888bb3c8854c7600dd54af384b7d196da3620295dddc7a"
+    },
+    "anomaly_review": {
+      "path": "figures/18-3/anomaly_reviews/anomaly_review.md",
+      "sha256": "05ee78d4a44627fccccbd94b0deae0a03dd66b9bacf36e248beb79c1b0f501cf"
+    },
+    "discrepancy_log": {
+      "path": "figures/18-3/discrepancy_logs/discrepancy_log.md",
+      "sha256": "fe6867de523bf6d0402e5c0c5eabd8a96e7af70ac7c335fbc507b396d71d58ba"
+    },
+    "review_checklist": {
+      "path": "figures/18-3/review_checklist.md",
+      "sha256": "f40b1860f3077cb0e134d5b487494536671b67a3edeb4e64fd8ea099bb671314"
+    },
+    "caption": {
+      "path": "figures/18-3/captions/caption.txt",
+      "sha256": "26120ef194a174124eb0465ba8abee713f575ef712ca8505fa2cec4bf3af016d"
+    }
   }
 }
