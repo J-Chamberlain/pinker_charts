@@ -43,11 +43,11 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 17 |
+| not_started | 16 |
 | partial_match | 30 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
-| updated_equivalent | 7 |
+| updated_equivalent | 8 |
 | verified_reproduction | 12 |
 
 ## Figure Queue
@@ -91,7 +91,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 12-3 | Motor vehicle accident deaths, US, 1921-2015 | source_chain_recovered | processed | incomplete |
 | 12-4 | Pedestrian deaths, US, 1927-2015 | source_chain_recovered | processed | incomplete |
 | 12-5 | Plane crash deaths, 1970-2015 | partial_match | blocked | not_reviewed |
-| 12-6 | Deaths from falls, fire, drowning, and poison, US, 1903-2014 | not_started | not_started | incomplete |
+| 12-6 | Deaths from falls, fire, drowning, and poison, US, 1903-2014 | updated_equivalent | processed | not_reviewed |
 | 12-7 | Occupational accident deaths, US, 1913-2015 | not_started | not_started | incomplete |
 | 12-8 | Natural disaster deaths, 1900-2015 | updated_equivalent | processed | not_reviewed |
 | 12-9 | Lightning strike deaths, US, 1900-2015 | verified_reproduction | processed | not_reviewed |
@@ -819,6 +819,27 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Discrepancy log: [figures/12-5/discrepancy_logs/discrepancy_log.md](figures/12-5/discrepancy_logs/discrepancy_log.md)
 - Legacy metadata: [figures/12-5/metadata/metadata.json](figures/12-5/metadata/metadata.json)
 - Metadata: [figures/12-5/figure.json](figures/12-5/figure.json)
+
+### Figure 12-6 - Deaths from falls, fire, drowning, and poison, US, 1903-2014
+
+Status: `updated_equivalent`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/12-6/figure.json](figures/12-6/figure.json)
+- Original reference: [references/figures/figure_12_6.png](references/figures/figure_12_6.png)
+- Book period reconstruction: [figures/12-6/plots/figure_12_6_book_period.png](figures/12-6/plots/figure_12_6_book_period.png)
+- Extended reconstruction: [figures/12-6/plots/figure_12_6_extended.png](figures/12-6/plots/figure_12_6_extended.png)
+- Book period clean: [figures/12-6/data/clean/figure_12_6_book_period.csv](figures/12-6/data/clean/figure_12_6_book_period.csv)
+- Successor clean: [figures/12-6/data/clean/figure_12_6_successor.csv](figures/12-6/data/clean/figure_12_6_successor.csv)
+- Book period comparison: [figures/12-6/plots/comparisons/figure_12_6_book_period_review.png](figures/12-6/plots/comparisons/figure_12_6_book_period_review.png)
+- Extended comparison: [figures/12-6/plots/comparisons/figure_12_6_extended_review.png](figures/12-6/plots/comparisons/figure_12_6_extended_review.png)
+- Caption: [figures/12-6/captions/caption.txt](figures/12-6/captions/caption.txt)
+- Provenance: [figures/12-6/provenance/provenance.md](figures/12-6/provenance/provenance.md)
+- Source log: [figures/12-6/source_logs/source_log.md](figures/12-6/source_logs/source_log.md)
+- Anomaly review: [figures/12-6/anomaly_reviews/anomaly_review.md](figures/12-6/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/12-6/discrepancy_logs/discrepancy_log.md](figures/12-6/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/12-6/review_checklist.md](figures/12-6/review_checklist.md)
+- Lineage: [figures/12-6/lineage/lineage.json](figures/12-6/lineage/lineage.json)
+- Reconstruction script: [scripts/reconstruct_12_6.py](scripts/reconstruct_12_6.py)
 
 ### Figure 12-8 - Natural disaster deaths, 1900-2015
 

@@ -1,36 +1,46 @@
 {
-  "schema_version": 1,
   "figure_id": "12-6",
-  "book": "Enlightenment Now",
-  "chapter": "12",
   "title": "Deaths from falls, fire, drowning, and poison, US, 1903-2014",
-  "page": "",
-  "year_range": "1903-2014",
-  "source_type_guess": "health_demographic_dataset",
-  "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
-  "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+  "scientific_status": "updated_equivalent",
+  "artifact_kind": "reconstruction",
+  "publication_status": "not_reviewed",
+  "execution_status": "processed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover and compare the exact NSC 2016 workbook before considering verified reproduction.",
+  "notes": "Strong same-institution category and trajectory match; exact 2016 binary not recovered.",
+  "extension": {
+    "status": "same_institution_successor",
+    "label": "NSC successor 2015-2024"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
-  },
-  "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "inspected",
+    "reference_basis": "original",
+    "issues": [
+      "source vintage",
+      "classification breaks"
+    ],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_12_6.png",
+        "sha256": "853eb57eba1fba1bfdc436280c56dc1cdcf70211e1cfdb4f41dbca61fcf220b4"
+      },
+      {
+        "path": "figures/12-6/plots/figure_12_6_book_period.png",
+        "sha256": "4a2a2b2348c7a19215edd0927fc5f1f75c5848407ba14f5a4fa47ec409ca7f56"
+      },
+      {
+        "path": "figures/12-6/plots/figure_12_6_extended.png",
+        "sha256": "c8c9cc390a5a5e540334764f5906dbffa2ccc85087b6bd33b27becfac87b8ce8"
+      },
+      {
+        "path": "figures/12-6/plots/comparisons/figure_12_6_book_period_review.png",
+        "sha256": "f91a0caf3c7f1f89bfd49b11910722a863896ef883f0bd7e1f574bad5cfc118d"
+      },
+      {
+        "path": "figures/12-6/plots/comparisons/figure_12_6_extended_review.png",
+        "sha256": "54fbea66449f42966c63662fce4998ddfd89eaa420bc7205d6c95249f6f66da7"
+      }
+    ]
   },
   "artifacts": {
     "metadata": {
@@ -40,46 +50,62 @@
     "original_reference": {
       "path": "references/figures/figure_12_6.png",
       "sha256": "853eb57eba1fba1bfdc436280c56dc1cdcf70211e1cfdb4f41dbca61fcf220b4"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/12-6/plots/figure_12_6_book_period.png",
+      "sha256": "4a2a2b2348c7a19215edd0927fc5f1f75c5848407ba14f5a4fa47ec409ca7f56"
+    },
+    "extended_reconstruction": {
+      "path": "figures/12-6/plots/figure_12_6_extended.png",
+      "sha256": "c8c9cc390a5a5e540334764f5906dbffa2ccc85087b6bd33b27becfac87b8ce8"
+    },
+    "book_period_clean": {
+      "path": "figures/12-6/data/clean/figure_12_6_book_period.csv",
+      "sha256": "fe62146281a2b61d1bc2410d81502a28526474dab2469244f4bdb80808f21d17"
+    },
+    "successor_clean": {
+      "path": "figures/12-6/data/clean/figure_12_6_successor.csv",
+      "sha256": "7d81ed5e7c95b092e066796e695ac4b375904e093071d10f1894f794d09f28b2"
+    },
+    "book_period_comparison": {
+      "path": "figures/12-6/plots/comparisons/figure_12_6_book_period_review.png",
+      "sha256": "f91a0caf3c7f1f89bfd49b11910722a863896ef883f0bd7e1f574bad5cfc118d"
+    },
+    "extended_comparison": {
+      "path": "figures/12-6/plots/comparisons/figure_12_6_extended_review.png",
+      "sha256": "54fbea66449f42966c63662fce4998ddfd89eaa420bc7205d6c95249f6f66da7"
+    },
+    "caption": {
+      "path": "figures/12-6/captions/caption.txt",
+      "sha256": "f1a06d8b67a94e1f7092af29112a84fd1cf11bee54c4c64a97c0fa4d71a66ffe"
+    },
+    "provenance": {
+      "path": "figures/12-6/provenance/provenance.md",
+      "sha256": "b5b95578b4b3cd45c1b42fedbd24feacabad2d981e534869937abeb995d0eb5f"
+    },
+    "source_log": {
+      "path": "figures/12-6/source_logs/source_log.md",
+      "sha256": "968f2da15167504f925f664c3462319e660570e5971fe56816d3c37fdda0221d"
+    },
+    "anomaly_review": {
+      "path": "figures/12-6/anomaly_reviews/anomaly_review.md",
+      "sha256": "bd5e1bd5cfa269ea7fda715335ff5362835995f68a249caab78088f9097f8ccc"
+    },
+    "discrepancy_log": {
+      "path": "figures/12-6/discrepancy_logs/discrepancy_log.md",
+      "sha256": "71c542bf03e7efbb392f3dd1a7d3ccd2676740deaa7cc9dd1e9fa0af57156ad6"
+    },
+    "review_checklist": {
+      "path": "figures/12-6/review_checklist.md",
+      "sha256": "be01a0dd265f0b8807b380c8bfaefc32f82b2fb1608b0c9fc58d5efff40e7a15"
+    },
+    "lineage": {
+      "path": "figures/12-6/lineage/lineage.json",
+      "sha256": "cd05b9a896044d848fbfdb464b8b2fc1cdba9a12db239fa8ca335cb20e0f5d17"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_12_6.py",
+      "sha256": "028e50601c61a554174759b64dced02d5b019288046853ff954d753bcc7f7ba8"
     }
-  },
-  "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
-  },
-  "reference": {
-    "figure_id": "12-6",
-    "registry_title": "Deaths from falls, fire, drowning, and poison, US, 1903-2014",
-    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
-    "pdf_page": 20,
-    "panel": 2,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      154,
-      1231,
-      1367,
-      2199
-    ],
-    "crop_bounds_pdf_points": [
-      42.713,
-      341.603,
-      379.149,
-      610.222
-    ],
-    "path": "references/figures/figure_12_6.png",
-    "sha256": "853eb57eba1fba1bfdc436280c56dc1cdcf70211e1cfdb4f41dbca61fcf220b4",
-    "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 12-6: Deaths from falls, fire, drowning, and poison, US, 1903-2014",
-    "source_note_ocr": "National Safety Council 2016. Data for Fire, Drowning, and Poison (solid or liquid) are aggre- gated over 1903-1998 and 1999-2014 datasets. For 1999-2014, data for Poison (solid or liquid) include poisonings by gas or vapor. Data for Falls extend only to 1992 because of reporting artifacts in subse- quent years (see note 50 for details).",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
   }
 }

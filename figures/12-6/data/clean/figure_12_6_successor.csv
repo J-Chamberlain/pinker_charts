@@ -1,0 +1,41 @@
+year,series,rate,source_period
+2015,Drowning,1.1,NSC current rate table 1999-2024
+2016,Drowning,1.2,NSC current rate table 1999-2024
+2017,Drowning,1.1,NSC current rate table 1999-2024
+2018,Drowning,1.1,NSC current rate table 1999-2024
+2019,Drowning,1.1,NSC current rate table 1999-2024
+2020,Drowning,1.3,NSC current rate table 1999-2024
+2021,Drowning,1.3,NSC current rate table 1999-2024
+2022,Drowning,1.25,NSC current rate table 1999-2024
+2023,Drowning,1.2,NSC current rate table 1999-2024
+2024,Drowning,1.2,NSC current rate table 1999-2024
+2015,Falls,10.4,NSC current rate table 1999-2024
+2016,Falls,10.7,NSC current rate table 1999-2024
+2017,Falls,11.2,NSC current rate table 1999-2024
+2018,Falls,11.4,NSC current rate table 1999-2024
+2019,Falls,12.0,NSC current rate table 1999-2024
+2020,Falls,12.7,NSC current rate table 1999-2024
+2021,Falls,13.5,NSC current rate table 1999-2024
+2022,Falls,14.0,NSC current rate table 1999-2024
+2023,Falls,14.0,NSC current rate table 1999-2024
+2024,Falls,14.2,NSC current rate table 1999-2024
+2015,Fire,0.8,NSC current rate table 1999-2024
+2016,Fire,0.8,NSC current rate table 1999-2024
+2017,Fire,0.9,NSC current rate table 1999-2024
+2018,Fire,0.9,NSC current rate table 1999-2024
+2019,Fire,0.8,NSC current rate table 1999-2024
+2020,Fire,0.9,NSC current rate table 1999-2024
+2021,Fire,1.0,NSC current rate table 1999-2024
+2022,Fire,1.0,NSC current rate table 1999-2024
+2023,Fire,1.0,NSC current rate table 1999-2024
+2024,Fire,0.9,NSC current rate table 1999-2024
+2015,Poison (solid or liquid),14.8,NSC current rate table 1999-2024
+2016,Poison (solid or liquid),18.1,NSC current rate table 1999-2024
+2017,Poison (solid or liquid),19.9,NSC current rate table 1999-2024
+2018,Poison (solid or liquid),19.1,NSC current rate table 1999-2024
+2019,Poison (solid or liquid),20.0,NSC current rate table 1999-2024
+2020,Poison (solid or liquid),26.4,NSC current rate table 1999-2024
+2021,Poison (solid or liquid),30.7,NSC current rate table 1999-2024
+2022,Poison (solid or liquid),30.89,NSC current rate table 1999-2024
+2023,Poison (solid or liquid),29.9,NSC current rate table 1999-2024
+2024,Poison (solid or liquid),22.3,NSC current rate table 1999-2024

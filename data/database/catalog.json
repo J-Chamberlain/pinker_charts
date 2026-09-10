@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "6d983d474809a72d1d416ae314c83742bdf26d43badfcf0d8b961d4243fa898f",
+  "snapshot_id": "3fbd874f422a6f4da171af0b2333d4e3b754410a7580da6d9309abb068ba88d0",
   "figures": 75,
-  "saved_files": 620,
-  "clean_tables": 131,
-  "clean_rows": 59483,
+  "saved_files": 623,
+  "clean_tables": 133,
+  "clean_rows": 59991,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -202,14 +202,14 @@
     {
       "figure_id": "12-6",
       "title": "Deaths from falls, fire, drowning, and poison, US, 1903-2014",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "updated_equivalent",
+      "artifact_kind": "reconstruction",
+      "saved_files": 3,
+      "raw_files": 1,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 508,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "12-7",
