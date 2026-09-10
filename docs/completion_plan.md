@@ -393,3 +393,12 @@ forecast. All six new PDF pages (51-56) rendered and visually inspected.
 Current library: 493 retained files, 99 clean tables, 41,072 rows. All 71 tests
 pass. Review PDF: 36 figures / 72 pages. Next: 16-4 female literacy; 29 untouched
 figures and the final recovery, portability, refresh and publication gates remain.
+
+2026-09-09 second education checkpoint: 16-4, 16-5 and 16-6 add three partial
+reconstruction packages with real original-reference comparisons. Missing
+female-literacy series and the HIHD2015 update remain explicit source gaps;
+IQ sample weights remain unaudited. New PDF pages57-62 actually rendered and
+inspected, not assumed correct. Review PDF:39 figures/78pages. Library:521
+retained files,106 clean tables,41,258 rows. All74 tests and canonical/data
+checks pass.26 untouched figures remain. Next:14-1 democracy/autocracy,
+then continue the queue and return to targeted recovery and the data-use audit.

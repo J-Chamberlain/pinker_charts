@@ -1,5 +1,10 @@
 # Completion Execution Checkpoint: 2026-09-09
 
+Historical checkpoint, superseded by [direct production](direct_production_2026_09_09.md)
+and the completion-plan ledger. API orchestration/calibration is no longer on
+the execution path, per the owner's later direction. Counts below describe the
+initial consolidation checkpoint, not current inventory.
+
 This is a progress report, not a completion claim or publication approval.
 The [approved completion plan](../docs/completion_plan.md) remains authoritative.
 
