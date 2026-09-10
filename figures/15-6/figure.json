@@ -4,82 +4,84 @@
   "book": "Enlightenment Now",
   "chapter": "15",
   "title": "Liberal values across time and generations, developed countries, 1980-2005",
-  "page": "",
   "year_range": "1980-2005",
-  "source_type_guess": "unknown",
-  "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "scientific_status": "needs_targeted_source_recovery",
+  "execution_status": "blocked",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "artifact_kind": "source_recovery",
+  "lifecycle_stage": "source_recovery",
+  "next_action": "Obtain the Welzel integrated WVS/EVS respondent file or the cited Welzel replication file, then reproduce the emancipative-values cohort averages for the named developed countries.",
+  "notes": "Original reference and exact book source note are available. The WVS public algorithm and dataset catalogue were located, but the required historical integrated cohort-level data were not obtained in this run. Do not digitize the printed curves.",
+  "book_citation": "Welzel 2013, fig. 4.1. World Values Survey data are from Australia, Canada, France, West Germany, Italy, Japan, the Netherlands, Norway, Sweden, the United Kingdom, and the United States, each country weighted equally.",
+  "research": {
+    "book_page": "",
+    "claim_summary": "The 40-50-year-old cohort tested in 2005 has a higher emancipative-values index than the comparable cohort tested in 1980; the figure plots the cohort trajectories by birth year.",
+    "original_dataset": "Integrated WVS/EVS respondent data and Welzel emancipative-values index construction; cited replication path includes Welzel 2013 Freedom Rising materials.",
+    "dataset_url": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=welzelidx",
+    "archive_url": "https://search.gesis.org/research_data/ZA7470?doi=10.4232/1.12407",
+    "download_date": "2026-09-10",
+    "confidence_score": "medium for source chain; low for reconstruction"
+  },
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+    "basis": "source chain resolved but target data not recovered",
+    "source_chain": [
+      "Pinker figure source note",
+      "Welzel 2013, Freedom Rising, figure 4.1",
+      "World Values Survey / EVS-WVS integrated survey data",
+      "Welzel emancipative-values index algorithm"
+    ],
+    "blocker": "The accessible WVS mirror requires survey-data licensing/registration and the public Welzel replication catalogue was not machine-downloadable in this run."
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
-    "issues": []
+    "issues": [
+      "No legitimate reconstructed series exists yet",
+      "No book-period comparison can be generated",
+      "No comparable post-publication extension identified"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_attempted",
+    "notes": "The source is a historical survey index and no successor extension should be added until the book-period series is recovered."
   },
   "artifacts": {
-    "metadata": {
-      "path": "figures/15-6/figure.json",
-      "self": true
-    },
     "original_reference": {
       "path": "references/figures/figure_15_6.png",
       "sha256": "cdda14a30725bc20ec7cf0b81d23d9503a7f90bc166b1f98c8c34909f69510fe"
+    },
+    "provenance": {
+      "path": "figures/15-6/provenance/provenance.md",
+      "sha256": "370171cc1d21ff022102d072304d04e67bbd5152267c7cb8f7b24d3ac7956dd6"
+    },
+    "source_log": {
+      "path": "figures/15-6/source_logs/source_log.md",
+      "sha256": "735b360943700941aff8d49bb8b00324e898d43b6899479a5f477bbcfb65a426"
+    },
+    "search_log": {
+      "path": "figures/15-6/search_iterations/search_iterations.md",
+      "sha256": "44b894baab891cf3bae58f5e38917c19d1da81007fc8a12231038afa28ebf2df"
+    },
+    "anomaly_review": {
+      "path": "figures/15-6/anomaly_reviews/anomaly_review.md",
+      "sha256": "78223bddc768a474cdd42b06fdaa2f37e6b5362efbdebbe1246eba77a1dc5c3c"
+    },
+    "discrepancy_log": {
+      "path": "figures/15-6/discrepancy_logs/discrepancy_log.md",
+      "sha256": "fd88e6ae7aced68b2e6f0f9de9befc7c30393cdf97510cff6704cfbcfb7087f6"
+    },
+    "review_checklist": {
+      "path": "figures/15-6/review_checklist.md",
+      "sha256": "c453a9d07b67882096cb0be786e4fd87261d636e2168a10c0909724f726c97a1"
+    },
+    "caption": {
+      "path": "figures/15-6/captions/caption.txt",
+      "sha256": "8e4acd6f72751ffb7214011470f9f3997ead9de3bfc9e85f128cf6b7bbc81468"
+    },
+    "metadata": {
+      "path": "figures/15-6/figure.json",
+      "self": true
     }
-  },
-  "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
-  },
-  "reference": {
-    "figure_id": "15-6",
-    "registry_title": "Liberal values across time and generations, developed countries, 1980-2005",
-    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
-    "pdf_page": 27,
-    "panel": 2,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      222,
-      1201,
-      1425,
-      2204
-    ],
-    "crop_bounds_pdf_points": [
-      61.574,
-      333.277,
-      395.236,
-      611.61
-    ],
-    "path": "references/figures/figure_15_6.png",
-    "sha256": "cdda14a30725bc20ec7cf0b81d23d9503a7f90bc166b1f98c8c34909f69510fe",
-    "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 15-6: Liberal values across time and generations, developed countries, 1980— 2005",
-    "source_note_ocr": "Welzel 2013, fig. 4.1. World Values Survey data are from Australia, Canada, France, West Ger- many, Italy, Japan, the Netherlands, Norway, Sweden, the United Kingdom, and the United States (each country weighted equally).",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
   }
 }

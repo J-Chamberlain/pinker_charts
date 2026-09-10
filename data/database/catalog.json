@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a883c04d49f242cfd5f2e4ec6bcf393a7140978565bd8f3501887e1232e08eb4",
+  "snapshot_id": "ee901c44af47399fb1ef3fb98047c927872e959e58da966208c94d29825464c5",
   "figures": 75,
   "saved_files": 729,
   "clean_tables": 147,
@@ -370,8 +370,8 @@
     {
       "figure_id": "15-6",
       "title": "Liberal values across time and generations, developed countries, 1980-2005",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
+      "scientific_status": "needs_targeted_source_recovery",
+      "artifact_kind": "source_recovery",
       "saved_files": 0,
       "raw_files": 0,
       "clean_tables": 0,
