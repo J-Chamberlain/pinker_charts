@@ -528,16 +528,16 @@
     "title": "Great power war, 1500-2015",
     "page": "",
     "year_range": "1500-2015",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "visual_review",
     "source_type_guess": "conflict_security_dataset",
     "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
-    "execution_status": "not_started",
+    "current_owner": "codex_direct",
+    "next_action": "Recover the original Levy and Thompson source table and a machine-readable 2000-2015/continuation release.",
+    "notes": "Archived Human Progress export recovers the 25-year aggregate trajectory; exact original table and successor data remain unresolved.",
+    "execution_status": "processed",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "11-2",

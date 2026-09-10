@@ -8,78 +8,144 @@
   "year_range": "1500-2015",
   "source_type_guess": "conflict_security_dataset",
   "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "current_owner": "codex_direct",
+  "scientific_status": "partial_match",
+  "execution_status": "processed",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover the original Levy and Thompson source table and a machine-readable 2000-2015/continuation release.",
+  "notes": "Archived Human Progress export recovers the 25-year aggregate trajectory; exact original table and successor data remain unresolved.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Levy & Thompson 2011, updated for the 21st century.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+    "basis": "Archived publication-layer source reproduces the aggregate trajectory, but exact source table and later machine-readable data are not proven."
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
+    "status": "inspected",
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_11_1.png",
+        "sha256": "b5c8708e6b8cf04468320b7214513fff58951a0d4e7532278316968e95acad58"
+      },
+      {
+        "path": "figures/11-1/plots/book_period/figure_11_1_book_period.png",
+        "sha256": "31e7ab1205e4d9b7e86664953575ee755dc6447b94f8930482310a2546c9b91e"
+      },
+      {
+        "path": "figures/11-1/plots/extended/figure_11_1_extended.png",
+        "sha256": "c45e042763318a866d8cd4428a348b5a0721f9bb7ee13f3a3e6c484794d349ab"
+      },
+      {
+        "path": "figures/11-1/plots/comparisons/figure_11_1_book_period_review.png",
+        "sha256": "0e4f4116c69e9799f15edab45753d02478071563354d06ac0a13ae13f5a829e8"
+      },
+      {
+        "path": "figures/11-1/plots/comparisons/figure_11_1_extended_review.png",
+        "sha256": "e377c1a6e12c11660552bdbd29c0c2197861029ad8999bbdb0905102a69c5db1"
+      }
+    ],
+    "issues": [
+      "Original membership block and arrow are not reproduced",
+      "2000-2015 and extension evidence are not exact downloadable source rows"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "comparable_successor",
+    "label": "Derived zero-war continuation, 2016-2025",
+    "notes": "Dashed continuation based on documented no-great-power-war evidence; no machine-readable successor export recovered."
   },
   "artifacts": {
     "metadata": {
       "path": "figures/11-1/figure.json",
+      "sha256": "1d124995ff8de4a3a70b3998325f49060879e80fa6a8c6f13d5521602473bdcf",
       "self": true
     },
     "original_reference": {
       "path": "references/figures/figure_11_1.png",
       "sha256": "b5c8708e6b8cf04468320b7214513fff58951a0d4e7532278316968e95acad58"
+    },
+    "provenance": {
+      "path": "figures/11-1/provenance/provenance.md",
+      "sha256": "422a671e548827c59e28027966c8a9aa817e79b2f2ffd5f4b5b0b64fd7bda5b6"
+    },
+    "caption": {
+      "path": "figures/11-1/captions/caption.txt",
+      "sha256": "d2c48b073852b372a1ed697686b2801f23406c833c86cda68cba9eb4ed1b2e6a"
+    },
+    "source_log": {
+      "path": "figures/11-1/source_logs/source_log.md",
+      "sha256": "4a9164eb286322108dcf68ee9e32ab68ec759dc24ee0c24d5ecb8a332911f0da"
+    },
+    "search_log": {
+      "path": "figures/11-1/search_iterations/search_iterations.md",
+      "sha256": "344d1efb15e8fab70b57caf304661f293842cfa262764d69bef75a4983299f91"
+    },
+    "anomaly_review": {
+      "path": "figures/11-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "565aa3e86a49ed07e6102b2cfe4b76242fb3a3e846e88944cb24a12620d1fbff"
+    },
+    "discrepancy_log": {
+      "path": "figures/11-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "9df31b64fd44429efaf4e5654c542bb16d0483ceb74670d51bb30d6038136a25"
+    },
+    "review_checklist": {
+      "path": "figures/11-1/review_checklist.md",
+      "sha256": "dcb0949038a11acffda06c2109134448ecb17d1d1e50ac647e72bc2389098422"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/11-1/plots/book_period/figure_11_1_book_period.png",
+      "sha256": "31e7ab1205e4d9b7e86664953575ee755dc6447b94f8930482310a2546c9b91e"
+    },
+    "extended_reconstruction": {
+      "path": "figures/11-1/plots/extended/figure_11_1_extended.png",
+      "sha256": "c45e042763318a866d8cd4428a348b5a0721f9bb7ee13f3a3e6c484794d349ab"
+    },
+    "book_period_clean": {
+      "path": "figures/11-1/data/clean/figure_11_1_book_period.csv",
+      "sha256": "2eea014db9745422959b5e8b7d05f0e68237a0cca316d5493683479b4817fad1"
+    },
+    "successor_clean": {
+      "path": "figures/11-1/data/clean/figure_11_1_successor.csv",
+      "sha256": "72df2f5ab4caa877d09e65b19dd9eda2a6f1668a905bcb7c0c2d87628f4df7b6"
+    },
+    "lineage": {
+      "path": "figures/11-1/lineage/lineage.json",
+      "sha256": "e39da69583fefbef42e4172aebfca64e5254345953cb7f8d85e627c36db40cdb"
+    },
+    "lineage_csv": {
+      "path": "figures/11-1/lineage/lineage.csv",
+      "sha256": "a0baa0b240640e34e1fa71ad1060797d81b606fbc2fab09ec92112820371f68b"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_11_1.py",
+      "sha256": "b61b806d4f9b450b66d1b59da7d0034f7309d374ccc3fb51a1d34c10a9811e21"
+    },
+    "book_period_comparison": {
+      "path": "figures/11-1/plots/comparisons/figure_11_1_book_period_review.png",
+      "sha256": "0e4f4116c69e9799f15edab45753d02478071563354d06ac0a13ae13f5a829e8"
+    },
+    "extended_comparison": {
+      "path": "figures/11-1/plots/comparisons/figure_11_1_extended_review.png",
+      "sha256": "e377c1a6e12c11660552bdbd29c0c2197861029ad8999bbdb0905102a69c5db1"
     }
   },
   "research": {
     "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "claim_summary": "The share of years in which great powers fought declined over the long run.",
+    "original_dataset": "Levy & Thompson 2011 publication-layer series",
+    "dataset_url": "https://web.archive.org/web/20201024032810id_/https://www.humanprogress.org/dataset/percentage-of-years-in-which-the-great-powers-fought-one-another/percentage-of-years-in-which-the-great-powers-fought-one-another-per-25-years-1513%E2%80%931988.csv",
+    "archive_url": "https://web.archive.org/web/20201024032810id_/https://www.humanprogress.org/dataset/percentage-of-years-in-which-the-great-powers-fought-one-another/",
+    "download_date": "2026-09-09",
+    "confidence_score": "0.70"
   },
   "reference": {
     "figure_id": "11-1",
-    "registry_title": "Great power war, 1500-2015",
-    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
-    "pdf_page": 16,
-    "panel": 2,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      131,
-      1288,
-      1382,
-      2204
-    ],
-    "crop_bounds_pdf_points": [
-      36.334,
-      357.42,
-      383.309,
-      611.61
-    ],
     "path": "references/figures/figure_11_1.png",
     "sha256": "b5c8708e6b8cf04468320b7214513fff58951a0d4e7532278316968e95acad58",
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 11-1: Great power war, 1500-2015",
     "source_note_ocr": "Levy & Thompson 2011, updated for the 21st century. Percentage of years the great powers fought each other in wars, aggregated over 25-year periods, except for 2000-2015. The arrow points to 1975-1999, the last quarter-century plotted in fig. 5-12 of Pinker 2011.",
-    "source_note_validation": "machine_extracted_pending_source_review",
     "visual_review": "pending_full_resolution_review"
   }
 }

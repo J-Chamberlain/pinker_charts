@@ -1,0 +1,7 @@
+# Figure 11-1 provenance
+
+Original PDF reference: `references/figures/figure_11_1.png`, inspected directly. The source note reads: `Levy & Thompson 2011, updated for the 21st century. Percentage of years the great powers fought each other in wars, aggregated over 25-year periods, except for 2000-2015.`
+
+The accepted numeric input is the archived Human Progress CSV retrieved from https://web.archive.org/web/20201024032810id_/https://www.humanprogress.org/dataset/percentage-of-years-in-which-the-great-powers-fought-one-another/. The page identifies the underlying source as Steven Pinker (2011), based on Levy and Thompson (2011), and exposes the downloadable CSV. Its annual values are linear interpolation between 25-year aggregate values; the script samples the 1513, 1538, ... 1988 midpoints, then appends the separately specified 2000-2015 no-war interval. The downloaded file is retained unchanged under `data/raw/`.
+
+A comparable post-2015 machine-readable export was not found. The extended plot uses a dashed zero continuation based on the documented absence of great-power war since 1953 and marks it as derived successor evidence. This is why the scientific status is `partial_match`, not `verified_reproduction`.

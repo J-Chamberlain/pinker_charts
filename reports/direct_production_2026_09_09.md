@@ -20,12 +20,14 @@ No model API calls, new agent branches, or main merges.
 | 16-4 Female literacy | partial_match | Original WDI country observations recovered; England and World remain missing. Revised extension is separate and clearly dashed after 2014. |
 | 16-5 IQ gains | partial_match | All six regional/World curves recovered from July 2015 OWID numerical data. Original supplement weights not independently verified; no comparable extension. |
 | 16-6 Global well-being | partial_match | Both original numerical tables recovered. HIHD stops in 2007; its 2015 update and finer annual detail remain missing. Methodologically different successors not spliced. |
+| 14-4 Executions, US | partial_match | Archived DPIC/Espy records and Census populations recovered; decade-average aggregation is inferred and small low-rate differences remain. Same-definition annual successor through 2025 is clearly separated. |
+| 11-1 Great power war | partial_match | Archived Human Progress export recovers the Levy/Thompson 25-year trajectory. The 1988 cell is blank, 2000-2015 is a separate documented interval, and the post-2015 zero continuation is derived evidence; exact original table remains targeted recovery. |
 
 ## Data Deliverable
 
 `data/database/pinker_data.sqlite` retains immutable snapshots, original clean
-cell values and row data. Current catalog: 521 retained files, 106 clean CSV
-tables, 41,258 rows. Counts include source-vintage overlap and diagnostics,
+cell values and row data. Current catalog: 591 retained files, 123 clean CSV
+tables, 58,997 rows. Counts include source-vintage overlap and diagnostics,
 not just unique observations. Raw files stay in Git; the database indexes them.
 New reconstructed figures declare exact raw -> clean -> script -> plot mappings
 in per-figure lineage JSON and CSV with file checksums. Legacy mappings still
@@ -40,7 +42,7 @@ variables preserved. Extension differences explained, not hidden. Lighting
 inset clipping corrected automatically. Neither new figure uses digitized
 chart values. This is direct self-review, not independent external approval.
 
-Review gallery and PDF now contain 39 real figure packages / 78 pages. Earlier
+Review gallery and PDF now contain 43 real figure packages / 86 pages. Earlier
 work hours/retirement and utilities/lighting/necessities/leisure pages were
 inspected at their preceding checkpoints. Pages 51-56 contain literacy,
 basic education and schooling. New pages 57-62 contain female literacy, IQ gains
@@ -53,7 +55,7 @@ gallery. Other legacy packages retain their earlier unresolved QA findings.
 
 ## Validation
 
-74 project tests pass using `.venv/bin/pytest -q`. A test initially compared a
+82 project tests pass using `.venv/bin/pytest -q`. A test initially compared a
 rounded display value to the exact retained successor value; corrected the
 test to 2.1665275, without changing any source data. Added root pytest path
 configuration so direct pytest and python -m pytest resolve scripts equally.
@@ -62,10 +64,10 @@ checks pass. No paid API needed. Source download failures remain in logs.
 
 ## Remaining Work
 
-26 figures have not started. Source-only packages and legacy partials are not
+21 figures have not started. Source-only packages and legacy partials are not
 finished reconstructions. All Chapter 17 figures now have reconstruction or recovery
 packages, but only lighting is verified. Literacy/basic education/schooling add
 three real comparison packages; the global PDF now includes these.
-Next: Figure 14-1 democracy/autocracy. Full-project data-use audit, portable dependency rebuilds, provider
-refresh adapters, unresolved-source recovery and final publication review are
+Next: continue the untouched queue after Figures 14-4 and 11-1. Full-project
+data-use audit, portable dependency rebuilds, provider refresh adapters, unresolved-source recovery and final publication review are
 still pending. This checkpoint is not a completion claim.

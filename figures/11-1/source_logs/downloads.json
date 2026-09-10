@@ -1,0 +1,12 @@
+[
+  {
+    "path": "figures/11-1/data/raw/humanprogress_20201024.csv",
+    "url": "https://web.archive.org/web/20201024032810id_/https://www.humanprogress.org/dataset/percentage-of-years-in-which-the-great-powers-fought-one-another/percentage-of-years-in-which-the-great-powers-fought-one-another-per-25-years-1513%E2%80%931988.csv",
+    "archive_url": "https://web.archive.org/web/20201024032810id_/https://www.humanprogress.org/dataset/percentage-of-years-in-which-the-great-powers-fought-one-another/",
+    "retrieved": "2026-09-09",
+    "http_status": 200,
+    "sha256": "0f4bc753d075badc38405a4e421c2fcf8f7e44b9e20924e1eefb3ab5689d36a0",
+    "accepted_for": "25-year aggregate source points through 1963; source file retained unchanged",
+    "limitations": "The 1988 cell is blank; 2000-2015 and later continuation are documented derived intervals."
+  }
+]

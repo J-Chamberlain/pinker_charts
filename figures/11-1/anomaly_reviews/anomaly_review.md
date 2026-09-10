@@ -1,0 +1,3 @@
+# Figure 11-1 anomaly review
+
+The archived CSV's annual values interpolate between aggregate midpoints. The script does not mistake every annual interpolated value for an observed point. It selects the 20 midpoints 1513-1988 and treats 2000-2015 separately. The original figure's arrow to 1975-1999 and its membership explanation are not reproduced as data series. The extended zero segment is clearly dashed and labeled because it is derived successor evidence.

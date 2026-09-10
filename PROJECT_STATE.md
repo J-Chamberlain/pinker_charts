@@ -43,8 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 22 |
-| partial_match | 25 |
+| not_started | 21 |
+| partial_match | 26 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 7 |
@@ -83,7 +83,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 10-6 | Protected areas, 1990-2014 | verified_reproduction | processed | not_reviewed |
 | 10-7 | Carbon intensity (CO2 emissions per dollar of GDP), 1820-2014 | verified_reproduction | processed | not_reviewed |
 | 10-8 | CO2 emissions, 1960-2015 | verified_reproduction | processed | not_reviewed |
-| 11-1 | Great power war, 1500-2015 | not_started | not_started | incomplete |
+| 11-1 | Great power war, 1500-2015 | partial_match | processed | incomplete |
 | 11-2 | Battle deaths, 1946-2016 | not_started | not_started | incomplete |
 | 11-3 | Genocide deaths, 1956-2016 | not_started | not_started | incomplete |
 | 12-1 | Homicide deaths, Western Europe, US, and Mexico, 1300-2015 | not_started | not_started | incomplete |
@@ -659,6 +659,29 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 - Discrepancy log: [figures/10-8/discrepancy_logs/discrepancy_log.md](figures/10-8/discrepancy_logs/discrepancy_log.md)
 - Legacy metadata: [figures/10-8/metadata/metadata.json](figures/10-8/metadata/metadata.json)
 - Metadata: [figures/10-8/figure.json](figures/10-8/figure.json)
+
+### Figure 11-1 - Great power war, 1500-2015
+
+Status: `partial_match`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/11-1/figure.json](figures/11-1/figure.json)
+- Original reference: [references/figures/figure_11_1.png](references/figures/figure_11_1.png)
+- Provenance: [figures/11-1/provenance/provenance.md](figures/11-1/provenance/provenance.md)
+- Caption: [figures/11-1/captions/caption.txt](figures/11-1/captions/caption.txt)
+- Source log: [figures/11-1/source_logs/source_log.md](figures/11-1/source_logs/source_log.md)
+- Search log: [figures/11-1/search_iterations/search_iterations.md](figures/11-1/search_iterations/search_iterations.md)
+- Anomaly review: [figures/11-1/anomaly_reviews/anomaly_review.md](figures/11-1/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/11-1/discrepancy_logs/discrepancy_log.md](figures/11-1/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/11-1/review_checklist.md](figures/11-1/review_checklist.md)
+- Book period reconstruction: [figures/11-1/plots/book_period/figure_11_1_book_period.png](figures/11-1/plots/book_period/figure_11_1_book_period.png)
+- Extended reconstruction: [figures/11-1/plots/extended/figure_11_1_extended.png](figures/11-1/plots/extended/figure_11_1_extended.png)
+- Book period clean: [figures/11-1/data/clean/figure_11_1_book_period.csv](figures/11-1/data/clean/figure_11_1_book_period.csv)
+- Successor clean: [figures/11-1/data/clean/figure_11_1_successor.csv](figures/11-1/data/clean/figure_11_1_successor.csv)
+- Lineage: [figures/11-1/lineage/lineage.json](figures/11-1/lineage/lineage.json)
+- Lineage csv: [figures/11-1/lineage/lineage.csv](figures/11-1/lineage/lineage.csv)
+- Reconstruction script: [scripts/reconstruct_11_1.py](scripts/reconstruct_11_1.py)
+- Book period comparison: [figures/11-1/plots/comparisons/figure_11_1_book_period_review.png](figures/11-1/plots/comparisons/figure_11_1_book_period_review.png)
+- Extended comparison: [figures/11-1/plots/comparisons/figure_11_1_extended_review.png](figures/11-1/plots/comparisons/figure_11_1_extended_review.png)
 
 ### Figure 12-3 - Motor vehicle accident deaths, US, 1921-2015
 

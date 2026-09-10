@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "figure_id": "11-1",
+  "book_citation": "Levy & Thompson 2011, updated for the 21st century; Human Progress archived export",
+  "script": "scripts/reconstruct_11_1.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/11-1/data/raw/humanprogress_20201024.csv"
+      ],
+      "selection": "wide CSV, 25-year steps 1513-1988 plus documented 2000-2015 interval",
+      "transformation": "sample aggregate midpoints; append separate no-war interval",
+      "clean": "figures/11-1/data/clean/figure_11_1_book_period.csv",
+      "plot": "figures/11-1/plots/book_period/figure_11_1_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": [
+        "figures/11-1/data/raw/humanprogress_20201024.csv"
+      ],
+      "selection": "no machine-readable successor export; source-chain no-war evidence",
+      "transformation": "retain as dashed derived zero continuation 2016-2025",
+      "clean": "figures/11-1/data/clean/figure_11_1_successor.csv",
+      "plot": "figures/11-1/plots/extended/figure_11_1_extended.png"
+    }
+  ]
+}

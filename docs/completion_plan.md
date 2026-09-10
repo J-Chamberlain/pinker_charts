@@ -402,3 +402,17 @@ inspected, not assumed correct. Review PDF:39 figures/78pages. Library:521
 retained files,106 clean tables,41,258 rows. All74 tests and canonical/data
 checks pass.26 untouched figures remain. Next:14-1 democracy/autocracy,
 then continue the queue and return to targeted recovery and the data-use audit.
+
+2026-09-10 direct-production checkpoint: Figure 14-4 was committed as a
+partial reconstruction with archived DPIC/Espy records, Census population
+sources, explicit inferred decade averaging, and a 2017-2025 annual successor.
+Figure 11-1 was then processed as a partial reconstruction from the archived
+Human Progress publication-layer CSV of the Levy and Thompson series. The
+recovered 25-year trajectory was visually inspected against the original PDF;
+the blank 1988 cell, separately described 2000-2015 interval, and derived
+zero-war continuation are disclosed rather than treated as exact source rows.
+The data library now catalogs 591 retained files, 123 clean tables, and 58,997
+clean rows. The visual baseline is 43 figures / 86 real comparison pages. All
+82 tests and canonical-state/data-library checks pass. Twenty-one figures remain
+untouched. Next: continue with the next public-source candidate, while retaining
+the exact Levy/Thompson table and successor export as targeted recovery work.
