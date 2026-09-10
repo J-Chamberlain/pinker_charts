@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "figure_id": "12-2",
+  "book_citation": "FBI UCR; ONS; Krug et al.; UN ECOSOC; UNODC",
+  "script": "scripts/reconstruct_12_2.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/12-2/data/raw/bjs_homicide_trends_1950_2005.pdf",
+        "figures/12-2/data/raw/owid_homicide_rate_unodc.csv"
+      ],
+      "selection": "US BJS table 1967-2005 plus public modern overlap; England/World public coverage",
+      "transformation": "text-extract BJS rates and combine with OWID/UNODC by series/year",
+      "clean": "figures/12-2/data/clean/figure_12_2_book_period.csv",
+      "plot": "figures/12-2/plots/figure_12_2_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": [
+        "figures/12-2/data/raw/owid_homicide_rate_unodc.csv"
+      ],
+      "selection": "US, England, and World 2016-2023",
+      "transformation": "retain source rates and render dashed",
+      "clean": "figures/12-2/data/clean/figure_12_2_successor.csv",
+      "plot": "figures/12-2/plots/figure_12_2_extended.png"
+    }
+  ]
+}

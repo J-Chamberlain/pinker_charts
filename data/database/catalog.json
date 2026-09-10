@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "18e7dae3585c48966eeb8213018f893832cad6bea884354b463fca41f83ceeb4",
+  "snapshot_id": "6d983d474809a72d1d416ae314c83742bdf26d43badfcf0d8b961d4243fa898f",
   "figures": 75,
-  "saved_files": 614,
-  "clean_tables": 129,
-  "clean_rows": 59371,
+  "saved_files": 620,
+  "clean_tables": 131,
+  "clean_rows": 59483,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -154,14 +154,14 @@
     {
       "figure_id": "12-2",
       "title": "Homicide deaths, 1967-2015",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 6,
+      "raw_files": 4,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 112,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "12-3",

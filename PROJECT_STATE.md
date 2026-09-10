@@ -43,8 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 18 |
-| partial_match | 29 |
+| not_started | 17 |
+| partial_match | 30 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 7 |
@@ -87,7 +87,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 11-2 | Battle deaths, 1946-2016 | partial_match | processed | incomplete |
 | 11-3 | Genocide deaths, 1956-2016 | partial_match | processed | not_reviewed |
 | 12-1 | Homicide deaths, Western Europe, US, and Mexico, 1300-2015 | partial_match | processed | not_reviewed |
-| 12-2 | Homicide deaths, 1967-2015 | not_started | not_started | incomplete |
+| 12-2 | Homicide deaths, 1967-2015 | partial_match | processed | not_reviewed |
 | 12-3 | Motor vehicle accident deaths, US, 1921-2015 | source_chain_recovered | processed | incomplete |
 | 12-4 | Pedestrian deaths, US, 1927-2015 | source_chain_recovered | processed | incomplete |
 | 12-5 | Plane crash deaths, 1970-2015 | partial_match | blocked | not_reviewed |
@@ -749,6 +749,27 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Reconstruction script: [scripts/reconstruct_12_1.py](scripts/reconstruct_12_1.py)
 - Book period comparison: [figures/12-1/plots/comparisons/figure_12_1_book_period_review.png](figures/12-1/plots/comparisons/figure_12_1_book_period_review.png)
 - Extended comparison: [figures/12-1/plots/comparisons/figure_12_1_extended_review.png](figures/12-1/plots/comparisons/figure_12_1_extended_review.png)
+
+### Figure 12-2 - Homicide deaths, 1967-2015
+
+Status: `partial_match`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/12-2/figure.json](figures/12-2/figure.json)
+- Original reference: [references/figures/figure_12_2.png](references/figures/figure_12_2.png)
+- Book period reconstruction: [figures/12-2/plots/figure_12_2_book_period.png](figures/12-2/plots/figure_12_2_book_period.png)
+- Extended reconstruction: [figures/12-2/plots/figure_12_2_extended.png](figures/12-2/plots/figure_12_2_extended.png)
+- Book period clean: [figures/12-2/data/clean/figure_12_2_book_period.csv](figures/12-2/data/clean/figure_12_2_book_period.csv)
+- Successor clean: [figures/12-2/data/clean/figure_12_2_successor.csv](figures/12-2/data/clean/figure_12_2_successor.csv)
+- Caption: [figures/12-2/captions/caption.txt](figures/12-2/captions/caption.txt)
+- Provenance: [figures/12-2/provenance/provenance.md](figures/12-2/provenance/provenance.md)
+- Source log: [figures/12-2/source_logs/source_log.md](figures/12-2/source_logs/source_log.md)
+- Anomaly review: [figures/12-2/anomaly_reviews/anomaly_review.md](figures/12-2/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/12-2/discrepancy_logs/discrepancy_log.md](figures/12-2/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/12-2/review_checklist.md](figures/12-2/review_checklist.md)
+- Lineage: [figures/12-2/lineage/lineage.json](figures/12-2/lineage/lineage.json)
+- Reconstruction script: [scripts/reconstruct_12_2.py](scripts/reconstruct_12_2.py)
+- Book period comparison: [figures/12-2/plots/comparisons/figure_12_2_book_period_review.png](figures/12-2/plots/comparisons/figure_12_2_book_period_review.png)
+- Extended comparison: [figures/12-2/plots/comparisons/figure_12_2_extended_review.png](figures/12-2/plots/comparisons/figure_12_2_extended_review.png)
 
 ### Figure 12-3 - Motor vehicle accident deaths, US, 1921-2015
 

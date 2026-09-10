@@ -1,36 +1,46 @@
 {
-  "schema_version": 1,
   "figure_id": "12-2",
-  "book": "Enlightenment Now",
-  "chapter": "12",
   "title": "Homicide deaths, 1967-2015",
-  "page": "",
-  "year_range": "1967-2015",
-  "source_type_guess": "health_demographic_dataset",
-  "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
-  "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+  "scientific_status": "partial_match",
+  "artifact_kind": "reconstruction",
+  "publication_status": "not_reviewed",
+  "execution_status": "processed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover original ONS/FBI vintages and reproduce the UN ECOSOC world conversion.",
+  "notes": "US public table recovered; England and World early coverage remain incomplete.",
+  "extension": {
+    "status": "comparable_successor",
+    "label": "OWID/UNODC successor"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
-  },
-  "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "inspected",
+    "reference_basis": "original",
+    "issues": [
+      "World and England early gaps",
+      "world transformation unresolved"
+    ],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_12_2.png",
+        "sha256": "64ef16dd2a9d01dabe4a8d8401cc542d88dc1f0904d6e065e40e7b3b501a21a3"
+      },
+      {
+        "path": "figures/12-2/plots/figure_12_2_book_period.png",
+        "sha256": "fb42d3af0e1393ecd240b9e81ce308cafd364c8f3052d6ac74b941ba2b4241eb"
+      },
+      {
+        "path": "figures/12-2/plots/figure_12_2_extended.png",
+        "sha256": "9b942566d4efba2b05bd853349353c9c973cc44543d05d39a0538399b38ba9bc"
+      },
+      {
+        "path": "figures/12-2/plots/comparisons/figure_12_2_book_period_review.png",
+        "sha256": "c166c5e89af65a1995d9409b6da679217ebdc9895d3d47d91164e398fd759d92"
+      },
+      {
+        "path": "figures/12-2/plots/comparisons/figure_12_2_extended_review.png",
+        "sha256": "2a9ea9928d2e636df8d3dd65008d7a0279d0fbff285e0b0e1c8f4ba7ce7ec6e1"
+      }
+    ]
   },
   "artifacts": {
     "metadata": {
@@ -40,46 +50,62 @@
     "original_reference": {
       "path": "references/figures/figure_12_2.png",
       "sha256": "64ef16dd2a9d01dabe4a8d8401cc542d88dc1f0904d6e065e40e7b3b501a21a3"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/12-2/plots/figure_12_2_book_period.png",
+      "sha256": "fb42d3af0e1393ecd240b9e81ce308cafd364c8f3052d6ac74b941ba2b4241eb"
+    },
+    "extended_reconstruction": {
+      "path": "figures/12-2/plots/figure_12_2_extended.png",
+      "sha256": "9b942566d4efba2b05bd853349353c9c973cc44543d05d39a0538399b38ba9bc"
+    },
+    "book_period_clean": {
+      "path": "figures/12-2/data/clean/figure_12_2_book_period.csv",
+      "sha256": "6705a5c0bf789cc6930990c7140ca95592a10403b98b7d503dd025046c7f4ac1"
+    },
+    "successor_clean": {
+      "path": "figures/12-2/data/clean/figure_12_2_successor.csv",
+      "sha256": "ea0a16e8c16aa29d7c8fe605fa1956609217e0c84ce85fce544fb65df3fe2222"
+    },
+    "caption": {
+      "path": "figures/12-2/captions/caption.txt",
+      "sha256": "d2ea0140ba575f24a115dc5a94c064992d61e138adf7dff0f21efbc082f28eca"
+    },
+    "provenance": {
+      "path": "figures/12-2/provenance/provenance.md",
+      "sha256": "11207799cd87ec4b87fd478ccf9e6e90dde72822f61587c75d1f815b9daf5393"
+    },
+    "source_log": {
+      "path": "figures/12-2/source_logs/source_log.md",
+      "sha256": "1895b5ad7545f357b7986ea2506a9651f292cdf945766186b349fb268943a9a7"
+    },
+    "anomaly_review": {
+      "path": "figures/12-2/anomaly_reviews/anomaly_review.md",
+      "sha256": "2d58dcdc16026907da550f482f63ad818e382e7e0e9a92f3d94386e8bdd7fe9c"
+    },
+    "discrepancy_log": {
+      "path": "figures/12-2/discrepancy_logs/discrepancy_log.md",
+      "sha256": "7fb1901e282ba604958ebb947dc6335ea168fd884ac159a23d9db098122788aa"
+    },
+    "review_checklist": {
+      "path": "figures/12-2/review_checklist.md",
+      "sha256": "1b63bf6ebbd36782d24f0ed49153b74710dca901f6c97b3738093525616e6e25"
+    },
+    "lineage": {
+      "path": "figures/12-2/lineage/lineage.json",
+      "sha256": "1451e907f6838c3f4c1e7a49323d1eb4ccb75269590adcce16732b14a04c7f87"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_12_2.py",
+      "sha256": "a299bc03a1c819f4884eb320affed4e9b626668198951ef4d9d1a28598d828e7"
+    },
+    "book_period_comparison": {
+      "path": "figures/12-2/plots/comparisons/figure_12_2_book_period_review.png",
+      "sha256": "c166c5e89af65a1995d9409b6da679217ebdc9895d3d47d91164e398fd759d92"
+    },
+    "extended_comparison": {
+      "path": "figures/12-2/plots/comparisons/figure_12_2_extended_review.png",
+      "sha256": "2a9ea9928d2e636df8d3dd65008d7a0279d0fbff285e0b0e1c8f4ba7ce7ec6e1"
     }
-  },
-  "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
-  },
-  "reference": {
-    "figure_id": "12-2",
-    "registry_title": "Homicide deaths, 1967-2015",
-    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
-    "pdf_page": 18,
-    "panel": 2,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      145,
-      1254,
-      1366,
-      2270
-    ],
-    "crop_bounds_pdf_points": [
-      40.217,
-      347.985,
-      378.872,
-      629.925
-    ],
-    "path": "references/figures/figure_12_2.png",
-    "sha256": "64ef16dd2a9d01dabe4a8d8401cc542d88dc1f0904d6e065e40e7b3b501a21a3",
-    "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 12-2: Homicide deaths, 1967-2015",
-    "source_note_ocr": "United States: FBI Uniform Crime Reports, https://ucr.fbi.gov/, and Federal Bureau of Investi- gation 2016. England (data include Wales): Office for National Statistics 2017. World, 2000: Krug et al. 2002. World, 2003-2011: United Nations Economic and Social Council 2014, fig. 1; the percentages were converted to homicide rates by setting the 2012 rate at 6.2, the estimate reported in United Nations Office on Drugs and Crime 2014, p. 12. The arrows point to the most recent years plotted in Pinker 2011 for the world (2004, fig. 3-9), US (2009, fig. 3-18), and England (2009, fig. 3-19).",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
   }
 }
