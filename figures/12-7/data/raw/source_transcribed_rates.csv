@@ -1,0 +1,29 @@
+year,rate_per_100k,rate_basis,source,source_url,notes
+1913,61.0,employment-based,BLS as quoted by CDC 1999,https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4822a1.htm,Published source text; not transcribed from Pinker plot
+1933,37.0,employment-based,National Safety Council as quoted by CDC 1999,https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4822a1.htm,Published source text; not transcribed from Pinker plot
+1970,18.0,employment-based,National Safety Council in BLS MLR chart,https://www.bls.gov/opub/mlr/2015/images/data/boone-fig5.stm,Published chart table; source family differs from Pinker source note
+1980,7.5,employment-based,CDC NIOSH 1999,https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4822a1.htm,Published source text; not transcribed from Pinker plot
+1993,5.2,employment-based,BLS CFOI revised chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2006.pdf,Published chart data transcribed because BLS PDF download was blocked
+1994,5.3,employment-based,BLS CFOI revised chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2006.pdf,Published chart data transcribed because BLS PDF download was blocked
+1995,4.9,employment-based,BLS CFOI revised chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2006.pdf,Published chart data transcribed because BLS PDF download was blocked
+1996,4.8,employment-based,BLS CFOI revised chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2006.pdf,Published chart data transcribed because BLS PDF download was blocked
+1997,4.7,employment-based,BLS CFOI revised chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2006.pdf,Published chart data transcribed because BLS PDF download was blocked
+1998,4.5,employment-based,BLS CFOI revised chart data,https://www.cdc.gov/nchs/data/hus/hus03.pdf,Published CDC table
+1999,4.5,employment-based,BLS CFOI revised chart data,https://www.cdc.gov/nchs/data/hus/hus03.pdf,Published CDC table
+2000,4.3,employment-based,BLS CFOI revised chart data,https://www.cdc.gov/nchs/data/hus/hus03.pdf,Published CDC table
+2001,4.3,employment-based,BLS CFOI revised chart data,https://www.cdc.gov/nchs/data/hus/hus03.pdf,Published CDC table excluding September 11 fatalities
+2002,4.0,employment-based,BLS CFOI revised chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2006.pdf,Published chart data transcribed because BLS PDF download was blocked
+2003,4.0,employment-based,BLS CFOI revised chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2006.pdf,Published chart data transcribed because BLS PDF download was blocked
+2004,4.1,employment-based,BLS CFOI revised chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2006.pdf,Published chart data transcribed because BLS PDF download was blocked
+2005,4.0,employment-based,BLS CFOI revised chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2006.pdf,Published chart data transcribed because BLS PDF download was blocked
+2006,3.99,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 4.2 multiplied by .95 as specified in the book
+2007,3.8,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 4.0 multiplied by .95 as specified in the book
+2008,3.515,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 3.7 multiplied by .95 as specified in the book
+2009,3.325,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 3.5 multiplied by .95 as specified in the book
+2010,3.42,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 3.6 multiplied by .95 as specified in the book
+2011,3.325,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 3.5 multiplied by .95 as specified in the book
+2012,3.23,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 3.4 multiplied by .95 as specified in the book
+2013,3.135,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 3.3 multiplied by .95 as specified in the book
+2014,3.23,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 3.4 multiplied by .95 as specified in the book
+2015,3.23,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 3.4 multiplied by .95; successor extension
+2016,3.42,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 3.6 multiplied by .95; successor extension

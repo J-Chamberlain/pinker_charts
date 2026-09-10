@@ -1,0 +1,3 @@
+# Anomaly review
+
+Critical evidence limitation: the BLS archive download for the 2006-2016 chart could not be retrieved automatically, so those values are explicitly source-transcribed from official published chart data. Major scientific limitation: the book itself warns that sources are not fully commensurable; employment-based and FTE-based rates are joined with a .95 adjustment. Major visual discrepancy: the 1970 anchor differs from the apparent Pinker point because the recoverable BLS chart reports 18.0 while Pinker's cited OSHA source may use a different denominator. Status remains `partial_match`.

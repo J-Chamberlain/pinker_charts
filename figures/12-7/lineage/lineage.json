@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "figure_id": "12-7",
+  "book_citation": "BLS; National Safety Council; CDC NIOSH; OSHA; NCHS; CFOI",
+  "script": "scripts/reconstruct_12_7.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/12-7/data/raw/source_transcribed_rates.csv",
+        "figures/12-7/data/raw/cdc_workplace_safety_1900_1999.html",
+        "figures/12-7/data/raw/cdc_health_us_2009.pdf"
+      ],
+      "selection": "Published observations 1913-2015 from the cited source families",
+      "transformation": "retain source rates; 2006-2015 FTE rates multiplied by .95",
+      "clean": "figures/12-7/data/clean/figure_12_7_book_period.csv",
+      "plot": "figures/12-7/plots/figure_12_7_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": [
+        "figures/12-7/data/raw/source_transcribed_rates.csv"
+      ],
+      "selection": "2016 BLS successor observation",
+      "transformation": "render as dashed successor",
+      "clean": "figures/12-7/data/clean/figure_12_7_successor.csv",
+      "plot": "figures/12-7/plots/figure_12_7_extended.png"
+    }
+  ]
+}

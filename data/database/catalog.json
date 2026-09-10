@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "3fbd874f422a6f4da171af0b2333d4e3b754410a7580da6d9309abb068ba88d0",
+  "snapshot_id": "49b1bbf03ac7761216ba60ae3c70846240550774da6c4ac2d2964fc81de0d076",
   "figures": 75,
-  "saved_files": 623,
-  "clean_tables": 133,
-  "clean_rows": 59991,
+  "saved_files": 632,
+  "clean_tables": 135,
+  "clean_rows": 60019,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -214,14 +214,14 @@
     {
       "figure_id": "12-7",
       "title": "Occupational accident deaths, US, 1913-2015",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 9,
+      "raw_files": 7,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 28,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "12-8",

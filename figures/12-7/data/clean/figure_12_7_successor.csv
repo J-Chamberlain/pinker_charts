@@ -1,0 +1,2 @@
+year,rate_per_100k,rate_basis,source,source_url,notes,period
+2016,3.42,FTE_adjusted,BLS CFOI 2006-2016 chart data,https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-charts-1992-2016.pdf,FTE rate 3.6 multiplied by .95; successor extension,successor

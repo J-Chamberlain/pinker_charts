@@ -1,36 +1,47 @@
 {
-  "schema_version": 1,
   "figure_id": "12-7",
-  "book": "Enlightenment Now",
-  "chapter": "12",
   "title": "Occupational accident deaths, US, 1913-2015",
-  "page": "",
-  "year_range": "1913-2015",
-  "source_type_guess": "health_demographic_dataset",
-  "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
-  "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+  "scientific_status": "partial_match",
+  "artifact_kind": "reconstruction",
+  "publication_status": "not_reviewed",
+  "execution_status": "processed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover exact OSHA 1970 and BLS 2006-2014 source artifacts; reconcile denominators before promotion.",
+  "notes": "Mixed sources as warned in book; source-transcribed values are not digitized from chart.",
+  "extension": {
+    "status": "successor_limited",
+    "label": "BLS 2016 successor"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
-  },
-  "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "inspected",
+    "reference_basis": "original",
+    "issues": [
+      "1970 source mismatch",
+      "mixed rate definitions",
+      "BLS archive access blocked"
+    ],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_12_7.png",
+        "sha256": "cf997d5499a0a2e234d0cf9aa6c39f9f6fabe6299975c708dec7d1ca2199e693"
+      },
+      {
+        "path": "figures/12-7/plots/figure_12_7_book_period.png",
+        "sha256": "7b270bee2ec267cd0f3e8a20cdbc53c287947c03f14b5f969d3fda65588012fc"
+      },
+      {
+        "path": "figures/12-7/plots/figure_12_7_extended.png",
+        "sha256": "706af75968a1bb35f415dd165e957d85aeeef23dd0f4c87eacd47bd61cfb6302"
+      },
+      {
+        "path": "figures/12-7/plots/comparisons/figure_12_7_book_period_review.png",
+        "sha256": "eef5756b8a9e0c34bab93934c50daa3f8fe7fe54ac40a98d93bc7a85485a425a"
+      },
+      {
+        "path": "figures/12-7/plots/comparisons/figure_12_7_extended_review.png",
+        "sha256": "21acb82c321fe1defd6bbbd403fd42e832bd16f12346e449a152a21545e88eb6"
+      }
+    ]
   },
   "artifacts": {
     "metadata": {
@@ -40,46 +51,62 @@
     "original_reference": {
       "path": "references/figures/figure_12_7.png",
       "sha256": "cf997d5499a0a2e234d0cf9aa6c39f9f6fabe6299975c708dec7d1ca2199e693"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/12-7/plots/figure_12_7_book_period.png",
+      "sha256": "7b270bee2ec267cd0f3e8a20cdbc53c287947c03f14b5f969d3fda65588012fc"
+    },
+    "extended_reconstruction": {
+      "path": "figures/12-7/plots/figure_12_7_extended.png",
+      "sha256": "706af75968a1bb35f415dd165e957d85aeeef23dd0f4c87eacd47bd61cfb6302"
+    },
+    "book_period_clean": {
+      "path": "figures/12-7/data/clean/figure_12_7_book_period.csv",
+      "sha256": "133fcd67ca50da01ba305d5b783487659193a87e39053b70ebfa87dc980f026a"
+    },
+    "successor_clean": {
+      "path": "figures/12-7/data/clean/figure_12_7_successor.csv",
+      "sha256": "531a5684fc9c38236c7a4184b2e3788885922ac687f39318a389adbcca08b063"
+    },
+    "book_period_comparison": {
+      "path": "figures/12-7/plots/comparisons/figure_12_7_book_period_review.png",
+      "sha256": "eef5756b8a9e0c34bab93934c50daa3f8fe7fe54ac40a98d93bc7a85485a425a"
+    },
+    "extended_comparison": {
+      "path": "figures/12-7/plots/comparisons/figure_12_7_extended_review.png",
+      "sha256": "21acb82c321fe1defd6bbbd403fd42e832bd16f12346e449a152a21545e88eb6"
+    },
+    "caption": {
+      "path": "figures/12-7/captions/caption.txt",
+      "sha256": "f922db58eb6ea92d59cf9999f8fb95eac54176c8fcce7c41d35df9f191edc216"
+    },
+    "provenance": {
+      "path": "figures/12-7/provenance/provenance.md",
+      "sha256": "5d77daea97ec8b3ff6ee67ecbf02e01cfcf685172110b9ba054a9130c9afdb43"
+    },
+    "source_log": {
+      "path": "figures/12-7/source_logs/source_log.md",
+      "sha256": "7779eaa87694b89bbe0baa81796e4b36df05ef477fa60a56e9d10bb359ba1e7c"
+    },
+    "anomaly_review": {
+      "path": "figures/12-7/anomaly_reviews/anomaly_review.md",
+      "sha256": "1e31e0517ed945e890daaa7ce565a1a7d88feec7d1e87b211c92afec57ce7ec0"
+    },
+    "discrepancy_log": {
+      "path": "figures/12-7/discrepancy_logs/discrepancy_log.md",
+      "sha256": "88fd2ca3e9ec80cf09bbcf9d0224e0e918294a64c33c22f86b581d655a75fcc4"
+    },
+    "review_checklist": {
+      "path": "figures/12-7/review_checklist.md",
+      "sha256": "f4f261a0de60c9cb528a7d1cf1a699bba56376da29df409ff9e302cbbcba6494"
+    },
+    "lineage": {
+      "path": "figures/12-7/lineage/lineage.json",
+      "sha256": "537f61edd95f83569616c5990ca60704d67cbc4b7115ec80b6071475e68c6a3b"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_12_7.py",
+      "sha256": "830534453101eeb21e005af7a9bd3c728f0bd2d4b1dd3ec24716f888fb9c4af9"
     }
-  },
-  "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
-  },
-  "reference": {
-    "figure_id": "12-7",
-    "registry_title": "Occupational accident deaths, US, 1913-2015",
-    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
-    "pdf_page": 21,
-    "panel": 1,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      205,
-      121,
-      1455,
-      1219
-    ],
-    "crop_bounds_pdf_points": [
-      56.858,
-      33.578,
-      403.557,
-      338.272
-    ],
-    "path": "references/figures/figure_12_7.png",
-    "sha256": "cf997d5499a0a2e234d0cf9aa6c39f9f6fabe6299975c708dec7d1ca2199e693",
-    "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 12-7: Occupational accident deaths, US, 1913-2015",
-    "source_note_ocr": "Data are from different sources and may not be completely commensurable (see note 63 for de- tails). For 1913, 1933, and 1980: Bureau of Labor Statistics, National Safety Council, and CDC National Institute for Occupational Safety and Health, respectively, cited in Centers for Disease Control 1999. For 1970: Occupational Safety and Health Administration, “Timeline of OSHA’s 4o Year History,” https:// www.osha.gov/osha4o/timeline.html. For 1993-1994: Bureau of Labor Statistics, cited in Pegula & Jano- cha 2013. For 1995-2005: National Center for Health Statistics 2014, table 38. For 2006-2014: Bureau of Labor Statistics 2016a. The latter data were reported as deaths per full-time-equivalent workers and are multiplied by .95 for rough commensurability with the preceding years, based on the year 2007, when the Census of Fatal Occupation Injuries reported rates both per worker (3.8) and per FTE (4.0).",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
   }
 }
