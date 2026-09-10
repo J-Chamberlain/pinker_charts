@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "figure_id": "11-2",
+  "book_citation": "Human Security Report Project 2007; PRIO Battle Deaths Dataset; UCDP Battle-Related Deaths Dataset v5.0",
+  "script": "scripts/reconstruct_11_2.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/11-2/data/raw/PRIO_Battle_Deaths_Dataset_31.xls",
+        "figures/11-2/data/raw/ucdp_brd_conf_50_2016.csv",
+        "figures/11-2/data/raw/owid_world_population.csv"
+      ],
+      "selection": "PRIO 1946-1988; UCDP v5.0 1989-2015; World population",
+      "transformation": "sum best estimates by year; divide by population and multiply by 100000",
+      "clean": "figures/11-2/data/clean/figure_11_2_book_period.csv",
+      "plot": "figures/11-2/plots/book_period/figure_11_2_book_period.png"
+    },
+    {
+      "role": "successor",
+      "raw_inputs": [
+        "figures/11-2/data/raw/ucdp_brd_conf_261.csv",
+        "figures/11-2/data/raw/owid_world_population.csv"
+      ],
+      "selection": "UCDP v26.1 2016-2023",
+      "transformation": "sum current best estimates by year; same rate formula; dashed source seam",
+      "clean": "figures/11-2/data/clean/figure_11_2_successor.csv",
+      "plot": "figures/11-2/plots/extended/figure_11_2_extended.png"
+    }
+  ]
+}

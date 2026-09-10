@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c9f9647581e306270145430b3780982fa0991dda09f8c9a39fac9cb728b232d2",
+  "snapshot_id": "fa9c7c5f40543d5723058d9335e66256f284c5526bfa4c66842fc99940173f2f",
   "figures": 75,
-  "saved_files": 591,
-  "clean_tables": 123,
-  "clean_rows": 58997,
+  "saved_files": 600,
+  "clean_tables": 125,
+  "clean_rows": 59075,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -118,14 +118,14 @@
     {
       "figure_id": "11-2",
       "title": "Battle deaths, 1946-2016",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 9,
+      "raw_files": 7,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 78,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "11-3",

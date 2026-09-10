@@ -546,16 +546,16 @@
     "title": "Battle deaths, 1946-2016",
     "page": "",
     "year_range": "1946-2016",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "visual_review",
     "source_type_guess": "health_demographic_dataset",
     "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
-    "execution_status": "not_started",
+    "current_owner": "codex_direct",
+    "next_action": "Recover the exact Census/McEvedy population denominator and HSRP adjustment procedure.",
+    "notes": "PRIO/UCDP sources recover the main curve; current OWID population denominator is a documented substitute.",
+    "execution_status": "processed",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "11-3",

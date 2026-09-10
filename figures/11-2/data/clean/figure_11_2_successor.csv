@@ -1,0 +1,9 @@
+year,deaths,conflict_rows,missing_estimates,source_series,source_version,population,rate_per_100k,unit
+2016,90764,54,0,UCDP Battle-Related Deaths Dataset v26.1,UCDP v26.1 current successor,7558554527,1.2008116059199,"battle deaths per 100,000 people per year"
+2017,72137,54,0,UCDP Battle-Related Deaths Dataset v26.1,UCDP v26.1 current successor,7645617952,0.9435077773030739,"battle deaths per 100,000 people per year"
+2018,55166,52,0,UCDP Battle-Related Deaths Dataset v26.1,UCDP v26.1 current successor,7729902779,0.713670036703058,"battle deaths per 100,000 people per year"
+2019,52676,57,0,UCDP Battle-Related Deaths Dataset v26.1,UCDP v26.1 current successor,7811293699,0.6743569251114392,"battle deaths per 100,000 people per year"
+2020,73139,57,0,UCDP Battle-Related Deaths Dataset v26.1,UCDP v26.1 current successor,7887001289,0.9273359711758505,"battle deaths per 100,000 people per year"
+2021,199816,54,0,UCDP Battle-Related Deaths Dataset v26.1,UCDP v26.1 current successor,7954448387,2.5120032248441064,"battle deaths per 100,000 people per year"
+2022,284981,56,0,UCDP Battle-Related Deaths Dataset v26.1,UCDP v26.1 current successor,8021407196,3.552755682844654,"battle deaths per 100,000 people per year"
+2023,138917,59,0,UCDP Battle-Related Deaths Dataset v26.1,UCDP v26.1 current successor,8091734933,1.7167764533841037,"battle deaths per 100,000 people per year"

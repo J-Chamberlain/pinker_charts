@@ -1,0 +1,31 @@
+[
+  {
+    "path": "figures/11-2/data/raw/PRIO_Battle_Deaths_Dataset_31.xls",
+    "url": "https://cdn.cloud.prio.org/files/d21ef702-a546-45a8-b3c9-5b520dcc1239/PRIO%20Battle%20Deaths%20Dataset%2031.xls?inline=true",
+    "retrieved": "2026-09-09",
+    "sha256": "efa2ff1c3d76f43a794b305593ca0576b594efb94a6661e105d31a91c3bd9fa1",
+    "accepted_for": "1946-1988 deaths"
+  },
+  {
+    "path": "figures/11-2/data/raw/ucdp_brd_conf_50_2016.csv",
+    "url": "https://ucdp.uu.se/downloads/brd/ucdp-brd-conf-50-2016.csv",
+    "retrieved": "2026-09-09",
+    "sha256": "30b9d181d70c6e359f9c50f87098ce73d0282fa852af3c471766e37d014ff2aa",
+    "accepted_for": "1989-2015 deaths"
+  },
+  {
+    "path": "figures/11-2/data/raw/ucdp_brd_conf_261.csv",
+    "url": "https://ucdp.uu.se/downloads/brd/ucdp-brd-conf-261-csv.zip",
+    "retrieved": "2026-09-09",
+    "sha256": "b34ecb57f1fc0e73d4bfd7b080212da429af3135a8d360b1c902e45506f81147",
+    "accepted_for": "2016-2023 successor"
+  },
+  {
+    "path": "figures/11-2/data/raw/owid_world_population.csv",
+    "url": "https://ourworldindata.org/grapher/population.csv",
+    "retrieved": "2026-09-09",
+    "sha256": "9982bf96a15ab91c45468b48d1b4632691c3227e2a1b8f1670d2da18a273f0f4",
+    "accepted_for": "denominator substitute",
+    "limitation": "not the cited Census vintage"
+  }
+]

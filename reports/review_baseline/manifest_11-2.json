@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "c09749e6451c88fae557378728aef7a4bf6fd119",
+  "notice": "Unaccepted visual audit baseline; input/output hashes identify working-tree artifacts beyond baseline_commit.",
+  "figure_count": 1,
+  "comparison_count": 2,
+  "figures": [
+    {
+      "figure_id": "11-2",
+      "scientific_status": "partial_match",
+      "comparisons": [
+        {
+          "mode": "book_period",
+          "path": "figures/11-2/plots/comparisons/figure_11_2_book_period_review.png",
+          "sha256": "448f87eb8ec429f88eb8e3b33a09f00da1a715e18d736098ec90b28772b5bf65",
+          "reference": {
+            "path": "references/figures/figure_11_2.png",
+            "sha256": "9545b325d002e26be316983a15b4ef32da96f650a63a74a130cd3599ec1e21f6"
+          },
+          "reconstruction": {
+            "path": "figures/11-2/plots/book_period/figure_11_2_book_period.png",
+            "sha256": "333ec06ca4fc291727d5876bd523925d463f0e0634e9da511718d84b249506ef"
+          },
+          "display_viewport": null
+        },
+        {
+          "mode": "extended",
+          "path": "figures/11-2/plots/comparisons/figure_11_2_extended_review.png",
+          "sha256": "907c31d2525cb2d9141d24465569fa28860440306676ed65f9cacb200c27b72c",
+          "reference": {
+            "path": "references/figures/figure_11_2.png",
+            "sha256": "9545b325d002e26be316983a15b4ef32da96f650a63a74a130cd3599ec1e21f6"
+          },
+          "reconstruction": {
+            "path": "figures/11-2/plots/extended/figure_11_2_extended.png",
+            "sha256": "ebe26e737d296ee5c2a7de854be8142ae12d3d771b30baaed68d27cf0c0ccf50"
+          },
+          "display_viewport": null
+        }
+      ]
+    }
+  ],
+  "excluded": []
+}

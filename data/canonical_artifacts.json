@@ -1785,16 +1785,85 @@
     }
   },
   "11-2": {
-    "scientific_status": "not_started",
-    "artifact_kind": "not_started",
+    "scientific_status": "partial_match",
+    "artifact_kind": "reconstruction",
     "artifacts": {
       "metadata": {
         "path": "figures/11-2/figure.json",
+        "sha256": "12c1250f6c07c4f86d355a4ef55c3435285f959660ef5a60a01f87d67306b498",
         "self": true
       },
       "original_reference": {
         "path": "references/figures/figure_11_2.png",
         "sha256": "9545b325d002e26be316983a15b4ef32da96f650a63a74a130cd3599ec1e21f6"
+      },
+      "provenance": {
+        "path": "figures/11-2/provenance/provenance.md",
+        "sha256": "a14b833c679db40f4938414a4e3c33a560b25a0559a15a974e88e8e96caa8a32"
+      },
+      "caption": {
+        "path": "figures/11-2/captions/caption.txt",
+        "sha256": "e3ed45cff1c10f70f6333320127a8c514f973a707ca59700b6efc130796001d0"
+      },
+      "source_log": {
+        "path": "figures/11-2/source_logs/source_log.md",
+        "sha256": "30f96369b39457808b2a26edfc3de04ece6b0a849fd794527bc4cc39450568d1"
+      },
+      "download_log": {
+        "path": "figures/11-2/source_logs/downloads.json",
+        "sha256": "e451be19a990397ee27634dc42499d8b9f19197b136b9f6a863770c2d3dea6a8"
+      },
+      "search_log": {
+        "path": "figures/11-2/search_iterations/search_iterations.md",
+        "sha256": "67b66b29bb08a6671296a4576a26d98f3479e3a36ced748d3d9fec4a660818b3"
+      },
+      "anomaly_review": {
+        "path": "figures/11-2/anomaly_reviews/anomaly_review.md",
+        "sha256": "5a0647c8f1298dad10429aca2dc09d5bf420f3b4df73fb18dfd6e99e42ed8cf9"
+      },
+      "discrepancy_log": {
+        "path": "figures/11-2/discrepancy_logs/discrepancy_log.md",
+        "sha256": "cc1b069d9b8c9b8a860487eaa51b4e2678eb09cdb51ac2bc5d3a7e354f7c3212"
+      },
+      "review_checklist": {
+        "path": "figures/11-2/review_checklist.md",
+        "sha256": "9271092818e50c10cd06329d00b97907d22190818dd84f803db0e7863414f9b6"
+      },
+      "book_period_reconstruction": {
+        "path": "figures/11-2/plots/book_period/figure_11_2_book_period.png",
+        "sha256": "333ec06ca4fc291727d5876bd523925d463f0e0634e9da511718d84b249506ef"
+      },
+      "extended_reconstruction": {
+        "path": "figures/11-2/plots/extended/figure_11_2_extended.png",
+        "sha256": "ebe26e737d296ee5c2a7de854be8142ae12d3d771b30baaed68d27cf0c0ccf50"
+      },
+      "book_period_clean": {
+        "path": "figures/11-2/data/clean/figure_11_2_book_period.csv",
+        "sha256": "6bfcf0e3de236946a43e0f97d69ec8ebbb5202872a89bda11e1d9cfe28044c1e"
+      },
+      "successor_clean": {
+        "path": "figures/11-2/data/clean/figure_11_2_successor.csv",
+        "sha256": "e8590477805e512c81fe4edd1eb0be3434cc67552646bf47372faf5ae5a3acf3"
+      },
+      "lineage": {
+        "path": "figures/11-2/lineage/lineage.json",
+        "sha256": "6e3eea3aa209be57826e23c32fddeb65fb30bb499dcd03ae763267212498f4d5"
+      },
+      "lineage_csv": {
+        "path": "figures/11-2/lineage/lineage.csv",
+        "sha256": "4b9c12f1f6a519eac53af54ba2a3c55e3d39a3abe9d8275ddd65baaa96cfd861"
+      },
+      "reconstruction_script": {
+        "path": "scripts/reconstruct_11_2.py",
+        "sha256": "53f4fb209201786e55dfc52a5d732ee1e1dc80973bc022d3ca0b9a597f7e18bb"
+      },
+      "book_period_comparison": {
+        "path": "figures/11-2/plots/comparisons/figure_11_2_book_period_review.png",
+        "sha256": "448f87eb8ec429f88eb8e3b33a09f00da1a715e18d736098ec90b28772b5bf65"
+      },
+      "extended_comparison": {
+        "path": "figures/11-2/plots/comparisons/figure_11_2_extended_review.png",
+        "sha256": "907c31d2525cb2d9141d24465569fa28860440306676ed65f9cacb200c27b72c"
       }
     }
   },

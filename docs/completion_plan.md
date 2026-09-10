@@ -416,3 +416,11 @@ clean rows. The visual baseline is 43 figures / 86 real comparison pages. All
 82 tests and canonical-state/data-library checks pass. Twenty-one figures remain
 untouched. Next: continue with the next public-source candidate, while retaining
 the exact Levy/Thompson table and successor export as targeted recovery work.
+
+2026-09-10 battle-deaths checkpoint: Figure 11-2 adds a partial reconstruction
+from the cited PRIO 3.1 and UCDP v5.0 source family, with a separately labelled
+UCDP v26.1 successor through 2023. The stored original PDF chart was inspected
+side by side at full resolution. The trajectory is close, but the cited Census
+Bureau/McEvedy population denominator and exact original aggregation remain
+unrecovered, so the figure is not promoted to verified. Next: continue the
+untouched queue with 11-3. This checkpoint is not a completion claim.

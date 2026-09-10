@@ -71,3 +71,10 @@ three real comparison packages; the global PDF now includes these.
 Next: continue the untouched queue after Figures 14-4 and 11-1. Full-project
 data-use audit, portable dependency rebuilds, provider refresh adapters, unresolved-source recovery and final publication review are
 still pending. This checkpoint is not a completion claim.
+
+2026-09-10 Figure 11-2 checkpoint: PRIO 3.1 and UCDP v5.0 source files recover
+the cited battle-deaths source family for 1946-2015; UCDP v26.1 supplies a
+separate 2016-2023 successor. The original PDF chart and both comparison pages
+were inspected. The trajectory is close, but the cited Census/McEvedy population
+denominator and exact aggregation remain unresolved, so status is partial_match.
+The next untouched candidate is Figure 11-3.

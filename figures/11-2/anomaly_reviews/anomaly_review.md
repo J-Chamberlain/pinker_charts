@@ -1,0 +1,3 @@
+# Figure 11-2 anomaly review
+
+PRIO and UCDP are related but distinct source vintages. The script keeps their source labels and does not average or backcast between them. Unknown PRIO best estimates are excluded from annual sums rather than silently set to zero. The modern UCDP extension is dashed and uses the same rate concept but a revised source release. The population denominator is a modern substitute, not the cited Census vintage.
