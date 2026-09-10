@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "figure_id": "18-4",
+  "book_citation": "General Social Survey, Smith, Son, & Schapiro 2015, figs. 1 and 5; updated for 2016 from NORC GSS Data Explorer.",
+  "source_chain": [
+    "Enlightenment Now Figure 18-4",
+    "Smith, Son, & Schapiro 2015 report",
+    "NORC General Social Survey",
+    "NORC cumulative GSS Stata release"
+  ],
+  "raw_source": "figures/18-4/data/raw/GSS_stata.zip",
+  "download_url": "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip",
+  "script": "scripts/reconstruct_18_4.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": ["figures/18-4/data/raw/GSS_stata.zip"],
+      "selection": "year, HAPPY, and LIFE through 2016",
+      "transformation": "exclude nonresponses; calculate percentage coded 1 by year",
+      "clean": "figures/18-4/data/clean/figure_18_4_gss_summary.csv",
+      "plot": "figures/18-4/plots/book_period/figure_18_4_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": ["figures/18-4/data/raw/GSS_stata.zip"],
+      "selection": "same variables after 2016",
+      "transformation": "plot successor observations dashed; preserve missing years",
+      "clean": "figures/18-4/data/clean/figure_18_4_gss_summary.csv",
+      "plot": "figures/18-4/plots/extended/figure_18_4_extended.png"
+    }
+  ],
+  "comparisons": [
+    "figures/18-4/plots/comparisons/figure_18_4_book_period_review.png",
+    "figures/18-4/plots/comparisons/figure_18_4_extended_review.png"
+  ]
+}

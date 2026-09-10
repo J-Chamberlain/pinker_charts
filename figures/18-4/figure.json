@@ -7,30 +7,59 @@
   "page": "",
   "year_range": "1972-2016",
   "source_type_guess": "survey_or_governance_dataset",
-  "priority": "backlog",
+  "priority": "high",
   "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "scientific_status": "updated_equivalent",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover the exact 2015/2016 GSS release or NORC Data Explorer export and compare point-for-point.",
+  "notes": "Official NORC cumulative GSS Stata release recovered and used for a source-driven reconstruction. Current release is not proven identical to the book's 2015/2016 extract; LIFE is sparse by survey year. Both real reference comparisons were inspected.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "“General Social Survey,” Smith, Son, & Schapiro 2015, figs. 1 and 5, updated for 2016 from https://gssdataexplorer.norc.org/projects/15157/variables/438/vshow. Data exclude nonresponses.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+    "basis": "official current NORC GSS release contains the cited variables and reproduces the broad shape, but exact historical vintage is unresolved",
+    "source_chain": [
+      "Pinker Figure 18-4",
+      "Smith, Son, & Schapiro 2015 report",
+      "NORC GSS",
+      "current cumulative Stata release"
+    ],
+    "blocker": "The exact 2015/2016 Data Explorer extract and its weighting/project configuration were not recovered."
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
+    "status": "inspected",
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_18_4.png",
+        "sha256": "b3e7550e44b8514d6a71a2648e57450e712171c1311bce6b3556a44455c5136c"
+      },
+      {
+        "path": "figures/18-4/plots/book_period/figure_18_4_book_period.png",
+        "sha256": "e4d57c7e0291d2bc3b1f59e1993f9936c374e8baba6cb6e450b9d4b158cb6cbd"
+      },
+      {
+        "path": "figures/18-4/plots/extended/figure_18_4_extended.png",
+        "sha256": "c5c9dab75cabaee0f14faa308e0c61c97651800de3490fdec8b1d36f64a3f036"
+      },
+      {
+        "path": "figures/18-4/plots/comparisons/figure_18_4_book_period_review.png",
+        "sha256": "a48085834f71c8ce24c11e752cdd7687ab3123685174276ad985b0a622409aa9"
+      },
+      {
+        "path": "figures/18-4/plots/comparisons/figure_18_4_extended_review.png",
+        "sha256": "b2fa1f367088f619749c2c9f21cc4f5c82247a8dfde39326ffa17686f5f887ba"
+      }
+    ],
+    "issues": [
+      "current release differs modestly from report vintage",
+      "LIFE series has survey-year gaps"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "successor",
+    "notes": "Same-variable observations after 2016 from the current NORC cumulative release are shown dashed; no claim of methodological identity beyond the shared GSS variables."
   },
   "artifacts": {
     "metadata": {
@@ -40,16 +69,76 @@
     "original_reference": {
       "path": "references/figures/figure_18_4.png",
       "sha256": "b3e7550e44b8514d6a71a2648e57450e712171c1311bce6b3556a44455c5136c"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/18-4/plots/book_period/figure_18_4_book_period.png",
+      "sha256": "e4d57c7e0291d2bc3b1f59e1993f9936c374e8baba6cb6e450b9d4b158cb6cbd"
+    },
+    "extended_reconstruction": {
+      "path": "figures/18-4/plots/extended/figure_18_4_extended.png",
+      "sha256": "c5c9dab75cabaee0f14faa308e0c61c97651800de3490fdec8b1d36f64a3f036"
+    },
+    "book_period_clean": {
+      "path": "figures/18-4/data/clean/figure_18_4_gss_summary.csv",
+      "sha256": "72c65d74ff015919e0a22f8242fd57278b566c3041f92f876e54cf35218265a9"
+    },
+    "raw_source": {
+      "path": "figures/18-4/data/raw/GSS_stata.zip",
+      "sha256": "d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe"
+    },
+    "book_period_comparison": {
+      "path": "figures/18-4/plots/comparisons/figure_18_4_book_period_review.png",
+      "sha256": "a48085834f71c8ce24c11e752cdd7687ab3123685174276ad985b0a622409aa9"
+    },
+    "extended_comparison": {
+      "path": "figures/18-4/plots/comparisons/figure_18_4_extended_review.png",
+      "sha256": "b2fa1f367088f619749c2c9f21cc4f5c82247a8dfde39326ffa17686f5f887ba"
+    },
+    "caption": {
+      "path": "figures/18-4/captions/caption.txt",
+      "sha256": "2e6fb6e201735c1ac959f31402f1fb4b09356d327cb97b33c7453ae7cea1d159"
+    },
+    "provenance": {
+      "path": "figures/18-4/provenance/provenance.md",
+      "sha256": "76b0f4a9db76610934db8d688b8d8e3d63dc4d609f3123bde1318657ffc1f034"
+    },
+    "source_log": {
+      "path": "figures/18-4/source_logs/source_log.md",
+      "sha256": "bca0ccbf0a40d4674a3998e4e621bbaa7d3348d31c8acfb6ba41b8b1705884b2"
+    },
+    "search_log": {
+      "path": "figures/18-4/search_iterations/search_iterations.md",
+      "sha256": "e25f35362cb6d69ad92cb328c4acf9f6754193bb66f7b821cd1182f73408e88d"
+    },
+    "anomaly_review": {
+      "path": "figures/18-4/anomaly_reviews/anomaly_review.md",
+      "sha256": "fd79380ec49586a1be270682fedff78be9ef4b114600ff98ed1b342f46333d32"
+    },
+    "discrepancy_log": {
+      "path": "figures/18-4/discrepancy_logs/discrepancy_log.md",
+      "sha256": "15c3f3309ac17dab7740f1214573349be5ada228b4bb2de748ddc92906368af5"
+    },
+    "review_checklist": {
+      "path": "figures/18-4/review_checklist.md",
+      "sha256": "0985fd25404d5ecec7dd82ea2c19f29f9208199619e059e8dbd3119b08ebb52a"
+    },
+    "lineage": {
+      "path": "figures/18-4/lineage/lineage.json",
+      "sha256": "4679192ddb5ca83c094c52c4e51b2a835aa87c679a0971c2ed08ffeadc1d36de"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_18_4.py",
+      "sha256": "9966365d988339f20b780ca4e0211be18ec128d29392ad2bbd02f1d64354081b"
     }
   },
   "research": {
     "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "claim_summary": "The share of US GSS respondents saying life is exciting rose while the share saying they are very happy remained broadly flat or declined, 1972-2016.",
+    "original_dataset": "NORC General Social Survey, exact Smith-Son-Schapiro 2015/Data Explorer 2016 extract unresolved",
+    "dataset_url": "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip",
+    "archive_url": "https://www.norc.org/content/dam/norc-org/pdfs/GSS_PsyWellBeing15_final_formatted.pdf",
+    "download_date": "2026-09-10",
+    "confidence_score": "medium for source family and variables; low-to-medium for exact historical values"
   },
   "reference": {
     "figure_id": "18-4",
@@ -79,7 +168,7 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 18-4: Happiness and excitement, US, 1972-2016",
     "source_note_ocr": "“General Social Survey,” Smith, Son, & Schapiro 2015, figs. 1 and 5, updated for 2016 from https://gssdataexplorer.norc.org/projects/15157/variables/438/vshow. Data exclude nonresponses.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "machine_extracted_and_source_reviewed",
+    "visual_review": "original_reference_inspected_and_compared"
   }
 }

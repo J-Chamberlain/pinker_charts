@@ -43,11 +43,11 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 6 |
-| not_started | 2 |
+| not_started | 1 |
 | partial_match | 35 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
-| updated_equivalent | 10 |
+| updated_equivalent | 11 |
 | verified_reproduction | 14 |
 
 ## Figure Queue
@@ -126,7 +126,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 18-1 | Life satisfaction and income, 2006 | needs_targeted_source_recovery | blocked | incomplete |
 | 18-2 | Loneliness, US students, 1978-2011 | needs_targeted_source_recovery | blocked | incomplete |
 | 18-3 | Suicide, England, Switzerland, and US, 1860-2014 | needs_targeted_source_recovery | blocked | incomplete |
-| 18-4 | Happiness and excitement, US, 1972-2016 | not_started | not_started | incomplete |
+| 18-4 | Happiness and excitement, US, 1972-2016 | updated_equivalent | processed | not_reviewed |
 | 19-1 | Nuclear weapons, 1945-2015 | partial_match | blocked | not_reviewed |
 | 20-1 | Populist support across generations, 2016 | not_started | not_started | incomplete |
 
@@ -1608,6 +1608,28 @@ Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
 - Discrepancy log: [figures/18-3/discrepancy_logs/discrepancy_log.md](figures/18-3/discrepancy_logs/discrepancy_log.md)
 - Review checklist: [figures/18-3/review_checklist.md](figures/18-3/review_checklist.md)
 - Caption: [figures/18-3/captions/caption.txt](figures/18-3/captions/caption.txt)
+
+### Figure 18-4 - Happiness and excitement, US, 1972-2016
+
+Status: `updated_equivalent`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/18-4/figure.json](figures/18-4/figure.json)
+- Original reference: [references/figures/figure_18_4.png](references/figures/figure_18_4.png)
+- Book period reconstruction: [figures/18-4/plots/book_period/figure_18_4_book_period.png](figures/18-4/plots/book_period/figure_18_4_book_period.png)
+- Extended reconstruction: [figures/18-4/plots/extended/figure_18_4_extended.png](figures/18-4/plots/extended/figure_18_4_extended.png)
+- Book period clean: [figures/18-4/data/clean/figure_18_4_gss_summary.csv](figures/18-4/data/clean/figure_18_4_gss_summary.csv)
+- Raw source: [figures/18-4/data/raw/GSS_stata.zip](figures/18-4/data/raw/GSS_stata.zip)
+- Book period comparison: [figures/18-4/plots/comparisons/figure_18_4_book_period_review.png](figures/18-4/plots/comparisons/figure_18_4_book_period_review.png)
+- Extended comparison: [figures/18-4/plots/comparisons/figure_18_4_extended_review.png](figures/18-4/plots/comparisons/figure_18_4_extended_review.png)
+- Caption: [figures/18-4/captions/caption.txt](figures/18-4/captions/caption.txt)
+- Provenance: [figures/18-4/provenance/provenance.md](figures/18-4/provenance/provenance.md)
+- Source log: [figures/18-4/source_logs/source_log.md](figures/18-4/source_logs/source_log.md)
+- Search log: [figures/18-4/search_iterations/search_iterations.md](figures/18-4/search_iterations/search_iterations.md)
+- Anomaly review: [figures/18-4/anomaly_reviews/anomaly_review.md](figures/18-4/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/18-4/discrepancy_logs/discrepancy_log.md](figures/18-4/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/18-4/review_checklist.md](figures/18-4/review_checklist.md)
+- Lineage: [figures/18-4/lineage/lineage.json](figures/18-4/lineage/lineage.json)
+- Reconstruction script: [scripts/reconstruct_18_4.py](scripts/reconstruct_18_4.py)
 
 ### Figure 19-1 - Nuclear weapons, 1945-2015
 

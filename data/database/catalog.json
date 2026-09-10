@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "fdcade1b349cdb358768cf81275e45c02e585419a2531ae8cb29b81a1233d93b",
+  "snapshot_id": "9931fd4fb06e05a1c80fe85786eaf3faafcd59d05cf030f2a599caf2eb6dd730",
   "figures": 75,
-  "saved_files": 743,
-  "clean_tables": 151,
-  "clean_rows": 60745,
+  "saved_files": 745,
+  "clean_tables": 152,
+  "clean_rows": 60780,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -622,14 +622,14 @@
     {
       "figure_id": "18-4",
       "title": "Happiness and excitement, US, 1972-2016",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "updated_equivalent",
+      "artifact_kind": "reconstruction",
+      "saved_files": 2,
+      "raw_files": 1,
+      "clean_tables": 1,
+      "canonical_declared_clean_tables": 1,
+      "clean_rows": 35,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "19-1",
