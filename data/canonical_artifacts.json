@@ -4818,8 +4818,8 @@
     }
   },
   "18-2": {
-    "scientific_status": "not_started",
-    "artifact_kind": "not_started",
+    "scientific_status": "needs_targeted_source_recovery",
+    "artifact_kind": "source_recovery",
     "artifacts": {
       "metadata": {
         "path": "figures/18-2/figure.json",
@@ -4828,6 +4828,34 @@
       "original_reference": {
         "path": "references/figures/figure_18_2.png",
         "sha256": "7ba9a500e094c2c2e7195ca4d507e7d14821b91901eab1c4c6963fb78eb95090"
+      },
+      "provenance": {
+        "path": "figures/18-2/provenance/provenance.md",
+        "sha256": "44a49c0ae2f0a6e65873916c8b3f5ae1a9c0cbf6f016879f25a7b96880e432cc"
+      },
+      "source_log": {
+        "path": "figures/18-2/source_logs/source_log.md",
+        "sha256": "2cd337c4783ade7144bd10b3134b876d5a00900c42e3fe409ac2348ecb0e5d57"
+      },
+      "search_log": {
+        "path": "figures/18-2/search_iterations/search_iterations.md",
+        "sha256": "3861265b4285a5636605c585ae97e1554bfb78e814eda65a7b81438be5dbec0b"
+      },
+      "anomaly_review": {
+        "path": "figures/18-2/anomaly_reviews/anomaly_review.md",
+        "sha256": "64b9c4848c3be2abd903b98a1c618ac27def299922227ab125eada51c6cdd214"
+      },
+      "discrepancy_log": {
+        "path": "figures/18-2/discrepancy_logs/discrepancy_log.md",
+        "sha256": "64e779fa4306e9c645beb5c8cfd2e6384772e955fb210e967fbb6a60e5dbef16"
+      },
+      "review_checklist": {
+        "path": "figures/18-2/review_checklist.md",
+        "sha256": "f619dec5044e13dbda87953acc4c4afbfb96c29dc9dd55e95e79f7156d5e1f48"
+      },
+      "caption": {
+        "path": "figures/18-2/captions/caption.txt",
+        "sha256": "75176f07dfab7ea5408f73ff9e5ace9ce64f52ca545e8a2269acbcc1592b7a1b"
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_id": "42ae85dd6e8c580c66f6288b32c9b48c5a834dc9b334a8b745f0f807086924c3",
+  "snapshot_id": "05d7da1a1f2ede7076ec8d6e1057a5878572068777e8db59d6a14a82f0a845b6",
   "figures": 75,
   "saved_files": 743,
   "clean_tables": 151,
@@ -598,8 +598,8 @@
     {
       "figure_id": "18-2",
       "title": "Loneliness, US students, 1978-2011",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
+      "scientific_status": "needs_targeted_source_recovery",
+      "artifact_kind": "source_recovery",
       "saved_files": 0,
       "raw_files": 0,
       "clean_tables": 0,

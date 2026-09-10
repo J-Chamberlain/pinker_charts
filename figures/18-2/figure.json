@@ -6,50 +6,50 @@
   "title": "Loneliness, US students, 1978-2011",
   "page": "",
   "year_range": "1978-2011",
-  "source_type_guess": "survey_or_governance_dataset",
-  "priority": "backlog",
+  "source_type_guess": "academic_meta_analysis_and_survey_dataset",
+  "priority": "high",
   "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "scientific_status": "needs_targeted_source_recovery",
+  "execution_status": "blocked",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "source_recovery",
+  "next_action": "Obtain Clark et al. supplementary/author data and recover the MTF public-use item files and codebooks needed to reproduce the six-item triennial high-school series.",
+  "notes": "The paper and official MTF distribution route are resolved. The figure combines a 48-sample Revised UCLA college meta-analysis with a six-item MTF high-school series on separate half-standard-deviation axes. No plotted values were digitized and no proxy reconstruction was drawn.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "Clark, Loxton, & Tobin 2015. College students (left axis): Revised UCLA Loneliness Scale, trend line across many samples, taken from their fig. 1. High school students (right axis): Mean rating of six loneliness items from the Monitoring the Future survey, triennial means, taken from their fig. 4.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+    "basis": "exact cited paper and official MTF source family identified; both numeric components not yet recovered",
+    "source_chain": [
+      "Pinker Figure 18-2",
+      "Clark, Loxton, and Tobin (2015), Figures 1 and 4",
+      "Revised UCLA college meta-analysis",
+      "Monitoring the Future six loneliness items",
+      "ICPSR public-use survey files"
+    ],
+    "blocker": "Publisher supplementary files returned HTTP 403 and the exact college data are not exposed in the accessible record. MTF files are public but the six-item form/grade harmonization and triennial aggregation are not yet reconstructed."
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
-    "issues": []
+    "issues": [
+      "No legitimate complete reconstruction exists",
+      "No book-period comparison can be generated",
+      "No extension can be evaluated"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
-  },
-  "artifacts": {
-    "metadata": {
-      "path": "figures/18-2/figure.json",
-      "self": true
-    },
-    "original_reference": {
-      "path": "references/figures/figure_18_2.png",
-      "sha256": "7ba9a500e094c2c2e7195ca4d507e7d14821b91901eab1c4c6963fb78eb95090"
-    }
+    "status": "not_attempted",
+    "notes": "Do not add a successor loneliness series until the two book-period source components are reconstructed."
   },
   "research": {
     "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "claim_summary": "Loneliness trends decline among US college students and among 8th-, 10th-, and 12th-grade students over the periods shown, with the two source series normalized to comparable slopes but not comparable absolute heights.",
+    "original_dataset": "Clark et al. (2015) college cross-temporal meta-analysis and Monitoring the Future repeated cross-sectional survey data for six loneliness items.",
+    "dataset_url": "https://www.icpsr.umich.edu/sites/icpsr/view/collections/35",
+    "archive_url": "https://journals.sagepub.com/doi/10.1177/0146167214557007",
+    "download_date": "2026-09-10",
+    "confidence_score": "high for source chain; low for numeric recovery"
   },
   "reference": {
     "figure_id": "18-2",
@@ -78,8 +78,46 @@
     "sha256": "7ba9a500e094c2c2e7195ca4d507e7d14821b91901eab1c4c6963fb78eb95090",
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 18-2: Loneliness, US students, 1978-2011",
-    "source_note_ocr": "Clark, Loxton, & Tobin 2015. College students (left axis): Revised UCLA Loneliness Scale, trend line across many samples, taken from their fig. 1. High school students (right axis): Mean rating of six loneliness items from the Monitoring the Future survey, triennial means, taken from their fig. 4. Each axis spans half a standard deviation, so the slopes of the college and high school curves are commensu- rable, but their relative heights are not.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_ocr": "Clark, Loxton, & Tobin 2015. College students (left axis): Revised UCLA Loneliness Scale, trend line across many samples, taken from their fig. 1. High school students (right axis): Mean rating of six loneliness items from the Monitoring the Future survey, triennial means, taken from their fig. 4. Each axis spans half a standard deviation, so the slopes of the college and high school curves are commensurable, but their relative heights are not.",
+    "source_note_validation": "machine_extracted_and_source_reviewed",
+    "visual_review": "original_reference_inspected_no_reconstruction"
+  },
+  "artifacts": {
+    "metadata": {
+      "path": "figures/18-2/figure.json",
+      "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_18_2.png",
+      "sha256": "7ba9a500e094c2c2e7195ca4d507e7d14821b91901eab1c4c6963fb78eb95090"
+    },
+    "provenance": {
+      "path": "figures/18-2/provenance/provenance.md",
+      "sha256": "44a49c0ae2f0a6e65873916c8b3f5ae1a9c0cbf6f016879f25a7b96880e432cc"
+    },
+    "source_log": {
+      "path": "figures/18-2/source_logs/source_log.md",
+      "sha256": "2cd337c4783ade7144bd10b3134b876d5a00900c42e3fe409ac2348ecb0e5d57"
+    },
+    "search_log": {
+      "path": "figures/18-2/search_iterations/search_iterations.md",
+      "sha256": "3861265b4285a5636605c585ae97e1554bfb78e814eda65a7b81438be5dbec0b"
+    },
+    "anomaly_review": {
+      "path": "figures/18-2/anomaly_reviews/anomaly_review.md",
+      "sha256": "64b9c4848c3be2abd903b98a1c618ac27def299922227ab125eada51c6cdd214"
+    },
+    "discrepancy_log": {
+      "path": "figures/18-2/discrepancy_logs/discrepancy_log.md",
+      "sha256": "64e779fa4306e9c645beb5c8cfd2e6384772e955fb210e967fbb6a60e5dbef16"
+    },
+    "review_checklist": {
+      "path": "figures/18-2/review_checklist.md",
+      "sha256": "f619dec5044e13dbda87953acc4c4afbfb96c29dc9dd55e95e79f7156d5e1f48"
+    },
+    "caption": {
+      "path": "figures/18-2/captions/caption.txt",
+      "sha256": "75176f07dfab7ea5408f73ff9e5ace9ce64f52ca545e8a2269acbcc1592b7a1b"
+    }
   }
 }
