@@ -1,36 +1,47 @@
 {
-  "schema_version": 1,
   "figure_id": "13-1",
-  "book": "Enlightenment Now",
-  "chapter": "13",
   "title": "Terrorism deaths, 1970-2015",
-  "page": "",
-  "year_range": "1970-2015",
-  "source_type_guess": "health_demographic_dataset",
-  "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
-  "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+  "scientific_status": "updated_equivalent",
+  "artifact_kind": "reconstruction",
+  "publication_status": "not_reviewed",
+  "execution_status": "processed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover START 2016 release and historical population denominators for exact-vintage comparison.",
+  "notes": "Public later GTD-derived export; book exclusion rules applied.",
+  "extension": {
+    "status": "successor",
+    "label": "OWID/START successor 2016-2021"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
-  },
-  "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "inspected",
+    "reference_basis": "original",
+    "issues": [
+      "release vintage",
+      "population denominator vintage",
+      "Western Europe membership"
+    ],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_13_1.png",
+        "sha256": "3446642ef2985daeeda187a0aaa881f635892d6ed8e718bb16f01d6f5ca55853"
+      },
+      {
+        "path": "figures/13-1/plots/figure_13_1_book_period.png",
+        "sha256": "fa7300fdfdf2fa1920259b0d705503fda47dc12d0e0f251f9647002d26a6cfec"
+      },
+      {
+        "path": "figures/13-1/plots/figure_13_1_extended.png",
+        "sha256": "daacc712481a8813d8eceab04e1438fec3c6ff1192f619e3c0244a7abe88ce07"
+      },
+      {
+        "path": "figures/13-1/plots/comparisons/figure_13_1_book_period_review.png",
+        "sha256": "0a88d4760577b66d330cf343c7f1a68060f4d700385f6911cbcd7c05f41ed6ff"
+      },
+      {
+        "path": "figures/13-1/plots/comparisons/figure_13_1_extended_review.png",
+        "sha256": "7f3fb7805634ec90b6b9e3d28c9154dcc07ba8eccf38190fe6848867463e8ed5"
+      }
+    ]
   },
   "artifacts": {
     "metadata": {
@@ -40,46 +51,62 @@
     "original_reference": {
       "path": "references/figures/figure_13_1.png",
       "sha256": "3446642ef2985daeeda187a0aaa881f635892d6ed8e718bb16f01d6f5ca55853"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/13-1/plots/figure_13_1_book_period.png",
+      "sha256": "fa7300fdfdf2fa1920259b0d705503fda47dc12d0e0f251f9647002d26a6cfec"
+    },
+    "extended_reconstruction": {
+      "path": "figures/13-1/plots/figure_13_1_extended.png",
+      "sha256": "daacc712481a8813d8eceab04e1438fec3c6ff1192f619e3c0244a7abe88ce07"
+    },
+    "book_period_clean": {
+      "path": "figures/13-1/data/clean/figure_13_1_book_period.csv",
+      "sha256": "c876ccf98e8ed00e3ca40435d3e9bff14869474efbd488611383d9ea6712e99d"
+    },
+    "successor_clean": {
+      "path": "figures/13-1/data/clean/figure_13_1_successor.csv",
+      "sha256": "29d720fa0003c12088c2da264caef9524a314dc9c105d3629bcac6f1a5d37fa3"
+    },
+    "book_period_comparison": {
+      "path": "figures/13-1/plots/comparisons/figure_13_1_book_period_review.png",
+      "sha256": "0a88d4760577b66d330cf343c7f1a68060f4d700385f6911cbcd7c05f41ed6ff"
+    },
+    "extended_comparison": {
+      "path": "figures/13-1/plots/comparisons/figure_13_1_extended_review.png",
+      "sha256": "7f3fb7805634ec90b6b9e3d28c9154dcc07ba8eccf38190fe6848867463e8ed5"
+    },
+    "caption": {
+      "path": "figures/13-1/captions/caption.txt",
+      "sha256": "6ad70c34bd21f44ca121a69a65482ee8413c8d408dd79a2d598d6db7ac7417d0"
+    },
+    "provenance": {
+      "path": "figures/13-1/provenance/provenance.md",
+      "sha256": "cc00173edc067407e63610f4db1a2521621895eadc915391239a3940819ccd2b"
+    },
+    "source_log": {
+      "path": "figures/13-1/source_logs/source_log.md",
+      "sha256": "b6268823f19632f767b493392a7c727306c05c17c21283f356c58d3abb196704"
+    },
+    "anomaly_review": {
+      "path": "figures/13-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "7b6421f6bc30c6fe1255245923cbf3ed9bbd637520fa5e47e99f94aa759c45d1"
+    },
+    "discrepancy_log": {
+      "path": "figures/13-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "560342072073ae31bfaab98e46baeda286717edc45b7aabcda012f2315aff400"
+    },
+    "review_checklist": {
+      "path": "figures/13-1/review_checklist.md",
+      "sha256": "0c5254a8d05d75883a1f5c87becb0b5b8f5c441ffae0b55affd6c2131465dc36"
+    },
+    "lineage": {
+      "path": "figures/13-1/lineage/lineage.json",
+      "sha256": "b8bbac63ae6eea562a1eb05188d570038b557474af7f0c8d06a786b28ee36ba4"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_13_1.py",
+      "sha256": "019f49259cd6d501154000417b895720b9735516ec84ebde3060005e46445ec9"
     }
-  },
-  "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
-  },
-  "reference": {
-    "figure_id": "13-1",
-    "registry_title": "Terrorism deaths, 1970-2015",
-    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
-    "pdf_page": 22,
-    "panel": 2,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      133,
-      1153,
-      1373,
-      2207
-    ],
-    "crop_bounds_pdf_points": [
-      36.889,
-      319.957,
-      380.813,
-      612.442
-    ],
-    "path": "references/figures/figure_13_1.png",
-    "sha256": "3446642ef2985daeeda187a0aaa881f635892d6ed8e718bb16f01d6f5ca55853",
-    "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 13-1: Terrorism deaths, 1970-2015",
-    "source_note_ocr": "“Global Terrorism Database,” National Consortium for the Study of Terrorism and Responses to Terrorism 2016, https://www.start.umd.edu/gtd/. The rate for the world excludes deaths in Afghan- istan after 2001, Iraq after 2003, Pakistan after 2004, Nigeria after 2009, Syria after 2011, and Libya after 2014. Population estimates for the world and Western Europe are from the European Unions 2015 Revi- sion of World Population Prospects (https://esa.un.org/unpd/wpp/); estimates for the United States are from US Census Bureau 2017. The vertical arrow points to 2007, the last year plotted in figs. 6-9, 6-10, and 6-11 in Pinker 2011",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
   }
 }

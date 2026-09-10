@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "figure_id": "13-1",
+  "book_citation": "START Global Terrorism Database 2016; EU WPP 2015; US Census Bureau 2017",
+  "script": "scripts/reconstruct_13_1.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/13-1/data/raw/owid_terrorism_deaths.csv",
+        "figures/13-1/data/raw/owid_population.csv"
+      ],
+      "selection": "US, listed Western Europe countries, and world with the book's exclusions, 1970-2015",
+      "transformation": "sum deaths; subtract exclusion-country deaths after cutoffs; divide by population and multiply by 100000",
+      "clean": "figures/13-1/data/clean/figure_13_1_book_period.csv",
+      "plot": "figures/13-1/plots/figure_13_1_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": [
+        "figures/13-1/data/raw/owid_terrorism_deaths.csv",
+        "figures/13-1/data/raw/owid_population.csv"
+      ],
+      "selection": "same aggregation 2016-2021",
+      "transformation": "render later GTD-derived data as dashed",
+      "clean": "figures/13-1/data/clean/figure_13_1_successor.csv",
+      "plot": "figures/13-1/plots/figure_13_1_extended.png"
+    }
+  ]
+}

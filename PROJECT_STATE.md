@@ -43,11 +43,11 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 15 |
+| not_started | 14 |
 | partial_match | 31 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
-| updated_equivalent | 8 |
+| updated_equivalent | 9 |
 | verified_reproduction | 12 |
 
 ## Figure Queue
@@ -95,7 +95,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 12-7 | Occupational accident deaths, US, 1913-2015 | partial_match | processed | not_reviewed |
 | 12-8 | Natural disaster deaths, 1900-2015 | updated_equivalent | processed | not_reviewed |
 | 12-9 | Lightning strike deaths, US, 1900-2015 | verified_reproduction | processed | not_reviewed |
-| 13-1 | Terrorism deaths, 1970-2015 | not_started | not_started | incomplete |
+| 13-1 | Terrorism deaths, 1970-2015 | updated_equivalent | processed | not_reviewed |
 | 14-1 | Democracy versus autocracy, 1800-2015 | partial_match | processed | incomplete |
 | 14-2 | Human rights, 1949-2014 | partial_match | processed | incomplete |
 | 14-3 | Death penalty abolitions, 1863-2016 | partial_match | processed | incomplete |
@@ -899,6 +899,27 @@ Status: `verified_reproduction`. Artifact kind: `reconstruction`.
 - Discrepancy log: [figures/12-9/discrepancy_logs/discrepancy_log.md](figures/12-9/discrepancy_logs/discrepancy_log.md)
 - Legacy metadata: [figures/12-9/metadata/metadata.json](figures/12-9/metadata/metadata.json)
 - Metadata: [figures/12-9/figure.json](figures/12-9/figure.json)
+
+### Figure 13-1 - Terrorism deaths, 1970-2015
+
+Status: `updated_equivalent`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/13-1/figure.json](figures/13-1/figure.json)
+- Original reference: [references/figures/figure_13_1.png](references/figures/figure_13_1.png)
+- Book period reconstruction: [figures/13-1/plots/figure_13_1_book_period.png](figures/13-1/plots/figure_13_1_book_period.png)
+- Extended reconstruction: [figures/13-1/plots/figure_13_1_extended.png](figures/13-1/plots/figure_13_1_extended.png)
+- Book period clean: [figures/13-1/data/clean/figure_13_1_book_period.csv](figures/13-1/data/clean/figure_13_1_book_period.csv)
+- Successor clean: [figures/13-1/data/clean/figure_13_1_successor.csv](figures/13-1/data/clean/figure_13_1_successor.csv)
+- Book period comparison: [figures/13-1/plots/comparisons/figure_13_1_book_period_review.png](figures/13-1/plots/comparisons/figure_13_1_book_period_review.png)
+- Extended comparison: [figures/13-1/plots/comparisons/figure_13_1_extended_review.png](figures/13-1/plots/comparisons/figure_13_1_extended_review.png)
+- Caption: [figures/13-1/captions/caption.txt](figures/13-1/captions/caption.txt)
+- Provenance: [figures/13-1/provenance/provenance.md](figures/13-1/provenance/provenance.md)
+- Source log: [figures/13-1/source_logs/source_log.md](figures/13-1/source_logs/source_log.md)
+- Anomaly review: [figures/13-1/anomaly_reviews/anomaly_review.md](figures/13-1/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/13-1/discrepancy_logs/discrepancy_log.md](figures/13-1/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/13-1/review_checklist.md](figures/13-1/review_checklist.md)
+- Lineage: [figures/13-1/lineage/lineage.json](figures/13-1/lineage/lineage.json)
+- Reconstruction script: [scripts/reconstruct_13_1.py](scripts/reconstruct_13_1.py)
 
 ### Figure 14-1 - Democracy versus autocracy, 1800-2015
 
