@@ -1,0 +1,27 @@
+{
+  "figure_id": "16-5",
+  "book_citation": "Pietschnig & Voracek 2015, supplemental online material. Different tests and start dates prohibit comparison between trajectories.",
+  "script": "scripts/reconstruct_16_5.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/16-5/data/raw/owid_iq.csv"
+      ],
+      "selection": "Regional fullscale-change column, six regions, no country endpoints",
+      "transformation": "Preserve numeric gains; label aliases only; Europe initial zero flagged not shown; no extension",
+      "clean": "figures/16-5/data/clean/figure_16_5_book_period.csv",
+      "plot": "figures/16-5/plots/book_period/figure_16_5_book_period.png"
+    },
+    {
+      "role": "extended",
+      "raw_inputs": [
+        "figures/16-5/data/raw/owid_iq.csv"
+      ],
+      "selection": "Regional fullscale-change column, six regions, no country endpoints",
+      "transformation": "Preserve numeric gains; label aliases only; Europe initial zero flagged not shown; no extension",
+      "clean": "figures/16-5/data/clean/figure_16_5_book_period.csv",
+      "plot": "figures/16-5/plots/extended/figure_16_5_extended.png"
+    }
+  ]
+}

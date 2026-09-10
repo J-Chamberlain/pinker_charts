@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/IQ%20Data%20-%20Pietschnig%20and%20Voracek%20%282015%29/IQ%20Data%20-%20Pietschnig%20and%20Voracek%20%282015%29.csv",
+    "path": "figures/16-5/data/raw/owid_iq.csv",
+    "retrieved_at": "2026-09-10T00:35:13.776091+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/IQ%20Data%20-%20Pietschnig%20and%20Voracek%20%282015%29/IQ%20Data%20-%20Pietschnig%20and%20Voracek%20%282015%29.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "210a9656278f1d64baa380306ea921f3c34f3045f28eec2764ae5dc84d6a2f30",
+    "bytes": 1929
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/IQ%20Data%20-%20Pietschnig%20and%20Voracek%20%282015%29/datapackage.json",
+    "path": "figures/16-5/data/raw/owid_iq.json",
+    "retrieved_at": "2026-09-10T00:35:14.057136+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/IQ%20Data%20-%20Pietschnig%20and%20Voracek%20%282015%29/datapackage.json",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "82f1787c24c145853ca3b9d71a95f542bb6a0b3fc890e7451a7a616da398e6f5",
+    "bytes": 1702
+  },
+  {
+    "url": "https://journals.sagepub.com/doi/abs/10.1177/1745691615577701",
+    "path": "figures/16-5/data/candidates/publisher.html",
+    "retrieved_at": "2026-09-10T00:35:30.413496+00:00",
+    "http_status": 403,
+    "final_url": "https://journals.sagepub.com/doi/abs/10.1177/1745691615577701",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/abs/10.1177/1745691615577701"
+  },
+  {
+    "url": "https://web.archive.org/web/20160101000000id_/http://ourworldindata.org/intelligence/",
+    "path": "figures/16-5/data/candidates/owid_archived_topic.html",
+    "retrieved_at": "2026-09-10T00:35:41.372086+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20160424225937id_/http://ourworldindata.org/intelligence/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "2159ce21b373f08014ff0d1cdc2d940eb21156d33ca952cfcda3332eabcfb927",
+    "bytes": 94201
+  },
+  {
+    "url": "https://web.archive.org/web/20160101000000id_/http://pps.sagepub.com/content/10/3/282/suppl/DC1",
+    "path": "figures/16-5/data/candidates/sage_archive.html",
+    "retrieved_at": "2026-09-10T00:35:52.545896+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20150905025408id_/http://pps.sagepub.com/content/10/3/282/suppl/DC1",
+    "content_type": "text/html;charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "42bc582e9975c7faa4a12fc4281b4aa6a30d44da05395d7c31a4c9b989a3cb84",
+    "bytes": 40116
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=journals.sagepub.com/doi/suppl/10.1177/1745691615577701/*&output=json&filter=statuscode:200&collapse=urlkey",
+    "path": "figures/16-5/data/candidates/supplement_cdx.json",
+    "retrieved_at": "2026-09-10T00:36:40.751552+00:00",
+    "http_status": 503,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=journals.sagepub.com/doi/suppl/10.1177/1745691615577701/*&output=json&filter=statuscode:200&collapse=urlkey",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "503 Server Error: Service Unavailable for url: https://web.archive.org/cdx/search/cdx?url=journals.sagepub.com/doi/suppl/10.1177/1745691615577701/*&output=json&filter=statuscode:200&collapse=urlkey"
+  }
+]

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "73d2e1bae237e7f615d8f150e8afb4419e3ec9172aee46f930cd5d7b0933f2f4",
+  "snapshot_id": "f766348d9619668bc49188986d789694e33c44845c23879bc39baf037863c639",
   "figures": 75,
-  "saved_files": 503,
-  "clean_tables": 103,
-  "clean_rows": 41159,
+  "saved_files": 509,
+  "clean_tables": 105,
+  "clean_rows": 41225,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -466,14 +466,14 @@
     {
       "figure_id": "16-5",
       "title": "IQ gains, 1909-2013",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 6,
+      "raw_files": 2,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 66,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "16-6",

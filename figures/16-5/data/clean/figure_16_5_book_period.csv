@@ -1,0 +1,37 @@
+series,year,gain_iq_points,source_series,unit,shown_in_book_plot
+Africa,1963,0.0,Africa,IQ point change from own first observation; not IQ level,True
+Africa,1964,0.33,Africa,IQ point change from own first observation; not IQ level,True
+Africa,1982,3.39,Africa,IQ point change from own first observation; not IQ level,True
+Africa,1986,5.31,Africa,IQ point change from own first observation; not IQ level,True
+Africa,1998,10.83,Africa,IQ point change from own first observation; not IQ level,True
+Africa,2007,13.08,Africa,IQ point change from own first observation; not IQ level,True
+Americas,1909,0.0,America,IQ point change from own first observation; not IQ level,True
+Americas,1923,0.42,America,IQ point change from own first observation; not IQ level,True
+Americas,1939,12.9,America,IQ point change from own first observation; not IQ level,True
+Americas,1946,14.58,America,IQ point change from own first observation; not IQ level,True
+Americas,1979,27.78,America,IQ point change from own first observation; not IQ level,True
+Americas,2007,32.26,America,IQ point change from own first observation; not IQ level,True
+Asia,1951,0.0,Asia,IQ point change from own first observation; not IQ level,True
+Asia,1952,0.9,Asia,IQ point change from own first observation; not IQ level,True
+Asia,1960,10.74,Asia,IQ point change from own first observation; not IQ level,True
+Asia,1969,19.2,Asia,IQ point change from own first observation; not IQ level,True
+Asia,1984,28.05,Asia,IQ point change from own first observation; not IQ level,True
+Asia,2013,36.75,Asia,IQ point change from own first observation; not IQ level,True
+Australia & NZ,1936,0.0,Oceania,IQ point change from own first observation; not IQ level,True
+Australia & NZ,1949,4.42,Oceania,IQ point change from own first observation; not IQ level,True
+Australia & NZ,1967,9.46,Oceania,IQ point change from own first observation; not IQ level,True
+Australia & NZ,1988,17.86,Oceania,IQ point change from own first observation; not IQ level,True
+Australia & NZ,1991,19.87,Oceania,IQ point change from own first observation; not IQ level,True
+Australia & NZ,1995,20.31,Oceania,IQ point change from own first observation; not IQ level,True
+Europe,1912,0.0,Europe,IQ point change from own first observation; not IQ level,False
+Europe,1933,4.41,Europe,IQ point change from own first observation; not IQ level,True
+Europe,1947,5.53,Europe,IQ point change from own first observation; not IQ level,True
+Europe,1958,10.37,Europe,IQ point change from own first observation; not IQ level,True
+Europe,1969,13.78,Europe,IQ point change from own first observation; not IQ level,True
+Europe,2010,22.8,Europe,IQ point change from own first observation; not IQ level,True
+World,1909,0.0,Global,IQ point change from own first observation; not IQ level,True
+World,1923,1.12,Global,IQ point change from own first observation; not IQ level,True
+World,1935,9.76,Global,IQ point change from own first observation; not IQ level,True
+World,1947,12.28,Global,IQ point change from own first observation; not IQ level,True
+World,1976,20.98,Global,IQ point change from own first observation; not IQ level,True
+World,2013,29.49,Global,IQ point change from own first observation; not IQ level,True
