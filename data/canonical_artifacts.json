@@ -2284,8 +2284,8 @@
     }
   },
   "14-3": {
-    "scientific_status": "not_started",
-    "artifact_kind": "not_started",
+    "scientific_status": "partial_match",
+    "artifact_kind": "reconstruction",
     "artifacts": {
       "metadata": {
         "path": "figures/14-3/figure.json",
@@ -2294,6 +2294,82 @@
       "original_reference": {
         "path": "references/figures/figure_14_3.png",
         "sha256": "7f2c4a90301392a76f025112c56fa3618850f97274492c1254a940246a350cfc"
+      },
+      "provenance": {
+        "path": "figures/14-3/provenance/provenance.md",
+        "sha256": "260f32b39a0bb7fe2fdd0be77f9f1507fd1f487ac8a5844e2b2ca8f38aa72214"
+      },
+      "caption": {
+        "path": "figures/14-3/captions/caption.txt",
+        "sha256": "bc471ecc9a3eb4599fa710987dfed973eb7143f664348ede717877115c2f5efd"
+      },
+      "source_log": {
+        "path": "figures/14-3/source_logs/source_log.md",
+        "sha256": "aa6be5ed3fc239bc17a757e442e969642ab895d2860333a96e07fed1840a25c0"
+      },
+      "search_log": {
+        "path": "figures/14-3/search_iterations/search_iterations.md",
+        "sha256": "17f19226f9482a22c03d1c5bc6c4c0ecfabde18bc5c37f96640ce82c146e2c22"
+      },
+      "download_log": {
+        "path": "figures/14-3/source_logs/downloads.json",
+        "sha256": "e01763f66be4abf03bf00a6ace4b5aa3713660c47c2b4222ccf213e0a9a24e5f"
+      },
+      "anomaly_review": {
+        "path": "figures/14-3/anomaly_reviews/anomaly_review.md",
+        "sha256": "4c63811721a118e058fce2b53533c5eee8042e2394f3f4153369e1cefc21aa69"
+      },
+      "discrepancy_log": {
+        "path": "figures/14-3/discrepancy_logs/discrepancy_log.md",
+        "sha256": "bc78d44fecb8fc5c5d38f3e21b56f1e743ba664dd191c8a9075937b8b5de32d7"
+      },
+      "review_checklist": {
+        "path": "figures/14-3/review_checklist.md",
+        "sha256": "7265b095029537cdda8be63c862690e33464540f97fc78a4f2b6ae877ae386c1"
+      },
+      "book_period_reconstruction": {
+        "path": "figures/14-3/plots/book_period/figure_14_3_book_period.png",
+        "sha256": "67d4df67f4eeda0e1cf10233ea4f1ff0a6933c01ec8cacc19826bd8dd8560839"
+      },
+      "extended_reconstruction": {
+        "path": "figures/14-3/plots/extended/figure_14_3_extended.png",
+        "sha256": "68b634f3ecec6ce09afd2b30523b7dd500a11ee8f31e40270b72f1537e29687f"
+      },
+      "diagnostic": {
+        "path": "figures/14-3/plots/diagnostics/source_counts.png",
+        "sha256": "b75f5ff02f43b5f8f8b7ab7b68ab316cf19905cc626c000ec4a229c1c0568da0"
+      },
+      "book_period_clean": {
+        "path": "figures/14-3/data/clean/figure_14_3_book_period.csv",
+        "sha256": "2b928a06f3da7942a7c9373a942754df4af27d5b3bfeba2e63d8505428aa857e"
+      },
+      "successor_clean": {
+        "path": "figures/14-3/data/clean/figure_14_3_successor.csv",
+        "sha256": "6fa1b790ddc81481285b6c76b56b65f2de60305fb6d035c5eadb2d8e18f9e379"
+      },
+      "diagnostic_clean": {
+        "path": "figures/14-3/data/clean/figure_14_3_source_anomalies.csv",
+        "sha256": "52b0fd205b6f8b04a5dac2c3f75e9a7525b7443a6c08113bd321c8ef415ed7c9"
+      },
+      "lineage": {
+        "path": "figures/14-3/lineage/lineage.json",
+        "sha256": "d306514714b480b3660ed2d04c519a46aec8d3c11d95b4c135252509ed0ba51a"
+      },
+      "lineage_csv": {
+        "path": "figures/14-3/lineage/lineage.csv",
+        "sha256": "8832b492c4aa9f571fc862acab38a2504abbe9b0487b5df9f0a42378e051cc78"
+      },
+      "reconstruction_script": {
+        "path": "scripts/reconstruct_14_3.py",
+        "sha256": "9b703bd530021f6d73506fa0656f3bab320a774efca4990b2c251aa892edf45f"
+      },
+      "book_period_comparison": {
+        "path": "figures/14-3/plots/comparisons/figure_14_3_book_period_review.png",
+        "sha256": "1438286b4f1002bec1c43dd644f302cd05b9e0aff0c4676559ef50d99283fc74"
+      },
+      "extended_comparison": {
+        "path": "figures/14-3/plots/comparisons/figure_14_3_extended_review.png",
+        "sha256": "6d97426f6d0647ba6c76132b6eba842a4d87aeb9e69bcadaa0f40fbca6508bf6"
       }
     }
   },

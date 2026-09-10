@@ -1,0 +1,178 @@
+[
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=Capital_punishment_by_country&rvstart=2016-08-15T23:59:59Z&rvlimit=1&rvprop=ids%7Ctimestamp&format=json",
+    "path": "figures/14-3/data/candidates/wikipedia_revision.json",
+    "retrieved_at": "2026-09-10T01:03:02.973052+00:00",
+    "http_status": 200,
+    "final_url": "https://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=Capital_punishment_by_country&rvstart=2016-08-15T23:59:59Z&rvlimit=1&rvprop=ids%7Ctimestamp&format=json",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "c99f33c6c326c325de95aad8a4c881c810c48adf7025b10103811b6cd8f03b49",
+    "bytes": 345
+  },
+  {
+    "url": "https://deathpenaltyinfo.org/policy-issues/policy/international/countries-that-have-abolished-the-death-penalty-since-1976",
+    "path": "figures/14-3/data/raw/dpic_abolition.html",
+    "retrieved_at": "2026-09-10T01:03:04.637289+00:00",
+    "http_status": 200,
+    "final_url": "https://deathpenaltyinfo.org/policy-issues/policy/international/countries-that-have-abolished-the-death-penalty-since-1976",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "43405818785cc41c8ff886e8508a301013b2c0f2091d6f094ee9afb051ddd388",
+    "bytes": 244711
+  },
+  {
+    "url": "https://web.archive.org/web/20160815000000id_/https://en.wikipedia.org/wiki/Capital_punishment_by_country",
+    "path": "figures/14-3/data/raw/wikipedia_2016.html",
+    "retrieved_at": "2026-09-10T01:03:03.454653+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20161012131659id_/https://en.wikipedia.org/wiki/Capital_punishment_by_country",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "ed3831d78962288b94c36ef26fea7ef3ad1eecb50c11c7650ffb84af9ca61cd8",
+    "bytes": 662337
+  },
+  {
+    "url": "https://www.amnesty.org/en/latest/news/2026/05/death-penalty-in-2025-facts-and-figures/",
+    "path": "figures/14-3/data/raw/amnesty_2025.html",
+    "retrieved_at": "2026-09-10T01:03:22.625647+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/latest/news/2026/05/death-penalty-in-2025-facts-and-figures/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "57ea5ac19da78f474ae35c85c30eb077d811b2d73eb7c87520180b1f2ebb5459",
+    "bytes": 120393
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=parse&oldid=734519509&prop=text%7Crevid%7Cdisplaytitle&format=json",
+    "path": "figures/14-3/data/raw/wikipedia_734519509.json",
+    "retrieved_at": "2026-09-10T01:03:20.380821+00:00",
+    "http_status": 200,
+    "final_url": "https://en.wikipedia.org/w/api.php?action=parse&oldid=734519509&prop=text%7Crevid%7Cdisplaytitle&format=json",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "f2ce2b6213de8fad85ced3c4bd05a43b99a873071b7b93e086ab96e5b3e3c5f6",
+    "bytes": 796543
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Capital_punishment_by_country&prop=text%7Crevid&format=json",
+    "path": "figures/14-3/data/raw/wikipedia_current.json",
+    "retrieved_at": "2026-09-10T01:03:21.461042+00:00",
+    "http_status": 200,
+    "final_url": "https://en.wikipedia.org/w/api.php?action=parse&page=Capital_punishment_by_country&prop=text%7Crevid&format=json",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "35565be73797ee96274ee27b0b305e1997375df77540ab880b1a384006b3761d",
+    "bytes": 1212666
+  },
+  {
+    "url": "https://www.amnesty.org/en/wp-content/uploads/2026/05/ACT5007782026ENGLISH.pdf",
+    "path": "figures/14-3/data/candidates/amnesty_2025.pdf",
+    "retrieved_at": "2026-09-10T01:03:51.680477+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/wp-content/uploads/2026/05/ACT5007782026ENGLISH.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "617c7477d049f46445fa58a3305de82f45dcefe572b88e9a467a74eb2195c41e",
+    "bytes": 6946740
+  },
+  {
+    "url": "https://www.amnesty.org/en/latest/news/2017/04/death-penalty-2016-facts-and-figures/",
+    "path": "figures/14-3/data/raw/amnesty_2016.html",
+    "retrieved_at": "2026-09-10T01:04:31.592489+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/latest/news/2017/04/death-penalty-2016-facts-and-figures/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "da1ed933541ee54f62a7962bf43d5921a5041a3ade32b93c76c14192074c68f0",
+    "bytes": 119265
+  },
+  {
+    "url": "https://www.amnesty.org/en/latest/news/2018/04/death-penalty-facts-and-figures-2017/",
+    "path": "figures/14-3/data/raw/amnesty_2017.html",
+    "retrieved_at": "2026-09-10T01:04:32.211080+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/latest/news/2018/04/death-penalty-facts-and-figures-2017/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "b7df3bb005acdae146d17a3486d3cdf290a63b99c24022b12d7595b5c8c70d09",
+    "bytes": 117657
+  },
+  {
+    "url": "https://www.amnesty.org/en/latest/news/2019/04/death-penalty-facts-and-figures-2018/",
+    "path": "figures/14-3/data/raw/amnesty_2018.html",
+    "retrieved_at": "2026-09-10T01:04:32.913539+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/latest/news/2019/04/death-penalty-facts-and-figures-2018/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "33f282bed3662410f737e3b7508bdc3c57a4da0d606e037f56da2fb4e0eb38e6",
+    "bytes": 121863
+  },
+  {
+    "url": "https://www.amnesty.org/en/latest/news/2020/04/death-penalty-in-2019-facts-and-figures/",
+    "path": "figures/14-3/data/raw/amnesty_2019.html",
+    "retrieved_at": "2026-09-10T01:04:33.109234+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/latest/news/2020/04/death-penalty-in-2019-facts-and-figures/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "1b2d5cc78c507ab86f124b0a152dac2f3e5cfef867c0b609221a86f9b96a5daa",
+    "bytes": 123319
+  },
+  {
+    "url": "https://www.amnesty.org/en/latest/news/2021/04/death-penalty-in-2020-facts-and-figures-2/",
+    "path": "figures/14-3/data/raw/amnesty_2020.html",
+    "retrieved_at": "2026-09-10T01:04:33.628842+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/latest/news/2021/04/death-penalty-in-2020-facts-and-figures-2/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "042f3bd0b9ab350bcea0ee9e33b7030db0356653a9689e7df7cb000e16f604b8",
+    "bytes": 118983
+  },
+  {
+    "url": "https://www.amnesty.org/en/latest/news/2022/05/death-penalty-2021-facts-and-figures/",
+    "path": "figures/14-3/data/raw/amnesty_2021.html",
+    "retrieved_at": "2026-09-10T01:04:33.962359+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/latest/news/2022/05/death-penalty-2021-facts-and-figures/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "0ab79f388991e01f26c52a3906d82420c33a3d19b50b442ce93b973605ab134c",
+    "bytes": 108329
+  },
+  {
+    "url": "https://www.amnesty.org/en/latest/news/2023/05/death-penalty-2022-executions-skyrocket/",
+    "path": "figures/14-3/data/raw/amnesty_2022.html",
+    "retrieved_at": "2026-09-10T01:04:34.498426+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/latest/news/2023/05/death-penalty-2022-executions-skyrocket/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "54fd02096061893eceb65f1af8c8d23ce69c71c1bde01b7662028a5e8a979562",
+    "bytes": 138222
+  },
+  {
+    "url": "https://www.amnesty.org/en/latest/news/2024/05/global-executions-soar-highest-number-in-decade/",
+    "path": "figures/14-3/data/raw/amnesty_2023.html",
+    "retrieved_at": "2026-09-10T01:04:34.703870+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/latest/news/2024/05/global-executions-soar-highest-number-in-decade/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "879fe76f5731d84a86477074a0cecc57bbfa1f956c51898ad7ce6ac0575b5a4a",
+    "bytes": 134921
+  },
+  {
+    "url": "https://www.amnesty.org/en/latest/news/2025/04/global-recorded-executions-hit-their-highest-figure-since-2015/",
+    "path": "figures/14-3/data/raw/amnesty_2024.html",
+    "retrieved_at": "2026-09-10T01:04:35.011820+00:00",
+    "http_status": 200,
+    "final_url": "https://www.amnesty.org/en/latest/news/2025/04/global-recorded-executions-hit-their-highest-figure-since-2015/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "916094f96d110ebde6352957d2062f090de3709a6da38001b24786131519f84a",
+    "bytes": 128468
+  }
+]

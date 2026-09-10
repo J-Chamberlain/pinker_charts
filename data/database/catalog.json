@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "bd36b1986d0197714172bab7824fa1a480716c769485bb31b1fb8d9c718e60f9",
+  "snapshot_id": "841daa5a4e5d60238905d8c77caa7594343f517a15d0176e009766af28af2af3",
   "figures": 75,
-  "saved_files": 551,
-  "clean_tables": 112,
-  "clean_rows": 43478,
+  "saved_files": 570,
+  "clean_tables": 115,
+  "clean_rows": 43540,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -286,14 +286,14 @@
     {
       "figure_id": "14-3",
       "title": "Death penalty abolitions, 1863-2016",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 19,
+      "raw_files": 14,
+      "clean_tables": 3,
+      "canonical_declared_clean_tables": 3,
+      "clean_rows": 62,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "14-4",
