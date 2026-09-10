@@ -1,0 +1,101 @@
+year,series,incidents,source_file,source_kind
+1996,Anti-Asian,355,fbi_hate_crime_1996.pdf,official FBI annual report
+1997,Anti-Asian,347,fbi_hate_crime_1997.pdf,official FBI annual report
+1998,Anti-Asian,293,fbi_hate_crime_1998.pdf,official FBI annual report
+1999,Anti-Asian,298,fbi_hate_crime_1999.pdf,official FBI annual report
+2000,Anti-Asian,281,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2001,Anti-Asian,280,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2002,Anti-Asian,217,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2003,Anti-Asian,231,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2004,Anti-Asian,217,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2005,Anti-Asian,199,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2006,Anti-Asian,181,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2007,Anti-Asian,188,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2008,Anti-Asian,137,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2009,Anti-Asian,126,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2010,Anti-Asian,150,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2011,Anti-Asian,138,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2012,Anti-Asian,121,fbi_hate_crime_table_1_2012.xls,official FBI table 1
+2013,Anti-Asian,135,fbi_hate_crime_table_1_2013.xls,official FBI table 1
+2014,Anti-Asian,140,fbi_hate_crime_table_1_2014.xls,official FBI table 1
+2015,Anti-Asian,111,fbi_hate_crime_table_1_2015.xls,official FBI table 1
+1996,Anti-Islamic,27,fbi_hate_crime_1996.pdf,official FBI annual report
+1997,Anti-Islamic,28,fbi_hate_crime_1997.pdf,official FBI annual report
+1998,Anti-Islamic,21,fbi_hate_crime_1998.pdf,official FBI annual report
+1999,Anti-Islamic,32,fbi_hate_crime_1999.pdf,official FBI annual report
+2000,Anti-Islamic,28,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2001,Anti-Islamic,481,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2002,Anti-Islamic,155,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2003,Anti-Islamic,149,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2004,Anti-Islamic,156,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2005,Anti-Islamic,128,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2006,Anti-Islamic,156,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2007,Anti-Islamic,115,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2008,Anti-Islamic,105,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2009,Anti-Islamic,107,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2010,Anti-Islamic,160,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2011,Anti-Islamic,157,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2012,Anti-Islamic,130,fbi_hate_crime_table_1_2012.xls,official FBI table 1
+2013,Anti-Islamic,135,fbi_hate_crime_table_1_2013.xls,official FBI table 1
+2014,Anti-Islamic,154,fbi_hate_crime_table_1_2014.xls,official FBI table 1
+2015,Anti-Islamic,257,fbi_hate_crime_table_1_2015.xls,official FBI table 1
+1996,Anti-Jewish,1109,fbi_hate_crime_1996.pdf,official FBI annual report
+1997,Anti-Jewish,1087,fbi_hate_crime_1997.pdf,official FBI annual report
+1998,Anti-Jewish,1081,fbi_hate_crime_1998.pdf,official FBI annual report
+1999,Anti-Jewish,1109,fbi_hate_crime_1999.pdf,official FBI annual report
+2000,Anti-Jewish,1109,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2001,Anti-Jewish,1043,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2002,Anti-Jewish,931,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2003,Anti-Jewish,927,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2004,Anti-Jewish,954,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2005,Anti-Jewish,848,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2006,Anti-Jewish,967,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2007,Anti-Jewish,969,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2008,Anti-Jewish,1013,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2009,Anti-Jewish,931,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2010,Anti-Jewish,887,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2011,Anti-Jewish,771,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2012,Anti-Jewish,674,fbi_hate_crime_table_1_2012.xls,official FBI table 1
+2013,Anti-Jewish,625,fbi_hate_crime_table_1_2013.xls,official FBI table 1
+2014,Anti-Jewish,609,fbi_hate_crime_table_1_2014.xls,official FBI table 1
+2015,Anti-Jewish,664,fbi_hate_crime_table_1_2015.xls,official FBI table 1
+1996,Anti-black,3674,fbi_hate_crime_1996.pdf,official FBI annual report
+1997,Anti-black,3120,fbi_hate_crime_1997.pdf,official FBI annual report
+1998,Anti-black,2901,fbi_hate_crime_1998.pdf,official FBI annual report
+1999,Anti-black,2958,fbi_hate_crime_1999.pdf,official FBI annual report
+2000,Anti-black,2904,fbi_cius_2000_section_2.pdf,official FBI annual table
+2001,Anti-black,2899,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2002,Anti-black,2486,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2003,Anti-black,2548,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2004,Anti-black,2731,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2005,Anti-black,2630,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2006,Anti-black,2640,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2007,Anti-black,2658,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2008,Anti-black,2876,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2009,Anti-black,2284,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2010,Anti-black,2201,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2011,Anti-black,2076,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2012,Anti-black,1805,fbi_hate_crime_table_1_2012.xls,official FBI table 1
+2013,Anti-black,1856,fbi_hate_crime_table_1_2013.xls,official FBI table 1
+2014,Anti-black,1621,fbi_hate_crime_table_1_2014.xls,official FBI table 1
+2015,Anti-black,1745,fbi_hate_crime_table_1_2015.xls,official FBI table 1
+1996,Anti-white,1106,fbi_hate_crime_1996.pdf,official FBI annual report
+1997,Anti-white,993,fbi_hate_crime_1997.pdf,official FBI annual report
+1998,Anti-white,792,fbi_hate_crime_1998.pdf,official FBI annual report
+1999,Anti-white,781,fbi_hate_crime_1999.pdf,official FBI annual report
+2000,Anti-white,875,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2001,Anti-white,891,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2002,Anti-white,719,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2003,Anti-white,830,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2004,Anti-white,829,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2005,Anti-white,828,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2006,Anti-white,890,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2007,Anti-white,749,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2008,Anti-white,716,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2009,Anti-white,545,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2010,Anti-white,575,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2011,Anti-white,504,adl_fbi_hate_crime_comparison_2000_2020.pdf,ADL compilation of FBI data
+2012,Anti-white,657,fbi_hate_crime_table_1_2012.xls,official FBI table 1
+2013,Anti-white,653,fbi_hate_crime_table_1_2013.xls,official FBI table 1
+2014,Anti-white,593,fbi_hate_crime_table_1_2014.xls,official FBI table 1
+2015,Anti-white,613,fbi_hate_crime_table_1_2015.xls,official FBI table 1

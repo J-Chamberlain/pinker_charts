@@ -1,36 +1,47 @@
 {
-  "schema_version": 1,
   "figure_id": "15-3",
-  "book": "Enlightenment Now",
-  "chapter": "15",
   "title": "Hate crimes, US, 1996-2015",
-  "page": "",
-  "year_range": "1996-2015",
-  "source_type_guess": "unknown",
-  "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
-  "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+  "scientific_status": "updated_equivalent",
+  "artifact_kind": "reconstruction",
+  "publication_status": "not_reviewed",
+  "execution_status": "processed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover official FBI annual files for 2000-2011 and compare against the ADL compilation.",
+  "notes": "Incident counts; official FBI endpoints and successor, ADL compilation for 2000-2011.",
+  "extension": {
+    "status": "successor",
+    "label": "Official FBI successor tables 2016-2017"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
-  },
-  "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "inspected",
+    "reference_basis": "original",
+    "issues": [
+      "mixed source packaging",
+      "reporting coverage changes",
+      "category terminology changes"
+    ],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_15_3.png",
+        "sha256": "43ccbb95203b3191bdd86176dcdc9493f661dbb87bd5838c18db099ebc2b61b3"
+      },
+      {
+        "path": "figures/15-3/plots/figure_15_3_book_period.png",
+        "sha256": "7363879c2cfae9d30663ff7e7ee7fd01ec375f094d9bd456c9178abf48c27a3a"
+      },
+      {
+        "path": "figures/15-3/plots/figure_15_3_extended.png",
+        "sha256": "38de3295e4c2660a304458ce2d86e259e019fd8390cad7eb98149f29477a100f"
+      },
+      {
+        "path": "figures/15-3/plots/comparisons/figure_15_3_book_period_review.png",
+        "sha256": "8a681548e788e3a24a66601df61d295d291e4486f45c16d9694c71ad2398d005"
+      },
+      {
+        "path": "figures/15-3/plots/comparisons/figure_15_3_extended_review.png",
+        "sha256": "d4a9f2526077c0c4151533361652a2a1fc978aa03256cb3cda4e9c8a4e17cedb"
+      }
+    ]
   },
   "artifacts": {
     "metadata": {
@@ -40,46 +51,62 @@
     "original_reference": {
       "path": "references/figures/figure_15_3.png",
       "sha256": "43ccbb95203b3191bdd86176dcdc9493f661dbb87bd5838c18db099ebc2b61b3"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/15-3/plots/figure_15_3_book_period.png",
+      "sha256": "7363879c2cfae9d30663ff7e7ee7fd01ec375f094d9bd456c9178abf48c27a3a"
+    },
+    "extended_reconstruction": {
+      "path": "figures/15-3/plots/figure_15_3_extended.png",
+      "sha256": "38de3295e4c2660a304458ce2d86e259e019fd8390cad7eb98149f29477a100f"
+    },
+    "book_period_clean": {
+      "path": "figures/15-3/data/clean/figure_15_3_book_period.csv",
+      "sha256": "96b235101df586541b4967086422757849bbeb3c64e1d29bfa87947fe7402284"
+    },
+    "successor_clean": {
+      "path": "figures/15-3/data/clean/figure_15_3_successor.csv",
+      "sha256": "8be759c065d2e56a668261baa7e1929090be215c0996b6ff55796dcb5b697537"
+    },
+    "book_period_comparison": {
+      "path": "figures/15-3/plots/comparisons/figure_15_3_book_period_review.png",
+      "sha256": "8a681548e788e3a24a66601df61d295d291e4486f45c16d9694c71ad2398d005"
+    },
+    "extended_comparison": {
+      "path": "figures/15-3/plots/comparisons/figure_15_3_extended_review.png",
+      "sha256": "d4a9f2526077c0c4151533361652a2a1fc978aa03256cb3cda4e9c8a4e17cedb"
+    },
+    "caption": {
+      "path": "figures/15-3/captions/caption.txt",
+      "sha256": "fd7b7fa4095626d6356db66e99804a09a556fc802706883ffa5e5495fa009245"
+    },
+    "provenance": {
+      "path": "figures/15-3/provenance/provenance.md",
+      "sha256": "b9c79fc94c03cfb14235bb00e2be38360455c61c452e291aa5d02ac9e62c1e9f"
+    },
+    "source_log": {
+      "path": "figures/15-3/source_logs/source_log.md",
+      "sha256": "dba5c254c2dc6b4c4d26e40207a0880a6f4f2c6a6f7feb596be5ebc0a60800d0"
+    },
+    "anomaly_review": {
+      "path": "figures/15-3/anomaly_reviews/anomaly_review.md",
+      "sha256": "5e8a142c78a81e61500413d8ee38e1ee0a977b120e891f3c761b9604189340ec"
+    },
+    "discrepancy_log": {
+      "path": "figures/15-3/discrepancy_logs/discrepancy_log.md",
+      "sha256": "2d1a394d214d74803acfa5a7f589a8f825dc49fbbeaefd3904236c1d429675fe"
+    },
+    "review_checklist": {
+      "path": "figures/15-3/review_checklist.md",
+      "sha256": "2668ec75f670f9b5300ddb1ddb530a58cc60eb573cc9367508efec6a42184f43"
+    },
+    "lineage": {
+      "path": "figures/15-3/lineage/lineage.json",
+      "sha256": "b0884a32b0eca7a75e549ea502d15dc92a98cbfa1ec2c34a6125fa7f62d87e36"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_15_3.py",
+      "sha256": "ca02338450361c779500ad246172646bfef86683c96acf6f0b444c918feaec44"
     }
-  },
-  "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
-  },
-  "reference": {
-    "figure_id": "15-3",
-    "registry_title": "Hate crimes, US, 1996-2015",
-    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
-    "pdf_page": 26,
-    "panel": 1,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      143,
-      220,
-      1381,
-      1121
-    ],
-    "crop_bounds_pdf_points": [
-      39.662,
-      61.05,
-      383.032,
-      311.077
-    ],
-    "path": "references/figures/figure_15_3.png",
-    "sha256": "43ccbb95203b3191bdd86176dcdc9493f661dbb87bd5838c18db099ebc2b61b3",
-    "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 15-3: Hate crimes, US, 1996-2015",
-    "source_note_ocr": "Federal Bureau of Investigation 2016b. The arrow points to 2008, the last year plotted in fig. 7-4 of Pinker 2011.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
   }
 }

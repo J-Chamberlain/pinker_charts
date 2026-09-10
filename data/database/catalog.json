@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "850fa5d3a40cc0b95a3e6b462945eb60b70a58e212a8394450e578194b291ce7",
+  "snapshot_id": "3bf27c26c691bf2e13aec6a4f6cb5dc8f40f1769d8dd6878c21852340e3958ab",
   "figures": 75,
-  "saved_files": 647,
-  "clean_tables": 141,
-  "clean_rows": 60283,
+  "saved_files": 663,
+  "clean_tables": 143,
+  "clean_rows": 60393,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -334,14 +334,14 @@
     {
       "figure_id": "15-3",
       "title": "Hate crimes, US, 1996-2015",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "updated_equivalent",
+      "artifact_kind": "reconstruction",
+      "saved_files": 16,
+      "raw_files": 14,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 110,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "15-4",

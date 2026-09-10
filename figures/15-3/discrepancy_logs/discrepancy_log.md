@@ -1,0 +1,3 @@
+# Discrepancy log
+
+The recreated lines match the reference's large anti-black series, roughly stable anti-Jewish series, lower anti-white/anti-Asian series, and 2001 anti-Islamic spike. The first pass showed an artificial anti-black spike in 2000 because the ADL compilation reported 3,884; the archived FBI Section II table reports 2,904 and is now used. The remaining unresolved discrepancy is source coverage: the package still mixes official FBI tables with an ADL compilation for most of 2000-2011, and reporting participation/category definitions are not constant. The 2016-2017 successor is dashed rather than visually merged into the book period.

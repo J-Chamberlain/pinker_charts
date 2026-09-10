@@ -1,0 +1,11 @@
+year,series,incidents,source_file,source_kind
+2016,Anti-Asian,113,fbi_hate_crime_table_1_2016.xls,official FBI table 1 successor
+2017,Anti-Asian,131,fbi_hate_crime_table_1_2017.xls,official FBI table 1 successor
+2016,Anti-Islamic,307,fbi_hate_crime_table_1_2016.xls,official FBI table 1 successor
+2017,Anti-Islamic,273,fbi_hate_crime_table_1_2017.xls,official FBI table 1 successor
+2016,Anti-Jewish,684,fbi_hate_crime_table_1_2016.xls,official FBI table 1 successor
+2017,Anti-Jewish,938,fbi_hate_crime_table_1_2017.xls,official FBI table 1 successor
+2016,Anti-black,1739,fbi_hate_crime_table_1_2016.xls,official FBI table 1 successor
+2017,Anti-black,2013,fbi_hate_crime_table_1_2017.xls,official FBI table 1 successor
+2016,Anti-white,720,fbi_hate_crime_table_1_2016.xls,official FBI table 1 successor
+2017,Anti-white,741,fbi_hate_crime_table_1_2017.xls,official FBI table 1 successor

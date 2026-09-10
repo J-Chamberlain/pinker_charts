@@ -1,0 +1,19 @@
+{
+  "book_source": "Federal Bureau of Investigation 2016b",
+  "official_archive": "https://ucr.fbi.gov/hate-crime",
+  "annual_range": "1996-2015",
+  "measure": "reported hate crime incidents by bias motivation",
+  "raw_files": [
+    "fbi_hate_crime_1996.pdf",
+    "fbi_hate_crime_1997.pdf",
+    "fbi_hate_crime_1998.pdf",
+    "fbi_hate_crime_1999.pdf",
+    "fbi_cius_2000_section_2.pdf",
+    "adl_fbi_hate_crime_comparison_2000_2020.pdf",
+    "fbi_hate_crime_table_1_2012.xls",
+    "fbi_hate_crime_table_1_2013.xls",
+    "fbi_hate_crime_table_1_2014.xls",
+    "fbi_hate_crime_table_1_2015.xls"
+  ],
+  "notes": "The 2000-2011 incident counts were transcribed from the ADL's compilation of FBI annual data, except the 2000 anti-black row, which was corrected to 2,904 from the archived official FBI Section II table after the ADL value of 3,884 produced a false visual spike. Official FBI annual reports/workbooks were used at the endpoints and for 1996-1999. Terminology changed across releases; labels are harmonized to the book's five visible series."
+}
