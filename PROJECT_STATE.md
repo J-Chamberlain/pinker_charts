@@ -43,8 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 25 |
-| partial_match | 22 |
+| not_started | 24 |
+| partial_match | 23 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 7 |
@@ -97,7 +97,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 12-9 | Lightning strike deaths, US, 1900-2015 | verified_reproduction | processed | not_reviewed |
 | 13-1 | Terrorism deaths, 1970-2015 | not_started | not_started | incomplete |
 | 14-1 | Democracy versus autocracy, 1800-2015 | partial_match | processed | incomplete |
-| 14-2 | Human rights, 1949-2014 | not_started | not_started | incomplete |
+| 14-2 | Human rights, 1949-2014 | partial_match | processed | incomplete |
 | 14-3 | Death penalty abolitions, 1863-2016 | not_started | not_started | incomplete |
 | 14-4 | Executions, US, 1780-2016 | not_started | not_started | incomplete |
 | 15-1 | Racist, sexist, and homophobic opinions, US, 1987-2012 | not_started | not_started | incomplete |
@@ -774,6 +774,32 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Recovery script: [scripts/recover_14_1.py](scripts/recover_14_1.py)
 - Book period comparison: [figures/14-1/plots/comparisons/figure_14_1_book_period_review.png](figures/14-1/plots/comparisons/figure_14_1_book_period_review.png)
 - Extended comparison: [figures/14-1/plots/comparisons/figure_14_1_extended_review.png](figures/14-1/plots/comparisons/figure_14_1_extended_review.png)
+
+### Figure 14-2 - Human rights, 1949-2014
+
+Status: `partial_match`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/14-2/figure.json](figures/14-2/figure.json)
+- Provenance: [figures/14-2/provenance/provenance.md](figures/14-2/provenance/provenance.md)
+- Caption: [figures/14-2/captions/caption.txt](figures/14-2/captions/caption.txt)
+- Source log: [figures/14-2/source_logs/source_log.md](figures/14-2/source_logs/source_log.md)
+- Search log: [figures/14-2/search_iterations/search_iterations.md](figures/14-2/search_iterations/search_iterations.md)
+- Download log: [figures/14-2/source_logs/downloads.json](figures/14-2/source_logs/downloads.json)
+- Anomaly review: [figures/14-2/anomaly_reviews/anomaly_review.md](figures/14-2/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/14-2/discrepancy_logs/discrepancy_log.md](figures/14-2/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/14-2/review_checklist.md](figures/14-2/review_checklist.md)
+- Book period reconstruction: [figures/14-2/plots/book_period/figure_14_2_book_period.png](figures/14-2/plots/book_period/figure_14_2_book_period.png)
+- Extended reconstruction: [figures/14-2/plots/extended/figure_14_2_extended.png](figures/14-2/plots/extended/figure_14_2_extended.png)
+- Diagnostic: [figures/14-2/plots/diagnostics/world_aggregation.png](figures/14-2/plots/diagnostics/world_aggregation.png)
+- Book period clean: [figures/14-2/data/clean/figure_14_2_book_period.csv](figures/14-2/data/clean/figure_14_2_book_period.csv)
+- Successor clean: [figures/14-2/data/clean/figure_14_2_successor.csv](figures/14-2/data/clean/figure_14_2_successor.csv)
+- Diagnostic clean: [figures/14-2/data/clean/figure_14_2_diagnostic.csv](figures/14-2/data/clean/figure_14_2_diagnostic.csv)
+- Lineage: [figures/14-2/lineage/lineage.json](figures/14-2/lineage/lineage.json)
+- Lineage csv: [figures/14-2/lineage/lineage.csv](figures/14-2/lineage/lineage.csv)
+- Reconstruction script: [scripts/reconstruct_14_2.py](scripts/reconstruct_14_2.py)
+- Original reference: [references/figures/figure_14_2.png](references/figures/figure_14_2.png)
+- Book period comparison: [figures/14-2/plots/comparisons/figure_14_2_book_period_review.png](figures/14-2/plots/comparisons/figure_14_2_book_period_review.png)
+- Extended comparison: [figures/14-2/plots/comparisons/figure_14_2_extended_review.png](figures/14-2/plots/comparisons/figure_14_2_extended_review.png)
 
 ### Figure 16-1 - Literacy, 1475-2010
 

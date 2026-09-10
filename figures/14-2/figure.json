@@ -8,48 +8,149 @@
   "year_range": "1949-2014",
   "source_type_guess": "survey_or_governance_dataset",
   "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "current_owner": "codex_direct",
+  "scientific_status": "partial_match",
+  "execution_status": "processed",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Resolve provider World aggregation and apparent small common vertical offset; independently review surrounding book discussion before publication.",
+  "notes": "All330 numerical observations recovered from archived OWID variable358 uploaded2016. Close five-curve shape agreement; unexplained World aggregation and apparent vertical-level difference remain. Revised v4.02 country extension through2021 in separate panel.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Roser 2016i, graphing an index devised by Fariss 2014; protection from torture, extrajudicial killing, political imprisonment, and disappearances.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "basis": "Exact original chart variable358 recovered from archive, including World; source normalization/World aggregation and small apparent plot offset not independently resolved.",
     "previous_registry_status": "not_started"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
+    "status": "inspected",
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_14_2.png",
+        "sha256": "390c05cfe153f6435813e5d0f955c79fa9fd085c7dd7dd9e578c460344b72a05"
+      },
+      {
+        "path": "figures/14-2/plots/book_period/figure_14_2_book_period.png",
+        "sha256": "8791a2f2f180234726fd0498ef020d15f52e9e2b920dffe56da927a5ee0a1b7b"
+      },
+      {
+        "path": "figures/14-2/plots/extended/figure_14_2_extended.png",
+        "sha256": "c718537f0f44d135eae8248170bd779958f6a8a2c2b5084a17ae4104b9b9b0f9"
+      },
+      {
+        "path": "figures/14-2/plots/comparisons/figure_14_2_book_period_review.png",
+        "sha256": "01faf7c8989a58fd527cc608602e4b441d03529ea520ed9f3358d5cb6ff0105c"
+      },
+      {
+        "path": "figures/14-2/plots/comparisons/figure_14_2_extended_review.png",
+        "sha256": "326153edc02506dbffdc69ce1bf980367522f2bdea7e53240797d069d30f0a19"
+      }
+    ],
+    "issues": [
+      "World is not mean of archived country values",
+      "Small apparent shared vertical offset; no numerical fit applied",
+      "Revised source is not a seamless extension",
+      "Surrounding book discussion pending"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "revised_successor_separate",
+    "notes": "Fariss/Kenwick/Reuning v4.02 four-country update through2021, dotted overlap/dashed after2014; latent scale and historical estimates revised. No World extension invented."
   },
   "artifacts": {
     "metadata": {
       "path": "figures/14-2/figure.json",
       "self": true
     },
+    "provenance": {
+      "path": "figures/14-2/provenance/provenance.md",
+      "sha256": "90603b8de05293b7484cf3961a45a3173b89a4e97e0260079284ec21b0688e0b"
+    },
+    "caption": {
+      "path": "figures/14-2/captions/caption.txt",
+      "sha256": "2d9e3617805a8017355c1e19eb2e8ae513d191aaa057a7202651576c9868697a"
+    },
+    "source_log": {
+      "path": "figures/14-2/source_logs/source_log.md",
+      "sha256": "49e506ff3dc5e73d0fbd6fc069ba2900a84f03eda26f3f52080f1d2eed6dcefa"
+    },
+    "search_log": {
+      "path": "figures/14-2/search_iterations/search_iterations.md",
+      "sha256": "e1ca1bd0c87d8d0499503c80b39d9c991bbd4a48929df504cdb533583ad3b03b"
+    },
+    "download_log": {
+      "path": "figures/14-2/source_logs/downloads.json",
+      "sha256": "871fb0a2bb16ecc275810af72206cd8f8feee2ed9c4681bd4f9ee083fde6b480"
+    },
+    "anomaly_review": {
+      "path": "figures/14-2/anomaly_reviews/anomaly_review.md",
+      "sha256": "d08db69c52e6fd7caa6a2fb619eaea90a24f0d33185ed471a53de5bfcf69f3e0"
+    },
+    "discrepancy_log": {
+      "path": "figures/14-2/discrepancy_logs/discrepancy_log.md",
+      "sha256": "ed67808f46b27661464e6f309405ddbab56c82f494d4770aad48a55b2449dab9"
+    },
+    "review_checklist": {
+      "path": "figures/14-2/review_checklist.md",
+      "sha256": "f25abb2dbc989c1acb055b5416610b539921be00871507c3b2beccee789f8059"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/14-2/plots/book_period/figure_14_2_book_period.png",
+      "sha256": "8791a2f2f180234726fd0498ef020d15f52e9e2b920dffe56da927a5ee0a1b7b"
+    },
+    "extended_reconstruction": {
+      "path": "figures/14-2/plots/extended/figure_14_2_extended.png",
+      "sha256": "c718537f0f44d135eae8248170bd779958f6a8a2c2b5084a17ae4104b9b9b0f9"
+    },
+    "diagnostic": {
+      "path": "figures/14-2/plots/diagnostics/world_aggregation.png",
+      "sha256": "ad7b4c759f3cda6c70586acd31abdc31924a7cac4c2f54b7fb392f0dd8dc9da6"
+    },
+    "book_period_clean": {
+      "path": "figures/14-2/data/clean/figure_14_2_book_period.csv",
+      "sha256": "a27dbd3de719df568fd31e1c15eb13a213ed4c8165e20ae949447577b11b990d"
+    },
+    "successor_clean": {
+      "path": "figures/14-2/data/clean/figure_14_2_successor.csv",
+      "sha256": "c26d641f6f0a84253c6ff05674bd66ef1c229bc56c43d8a4c3e4d13f8698ef5d"
+    },
+    "diagnostic_clean": {
+      "path": "figures/14-2/data/clean/figure_14_2_diagnostic.csv",
+      "sha256": "e9ec7ebc50914336b6ec3708684287ad1622b2842b635512ed4e40556906e23a"
+    },
+    "lineage": {
+      "path": "figures/14-2/lineage/lineage.json",
+      "sha256": "3f4c63e13862f30788be5e4f899cef47baf16aac263470840d6a5c40a373125e"
+    },
+    "lineage_csv": {
+      "path": "figures/14-2/lineage/lineage.csv",
+      "sha256": "4547e8f53285704ba4822166231e3123a927e013c479fdf2911e053ff335726c"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_14_2.py",
+      "sha256": "0424a7343a3777a530e6225dc7c65a4b6b35fb43166b845ea9eb36b84fba7744"
+    },
     "original_reference": {
       "path": "references/figures/figure_14_2.png",
       "sha256": "390c05cfe153f6435813e5d0f955c79fa9fd085c7dd7dd9e578c460344b72a05"
+    },
+    "book_period_comparison": {
+      "path": "figures/14-2/plots/comparisons/figure_14_2_book_period_review.png",
+      "sha256": "01faf7c8989a58fd527cc608602e4b441d03529ea520ed9f3358d5cb6ff0105c"
+    },
+    "extended_comparison": {
+      "path": "figures/14-2/plots/comparisons/figure_14_2_extended_review.png",
+      "sha256": "326153edc02506dbffdc69ce1bf980367522f2bdea7e53240797d069d30f0a19"
     }
   },
   "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "book_page": "Supplemental Graphics PDF p23 lower",
+    "claim_summary": "Human rights protection in four countries and supplied global index, with different regional histories.",
+    "original_dataset": "OWID dataset241 variable358, uploaded2016-06-21, archived2018-09-13",
+    "dataset_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RQ85GK",
+    "archive_url": "https://web.archive.org/web/20180913134846id_/https://ourworldindata.org/grapher/data/variables/358.json?v=3",
+    "download_date": "2026-09-10 UTC",
+    "confidence_score": "High original source identity and curve shapes; medium normalization/aggregation explanation; not publication approved"
   },
   "reference": {
     "figure_id": "14-2",
@@ -79,7 +180,7 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 14-2: Human rights, 1949-2014",
     "source_note_ocr": "Our World in Data, Roser 2016i, graphing an index devised by Fariss 2014, which estimates pro- uo is the mean tection from torture, extrajudicial killing, political imprisonment, and disappearances. over all countries and years; the units are standard deviations.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "visually_confirmed_against_original_pdf",
+    "visual_review": "full_resolution_original_inspected_2026-09-09"
   }
 }

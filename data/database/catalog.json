@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "37f286d455342f1f0ca7396656b4b0003ab59afc08aa0737343d7eb042dfba25",
+  "snapshot_id": "bd36b1986d0197714172bab7824fa1a480716c769485bb31b1fb8d9c718e60f9",
   "figures": 75,
-  "saved_files": 531,
-  "clean_tables": 109,
-  "clean_rows": 42782,
+  "saved_files": 551,
+  "clean_tables": 112,
+  "clean_rows": 43478,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -274,14 +274,14 @@
     {
       "figure_id": "14-2",
       "title": "Human rights, 1949-2014",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 20,
+      "raw_files": 8,
+      "clean_tables": 3,
+      "canonical_declared_clean_tables": 3,
+      "clean_rows": 696,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "14-3",

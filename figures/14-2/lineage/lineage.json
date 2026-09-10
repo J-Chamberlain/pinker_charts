@@ -1,0 +1,11 @@
+{
+  "figure_id": "14-2",
+  "book_citation": "OWID Roser2016i; Fariss2014",
+  "script": "scripts/reconstruct_14_2.py",
+  "mappings": [
+    {"role": "book_period", "raw_inputs": ["figures/14-2/data/raw/owid_variable358_2018.json"], "selection": "variable358; Norway,World,South Korea,China,North Korea1949-2014", "transformation": "Parse aligned numerical arrays/entity keys; no shifting or averaging", "clean": "figures/14-2/data/clean/figure_14_2_book_period.csv", "plot": "figures/14-2/plots/book_period/figure_14_2_book_period.png"},
+    {"role": "extended_history", "raw_inputs": ["figures/14-2/data/raw/owid_variable358_2018.json"], "selection": "Same330original observations", "transformation": "Unchanged historical panel", "clean": "figures/14-2/data/clean/figure_14_2_book_period.csv", "plot": "figures/14-2/plots/extended/figure_14_2_extended.png"},
+    {"role": "revised_successor", "raw_inputs": ["figures/14-2/data/raw/fariss_v4_02_2021.csv"], "selection": "COW385,710,731,732; all1946-2021retained;2000-2021shown", "transformation": "theta_mean/posterior intervals retained; revised model separate, dotted overlap/dashed after2014", "clean": "figures/14-2/data/clean/figure_14_2_successor.csv", "plot": "figures/14-2/plots/extended/figure_14_2_extended.png"},
+    {"role": "diagnostic", "raw_inputs": ["figures/14-2/data/raw/owid_variable358_2018.json"], "selection": "World and all country-year observations1949-2014", "transformation": "Compare supplied World to unweighted country mean; never substitute", "clean": "figures/14-2/data/clean/figure_14_2_diagnostic.csv", "plot": "figures/14-2/plots/diagnostics/world_aggregation.png"}
+  ]
+}

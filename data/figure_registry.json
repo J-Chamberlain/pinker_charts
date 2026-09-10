@@ -780,16 +780,16 @@
     "title": "Human rights, 1949-2014",
     "page": "",
     "year_range": "1949-2014",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "visual_review",
     "source_type_guess": "survey_or_governance_dataset",
     "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-    "execution_status": "not_started",
+    "current_owner": "codex_direct",
+    "next_action": "Resolve provider World aggregation and apparent small common vertical offset; independently review surrounding book discussion before publication.",
+    "notes": "All330 numerical observations recovered from archived OWID variable358 uploaded2016. Close five-curve shape agreement; unexplained World aggregation and apparent vertical-level difference remain. Revised v4.02 country extension through2021 in separate panel.",
+    "execution_status": "processed",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "14-3",
