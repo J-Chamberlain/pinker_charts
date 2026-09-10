@@ -1032,16 +1032,16 @@
     "title": "Years of schooling, 1870-2010",
     "page": "",
     "year_range": "1870-2010",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "verified_reproduction",
+    "lifecycle_stage": "visual_review",
     "source_type_guess": "education_survey_dataset",
     "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-    "execution_status": "not_started",
+    "current_owner": "codex_direct",
+    "next_action": "Independent context/publication review; monitor comparable author estimates beyond2015.",
+    "notes": "203 observations exactly match archived original author workbook. Seven curves reconstructed; author v3 updated2015 estimates distinguished from OWID projections.",
+    "execution_status": "processed",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "16-4",

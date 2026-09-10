@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "22e9bb3733b72fa4b2cc9ddf55214a126d0d03758d9c2af85e2453fed211127f",
+  "snapshot_id": "4373b061503eb304f3a14df0d2d25b2e923f68cbba038977f7c16102fdf3fbf5",
   "figures": 75,
-  "saved_files": 478,
-  "clean_tables": 95,
-  "clean_rows": 40477,
+  "saved_files": 493,
+  "clean_tables": 99,
+  "clean_rows": 41072,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -442,14 +442,14 @@
     {
       "figure_id": "16-3",
       "title": "Years of schooling, 1870-2010",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "verified_reproduction",
+      "artifact_kind": "reconstruction",
+      "saved_files": 15,
+      "raw_files": 11,
+      "clean_tables": 4,
+      "canonical_declared_clean_tables": 4,
+      "clean_rows": 595,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "16-4",

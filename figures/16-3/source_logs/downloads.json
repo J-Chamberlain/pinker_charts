@@ -1,0 +1,123 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Human%20Capital%20in%20Long-Run%20-%20Lee-Lee%20%282016%29/Human%20Capital%20in%20Long-Run%20-%20Lee-Lee%20%282016%29.csv",
+    "path": "figures/16-3/data/raw/owid_legacy.csv",
+    "retrieved_at": "2026-09-10T00:20:49.644401+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Human%20Capital%20in%20Long-Run%20-%20Lee-Lee%20%282016%29/Human%20Capital%20in%20Long-Run%20-%20Lee-Lee%20%282016%29.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "05a81d15f2cff6c9fff82e690f1b302589ca01da05b4da4b920bb5eb06900c9f",
+    "bytes": 321038
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Human%20Capital%20in%20Long-Run%20-%20Lee-Lee%20%282016%29/datapackage.json",
+    "path": "figures/16-3/data/raw/owid_legacy.metadata.json",
+    "retrieved_at": "2026-09-10T00:20:50.000461+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Human%20Capital%20in%20Long-Run%20-%20Lee-Lee%20%282016%29/datapackage.json",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "a9a0cc9c3a3cd85eb8ab7c4ca8d39031aaac16dc910498c3fc9abbcea735540e",
+    "bytes": 6600
+  },
+  {
+    "url": "https://barrolee.github.io/BarroLeeDataSet/DataLeeLee.html",
+    "path": "figures/16-3/data/raw/author_page.html",
+    "retrieved_at": "2026-09-10T00:20:50.176747+00:00",
+    "http_status": 200,
+    "final_url": "https://barrolee.github.io/BarroLeeDataSet/DataLeeLee.html",
+    "content_type": "text/html; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "a3d6e14e9e6a095d827740ceeda2ff06bb759b0a2f12ccdf56497092d90b09ac",
+    "bytes": 5689
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/mean-years-of-schooling-long-run.csv",
+    "path": "figures/16-3/data/raw/owid_current.csv",
+    "retrieved_at": "2026-09-10T00:20:50.628946+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/mean-years-of-schooling-long-run.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "6104944de29cb135788b3924741fd91f2d959077049a2642719bd6b8ec670bf0",
+    "bytes": 85454
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/mean-years-of-schooling-long-run.metadata.json",
+    "path": "figures/16-3/data/raw/owid_current.metadata.json",
+    "retrieved_at": "2026-09-10T00:20:50.921826+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/mean-years-of-schooling-long-run.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "1d5d886c8e73a43296846dc61dbe246a31957b6ae020a10f6ca9e9fd73f23994",
+    "bytes": 4112
+  },
+  {
+    "url": "https://barrolee.github.io/BarroLeeDataSet/LeeLee/LeeLee_attain_MF1564.xls",
+    "path": "figures/16-3/data/raw/author_attainment.xls",
+    "retrieved_at": "2026-09-10T00:21:10.105514+00:00",
+    "http_status": 200,
+    "final_url": "https://barrolee.github.io/BarroLeeDataSet/LeeLee/LeeLee_attain_MF1564.xls",
+    "content_type": "application/vnd.ms-excel",
+    "status": "downloaded",
+    "sha256": "7033d6264a855fca4e8391dcf71f9236c10deecc3ffce492c19ec82ee9b55c56",
+    "bytes": 567808
+  },
+  {
+    "url": "https://web.archive.org/web/20161201000000id_/http://www.barrolee.com/Lee_Lee_LRdata_dn.htm",
+    "path": "figures/16-3/data/raw/author_archive.html",
+    "retrieved_at": "2026-09-10T00:21:10.645955+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20160825210444id_/http://www.barrolee.com/Lee_Lee_LRdata_dn.htm",
+    "content_type": "text/html",
+    "status": "downloaded",
+    "sha256": "92cb261f536b427ab12937cbaacfbd839c10a8297581095025e705230aab9387",
+    "bytes": 16406
+  },
+  {
+    "url": "https://api.github.com/repos/owid/owid-datasets/commits?path=datasets/Human%20Capital%20in%20Long-Run%20-%20Lee-Lee%20%282016%29&per_page=100",
+    "path": "figures/16-3/data/raw/owid_history.json",
+    "retrieved_at": "2026-09-10T00:21:11.715540+00:00",
+    "http_status": 200,
+    "final_url": "https://api.github.com/repos/owid/owid-datasets/commits?path=datasets/Human%20Capital%20in%20Long-Run%20-%20Lee-Lee%20%282016%29&per_page=100",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "548d031dbc9480bd88b338a224075703a32f15b10638f0a0480a088d0e4a67ce",
+    "bytes": 3821
+  },
+  {
+    "url": "https://web.archive.org/web/20160825210444id_/http://www.barrolee.com/data/Lee_Lee_v1.0/LeeLee_attain_MF1564.xls",
+    "path": "figures/16-3/data/raw/author_2016_archive.xls",
+    "retrieved_at": "2026-09-10T00:21:26.466814+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170713032259id_/http://barrolee.com/data/Lee_Lee_v1.0/LeeLee_attain_MF1564.xls",
+    "content_type": "application/vnd.ms-excel",
+    "status": "downloaded",
+    "sha256": "cd41669d0eab8e82aadf6fa074bf94f8e69befbbe022bdb7e133a3881428259e",
+    "bytes": 567808
+  },
+  {
+    "url": "https://barrolee.github.io/BarroLeeDataSet/BLv3.html",
+    "path": "figures/16-3/data/raw/successor_page.html",
+    "retrieved_at": "2026-09-10T00:21:36.884546+00:00",
+    "http_status": 200,
+    "final_url": "https://barrolee.github.io/BarroLeeDataSet/BLv3.html",
+    "content_type": "text/html; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "e711391edc1ac44510c79bd7191e031847c5c9593089dbbab2748ea82989ce8f",
+    "bytes": 10391
+  },
+  {
+    "url": "https://barrolee.github.io/BarroLeeDataSet/BLData/BL_v3_MF1564.csv",
+    "path": "figures/16-3/data/raw/barro_lee_v3.csv",
+    "retrieved_at": "2026-09-10T00:21:43.625808+00:00",
+    "http_status": 200,
+    "final_url": "https://barrolee.github.io/BarroLeeDataSet/BLData/BL_v3_MF1564.csv",
+    "content_type": "text/csv; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "349374c63cb869455dd208a2dd6bc4f7119003a9fc19b06188f4c443abd80861",
+    "bytes": 274760
+  }
+]

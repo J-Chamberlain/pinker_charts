@@ -8,29 +8,58 @@
   "year_range": "1870-2010",
   "source_type_guess": "education_survey_dataset",
   "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "current_owner": "codex_direct",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Independent context/publication review; monitor comparable author estimates beyond2015.",
+  "notes": "203 observations exactly match archived original author workbook. Seven curves reconstructed; author v3 updated2015 estimates distinguished from OWID projections.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Roser & Ortiz-Ospina 2016a, based on data from Lee & Lee 2016. Data are for the population aged 15-64.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "basis": "203 exact archived-author/OWID matches, original age15-64 definition and close seven-curve visual agreement.",
     "previous_registry_status": "not_started"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
+    "status": "inspected",
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_16_3.png",
+        "sha256": "3922161d0e5134e4070c3d391d0b19f59845d35bea6eac84e206c2227803e28c"
+      },
+      {
+        "path": "figures/16-3/plots/book_period/figure_16_3_book_period.png",
+        "sha256": "e51b89101de6973a4486c643502a598296dbc889df279bc2d9e4b1432fb6c85a"
+      },
+      {
+        "path": "figures/16-3/plots/extended/figure_16_3_extended.png",
+        "sha256": "88adabb05d080d0333808a6f8f08a47be9958af7f4876fb670b41e7f9b3bc741"
+      },
+      {
+        "path": "figures/16-3/plots/comparisons/figure_16_3_book_period_review.png",
+        "sha256": "1ac8e150797572fe2df7fb4b8bab00d5a8c5bd7968cff8396387be642dc4b304"
+      },
+      {
+        "path": "figures/16-3/plots/comparisons/figure_16_3_extended_review.png",
+        "sha256": "0e8e296f08c5c7fcddd75da787190d14056b41e12e7c33d6c9847b1dd1b570f8"
+      },
+      {
+        "path": "figures/16-3/plots/diagnostics/vintage_difference.png",
+        "sha256": "a4c7b6a9bd442e0bef54f4d7dc43c2c9742e228afdf6bb550e0d6ec61f5ddfea"
+      }
+    ],
+    "issues": [
+      "Historical estimates not direct annual surveys",
+      "Successor methods and age category granularity changed",
+      "Small display/typography differences",
+      "Independent context review pending"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "comparable_successor",
+    "notes": "Barro-Lee v3 both-sex age15-64 updated estimates to2015, not older projections; dotted overlap, dashed later segments, hollow endpoints."
   },
   "artifacts": {
     "metadata": {
@@ -40,16 +69,96 @@
     "original_reference": {
       "path": "references/figures/figure_16_3.png",
       "sha256": "3922161d0e5134e4070c3d391d0b19f59845d35bea6eac84e206c2227803e28c"
+    },
+    "provenance": {
+      "path": "figures/16-3/provenance/provenance.md",
+      "sha256": "11e19be7ea7fd6d68abe94cb20659b2a2a7483d40bba0dd49627c04a5077e71e"
+    },
+    "caption": {
+      "path": "figures/16-3/captions/caption.txt",
+      "sha256": "2d8fa1fb1b7fc96a4f2e8e7ff0365a5fc2a7f43249ee5be84bf4fc84bd840192"
+    },
+    "source_log": {
+      "path": "figures/16-3/source_logs/source_log.md",
+      "sha256": "601ce5e47b4005f5c0007185e4d29f3c7c9c07b4d459f4a27f98bede89c41e20"
+    },
+    "search_log": {
+      "path": "figures/16-3/search_iterations/search_iterations.md",
+      "sha256": "858196fa6938de5308fd285317aa858d602ecd7186156c1a489521267bf7f642"
+    },
+    "download_log": {
+      "path": "figures/16-3/source_logs/downloads.json",
+      "sha256": "44dc33c7c5e2e91e9eccb42ed9f3854c5afec8df88a29368ab6cfa924a6a31f1"
+    },
+    "anomaly_review": {
+      "path": "figures/16-3/anomaly_reviews/anomaly_review.md",
+      "sha256": "ea3a463a690889760bb16442801fdc92c1fac72dd73534c376b6a25e49e9abad"
+    },
+    "discrepancy_log": {
+      "path": "figures/16-3/discrepancy_logs/discrepancy_log.md",
+      "sha256": "eeebe67267900d86c709cd86aaeca3d56511517ed1f27bf7d9917577b378ffe5"
+    },
+    "review_checklist": {
+      "path": "figures/16-3/review_checklist.md",
+      "sha256": "5626e187d728f47105e6e999df1c1b672398eba3d6c70b86c32a9d8fff2c0b2e"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/16-3/plots/book_period/figure_16_3_book_period.png",
+      "sha256": "e51b89101de6973a4486c643502a598296dbc889df279bc2d9e4b1432fb6c85a"
+    },
+    "extended_reconstruction": {
+      "path": "figures/16-3/plots/extended/figure_16_3_extended.png",
+      "sha256": "88adabb05d080d0333808a6f8f08a47be9958af7f4876fb670b41e7f9b3bc741"
+    },
+    "diagnostic_plot": {
+      "path": "figures/16-3/plots/diagnostics/vintage_difference.png",
+      "sha256": "a4c7b6a9bd442e0bef54f4d7dc43c2c9742e228afdf6bb550e0d6ec61f5ddfea"
+    },
+    "book_period_clean": {
+      "path": "figures/16-3/data/clean/figure_16_3_book_period.csv",
+      "sha256": "a33ef2804562312e96cadc3f5ecc9fef8446368a1f02f86655d59b60a2ace3e1"
+    },
+    "extended_clean": {
+      "path": "figures/16-3/data/clean/figure_16_3_successor.csv",
+      "sha256": "2cbc74cc052acc51650ea0e0165af129b590a8acc3b819306f88494be7fac2ee"
+    },
+    "crosscheck_clean": {
+      "path": "figures/16-3/data/clean/figure_16_3_archive_check.csv",
+      "sha256": "8d39d201491b2a0c42e2022913e02fedde1a8af890335aed898af93eefef42e6"
+    },
+    "diagnostic_clean": {
+      "path": "figures/16-3/data/clean/figure_16_3_vintage_difference.csv",
+      "sha256": "0ffa88064f8f8c9685652c73dce637ccd97621da713b5258c6e61b6e3d2c0a06"
+    },
+    "lineage": {
+      "path": "figures/16-3/lineage/lineage.json",
+      "sha256": "b1de1cbac6e67c9566fdc529075b7931378b29897fe87640fd6a72cb7d674fc0"
+    },
+    "lineage_csv": {
+      "path": "figures/16-3/lineage/lineage.csv",
+      "sha256": "49f1b0261bc622ed2e7b00b1cdad7a53d7765214163ee1f827a1c84f07251c7d"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_16_3.py",
+      "sha256": "e4426a40cc3fcd9f8e4d576aed8a79a478005cef570d87d405c9b4e0c19b735f"
+    },
+    "book_period_comparison": {
+      "path": "figures/16-3/plots/comparisons/figure_16_3_book_period_review.png",
+      "sha256": "1ac8e150797572fe2df7fb4b8bab00d5a8c5bd7968cff8396387be642dc4b304"
+    },
+    "extended_comparison": {
+      "path": "figures/16-3/plots/comparisons/figure_16_3_extended_review.png",
+      "sha256": "0e8e296f08c5c7fcddd75da787190d14056b41e12e7c33d6c9847b1dd1b570f8"
     }
   },
   "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "book_page": "Supplemental Graphics PDF p31 upper",
+    "claim_summary": "Rising average years of schooling across seven countries, with heterogeneous historical estimates.",
+    "original_dataset": "LeeLee_attain_MF1564.xls archived2017, v1.0Jan2016; OWID August2016 retrieval",
+    "dataset_url": "https://barrolee.github.io/BarroLeeDataSet/DataLeeLee.html",
+    "archive_url": "https://web.archive.org/web/20170713032259id_/http://barrolee.com/data/Lee_Lee_v1.0/LeeLee_attain_MF1564.xls",
+    "download_date": "2026-09-10 UTC",
+    "confidence_score": "High book/source match; medium successor estimation confidence"
   },
   "reference": {
     "figure_id": "16-3",
@@ -79,7 +188,7 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 16-3: Years of schooling, 1870-2010",
     "source_note_ocr": "Our World in Data, Roser & Ortiz-Ospina 2016a, based on data from Lee & Lee 2016. Data are for the population aged 15-64.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "visually_confirmed_against_original_pdf",
+    "visual_review": "full_resolution_original_inspected_2026-09-09"
   }
 }

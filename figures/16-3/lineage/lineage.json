@@ -1,0 +1,50 @@
+{
+  "figure_id": "16-3",
+  "book_citation": "Our World in Data, Roser & Ortiz-Ospina 2016a, based on data from Lee & Lee 2016. Data are for the population aged 15-64.",
+  "script": "scripts/reconstruct_16_3.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/16-3/data/raw/owid_legacy.csv"
+      ],
+      "selection": "Seven countries; total years of schooling1870-2010",
+      "transformation": "Exact values, mean years both sexes15-64, no smoothing/digitization",
+      "clean": "figures/16-3/data/clean/figure_16_3_book_period.csv",
+      "plot": "figures/16-3/plots/book_period/figure_16_3_book_period.png"
+    },
+    {
+      "role": "author_archive_check",
+      "raw_inputs": [
+        "figures/16-3/data/raw/owid_legacy.csv",
+        "figures/16-3/data/raw/author_2016_archive.xls"
+      ],
+      "selection": "203 observations, country fill-down, ages15-64",
+      "transformation": "Compare source values exactly; retain original year/country definitions",
+      "clean": "figures/16-3/data/clean/figure_16_3_archive_check.csv",
+      "plot": "figures/16-3/plots/book_period/figure_16_3_book_period.png"
+    },
+    {
+      "role": "revised_successor",
+      "raw_inputs": [
+        "figures/16-3/data/raw/barro_lee_v3.csv",
+        "figures/16-3/data/raw/owid_legacy.csv"
+      ],
+      "selection": "MF ages15-64, same seven countries; plot2000-2015",
+      "transformation": "Dotted2000-2010 overlap, dashed2010-2015 with revised anchor; no forced join",
+      "clean": "figures/16-3/data/clean/figure_16_3_successor.csv",
+      "plot": "figures/16-3/plots/extended/figure_16_3_extended.png"
+    },
+    {
+      "role": "overlap_diagnostic",
+      "raw_inputs": [
+        "figures/16-3/data/raw/owid_legacy.csv",
+        "figures/16-3/data/raw/barro_lee_v3.csv"
+      ],
+      "selection": "Common country-year records1950-2010",
+      "transformation": "Successor minus original in years, without rescaling",
+      "clean": "figures/16-3/data/clean/figure_16_3_vintage_difference.csv",
+      "plot": "figures/16-3/plots/diagnostics/vintage_difference.png"
+    }
+  ]
+}
