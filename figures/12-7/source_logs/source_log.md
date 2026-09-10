@@ -15,7 +15,7 @@
 - CDC MMWR 2001: accepted for the NTOF 1980-1997 methodology and 1980/1997 range.
 - CDC Health, United States 2009: accepted for published 1995, 2000, 2001, 2004-2007 checkpoints.
 - BLS CFOI archive 1992-2005 via CDC Stacks: accepted as a preserved BLS chart artifact; its PDF is image-heavy and values were transcribed from the official chart text available in search output.
-- BLS CFOI archive 1992-2016 and BLS MLR chart: investigated as primary sources. Automated downloads from bls.gov returned Access Denied, so the published chart values used here are explicitly marked as source transcription.
+- BLS CFOI archive 1992-2016 and BLS MLR chart: investigated as primary sources. Automated downloads from bls.gov returned Access Denied; the response pages are retained as `*.access_denied.html`, and the published chart values used here are explicitly marked as source transcription.
 - OSHA 40-year timeline: citation resolved, but the archived page did not yield a machine-readable full series.
 
 ## Remaining uncertainties

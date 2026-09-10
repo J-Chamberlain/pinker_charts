@@ -11,5 +11,6 @@ Data are from different sources and may not be completely commensurable. The boo
 - CDC Health, United States 2009 table: `figures/12-7/data/raw/cdc_health_us_2009.pdf`.
 - BLS CFOI 1992-2005 chart PDF, recovered via CDC Stacks: `figures/12-7/data/raw/cfoi_charts_1992_2005.pdf`.
 - Source-transcribed observations: `figures/12-7/data/raw/source_transcribed_rates.csv`.
+- The attempted direct BLS downloads are retained as `*.access_denied.html` response pages, not as data files.
 
 The raw CSV is explicitly a transcription of published source tables/text, not of Pinker's plotted line. BLS archive PDFs were attempted but were blocked by the host's automated-access control; those failures are recorded in the source log.
