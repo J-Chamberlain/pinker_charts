@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "841daa5a4e5d60238905d8c77caa7594343f517a15d0176e009766af28af2af3",
+  "snapshot_id": "7e113c25521fa8380af7250b3c6cc83e57ae36dddf55d23be4bfe21db4e0bc68",
   "figures": 75,
-  "saved_files": 570,
-  "clean_tables": 115,
-  "clean_rows": 43540,
+  "saved_files": 588,
+  "clean_tables": 121,
+  "clean_rows": 58966,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -298,14 +298,14 @@
     {
       "figure_id": "14-4",
       "title": "Executions, US, 1780-2016",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 18,
+      "raw_files": 9,
+      "clean_tables": 6,
+      "canonical_declared_clean_tables": 6,
+      "clean_rows": 15426,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "15-1",

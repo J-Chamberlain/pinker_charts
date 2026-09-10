@@ -43,8 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 23 |
-| partial_match | 24 |
+| not_started | 22 |
+| partial_match | 25 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 7 |
@@ -99,7 +99,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 14-1 | Democracy versus autocracy, 1800-2015 | partial_match | processed | incomplete |
 | 14-2 | Human rights, 1949-2014 | partial_match | processed | incomplete |
 | 14-3 | Death penalty abolitions, 1863-2016 | partial_match | processed | incomplete |
-| 14-4 | Executions, US, 1780-2016 | not_started | not_started | incomplete |
+| 14-4 | Executions, US, 1780-2016 | partial_match | processed | incomplete |
 | 15-1 | Racist, sexist, and homophobic opinions, US, 1987-2012 | not_started | not_started | incomplete |
 | 15-2 | Racist, sexist, and homophobic Web searches, US, 2004-2017 | not_started | not_started | incomplete |
 | 15-3 | Hate crimes, US, 1996-2015 | not_started | not_started | incomplete |
@@ -826,6 +826,35 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Reconstruction script: [scripts/reconstruct_14_3.py](scripts/reconstruct_14_3.py)
 - Book period comparison: [figures/14-3/plots/comparisons/figure_14_3_book_period_review.png](figures/14-3/plots/comparisons/figure_14_3_book_period_review.png)
 - Extended comparison: [figures/14-3/plots/comparisons/figure_14_3_extended_review.png](figures/14-3/plots/comparisons/figure_14_3_extended_review.png)
+
+### Figure 14-4 - Executions, US, 1780-2016
+
+Status: `partial_match`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/14-4/figure.json](figures/14-4/figure.json)
+- Original reference: [references/figures/figure_14_4.png](references/figures/figure_14_4.png)
+- Provenance: [figures/14-4/provenance/provenance.md](figures/14-4/provenance/provenance.md)
+- Caption: [figures/14-4/captions/caption.txt](figures/14-4/captions/caption.txt)
+- Source log: [figures/14-4/source_logs/source_log.md](figures/14-4/source_logs/source_log.md)
+- Search log: [figures/14-4/search_iterations/search_iterations.md](figures/14-4/search_iterations/search_iterations.md)
+- Download log: [figures/14-4/source_logs/downloads.json](figures/14-4/source_logs/downloads.json)
+- Anomaly review: [figures/14-4/anomaly_reviews/anomaly_review.md](figures/14-4/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/14-4/discrepancy_logs/discrepancy_log.md](figures/14-4/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/14-4/review_checklist.md](figures/14-4/review_checklist.md)
+- Book period reconstruction: [figures/14-4/plots/book_period/figure_14_4_book_period.png](figures/14-4/plots/book_period/figure_14_4_book_period.png)
+- Extended reconstruction: [figures/14-4/plots/extended/figure_14_4_extended.png](figures/14-4/plots/extended/figure_14_4_extended.png)
+- Diagnostic: [figures/14-4/plots/diagnostics/temporal_aggregation.png](figures/14-4/plots/diagnostics/temporal_aggregation.png)
+- Book period clean: [figures/14-4/data/clean/figure_14_4_book_period.csv](figures/14-4/data/clean/figure_14_4_book_period.csv)
+- Successor clean: [figures/14-4/data/clean/figure_14_4_successor.csv](figures/14-4/data/clean/figure_14_4_successor.csv)
+- Diagnostic clean: [figures/14-4/data/clean/figure_14_4_diagnostic.csv](figures/14-4/data/clean/figure_14_4_diagnostic.csv)
+- Historical records: [figures/14-4/data/clean/figure_14_4_historical_records.csv](figures/14-4/data/clean/figure_14_4_historical_records.csv)
+- Archive agreement: [figures/14-4/data/clean/figure_14_4_archive_agreement.csv](figures/14-4/data/clean/figure_14_4_archive_agreement.csv)
+- Population clean: [figures/14-4/data/clean/figure_14_4_population.csv](figures/14-4/data/clean/figure_14_4_population.csv)
+- Lineage: [figures/14-4/lineage/lineage.json](figures/14-4/lineage/lineage.json)
+- Lineage csv: [figures/14-4/lineage/lineage.csv](figures/14-4/lineage/lineage.csv)
+- Reconstruction script: [scripts/reconstruct_14_4.py](scripts/reconstruct_14_4.py)
+- Book period comparison: [figures/14-4/plots/comparisons/figure_14_4_book_period_review.png](figures/14-4/plots/comparisons/figure_14_4_book_period_review.png)
+- Extended comparison: [figures/14-4/plots/comparisons/figure_14_4_extended_review.png](figures/14-4/plots/comparisons/figure_14_4_extended_review.png)
 
 ### Figure 16-1 - Literacy, 1475-2010
 

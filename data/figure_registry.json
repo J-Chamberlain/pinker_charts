@@ -816,16 +816,16 @@
     "title": "Executions, US, 1780-2016",
     "page": "",
     "year_range": "1780-2016",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "partial_match",
+    "lifecycle_stage": "visual_review",
     "source_type_guess": "conflict_security_dataset",
     "priority": "backlog",
-    "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-    "execution_status": "not_started",
+    "current_owner": "codex_direct",
+    "next_action": "Confirm historical aggregation rule and audit original case IDs; retain source record issues without arbitrary deduplication.",
+    "notes": "2016archived Espy file table equals current. Modern1977-2015annual counts equal archive. Decade-average rates closely reproduce original; rule inferred. Same-definition annual extension through2025.",
+    "execution_status": "processed",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "reconstruction"
   },
   {
     "figure_id": "15-1",

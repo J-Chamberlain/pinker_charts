@@ -1,0 +1,164 @@
+[
+  {
+    "url": "https://deathpenaltyinfo.org/executions/executions-overview/executions-in-the-u-s-1608-2002-the-espy-file",
+    "path": "figures/14-4/data/candidates/dpic_espy_page.html",
+    "retrieved_at": "2026-09-10T01:07:21.346961+00:00",
+    "http_status": 200,
+    "final_url": "https://deathpenaltyinfo.org/executions/executions-overview/executions-in-the-u-s-1608-2002-the-espy-file",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "d1ac94cae75b5b0d992077c9563cab3bd1a660e7149e8904e0213b2e3faed56b",
+    "bytes": 253128
+  },
+  {
+    "url": "https://deathpenaltyinfo.org/facts-and-research/data/executions",
+    "path": "figures/14-4/data/candidates/dpic_executions.html",
+    "retrieved_at": "2026-09-10T01:07:33.067396+00:00",
+    "http_status": 200,
+    "final_url": "https://deathpenaltyinfo.org/facts-and-research/data/executions",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "f77daa0b27261f620e11ec50c7703aeb8f4d73b9e73d73d6736c4c262604ac89",
+    "bytes": 225186
+  },
+  {
+    "url": "https://deathpenaltyinfo.org/documents/ESPYFile.xls",
+    "path": "figures/14-4/data/raw/espy_1608_2002.xls",
+    "retrieved_at": "2026-09-10T01:07:45.676332+00:00",
+    "http_status": 200,
+    "final_url": "https://files.deathpenaltyinfo.org/documents/ESPYFile.xls",
+    "content_type": "application/vnd.ms-excel",
+    "status": "downloaded",
+    "sha256": "b0a63461a46e06451c7c53e44eb2ef0a108b73d811aa369197063de01f7defde",
+    "bytes": 2668544
+  },
+  {
+    "url": "https://deathpenaltyinfo.org/query/executions.csv",
+    "path": "figures/14-4/data/raw/dpic_executions_current.csv",
+    "retrieved_at": "2026-09-10T01:07:57.722387+00:00",
+    "http_status": 200,
+    "final_url": "https://deathpenaltyinfo.org/query/executions.csv",
+    "content_type": "document/csv; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "6d9c9ec283c1f905dc46973cb84cc49cf9d15730c31bc1044d548cca13d7e170",
+    "bytes": 301048
+  },
+  {
+    "url": "https://www2.census.gov/library/publications/2011/compendia/statab/131ed/tables/12s0001.xls",
+    "path": "figures/14-4/data/raw/census_12s0001.xls",
+    "retrieved_at": "2026-09-10T01:07:58.406290+00:00",
+    "http_status": 200,
+    "final_url": "https://www2.census.gov/library/publications/2011/compendia/statab/131ed/tables/12s0001.xls",
+    "content_type": "application/vnd.ms-excel",
+    "status": "downloaded",
+    "sha256": "f5181761dd92659a9676f9d6a65ad8cbf46a1b879c7f01cc0ac7a09af0e5012c",
+    "bytes": 33792
+  },
+  {
+    "url": "https://web.archive.org/web/20170101000000id_/http://deathpenaltyinfo.org/documents/ESPYFile.xls",
+    "path": "figures/14-4/data/raw/espy_archive.xls",
+    "retrieved_at": "2026-09-10T01:07:59.309665+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20160419133009id_/http://www.deathpenaltyinfo.org/documents/ESPYFile.xls",
+    "content_type": "application/vnd.ms-excel",
+    "status": "downloaded",
+    "sha256": "bbc83042b658bd1b83d587524400be2ee46b6b4e5e8989f8eed0f8993d1e77ac",
+    "bytes": 2701824
+  },
+  {
+    "url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chZ.pdf",
+    "path": "figures/14-4/data/raw/census_colonial.pdf",
+    "retrieved_at": "2026-09-10T01:08:08.351973+00:00",
+    "http_status": 200,
+    "final_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chZ.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "21b91267eb96813a75cb1976bca2c3de0818fd15a453d14b50b09949e945925c",
+    "bytes": 4487096
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2010-2016/national/totals/nst-est2016-alldata.csv",
+    "path": "figures/14-4/data/raw/census_nst2016.csv",
+    "retrieved_at": "2026-09-10T01:08:36.920640+00:00",
+    "http_status": 200,
+    "final_url": "https://www2.census.gov/programs-surveys/popest/datasets/2010-2016/national/totals/nst-est2016-alldata.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "86c11f5d7dbfb0cb4874663bda25012ed57056233b0c6708017903320c041217",
+    "bytes": 51315
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/national/totals/NST-EST2025-ALLDATA.csv",
+    "path": "figures/14-4/data/raw/census_nst2025.csv",
+    "retrieved_at": "2026-09-10T01:08:37.202040+00:00",
+    "http_status": 404,
+    "final_url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/national/totals/NST-EST2025-ALLDATA.csv",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/national/totals/NST-EST2025-ALLDATA.csv"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/national/totals/",
+    "path": "figures/14-4/data/candidates/census2025_directory.html",
+    "retrieved_at": "2026-09-10T01:09:01.140904+00:00",
+    "http_status": 404,
+    "final_url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/national/totals/",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/national/totals/"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv",
+    "path": "figures/14-4/data/raw/census_nst2019.csv",
+    "retrieved_at": "2026-09-10T01:09:01.548515+00:00",
+    "http_status": 200,
+    "final_url": "https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "d4ba7fe9f8a351418cda2b6209aa05d6fef0f7132803196862e4732dad6c2a8c",
+    "bytes": 74085
+  },
+  {
+    "url": "https://web.archive.org/web/20170101000000id_/http://deathpenaltyinfo.org/views-executions",
+    "path": "figures/14-4/data/candidates/dpic_2017.html",
+    "retrieved_at": "2026-09-10T01:09:11.364776+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170113003921id_/http://www.deathpenaltyinfo.org/views-executions",
+    "content_type": "text/html; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "a3d075a6279851492c0f08f11bc1116883a3efab4e2351ba383d80b53b3a5cfc",
+    "bytes": 120701
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+    "path": "figures/14-4/data/raw/census_nst2025.csv",
+    "retrieved_at": "2026-09-10T01:09:22.568781+00:00",
+    "http_status": 200,
+    "final_url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "92188e29cb0a67dcf95afa7d6c47359409782f086478b70ea4128eb70e223ca9",
+    "bytes": 53555
+  },
+  {
+    "url": "https://web.archive.org/web/20170113003921id_/http://www.deathpenaltyinfo.org/exec-xls-export",
+    "path": "figures/14-4/data/raw/dpic_2017_export.xls",
+    "retrieved_at": "2026-09-10T01:09:40.149278+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20161029141325id_/http://www.deathpenaltyinfo.org/exec-xls-export",
+    "content_type": "text/csv; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "30e04e78f7f4e45482a349c1b733238bb602f5a048f61133f6b6850ad25d352a",
+    "bytes": 143030
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=deathpenaltyinfo.org/exec-xls-export&output=json&filter=statuscode:200&from=2017&to=2018&collapse=digest",
+    "path": "figures/14-4/data/candidates/cdx_modern.csv.json",
+    "retrieved_at": "2026-09-10T01:10:21.293525+00:00",
+    "http_status": 503,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=deathpenaltyinfo.org/exec-xls-export&output=json&filter=statuscode:200&from=2017&to=2018&collapse=digest",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "503 Server Error: Service Unavailable for url: https://web.archive.org/cdx/search/cdx?url=deathpenaltyinfo.org/exec-xls-export&output=json&filter=statuscode:200&from=2017&to=2018&collapse=digest"
+  }
+]

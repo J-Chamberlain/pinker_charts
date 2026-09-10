@@ -1,0 +1,24 @@
+year,end_year,executions,years_averaged,population,value,period_type,population_version,unit,start_year_executions,start_year_population,single_year_rate
+1780,1789,285,10,3354791.5,0.8495311854700955,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,24,2780369.0,0.8631947773838653
+1790,1799,219,10,4618848.5,0.4741441508635756,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,14,3929214.0,0.3563053577636647
+1800,1809,206,10,6274182.0,0.32832965317231794,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,25,5308483.0,0.47094433569816463
+1810,1819,197,10,8439167.0,0.2334353615706384,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,11,7239881.0,0.15193619895133634
+1820,1829,387,10,11252236.5,0.34393162639267316,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,45,9638453.0,0.46687990282257946
+1830,1839,345,10,14967736.5,0.2304957733589177,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,37,12866020.0,0.28757922030278205
+1840,1849,361,10,20130664.5,0.17932840716708584,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,72,17069453.0,0.421806135205387
+1850,1859,592,10,27317598.5,0.21671011820457056,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,41,23191876.0,0.1767860435266211
+1860,1869,559,10,35630885.0,0.15688636417534957,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,65,31443321.0,0.20672116663503834
+1870,1879,631,10,45003829.0,0.140210291884275,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,32,39818449.0,0.08036475755246017
+1880,1889,1005,10,56584487.5,0.177610515602885,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,96,50189209.0,0.19127617651834283
+1890,1899,1098,10,69595967.0,0.15776776260612915,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,93,62979766.0,0.14766647434034608
+1900,1909,1280,10,84220332.0,0.15198230280070613,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,99,76212168.0,0.1299005166734005
+1910,1919,1095,10,99125016.5,0.11046656420985312,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,128,92228496.0,0.13878573927953894
+1920,1929,1289,10,114612080.5,0.11246632941106065,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,102,106021537.0,0.0962068678555377
+1930,1939,1679,10,127683596.5,0.13149692255104986,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,155,123202624.0,0.1258090087431904
+1940,1949,1296,10,141745183.5,0.09143167817056726,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,124,132164569.0,0.09382242225599813
+1950,1959,724,10,165324486.5,0.04379266588558254,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,83,151325798.0,0.054848546048969125
+1960,1969,192,10,191312603.0,0.010035930565431698,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,56,179323175.0,0.03122853473902634
+1970,1979,3,10,214922115.0,0.00013958544936150475,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,0,203302031.0,0.0
+1980,1989,117,10,237630250.5,0.004923615564677444,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,0,226542199.0,0.0
+1990,1999,478,10,265071452.5,0.01803287360791898,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,23,248718302.0,0.009247409545277453
+2000,2009,590,10,295085070.5,0.019994234171193014,decade_mean,Census2011decennial endpoints;1780Census1960historical estimate,Executions per100000 residents peryear,85,281424603.0,0.030203471584891957

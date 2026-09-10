@@ -1,0 +1,67 @@
+{
+  "figure_id": "14-4",
+  "book_citation": "Death Penalty Information Center2017. Population estimates from U.S. Census Bureau2017. Arrow2010.",
+  "script": "scripts/reconstruct_14_4.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/14-4/data/raw/espy_archive.xls",
+        "figures/14-4/data/raw/espy_1608_2002.xls",
+        "figures/14-4/data/raw/dpic_2017_export.xls",
+        "figures/14-4/data/raw/dpic_executions_current.csv",
+        "figures/14-4/data/raw/census_12s0001.xls",
+        "figures/14-4/data/raw/census_colonial.pdf",
+        "figures/14-4/data/raw/census_nst2016.csv"
+      ],
+      "selection": "Espy<=1976;DPIC>=1977;Census historical1780-2010/vintage2016",
+      "transformation": "Decade mean / midpoint population1780-2009; annual2010-2016; per100000",
+      "clean": "figures/14-4/data/clean/figure_14_4_book_period.csv",
+      "plot": "figures/14-4/plots/book_period/figure_14_4_book_period.png"
+    },
+    {
+      "role": "extended_history",
+      "raw_inputs": [
+        "figures/14-4/data/raw/espy_archive.xls",
+        "figures/14-4/data/raw/espy_1608_2002.xls",
+        "figures/14-4/data/raw/dpic_2017_export.xls",
+        "figures/14-4/data/raw/dpic_executions_current.csv",
+        "figures/14-4/data/raw/census_12s0001.xls",
+        "figures/14-4/data/raw/census_colonial.pdf",
+        "figures/14-4/data/raw/census_nst2016.csv"
+      ],
+      "selection": "Historical book data unchanged",
+      "transformation": "No source data shifted",
+      "clean": "figures/14-4/data/clean/figure_14_4_book_period.csv",
+      "plot": "figures/14-4/plots/extended/figure_14_4_extended.png"
+    },
+    {
+      "role": "annual_successor",
+      "raw_inputs": [
+        "figures/14-4/data/raw/dpic_executions_current.csv",
+        "figures/14-4/data/raw/census_nst2019.csv",
+        "figures/14-4/data/raw/census_nst2025.csv"
+      ],
+      "selection": "Annual2010-2025; exclude2026",
+      "transformation": "Execution count / national population *100000; revised vintage overlap dotted/later dashed",
+      "clean": "figures/14-4/data/clean/figure_14_4_successor.csv",
+      "plot": "figures/14-4/plots/extended/figure_14_4_extended.png"
+    },
+    {
+      "role": "diagnostic",
+      "raw_inputs": [
+        "figures/14-4/data/raw/espy_archive.xls",
+        "figures/14-4/data/raw/espy_1608_2002.xls",
+        "figures/14-4/data/raw/dpic_2017_export.xls",
+        "figures/14-4/data/raw/dpic_executions_current.csv",
+        "figures/14-4/data/raw/census_12s0001.xls",
+        "figures/14-4/data/raw/census_colonial.pdf",
+        "figures/14-4/data/raw/census_nst2016.csv"
+      ],
+      "selection": "Decades1780-2009",
+      "transformation": "Compare single census-year versus decade-average rate",
+      "clean": "figures/14-4/data/clean/figure_14_4_diagnostic.csv",
+      "plot": "figures/14-4/plots/diagnostics/temporal_aggregation.png"
+    }
+  ]
+}
