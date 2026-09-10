@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "baseline_commit": "01ca16a8e7956f5fe14764a5634c32f019f82449",
+  "baseline_commit": "b1ac2feca3263a460c2630906d179369376695c1",
   "notice": "Unaccepted visual audit baseline; input/output hashes identify working-tree artifacts beyond baseline_commit.",
-  "figure_count": 47,
-  "comparison_count": 94,
+  "figure_count": 49,
+  "comparison_count": 98,
   "figures": [
     {
       "figure_id": "5-1",
@@ -900,6 +900,40 @@
       ]
     },
     {
+      "figure_id": "12-2",
+      "scientific_status": "partial_match",
+      "comparisons": [
+        {
+          "mode": "book_period",
+          "path": "figures/12-2/plots/comparisons/figure_12_2_book_period_review.png",
+          "sha256": "c166c5e89af65a1995d9409b6da679217ebdc9895d3d47d91164e398fd759d92",
+          "reference": {
+            "path": "references/figures/figure_12_2.png",
+            "sha256": "64ef16dd2a9d01dabe4a8d8401cc542d88dc1f0904d6e065e40e7b3b501a21a3"
+          },
+          "reconstruction": {
+            "path": "figures/12-2/plots/figure_12_2_book_period.png",
+            "sha256": "fb42d3af0e1393ecd240b9e81ce308cafd364c8f3052d6ac74b941ba2b4241eb"
+          },
+          "display_viewport": null
+        },
+        {
+          "mode": "extended",
+          "path": "figures/12-2/plots/comparisons/figure_12_2_extended_review.png",
+          "sha256": "2a9ea9928d2e636df8d3dd65008d7a0279d0fbff285e0b0e1c8f4ba7ce7ec6e1",
+          "reference": {
+            "path": "references/figures/figure_12_2.png",
+            "sha256": "64ef16dd2a9d01dabe4a8d8401cc542d88dc1f0904d6e065e40e7b3b501a21a3"
+          },
+          "reconstruction": {
+            "path": "figures/12-2/plots/figure_12_2_extended.png",
+            "sha256": "9b942566d4efba2b05bd853349353c9c973cc44543d05d39a0538399b38ba9bc"
+          },
+          "display_viewport": null
+        }
+      ]
+    },
+    {
       "figure_id": "12-5",
       "scientific_status": "partial_match",
       "comparisons": [
@@ -928,6 +962,40 @@
           "reconstruction": {
             "path": "figures/12-5/plots/extended/figure_12_5_extended_reconstruction.png",
             "sha256": "9fa907aaa8ea506b74bd27c2197fb9e1b0a0ba57179b38f168c9bfb3a01ce6aa"
+          },
+          "display_viewport": null
+        }
+      ]
+    },
+    {
+      "figure_id": "12-6",
+      "scientific_status": "updated_equivalent",
+      "comparisons": [
+        {
+          "mode": "book_period",
+          "path": "figures/12-6/plots/comparisons/figure_12_6_book_period_review.png",
+          "sha256": "f91a0caf3c7f1f89bfd49b11910722a863896ef883f0bd7e1f574bad5cfc118d",
+          "reference": {
+            "path": "references/figures/figure_12_6.png",
+            "sha256": "853eb57eba1fba1bfdc436280c56dc1cdcf70211e1cfdb4f41dbca61fcf220b4"
+          },
+          "reconstruction": {
+            "path": "figures/12-6/plots/figure_12_6_book_period.png",
+            "sha256": "4a2a2b2348c7a19215edd0927fc5f1f75c5848407ba14f5a4fa47ec409ca7f56"
+          },
+          "display_viewport": null
+        },
+        {
+          "mode": "extended",
+          "path": "figures/12-6/plots/comparisons/figure_12_6_extended_review.png",
+          "sha256": "54fbea66449f42966c63662fce4998ddfd89eaa420bc7205d6c95249f6f66da7",
+          "reference": {
+            "path": "references/figures/figure_12_6.png",
+            "sha256": "853eb57eba1fba1bfdc436280c56dc1cdcf70211e1cfdb4f41dbca61fcf220b4"
+          },
+          "reconstruction": {
+            "path": "figures/12-6/plots/figure_12_6_extended.png",
+            "sha256": "c8c9cc390a5a5e540334764f5906dbffa2ccc85087b6bd33b27becfac87b8ce8"
           },
           "display_viewport": null
         }
@@ -1644,20 +1712,12 @@
       "reason": "source_recovery"
     },
     {
-      "figure_id": "12-2",
-      "reason": "not_started"
-    },
-    {
       "figure_id": "12-3",
       "reason": "source_recovery"
     },
     {
       "figure_id": "12-4",
       "reason": "source_recovery"
-    },
-    {
-      "figure_id": "12-6",
-      "reason": "not_started"
     },
     {
       "figure_id": "12-7",
