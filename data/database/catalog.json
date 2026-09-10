@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "fa9c7c5f40543d5723058d9335e66256f284c5526bfa4c66842fc99940173f2f",
+  "snapshot_id": "69e278e168723fc475c2f32b8b0646800a75776173d8c858ab98a88df3fb8206",
   "figures": 75,
-  "saved_files": 600,
-  "clean_tables": 125,
-  "clean_rows": 59075,
+  "saved_files": 608,
+  "clean_tables": 127,
+  "clean_rows": 59143,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -130,14 +130,14 @@
     {
       "figure_id": "11-3",
       "title": "Genocide deaths, 1956-2016",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 8,
+      "raw_files": 6,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 68,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "12-1",

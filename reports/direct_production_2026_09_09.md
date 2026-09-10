@@ -78,3 +78,13 @@ separate 2016-2023 successor. The original PDF chart and both comparison pages
 were inspected. The trajectory is close, but the cited Census/McEvedy population
 denominator and exact aggregation remain unresolved, so status is partial_match.
 The next untouched candidate is Figure 11-3.
+
+2026-09-10 Figure 11-3 checkpoint: the official PITF GenoPoliticide workbook
+and historical UCDP v17.1 workbook were preserved and transformed into a
+61-row book-period series; UCDP v26.1 supplies a separate 2017-2023 successor.
+The original PDF and both comparison pages were inspected. The PITF ordinal
+DEATHMAG decode materially under-reproduces the book's large historical peaks,
+and the cited Census/McEvedy denominator is unresolved, so status is
+partial_match. The data library now catalogs 608 files, 127 clean tables, and
+59,143 clean rows. Nineteen figures remain untouched; the next candidate is
+Figure 12-1.

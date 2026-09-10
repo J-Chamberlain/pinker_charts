@@ -1,36 +1,47 @@
 {
-  "schema_version": 1,
   "figure_id": "11-3",
-  "book": "Enlightenment Now",
-  "chapter": "11",
   "title": "Genocide deaths, 1956-2016",
-  "page": "",
-  "year_range": "1956-2016",
-  "source_type_guess": "health_demographic_dataset",
-  "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
-  "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+  "scientific_status": "partial_match",
+  "source_status": "ordinal_PITF_data_and_historical_UCDP_recovered",
+  "artifact_kind": "reconstruction",
+  "publication_status": "not_reviewed",
+  "execution_status": "processed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover Pinker's case-specific PITF estimates and cited population denominator.",
+  "notes": "Official PITF and UCDP source-family data recovered; PITF is ordinal and cannot reproduce the published peaks exactly.",
+  "extension": {
+    "status": "comparable_successor",
+    "label": "UCDP v26.1 successor"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
-  },
-  "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "inspected",
+    "reference_basis": "original",
+    "issues": [
+      "PITF category decode under-represents major peaks",
+      "denominator vintage unresolved"
+    ],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_11_3.png",
+        "sha256": "ead3ed1cc3ce1b541b904e6b261910d0b55035b7ac378c8cc4d4d0bdaa802e91"
+      },
+      {
+        "path": "figures/11-3/plots/figure_11_3_book_period.png",
+        "sha256": "34e19a1e31db2103b017fbca83ded2fb1097f4b6785369630aabb59dc8498451"
+      },
+      {
+        "path": "figures/11-3/plots/figure_11_3_extended.png",
+        "sha256": "28c2f5452f9f554c5de36f3621083340e69c071fd5aa219ecabcf62da3e68f06"
+      },
+      {
+        "path": "figures/11-3/plots/comparisons/figure_11_3_book_period_review.png",
+        "sha256": "d88f15c994e20d602908a9ae036771a2427fa1033b1973a6e796ab4848c1ff59"
+      },
+      {
+        "path": "figures/11-3/plots/comparisons/figure_11_3_extended_review.png",
+        "sha256": "8607f6f7ce61a03ff1e94f7bf6b82d825f2d6c711bbccfb2b444b8b09250bfdc"
+      }
+    ]
   },
   "artifacts": {
     "metadata": {
@@ -40,46 +51,66 @@
     "original_reference": {
       "path": "references/figures/figure_11_3.png",
       "sha256": "ead3ed1cc3ce1b541b904e6b261910d0b55035b7ac378c8cc4d4d0bdaa802e91"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/11-3/plots/figure_11_3_book_period.png",
+      "sha256": "34e19a1e31db2103b017fbca83ded2fb1097f4b6785369630aabb59dc8498451"
+    },
+    "extended_reconstruction": {
+      "path": "figures/11-3/plots/figure_11_3_extended.png",
+      "sha256": "28c2f5452f9f554c5de36f3621083340e69c071fd5aa219ecabcf62da3e68f06"
+    },
+    "book_period_clean": {
+      "path": "figures/11-3/data/clean/figure_11_3_book_period.csv",
+      "sha256": "f9eb63420b83bc1735ca1096b0f5345bc474256337cfb6cb6dac3ca10f3e06d9"
+    },
+    "successor_clean": {
+      "path": "figures/11-3/data/clean/figure_11_3_successor.csv",
+      "sha256": "36f52450625393b1b3209ec360324334046b1062bee2f016e2481514a9564c15"
+    },
+    "caption": {
+      "path": "figures/11-3/captions/caption.txt",
+      "sha256": "e04832439247cddec9242c6add2d16cbdece2424313930e875123a0c28f9b820"
+    },
+    "provenance": {
+      "path": "figures/11-3/provenance/provenance.md",
+      "sha256": "d5c2a941b1428467aaac6f8d9543b3a81e6a607438baac77773af1e7dcf959d3"
+    },
+    "source_log": {
+      "path": "figures/11-3/source_logs/source_log.md",
+      "sha256": "ead96214945bd7a79b7b8ab7fd9f654add40b8b8bbef904b439fce2d4a4dd2a7"
+    },
+    "anomaly_review": {
+      "path": "figures/11-3/anomaly_reviews/anomaly_review.md",
+      "sha256": "d78980a04919a0de5f5de7d1e33db5e8a3743a63802773577a88dec0b5875d8e"
+    },
+    "discrepancy_log": {
+      "path": "figures/11-3/discrepancy_logs/discrepancy_log.md",
+      "sha256": "610c411080b553f1383d5b4e57fb08d3ba767d2bbbfa7b8bc39d17d591a495d5"
+    },
+    "review_checklist": {
+      "path": "figures/11-3/review_checklist.md",
+      "sha256": "1bb2daeaa89b139691a521826f8755629fb94995af900b868b2d5cebc1a049ac"
+    },
+    "lineage": {
+      "path": "figures/11-3/lineage/lineage.json",
+      "sha256": "1116e5cd6762d169684ed5e5465d9ea7d54d24c4cbcb7f1695bab817ad8424a5"
+    },
+    "lineage_csv": {
+      "path": "figures/11-3/lineage/lineage.csv",
+      "sha256": "24b32b1ae6f1a1d82e77227b275313e9fc0917c34944e775205627fd71e737ae"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_11_3.py",
+      "sha256": "b0f2772ba97786a0572171fb1ce0ccffec0b003ab6341d7dc12237293dcfbf52"
+    },
+    "book_period_comparison": {
+      "path": "figures/11-3/plots/comparisons/figure_11_3_book_period_review.png",
+      "sha256": "d88f15c994e20d602908a9ae036771a2427fa1033b1973a6e796ab4848c1ff59"
+    },
+    "extended_comparison": {
+      "path": "figures/11-3/plots/comparisons/figure_11_3_extended_review.png",
+      "sha256": "8607f6f7ce61a03ff1e94f7bf6b82d825f2d6c711bbccfb2b444b8b09250bfdc"
     }
-  },
-  "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
-  },
-  "reference": {
-    "figure_id": "11-3",
-    "registry_title": "Genocide deaths, 1956-2016",
-    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
-    "pdf_page": 17,
-    "panel": 2,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      217,
-      1235,
-      1433,
-      2233
-    ],
-    "crop_bounds_pdf_points": [
-      60.187,
-      342.712,
-      397.455,
-      619.658
-    ],
-    "path": "references/figures/figure_11_3.png",
-    "sha256": "ead3ed1cc3ce1b541b904e6b261910d0b55035b7ac378c8cc4d4d0bdaa802e91",
-    "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 11-3: Genocide deaths, 1956-2016",
-    "source_note_ocr": "PITF, 1955-2008: Political Instability Task Force State Failure Problem Set, 1955-2008, Marshall, Gurr, & Harff 2009; Center for Systemic Peace 2015. Calculations described in Pinker 2011, p. 338. UCDP, 1989-2016: UCDP One-Sided Violence Dataset v. 2.5-2016, Melander, Pettersson, & Themnér 2016; Uppsala Conflict Data Program 2017, “High fatality” estimates, updated with data provided by Sam Taub of UCDP, scaled by world population figures from US Census Bureau. The arrow points to 2008, the last year plotted in fig. 6-8 of Pinker 2011.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
   }
 }

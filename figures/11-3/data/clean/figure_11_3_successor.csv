@@ -1,0 +1,8 @@
+year,deaths,active_ucdp_rows,source_series,population,rate_per_100k
+2017,10764,38,UCDP v26.1 successor high fatality estimate,7645617952.0,0.14078652723138319
+2018,5913,41,UCDP v26.1 successor high fatality estimate,7729902779.0,0.07649514061242761
+2019,6398,33,UCDP v26.1 successor high fatality estimate,7811293699.0,0.08190704698274334
+2020,11455,45,UCDP v26.1 successor high fatality estimate,7887001289.0,0.14523897715062234
+2021,14445,46,UCDP v26.1 successor high fatality estimate,7954448387.0,0.18159650169592584
+2022,15611,52,UCDP v26.1 successor high fatality estimate,8021407196.0,0.1946167252023394
+2023,14296,47,UCDP v26.1 successor high fatality estimate,8091734933.0,0.17667410164039787

@@ -424,3 +424,15 @@ side by side at full resolution. The trajectory is close, but the cited Census
 Bureau/McEvedy population denominator and exact original aggregation remain
 unrecovered, so the figure is not promoted to verified. Next: continue the
 untouched queue with 11-3. This checkpoint is not a completion claim.
+
+2026-09-10 genocide checkpoint: Figure 11-3 adds a partial reconstruction from
+the official PITF GenoPoliticide workbook and historical UCDP one-sided workbook.
+The PITF workbook exposes ordinal death-magnitude categories, so the plot uses a
+documented midpoint/lower-bound decode rather than invented case values; the
+result visibly under-reproduces the book's large late-1960s and 1970s peaks.
+UCDP high-fatality estimates and a dashed v26.1 successor are kept separate.
+The original PDF chart and both comparison pages were inspected. SQLite now
+catalogs 608 files, 127 clean tables, and 59,143 clean rows. Nineteen figures
+remain untouched. Next: continue with 12-1, while retaining the exact PITF
+case-specific estimates and cited population denominator as targeted recovery.
+This checkpoint is not a completion claim.
