@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "f766348d9619668bc49188986d789694e33c44845c23879bc39baf037863c639",
+  "snapshot_id": "ac76187ececb30504827395ee799a1e2871c1f761075fcd5ac1e325c70d1c757",
   "figures": 75,
-  "saved_files": 509,
-  "clean_tables": 105,
-  "clean_rows": 41225,
+  "saved_files": 521,
+  "clean_tables": 106,
+  "clean_rows": 41258,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -478,14 +478,14 @@
     {
       "figure_id": "16-6",
       "title": "Global well-being, 1820-2015",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 12,
+      "raw_files": 5,
+      "clean_tables": 1,
+      "canonical_declared_clean_tables": 1,
+      "clean_rows": 33,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "17-1",

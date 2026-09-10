@@ -43,8 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 27 |
-| partial_match | 20 |
+| not_started | 26 |
+| partial_match | 21 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 7 |
@@ -114,7 +114,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 16-3 | Years of schooling, 1870-2010 | verified_reproduction | processed | incomplete |
 | 16-4 | Female literacy, 1750-2014 | partial_match | processed | incomplete |
 | 16-5 | IQ gains, 1909-2013 | partial_match | processed | incomplete |
-| 16-6 | Global well-being, 1820-2015 | not_started | not_started | incomplete |
+| 16-6 | Global well-being, 1820-2015 | partial_match | processed | incomplete |
 | 17-1 | Work hours, Western Europe and US, 1870-2000 | partial_match | processed | incomplete |
 | 17-2 | Retirement, US, 1880-2010 | partial_match | processed | incomplete |
 | 17-3 | Utilities, appliances, and housework, US, 1900-2015 | partial_match | processed | incomplete |
@@ -877,6 +877,31 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Reconstruction script: [scripts/reconstruct_16_5.py](scripts/reconstruct_16_5.py)
 - Book period comparison: [figures/16-5/plots/comparisons/figure_16_5_book_period_review.png](figures/16-5/plots/comparisons/figure_16_5_book_period_review.png)
 - Extended comparison: [figures/16-5/plots/comparisons/figure_16_5_extended_review.png](figures/16-5/plots/comparisons/figure_16_5_extended_review.png)
+
+### Figure 16-6 - Global well-being, 1820-2015
+
+Status: `partial_match`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/16-6/figure.json](figures/16-6/figure.json)
+- Original reference: [references/figures/figure_16_6.png](references/figures/figure_16_6.png)
+- Provenance: [figures/16-6/provenance/provenance.md](figures/16-6/provenance/provenance.md)
+- Caption: [figures/16-6/captions/caption.txt](figures/16-6/captions/caption.txt)
+- Source log: [figures/16-6/source_logs/source_log.md](figures/16-6/source_logs/source_log.md)
+- Search log: [figures/16-6/search_iterations/search_iterations.md](figures/16-6/search_iterations/search_iterations.md)
+- Download log: [figures/16-6/source_logs/downloads.json](figures/16-6/source_logs/downloads.json)
+- Additional download log: [figures/16-6/source_logs/downloads.jsonl](figures/16-6/source_logs/downloads.jsonl)
+- Anomaly review: [figures/16-6/anomaly_reviews/anomaly_review.md](figures/16-6/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/16-6/discrepancy_logs/discrepancy_log.md](figures/16-6/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/16-6/review_checklist.md](figures/16-6/review_checklist.md)
+- Book period reconstruction: [figures/16-6/plots/book_period/figure_16_6_book_period.png](figures/16-6/plots/book_period/figure_16_6_book_period.png)
+- Extended reconstruction: [figures/16-6/plots/extended/figure_16_6_extended.png](figures/16-6/plots/extended/figure_16_6_extended.png)
+- Book period clean: [figures/16-6/data/clean/figure_16_6_book_period.csv](figures/16-6/data/clean/figure_16_6_book_period.csv)
+- Lineage: [figures/16-6/lineage/lineage.json](figures/16-6/lineage/lineage.json)
+- Lineage csv: [figures/16-6/lineage/lineage.csv](figures/16-6/lineage/lineage.csv)
+- Reconstruction script: [scripts/reconstruct_16_6.py](scripts/reconstruct_16_6.py)
+- Table extraction script: [scripts/recover_16_6_table.py](scripts/recover_16_6_table.py)
+- Book period comparison: [figures/16-6/plots/comparisons/figure_16_6_book_period_review.png](figures/16-6/plots/comparisons/figure_16_6_book_period_review.png)
+- Extended comparison: [figures/16-6/plots/comparisons/figure_16_6_extended_review.png](figures/16-6/plots/comparisons/figure_16_6_extended_review.png)
 
 ### Figure 17-1 - Work hours, Western Europe and US, 1870-2000
 

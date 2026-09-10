@@ -6,31 +6,56 @@
   "title": "Global well-being, 1820-2015",
   "page": "",
   "year_range": "1820-2015",
-  "source_type_guess": "unknown",
+  "source_type_guess": "institutional_and_academic_composites",
   "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "current_owner": "codex_direct",
+  "scientific_status": "partial_match",
+  "execution_status": "processed",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "source_recovery",
+  "next_action": "Recover exact World HIHD update through 2015 and annual rendering data; retain original equal-weight OECD composite, not latent-variable successor.",
+  "notes": "Both indices reconstructed from original numerical tables. HIHD ends2007; missing2015 update and annual detail explicitly documented. No comparable extension.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Historical Index of Human Development: Prados de la Escosura 2015, 0-1 scale, available at Our World in Data, Roser 2016h. Well-Being Composite: Rijpma 2014, p. 259, standard deviation scale over country-decades.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
+    "basis": "OECD June23,2014 Figure13.2 spreadsheet and Prados2015 Table1 original numerical values; missing2015 endpoint precludes verified reproduction.",
     "previous_registry_status": "not_started"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
+    "status": "inspected",
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_16_6.png",
+        "sha256": "f40df4b0db2b78c0f8c2aee3d3abb74931d15cd89ecf756fd26473b69d2840d9"
+      },
+      {
+        "path": "figures/16-6/plots/book_period/figure_16_6_book_period.png",
+        "sha256": "22538f8baeaff67391b2e39dd3b743300f5169fe8c2c8701765dec3b7f7ff6b6"
+      },
+      {
+        "path": "figures/16-6/plots/extended/figure_16_6_extended.png",
+        "sha256": "8602546948795fa556215a29555040b84daaf7d6a54f80407d891fd96021861f"
+      },
+      {
+        "path": "figures/16-6/plots/comparisons/figure_16_6_book_period_review.png",
+        "sha256": "f478cd5d79df8e9388a3fbc9ffaee20612e83a4ca8ba8fb434d0a7b789700598"
+      },
+      {
+        "path": "figures/16-6/plots/comparisons/figure_16_6_extended_review.png",
+        "sha256": "9e4af67ceb9826e78706b481042c544734fd3df087d7dafc3a73d993e1e3d13f"
+      }
+    ],
+    "issues": [
+      "HIHD2008-2015 missing",
+      "Benchmarks lack annual detail",
+      "No comparable extension",
+      "Surrounding book context pending"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_plotted",
+    "notes": "New AHDI adds political freedom; OECD2021 composite uses latent-variable weighting. Neither is a continuous extension of the two book curves."
   },
   "artifacts": {
     "metadata": {
@@ -40,16 +65,88 @@
     "original_reference": {
       "path": "references/figures/figure_16_6.png",
       "sha256": "f40df4b0db2b78c0f8c2aee3d3abb74931d15cd89ecf756fd26473b69d2840d9"
+    },
+    "provenance": {
+      "path": "figures/16-6/provenance/provenance.md",
+      "sha256": "7a6ce79baaaff46023fd07f7191a77d3e5662f7a1722dc32c0664280f193757e"
+    },
+    "caption": {
+      "path": "figures/16-6/captions/caption.txt",
+      "sha256": "46cb827492d1c2a4ff3edb8a8d09e706816ecc1eb2e63efa497a61f933b3f6a7"
+    },
+    "source_log": {
+      "path": "figures/16-6/source_logs/source_log.md",
+      "sha256": "ade12d9c5cecdecfdfd0e7c02a1ace0bd1c557d78b794207a6a13c0176f9c528"
+    },
+    "search_log": {
+      "path": "figures/16-6/search_iterations/search_iterations.md",
+      "sha256": "3ceb74f996ae1546af9ea8ea9c04cf62d906495b09eb226ac14344124f08858d"
+    },
+    "download_log": {
+      "path": "figures/16-6/source_logs/downloads.json",
+      "sha256": "320e25015c9576bfc75c62c1ec965a438529271860d55cc85aa1c0cfe334d562"
+    },
+    "additional_download_log": {
+      "path": "figures/16-6/source_logs/downloads.jsonl",
+      "sha256": "2af8900cffa990d310d22b6e6a003a6f38f84b6081dbe506e4d4729261552080"
+    },
+    "anomaly_review": {
+      "path": "figures/16-6/anomaly_reviews/anomaly_review.md",
+      "sha256": "4ee8d7ca05f5ac3e67312bc64c5dc860cb2e1c276d911a1585f02531244a2f1d"
+    },
+    "discrepancy_log": {
+      "path": "figures/16-6/discrepancy_logs/discrepancy_log.md",
+      "sha256": "c75499e962725d0d51617cbe1ea23edc7681295d710955fc30292f1add00d078"
+    },
+    "review_checklist": {
+      "path": "figures/16-6/review_checklist.md",
+      "sha256": "b5a8c14acae2aa4da57e790dd7b266b0655d927263a010c535d06956c542b262"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/16-6/plots/book_period/figure_16_6_book_period.png",
+      "sha256": "22538f8baeaff67391b2e39dd3b743300f5169fe8c2c8701765dec3b7f7ff6b6"
+    },
+    "extended_reconstruction": {
+      "path": "figures/16-6/plots/extended/figure_16_6_extended.png",
+      "sha256": "8602546948795fa556215a29555040b84daaf7d6a54f80407d891fd96021861f"
+    },
+    "book_period_clean": {
+      "path": "figures/16-6/data/clean/figure_16_6_book_period.csv",
+      "sha256": "8169e4026483dafa4166507d65e7bbf494e75fc0d1932d07ad3fc07d21adc2db"
+    },
+    "lineage": {
+      "path": "figures/16-6/lineage/lineage.json",
+      "sha256": "2a849d1ab262efb83ccc432016a4b5ad5752b46e222fdd29f92eedbda47d6d5e"
+    },
+    "lineage_csv": {
+      "path": "figures/16-6/lineage/lineage.csv",
+      "sha256": "247aea97c997f8ec7a6ae1d73f1203e72318fa767a9c0561af60fb29f2e622b3"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_16_6.py",
+      "sha256": "6085616a75a936c8f3619ae4ff989a0132835e5cfa4671319608aabe0d5643c0"
+    },
+    "table_extraction_script": {
+      "path": "scripts/recover_16_6_table.py",
+      "sha256": "91421ea353db8e04156f0d633af402f91143367319b851af3a36c4225ea44a9a"
+    },
+    "book_period_comparison": {
+      "path": "figures/16-6/plots/comparisons/figure_16_6_book_period_review.png",
+      "sha256": "f478cd5d79df8e9388a3fbc9ffaee20612e83a4ca8ba8fb434d0a7b789700598"
+    },
+    "extended_comparison": {
+      "path": "figures/16-6/plots/comparisons/figure_16_6_extended_review.png",
+      "sha256": "9e4af67ceb9826e78706b481042c544734fd3df087d7dafc3a73d993e1e3d13f"
     }
   },
   "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "book_page": "Supplemental Graphics PDF p32 lower",
+    "claim_summary": "Two differently scaled composite measures rise over long-run history; no common unit or causal claim.",
+    "original_dataset": "Rijpma2014 equal-weight composite World19decades; Prados2015 Table1 World14benchmarks",
+    "dataset_url": "https://doi.org/10.1787/888933096502 ; https://doi.org/10.1111/roiw.12104",
+    "archive_url": "https://web.archive.org/web/20170128054240id_/https://ourworldindata.org/human-development-index/",
+    "download_date": "2026-09-10 UTC",
+    "confidence_score": "High original tables; medium partial visual; missing2015 update"
   },
   "reference": {
     "figure_id": "16-6",
@@ -79,7 +176,7 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 16-6: Global well-being, 1820-2015",
     "source_note_ocr": "Historical Index of Human Development: Prados de la Escosura 2015, 0-1 scale, available at Our World in Data, Roser 2016h. Well-Being Composite: Rijpma 2014, p. 259, standard deviation scale over country-decades.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "visually_confirmed_against_original_pdf",
+    "visual_review": "full_resolution_original_inspected_2026-09-09"
   }
 }

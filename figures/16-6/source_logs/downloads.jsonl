@@ -1,0 +1,107 @@
+[
+  {
+    "url": "https://doi.org/10.1787/888933096502",
+    "path": "figures/16-6/data/raw/oecd_figure13_2.xls",
+    "retrieved_at": "2026-09-10T00:40:52.123230+00:00",
+    "http_status": 200,
+    "final_url": "https://statlinks.oecdcode.org/302014041P1G054.XLS",
+    "content_type": "application/vnd.ms-excel",
+    "status": "downloaded",
+    "sha256": "635018300ea2c64ce0ea91006ce30b51be4dc10f6830d50a6b2c8fb8dca480bc",
+    "bytes": 66048
+  },
+  {
+    "url": "https://web.archive.org/web/20160424000000id_/http://ourworldindata.org/roser/graphs/HDI_byWorldRegion_Since1870_DeLaEscosura/HDI_byWorldRegion_Since1870_DeLaEscosura.csv",
+    "path": "figures/16-6/data/raw/owid_hihd_2016.csv",
+    "retrieved_at": "2026-09-10T00:41:04.455245+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20150911004345id_/http://ourworldindata.org/roser/graphs/HDI_byWorldRegion_Since1870_DeLaEscosura/HDI_byWorldRegion_Since1870_DeLaEscosura.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "15b2204995288d7adbdd3582219da74e399bb59e9cd22e32b2934991c645c03a",
+    "bytes": 877
+  },
+  {
+    "url": "https://web.archive.org/web/20161231000000id_/https://ourworldindata.org/human-development-index/",
+    "path": "figures/16-6/data/candidates/owid_hdi_2017.html",
+    "retrieved_at": "2026-09-10T00:41:19.972860+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170128054240id_/https://ourworldindata.org/human-development-index/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "c6ad3c6151ef033dbd93815f526c5840f611a2dd4e7f178cf05d1cedeb70234b",
+    "bytes": 58383
+  },
+  {
+    "url": "https://api.github.com/repos/owid/owid-datasets/commits?path=datasets/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura.csv&per_page=10",
+    "path": "figures/16-6/data/candidates/hihd_commits.json",
+    "retrieved_at": "2026-09-10T00:41:27.932015+00:00",
+    "http_status": 200,
+    "final_url": "https://api.github.com/repos/owid/owid-datasets/commits?path=datasets/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura.csv&per_page=10",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "90d875df48639f1f7e7236947d789cf4ea85384e4676bef57928222f874efb54",
+    "bytes": 7227
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/3b27d6324202feceac410c5bdce3fd23273bd119/datasets/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura.csv",
+    "path": "figures/16-6/data/candidates/owid_hihd_2018.csv",
+    "retrieved_at": "2026-09-10T00:41:45.938251+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/3b27d6324202feceac410c5bdce3fd23273bd119/datasets/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "f038cdffa9fd533ca025ee4689f28e95358d33ef162977228fc634f5510269c2",
+    "bytes": 61099
+  },
+  {
+    "url": "https://www.roiw.org/2015/n2/02%20-%2012104.pdf",
+    "path": "tmp/source_cache/prados2015.pdf",
+    "retrieved_at": "2026-09-10T00:42:04.660728+00:00",
+    "http_status": 200,
+    "final_url": "https://www.roiw.org/2015/n2/02%20-%2012104.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "c0fbef0f85b322eeb1d3ee7a14c0bc39e0b0d9ff9cc12e29a078dd0eb40827a8",
+    "bytes": 333090
+  },
+  {
+    "url": "https://web.archive.org/web/20170101000000id_/http://ourworldindata.org/human-development-index/",
+    "path": "figures/16-6/data/candidates/owid_hdi_2017_http.html",
+    "retrieved_at": "2026-09-10T00:42:17.070774+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170128054240id_/https://ourworldindata.org/human-development-index/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "c6ad3c6151ef033dbd93815f526c5840f611a2dd4e7f178cf05d1cedeb70234b",
+    "bytes": 58383
+  },
+  {
+    "url": "https://stat.link/yc1djg",
+    "path": "figures/16-6/data/candidates/oecd_2021_comparison.xlsx",
+    "retrieved_at": "2026-09-10T00:42:17.963049+00:00",
+    "http_status": 200,
+    "final_url": "https://stat.link/files/3d96efc5-en/101-yc1djg-yc1djg.xlsx",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "status": "downloaded",
+    "sha256": "75b1bf786219d3a474914a338e0b0f85a2db3ea458a7ad84626e0db912685556",
+    "bytes": 27093
+  },
+  {
+    "url": "https://espacioinvestiga.org/home-hihd/?lang=en",
+    "path": "figures/16-6/data/candidates/provider.html",
+    "retrieved_at": "2026-09-10T00:41:22.011245+00:00",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='espacioinvestiga.org', port=443): Max retries exceeded with url: /home-hihd/?lang=en (Caused by ConnectTimeoutError(<HTTPSConnection(host='espacioinvestiga.org', port=443) at 0x10b213750>, 'Connection to espacioinvestiga.org timed out. (connect timeout=90)'))"
+  },
+  {
+    "url": "https://web.archive.org/web/20170101000000id_/http://espacioinvestiga.org/00REPO/TablasExcel_HIHD_Dimensiones/_Ing/HIHD.xls",
+    "path": "figures/16-6/data/candidates/provider_hihd_archived.xls",
+    "retrieved_at": "2026-09-10T00:46:25.019653+00:00",
+    "http_status": 404,
+    "final_url": "https://web.archive.org/web/20170101000000id_/http://espacioinvestiga.org/00REPO/TablasExcel_HIHD_Dimensiones/_Ing/HIHD.xls",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "404 Client Error: NOT FOUND for url: https://web.archive.org/web/20170101000000id_/http://espacioinvestiga.org/00REPO/TablasExcel_HIHD_Dimensiones/_Ing/HIHD.xls"
+  }
+]

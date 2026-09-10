@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura.csv",
+    "path": "figures/16-6/data/raw/owid_hihd.csv",
+    "retrieved_at": "2026-09-10T00:38:22.134637+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura/datapackage.json",
+    "path": "figures/16-6/data/raw/owid_hihd.json",
+    "retrieved_at": "2026-09-10T00:38:22.398062+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Historical%20Index%20of%20Human%20Development%20-%20Prados%20de%20la%20Escosura/datapackage.json",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "0b37eb8b8bff90679c8a80a57d44a9d47a20089eadc99b6b6c833b1c6411f80c",
+    "bytes": 1933
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/historical-index-of-human-development.csv",
+    "path": "figures/16-6/data/candidates/owid_hihd_current.csv",
+    "retrieved_at": "2026-09-10T00:38:44.188255+00:00",
+    "http_status": 404,
+    "final_url": "https://ourworldindata.org/grapher/historical-index-of-human-development.csv",
+    "content_type": "application/json; charset=utf-8",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://ourworldindata.org/grapher/historical-index-of-human-development.csv"
+  },
+  {
+    "url": "https://web.archive.org/web/20160101000000id_/http://ourworldindata.org/human-development-index/",
+    "path": "figures/16-6/data/candidates/owid_hdi_2016.html",
+    "retrieved_at": "2026-09-10T00:38:44.739914+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20160424225841id_/http://ourworldindata.org/human-development-index/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "15ca3b7f4ecfcecfc3828b72cc45bff871da8a23a2d6c96492166d6e5ddd84aa",
+    "bytes": 70950
+  },
+  {
+    "url": "https://clio-infra.eu/data/CompositeMeasureofWellbeing_Compact.xlsx",
+    "path": "figures/16-6/data/candidates/clio_composite.xlsx",
+    "retrieved_at": "2026-09-10T00:38:55.868080+00:00",
+    "http_status": 403,
+    "final_url": "https://clio-infra.eu/data/CompositeMeasureofWellbeing_Compact.xlsx",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://clio-infra.eu/data/CompositeMeasureofWellbeing_Compact.xlsx"
+  },
+  {
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2014/10/how-was-life_g1g43e0f/9789264214262-en.pdf",
+    "path": "tmp/source_cache/oecd_how_was_life.pdf",
+    "retrieved_at": "2026-09-10T00:39:07.249232+00:00",
+    "http_status": 200,
+    "final_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2014/10/how-was-life_g1g43e0f/9789264214262-en.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "fddd8a3b8504e75d9d0823707c027ab868760d4b088b341a249c757417d6d6d0",
+    "bytes": 9752346
+  },
+  {
+    "url": "https://datasets.iisg.amsterdam/api/datasets/:persistentId/?persistentId=hdl:10622/QIPFQF",
+    "path": "figures/16-6/data/candidates/clio_dataverse.json",
+    "retrieved_at": "2026-09-10T00:39:08.166920+00:00",
+    "http_status": 403,
+    "final_url": "https://datasets.iisg.amsterdam/api/datasets/:persistentId/?persistentId=hdl:10622/QIPFQF",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://datasets.iisg.amsterdam/api/datasets/:persistentId/?persistentId=hdl:10622/QIPFQF"
+  }
+]

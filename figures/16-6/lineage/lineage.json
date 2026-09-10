@@ -1,0 +1,29 @@
+{
+  "figure_id": "16-6",
+  "book_citation": "Historical Index of Human Development: Prados de la Escosura 2015, 0-1 scale, available at Our World in Data, Roser 2016h. Well-Being Composite: Rijpma 2014, p. 259, standard deviation scale over country-decades.",
+  "script": "scripts/reconstruct_16_6.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/16-6/data/raw/oecd_figure13_2.xls",
+        "figures/16-6/data/raw/prados_2015_table1.csv"
+      ],
+      "selection": "World only:19composite decades1820-2000;14HIHD benchmarks1870-2007",
+      "transformation": "Decade start labels; no rescaling; straight benchmark joins; no extension",
+      "clean": "figures/16-6/data/clean/figure_16_6_book_period.csv",
+      "plot": "figures/16-6/plots/book_period/figure_16_6_book_period.png"
+    },
+    {
+      "role": "extended",
+      "raw_inputs": [
+        "figures/16-6/data/raw/oecd_figure13_2.xls",
+        "figures/16-6/data/raw/prados_2015_table1.csv"
+      ],
+      "selection": "World only:19composite decades1820-2000;14HIHD benchmarks1870-2007",
+      "transformation": "Decade start labels; no rescaling; straight benchmark joins; no extension",
+      "clean": "figures/16-6/data/clean/figure_16_6_book_period.csv",
+      "plot": "figures/16-6/plots/extended/figure_16_6_extended.png"
+    }
+  ]
+}
