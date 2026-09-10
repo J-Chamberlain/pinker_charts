@@ -1,0 +1,48 @@
+{
+  "figure_id": "16-4",
+  "book_citation": "England (all adults): Clark 2007, p.179. World, Pakistan, Afghanistan (ages 15-24): HumanProgress dataset 2101, UNESCO UIS via World Bank 2016f; changing sets of countries for World.",
+  "script": "scripts/reconstruct_16_4.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/17-8/data/raw/WDI_csv_20161119172134.zip"
+      ],
+      "selection": "AFG/PAK parity indicator, nonmissing years <=2014",
+      "transformation": "Select exact ratios; no interpolation",
+      "clean": "figures/16-4/data/clean/figure_16_4_book_period.csv",
+      "plot": "figures/16-4/plots/book_period/figure_16_4_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": [
+        "figures/16-4/data/candidates/wdi_ratio.json"
+      ],
+      "selection": "AFG/PAK parity indicator, available observations",
+      "transformation": "Separate revised vintage; dotted overlap, dashed after2014",
+      "clean": "figures/16-4/data/clean/figure_16_4_successor.csv",
+      "plot": "figures/16-4/plots/extended/figure_16_4_extended.png"
+    },
+    {
+      "role": "rejected_world",
+      "raw_inputs": [
+        "figures/17-8/data/raw/WDI_csv_20161119172134.zip"
+      ],
+      "selection": "Countries with Region,1975-2014",
+      "transformation": "Unweighted available-country mean and count; rejected as reconstruction",
+      "clean": "figures/16-4/data/clean/figure_16_4_rejected_world_mean.csv",
+      "plot": "figures/16-4/plots/diagnostics/vintage_difference.png"
+    },
+    {
+      "role": "revision",
+      "raw_inputs": [
+        "figures/17-8/data/raw/WDI_csv_20161119172134.zip",
+        "figures/16-4/data/candidates/wdi_ratio.json"
+      ],
+      "selection": "Shared AFG/PAK years",
+      "transformation": "Current minus historical ratio",
+      "clean": "figures/16-4/data/clean/figure_16_4_vintage_difference.csv",
+      "plot": "figures/16-4/plots/diagnostics/vintage_difference.png"
+    }
+  ]
+}

@@ -2556,8 +2556,8 @@
     }
   },
   "16-4": {
-    "scientific_status": "not_started",
-    "artifact_kind": "not_started",
+    "scientific_status": "partial_match",
+    "artifact_kind": "reconstruction",
     "artifacts": {
       "metadata": {
         "path": "figures/16-4/figure.json",
@@ -2566,6 +2566,86 @@
       "original_reference": {
         "path": "references/figures/figure_16_4.png",
         "sha256": "2c4f5412c0cc54a5fc7cf3ba84601479920fc61257cb070f9027bccba046f09c"
+      },
+      "provenance": {
+        "path": "figures/16-4/provenance/provenance.md",
+        "sha256": "166e36871f8c0ec8d305f367534ea4036cd11f4cea437d5d042172430fa054f4"
+      },
+      "caption": {
+        "path": "figures/16-4/captions/caption.txt",
+        "sha256": "1f23923c963c659f6500e71b502cf3b592a9228a57fa97fa309335d4aa158fb4"
+      },
+      "source_log": {
+        "path": "figures/16-4/source_logs/source_log.md",
+        "sha256": "12f5d645822b6644af1279a5836223b8aab8db8fdcb8e0662c10defa9bb5ed78"
+      },
+      "search_log": {
+        "path": "figures/16-4/search_iterations/search_iterations.md",
+        "sha256": "e3c6ccd65c19bfc2c1901f45063a8524cc1b2f557111972996308aa97a396f74"
+      },
+      "download_log": {
+        "path": "figures/16-4/source_logs/downloads.json",
+        "sha256": "2bb6f41f82fc6dfdc1ab52054e1102ba00e9fdd2a584e706953471974c02e40c"
+      },
+      "anomaly_review": {
+        "path": "figures/16-4/anomaly_reviews/anomaly_review.md",
+        "sha256": "dadc969919b222b551b765654e47bbd13c1ea5aa88db77706ac5927b259a245f"
+      },
+      "discrepancy_log": {
+        "path": "figures/16-4/discrepancy_logs/discrepancy_log.md",
+        "sha256": "e6946d2e3ba2579abc90d3897755b6c2d4e2b287f6049d75a27d268ea61a282d"
+      },
+      "review_checklist": {
+        "path": "figures/16-4/review_checklist.md",
+        "sha256": "4b23eb2b43e14490df221f80727fb5901f091b7f542752ae2116c5d88d4d6fd1"
+      },
+      "book_period_reconstruction": {
+        "path": "figures/16-4/plots/book_period/figure_16_4_book_period.png",
+        "sha256": "246d1f6443d58f0fb5ff3dbfc5667eb55ab6ccf9f322a0499c8e9c05604fe8cd"
+      },
+      "extended_reconstruction": {
+        "path": "figures/16-4/plots/extended/figure_16_4_extended.png",
+        "sha256": "e3da26b08d5c045f69259287735875ac4b16ecf139abeb415cf9dfc2266698a6"
+      },
+      "diagnostic_plot": {
+        "path": "figures/16-4/plots/diagnostics/vintage_difference.png",
+        "sha256": "aef375a7c4f9f46d512aefc41f3265e2cafa5ac5a66a21d6250854e99ec100af"
+      },
+      "book_period_clean": {
+        "path": "figures/16-4/data/clean/figure_16_4_book_period.csv",
+        "sha256": "25a5c3dfe7dcc84a1bd387b371b24f0b75c01040c11c2d6e972bb5b9b66771b4"
+      },
+      "extended_clean": {
+        "path": "figures/16-4/data/clean/figure_16_4_successor.csv",
+        "sha256": "2e0ddb0f02666e2541f91946055a147a634c68a854d8945a2e4058e3eaeb38e4"
+      },
+      "diagnostic_clean": {
+        "path": "figures/16-4/data/clean/figure_16_4_rejected_world_mean.csv",
+        "sha256": "aa30d69311d9173ca243117b979e982867ed8c7ab2e67362d76d6f1e22f742e8"
+      },
+      "revision_clean": {
+        "path": "figures/16-4/data/clean/figure_16_4_vintage_difference.csv",
+        "sha256": "fb9c8ffaad0afb065abb7d21019c04ee01e0fe1a10367d59072110144a2c6b80"
+      },
+      "lineage": {
+        "path": "figures/16-4/lineage/lineage.json",
+        "sha256": "4959cef77c82a095f62a86097155b6f6c89e0e192c0af548d873e52310757840"
+      },
+      "lineage_csv": {
+        "path": "figures/16-4/lineage/lineage.csv",
+        "sha256": "4d6bbad78d2921a4c36c0d81dddb550aff118124d6d89f5dc6a5c82b698951f4"
+      },
+      "reconstruction_script": {
+        "path": "scripts/reconstruct_16_4.py",
+        "sha256": "cbb9692042b5f5a446a72809dc0a774bb7704f7a9b7258d15b1a307741b697d2"
+      },
+      "book_period_comparison": {
+        "path": "figures/16-4/plots/comparisons/figure_16_4_book_period_review.png",
+        "sha256": "6875f273db4b0fd2434bdc7eb032bb50cd325745c61e116ec78f278eba830204"
+      },
+      "extended_comparison": {
+        "path": "figures/16-4/plots/comparisons/figure_16_4_extended_review.png",
+        "sha256": "3a330593e28bc0f0d050358d1cf8b1fd34fbbc2679d53b03aff7ebfe0023e93a"
       }
     }
   },

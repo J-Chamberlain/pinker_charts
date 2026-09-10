@@ -57,6 +57,14 @@ checks pass. No paid API needed. Source download failures remain in logs.
 
 ## Remaining Work
 
+Subsequent Figure 16-4 checkpoint: two WDI 2016 country curves recovered;
+England and World remain explicit source-recovery gaps. Both comparisons and
+the revision diagnostic were actually inspected; extension styling corrected at
+2014 without inventing an observation. Status `partial_match`, not publication
+ready. Library now 503 files, 103 clean tables, 41,159 rows; 72 tests pass.
+28 untouched figures remain. Global PDF still reflects the preceding 36-figure
+checkpoint until the next grouped refresh.
+
 29 figures have not started. Source-only packages and legacy partials are not
 finished reconstructions. All Chapter 17 figures now have reconstruction or recovery
 packages, but only lighting is verified. Literacy/basic education/schooling add

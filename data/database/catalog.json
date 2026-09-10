@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "4373b061503eb304f3a14df0d2d25b2e923f68cbba038977f7c16102fdf3fbf5",
+  "snapshot_id": "73d2e1bae237e7f615d8f150e8afb4419e3ec9172aee46f930cd5d7b0933f2f4",
   "figures": 75,
-  "saved_files": 493,
-  "clean_tables": 99,
-  "clean_rows": 41072,
+  "saved_files": 503,
+  "clean_tables": 103,
+  "clean_rows": 41159,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -454,14 +454,14 @@
     {
       "figure_id": "16-4",
       "title": "Female literacy, 1750-2014",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 10,
       "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "clean_tables": 4,
+      "canonical_declared_clean_tables": 4,
+      "clean_rows": 87,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "16-5",

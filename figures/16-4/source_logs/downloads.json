@@ -1,0 +1,125 @@
+[
+  {
+    "url": "https://web.archive.org/web/20161201000000id_/http://humanprogress.org/f1/2101",
+    "path": "figures/16-4/data/raw/humanprogress_archive.html",
+    "retrieved_at": "2026-09-10T00:26:37.735986+00:00",
+    "http_status": 404,
+    "final_url": "https://web.archive.org/web/20251201071753id_/https://humanprogress.org/f1/2101",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://web.archive.org/web/20251201071753id_/https://humanprogress.org/f1/2101"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Literacy%20in%20England%2C%20by%20sex%20-%20Schofield%20%281973%29%2C%20Houston%20%281982%29%2C%20Cressy%20%281980%29%20/Literacy%20in%20England%2C%20by%20sex%20-%20Schofield%20%281973%29%2C%20Houston%20%281982%29%2C%20Cressy%20%281980%29%20.csv",
+    "path": "figures/16-4/data/candidates/owid_england.csv",
+    "retrieved_at": "2026-09-10T00:29:01.503137+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Literacy%20in%20England%2C%20by%20sex%20-%20Schofield%20%281973%29%2C%20Houston%20%281982%29%2C%20Cressy%20%281980%29%20/Literacy%20in%20England%2C%20by%20sex%20-%20Schofield%20%281973%29%2C%20Houston%20%281982%29%2C%20Cressy%20%281980%29%20.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "4ca18fd6a538e336f2924e5bb37c87c8fabdc3d4d913f48de8c602fd3e388bc8",
+    "bytes": 317
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Literacy%20in%20England%2C%20by%20sex%20-%20Schofield%20%281973%29%2C%20Houston%20%281982%29%2C%20Cressy%20%281980%29%20/README.md",
+    "path": "figures/16-4/data/candidates/owid_england.md",
+    "retrieved_at": "2026-09-10T00:29:01.716943+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Literacy%20in%20England%2C%20by%20sex%20-%20Schofield%20%281973%29%2C%20Houston%20%281982%29%2C%20Cressy%20%281980%29%20/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "43ae03857f87cb726b6554d37ee3ffafb4d1f857e1e75af0bd462e13ad1ffd3a",
+    "bytes": 258
+  },
+  {
+    "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Literacy%20in%20England%2C%20by%20sex%20-%20Schofield%20%281973%29%2C%20Houston%20%281982%29%2C%20Cressy%20%281980%29%20/datapackage.json",
+    "path": "figures/16-4/data/candidates/owid_england.json",
+    "retrieved_at": "2026-09-10T00:29:01.872870+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Literacy%20in%20England%2C%20by%20sex%20-%20Schofield%20%281973%29%2C%20Houston%20%281982%29%2C%20Cressy%20%281980%29%20/datapackage.json",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded",
+    "sha256": "b7bc2a92da4d57ede0863ff49ad5a56b7c273c2f05c07a4a16efd8e8a3e8d159",
+    "bytes": 2411
+  },
+  {
+    "url": "https://web.archive.org/web/20170101000000id_/http://humanprogress.org/static/2101",
+    "path": "figures/16-4/data/raw/humanprogress_2101.html",
+    "retrieved_at": "2026-09-10T00:28:51.525539+00:00",
+    "http_status": 404,
+    "final_url": "https://web.archive.org/web/20170101000000id_/http://humanprogress.org/static/2101",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "404 Client Error: NOT FOUND for url: https://web.archive.org/web/20170101000000id_/http://humanprogress.org/static/2101"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=*.humanprogress.org/*2101*&output=json&filter=statuscode:200&collapse=urlkey",
+    "path": "figures/16-4/data/candidates/humanprogress_cdx.json",
+    "retrieved_at": "2026-09-10T00:29:17.428836+00:00",
+    "http_status": 503,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=*.humanprogress.org/*2101*&output=json&filter=statuscode:200&collapse=urlkey",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "503 Server Error: Service Unavailable for url: https://web.archive.org/cdx/search/cdx?url=*.humanprogress.org/*2101*&output=json&filter=statuscode:200&collapse=urlkey"
+  },
+  {
+    "url": "https://web.archive.org/web/20170101000000id_/http://www.humanprogress.org/static/2101",
+    "path": "figures/16-4/data/candidates/hp_www_static.html",
+    "retrieved_at": "2026-09-10T00:29:50.273757+00:00",
+    "http_status": 404,
+    "final_url": "https://web.archive.org/web/20170101000000id_/http://www.humanprogress.org/static/2101",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "404 Client Error: NOT FOUND for url: https://web.archive.org/web/20170101000000id_/http://www.humanprogress.org/static/2101"
+  },
+  {
+    "url": "https://api.worldbank.org/v2/indicator/SE.ADT.1524.LT.FM.ZS?format=json",
+    "path": "figures/16-4/data/candidates/wdi_metadata.json",
+    "retrieved_at": "2026-09-10T00:29:55.837188+00:00",
+    "http_status": 200,
+    "final_url": "https://api.worldbank.org/v2/indicator/SE.ADT.1524.LT.FM.ZS?format=json",
+    "content_type": "application/json;charset=utf-8",
+    "status": "downloaded",
+    "sha256": "e6b91ec60ef704327ec605beb8f192b4fb72785bc4015992dd347fde2010bc64",
+    "bytes": 961
+  },
+  {
+    "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.1524.LT.FM.ZS?format=json&per_page=30000",
+    "path": "figures/16-4/data/candidates/wdi_ratio.json",
+    "retrieved_at": "2026-09-10T00:29:56.349244+00:00",
+    "http_status": 200,
+    "final_url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.1524.LT.FM.ZS?format=json&per_page=30000",
+    "content_type": "application/json;charset=utf-8",
+    "status": "downloaded",
+    "sha256": "3d87a65da28eef85b12fcb4f8650aab4606f93f70e64018b9e7b25098d690b20",
+    "bytes": 4389653
+  },
+  {
+    "url": "https://www.lem.santannapisa.it/WPLem/files/2022-28.pdf",
+    "path": "tmp/source_cache/literacy_2022.pdf",
+    "retrieved_at": "2026-09-10T00:30:38.393083+00:00",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='www.lem.santannapisa.it', port=443): Max retries exceeded with url: /WPLem/files/2022-28.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=humanprogress.org/f1/2101&output=json&filter=statuscode:200",
+    "path": "figures/16-4/data/candidates/hp_exact_cdx.json",
+    "retrieved_at": "2026-09-10T00:31:02.150148+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=humanprogress.org/f1/2101&output=json&filter=statuscode:200",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "url": "https://web.archive.org/web/20170101000000id_/http://www.humanprogress.org/fl/2101",
+    "path": "figures/16-4/data/raw/hp_fl.html",
+    "retrieved_at": "2026-09-10T00:31:20.045219+00:00",
+    "http_status": 404,
+    "final_url": "https://web.archive.org/web/20170101000000id_/http://www.humanprogress.org/fl/2101",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "404 Client Error: NOT FOUND for url: https://web.archive.org/web/20170101000000id_/http://www.humanprogress.org/fl/2101"
+  }
+]
