@@ -220,7 +220,7 @@ def summary(conn: sqlite3.Connection) -> dict:
             "clean_rows": conn.execute("SELECT count(*) FROM current_clean_rows").fetchone()[0],
             "parse_errors": conn.execute("SELECT repository_path,table_error FROM current_files WHERE table_status='parse_error'").fetchall(),
             "figure_coverage": coverage,
-            "limitations": ["File presence does not prove use in the current plot.", "Candidate and legacy files are not promoted to accepted data.", "Raw binary/tabular sources remain in Git; database row queries cover clean CSVs only.", "Units and source versions are not automatically harmonized."]}
+            "limitations": ["File presence does not prove use in the current plot.", "Candidate and legacy files are not promoted to accepted data.", "Database row queries cover clean CSVs only. Full raw sources may be local-only where redistribution is restricted; consult source manifests.", "Units and source versions are not automatically harmonized."]}
 
 
 def check(root: Path, destination: Path) -> dict:

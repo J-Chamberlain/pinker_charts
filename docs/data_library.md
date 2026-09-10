@@ -26,6 +26,19 @@ review differences, then commit the files together. Data updates never overwrite
 the frozen book reconstruction automatically. The database builder itself is
 offline; source-download automation is a separate adapter responsibility.
 
+## Redistribution Restrictions
+
+Retention is not permission to republish a complete third-party dataset. When
+a source restricts redistribution, preserve the full bytes in the ignored
+`.private_sources/<figure>/` cache and publish URL, version/hash, retrieval code
+and a source manifest instead. Keep the plotted subset or derived aggregates
+separate. Do not put a full restricted dataset into the committed SQLite file.
+Figure14-1 is the first explicit example: original Polity workbooks are retained
+locally, while World aggregates and recovery instructions are in Git. A fresh
+clone can plot from retained aggregates; full reaggregation requires retrieval
+of the pinned original files. Local-only source bytes need a separate private
+backup and cannot be reconstructed from Git alone if the provider disappears.
+
 ## API Review Is Optional Infrastructure
 
 "Paid calibration" referred to testing whether a separately invoked model reviewer

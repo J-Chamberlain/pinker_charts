@@ -1,0 +1,37 @@
+[
+  {
+    "filename": "hp_2016.html",
+    "url": "https://web.archive.org/web/20160812092952id_/http://humanprogress.org/f1/2560",
+    "sha256": "7493f888d738a662d75dd5f6bc90f61ff59bee816bc21eb9744146a532884c86",
+    "local_cache_path": ".private_sources/14-1/hp_2016.html",
+    "redistribution": "full source retained locally, excluded from Git pending permission"
+  },
+  {
+    "filename": "hp_f1_archive.html",
+    "url": "https://web.archive.org/web/20170427220920id_/http://humanprogress.org/f1/2560",
+    "sha256": "cbe92c448087722dad036ee2b07661830febce4bce2a8d8fc21ab4736a560a4f",
+    "local_cache_path": ".private_sources/14-1/hp_f1_archive.html",
+    "redistribution": "full source retained locally, excluded from Git pending permission"
+  },
+  {
+    "filename": "p4v2015.xls",
+    "url": "https://www.systemicpeace.org/inscr/p4v2015.xls",
+    "sha256": "3539f76feb80160d78abb7c583da767bde59d19398c50f2fd134ae8ca64b18c5",
+    "local_cache_path": ".private_sources/14-1/p4v2015.xls",
+    "redistribution": "full source retained locally, excluded from Git pending permission"
+  },
+  {
+    "filename": "p4v2018.xls",
+    "url": "https://www.systemicpeace.org/inscr/p4v2018.xls",
+    "sha256": "944f6f366c59ab25890d8d317a45caf24106fd3a9255d05439e7ef0ee4c14472",
+    "local_cache_path": ".private_sources/14-1/p4v2018.xls",
+    "redistribution": "full source retained locally, excluded from Git pending permission"
+  },
+  {
+    "filename": "p5v2018.xls",
+    "url": "https://www.systemicpeace.org/inscr/p5v2018.xls",
+    "sha256": "f81248561cb4fd884b0a439c7c0af298bc7f81b993bcd42e006988cb6d37a71c",
+    "local_cache_path": ".private_sources/14-1/p5v2018.xls",
+    "redistribution": "full source retained locally, excluded from Git pending permission"
+  }
+]

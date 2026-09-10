@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ac76187ececb30504827395ee799a1e2871c1f761075fcd5ac1e325c70d1c757",
+  "snapshot_id": "37f286d455342f1f0ca7396656b4b0003ab59afc08aa0737343d7eb042dfba25",
   "figures": 75,
-  "saved_files": 521,
-  "clean_tables": 106,
-  "clean_rows": 41258,
+  "saved_files": 531,
+  "clean_tables": 109,
+  "clean_rows": 42782,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -262,14 +262,14 @@
     {
       "figure_id": "14-1",
       "title": "Democracy versus autocracy, 1800-2015",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 10,
+      "raw_files": 7,
+      "clean_tables": 3,
+      "canonical_declared_clean_tables": 3,
+      "clean_rows": 1524,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "14-2",
@@ -911,7 +911,7 @@
   "limitations": [
     "File presence does not prove use in the current plot.",
     "Candidate and legacy files are not promoted to accepted data.",
-    "Raw binary/tabular sources remain in Git; database row queries cover clean CSVs only.",
+    "Database row queries cover clean CSVs only. Full raw sources may be local-only where redistribution is restricted; consult source manifests.",
     "Units and source versions are not automatically harmonized."
   ]
 }

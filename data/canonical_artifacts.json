@@ -2096,8 +2096,8 @@
     }
   },
   "14-1": {
-    "scientific_status": "not_started",
-    "artifact_kind": "not_started",
+    "scientific_status": "partial_match",
+    "artifact_kind": "reconstruction",
     "artifacts": {
       "metadata": {
         "path": "figures/14-1/figure.json",
@@ -2106,6 +2106,90 @@
       "original_reference": {
         "path": "references/figures/figure_14_1.png",
         "sha256": "26569d83fb896feba423298d46e96443d5174f37fea75144596582be127776b9"
+      },
+      "provenance": {
+        "path": "figures/14-1/provenance/provenance.md",
+        "sha256": "ff76246c8ee95c77034f9ebbd1a4e71d1f74bc88b7f482c68b0741c2036fcb00"
+      },
+      "caption": {
+        "path": "figures/14-1/captions/caption.txt",
+        "sha256": "bd684558d35ad931174249206aff5d6612523b350d3c6246ca5abf954549b702"
+      },
+      "source_log": {
+        "path": "figures/14-1/source_logs/source_log.md",
+        "sha256": "a3c713fd89f601553f3a2cff0e173f34de740976bfcecdf134e0e6c016218b15"
+      },
+      "search_log": {
+        "path": "figures/14-1/search_iterations/search_iterations.md",
+        "sha256": "d61e3f943118252e996184987bc781e10b3a609f235bd41e13f4aef7d1281b7d"
+      },
+      "download_log": {
+        "path": "figures/14-1/source_logs/downloads.json",
+        "sha256": "a667080616eb257a12a8c138377dd2d0980f8311d574ae9ec852bc5fc4bdcd3f"
+      },
+      "anomaly_review": {
+        "path": "figures/14-1/anomaly_reviews/anomaly_review.md",
+        "sha256": "3457d5dcbc723d7f75c15eb9d0e44734b0be3350f917cf8eb97a8c4751648658"
+      },
+      "discrepancy_log": {
+        "path": "figures/14-1/discrepancy_logs/discrepancy_log.md",
+        "sha256": "29dea1dc6535a6dae4d35ba119c571d18728ef599a8773744aea8aa43f4cf45e"
+      },
+      "review_checklist": {
+        "path": "figures/14-1/review_checklist.md",
+        "sha256": "0f23dcf9db4a58fdce22ac58f7e12450c72f5313a0383e286c7e3e54bcffcbb9"
+      },
+      "book_period_reconstruction": {
+        "path": "figures/14-1/plots/book_period/figure_14_1_book_period.png",
+        "sha256": "1ca0e7b566472e1d332d3f27b63c56dd98ad4699222be66ef7ab5ed30821848a"
+      },
+      "extended_reconstruction": {
+        "path": "figures/14-1/plots/extended/figure_14_1_extended.png",
+        "sha256": "8a1b061804c7159897ad01c7b3f2fd550ecc17fc99f952a342766b4438a41639"
+      },
+      "diagnostic": {
+        "path": "figures/14-1/plots/diagnostics/aggregation_and_coverage.png",
+        "sha256": "cd1292f239b884df0113d89522c659c776aec978840e6a222c07401070bbc4ab"
+      },
+      "book_period_clean": {
+        "path": "figures/14-1/data/clean/figure_14_1_book_period.csv",
+        "sha256": "43d608dc79e2cb06e7da488dd55644cafba19642725be6081d164b5bfeda445b"
+      },
+      "extended_clean": {
+        "path": "figures/14-1/data/clean/figure_14_1_successor.csv",
+        "sha256": "b26eda5d9293538a2ae78b0c2cbe7f03d9c40c36ecfe47e1de49426d1a9f07ef"
+      },
+      "diagnostic_clean": {
+        "path": "figures/14-1/data/clean/figure_14_1_diagnostic.csv",
+        "sha256": "5abebd96d37bc0b4a7c6ca6ff74870162bd3c35684f551b5c0920004d66dee74"
+      },
+      "lineage": {
+        "path": "figures/14-1/lineage/lineage.json",
+        "sha256": "cabe4493eb077ce4b25e16d575ebba761f156664789a1e11a7db3074a94cfd6d"
+      },
+      "lineage_csv": {
+        "path": "figures/14-1/lineage/lineage.csv",
+        "sha256": "f19e6c2cbfb42ab92423b0ff9bbc1616fd50e599a1a25c2fb703c0939ed6e55e"
+      },
+      "source_manifest": {
+        "path": "figures/14-1/data/raw/source_manifest.json",
+        "sha256": "4da27e25a8b47a3d643c1677bfaeabda0211771cf6a0d3797639c360d6ff2f09"
+      },
+      "reconstruction_script": {
+        "path": "scripts/reconstruct_14_1.py",
+        "sha256": "9f98cf2e8b4010a54a105a1da6da36d15e8bc6fcf37e24476ba5d88f18d73112"
+      },
+      "recovery_script": {
+        "path": "scripts/recover_14_1.py",
+        "sha256": "5597f4fbf54e6efd7660929c4aad5973e932569790ce31710c31ce8cdde1207a"
+      },
+      "book_period_comparison": {
+        "path": "figures/14-1/plots/comparisons/figure_14_1_book_period_review.png",
+        "sha256": "d61a13acde73a517ee91344d4f514eb1fd889429c9f38463fa307ecaa4790683"
+      },
+      "extended_comparison": {
+        "path": "figures/14-1/plots/comparisons/figure_14_1_extended_review.png",
+        "sha256": "56ec3fc3f0bbaf1d4bcf47653627cb27aff177ca28847de94f5e964dfdcf35e3"
       }
     }
   },

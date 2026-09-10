@@ -5,6 +5,7 @@ __pycache__/
 data/repositories/
 *.tmp
 .venv/
+.private_sources/
 tmp/
 .pytest_cache/
 *.egg-info/

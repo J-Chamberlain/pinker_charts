@@ -1,0 +1,26 @@
+{
+  "_id": 2560,
+  "_slugs": [
+    "dataset-2560"
+  ],
+  "calculation_type": "Average",
+  "category1": "good.government",
+  "dataset_type": "Dynamic",
+  "description": "This scale codes democratic and autocratic patterns of authority, with higher numbers indicating more democratic regimes and lower numbers indicating more autocratic regimes.",
+  "indicator_subtitle": "scale -10 to 10",
+  "indicator_title": "Democracy versus autocracy over time",
+  "is_protected": "FALSE",
+  "literature1": "https://fee.org/articles/the-market-and-political-freedom/",
+  "literature1_description": "The economic and political processes are linked: one generates and sustains the other. Thus a societys economic process would have ultimate consequences for the kind of political process it ends up with.",
+  "related_video_url": "https://www.youtube.com/watch?v=ffFZ2T2rw_M",
+  "seo_metadata": "Regime type autocracy democracy scale -10 to 10",
+  "series": null,
+  "short_name": "dataset",
+  "source": "Center for Systemic Peace",
+  "source_update_date": "7/18/2016",
+  "source_url": "http://systemicpeace.org/inscrdata.html",
+  "static": "FALSE",
+  "updated_at": "2016-07-18T15:46:25Z",
+  "year_begin": 1800,
+  "year_end": 2015
+}
