@@ -43,12 +43,12 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 3 |
-| not_started | 6 |
+| not_started | 5 |
 | partial_match | 35 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 10 |
-| verified_reproduction | 13 |
+| verified_reproduction | 14 |
 
 ## Figure Queue
 
@@ -108,7 +108,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 15-6 | Liberal values across time and generations, developed countries, 1980-2005 | needs_targeted_source_recovery | blocked | incomplete |
 | 15-7 | Liberal values across time (extrapolated), world's culture zones, 1960-2006 | needs_targeted_source_recovery | blocked | incomplete |
 | 15-8 | Victimization of children, US, 1993-2012 | partial_match | processed | incomplete |
-| 15-9 | Child labor, 1850-2012 | not_started | not_started | incomplete |
+| 15-9 | Child labor, 1850-2012 | verified_reproduction | processed | not_reviewed |
 | 16-1 | Literacy, 1475-2010 | verified_reproduction | processed | incomplete |
 | 16-2 | Basic education, 1820-2010 | partial_match | processed | incomplete |
 | 16-3 | Years of schooling, 1870-2010 | verified_reproduction | processed | incomplete |
@@ -1184,6 +1184,28 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Lineage: [figures/15-8/lineage/lineage.json](figures/15-8/lineage/lineage.json)
 - Reconstruction script: [scripts/reconstruct_15_8.py](scripts/reconstruct_15_8.py)
 - Metadata: [figures/15-8/figure.json](figures/15-8/figure.json)
+
+### Figure 15-9 - Child labor, 1850-2012
+
+Status: `verified_reproduction`. Artifact kind: `reconstruction`.
+
+- Original reference: [references/figures/figure_15_9.png](references/figures/figure_15_9.png)
+- Book period reconstruction: [figures/15-9/plots/book_period/figure_15_9_book_period.png](figures/15-9/plots/book_period/figure_15_9_book_period.png)
+- Extended reconstruction: [figures/15-9/plots/extended/figure_15_9_extended.png](figures/15-9/plots/extended/figure_15_9_extended.png)
+- Book period clean: [figures/15-9/data/clean/figure_15_9_book_period.csv](figures/15-9/data/clean/figure_15_9_book_period.csv)
+- Successor clean: [figures/15-9/data/clean/figure_15_9_successor.csv](figures/15-9/data/clean/figure_15_9_successor.csv)
+- Book period comparison: [figures/15-9/plots/comparisons/figure_15_9_book_period_review.png](figures/15-9/plots/comparisons/figure_15_9_book_period_review.png)
+- Extended comparison: [figures/15-9/plots/comparisons/figure_15_9_extended_review.png](figures/15-9/plots/comparisons/figure_15_9_extended_review.png)
+- Caption: [figures/15-9/captions/caption.txt](figures/15-9/captions/caption.txt)
+- Provenance: [figures/15-9/provenance/provenance.md](figures/15-9/provenance/provenance.md)
+- Source log: [figures/15-9/source_logs/source_log.md](figures/15-9/source_logs/source_log.md)
+- Search log: [figures/15-9/search_iterations/search_iterations.md](figures/15-9/search_iterations/search_iterations.md)
+- Anomaly review: [figures/15-9/anomaly_reviews/anomaly_review.md](figures/15-9/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/15-9/discrepancy_logs/discrepancy_log.md](figures/15-9/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/15-9/review_checklist.md](figures/15-9/review_checklist.md)
+- Lineage: [figures/15-9/lineage/lineage.json](figures/15-9/lineage/lineage.json)
+- Reconstruction script: [scripts/reconstruct_15_9.py](scripts/reconstruct_15_9.py)
+- Metadata: [figures/15-9/figure.json](figures/15-9/figure.json)
 
 ### Figure 16-1 - Literacy, 1475-2010
 

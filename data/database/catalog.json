@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "209618d8115bd4245b278a5491cac36cfc5e9b025341be253df77239a93e5dde",
+  "snapshot_id": "753d48e9efa350766b675f1de887d66ef10c5cd64c7d1e8a29b48e7bcc5f45f8",
   "figures": 75,
-  "saved_files": 733,
-  "clean_tables": 149,
-  "clean_rows": 60715,
+  "saved_files": 737,
+  "clean_tables": 151,
+  "clean_rows": 60745,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -406,14 +406,14 @@
     {
       "figure_id": "15-9",
       "title": "Child labor, 1850-2012",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "verified_reproduction",
+      "artifact_kind": "reconstruction",
+      "saved_files": 4,
+      "raw_files": 2,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 30,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "16-1",

@@ -6,80 +6,147 @@
   "title": "Child labor, 1850-2012",
   "page": "",
   "year_range": "1850-2012",
-  "source_type_guess": "unknown",
-  "priority": "backlog",
+  "source_type_guess": "institutional_dataset",
+  "priority": "normal",
   "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "scientific_status": "verified_reproduction",
+  "execution_status": "processed",
+  "publication_status": "not_reviewed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "If an extension is desired, locate a comparable post-2012 ILO series and evaluate definitional continuity before adding it.",
+  "notes": "The public OWID historical incidence table contains the five named series and reproduces the book-period trajectories. Definitions and age bands differ across series, as disclosed in the original figure and caption. No comparable post-2012 extension is claimed.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Our World in Data, Ortiz-Ospina & Roser 2016a; England: Cunningham 1996; United States: Whaples 2005; Italy: Tonioli & Vecchi 2007; World ILO-EPEAP: Basu 1999; World ILO-IPEC: International Labour Organization 2013.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+    "basis": "public source table contains the exact five named historical series and matches the reference trajectory",
+    "source_chain": [
+      "Pinker Figure 15-9 source note",
+      "Our World in Data child labor article and grapher",
+      "Cunningham/Viazzo, Long/Whaples, Tonioli/Vecchi, Basu, and ILO source families",
+      "public OWID historical incidence CSV"
+    ]
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
+    "status": "inspected",
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_15_9.png",
+        "sha256": "9e0a761ffe50d045eb752811a88e632ae222d754ffa24eb7f8c69c46783cc24f"
+      },
+      {
+        "path": "figures/15-9/plots/book_period/figure_15_9_book_period.png",
+        "sha256": "219d48d3cda10d7695e2c70ec7951516828df9d9f72f07646002c3d91120bb5d"
+      },
+      {
+        "path": "figures/15-9/plots/extended/figure_15_9_extended.png",
+        "sha256": "d7073ea0e5d301db30b77f6969afb9984c623a116ce3bd91c69fe21b01a2afd6"
+      },
+      {
+        "path": "figures/15-9/plots/comparisons/figure_15_9_book_period_review.png",
+        "sha256": "d153d5c054c78e094415e986784d871c96278fb78fdcb0cc4053155f783a1712"
+      },
+      {
+        "path": "figures/15-9/plots/comparisons/figure_15_9_extended_review.png",
+        "sha256": "d894c63286b39d926787f4b979aca5caa632b3626a312fa687bdfa0aa48154db"
+      }
+    ],
+    "issues": [
+      "Reference uses sparse historical observations and labels; recreated styling is approximate",
+      "Series definitions and age bands are heterogeneous by source"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_available",
+    "notes": "The recovered table ends in 2012 and no post-2012 series with demonstrated continuity across the heterogeneous historical measures was accepted."
   },
   "artifacts": {
-    "metadata": {
-      "path": "figures/15-9/figure.json",
-      "self": true
-    },
     "original_reference": {
       "path": "references/figures/figure_15_9.png",
       "sha256": "9e0a761ffe50d045eb752811a88e632ae222d754ffa24eb7f8c69c46783cc24f"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/15-9/plots/book_period/figure_15_9_book_period.png",
+      "sha256": "219d48d3cda10d7695e2c70ec7951516828df9d9f72f07646002c3d91120bb5d"
+    },
+    "extended_reconstruction": {
+      "path": "figures/15-9/plots/extended/figure_15_9_extended.png",
+      "sha256": "d7073ea0e5d301db30b77f6969afb9984c623a116ce3bd91c69fe21b01a2afd6"
+    },
+    "book_period_clean": {
+      "path": "figures/15-9/data/clean/figure_15_9_book_period.csv",
+      "sha256": "9cab40c25a00fb5df69c0e3d2188ce5a6e298f298ed9c47e942a1e47897cbdfd"
+    },
+    "successor_clean": {
+      "path": "figures/15-9/data/clean/figure_15_9_successor.csv",
+      "sha256": "3d019d8d1ee206e36f0685c55dced5e3087a62328c6bbdd6b6eed9375be822f8"
+    },
+    "book_period_comparison": {
+      "path": "figures/15-9/plots/comparisons/figure_15_9_book_period_review.png",
+      "sha256": "d153d5c054c78e094415e986784d871c96278fb78fdcb0cc4053155f783a1712"
+    },
+    "extended_comparison": {
+      "path": "figures/15-9/plots/comparisons/figure_15_9_extended_review.png",
+      "sha256": "d894c63286b39d926787f4b979aca5caa632b3626a312fa687bdfa0aa48154db"
+    },
+    "caption": {
+      "path": "figures/15-9/captions/caption.txt",
+      "sha256": "77ae3ed722ceb06c888915490348496d64284e6e84d9b85d13ecbf3cd580f5c1"
+    },
+    "provenance": {
+      "path": "figures/15-9/provenance/provenance.md",
+      "sha256": "dce9486d611c8d4a3174206a73a0e38c440b3115e456c88c1785d9d1779355aa"
+    },
+    "source_log": {
+      "path": "figures/15-9/source_logs/source_log.md",
+      "sha256": "a4cb695b6664fc7543436607026a3bd8a937e93edffad54d496d3b57f77d1aca"
+    },
+    "search_log": {
+      "path": "figures/15-9/search_iterations/search_iterations.md",
+      "sha256": "6702d9f46c07f1b4e092b049c4b9eb874d4a377029d95792287372d978487a94"
+    },
+    "anomaly_review": {
+      "path": "figures/15-9/anomaly_reviews/anomaly_review.md",
+      "sha256": "cc0988cd6f5d8a63f979d1608017959ea40e8b9f944c1e208248ae147c938b1a"
+    },
+    "discrepancy_log": {
+      "path": "figures/15-9/discrepancy_logs/discrepancy_log.md",
+      "sha256": "e5d92711b70456e1f9455e8e48d864c895d09b95c0fc381edde034ece7b5d3ea"
+    },
+    "review_checklist": {
+      "path": "figures/15-9/review_checklist.md",
+      "sha256": "6fe2d58ee5dcb0f1f7cb5e92a95160c64943929b538751441081ea7b78a19504"
+    },
+    "lineage": {
+      "path": "figures/15-9/lineage/lineage.json",
+      "sha256": "4c260e076304ccb93e33cf940d5038587c995e8da4596bd157ac5e2b1e39727d"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_15_9.py",
+      "sha256": "4f3f12c4be1eef62a572d252cf96bcfe63b242b165d226207d9c45697f8e46d9"
+    },
+    "metadata": {
+      "path": "figures/15-9/figure.json",
+      "self": true
     }
   },
   "research": {
     "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "claim_summary": "Child labor incidence fell over the historical series shown for England, the United States, Italy, and two global ILO estimates.",
+    "original_dataset": "Our World in Data historical child labor incidence table, based on the source families named in the book figure.",
+    "dataset_url": "https://ourworldindata.org/grapher/various-measures-of-child-labour-incidence.csv",
+    "archive_url": "https://ourworldindata.org/child-labor",
+    "download_date": "2026-09-10",
+    "confidence_score": "high for book-period source table; low for extension"
   },
   "reference": {
     "figure_id": "15-9",
     "registry_title": "Child labor, 1850-2012",
     "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
     "pdf_page": 29,
     "panel": 2,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      215,
-      1246,
-      1445,
-      2248
-    ],
-    "crop_bounds_pdf_points": [
-      59.632,
-      345.765,
-      400.783,
-      623.82
-    ],
     "path": "references/figures/figure_15_9.png",
-    "sha256": "9e0a761ffe50d045eb752811a88e632ae222d754ffa24eb7f8c69c46783cc24f",
     "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 15-9: Child labor, 1850-2012",
-    "source_note_ocr": "Our World in Data, Ortiz-Ospina & Roser 2016a, and the following. England: Percentage of children aged 10-14 recorded as working, Cunningham 1996. United States: Whaples 2005. Italy: Child work incidence, ages 10-14, Tonioli & Vecchi 2007. World ILO-EPEAP (International Labour Organiza- tion Programme on Estimates and Projections of the Economically Active Population): Child Labor, ages 10-14, Basu 1999. World ILO-IPEC (International Labour Organization International Programme on the Elimination of Child Labour): Child Labor, ages 5-17, International Labour Organization 2013.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "machine_extracted_and_source_reviewed"
   }
 }

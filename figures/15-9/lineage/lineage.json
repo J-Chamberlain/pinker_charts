@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "figure_id": "15-9",
+  "book_citation": "Our World in Data, Ortiz-Ospina & Roser 2016a; Cunningham 1996; Whaples 2005; Tonioli & Vecchi 2007; Basu 1999; ILO 2013.",
+  "raw_source": "figures/15-9/data/raw/owid_various_measures_child_labour_incidence.csv",
+  "script": "scripts/reconstruct_15_9.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/15-9/data/raw/owid_various_measures_child_labour_incidence.csv"
+      ],
+      "selection": "five named historical series through 2012",
+      "transformation": "rename fields and plot source percentages without interpolation",
+      "clean": "figures/15-9/data/clean/figure_15_9_book_period.csv",
+      "plot": "figures/15-9/plots/book_period/figure_15_9_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": [],
+      "selection": "none",
+      "transformation": "not applied; no comparable post-2012 continuation recovered",
+      "clean": "figures/15-9/data/clean/figure_15_9_successor.csv",
+      "plot": "figures/15-9/plots/extended/figure_15_9_extended.png"
+    }
+  ]
+}
