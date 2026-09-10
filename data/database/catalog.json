@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "635b1000eaf7adf7dff185e6990a05b0139db2077df7a14cb016fc4b10ea6001",
+  "snapshot_id": "850fa5d3a40cc0b95a3e6b462945eb60b70a58e212a8394450e578194b291ce7",
   "figures": 75,
-  "saved_files": 643,
-  "clean_tables": 139,
-  "clean_rows": 60214,
+  "saved_files": 647,
+  "clean_tables": 141,
+  "clean_rows": 60283,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -322,14 +322,14 @@
     {
       "figure_id": "15-2",
       "title": "Racist, sexist, and homophobic Web searches, US, 2004-2017",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 4,
+      "raw_files": 2,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 69,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "15-3",

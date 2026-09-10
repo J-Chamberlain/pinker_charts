@@ -1,0 +1,14 @@
+{
+  "retrieved_at": "2026-09-09",
+  "provider": "Google Trends",
+  "geo": "US",
+  "timeframe": "2004-01-01 2026-08-31",
+  "terms": ["nigger jokes", "bitch jokes", "fag jokes"],
+  "query_urls": [
+    "https://trends.google.com/trends/explore?date=2004-01-01%202026-08-31&geo=US&q=nigger%20jokes",
+    "https://trends.google.com/trends/explore?date=2004-01-01%202026-08-31&geo=US&q=bitch%20jokes",
+    "https://trends.google.com/trends/explore?date=2004-01-01%202026-08-31&geo=US&q=fag%20jokes"
+  ],
+  "method": "Each term queried separately so each monthly series is scaled by Google Trends to its own 0-100 peak. The saved response is a current API/UI historical export, not the January 22, 2017 response used by the book.",
+  "limitations": ["Google Trends is sampled and dynamically revised.", "Low-volume historical months may be returned as zero.", "The original export date and exact smoothing parameters cannot be recreated from the book citation alone."]
+}

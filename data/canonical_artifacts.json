@@ -3020,8 +3020,8 @@
     }
   },
   "15-2": {
-    "scientific_status": "not_started",
-    "artifact_kind": "not_started",
+    "scientific_status": "partial_match",
+    "artifact_kind": "reconstruction",
     "artifacts": {
       "metadata": {
         "path": "figures/15-2/figure.json",
@@ -3030,6 +3030,62 @@
       "original_reference": {
         "path": "references/figures/figure_15_2.png",
         "sha256": "332166f4f94a75f1b038643cf54e780cdf8d70ab6b461458bbf300b8bdf09d31"
+      },
+      "book_period_reconstruction": {
+        "path": "figures/15-2/plots/figure_15_2_book_period.png",
+        "sha256": "f87686467dfa8aba7d2d598eacabc580baca6f3122f307269aa387deebc8f257"
+      },
+      "extended_reconstruction": {
+        "path": "figures/15-2/plots/figure_15_2_extended.png",
+        "sha256": "c79942b2162eef7aa75626f6ca3aab41c134a919793191aef96c77f04dc23f40"
+      },
+      "book_period_clean": {
+        "path": "figures/15-2/data/clean/figure_15_2_book_period.csv",
+        "sha256": "0bdeb136965d3b12f93cddc866b198a4a41e6299833353d4d23aa583a942c6a9"
+      },
+      "successor_clean": {
+        "path": "figures/15-2/data/clean/figure_15_2_successor.csv",
+        "sha256": "d1eaf77edced4492bea9fc38fd52a679c65aca8a4fa4bf913d8830ce1b8d97bb"
+      },
+      "book_period_comparison": {
+        "path": "figures/15-2/plots/comparisons/figure_15_2_book_period_review.png",
+        "sha256": "29315efdbe4e0bdc5930c29996eafe6b8bcb4319c0acd1dda87b6cbcb24cce28"
+      },
+      "extended_comparison": {
+        "path": "figures/15-2/plots/comparisons/figure_15_2_extended_review.png",
+        "sha256": "459c511e404b23330d37bcbddc9c8aa6e1109a3a64a916e50a3df62b6672ee27"
+      },
+      "caption": {
+        "path": "figures/15-2/captions/caption.txt",
+        "sha256": "9bd5c797410a5fa82cbd11b1d73ee2515a30fd1ec68ee44e31e5a24db1c2a538"
+      },
+      "provenance": {
+        "path": "figures/15-2/provenance/provenance.md",
+        "sha256": "c6d94733e3bb1da21385bdfb2338c035e392a2f2eaaa4ab41d8d841a1de0f3be"
+      },
+      "source_log": {
+        "path": "figures/15-2/source_logs/source_log.md",
+        "sha256": "76d8e17287b645cf41618fe3dcfe8a064a7dc2c8307c90df549310d9cf79534a"
+      },
+      "anomaly_review": {
+        "path": "figures/15-2/anomaly_reviews/anomaly_review.md",
+        "sha256": "1f2abf05dd5a17d89fea23994f46914c18127eb01e1b94a5c3d76127e42acbb8"
+      },
+      "discrepancy_log": {
+        "path": "figures/15-2/discrepancy_logs/discrepancy_log.md",
+        "sha256": "4e9478e0d4ba2ac914ad3ceed49552d3531d0c744517b20862f8e8198c347d01"
+      },
+      "review_checklist": {
+        "path": "figures/15-2/review_checklist.md",
+        "sha256": "a30bb58ab7025b8f69de5c7b3b1039518b704e225294a40a2c0c6cb44d4758bb"
+      },
+      "lineage": {
+        "path": "figures/15-2/lineage/lineage.json",
+        "sha256": "a14fe8c8f254c41c1b6d515487336080291572cb11990b39be280501b72db595"
+      },
+      "reconstruction_script": {
+        "path": "scripts/reconstruct_15_2.py",
+        "sha256": "267248df43f718c8c3887eb6863237b14fd4a667c6c4cb645897b6553966f6eb"
       }
     }
   },
