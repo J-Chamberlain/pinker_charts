@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "bace21655bb3df288beb7fcf6444373920cb0a01c6545726c3f0da5e53b23208",
+  "snapshot_id": "209618d8115bd4245b278a5491cac36cfc5e9b025341be253df77239a93e5dde",
   "figures": 75,
-  "saved_files": 729,
-  "clean_tables": 147,
-  "clean_rows": 60692,
+  "saved_files": 733,
+  "clean_tables": 149,
+  "clean_rows": 60715,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -394,14 +394,14 @@
     {
       "figure_id": "15-8",
       "title": "Victimization of children, US, 1993-2012",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 4,
+      "raw_files": 2,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 23,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "15-9",

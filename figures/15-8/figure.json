@@ -6,80 +6,129 @@
   "title": "Victimization of children, US, 1993-2012",
   "page": "",
   "year_range": "1993-2012",
-  "source_type_guess": "unknown",
-  "priority": "backlog",
+  "source_type_guess": "government_statistics",
+  "priority": "targeted_recovery",
   "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "scientific_status": "partial_match",
+  "execution_status": "processed",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Obtain the NCANDS/Finkelhor physical- and sexual-abuse annual series through NDACAN or an exact public archive, then replace the one-series evidence plot and re-review the comparison.",
+  "notes": "Public BJS/NCVS school series recovered through OWID and plotted with a transparent unit conversion. Physical and sexual NCANDS series remain missing; the comparison is intentionally a partial match.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "Physical abuse and sexual abuse (mainly by caregivers): National Child Abuse and Neglect Data System, analyzed by Finkelhor 2014; violent victimization at school: US Bureau of Justice Statistics, National Crime Victimization Survey, Victimization Analysis Tool.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+    "basis": "one public source subset reconstructed; two cited series unavailable",
+    "source_chain": [
+      "Pinker Figure 15-8 source note",
+      "Finkelhor 2014 / NCANDS for physical and sexual abuse",
+      "BJS NCVS NVAT for school victimization",
+      "OWID processed BJS CSV for the recovered school subset"
+    ],
+    "blocker": "NDACAN distributes the required NCANDS files through an ordering process; the exact Finkelhor annual series was not obtained in this run."
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
-    "issues": []
+    "issues": [
+      "Physical abuse series missing",
+      "Sexual abuse series missing",
+      "School subset uses a different public series/version and converted units"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "successor",
+    "label": "OWID/BJS school series 2013-2015 only",
+    "notes": "The successor is dashed, but it extends only the recovered school subset, not the complete three-series figure."
   },
   "artifacts": {
-    "metadata": {
-      "path": "figures/15-8/figure.json",
-      "self": true
-    },
     "original_reference": {
       "path": "references/figures/figure_15_8.png",
       "sha256": "c615ab82d975e8b6ef25a7e467a227882709a67e7537d814f425882411e142b7"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/15-8/plots/book_period/figure_15_8_book_period.png",
+      "sha256": "33f9fbf079a2003da0653e15893f7bcb25602107fc8eae6ee5e0c00f056db3b9"
+    },
+    "extended_reconstruction": {
+      "path": "figures/15-8/plots/extended/figure_15_8_extended.png",
+      "sha256": "67f7c38440e0147299ec5db053577d0b6625ef958e9ba917e8933de0d9045856"
+    },
+    "book_period_clean": {
+      "path": "figures/15-8/data/clean/figure_15_8_book_period.csv",
+      "sha256": "b9eb0e464359a2141e989264f009f150d34d76c3d9e981b6b003988f4b1da1ca"
+    },
+    "successor_clean": {
+      "path": "figures/15-8/data/clean/figure_15_8_successor.csv",
+      "sha256": "0d62ba386bfeb29979c46350eb24268d86f26dd64af5d001b495f5a7b1a047f7"
+    },
+    "book_period_comparison": {
+      "path": "figures/15-8/plots/comparisons/figure_15_8_book_period_review.png",
+      "sha256": "d6a9787bc222e6c41ebba8418ebf9a8a16b38a9fff6d8b00dc1e0f3e70b0771d"
+    },
+    "extended_comparison": {
+      "path": "figures/15-8/plots/comparisons/figure_15_8_extended_review.png",
+      "sha256": "b373de63c74999472469107e2adc77c647186fc9669a6443f49a099fb306048e"
+    },
+    "caption": {
+      "path": "figures/15-8/captions/caption.txt",
+      "sha256": "c967eb6a86efe73a7b23226e2b8eb26131794dab36232a95ff9f069915dd6218"
+    },
+    "provenance": {
+      "path": "figures/15-8/provenance/provenance.md",
+      "sha256": "88f73bd384ad4ece5f6def54c84a4062edb210e607f986fbcde016875be3c7f6"
+    },
+    "source_log": {
+      "path": "figures/15-8/source_logs/source_log.md",
+      "sha256": "595d9291c536472a1e063bb79f49cfe2513e877b6136b9867d0aa57e59fe0adb"
+    },
+    "search_log": {
+      "path": "figures/15-8/search_iterations/search_iterations.md",
+      "sha256": "94d94441cbd28d993098773a9fb6304839dbd4fb190c3656179ed45b60234eb7"
+    },
+    "anomaly_review": {
+      "path": "figures/15-8/anomaly_reviews/anomaly_review.md",
+      "sha256": "4554eeb251e606e4410fc4c430de9b82bac2434ebc2b872128dd99c642c91ad5"
+    },
+    "discrepancy_log": {
+      "path": "figures/15-8/discrepancy_logs/discrepancy_log.md",
+      "sha256": "54b55795462e478b5cd54c9c3064866d4803e313ff85fe499e3c6498eb23b15f"
+    },
+    "review_checklist": {
+      "path": "figures/15-8/review_checklist.md",
+      "sha256": "1e98fb0b2e0c80ce0a17d899e6b563bced495c29c3682ddd57fb3f266654ef98"
+    },
+    "lineage": {
+      "path": "figures/15-8/lineage/lineage.json",
+      "sha256": "8dd0bd89f6ccd64023f6a48bffa2cc1339a7ab248d6e65d480103ad3fcee1fb8"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_15_8.py",
+      "sha256": "cefeb3738378d06904ce27cb4b39d421cb4438a901f8ca46be91a83cee92ec50"
+    },
+    "metadata": {
+      "path": "figures/15-8/figure.json",
+      "self": true
     }
   },
   "research": {
     "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "claim_summary": "Physical and sexual abuse rates and violent victimization at school declined over the 1993-2012 period, with different denominators for the abuse and school series.",
+    "original_dataset": "NCANDS annual aggregate rates for physical and sexual abuse plus BJS NCVS school victimization rates.",
+    "dataset_url": "https://ourworldindata.org/grapher/rate-of-violent-victimizations-at-school-us.csv",
+    "archive_url": "https://www.ndacan.acf.hhs.gov/datasets/datasets-list-ncands-state-agency-file.cfm",
+    "download_date": "2026-09-10",
+    "confidence_score": "medium for school subset; low for full figure"
   },
   "reference": {
     "figure_id": "15-8",
     "registry_title": "Victimization of children, US, 1993-2012",
     "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
     "pdf_page": 29,
     "panel": 1,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      210,
-      136,
-      1458,
-      1178
-    ],
-    "crop_bounds_pdf_points": [
-      58.245,
-      37.74,
-      404.389,
-      326.895
-    ],
     "path": "references/figures/figure_15_8.png",
-    "sha256": "c615ab82d975e8b6ef25a7e467a227882709a67e7537d814f425882411e142b7",
     "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 15-8: Victimization of children, US, 1993-2012",
-    "source_note_ocr": "Physical abuse and Sexual abuse (mainly by caregivers): National Child Abuse and Neglect Data System, http://www.ndacan.cornell.edu/, analyzed by Finkelhor 2014; Finkelhor et al. 2014. Vio- lent victimization at school: US Bureau of Justice Statistics, National Crime Victimization Survey, Victim- ization Analysis Tool, http://www.bjs.gov/index.cfm?ty=nvat. Rates for physical and sexual abuse are per 100,000 children younger than 18. Rates for violent victimization at school are per 10,000 children aged 12-17. The arrows point to 2003 and 2007, the last years plotted in fig. 7-22 and fig. 7-20 in Pinker 2011, respectively.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "machine_extracted_and_source_reviewed"
   }
 }
