@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "figure_id": "15-1",
+  "book_citation": "Pew Research Center 2012b",
+  "original_dataset": "https://www.pewresearch.org/dataset/1987-2012-values-survey-combined-dataset/",
+  "public_source": "https://www.pewresearch.org/wp-content/uploads/sites/4/legacy-questionnaires/Values-topline-for-release.pdf",
+  "script": "scripts/reconstruct_15_1.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/15-1/data/raw/pew_values_topline_2012.pdf"
+      ],
+      "selection": "Published response-table rows for Q41e, Q41j, and Q40k, survey years 1987-2012",
+      "transformation": "Transcribe published net agree/disagree values into long format; map source questions to visible chart trajectories",
+      "clean": "figures/15-1/data/clean/figure_15_1_book_period.csv",
+      "plot": "figures/15-1/plots/figure_15_1_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": [],
+      "selection": "No comparable post-2012 series found",
+      "transformation": "No extension plotted; extended artifact documents the absence",
+      "clean": "figures/15-1/data/clean/figure_15_1_successor.csv",
+      "plot": "figures/15-1/plots/figure_15_1_extended.png"
+    }
+  ]
+}

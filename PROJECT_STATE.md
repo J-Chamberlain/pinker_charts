@@ -43,8 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 14 |
-| partial_match | 31 |
+| not_started | 13 |
+| partial_match | 32 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 9 |
@@ -100,7 +100,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 14-2 | Human rights, 1949-2014 | partial_match | processed | incomplete |
 | 14-3 | Death penalty abolitions, 1863-2016 | partial_match | processed | incomplete |
 | 14-4 | Executions, US, 1780-2016 | partial_match | processed | incomplete |
-| 15-1 | Racist, sexist, and homophobic opinions, US, 1987-2012 | not_started | not_started | incomplete |
+| 15-1 | Racist, sexist, and homophobic opinions, US, 1987-2012 | partial_match | processed | not_reviewed |
 | 15-2 | Racist, sexist, and homophobic Web searches, US, 2004-2017 | not_started | not_started | incomplete |
 | 15-3 | Hate crimes, US, 1996-2015 | not_started | not_started | incomplete |
 | 15-4 | Rape and domestic violence, US, 1993-2014 | not_started | not_started | incomplete |
@@ -1029,6 +1029,27 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Reconstruction script: [scripts/reconstruct_14_4.py](scripts/reconstruct_14_4.py)
 - Book period comparison: [figures/14-4/plots/comparisons/figure_14_4_book_period_review.png](figures/14-4/plots/comparisons/figure_14_4_book_period_review.png)
 - Extended comparison: [figures/14-4/plots/comparisons/figure_14_4_extended_review.png](figures/14-4/plots/comparisons/figure_14_4_extended_review.png)
+
+### Figure 15-1 - Racist, sexist, and homophobic opinions, US, 1987-2012
+
+Status: `partial_match`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/15-1/figure.json](figures/15-1/figure.json)
+- Original reference: [references/figures/figure_15_1.png](references/figures/figure_15_1.png)
+- Book period reconstruction: [figures/15-1/plots/figure_15_1_book_period.png](figures/15-1/plots/figure_15_1_book_period.png)
+- Extended reconstruction: [figures/15-1/plots/figure_15_1_extended.png](figures/15-1/plots/figure_15_1_extended.png)
+- Book period clean: [figures/15-1/data/clean/figure_15_1_book_period.csv](figures/15-1/data/clean/figure_15_1_book_period.csv)
+- Successor clean: [figures/15-1/data/clean/figure_15_1_successor.csv](figures/15-1/data/clean/figure_15_1_successor.csv)
+- Book period comparison: [figures/15-1/plots/comparisons/figure_15_1_book_period_review.png](figures/15-1/plots/comparisons/figure_15_1_book_period_review.png)
+- Extended comparison: [figures/15-1/plots/comparisons/figure_15_1_extended_review.png](figures/15-1/plots/comparisons/figure_15_1_extended_review.png)
+- Caption: [figures/15-1/captions/caption.txt](figures/15-1/captions/caption.txt)
+- Provenance: [figures/15-1/provenance/provenance.md](figures/15-1/provenance/provenance.md)
+- Source log: [figures/15-1/source_logs/source_log.md](figures/15-1/source_logs/source_log.md)
+- Anomaly review: [figures/15-1/anomaly_reviews/anomaly_review.md](figures/15-1/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/15-1/discrepancy_logs/discrepancy_log.md](figures/15-1/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/15-1/review_checklist.md](figures/15-1/review_checklist.md)
+- Lineage: [figures/15-1/lineage/lineage.json](figures/15-1/lineage/lineage.json)
+- Reconstruction script: [scripts/reconstruct_15_1.py](scripts/reconstruct_15_1.py)
 
 ### Figure 16-1 - Literacy, 1475-2010
 

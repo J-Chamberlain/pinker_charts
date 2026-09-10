@@ -1,36 +1,47 @@
 {
-  "schema_version": 1,
   "figure_id": "15-1",
-  "book": "Enlightenment Now",
-  "chapter": "15",
   "title": "Racist, sexist, and homophobic opinions, US, 1987-2012",
-  "page": "",
-  "year_range": "1987-2012",
-  "source_type_guess": "unknown",
-  "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
-  "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+  "scientific_status": "partial_match",
+  "artifact_kind": "reconstruction",
+  "publication_status": "not_reviewed",
+  "execution_status": "processed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Obtain authorized Pew combined microdata and resolve the apparent women/school-board line-label inversion.",
+  "notes": "Official public topline transcription; no digitized Pinker values; no comparable post-2012 extension.",
+  "extension": {
+    "status": "not_found",
+    "label": "No comparable post-2012 continuation"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
-  },
-  "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "inspected",
+    "reference_basis": "original",
+    "issues": [
+      "line/label inversion",
+      "microdata account gate",
+      "no extension"
+    ],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_15_1.png",
+        "sha256": "0286048f07fd936f646013f1271ce055ff112dcec09ff21c6bf199593d5d76da"
+      },
+      {
+        "path": "figures/15-1/plots/figure_15_1_book_period.png",
+        "sha256": "9cabec49a9087566a3e54c4f57f186edd8cd5244fa6939eb7140c5fbea06eea8"
+      },
+      {
+        "path": "figures/15-1/plots/figure_15_1_extended.png",
+        "sha256": "5026c3ba165c152794db77d7b25e96c57efc1ece1e7fa51504fbfd244e536dec"
+      },
+      {
+        "path": "figures/15-1/plots/comparisons/figure_15_1_book_period_review.png",
+        "sha256": "b89966088c1474446c68ff42d91ef4d086c30868744212d2b38f5e74f24d5de3"
+      },
+      {
+        "path": "figures/15-1/plots/comparisons/figure_15_1_extended_review.png",
+        "sha256": "56cad8737656fc9ae8c70b49ef83b157a94f22f5eeb4d0700665d9c307d4cf49"
+      }
+    ]
   },
   "artifacts": {
     "metadata": {
@@ -40,46 +51,62 @@
     "original_reference": {
       "path": "references/figures/figure_15_1.png",
       "sha256": "0286048f07fd936f646013f1271ce055ff112dcec09ff21c6bf199593d5d76da"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/15-1/plots/figure_15_1_book_period.png",
+      "sha256": "9cabec49a9087566a3e54c4f57f186edd8cd5244fa6939eb7140c5fbea06eea8"
+    },
+    "extended_reconstruction": {
+      "path": "figures/15-1/plots/figure_15_1_extended.png",
+      "sha256": "5026c3ba165c152794db77d7b25e96c57efc1ece1e7fa51504fbfd244e536dec"
+    },
+    "book_period_clean": {
+      "path": "figures/15-1/data/clean/figure_15_1_book_period.csv",
+      "sha256": "5790aa7ca0522818d99bbe6f51c24f84cb7855b4e1f37f0e057597df19139db7"
+    },
+    "successor_clean": {
+      "path": "figures/15-1/data/clean/figure_15_1_successor.csv",
+      "sha256": "ebfdac1702eb7c14fccaede8cf829328ce18dc19ba7648caaf47b089111662ca"
+    },
+    "book_period_comparison": {
+      "path": "figures/15-1/plots/comparisons/figure_15_1_book_period_review.png",
+      "sha256": "b89966088c1474446c68ff42d91ef4d086c30868744212d2b38f5e74f24d5de3"
+    },
+    "extended_comparison": {
+      "path": "figures/15-1/plots/comparisons/figure_15_1_extended_review.png",
+      "sha256": "56cad8737656fc9ae8c70b49ef83b157a94f22f5eeb4d0700665d9c307d4cf49"
+    },
+    "caption": {
+      "path": "figures/15-1/captions/caption.txt",
+      "sha256": "fbe22037d6cc083ec885206f30a47ee25e6a946eac922cbc55542f38e66e0109"
+    },
+    "provenance": {
+      "path": "figures/15-1/provenance/provenance.md",
+      "sha256": "9e57e2fbc7f4a00a1b703e607b64db9a7718169a6ed7437fc5f6fe53af9323f8"
+    },
+    "source_log": {
+      "path": "figures/15-1/source_logs/source_log.md",
+      "sha256": "87e918867eff2454a39ead8097716e627e0aa74bf1fce2464524778019f5ac99"
+    },
+    "anomaly_review": {
+      "path": "figures/15-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "f0f9f3bac9f8dad687c2436dd2c6f7f95773f0ff1886663845d0e1ffecfada74"
+    },
+    "discrepancy_log": {
+      "path": "figures/15-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "8317d4c1d7006f28a2c693d2bdd968fba2065c143987f13088154c23b8315242"
+    },
+    "review_checklist": {
+      "path": "figures/15-1/review_checklist.md",
+      "sha256": "53ba85c19e87b2806df3bb94363b8f9e6a0110c63f963f5da7ad4cc7d89f1e3e"
+    },
+    "lineage": {
+      "path": "figures/15-1/lineage/lineage.json",
+      "sha256": "d447118e5a57f2e0bbef1104c16343a26418a07bd5aa52aeed2ea218c32c779f"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_15_1.py",
+      "sha256": "83b31f1ac7afe50485c864110060532bddceb1becc500faad66cf0503bcb1ffe"
     }
-  },
-  "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
-  },
-  "reference": {
-    "figure_id": "15-1",
-    "registry_title": "Racist, sexist, and homophobic opinions, US, 1987-2012",
-    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
-    "pdf_page": 25,
-    "panel": 1,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      195,
-      217,
-      1426,
-      1107
-    ],
-    "crop_bounds_pdf_points": [
-      54.085,
-      60.218,
-      395.513,
-      307.192
-    ],
-    "path": "references/figures/figure_15_1.png",
-    "sha256": "0286048f07fd936f646013f1271ce055ff112dcec09ff21c6bf199593d5d76da",
-    "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 15-1: Racist, sexist, and homophobic opinions, US, 1987-2012",
-    "source_note_ocr": "Pew Research Center 2012b. The arrows point to the most recent years plotted in Pinker 2011 for similar questions: Blacks, 1997 (fig. 7-7); Women, 1995 (fig. 7-11); Homosexuals, 2009 (fig. 7-24).",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
   }
 }
