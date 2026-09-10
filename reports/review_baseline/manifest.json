@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "baseline_commit": "050d92ff254528a9255fa40b2df44465eafec1f4",
+  "baseline_commit": "01ca16a8e7956f5fe14764a5634c32f019f82449",
   "notice": "Unaccepted visual audit baseline; input/output hashes identify working-tree artifacts beyond baseline_commit.",
-  "figure_count": 46,
-  "comparison_count": 92,
+  "figure_count": 47,
+  "comparison_count": 94,
   "figures": [
     {
       "figure_id": "5-1",
@@ -866,6 +866,40 @@
       ]
     },
     {
+      "figure_id": "12-1",
+      "scientific_status": "partial_match",
+      "comparisons": [
+        {
+          "mode": "book_period",
+          "path": "figures/12-1/plots/comparisons/figure_12_1_book_period_review.png",
+          "sha256": "282598c7382a66994f85bb9a2fd4f367adeacb33106f4db4f1aa2dbd4a914b7e",
+          "reference": {
+            "path": "references/figures/figure_12_1.png",
+            "sha256": "4f9420918cfead20c6213dad87cac42dec6e89f6a14ee586b03354ff80d26014"
+          },
+          "reconstruction": {
+            "path": "figures/12-1/plots/figure_12_1_book_period.png",
+            "sha256": "a7d4e59f1f8ea3b9b56001708fffdfa903825bb6a9060e05c74548451115c675"
+          },
+          "display_viewport": null
+        },
+        {
+          "mode": "extended",
+          "path": "figures/12-1/plots/comparisons/figure_12_1_extended_review.png",
+          "sha256": "712b0d8c02182f55d3ad57f4b31aeaf8146cf9e9f45c1783c55a3b3c4fe9b255",
+          "reference": {
+            "path": "references/figures/figure_12_1.png",
+            "sha256": "4f9420918cfead20c6213dad87cac42dec6e89f6a14ee586b03354ff80d26014"
+          },
+          "reconstruction": {
+            "path": "figures/12-1/plots/figure_12_1_extended.png",
+            "sha256": "8a4661a3249fdef46757acc65a80525070e66444b221f49185ac50a44577e847"
+          },
+          "display_viewport": null
+        }
+      ]
+    },
+    {
       "figure_id": "12-5",
       "scientific_status": "partial_match",
       "comparisons": [
@@ -1608,10 +1642,6 @@
     {
       "figure_id": "10-4",
       "reason": "source_recovery"
-    },
-    {
-      "figure_id": "12-1",
-      "reason": "not_started"
     },
     {
       "figure_id": "12-2",
