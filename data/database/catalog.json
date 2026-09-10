@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ee901c44af47399fb1ef3fb98047c927872e959e58da966208c94d29825464c5",
+  "snapshot_id": "bace21655bb3df288beb7fcf6444373920cb0a01c6545726c3f0da5e53b23208",
   "figures": 75,
   "saved_files": 729,
   "clean_tables": 147,
@@ -382,8 +382,8 @@
     {
       "figure_id": "15-7",
       "title": "Liberal values across time (extrapolated), world's culture zones, 1960-2006",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
+      "scientific_status": "needs_targeted_source_recovery",
+      "artifact_kind": "source_recovery",
       "saved_files": 0,
       "raw_files": 0,
       "clean_tables": 0,

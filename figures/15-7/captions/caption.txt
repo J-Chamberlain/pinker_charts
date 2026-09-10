@@ -1,0 +1,5 @@
+Figure 15-7: Liberal values across time (extrapolated), world's culture zones, 1960-2006.
+Source: World Values Survey, as analyzed in Welzel 2013, Figure 4.4, updated with data
+provided by Welzel. This repository currently records the source-recovery state only;
+the exact fixed-age, country-equal-weighted extrapolation was not recovered, so no
+recreated plot is presented.

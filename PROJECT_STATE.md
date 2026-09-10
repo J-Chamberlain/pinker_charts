@@ -42,8 +42,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | --- | ---: |
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
-| needs_targeted_source_recovery | 2 |
-| not_started | 8 |
+| needs_targeted_source_recovery | 3 |
+| not_started | 7 |
 | partial_match | 34 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
@@ -106,7 +106,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 15-4 | Rape and domestic violence, US, 1993-2014 | verified_reproduction | processed | not_reviewed |
 | 15-5 | Decriminalization of homosexuality, 1791-2016 | partial_match | processed | not_reviewed |
 | 15-6 | Liberal values across time and generations, developed countries, 1980-2005 | needs_targeted_source_recovery | blocked | incomplete |
-| 15-7 | Liberal values across time (extrapolated), world's culture zones, 1960-2006 | not_started | not_started | incomplete |
+| 15-7 | Liberal values across time (extrapolated), world's culture zones, 1960-2006 | needs_targeted_source_recovery | blocked | incomplete |
 | 15-8 | Victimization of children, US, 1993-2012 | not_started | not_started | incomplete |
 | 15-9 | Child labor, 1850-2012 | not_started | not_started | incomplete |
 | 16-1 | Literacy, 1475-2010 | verified_reproduction | processed | incomplete |
@@ -1148,6 +1148,20 @@ Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
 - Review checklist: [figures/15-6/review_checklist.md](figures/15-6/review_checklist.md)
 - Caption: [figures/15-6/captions/caption.txt](figures/15-6/captions/caption.txt)
 - Metadata: [figures/15-6/figure.json](figures/15-6/figure.json)
+
+### Figure 15-7 - Liberal values across time (extrapolated), world's culture zones, 1960-2006
+
+Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
+
+- Original reference: [references/figures/figure_15_7.png](references/figures/figure_15_7.png)
+- Provenance: [figures/15-7/provenance/provenance.md](figures/15-7/provenance/provenance.md)
+- Source log: [figures/15-7/source_logs/source_log.md](figures/15-7/source_logs/source_log.md)
+- Search log: [figures/15-7/search_iterations/search_iterations.md](figures/15-7/search_iterations/search_iterations.md)
+- Anomaly review: [figures/15-7/anomaly_reviews/anomaly_review.md](figures/15-7/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/15-7/discrepancy_logs/discrepancy_log.md](figures/15-7/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/15-7/review_checklist.md](figures/15-7/review_checklist.md)
+- Caption: [figures/15-7/captions/caption.txt](figures/15-7/captions/caption.txt)
+- Metadata: [figures/15-7/figure.json](figures/15-7/figure.json)
 
 ### Figure 16-1 - Literacy, 1475-2010
 
