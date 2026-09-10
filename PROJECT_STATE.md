@@ -43,12 +43,12 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 11 |
+| not_started | 10 |
 | partial_match | 33 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 10 |
-| verified_reproduction | 12 |
+| verified_reproduction | 13 |
 
 ## Figure Queue
 
@@ -103,7 +103,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 15-1 | Racist, sexist, and homophobic opinions, US, 1987-2012 | partial_match | processed | not_reviewed |
 | 15-2 | Racist, sexist, and homophobic Web searches, US, 2004-2017 | partial_match | processed | not_reviewed |
 | 15-3 | Hate crimes, US, 1996-2015 | updated_equivalent | processed | not_reviewed |
-| 15-4 | Rape and domestic violence, US, 1993-2014 | not_started | not_started | incomplete |
+| 15-4 | Rape and domestic violence, US, 1993-2014 | verified_reproduction | processed | not_reviewed |
 | 15-5 | Decriminalization of homosexuality, 1791-2016 | not_started | not_started | incomplete |
 | 15-6 | Liberal values across time and generations, developed countries, 1980-2005 | not_started | not_started | incomplete |
 | 15-7 | Liberal values across time (extrapolated), world's culture zones, 1960-2006 | not_started | not_started | incomplete |
@@ -1092,6 +1092,27 @@ Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 - Review checklist: [figures/15-3/review_checklist.md](figures/15-3/review_checklist.md)
 - Lineage: [figures/15-3/lineage/lineage.json](figures/15-3/lineage/lineage.json)
 - Reconstruction script: [scripts/reconstruct_15_3.py](scripts/reconstruct_15_3.py)
+
+### Figure 15-4 - Rape and domestic violence, US, 1993-2014
+
+Status: `verified_reproduction`. Artifact kind: `reconstruction`.
+
+- Metadata: [figures/15-4/figure.json](figures/15-4/figure.json)
+- Original reference: [references/figures/figure_15_4.png](references/figures/figure_15_4.png)
+- Book period reconstruction: [figures/15-4/plots/figure_15_4_book_period.png](figures/15-4/plots/figure_15_4_book_period.png)
+- Extended reconstruction: [figures/15-4/plots/figure_15_4_extended.png](figures/15-4/plots/figure_15_4_extended.png)
+- Book period clean: [figures/15-4/data/clean/figure_15_4_book_period.csv](figures/15-4/data/clean/figure_15_4_book_period.csv)
+- Successor clean: [figures/15-4/data/clean/figure_15_4_successor.csv](figures/15-4/data/clean/figure_15_4_successor.csv)
+- Book period comparison: [figures/15-4/plots/comparisons/figure_15_4_book_period_review.png](figures/15-4/plots/comparisons/figure_15_4_book_period_review.png)
+- Extended comparison: [figures/15-4/plots/comparisons/figure_15_4_extended_review.png](figures/15-4/plots/comparisons/figure_15_4_extended_review.png)
+- Caption: [figures/15-4/captions/caption.txt](figures/15-4/captions/caption.txt)
+- Provenance: [figures/15-4/provenance/provenance.md](figures/15-4/provenance/provenance.md)
+- Source log: [figures/15-4/source_logs/source_log.md](figures/15-4/source_logs/source_log.md)
+- Anomaly review: [figures/15-4/anomaly_reviews/anomaly_review.md](figures/15-4/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/15-4/discrepancy_logs/discrepancy_log.md](figures/15-4/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/15-4/review_checklist.md](figures/15-4/review_checklist.md)
+- Lineage: [figures/15-4/lineage/lineage.json](figures/15-4/lineage/lineage.json)
+- Reconstruction script: [scripts/reconstruct_15_4.py](scripts/reconstruct_15_4.py)
 
 ### Figure 16-1 - Literacy, 1475-2010
 

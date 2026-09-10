@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "figure_id": "15-4",
+  "book_citation": "US Bureau of Justice Statistics, National Crime Victimization Survey, Victimization Analysis Tool, with additional data provided by Jennifer Truman of BJS",
+  "raw_inputs": [
+    "figures/15-4/data/raw/bjs_ncvs_select_personal_victimization.csv",
+    "figures/15-4/data/raw/bjs_person_population.xlsx",
+    "figures/15-4/data/raw/bjs_ipv_attributes_1993_2011.zip"
+  ],
+  "script": "scripts/reconstruct_15_4.py",
+  "book_period": {
+    "selection": "female rape/sexual assault and female intimate partner violence, 1993-2014",
+    "transformation": "weighted female victimizations divided by female population age 12 or older, multiplied by 100,000",
+    "clean": "figures/15-4/data/clean/figure_15_4_book_period.csv",
+    "plot": "figures/15-4/plots/figure_15_4_book_period.png"
+  },
+  "extension": {
+    "selection": "same API operational definitions, 2015-2024",
+    "transformation": "same rate calculation, plotted dashed",
+    "clean": "figures/15-4/data/clean/figure_15_4_successor.csv",
+    "plot": "figures/15-4/plots/figure_15_4_extended.png"
+  },
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/15-4/data/raw/bjs_ncvs_select_personal_victimization.csv",
+        "figures/15-4/data/raw/bjs_person_population.xlsx",
+        "figures/15-4/data/raw/bjs_ipv_attributes_1993_2011.zip"
+      ],
+      "selection": "female rape/sexual assault and female intimate partner violence, 1993-2014",
+      "transformation": "weighted female victimizations divided by female population age 12 or older, multiplied by 100,000",
+      "clean": "figures/15-4/data/clean/figure_15_4_book_period.csv",
+      "plot": "figures/15-4/plots/figure_15_4_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": [
+        "figures/15-4/data/raw/bjs_ncvs_select_personal_victimization.csv",
+        "figures/15-4/data/raw/bjs_person_population.xlsx"
+      ],
+      "selection": "same API operational definitions, 2015-2024",
+      "transformation": "same rate calculation, plotted dashed",
+      "clean": "figures/15-4/data/clean/figure_15_4_successor.csv",
+      "plot": "figures/15-4/plots/figure_15_4_extended.png"
+    }
+  ]
+}

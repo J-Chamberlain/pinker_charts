@@ -1,0 +1,21 @@
+year,series,rate_per_100000,source_file,source_kind,period
+2015,Rape and sexual assault,266.6521841041146,bjs_ncvs_select_personal_victimization.csv,BJS NCVS Select API,successor
+2015,"Intimate partner violence, female victims",536.0531920294252,bjs_ncvs_select_personal_victimization.csv + bjs_person_population.xlsx,BJS NCVS Select API and official population workbook,successor
+2016,Rape and sexual assault,180.80553351527422,bjs_ncvs_select_personal_victimization.csv,BJS NCVS Select API,successor
+2016,"Intimate partner violence, female victims",367.62470345817695,bjs_ncvs_select_personal_victimization.csv + bjs_person_population.xlsx,BJS NCVS Select API and official population workbook,successor
+2017,Rape and sexual assault,259.5003260612889,bjs_ncvs_select_personal_victimization.csv,BJS NCVS Select API,successor
+2017,"Intimate partner violence, female victims",430.53457221984206,bjs_ncvs_select_personal_victimization.csv + bjs_person_population.xlsx,BJS NCVS Select API and official population workbook,successor
+2018,Rape and sexual assault,461.52286693230576,bjs_ncvs_select_personal_victimization.csv,BJS NCVS Select API,successor
+2018,"Intimate partner violence, female victims",533.7668430294608,bjs_ncvs_select_personal_victimization.csv + bjs_person_population.xlsx,BJS NCVS Select API and official population workbook,successor
+2019,Rape and sexual assault,286.2380864162935,bjs_ncvs_select_personal_victimization.csv,BJS NCVS Select API,successor
+2019,"Intimate partner violence, female victims",441.4404226378138,bjs_ncvs_select_personal_victimization.csv + bjs_person_population.xlsx,BJS NCVS Select API and official population workbook,successor
+2020,Rape and sexual assault,209.09087077764883,bjs_ncvs_select_personal_victimization.csv,BJS NCVS Select API,successor
+2020,"Intimate partner violence, female victims",285.69687130346654,bjs_ncvs_select_personal_victimization.csv + bjs_person_population.xlsx,BJS NCVS Select API and official population workbook,successor
+2021,Rape and sexual assault,196.78546938473193,bjs_ncvs_select_personal_victimization.csv,BJS NCVS Select API,successor
+2021,"Intimate partner violence, female victims",283.43097143964195,bjs_ncvs_select_personal_victimization.csv + bjs_person_population.xlsx,BJS NCVS Select API and official population workbook,successor
+2022,Rape and sexual assault,307.47606567399964,bjs_ncvs_select_personal_victimization.csv,BJS NCVS Select API,successor
+2022,"Intimate partner violence, female victims",586.6658257820089,bjs_ncvs_select_personal_victimization.csv + bjs_person_population.xlsx,BJS NCVS Select API and official population workbook,successor
+2023,Rape and sexual assault,259.50289334979533,bjs_ncvs_select_personal_victimization.csv,BJS NCVS Select API,successor
+2023,"Intimate partner violence, female victims",359.55584608127424,bjs_ncvs_select_personal_victimization.csv + bjs_person_population.xlsx,BJS NCVS Select API and official population workbook,successor
+2024,Rape and sexual assault,321.881500224402,bjs_ncvs_select_personal_victimization.csv,BJS NCVS Select API,successor
+2024,"Intimate partner violence, female victims",417.2892180227706,bjs_ncvs_select_personal_victimization.csv + bjs_person_population.xlsx,BJS NCVS Select API and official population workbook,successor
