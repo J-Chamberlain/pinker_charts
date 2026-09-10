@@ -1,0 +1,48 @@
+{
+  "figure_id": "16-2",
+  "book_citation": "Our World in Data, Roser & Nagdy 2016c, based on data from van Zanden et al. 2014. The graphs indicate the share of the population aged 15 or older that had completed at least a year of education (more in later eras); see van Leeuwen & van Leewen-Li 2014, pp. 88-93.",
+  "script": "scripts/reconstruct_16_2.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/16-2/data/raw/owid_regional_archive.csv"
+      ],
+      "selection": "Nine series; World1820 backcast plus1870-2010 available observations",
+      "transformation": "Drop blanks, rename labels; no numerical changes or digitization",
+      "clean": "figures/16-2/data/clean/figure_16_2_book_period.csv",
+      "plot": "figures/16-2/plots/book_period/figure_16_2_book_period.png"
+    },
+    {
+      "role": "oecd_crosscheck",
+      "raw_inputs": [
+        "figures/16-2/data/raw/owid_regional_archive.csv",
+        "figures/16-2/data/raw/oecd_table_5_3.xls"
+      ],
+      "selection": "133 numeric cells with original source_year retained",
+      "transformation": "Correct final2000/2010 swapped XLS year labels only in cross-check, following printed table and CSV",
+      "clean": "figures/16-2/data/clean/figure_16_2_oecd_crosscheck.csv",
+      "plot": "figures/16-2/plots/book_period/figure_16_2_book_period.png"
+    },
+    {
+      "role": "rejected_successor",
+      "raw_inputs": [
+        "figures/16-2/data/raw/owid_current.csv"
+      ],
+      "selection": "World and six continental regions",
+      "transformation": "Flag2015+ projections; do not splice into book data",
+      "clean": "figures/16-2/data/clean/figure_16_2_rejected_successor.csv",
+      "plot": "figures/16-2/plots/diagnostics/rejected_projection_successor.png"
+    },
+    {
+      "role": "extended_review_no_extension",
+      "raw_inputs": [
+        "figures/16-2/data/raw/owid_regional_archive.csv"
+      ],
+      "selection": "Same historical dataset; no later values",
+      "transformation": "Repeat frozen historical reconstruction with explicit no-extension caption",
+      "clean": "figures/16-2/data/clean/figure_16_2_book_period.csv",
+      "plot": "figures/16-2/plots/extended/figure_16_2_extended.png"
+    }
+  ]
+}

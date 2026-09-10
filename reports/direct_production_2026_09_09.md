@@ -15,12 +15,13 @@ No model API calls, new agent branches, or main merges.
 | 17-6 Leisure | partial_match | Original author analysis cells reproduce all ten published means at two decimals. BLS continuation to 2025 has no annual 2020 estimate. Population/activity changes and small book-level differences prevent verification. |
 | 17-3 Utilities/appliances/housework | partial_match | Eight adoption curves from original author workbook and cited Census table. Housework only two confirmed numeric anchors; no fabricated trajectory. Stove definition changes; no comparable extension claimed. |
 | 16-1 Literacy | verified_reproduction | Actual 2016 archived CSV recovers all eight curves; 14 US records independently match NCES. Revised UIS extension kept separate, with historical World anomalies explained. |
+| 16-2 Basic education | partial_match | Original OWID archive and OECD StatLinks recover nine curves and133 exact table matches. XLS year-label defect documented; small visual offsets remain. Modern projections rejected as observed extension. |
 
 ## Data Deliverable
 
 `data/database/pinker_data.sqlite` retains immutable snapshots, original clean
-cell values and row data. Current catalog: 467 retained files, 92 clean CSV
-tables, 40,022 rows. Counts include source-vintage overlap and diagnostics,
+cell values and row data. Current catalog: 478 retained files, 95 clean CSV
+tables, 40,477 rows. Counts include source-vintage overlap and diagnostics,
 not just unique observations. Raw files stay in Git; the database indexes them.
 New reconstructed figures declare exact raw -> clean -> script -> plot mappings
 in per-figure lineage JSON and CSV with file checksums. Legacy mappings still
@@ -45,7 +46,7 @@ gallery. Other legacy packages retain their earlier unresolved QA findings.
 
 ## Validation
 
-69 project tests pass using `.venv/bin/pytest -q`. A test initially compared a
+70 project tests pass using `.venv/bin/pytest -q`. A test initially compared a
 rounded display value to the exact retained successor value; corrected the
 test to 2.1665275, without changing any source data. Added root pytest path
 configuration so direct pytest and python -m pytest resolve scripts equally.
@@ -54,9 +55,9 @@ checks pass. No paid API needed. Source download failures remain in logs.
 
 ## Remaining Work
 
-31 figures have not started. Source-only packages and legacy partials are not
+30 figures have not started. Source-only packages and legacy partials are not
 finished reconstructions. All Chapter 17 figures now have reconstruction or recovery
-packages, but only lighting is verified. Literacy has a 34th real comparison package;
+packages, but only lighting is verified. Literacy/basic education add two real comparison packages;
 the global PDF remains at the previous 33-figure checkpoint until its next rebuild.
 Next: education source-family continuity. Full-project data-use audit, portable dependency rebuilds, provider
 refresh adapters, unresolved-source recovery and final publication review are

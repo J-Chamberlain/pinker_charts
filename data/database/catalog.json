@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "55854252459acc66f945a20d0476015d2a4e523f3fec62f02f8acd6c90605268",
+  "snapshot_id": "22e9bb3733b72fa4b2cc9ddf55214a126d0d03758d9c2af85e2453fed211127f",
   "figures": 75,
-  "saved_files": 467,
-  "clean_tables": 92,
-  "clean_rows": 40022,
+  "saved_files": 478,
+  "clean_tables": 95,
+  "clean_rows": 40477,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -430,14 +430,14 @@
     {
       "figure_id": "16-2",
       "title": "Basic education, 1820-2010",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 11,
+      "raw_files": 8,
+      "clean_tables": 3,
+      "canonical_declared_clean_tables": 3,
+      "clean_rows": 455,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "16-3",

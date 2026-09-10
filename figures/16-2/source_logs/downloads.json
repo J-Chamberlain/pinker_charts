@@ -1,0 +1,100 @@
+[
+  {
+    "url": "https://web.archive.org/web/20161201000000id_/https://ourworldindata.org/primary-and-secondary-education/",
+    "path": "figures/16-2/data/raw/owid_archived_topic.html",
+    "retrieved_at": "2026-09-10T00:15:46.576052+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20171001063038id_/https://ourworldindata.org/primary-and-secondary-education",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "00f8bce5bcd4976de0365f64316788a4220562796172150b696e652e0f9a4c70",
+    "bytes": 75435
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/population-having-attained-at-least-basic-education.csv",
+    "path": "figures/16-2/data/raw/owid_current.csv",
+    "retrieved_at": "2026-09-10T00:15:47.717559+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/population-having-attained-at-least-basic-education.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "f0b9335fd2c869f9b0b4bee58e2560914f6829ba2ee5055d64b6ca2e08b9b6be",
+    "bytes": 89749
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/population-having-attained-at-least-basic-education.metadata.json",
+    "path": "figures/16-2/data/raw/owid_current.metadata.json",
+    "retrieved_at": "2026-09-10T00:15:48.359919+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/population-having-attained-at-least-basic-education.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "0a9948a3b562f89e165f2fde933f4c2d9d18b18d8deed7ca2a7b15e36e324307",
+    "bytes": 1907
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/share-of-the-world-population-with-at-least-basic-education.csv",
+    "path": "figures/16-2/data/raw/owid_world.csv",
+    "retrieved_at": "2026-09-10T00:16:14.362628+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/share-of-the-world-population-with-at-least-basic-education.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "1dc5252dca1a3c53697f5389b2c0b960004941dc88a5a9c4be1c90b0a3a2af18",
+    "bytes": 13662
+  },
+  {
+    "url": "https://web.archive.org/web/20161201000000id_/http://ourworldindata.org/roser/graphs/SchoolAttended_byWorldRegion_Since1870/SchoolAttended_byWorldRegion_Since1870.csv",
+    "path": "figures/16-2/data/raw/owid_regional_archive.csv",
+    "retrieved_at": "2026-09-10T00:16:13.176144+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20150921004145id_/http://www.ourworldindata.org/roser/graphs/SchoolAttended_byWorldRegion_Since1870/SchoolAttended_byWorldRegion_Since1870.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "0d9c8a15df708bfb4beda60f627ce634bfb8e74d2e85c23efc7f5d7eba2408dc",
+    "bytes": 931
+  },
+  {
+    "url": "https://doi.org/10.1787/888933095666",
+    "path": "figures/16-2/data/raw/oecd_figure_5_1.xls",
+    "retrieved_at": "2026-09-10T00:16:25.209763+00:00",
+    "http_status": 200,
+    "final_url": "https://statlinks.oecdcode.org/302014041P1G010.XLS",
+    "content_type": "application/vnd.ms-excel",
+    "status": "downloaded",
+    "sha256": "1998df558b048479ce5f5b6fc8c3ae9e5a0a540fa049076cb91b072018b6b6ec",
+    "bytes": 36352
+  },
+  {
+    "url": "https://doi.org/10.1787/888933095742",
+    "path": "figures/16-2/data/raw/oecd_table_5_3.xls",
+    "retrieved_at": "2026-09-10T00:16:24.039700+00:00",
+    "http_status": 200,
+    "final_url": "https://statlinks.oecdcode.org/302014041P1G014.XLS",
+    "content_type": "application/vnd.ms-excel",
+    "status": "downloaded",
+    "sha256": "8f35d4f9e5ce715ce3dce731036e07b979abc34ca08452b3968d7c1276318b15",
+    "bytes": 36352
+  },
+  {
+    "url": "https://web.archive.org/web/20161201000000id_/https://ourworldindata.org/grapher/share-of-the-world-population-with-at-least-basic-education",
+    "path": "figures/16-2/data/raw/owid_archived_world_chart.html",
+    "retrieved_at": "2026-09-10T00:16:33.960647+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170129152753id_/https://ourworldindata.org/grapher/share-of-the-world-population-with-at-least-basic-education",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "2769adfd183946a6921677b1d6be11b6b0a535e6cdc626aae26493e32c9e8e05",
+    "bytes": 4494
+  },
+  {
+    "url": "https://www.oecd-ilibrary.org/how-was-life_5jz41pwdz5zn.pdf",
+    "path": "tmp/source_cache/how_was_life_2014.pdf",
+    "retrieved_at": "2026-09-10T00:17:03.583372+00:00",
+    "http_status": 403,
+    "final_url": "https://www.oecd-ilibrary.org/how-was-life_5jz41pwdz5zn.pdf",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://www.oecd-ilibrary.org/how-was-life_5jz41pwdz5zn.pdf"
+  }
+]

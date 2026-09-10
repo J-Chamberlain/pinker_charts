@@ -71,6 +71,15 @@ ingests clean rows and file hashes. A future refresh must download a new version
 under a new filename and compare definitions/overlap before changing the successor.
 Never overwrite the archived 2016 book input or present a revision as observed growth.
 
+## Additional upstream evidence from Figure16-2 recovery
+The original OECD Figure5.1 StatLink XLS was subsequently recovered as
+`figures/16-2/data/raw/oecd_figure_5_1.xls` through
+https://doi.org/10.1787/888933095666. Its literacy column contains the same unusual
+1950/1960/1970/1980 values, at unrounded precision. Thus those anomalies are already
+in the cited OECD2014 source, not introduced by this reconstruction or uniquely by
+OWID. The reason for later historical revisions remains unresolved. This is
+additional source evidence, not a change to the frozen literacy plot input.
+
 Overall confidence: high for reproducing the cited OWID assembly; medium for
 comparability across centuries. Book reconstruction: strong visual/source match.
 Extension: explicitly revised, not exact continuation. Source provenance: archived

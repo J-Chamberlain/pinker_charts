@@ -2291,7 +2291,7 @@
       },
       "provenance": {
         "path": "figures/16-1/provenance/provenance.md",
-        "sha256": "246521b462e6ad4c02cae2154e4ce422c1d6444bef3765f15a325d1936adf0ec"
+        "sha256": "b8b834769e7aa777617916d5cde866fa0f8668efd80593d3dd10bde1183e2dee"
       },
       "caption": {
         "path": "figures/16-1/captions/caption.txt",
@@ -2372,8 +2372,8 @@
     }
   },
   "16-2": {
-    "scientific_status": "not_started",
-    "artifact_kind": "not_started",
+    "scientific_status": "partial_match",
+    "artifact_kind": "reconstruction",
     "artifacts": {
       "metadata": {
         "path": "figures/16-2/figure.json",
@@ -2382,6 +2382,82 @@
       "original_reference": {
         "path": "references/figures/figure_16_2.png",
         "sha256": "8eac92be6c1323ee363ad97f01a2ffd8c9524140028f5055a24d331b841da51c"
+      },
+      "provenance": {
+        "path": "figures/16-2/provenance/provenance.md",
+        "sha256": "8b6a4b06b3e56e532858a92845b833c37a3706a835c8967735ac7c43a63d67f1"
+      },
+      "caption": {
+        "path": "figures/16-2/captions/caption.txt",
+        "sha256": "6edf63a241e4c564ba31f40994dbeff1e276e6723f436493a0a310a00f57a671"
+      },
+      "source_log": {
+        "path": "figures/16-2/source_logs/source_log.md",
+        "sha256": "3497e66020d456b9a890ec7de9aee47578d6e4a123c5c66facaab97722fee503"
+      },
+      "search_log": {
+        "path": "figures/16-2/search_iterations/search_iterations.md",
+        "sha256": "9825d9d8188288db5a43e70f9574e012c68b2e1927f7b31c22e88d2817287297"
+      },
+      "download_log": {
+        "path": "figures/16-2/source_logs/downloads.json",
+        "sha256": "79930c67e60ad94a8a7add6b2bcd8fb72fec3e3adfda6692f6354233b954aa88"
+      },
+      "anomaly_review": {
+        "path": "figures/16-2/anomaly_reviews/anomaly_review.md",
+        "sha256": "ea16ff8aa22c14f38142efc1b2adffdd1749ebfda64db563e5cac964b60b5815"
+      },
+      "discrepancy_log": {
+        "path": "figures/16-2/discrepancy_logs/discrepancy_log.md",
+        "sha256": "0c33aee3d391120d32c13462b07cdfe0b3ad5d0e52ccc94b1afc57f841768c60"
+      },
+      "review_checklist": {
+        "path": "figures/16-2/review_checklist.md",
+        "sha256": "8d0e4fa62d95fd0231245de2c524442659ad89694252401f46cb0ef0cf8a41f4"
+      },
+      "book_period_reconstruction": {
+        "path": "figures/16-2/plots/book_period/figure_16_2_book_period.png",
+        "sha256": "6282a236b5b8588af7b64e7597e9562ef9434e0034b09f8bbf4d6817da9061b8"
+      },
+      "extended_reconstruction": {
+        "path": "figures/16-2/plots/extended/figure_16_2_extended.png",
+        "sha256": "4bf057ef9f36c3eacf4d87ad94bab08ff7dcd255266cde5ad18877d337ec95d0"
+      },
+      "diagnostic_plot": {
+        "path": "figures/16-2/plots/diagnostics/rejected_projection_successor.png",
+        "sha256": "646018b3c59b5a158048fb5abbb6e9147e03689c686841f77bf473ff73168935"
+      },
+      "book_period_clean": {
+        "path": "figures/16-2/data/clean/figure_16_2_book_period.csv",
+        "sha256": "db788e6b557b0bf4ef23e1e857e86552ef718f390b780b4baa033d617bffa800"
+      },
+      "crosscheck_clean": {
+        "path": "figures/16-2/data/clean/figure_16_2_oecd_crosscheck.csv",
+        "sha256": "fa9e253fb4ce4c56dab30a2107b0dd28bc0bdc98e86acc416ebaadbd457bb452"
+      },
+      "diagnostic_clean": {
+        "path": "figures/16-2/data/clean/figure_16_2_rejected_successor.csv",
+        "sha256": "8152bbf463ea8923eb96aeb6e17ef1d9bbf86a7d4d4e17f407ef23506e040b2e"
+      },
+      "lineage": {
+        "path": "figures/16-2/lineage/lineage.json",
+        "sha256": "537aed5b53b1e8b01304955d475c679aaacff28f216be2add0a8e5ea0327bdcd"
+      },
+      "lineage_csv": {
+        "path": "figures/16-2/lineage/lineage.csv",
+        "sha256": "b3bd4388139c771291ec4ed7c86689b04ffb60a034e4944ef6f83f1e063e56be"
+      },
+      "reconstruction_script": {
+        "path": "scripts/reconstruct_16_2.py",
+        "sha256": "e225efe58d1682dc1ca8863a1ac2695719052c811fe56aa21bf8ff75bcc5f814"
+      },
+      "book_period_comparison": {
+        "path": "figures/16-2/plots/comparisons/figure_16_2_book_period_review.png",
+        "sha256": "921fa951ad7cb54ad4ca0504f358c02322d93f9b20488303fe6dc2cae89cc560"
+      },
+      "extended_comparison": {
+        "path": "figures/16-2/plots/comparisons/figure_16_2_extended_review.png",
+        "sha256": "0d3cfebf74ced9a2650739aa380ea4d1780fba3f68bca155125c9388fccc2c9a"
       }
     }
   },
