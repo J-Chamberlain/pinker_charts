@@ -37,11 +37,12 @@ variables preserved. Extension differences explained, not hidden. Lighting
 inset clipping corrected automatically. Neither new figure uses digitized
 chart values. This is direct self-review, not independent external approval.
 
-Review gallery and PDF now contain 33 real figure packages / 66 pages. Earlier pages
-51-54 (work hours/retirement) were inspected at the preceding checkpoint. Current
-pages 55-62 contain utilities, lighting, necessities, and leisure; original comparison
-PNGs inspected and final PDF render checked for clipping and legibility.
-No new Critical visual issue remains in those four pages. Air travel has a
+Review gallery and PDF now contain 36 real figure packages / 72 pages. Earlier
+work hours/retirement and utilities/lighting/necessities/leisure pages were
+inspected at their preceding checkpoints. Current pages 51-56 contain literacy,
+basic education and schooling; all six final PDF pages were rendered and inspected
+for clipping and legibility, in addition to original comparison PNG inspection.
+No new Critical visual issue remains in those education pages. Air travel has a
 Critical absence of data/reconstruction and is explicitly blocked from the
 gallery. Other legacy packages retain their earlier unresolved QA findings.
 
@@ -58,8 +59,8 @@ checks pass. No paid API needed. Source download failures remain in logs.
 
 29 figures have not started. Source-only packages and legacy partials are not
 finished reconstructions. All Chapter 17 figures now have reconstruction or recovery
-packages, but only lighting is verified. Literacy/basic education/schooling add three real comparison packages;
-the global PDF will be refreshed at this education checkpoint.
+packages, but only lighting is verified. Literacy/basic education/schooling add
+three real comparison packages; the global PDF now includes these.
 Next: education source-family continuity. Full-project data-use audit, portable dependency rebuilds, provider
 refresh adapters, unresolved-source recovery and final publication review are
 still pending. This checkpoint is not a completion claim.

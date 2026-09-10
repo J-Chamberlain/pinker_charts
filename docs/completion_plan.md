@@ -326,7 +326,7 @@ ledger into the orchestrator repository.
 | 5. Scientific/visual gate | Direct evidence and visual review active | Original-PDF comparisons for new Figures 17-4 and 17-8 inspected at full resolution; explicit source-vintage distinctions preserved. No external reviewer approval claimed. |
 | 6. Unattended calibration | API track superseded by owner direction | Direct in-task research now proceeds without paid calibration or model API credentials. Historical lab tests remain useful infrastructure evidence, not a dependency for figure completion. |
 | 7. Existing incomplete figures | First consolidation-enabled repair | Figure 5-3 regained 49 early Sweden years from original GD010 table; exact count/overlap tests pass, both comparisons visually inspected. Remains partial pending independent review. |
-| 8. Untouched figures | Direct production active | All Chapter 17 figures now have a package: 17-4 verified, six partial, 17-7 targeted recovery. 32 untouched figures remain. No paid reviewer dependency. |
+| 8. Untouched figures | Direct production active | All Chapter 17 figures have a package; education adds 16-1 and 16-3 verified, 16-2 partial. 29 untouched figures remain. No paid reviewer dependency. |
 | 9. Final recovery/review | Not started | Apply new evidence to deferred work and audit all released comparisons. |
 | 10. Release | Not started | Fresh-checkout validation, gallery, PDF, release manifest, and completion accounting. |
 
@@ -382,3 +382,14 @@ Current library: 446 retained files, 88 clean tables, 39,811 rows. All 68 tests 
 canonical-state/library checks pass. Review PDF now 33 figures / 66 pages.
 32 untouched figures remain. Next: 16-1 literacy; legacy recovery and typed refresh
 library still pending. No paid model APIs or background executor processes used.
+
+2026-09-09 education checkpoint: original archived numerical data support
+16-1 literacy and 16-3 schooling as verified reproductions; 16-2 basic education
+remains partial. The original OECD spreadsheet has reversed 2000/2010 labels;
+its printed table and archived OWID CSV establish the correction, preserved in
+the audit data. Schooling's 203 book-period observations exactly match the
+archived author workbook. The revised 2015 schooling extension is not the older
+forecast. All six new PDF pages (51-56) rendered and visually inspected.
+Current library: 493 retained files, 99 clean tables, 41,072 rows. All 71 tests
+pass. Review PDF: 36 figures / 72 pages. Next: 16-4 female literacy; 29 untouched
+figures and the final recovery, portability, refresh and publication gates remain.
