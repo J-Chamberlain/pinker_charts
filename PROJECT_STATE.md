@@ -43,9 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 6 |
-| not_started | 1 |
 | partial_match | 35 |
-| source_chain_recovered | 2 |
+| source_chain_recovered | 3 |
 | source_unavailable | 1 |
 | updated_equivalent | 11 |
 | verified_reproduction | 14 |
@@ -128,7 +127,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 18-3 | Suicide, England, Switzerland, and US, 1860-2014 | needs_targeted_source_recovery | blocked | incomplete |
 | 18-4 | Happiness and excitement, US, 1972-2016 | updated_equivalent | processed | not_reviewed |
 | 19-1 | Nuclear weapons, 1945-2015 | partial_match | blocked | not_reviewed |
-| 20-1 | Populist support across generations, 2016 | not_started | not_started | incomplete |
+| 20-1 | Populist support across generations, 2016 | source_chain_recovered | blocked | incomplete |
 
 ## Canonical Figure Artifacts
 
@@ -1649,4 +1648,19 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Discrepancy log: [figures/19-1/discrepancy_logs/discrepancy_log.md](figures/19-1/discrepancy_logs/discrepancy_log.md)
 - Legacy metadata: [figures/19-1/metadata/metadata.json](figures/19-1/metadata/metadata.json)
 - Metadata: [figures/19-1/figure.json](figures/19-1/figure.json)
+
+### Figure 20-1 - Populist support across generations, 2016
+
+Status: `source_chain_recovered`. Artifact kind: `source_recovery`.
+
+- Metadata: [figures/20-1/figure.json](figures/20-1/figure.json)
+- Original reference: [references/figures/figure_20_1.png](references/figures/figure_20_1.png)
+- Provenance: [figures/20-1/provenance/provenance.md](figures/20-1/provenance/provenance.md)
+- Source log: [figures/20-1/source_logs/source_log.md](figures/20-1/source_logs/source_log.md)
+- Search log: [figures/20-1/search_iterations/search_iterations.md](figures/20-1/search_iterations/search_iterations.md)
+- Anomaly review: [figures/20-1/anomaly_reviews/anomaly_review.md](figures/20-1/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/20-1/discrepancy_logs/discrepancy_log.md](figures/20-1/discrepancy_logs/discrepancy_log.md)
+- Caption: [figures/20-1/captions/caption.txt](figures/20-1/captions/caption.txt)
+- Review checklist: [figures/20-1/review_checklist.md](figures/20-1/review_checklist.md)
+- Source materials: [figures/20-1/data/raw/source_sha256sums.txt](figures/20-1/data/raw/source_sha256sums.txt)
 

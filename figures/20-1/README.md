@@ -1,13 +1,23 @@
 <!-- canonical-state:start -->
 # Figure 20-1: Populist support across generations, 2016
 
-Scientific status: `not_started`. Execution: `not_started`.
-Publication: `incomplete`. Artifact kind: `not_started`.
+Scientific status: `source_chain_recovered`. Execution: `blocked`.
+Publication: `incomplete`. Artifact kind: `source_recovery`.
 
 This generated summary and [figure.json](figure.json) supersede historical status claims below.
 A historical verified classification is not a fresh publication review.
 
 - Metadata: [figure.json](figure.json)
 - Original reference: [../../references/figures/figure_20_1.png](../../references/figures/figure_20_1.png)
+- Provenance: [provenance/provenance.md](provenance/provenance.md)
+- Source log: [source_logs/source_log.md](source_logs/source_log.md)
+- Search log: [search_iterations/search_iterations.md](search_iterations/search_iterations.md)
+- Anomaly review: [anomaly_reviews/anomaly_review.md](anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [discrepancy_logs/discrepancy_log.md](discrepancy_logs/discrepancy_log.md)
+- Caption: [captions/caption.txt](captions/caption.txt)
+- Review checklist: [review_checklist.md](review_checklist.md)
+- Source materials: [data/raw/source_sha256sums.txt](data/raw/source_sha256sums.txt)
 
 <!-- canonical-state:end -->
+
+The citation chain is known, and public evidence for the two exit-poll families is retained. The ESS1-6 cumulative file is distributed through a registered-data workflow; until an authorized researcher downloads the file, the European series cannot be reconstructed without digitizing the source graph.

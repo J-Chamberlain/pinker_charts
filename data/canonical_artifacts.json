@@ -3409,11 +3409,11 @@
       },
       "book_period_comparison": {
         "path": "figures/15-8/plots/comparisons/figure_15_8_book_period_review.png",
-        "sha256": "d6a9787bc222e6c41ebba8418ebf9a8a16b38a9fff6d8b00dc1e0f3e70b0771d"
+        "sha256": "9ba9552b8e0436443678af9efebec662f0d0533289ca31b1ca1cf8efd1458923"
       },
       "extended_comparison": {
         "path": "figures/15-8/plots/comparisons/figure_15_8_extended_review.png",
-        "sha256": "b373de63c74999472469107e2adc77c647186fc9669a6443f49a099fb306048e"
+        "sha256": "13827f449a5408835c69e7fe707e5dbe8b576f5ca5ee917b20e8b260fb2e5d53"
       },
       "caption": {
         "path": "figures/15-8/captions/caption.txt",
@@ -3483,11 +3483,11 @@
       },
       "book_period_comparison": {
         "path": "figures/15-9/plots/comparisons/figure_15_9_book_period_review.png",
-        "sha256": "d153d5c054c78e094415e986784d871c96278fb78fdcb0cc4053155f783a1712"
+        "sha256": "5aee30f0a688b0d3d5a1a2417a14e4b9370c67e7ac64d4cdd3e0ece18d7b4eef"
       },
       "extended_comparison": {
         "path": "figures/15-9/plots/comparisons/figure_15_9_extended_review.png",
-        "sha256": "d894c63286b39d926787f4b979aca5caa632b3626a312fa687bdfa0aa48154db"
+        "sha256": "301ea9e91c31c4aaa44377987daf62fd5137b078fff932c35a8cb49c484bde4c"
       },
       "caption": {
         "path": "figures/15-9/captions/caption.txt",
@@ -4931,11 +4931,11 @@
       },
       "book_period_comparison": {
         "path": "figures/18-4/plots/comparisons/figure_18_4_book_period_review.png",
-        "sha256": "a48085834f71c8ce24c11e752cdd7687ab3123685174276ad985b0a622409aa9"
+        "sha256": "f6883e1853711559224b2f926309ea4bde932030889b404cd3e595ad34801774"
       },
       "extended_comparison": {
         "path": "figures/18-4/plots/comparisons/figure_18_4_extended_review.png",
-        "sha256": "b2fa1f367088f619749c2c9f21cc4f5c82247a8dfde39326ffa17686f5f887ba"
+        "sha256": "e144a844d36030a11d1bf232a60530731b4c3b1a37bb042cdba65b261fb9fa75"
       },
       "caption": {
         "path": "figures/18-4/captions/caption.txt",
@@ -5038,8 +5038,8 @@
     }
   },
   "20-1": {
-    "scientific_status": "not_started",
-    "artifact_kind": "not_started",
+    "scientific_status": "source_chain_recovered",
+    "artifact_kind": "source_recovery",
     "artifacts": {
       "metadata": {
         "path": "figures/20-1/figure.json",
@@ -5048,6 +5048,38 @@
       "original_reference": {
         "path": "references/figures/figure_20_1.png",
         "sha256": "e1dcf4c0502eab5903c4a3610223944350fec6c9eb6dac2c1e4c5a23a700c885"
+      },
+      "provenance": {
+        "path": "figures/20-1/provenance/provenance.md",
+        "sha256": "1ae95cf0a2dbf7e87dee550b3040fbbe667c6a3611ca0f058cdf89fb108583dd"
+      },
+      "source_log": {
+        "path": "figures/20-1/source_logs/source_log.md",
+        "sha256": "0bc681f928dff3422acfaaadcfcc800b2def1330565d3904b660bd5fca63efd4"
+      },
+      "search_log": {
+        "path": "figures/20-1/search_iterations/search_iterations.md",
+        "sha256": "2cffed03abe1c76ea1e9a70ca2052d461b63213ac4691a44879e9b9d8025324c"
+      },
+      "anomaly_review": {
+        "path": "figures/20-1/anomaly_reviews/anomaly_review.md",
+        "sha256": "66496344969fe2ed96472cba106241ffa09f5bcd0d24f763f0fab19ab0846e2f"
+      },
+      "discrepancy_log": {
+        "path": "figures/20-1/discrepancy_logs/discrepancy_log.md",
+        "sha256": "b92f0fe8e900c803c0ad841a7f1758e1f0e09cb2e835bbcc3adf5cf255eee03d"
+      },
+      "caption": {
+        "path": "figures/20-1/captions/caption.txt",
+        "sha256": "2d3796108e1ce66a357978ac96420f20c4a1188f157abf10b60a90e79cff9861"
+      },
+      "review_checklist": {
+        "path": "figures/20-1/review_checklist.md",
+        "sha256": "2544d34d8cb5a493addee6dcf02fffe472f60184aa44393e518ec45442afa285"
+      },
+      "source_materials": {
+        "path": "figures/20-1/data/raw/source_sha256sums.txt",
+        "sha256": "e990ddff75e0d443c6c9c648a8b7c4f55225e2c4e3ecf5b18983aa68ed6bcb64"
       }
     }
   }

@@ -199,6 +199,11 @@ def test_local_loop_dry_run_can_iterate_multiple_tasks():
         expected = [r["figure_id"] for r in csv.DictReader(handle) if r["current_status"] in {"", "not_started"}][:3]
     iterations = min(3, len(expected))
     decisions = run_loop(config, "local-loop", max_iterations=iterations)
+    if not expected:
+        assert len(decisions) == 1
+        assert decisions[0].action == "stop"
+        assert decisions[0].task is None
+        return
     assert len(decisions) == iterations
     task_ids = [decision.task.id for decision in decisions if decision.task]
     assert len(set(task_ids)) == iterations

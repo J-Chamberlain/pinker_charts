@@ -1338,15 +1338,15 @@
     "title": "Populist support across generations, 2016",
     "page": "",
     "year_range": "2016",
-    "current_status": "not_started",
-    "lifecycle_stage": "not_started",
+    "current_status": "source_chain_recovered",
+    "lifecycle_stage": "source_recovery",
     "source_type_guess": "survey_or_governance_dataset",
-    "priority": "backlog",
+    "priority": "high",
     "current_owner": "unassigned",
-    "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-    "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-    "execution_status": "not_started",
+    "next_action": "Obtain authorized ESS1-6 cumulative data and the authors' populist-party coding, then reproduce the European series before combining the exit-poll series.",
+    "notes": "Reference inspected and citation chain recovered. Official Inglehart-Norris working paper, Lord Ashcroft tables, and a public Edison/NEP age-table mirror are retained. ESS1-6 numeric input requires registered access; no plotted values were digitized.",
+    "execution_status": "blocked",
     "publication_status": "incomplete",
-    "artifact_kind": "not_started"
+    "artifact_kind": "source_recovery"
   }
 ]

@@ -7,30 +7,40 @@
   "page": "",
   "year_range": "2016",
   "source_type_guess": "survey_or_governance_dataset",
-  "priority": "backlog",
+  "priority": "high",
   "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "scientific_status": "source_chain_recovered",
+  "execution_status": "blocked",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "source_recovery",
+  "next_action": "Obtain authorized ESS1-6 cumulative data and the authors' populist-party coding, then reproduce the European series before combining the exit-poll series.",
+  "notes": "Reference inspected and citation chain recovered. Official Inglehart-Norris working paper, Lord Ashcroft tables, and a public Edison/NEP age-table mirror are retained. ESS1-6 numeric input requires registered access; no plotted values were digitized.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "Trump: Edison Research exit polls, New York Times 2016. Brexit: Lord Ashcroft Polls, BBC News Magazine, June 24, 2016. European populist parties (2002-2014): Inglehart & Norris 2016, fig. 8. Data for each birth cohort are plotted at the midpoint of their range.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+    "basis": "reference and full citation chain inspected; essential ESS numeric input and author coding not recovered",
+    "source_chain": [
+      "Pinker Figure 20-1",
+      "Edison Research/NYT 2016 exit poll",
+      "Lord Ashcroft/BBC 2016 exit poll",
+      "Inglehart & Norris 2016 Figure 8",
+      "ESS1-6 cumulative file"
+    ],
+    "blocker": "ESS1-6 cumulative data are distributed through a registered-data workflow and are not present in the recovered paper or public build guide."
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
+    "reference_basis": "original",
+    "inspected_artifacts": [
+      "references/figures/figure_20_1.png"
+    ],
+    "issues": [
+      "no legitimate reconstruction exists while ESS1-6 input is unavailable"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "not_attempted",
+    "notes": "No extension is meaningful until the book-period three-source reconstruction is complete."
   },
   "artifacts": {
     "metadata": {
@@ -40,16 +50,48 @@
     "original_reference": {
       "path": "references/figures/figure_20_1.png",
       "sha256": "e1dcf4c0502eab5903c4a3610223944350fec6c9eb6dac2c1e4c5a23a700c885"
+    },
+    "provenance": {
+      "path": "figures/20-1/provenance/provenance.md",
+      "sha256": "1ae95cf0a2dbf7e87dee550b3040fbbe667c6a3611ca0f058cdf89fb108583dd"
+    },
+    "source_log": {
+      "path": "figures/20-1/source_logs/source_log.md",
+      "sha256": "0bc681f928dff3422acfaaadcfcc800b2def1330565d3904b660bd5fca63efd4"
+    },
+    "search_log": {
+      "path": "figures/20-1/search_iterations/search_iterations.md",
+      "sha256": "2cffed03abe1c76ea1e9a70ca2052d461b63213ac4691a44879e9b9d8025324c"
+    },
+    "anomaly_review": {
+      "path": "figures/20-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "66496344969fe2ed96472cba106241ffa09f5bcd0d24f763f0fab19ab0846e2f"
+    },
+    "discrepancy_log": {
+      "path": "figures/20-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "b92f0fe8e900c803c0ad841a7f1758e1f0e09cb2e835bbcc3adf5cf255eee03d"
+    },
+    "caption": {
+      "path": "figures/20-1/captions/caption.txt",
+      "sha256": "2d3796108e1ce66a357978ac96420f20c4a1188f157abf10b60a90e79cff9861"
+    },
+    "review_checklist": {
+      "path": "figures/20-1/review_checklist.md",
+      "sha256": "2544d34d8cb5a493addee6dcf02fffe472f60184aa44393e518ec45442afa285"
+    },
+    "source_materials": {
+      "path": "figures/20-1/data/raw/source_sha256sums.txt",
+      "sha256": "e990ddff75e0d443c6c9c648a8b7c4f55225e2c4e3ecf5b18983aa68ed6bcb64"
     }
   },
   "research": {
     "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "claim_summary": "Support for Trump, Brexit, and European populist parties is higher among older birth cohorts than among younger cohorts in 2016-era source material.",
+    "original_dataset": "Edison/NEP 2016 exit poll; Lord Ashcroft 2016 EU referendum poll; ESS1-6 cumulative file with Inglehart-Norris party classification",
+    "dataset_url": "https://www.europeansocialsurvey.org/data-portal",
+    "archive_url": "https://appext.hks.harvard.edu/publications/getFile.aspx?Id=1401",
+    "download_date": "2026-09-10",
+    "confidence_score": "high for citation chain; low for numeric reconstruction"
   },
   "reference": {
     "figure_id": "20-1",
@@ -79,7 +121,7 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 20-1: Populist support across generations, 2016",
     "source_note_ocr": "Trump: Exit polls conducted by Edison Research, New York Times 2016. Brexit: Exit polls con- ducted by Lord Ashcroft Polls, BBC News Magazine, June 24, 2016, http://www.bbc.com/news/magazine -36619342. European populist parties (2002-2014): Inglehart & Norris 2016, fig. 8. Data for each birth co- hort are plotted at the midpoint of their range.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "machine_extracted_and_source_reviewed",
+    "visual_review": "reference_inspected_no_reconstruction"
   }
 }
