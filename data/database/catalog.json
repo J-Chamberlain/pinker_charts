@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "3d662451ba94058e39be85a4be96a9fea77595e5f03043deb69c9ddef67f9562",
+  "snapshot_id": "a883c04d49f242cfd5f2e4ec6bcf393a7140978565bd8f3501887e1232e08eb4",
   "figures": 75,
-  "saved_files": 723,
-  "clean_tables": 145,
-  "clean_rows": 60457,
+  "saved_files": 729,
+  "clean_tables": 147,
+  "clean_rows": 60692,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -358,14 +358,14 @@
     {
       "figure_id": "15-5",
       "title": "Decriminalization of homosexuality, 1791-2016",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 6,
+      "raw_files": 4,
+      "clean_tables": 2,
+      "canonical_declared_clean_tables": 2,
+      "clean_rows": 235,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "15-6",

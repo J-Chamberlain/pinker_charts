@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "figure_id": "15-5",
+  "book_citation": "Ottosson 2006, 2009; Wikipedia LGBT Rights by Country or Territory retrieved July 31, 2016",
+  "script": "scripts/reconstruct_15_5.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/15-5/data/raw/owid_same_sex_sexual_acts_legal_mignot.csv",
+        "figures/15-5/data/raw/ilga_state_sponsored_homophobia_2009.pdf",
+        "figures/15-5/data/raw/wikimedia_owid_4910_snapshot.json"
+      ],
+      "selection": "First illegal-to-legal transition per country, 1791-2016",
+      "transformation": "cumulative count of transition years",
+      "clean": "figures/15-5/data/clean/figure_15_5_book_period.csv",
+      "plot": "figures/15-5/plots/figure_15_5_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": [
+        "figures/15-5/data/raw/owid_same_sex_sexual_acts_legal_mignot.csv"
+      ],
+      "selection": "Same first-transition rule, 2017-2025",
+      "transformation": "cumulative count plotted dashed",
+      "clean": "figures/15-5/data/clean/figure_15_5_successor.csv",
+      "plot": "figures/15-5/plots/figure_15_5_extended.png"
+    }
+  ]
+}
