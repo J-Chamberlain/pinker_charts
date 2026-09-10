@@ -43,8 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 1 |
-| not_started | 33 |
-| partial_match | 16 |
+| not_started | 32 |
+| partial_match | 17 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 7 |
@@ -117,7 +117,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 16-6 | Global well-being, 1820-2015 | not_started | not_started | incomplete |
 | 17-1 | Work hours, Western Europe and US, 1870-2000 | partial_match | processed | incomplete |
 | 17-2 | Retirement, US, 1880-2010 | partial_match | processed | incomplete |
-| 17-3 | Utilities, appliances, and housework, US, 1900-2015 | not_started | not_started | incomplete |
+| 17-3 | Utilities, appliances, and housework, US, 1900-2015 | partial_match | processed | incomplete |
 | 17-4 | Cost of light, England, 1300-2006 | verified_reproduction | processed | not_reviewed |
 | 17-5 | Spending on necessities, US, 1929-2016 | partial_match | processed | incomplete |
 | 17-6 | Leisure time, US, 1965-2015 | partial_match | processed | incomplete |
@@ -797,6 +797,34 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Original reference: [references/figures/figure_17_2.png](references/figures/figure_17_2.png)
 - Book period comparison: [figures/17-2/plots/comparisons/figure_17_2_book_period_review.png](figures/17-2/plots/comparisons/figure_17_2_book_period_review.png)
 - Extended comparison: [figures/17-2/plots/comparisons/figure_17_2_extended_review.png](figures/17-2/plots/comparisons/figure_17_2_extended_review.png)
+
+### Figure 17-3 - Utilities, appliances, and housework, US, 1900-2015
+
+Status: `partial_match`. Artifact kind: `reconstruction`.
+
+- Provenance: [figures/17-3/provenance/provenance.md](figures/17-3/provenance/provenance.md)
+- Caption: [figures/17-3/captions/caption.txt](figures/17-3/captions/caption.txt)
+- Source log: [figures/17-3/source_logs/source_log.md](figures/17-3/source_logs/source_log.md)
+- Search log: [figures/17-3/search_iterations/search_iterations.md](figures/17-3/search_iterations/search_iterations.md)
+- Download log: [figures/17-3/source_logs/downloads.json](figures/17-3/source_logs/downloads.json)
+- Anomaly review: [figures/17-3/anomaly_reviews/anomaly_review.md](figures/17-3/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/17-3/discrepancy_logs/discrepancy_log.md](figures/17-3/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/17-3/review_checklist.md](figures/17-3/review_checklist.md)
+- Book period reconstruction: [figures/17-3/plots/book_period/figure_17_3_book_period.png](figures/17-3/plots/book_period/figure_17_3_book_period.png)
+- Extended reconstruction: [figures/17-3/plots/extended/figure_17_3_extended.png](figures/17-3/plots/extended/figure_17_3_extended.png)
+- Diagnostic plot: [figures/17-3/plots/diagnostics/housework_definition_candidates.png](figures/17-3/plots/diagnostics/housework_definition_candidates.png)
+- Book period clean: [figures/17-3/data/clean/figure_17_3_book_period.csv](figures/17-3/data/clean/figure_17_3_book_period.csv)
+- Housework clean: [figures/17-3/data/clean/figure_17_3_housework_anchors.csv](figures/17-3/data/clean/figure_17_3_housework_anchors.csv)
+- Census clean: [figures/17-3/data/clean/figure_17_3_census_detail.csv](figures/17-3/data/clean/figure_17_3_census_detail.csv)
+- Diagnostic clean: [figures/17-3/data/clean/figure_17_3_bls_candidates.csv](figures/17-3/data/clean/figure_17_3_bls_candidates.csv)
+- Reconstruction script: [scripts/reconstruct_17_3.py](scripts/reconstruct_17_3.py)
+- Recovery script: [scripts/recover_17_3_tables.py](scripts/recover_17_3_tables.py)
+- Lineage: [figures/17-3/lineage/lineage.json](figures/17-3/lineage/lineage.json)
+- Lineage csv: [figures/17-3/lineage/lineage.csv](figures/17-3/lineage/lineage.csv)
+- Metadata: [figures/17-3/figure.json](figures/17-3/figure.json)
+- Original reference: [references/figures/figure_17_3.png](references/figures/figure_17_3.png)
+- Book period comparison: [figures/17-3/plots/comparisons/figure_17_3_book_period_review.png](figures/17-3/plots/comparisons/figure_17_3_book_period_review.png)
+- Extended comparison: [figures/17-3/plots/comparisons/figure_17_3_extended_review.png](figures/17-3/plots/comparisons/figure_17_3_extended_review.png)
 
 ### Figure 17-4 - Cost of light, England, 1300-2006
 

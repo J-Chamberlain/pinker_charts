@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "5bd62c442b3c97c6d7e980074372cc7d0bc1dcc15250f8f1942215a6275e5d04",
+  "snapshot_id": "2bb03638459e1fb119ed34785b481d118eb7d7115944a3cf214a798e62fcf3a0",
   "figures": 75,
-  "saved_files": 430,
-  "clean_tables": 84,
-  "clean_rows": 39563,
+  "saved_files": 446,
+  "clean_tables": 88,
+  "clean_rows": 39811,
   "parse_errors": [],
   "figure_coverage": [
     {
@@ -514,14 +514,14 @@
     {
       "figure_id": "17-3",
       "title": "Utilities, appliances, and housework, US, 1900-2015",
-      "scientific_status": "not_started",
-      "artifact_kind": "not_started",
-      "saved_files": 0,
-      "raw_files": 0,
-      "clean_tables": 0,
-      "canonical_declared_clean_tables": 0,
-      "clean_rows": 0,
-      "lineage_status": "no_reconstruction_claim"
+      "scientific_status": "partial_match",
+      "artifact_kind": "reconstruction",
+      "saved_files": 16,
+      "raw_files": 9,
+      "clean_tables": 4,
+      "canonical_declared_clean_tables": 4,
+      "clean_rows": 248,
+      "lineage_status": "needs_per_plot_mapping_review"
     },
     {
       "figure_id": "17-4",

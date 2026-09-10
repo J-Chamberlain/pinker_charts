@@ -1,0 +1,31 @@
+series,year,value,margin_of_error,unit,source,definition
+Washing machine,1992,84.8,0.5,percent of households,"Siebens 2013, Table 3, p10",Washing machine
+Washing machine,1998,82.0,0.4,percent of households,"Siebens 2013, Table 3, p10",Washing machine
+Washing machine,2003,84.3,0.4,percent of households,"Siebens 2013, Table 3, p10",Washing machine
+Washing machine,2005,84.2,0.4,percent of households,"Siebens 2013, Table 3, p10",Washing machine
+Washing machine,2010,85.3,0.3,percent of households,"Siebens 2013, Table 3, p10",Washing machine
+Washing machine,2011,85.2,0.3,percent of households,"Siebens 2013, Table 3, p10",Washing machine
+Dishwasher,1992,49.3,0.7,percent of households,"Siebens 2013, Table 3, p10",Dishwasher
+Dishwasher,1998,56.0,0.5,percent of households,"Siebens 2013, Table 3, p10",Dishwasher
+Dishwasher,2003,62.3,0.5,percent of households,"Siebens 2013, Table 3, p10",Dishwasher
+Dishwasher,2005,64.0,0.5,percent of households,"Siebens 2013, Table 3, p10",Dishwasher
+Dishwasher,2010,69.4,0.4,percent of households,"Siebens 2013, Table 3, p10",Dishwasher
+Dishwasher,2011,69.3,0.4,percent of households,"Siebens 2013, Table 3, p10",Dishwasher
+Refrigerator,1992,99.1,0.1,percent of households,"Siebens 2013, Table 3, p10",Refrigerator
+Refrigerator,1998,99.3,0.1,percent of households,"Siebens 2013, Table 3, p10",Refrigerator
+Refrigerator,2003,99.3,0.1,percent of households,"Siebens 2013, Table 3, p10",Refrigerator
+Refrigerator,2005,99.3,0.1,percent of households,"Siebens 2013, Table 3, p10",Refrigerator
+Refrigerator,2010,99.3,0.1,percent of households,"Siebens 2013, Table 3, p10",Refrigerator
+Refrigerator,2011,99.2,0.1,percent of households,"Siebens 2013, Table 3, p10",Refrigerator
+Stove,1992,99.0,0.1,percent of households,"Siebens 2013, Table 3, p10",Gas or electric stove
+Stove,1998,98.7,0.1,percent of households,"Siebens 2013, Table 3, p10",Gas or electric stove
+Stove,2003,98.8,0.1,percent of households,"Siebens 2013, Table 3, p10",Gas or electric stove
+Stove,2005,98.8,0.1,percent of households,"Siebens 2013, Table 3, p10",Gas or electric stove
+Stove,2010,98.6,0.1,percent of households,"Siebens 2013, Table 3, p10",Gas or electric stove
+Stove,2011,98.6,0.1,percent of households,"Siebens 2013, Table 3, p10",Gas or electric stove
+Microwave,1992,82.2,0.5,percent of households,"Siebens 2013, Table 3, p10",Microwave
+Microwave,1998,90.7,0.3,percent of households,"Siebens 2013, Table 3, p10",Microwave
+Microwave,2003,95.9,0.2,percent of households,"Siebens 2013, Table 3, p10",Microwave
+Microwave,2005,96.4,0.2,percent of households,"Siebens 2013, Table 3, p10",Microwave
+Microwave,2010,97.1,0.2,percent of households,"Siebens 2013, Table 3, p10",Microwave
+Microwave,2011,96.8,0.2,percent of households,"Siebens 2013, Table 3, p10",Microwave

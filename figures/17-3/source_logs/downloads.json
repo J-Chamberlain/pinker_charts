@@ -1,0 +1,126 @@
+[
+  {
+    "url": "https://www2.census.gov/library/publications/2013/demo/p70-136.pdf",
+    "path": "figures/17-3/data/raw/census_p70_136.pdf",
+    "retrieved_at": "2026-09-09T23:58:45.315655+00:00",
+    "http_status": 200,
+    "final_url": "https://www2.census.gov/library/publications/2013/demo/p70-136.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "c5a9345e37f4477879e007efa161a94802bb17a778901444447a30d47a406d49",
+    "bytes": 334372
+  },
+  {
+    "url": "https://www.jeremygreenwood.net/papers/engines.pdf",
+    "path": "tmp/source_cache/greenwood_engines.pdf",
+    "retrieved_at": "2026-09-09T23:58:51.261953+00:00",
+    "http_status": 200,
+    "final_url": "https://www.jeremygreenwood.net/papers/engines.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "b02f5f322c17bb949377c0ab07921d7c317f9dd9c6f310e41bd7ac365d32611e",
+    "bytes": 430669
+  },
+  {
+    "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=152&itemId=127",
+    "path": "figures/17-3/data/raw/Engines.xls",
+    "retrieved_at": "2026-09-09T23:58:56.757010+00:00",
+    "http_status": 200,
+    "final_url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=152&itemId=127",
+    "content_type": "application/vnd.ms-excel;charset=ISO-8859-1",
+    "status": "downloaded",
+    "sha256": "b6584858f2e2681a2df99d9faf2a596309dcbbae44a07a2ab7a013f4bb6960e0",
+    "bytes": 26624
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/well-being/tables/2005/tab10.xls",
+    "path": "figures/17-3/data/raw/census_tab10.xls",
+    "retrieved_at": "2026-09-09T23:59:11.423851+00:00",
+    "http_status": 200,
+    "final_url": "https://www2.census.gov/programs-surveys/well-being/tables/2005/tab10.xls",
+    "content_type": "application/vnd.ms-excel",
+    "status": "downloaded",
+    "sha256": "5c16e3958c056bcab28bc884f6fe90446ab2341792c2ffb433d63a7261681ffe",
+    "bytes": 24576
+  },
+  {
+    "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=3171&itemId=2327",
+    "path": "figures/17-3/data/raw/HoursWorked-Data.xls",
+    "retrieved_at": "2026-09-09T23:59:49.754356+00:00",
+    "http_status": 200,
+    "final_url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=3171&itemId=2327",
+    "content_type": "application/vnd.ms-excel;charset=ISO-8859-1",
+    "status": "downloaded",
+    "sha256": "5938493fbc6ebeb09b90ec2780c7cf6667fa48e6c5977dd50edc01f0763909de",
+    "bytes": 51712
+  },
+  {
+    "url": "https://econweb.ucsd.edu/~vramey/research/Home_Production_published.pdf",
+    "path": "tmp/source_cache/ramey_home_production.pdf",
+    "retrieved_at": "2026-09-09T23:59:50.283144+00:00",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='econweb.ucsd.edu', port=443): Max retries exceeded with url: /~vramey/research/Home_Production_published.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
+  },
+  {
+    "url": "https://web.archive.org/web/20161101000000id_/https://ourworldindata.org/working-hours/",
+    "path": "figures/17-3/data/candidates/owid_working_hours_2016.html",
+    "retrieved_at": "2026-09-10T00:00:08.426870+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20170128053429id_/https://ourworldindata.org/working-hours/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "6b0cca38ea853bc46a045207c3e366cccceec98f86ae91f3d61ec0bf83303ebe",
+    "bytes": 55039
+  },
+  {
+    "url": "https://economics.ucsd.edu/~vramey/research/Home_Production_published.pdf",
+    "path": "tmp/source_cache/ramey_home_production.pdf",
+    "retrieved_at": "2026-09-10T00:00:17.775192+00:00",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='econweb.ucsd.edu', port=443): Max retries exceeded with url: /~vramey/research/Home_Production_published.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org/working-hours*&output=json&filter=statuscode:200&filter=mimetype:text/html&from=2016&to=2016&collapse=timestamp:4",
+    "path": "figures/17-3/data/candidates/owid_cdx.json",
+    "retrieved_at": "2026-09-10T00:00:18.928919+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=ourworldindata.org/working-hours*&output=json&filter=statuscode:200&filter=mimetype:text/html&from=2016&to=2016&collapse=timestamp:4",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "c5f5229f96765e9b0bce0ad6c2c1bd69c17da7d7af23a4feea6d29786ed2c2c9",
+    "bytes": 241
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/share-of-us-households-with-basic-electrical-appliances.csv",
+    "path": "figures/17-3/data/raw/owid_appliances.csv",
+    "retrieved_at": "2026-09-10T00:00:45.001775+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/technology-adoption-by-households-in-the-united-states.csv",
+    "content_type": "text/csv",
+    "status": "downloaded",
+    "sha256": "9fdc051757df8068ac0851d95d293b033dab65eec401fd7ab75325d67d8e6c31",
+    "bytes": 30760
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/technology-adoption-by-households-in-the-united-states.metadata.json",
+    "path": "figures/17-3/data/raw/owid_appliances.metadata.json",
+    "retrieved_at": "2026-09-10T00:00:55.904855+00:00",
+    "http_status": 200,
+    "final_url": "https://ourworldindata.org/grapher/technology-adoption-by-households-in-the-united-states.metadata.json",
+    "content_type": "application/json",
+    "status": "downloaded",
+    "sha256": "be70cdf19b3ba6e7cad4cf7a87a1ace95191349cfb0e597d00cde2ef71a7fb0d",
+    "bytes": 1325
+  },
+  {
+    "url": "https://web.archive.org/web/20160424230158id_/http://ourworldindata.org:80/working-hours/",
+    "path": "figures/17-3/data/candidates/owid_working_hours_april2016.html",
+    "retrieved_at": "2026-09-10T00:00:56.866337+00:00",
+    "http_status": 200,
+    "final_url": "https://web.archive.org/web/20160424230158id_/http://ourworldindata.org:80/working-hours/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "sha256": "1dc49cf83f7fd109cae5ef42e08a55fcff6ef308226e85ddef5835cbb3228f1d",
+    "bytes": 89182
+  }
+]

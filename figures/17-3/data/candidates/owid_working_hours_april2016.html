@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8"/>
+<title>Working Hours — Our World in Data</title><meta name="robots" content="noodp,noydir"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:1461066421,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"f71fe178681c3a389c693d423f0582f8",petok:"918062afb1a4900500ff2c39079f6731abe7dc45-1461538918-1800",zone:"ourworldindata.org",rocket:"0",apps:{"ga_key":{"ua":"UA-42018644-1","ga_bs":"2"}},sha2test:0}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e982913d31/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<link rel="alternate" type="application/rss+xml" title="Our World in Data &raquo; Feed" href="//ourworldindata.org/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Our World in Data &raquo; Comments Feed" href="//ourworldindata.org/comments/feed/"/>
+<link rel="canonical" href="//ourworldindata.org/working-hours/"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/ourworldindata.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}</style>
+<link rel='stylesheet' id='usernoise-button-css' href='//ourworldindata.org/wp-content/plugins/usernoise/css/button.css?ver=3.7.20' type='text/css' media='all'/>
+<link rel='stylesheet' id='usernoise-form-css' href='//ourworldindata.org/wp-content/plugins/usernoise/css/form.css?ver=3.7.20' type='text/css' media='all'/>
+<link rel='stylesheet' id='wp-quicklatex-format-css' href='//ourworldindata.org/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='parallax-pro-theme-css' href='//ourworldindata.org/wp-content/themes/parallax-pro/style.css?ver=1.2' type='text/css' media='all'/>
+<style id='parallax-pro-theme-inline-css' type='text/css'>.home-section-1{background-image:url(http://ourworldindata.org/wp-content/uploads/2015/01/WorldMapDark2.png);}.home-section-3{background-image:url(http://ourworldindata.org/wp-content/uploads/2015/01/WorldMapDark2.png);}.home-section-5{background-image:url(http://ourworldindata.org/wp-content/themes/parallax-pro/images/bg-5.jpg);}</style>
+<link rel='stylesheet' id='lazyloadxt-fadein-style-css' href='//ourworldindata.org/wp-content/plugins/lazy-load-xt/css/jquery.lazyloadxt.fadein.css?ver=1.0.6' type='text/css' media='all'/>
+<link rel='stylesheet' id='lazyloadxt-spinner-style-css' href='//ourworldindata.org/wp-content/plugins/lazy-load-xt/css/jquery.lazyloadxt.spinner.css?ver=1.0.6' type='text/css' media='all'/>
+<link rel='stylesheet' id='side-matter-css' href='//ourworldindata.org/wp-content/plugins/side-matter/css/side-matter.css?ver=1.4' type='text/css' media='all'/>
+<link rel='stylesheet' id='ce_responsive-css' href='//ourworldindata.org/wp-content/plugins/simple-embed-code/css/video-container.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='dashicons-css' href='//ourworldindata.org/wp-includes/css/dashicons.min.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='parallax-google-fonts-css' href='//fonts.googleapis.com/css?family=Montserrat%7CSorts+Mill+Goudy&#038;ver=1.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='font-awesome-latest-css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='fontello-custom-css' href='//ourworldindata.org/wp-content/themes/parallax-pro/css/fontello.css?ver=4.4.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='simple-social-icons-font-css' href='//ourworldindata.org/wp-content/plugins/simple-social-icons/css/style.css?ver=1.0.12' type='text/css' media='all'/>
+<link rel='stylesheet' id='tablepress-default-css' href='//ourworldindata.org/wp-content/tablepress-combined.min.css?ver=16' type='text/css' media='all'/>
+<link rel='stylesheet' id='fancybox-css' href='//ourworldindata.org/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.7.min.css?ver=1.5.7' type='text/css' media='screen'/>
+<!--[if !IE]><!-->
+<link rel='stylesheet' id='tablepress-responsive-css' href='//ourworldindata.org/wp-content/plugins/tablepress-responsive-tables/tablepress-responsive.min.css?ver=1.1' type='text/css' media='all'/>
+<!--<![endif]-->
+<script type='text/javascript' src='//ourworldindata.org/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script><script>jQueryWP = jQuery;</script>
+<script type='text/javascript' src='//ourworldindata.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var usernoiseButton = {"text":"Give me Feedback","style":"background-color: #002147; color: #FFFFFF","class":"un-bottom","windowUrl":"\/wp-admin\/admin-ajax.php?action=un_load_window","showButton":"1","disableOnMobiles":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/usernoise/js/usernoise.js?ver=3.7.20'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/usernoise/js/button.js?ver=3.7.20'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/lazy-load-xt/js/jquery.lazyloadxt.extra.js?ver=1.0.6'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/lazy-load-xt/js/jquery.lazyloadxt.srcset.js?ver=1.0.6'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/themes/parallax-pro/js/responsive-menu.js?ver=1.0.0'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/themes/parallax-pro/js/jquery.menu-aim.js?ver=1.0.0'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0'></script>
+<link rel='https://api.w.org/' href='//ourworldindata.org/wp-json/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="//ourworldindata.org/xmlrpc.php?rsd"/>
+<link rel='shortlink' href='//ourworldindata.org/?p=418'/>
+<link rel="alternate" type="application/json+oembed" href="//ourworldindata.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fourworldindata.org%2Fworking-hours%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="//ourworldindata.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fourworldindata.org%2Fworking-hours%2F&#038;format=xml"/>
+ 
+<meta name="google-site-verification" content="Y7Pf2HZYlPcacwjBODsIN2xasgvR13QFgFQw0po9VeY"/>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png"><link rel="pingback" href="//ourworldindata.org/xmlrpc.php"/>
+<style>body{visibility:hidden;}</style>
+<noscript>
+<style>body{visibility:inherit;}</style>
+</noscript><!--[if lt IE 9]><script src="//ourworldindata.org/wp-content/themes/genesis/lib/js/html5shiv.min.js"></script><![endif]-->
+<style type="text/css" media="screen">.simple-social-icons ul li a,.simple-social-icons ul li a:hover{background-color:#3E85EE!important;border-radius:60px;color:#000000!important;border:0px #ffffff solid!important;font-size:30px;padding:15px;}.simple-social-icons ul li a:hover{background-color:#3E85EE!important;border-color:#ffffff!important;color:#ffffff!important;}</style><style type="text/css">.broken_link,a.broken_link{text-decoration:line-through;}</style>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+var fb_timeout = null;
+var fb_opts = { 'overlayShow' : true, 'hideOnOverlayClick' : true, 'overlayOpacity' : 0.75, 'overlayColor' : '#25365e', 'showCloseButton' : true, 'centerOnScroll' : false, 'enableEscapeButton' : true, 'autoScale' : true };
+var easy_fancybox_handler = function(){
+	/* IMG */
+	var fb_IMG_select = 'a[href*=".jpg"]:not(.nofancybox,.pin-it-button), area[href*=".jpg"]:not(.nofancybox), a[href*=".jpeg"]:not(.nofancybox,.pin-it-button), area[href*=".jpeg"]:not(.nofancybox), a[href*=".png"]:not(.nofancybox,.pin-it-button), area[href*=".png"]:not(.nofancybox)';
+	jQuery(fb_IMG_select).addClass('fancybox image');
+	var fb_IMG_sections = jQuery('div.gallery');
+	fb_IMG_sections.each(function() { jQuery(this).find(fb_IMG_select).attr('rel', 'gallery-' + fb_IMG_sections.index(this)); });
+	jQuery('a.fancybox, area.fancybox, li.fancybox a:not(li.nofancybox a)').fancybox( jQuery.extend({}, fb_opts, { 'easingIn' : 'linear', 'easingOut' : 'linear', 'opacity' : false, 'hideOnContentClick' : true, 'titleShow' : true, 'titlePosition' : 'outside', 'titleFromAlt' : true, 'showNavArrows' : true, 'enableKeyboardNav' : true, 'cyclic' : false }) );
+	/* iFrame */
+	jQuery('a.fancybox-iframe, area.fancybox-iframe, li.fancybox-iframe a').fancybox( jQuery.extend({}, fb_opts, { 'type' : 'iframe', 'width' : '100%', 'height' : '100%', 'titleShow' : true, 'titlePosition' : 'float', 'titleFromAlt' : true }) );
+	/* Auto-click */ 
+	jQuery('#fancybox-auto').trigger('click');
+}
+/* ]]> */
+</script>
+<style type="text/css">#fancybox-content{background-color:#fff}#fancybox-content{border-color:#fff}#fancybox-outer{background-color:#fff}#fancybox-content{color:inherit}</style>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42018644-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body class="page page-id-418 page-child parent-pageid-774 page-template-default content-sidebar" itemscope itemtype="http://schema.org/WebPage"><div class="site-container"><header class="site-header" itemscope itemtype="http://schema.org/WPHeader"><div class="wrap"><div class="title-area"><p class="site-title" itemprop="headline"><a href="http://ourworldindata.org/">Our World in Data</a></p><p class="site-description" itemprop="description">Visualising the Empirical Evidence on how the World is Changing</p></div><div class="widget-area header-widget-area"><section id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-wrap"><nav class="nav-header" itemscope itemtype="http://schema.org/SiteNavigationElement"><ul id="menu-all-descendants-as-submenus" class="menu genesis-nav-menu"><li id="menu-item-1877" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children current-menu-ancestor current_page_ancestor menu-item-1877"><a href="http://ourworldindata.org/data/" itemprop="url"><span itemprop="name">Topics</span></a>
+<ul class="sub-menu">
+<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-198"><a href="#" itemprop="url"><span itemprop="name">1 Population Growth &#038; Vital Statistics</span></a>
+<ul class="sub-menu">
+<li id="menu-item-1308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1308 starred"><a href="http://ourworldindata.org/world-population-growth/" itemprop="url"><span itemprop="name">World Population Growth</span></a></li>
+<li id="menu-item-1314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1314"><a href="http://ourworldindata.org/future-world-population-growth/" itemprop="url"><span itemprop="name">Future World Population Growth</span></a></li>
+<li id="menu-item-3604" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3604"><a href="http://ourworldindata.org/fertility-rates/" itemprop="url"><span itemprop="name">Fertility Rates</span></a></li>
+<li id="menu-item-3521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3521"><a href="http://ourworldindata.org/age-structure-and-mortality-by-age/" itemprop="url"><span itemprop="name">Age Structure and Mortality by Age</span></a></li>
+<li id="menu-item-1441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1441 starred"><a href="http://ourworldindata.org/child-mortality/" itemprop="url"><span itemprop="name">Child Mortality</span></a></li>
+<li id="menu-item-3466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3466"><a href="http://ourworldindata.org/infant-mortality/" itemprop="url"><span itemprop="name">Infant Mortality</span></a></li>
+<li id="menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1670 starred"><a href="http://ourworldindata.org/life-expectancy/" itemprop="url"><span itemprop="name">Life Expectancy</span></a></li>
+</ul>
+</li>
+<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-197"><a href="#" itemprop="url"><span itemprop="name">2 Health</span></a>
+<ul class="sub-menu">
+<li id="menu-item-6890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6890"><a href="http://ourworldindata.org/burden-of-disease/" itemprop="url"><span itemprop="name">Burden of Disease</span></a></li>
+<li id="menu-item-4342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4342"><a href="http://ourworldindata.org/eradication-of-diseases/" itemprop="url"><span itemprop="name">Eradication of Diseases</span></a></li>
+<li id="menu-item-7334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7334"><a href="http://ourworldindata.org/financing-healthcare/" itemprop="url"><span itemprop="name">Financing Healthcare</span></a></li>
+<li id="menu-item-3504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3504"><a href="http://ourworldindata.org/health-inequality/" itemprop="url"><span itemprop="name">Health Inequality</span></a></li>
+<li id="menu-item-3083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3083"><a href="http://ourworldindata.org/hiv-aids/" itemprop="url"><span itemprop="name">HIV / AIDS</span></a></li>
+<li id="menu-item-3000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3000"><a href="http://ourworldindata.org/malaria/" itemprop="url"><span itemprop="name">Malaria</span></a></li>
+<li id="menu-item-2983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2983"><a href="http://ourworldindata.org/maternal-mortality/" itemprop="url"><span itemprop="name">Maternal Mortality</span></a></li>
+<li id="menu-item-1683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1683"><a href="http://ourworldindata.org/smoking/" itemprop="url"><span itemprop="name">Smoking</span></a></li>
+<li id="menu-item-5554" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5554"><a href="http://ourworldindata.org/suicide/" itemprop="url"><span itemprop="name">Suicide</span></a></li>
+<li id="menu-item-1455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1455"><a href="http://ourworldindata.org/vaccination/" itemprop="url"><span itemprop="name">Vaccination</span></a></li>
+</ul>
+</li>
+<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-199"><a href="#" itemprop="url"><span itemprop="name">3 Food &#038; Agriculture</span></a>
+<ul class="sub-menu">
+<li id="menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-596"><a href="http://ourworldindata.org/food-per-person/" itemprop="url"><span itemprop="name">Food per Person</span></a></li>
+<li id="menu-item-2681" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2681"><a href="http://ourworldindata.org/hunger-and-undernourishment/" itemprop="url"><span itemprop="name">Hunger and Undernourishment</span></a></li>
+<li id="menu-item-2756" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2756"><a href="http://ourworldindata.org/famines/" itemprop="url"><span itemprop="name">Famines</span></a></li>
+<li id="menu-item-2697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2697"><a href="http://ourworldindata.org/human-height/" itemprop="url"><span itemprop="name">Human Height</span></a></li>
+<li id="menu-item-1258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1258"><a href="http://ourworldindata.org/agricultural-employment/" itemprop="url"><span itemprop="name">Agricultural Employment</span></a></li>
+<li id="menu-item-2809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2809"><a href="http://ourworldindata.org/land-use-in-agriculture/" itemprop="url"><span itemprop="name">Land Use in Agriculture</span></a></li>
+<li id="menu-item-2771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2771"><a href="http://ourworldindata.org/yields/" itemprop="url"><span itemprop="name">Yields</span></a></li>
+<li id="menu-item-2850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2850"><a href="http://ourworldindata.org/fertilizer-and-pesticides/" itemprop="url"><span itemprop="name">Fertilizer and Pesticides</span></a></li>
+<li id="menu-item-2689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2689"><a href="http://ourworldindata.org/food-prices/" itemprop="url"><span itemprop="name">Food Prices</span></a></li>
+<li id="menu-item-2729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2729"><a href="http://ourworldindata.org/volatility-of-food-prices/" itemprop="url"><span itemprop="name">Volatility of Food Prices</span></a></li>
+</ul>
+</li>
+<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-200"><a href="#" itemprop="url"><span itemprop="name">4 Resources &#038; Energy</span></a>
+<ul class="sub-menu">
+<li id="menu-item-4815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4815"><a href="http://ourworldindata.org/co2-and-other-greenhouse-gas-emissions/" itemprop="url"><span itemprop="name">CO2 and other Greenhouse Gas Emissions</span></a></li>
+<li id="menu-item-4128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4128"><a href="http://ourworldindata.org/energy-production-and-changing-energy-sources/" itemprop="url"><span itemprop="name">Energy Production &#038; Changing Energy Sources</span></a></li>
+</ul>
+</li>
+<li id="menu-item-3198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3198"><a href="#" itemprop="url"><span itemprop="name">5 Environmental Change</span></a>
+<ul class="sub-menu">
+<li id="menu-item-3026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3026"><a href="http://ourworldindata.org/forest-cover/" itemprop="url"><span itemprop="name">Forest Cover</span></a></li>
+<li id="menu-item-3059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3059"><a href="http://ourworldindata.org/indoor-air-pollution/" itemprop="url"><span itemprop="name">Indoor Air Pollution</span></a></li>
+<li id="menu-item-3016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3016"><a href="http://ourworldindata.org/land-cover/" itemprop="url"><span itemprop="name">Land Cover</span></a></li>
+<li id="menu-item-4315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4315"><a href="http://ourworldindata.org/natural-catastrophes/" itemprop="url"><span itemprop="name">Natural Catastrophes</span></a></li>
+<li id="menu-item-586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="http://ourworldindata.org/oil-spills/" itemprop="url"><span itemprop="name">Oil Spills</span></a></li>
+</ul>
+</li>
+<li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-196"><a href="#" itemprop="url"><span itemprop="name">6 Technology &#038; Infrastructure</span></a>
+<ul class="sub-menu">
+<li id="menu-item-2455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2455"><a href="http://ourworldindata.org/research-development-engineers-scientists/" itemprop="url"><span itemprop="name">R&#038;D, Engineers &#038; Scientists</span></a></li>
+<li id="menu-item-1476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1476"><a href="http://ourworldindata.org/technological-progress/" itemprop="url"><span itemprop="name">Technological Progress</span></a></li>
+</ul>
+</li>
+<li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-194"><a href="#" itemprop="url"><span itemprop="name">7 Growth &#038; Distribution of Prosperity</span></a>
+<ul class="sub-menu">
+<li id="menu-item-5155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5155"><a href="http://ourworldindata.org/incomes-across-the-distribution/" itemprop="url"><span itemprop="name">Incomes across the Income Distribution</span></a></li>
+<li id="menu-item-1701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1701 starred"><a href="http://ourworldindata.org/world-poverty/" itemprop="url"><span itemprop="name">World Poverty</span></a></li>
+<li id="menu-item-4002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4002"><a href="http://ourworldindata.org/gdp-growth-over-the-last-centuries/" itemprop="url"><span itemprop="name">GDP Growth Over the Last Centuries</span></a></li>
+<li id="menu-item-1507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1507"><a href="http://ourworldindata.org/gdp-growth-over-the-very-long-run/" itemprop="url"><span itemprop="name">GDP Growth over the Very Long Run</span></a></li>
+<li id="menu-item-3153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3153"><a href="http://ourworldindata.org/economic-convergence-between-countries/" itemprop="url"><span itemprop="name">Economic Convergence between Countries</span></a></li>
+<li id="menu-item-3131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3131"><a href="http://ourworldindata.org/inequality-between-world-citizens/" itemprop="url"><span itemprop="name">Inequality between World Citizens</span></a></li>
+<li id="menu-item-3127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3127 starred"><a href="http://ourworldindata.org/gdp-data/" itemprop="url"><span itemprop="name">GDP Data</span></a></li>
+<li id="menu-item-3178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3178"><a href="http://ourworldindata.org/income-inequality/" itemprop="url"><span itemprop="name">Income Inequality</span></a></li>
+</ul>
+</li>
+<li id="menu-item-774" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-parent current-page-parent current_page_parent menu-item-has-children current-menu-ancestor current_page_ancestor menu-item-774"><a href="#" itemprop="url"><span itemprop="name">8 Economic Development, Work &#038; Standard of Living</span></a>
+<ul class="sub-menu">
+<li id="menu-item-6939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6939 starred"><a href="http://ourworldindata.org/child-labor/" itemprop="url"><span itemprop="name">Child Labor</span></a></li>
+<li id="menu-item-1567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1567"><a href="http://ourworldindata.org/happiness-and-life-satisfaction/" itemprop="url"><span itemprop="name">Happiness and Life Satisfaction</span></a></li>
+<li id="menu-item-4647" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4647"><a href="http://ourworldindata.org/human-development-index/" itemprop="url"><span itemprop="name">Human Development Index (HDI)</span></a></li>
+<li id="menu-item-3217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3217"><a href="http://ourworldindata.org/light/" itemprop="url"><span itemprop="name">Light</span></a></li>
+<li id="menu-item-4623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4623"><a href="http://ourworldindata.org/trends-in-africa/" itemprop="url"><span itemprop="name">Trends in Africa</span></a></li>
+<li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-418 current_page_item menu-item-418"><a href="http://ourworldindata.org/working-hours/" itemprop="url"><span itemprop="name">Working Hours</span></a></li>
+</ul>
+</li>
+<li id="menu-item-775" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-775"><a href="#" itemprop="url"><span itemprop="name">9 The Public Sector &#038; Economic System</span></a>
+<ul class="sub-menu">
+<li id="menu-item-1588" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1588"><a href="http://ourworldindata.org/social-spending/" itemprop="url"><span itemprop="name">Social Spending</span></a></li>
+</ul>
+</li>
+<li id="menu-item-776" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-776"><a href="#" itemprop="url"><span itemprop="name">10 Global Interconnections</span></a>
+<ul class="sub-menu">
+<li id="menu-item-1652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1652"><a href="http://ourworldindata.org/international-trade/" itemprop="url"><span itemprop="name">International Trade</span></a></li>
+</ul>
+</li>
+<li id="menu-item-778" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-778"><a href="#" itemprop="url"><span itemprop="name">11 War &#038; Peace</span></a>
+<ul class="sub-menu">
+<li id="menu-item-2594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2594"><a href="http://ourworldindata.org/civil-wars/" itemprop="url"><span itemprop="name">Civil Wars</span></a></li>
+<li id="menu-item-2605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2605"><a href="http://ourworldindata.org/genocides/" itemprop="url"><span itemprop="name">Genocide, Politicide and Democide</span></a></li>
+<li id="menu-item-2610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2610"><a href="http://ourworldindata.org/military-spending/" itemprop="url"><span itemprop="name">Military Spending</span></a></li>
+<li id="menu-item-2629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2629"><a href="http://ourworldindata.org/nuclear-weapons/" itemprop="url"><span itemprop="name">Nuclear Weapons</span></a></li>
+<li id="menu-item-2643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2643"><a href="http://ourworldindata.org/peacekeeping/" itemprop="url"><span itemprop="name">Peacekeeping</span></a></li>
+<li id="menu-item-2523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2523"><a href="http://ourworldindata.org/terrorism/" itemprop="url"><span itemprop="name">Terrorism</span></a></li>
+<li id="menu-item-2567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2567"><a href="http://ourworldindata.org/war-and-peace-before-1945/" itemprop="url"><span itemprop="name">War and Peace before 1945</span></a></li>
+<li id="menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-545"><a href="http://ourworldindata.org/war-and-peace-after-1945/" itemprop="url"><span itemprop="name">War and Peace after 1945</span></a></li>
+</ul>
+</li>
+<li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-193"><a href="#" itemprop="url"><span itemprop="name">12 Political Regimes</span></a>
+<ul class="sub-menu">
+<li id="menu-item-691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-691"><a href="http://ourworldindata.org/democratisation/" itemprop="url"><span itemprop="name">Democratisation</span></a></li>
+</ul>
+</li>
+<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-191"><a href="#" itemprop="url"><span itemprop="name">13 Violence &#038; Rights</span></a>
+<ul class="sub-menu">
+<li id="menu-item-2488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2488"><a href="http://ourworldindata.org/cascade-of-rights/" itemprop="url"><span itemprop="name">Cascade of Rights</span></a></li>
+<li id="menu-item-2589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2589"><a href="http://ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths/" itemprop="url"><span itemprop="name">Ethnographic and Archaeological Evidence on Violent Deaths</span></a></li>
+<li id="menu-item-2092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2092"><a href="http://ourworldindata.org/homicides/" itemprop="url"><span itemprop="name">Homicides</span></a></li>
+<li id="menu-item-2490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2490"><a href="http://ourworldindata.org/minorities-violence-racial-tolerance/" itemprop="url"><span itemprop="name">Treatment of Minorities &#8211; Violence and Tolerance</span></a></li>
+</ul>
+</li>
+<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-192"><a href="#" itemprop="url"><span itemprop="name">14 Education &#038; Knowledge</span></a>
+<ul class="sub-menu">
+<li id="menu-item-2422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2422"><a href="http://ourworldindata.org/global-rise-of-education/" itemprop="url"><span itemprop="name">Global Rise of Education</span></a></li>
+<li id="menu-item-2289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2289"><a href="http://ourworldindata.org/higher-education/" itemprop="url"><span itemprop="name">Higher Education</span></a></li>
+<li id="menu-item-5730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5730"><a href="http://ourworldindata.org/intelligence/" itemprop="url"><span itemprop="name">Intelligence</span></a></li>
+<li id="menu-item-2231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2231"><a href="http://ourworldindata.org/international-research-community/" itemprop="url"><span itemprop="name">International Research Community</span></a></li>
+<li id="menu-item-2246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2246"><a href="http://ourworldindata.org/primary-education-and-schools/" itemprop="url"><span itemprop="name">Primary Education and Schools</span></a></li>
+<li id="menu-item-2447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2447"><a href="http://ourworldindata.org/projections-of-future-education/" itemprop="url"><span itemprop="name">Projections of Future Education</span></a></li>
+<li id="menu-item-2275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2275"><a href="http://ourworldindata.org/quality-of-education-drop-out-rates/" itemprop="url"><span itemprop="name">Quality of Education</span></a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://ourworldindata.org/skill-premium-income-by-education/" itemprop="url"><span itemprop="name">Skill Premium &#8211; Income by Education</span></a></li>
+<li id="menu-item-671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671"><a href="http://ourworldindata.org/literacy/" itemprop="url"><span itemprop="name">Literacy</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2969"><a href="#" itemprop="url"><span itemprop="name">15 Media &#038; Communication</span></a>
+<ul class="sub-menu">
+<li id="menu-item-5734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5734"><a href="http://ourworldindata.org/internet/" itemprop="url"><span itemprop="name">Internet</span></a></li>
+<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573"><a href="http://ourworldindata.org/books/" itemprop="url"><span itemprop="name">Books</span></a></li>
+</ul>
+</li>
+<li id="menu-item-781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-781"><a href="#" itemprop="url"><span itemprop="name">16 Culture, Values &#038; Society</span></a>
+<ul class="sub-menu">
+<li id="menu-item-3108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3108"><a href="http://ourworldindata.org/materialism-and-post-materialism/" itemprop="url"><span itemprop="name">Materialism and Post-Materialism</span></a></li>
+<li id="menu-item-4863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4863"><a href="http://ourworldindata.org/optimism-pessimism/" itemprop="url"><span itemprop="name">Optimism &#038; Pessimism</span></a></li>
+<li id="menu-item-2684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2684"><a href="http://ourworldindata.org/trust/" itemprop="url"><span itemprop="name">Trust</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div></section>
+</div><nav class="owid-nav">
+<h1 class="owid-title" itemprop="headline">
+<a href="/">Our World in Data</a>
+</h1>
+<ul class="mobile">
+<li class="nav-button">
+<a href="/search" data-expand="#search-dropdown"><i class='fa fa-search'></i></a>
+</li><li class="nav-button">
+<a href="/data" data-expand="#topics-dropdown" class='mobile'><i class='fa fa-bars'></i></a>
+ 
+</li>
+</ul>
+</nav>
+<div id="search-dropdown" class="mobile">
+<form action="/">
+<input type="search" name="s" placeholder="Search..."></input>
+<button type="submit">
+<i class="fa fa-search"></i>
+</button>
+</form>
+</div>
+<div id="topics-dropdown" class="mobile">
+<ul>
+<div class='topics'><h2>Topics</h2></div><li class='category'><a><span> Population Growth & Vital Statistics</span></a><div class='subcategory-menu'><div class='submenu-title'> Population Growth & Vital Statistics</div><ul><li><a class='starred' href='http://ourworldindata.org/world-population-growth/'>World Population Growth</a></li><li><a href='http://ourworldindata.org/future-world-population-growth/'>Future World Population Growth</a></li><li><a href='http://ourworldindata.org/fertility-rates/'>Fertility Rates</a></li><li><a href='http://ourworldindata.org/age-structure-and-mortality-by-age/'>Age Structure and Mortality by Age</a></li><li><a class='starred' href='http://ourworldindata.org/child-mortality/'>Child Mortality</a></li><li><a href='http://ourworldindata.org/infant-mortality/'>Infant Mortality</a></li><li><a class='starred' href='http://ourworldindata.org/life-expectancy/'>Life Expectancy</a></li></ul></div></li><li class='category'><a><span> Health</span></a><div class='subcategory-menu'><div class='submenu-title'> Health</div><ul><li><a href='http://ourworldindata.org/burden-of-disease/'>Burden of Disease</a></li><li><a href='http://ourworldindata.org/eradication-of-diseases/'>Eradication of Diseases</a></li><li><a href='http://ourworldindata.org/financing-healthcare/'>Financing Healthcare</a></li><li><a href='http://ourworldindata.org/health-inequality/'>Health Inequality</a></li><li><a href='http://ourworldindata.org/hiv-aids/'>HIV / AIDS</a></li><li><a href='http://ourworldindata.org/malaria/'>Malaria</a></li><li><a href='http://ourworldindata.org/maternal-mortality/'>Maternal Mortality</a></li><li><a href='http://ourworldindata.org/smoking/'>Smoking</a></li><li><a href='http://ourworldindata.org/suicide/'>Suicide</a></li><li><a href='http://ourworldindata.org/vaccination/'>Vaccination</a></li></ul></div></li><li class='category'><a><span> Food & Agriculture</span></a><div class='subcategory-menu'><div class='submenu-title'> Food & Agriculture</div><ul><li><a href='http://ourworldindata.org/food-per-person/'>Food per Person</a></li><li><a href='http://ourworldindata.org/hunger-and-undernourishment/'>Hunger and Undernourishment</a></li><li><a href='http://ourworldindata.org/famines/'>Famines</a></li><li><a href='http://ourworldindata.org/human-height/'>Human Height</a></li><li><a href='http://ourworldindata.org/agricultural-employment/'>Agricultural Employment</a></li><li><a href='http://ourworldindata.org/land-use-in-agriculture/'>Land Use in Agriculture</a></li><li><a href='http://ourworldindata.org/yields/'>Yields</a></li><li><a href='http://ourworldindata.org/fertilizer-and-pesticides/'>Fertilizer and Pesticides</a></li><li><a href='http://ourworldindata.org/food-prices/'>Food Prices</a></li><li><a href='http://ourworldindata.org/volatility-of-food-prices/'>Volatility of Food Prices</a></li></ul></div></li><li class='category'><a><span> Resources & Energy</span></a><div class='subcategory-menu'><div class='submenu-title'> Resources & Energy</div><ul><li><a href='http://ourworldindata.org/co2-and-other-greenhouse-gas-emissions/'>CO2 and other Greenhouse Gas Emissions</a></li><li><a href='http://ourworldindata.org/energy-production-and-changing-energy-sources/'>Energy Production & Changing Energy Sources</a></li></ul></div></li><li class='category'><a><span> Environmental Change</span></a><div class='subcategory-menu'><div class='submenu-title'> Environmental Change</div><ul><li><a href='http://ourworldindata.org/forest-cover/'>Forest Cover</a></li><li><a href='http://ourworldindata.org/indoor-air-pollution/'>Indoor Air Pollution</a></li><li><a href='http://ourworldindata.org/land-cover/'>Land Cover</a></li><li><a href='http://ourworldindata.org/natural-catastrophes/'>Natural Catastrophes</a></li><li><a href='http://ourworldindata.org/oil-spills/'>Oil Spills</a></li></ul></div></li><li class='category'><a><span> Technology & Infrastructure</span></a><div class='subcategory-menu'><div class='submenu-title'> Technology & Infrastructure</div><ul><li><a href='http://ourworldindata.org/research-development-engineers-scientists/'>R&D, Engineers & Scientists</a></li><li><a href='http://ourworldindata.org/technological-progress/'>Technological Progress</a></li></ul></div></li><li class='category'><a><span> Growth & Distribution of Prosperity</span></a><div class='subcategory-menu'><div class='submenu-title'> Growth & Distribution of Prosperity</div><ul><li><a href='http://ourworldindata.org/incomes-across-the-distribution/'>Incomes across the Income Distribution</a></li><li><a class='starred' href='http://ourworldindata.org/world-poverty/'>World Poverty</a></li><li><a href='http://ourworldindata.org/gdp-growth-over-the-last-centuries/'>GDP Growth Over the Last Centuries</a></li><li><a href='http://ourworldindata.org/gdp-growth-over-the-very-long-run/'>GDP Growth over the Very Long Run</a></li><li><a href='http://ourworldindata.org/economic-convergence-between-countries/'>Economic Convergence between Countries</a></li><li><a href='http://ourworldindata.org/inequality-between-world-citizens/'>Inequality between World Citizens</a></li><li><a class='starred' href='http://ourworldindata.org/gdp-data/'>GDP Data</a></li><li><a href='http://ourworldindata.org/income-inequality/'>Income Inequality</a></li></ul></div></li><li class='category'><a><span> Economic Development, Work & Standard of Living</span></a><div class='subcategory-menu'><div class='submenu-title'> Economic Development, Work & Standard of Living</div><ul><li><a class='starred' href='http://ourworldindata.org/child-labor/'>Child Labor</a></li><li><a href='http://ourworldindata.org/happiness-and-life-satisfaction/'>Happiness and Life Satisfaction</a></li><li><a href='http://ourworldindata.org/human-development-index/'>Human Development Index (HDI)</a></li><li><a href='http://ourworldindata.org/light/'>Light</a></li><li><a href='http://ourworldindata.org/trends-in-africa/'>Trends in Africa</a></li><li><a href='http://ourworldindata.org/working-hours/'>Working Hours</a></li></ul></div></li><li class='category'><a><span> The Public Sector & Economic System</span></a><div class='subcategory-menu'><div class='submenu-title'> The Public Sector & Economic System</div><ul><li><a href='http://ourworldindata.org/social-spending/'>Social Spending</a></li></ul></div></li><li class='category'><a><span> Global Interconnections</span></a><div class='subcategory-menu'><div class='submenu-title'> Global Interconnections</div><ul><li><a href='http://ourworldindata.org/international-trade/'>International Trade</a></li></ul></div></li><li class='category'><a><span> War & Peace</span></a><div class='subcategory-menu'><div class='submenu-title'> War & Peace</div><ul><li><a href='http://ourworldindata.org/civil-wars/'>Civil Wars</a></li><li><a href='http://ourworldindata.org/genocides/'>Genocide, Politicide and Democide</a></li><li><a href='http://ourworldindata.org/military-spending/'>Military Spending</a></li><li><a href='http://ourworldindata.org/nuclear-weapons/'>Nuclear Weapons</a></li><li><a href='http://ourworldindata.org/peacekeeping/'>Peacekeeping</a></li><li><a href='http://ourworldindata.org/terrorism/'>Terrorism</a></li><li><a href='http://ourworldindata.org/war-and-peace-before-1945/'>War and Peace before 1945</a></li><li><a href='http://ourworldindata.org/war-and-peace-after-1945/'>War and Peace after 1945</a></li></ul></div></li><li class='category'><a><span> Political Regimes</span></a><div class='subcategory-menu'><div class='submenu-title'> Political Regimes</div><ul><li><a href='http://ourworldindata.org/democratisation/'>Democratisation</a></li></ul></div></li><li class='category'><a><span> Violence & Rights</span></a><div class='subcategory-menu'><div class='submenu-title'> Violence & Rights</div><ul><li><a href='http://ourworldindata.org/cascade-of-rights/'>Cascade of Rights</a></li><li><a href='http://ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths/'>Ethnographic and Archaeological Evidence on Violent Deaths</a></li><li><a href='http://ourworldindata.org/homicides/'>Homicides</a></li><li><a href='http://ourworldindata.org/minorities-violence-racial-tolerance/'>Treatment of Minorities - Violence and Tolerance</a></li></ul></div></li><li class='category'><a><span> Education & Knowledge</span></a><div class='subcategory-menu'><div class='submenu-title'> Education & Knowledge</div><ul><li><a href='http://ourworldindata.org/global-rise-of-education/'>Global Rise of Education</a></li><li><a href='http://ourworldindata.org/higher-education/'>Higher Education</a></li><li><a href='http://ourworldindata.org/intelligence/'>Intelligence</a></li><li><a href='http://ourworldindata.org/international-research-community/'>International Research Community</a></li><li><a href='http://ourworldindata.org/primary-education-and-schools/'>Primary Education and Schools</a></li><li><a href='http://ourworldindata.org/projections-of-future-education/'>Projections of Future Education</a></li><li><a href='http://ourworldindata.org/quality-of-education-drop-out-rates/'>Quality of Education</a></li><li><a href='http://ourworldindata.org/skill-premium-income-by-education/'>Skill Premium - Income by Education</a></li><li><a href='http://ourworldindata.org/literacy/'>Literacy</a></li></ul></div></li><li class='category'><a><span> Media & Communication</span></a><div class='subcategory-menu'><div class='submenu-title'> Media & Communication</div><ul><li><a href='http://ourworldindata.org/internet/'>Internet</a></li><li><a href='http://ourworldindata.org/books/'>Books</a></li></ul></div></li><li class='category'><a><span> Culture, Values & Society</span></a><div class='subcategory-menu'><div class='submenu-title'> Culture, Values & Society</div><ul><li><a href='http://ourworldindata.org/materialism-and-post-materialism/'>Materialism and Post-Materialism</a></li><li><a href='http://ourworldindata.org/optimism-pessimism/'>Optimism & Pessimism</a></li><li><a href='http://ourworldindata.org/trust/'>Trust</a></li></ul></div></li> <li class='end-link'><a href='/about'>About</a></li>
+<li class='end-link'><a href='/data'>Browse All</a></li>
+</ul>
+</div></div></header><div class="site-inner"><div class="content-sidebar-wrap"><main class="content"><div class="post-byline">Please cite the original source – including the original data source – and this entry on Our World In Data.<br>This entry can be cited as Max Roser (2016) – &lsquo;Working Hours&rsquo;. <em>Published online at OurWorldInData.org.</em> Retrieved from: http://ourworldindata.org/working-hours/ [Online Resource]</div><article class="post-418 page type-page status-publish has-post-thumbnail entry" itemscope itemtype="http://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">Working Hours</h1>
+</header><div class="entry-content" itemprop="text"><p>Working hours decreased immensely in the industrialized world. This post presents several data sets on weekly and annual working hours. Additionally there is data on the working hours in hunter-gatherer and other premodern-societies and during the European Middle Ages.</p>
+<h2 id="empirical-view"><span id="-empirical-view"> <a class="deep-link" href="#empirical-view"># </a> Empirical View</span></h2>
+<h3 id="the-decline-of-working-hours-per-year-after-the-industrial-revolution"> <a class="deep-link" href="#the-decline-of-working-hours-per-year-after-the-industrial-revolution"># </a>The Decline of Working Hours per Year after the Industrial Revolution</h3>
+<p>The historical economist Angus Maddison presented estimates for annual hours worked per employed person for a number of countries from 1870 to 1998; these are reprinted in the table below. In those countries for which we have data, employed persons worked close to 3,000 hours per year which is roughly 6 days a week (300 days a year), 10 hours a day. Since then working hours steeply declined – and almost halved for the most productive countries.</p>
+<h6 id="annual-hours-worked-per-person-employed-1870-1998-max-roserref"> <a class="deep-link" href="#annual-hours-worked-per-person-employed-1870-1998-max-roserref"># </a>Annual hours worked per person employed, 1870-1998 – Max Roser<a id='ref-1' class='side-matter side-matter-ref' href='#note-1' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='I have taken the data from table E-3 from Maddison (2001) – The World Economy: A Millennial Perspective. (OECD). Information on this book can be found at the OECD here.'>1</sup></a></p>
+<script type='text/javascript' src='//www.google.com/jsapi'></script>
+<script type='text/javascript'>
+// <![CDATA[
+google.load('visualization', '1.0', {'packages':['corechart']});
+google.setOnLoadCallback(drawChart);
+function drawChart() {
+var wrapper = new google.visualization.ChartWrapper(
+{"containerId":"visualizationCC85","dataTable":{"cols":[{"id":"","label":"","pattern":"","type":"string"},{"id":"","label":"Austria","pattern":"","type":"number"},{"id":"","label":"Belgium","pattern":"","type":"number"},{"id":"","label":"Denmark","pattern":"","type":"number"},{"id":"","label":"Finland","pattern":"","type":"number"},{"id":"","label":"France","pattern":"","type":"number"},{"id":"","label":"Germany","pattern":"","type":"number"},{"id":"","label":"Italy","pattern":"","type":"number"},{"id":"","label":"Netherlands","pattern":"","type":"number"},{"id":"","label":"Norway","pattern":"","type":"number"},{"id":"","label":"Sweden","pattern":"","type":"number"},{"id":"","label":"Switzerland","pattern":"","type":"number"},{"id":"","label":"UnitedKingdom","pattern":"","type":"number"},{"id":"","label":"Ireland","pattern":"","type":"number"},{"id":"","label":"Spain","pattern":"","type":"number"},{"id":"","label":"Australia","pattern":"","type":"number"},{"id":"","label":"Canada","pattern":"","type":"number"},{"id":"","label":"UnitedStates","pattern":"","type":"number"},{"id":"","label":"Argentina","pattern":"","type":"number"},{"id":"","label":"Brazil","pattern":"","type":"number"},{"id":"","label":"Chile","pattern":"","type":"number"},{"id":"","label":"Colombia","pattern":"","type":"number"},{"id":"","label":"Mexico","pattern":"","type":"number"},{"id":"","label":"Peru","pattern":"","type":"number"},{"id":"","label":"Venezuela","pattern":"","type":"number"},{"id":"","label":"Japan","pattern":"","type":"number"}],"rows":[{"c":[{"v":"1870","f":null},{"v":2935,"f":null},{"v":2964,"f":null},{"v":2945,"f":null},{"v":2945,"f":null},{"v":2945,"f":null},{"v":2841,"f":null},{"v":2886,"f":null},{"v":2964,"f":null},{"v":2945,"f":null},{"v":2945,"f":null},{"v":2984,"f":null},{"v":2984,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":2945,"f":null},{"v":2964,"f":null},{"v":2964,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":2945,"f":null}]},{"c":[{"v":"1913","f":null},{"v":2580,"f":null},{"v":2605,"f":null},{"v":2553,"f":null},{"v":2588,"f":null},{"v":2588,"f":null},{"v":2584,"f":null},{"v":2536,"f":null},{"v":2605,"f":null},{"v":2588,"f":null},{"v":2588,"f":null},{"v":2624,"f":null},{"v":2624,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":2588,"f":null},{"v":2605,"f":null},{"v":2605,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":null,"f":null},{"v":2588,"f":null}]},{"c":[{"v":"1950","f":null},{"v":1976,"f":null},{"v":2283,"f":null},{"v":2283,"f":null},{"v":2035,"f":null},{"v":1926,"f":null},{"v":2316,"f":null},{"v":1997,"f":null},{"v":2208,"f":null},{"v":2101,"f":null},{"v":1951,"f":null},{"v":2144,"f":null},{"v":1958,"f":null},{"v":2250,"f":null},{"v":2200,"f":null},{"v":1838,"f":null},{"v":1967,"f":null},{"v":1867,"f":null},{"v":2034,"f":null},{"v":2042,"f":null},{"v":2212,"f":null},{"v":2323,"f":null},{"v":2154,"f":null},{"v":2189,"f":null},{"v":2179,"f":null},{"v":2166,"f":null}]},{"c":[{"v":"1973","f":null},{"v":1778,"f":null},{"v":1872,"f":null},{"v":1742,"f":null},{"v":1707,"f":null},{"v":1771,"f":null},{"v":1804,"f":null},{"v":1612,"f":null},{"v":1751,"f":null},{"v":1721,"f":null},{"v":1571,"f":null},{"v":1930,"f":null},{"v":1688,"f":null},{"v":2010,"f":null},{"v":2150,"f":null},{"v":1708,"f":null},{"v":1788,"f":null},{"v":1717,"f":null},{"v":1996,"f":null},{"v":2096,"f":null},{"v":1955,"f":null},{"v":2141,"f":null},{"v":2061,"f":null},{"v":2039,"f":null},{"v":1965,"f":null},{"v":2042,"f":null}]},{"c":[{"v":"1990","f":null},{"v":1590,"f":null},{"v":1638,"f":null},{"v":1638,"f":null},{"v":1668,"f":null},{"v":1539,"f":null},{"v":1566,"f":null},{"v":1500,"f":null},{"v":1347,"f":null},{"v":1460,"f":null},{"v":1508,"f":null},{"v":1644,"f":null},{"v":1637,"f":null},{"v":1700,"f":null},{"v":1941,"f":null},{"v":1645,"f":null},{"v":1683,"f":null},{"v":1594,"f":null},{"v":1850,"f":null},{"v":1879,"f":null},{"v":1984,"f":null},{"v":1969,"f":null},{"v":2060,"f":null},{"v":1930,"f":null},{"v":1889,"f":null},{"v":1951,"f":null}]},{"c":[{"v":"1998","f":null},{"v":1515,"f":null},{"v":1568,"f":null},{"v":1664,"f":null},{"v":1637,"f":null},{"v":1503,"f":null},{"v":1523,"f":null},{"v":1506,"f":null},{"v":1389,"f":null},{"v":1428,"f":null},{"v":1582,"f":null},{"v":1595,"f":null},{"v":1489,"f":null},{"v":1657,"f":null},{"v":1908,"f":null},{"v":1641,"f":null},{"v":1663,"f":null},{"v":1610,"f":null},{"v":1903,"f":null},{"v":1841,"f":null},{"v":1974,"f":null},{"v":1956,"f":null},{"v":2073,"f":null},{"v":1926,"f":null},{"v":1931,"f":null},{"v":1758,"f":null}]}],"p":null},"options":{"legend":"in","curveType":"","vAxes":[{"title":null,"minValue":1300,"maxValue":3100,"viewWindow":{"max":3100,"min":1300},"useFormatFromData":true,"viewWindowMode":"explicit"},{"viewWindow":{"max":null,"min":null},"minValue":null,"maxValue":null,"useFormatFromData":true}],"animation":{"duration":500},"booleanRole":"certainty","lineWidth":2,"hAxis":{"minValue":null,"maxValue":null,"viewWindow":null,"viewWindowMode":null,"useFormatFromData":true},"series":{"0":{"lineWidth":1},"1":{"lineWidth":1},"2":{"lineWidth":1},"3":{"lineWidth":1},"4":{"lineWidth":1},"5":{"lineWidth":1},"6":{"lineWidth":1},"7":{"lineWidth":1},"8":{"lineWidth":1},"9":{"lineWidth":1},"10":{"lineWidth":1},"24":{"lineWidth":1},"23":{"lineWidth":1},"22":{"lineWidth":1},"21":{"lineWidth":1},"20":{"lineWidth":1},"19":{"lineWidth":1},"18":{"lineWidth":1},"17":{"lineWidth":1},"16":{"lineWidth":1},"15":{"lineWidth":1},"14":{"lineWidth":1},"13":{"lineWidth":1},"12":{"lineWidth":1}},"legendTextStyle":{"color":"#222","fontSize":"9"},"theme":"maximized"},"state":{},"view":{},"isDefaultVisualization":true,"chartType":"LineChart"}
+);
+wrapper.draw();
+};
+// ]]&gt;
+</script>
+<div style='border: 0px darkgray solid; width: 700px;'>
+<div id='visualizationCC85' style='width: 700px; height: 350px;'></div>
+</div>
+<p>A different dataset is presented by Huberman and Minns (2007) (The times they are not changin’: Days and hours of work in Old and New Worlds, 1870–2000. Explorations in Economic History, 44(4):538–567.).</p>
+<p>Their data on annual working hours and working hours per week is reproduced here for comparison with the Maddison dataset.</p>
+<h6 id="annual-hours-of-work-1870-2000-huberman-and-minns-2007ref"> <a class="deep-link" href="#annual-hours-of-work-1870-2000-huberman-and-minns-2007ref"># </a>Annual hours of work, 1870-2000 – Huberman and Minns (2007)<a id='ref-2' class='side-matter side-matter-ref' href='#note-2' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='Source: Huberman &amp; Minns (2007) &#8211; The times they are not changin’: Days and hours of work in Old and New Worlds, 1870–2000. Explorations in Economic History, 44(4):538–567.'>2</sup></a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>1870</th>
+<th>1880</th>
+<th>1890</th>
+<th>1900</th>
+<th>1913</th>
+<th>1929</th>
+<th>1938</th>
+<th>1950</th>
+<th>1960</th>
+<th>1973</th>
+<th>1980</th>
+<th>1990</th>
+<th>2000</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Belgium</td>
+<td>3483</td>
+<td>3344</td>
+<td>3177</td>
+<td>3064</td>
+<td>2841</td>
+<td>2229</td>
+<td>2196</td>
+<td>2404</td>
+<td>2289</td>
+<td>1851</td>
+<td>1736</td>
+<td>1699</td>
+<td>1547</td>
+</tr>
+<tr>
+<td>Denmark</td>
+<td>3434</td>
+<td>3172</td>
+<td>2933</td>
+<td>2742</td>
+<td>2731</td>
+<td>2301</td>
+<td>2203</td>
+<td>2071</td>
+<td>1929</td>
+<td>1871</td>
+<td>1693</td>
+<td>1492</td>
+<td>1473</td>
+</tr>
+<tr>
+<td>France</td>
+<td>3168</td>
+<td>3165</td>
+<td>3119</td>
+<td>3115</td>
+<td>2933</td>
+<td>2198</td>
+<td>1760</td>
+<td>2045</td>
+<td>2025</td>
+<td>1849</td>
+<td>1696</td>
+<td>1558</td>
+<td>1443</td>
+</tr>
+<tr>
+<td>Germany</td>
+<td>3284</td>
+<td>3223</td>
+<td>3108</td>
+<td>3056</td>
+<td>2723</td>
+<td>2128</td>
+<td>2187</td>
+<td>2372</td>
+<td>2144</td>
+<td>1808</td>
+<td>1696</td>
+<td>1541</td>
+<td>1463</td>
+</tr>
+<tr>
+<td>Ireland</td>
+<td>3108</td>
+<td>3017</td>
+<td>2869</td>
+<td>2795</td>
+<td>2690</td>
+<td>2182</td>
+<td>2171</td>
+<td>2437</td>
+<td>2320</td>
+<td>2103</td>
+<td>1954</td>
+<td>1992</td>
+<td>1686</td>
+</tr>
+<tr>
+<td>Italy</td>
+<td>3000</td>
+<td>3008</td>
+<td>3006</td>
+<td>3014</td>
+<td>2953</td>
+<td>2153</td>
+<td>2162</td>
+<td>1951</td>
+<td>2012</td>
+<td>1825</td>
+<td>1724</td>
+<td>1674</td>
+<td>1612</td>
+</tr>
+<tr>
+<td>Netherlands</td>
+<td>3274</td>
+<td>3194</td>
+<td>3105</td>
+<td>3037</td>
+<td>2942</td>
+<td>2233</td>
+<td>2281</td>
+<td>2156</td>
+<td>2002</td>
+<td>1709</td>
+<td>1667</td>
+<td>1414</td>
+<td>1352</td>
+</tr>
+<tr>
+<td>Spain</td>
+<td>2968</td>
+<td>2876</td>
+<td>2787</td>
+<td>2710</td>
+<td>2601</td>
+<td>2342</td>
+<td>2030</td>
+<td>2052</td>
+<td>2042</td>
+<td>2124</td>
+<td>1968</td>
+<td>1832</td>
+<td>1815</td>
+</tr>
+<tr>
+<td>Sweden</td>
+<td>3436</td>
+<td>3187</td>
+<td>2937</td>
+<td>2745</td>
+<td>2745</td>
+<td>2152</td>
+<td>2131</td>
+<td>2009</td>
+<td>1902</td>
+<td>1683</td>
+<td>1523</td>
+<td>1550</td>
+<td>1645</td>
+</tr>
+<tr>
+<td>Switzerland</td>
+<td>3195</td>
+<td>3083</td>
+<td>2925</td>
+<td>2834</td>
+<td>2704</td>
+<td>2281</td>
+<td>2085</td>
+<td>2092</td>
+<td>1952</td>
+<td>1835</td>
+<td>1721</td>
+<td>1617</td>
+<td>1597</td>
+</tr>
+<tr>
+<td>U.K.</td>
+<td>2755</td>
+<td>2740</td>
+<td>2669</td>
+<td>2656</td>
+<td>2656</td>
+<td>2257</td>
+<td>2200</td>
+<td>2112</td>
+<td>2134</td>
+<td>1919</td>
+<td>1758</td>
+<td>1698</td>
+<td>1653</td>
+</tr>
+<tr>
+<td>Australia</td>
+<td>2792</td>
+<td>2647</td>
+<td>2501</td>
+<td>2385</td>
+<td>2214</td>
+<td>2186</td>
+<td>2109</td>
+<td>2023</td>
+<td>1945</td>
+<td>1837</td>
+<td>1815</td>
+<td>1806</td>
+<td>1797</td>
+</tr>
+<tr>
+<td>Canada</td>
+<td>2845</td>
+<td>2934</td>
+<td>3017</td>
+<td>3102</td>
+<td>2868</td>
+<td>2354</td>
+<td>2212</td>
+<td>2111</td>
+<td>2014</td>
+<td>1874</td>
+<td>1825</td>
+<td>1830</td>
+<td>1825</td>
+</tr>
+<tr>
+<td>U.S.</td>
+<td>3096</td>
+<td>3044</td>
+<td>2983</td>
+<td>2938</td>
+<td>2900</td>
+<td>2316</td>
+<td>1756</td>
+<td>2008</td>
+<td>2033</td>
+<td>1942</td>
+<td>1853</td>
+<td>1840</td>
+<td>1878</td>
+</tr>
+</tbody>
+</table>
+<p>[/expand]</p>
+<h3 id="decreasing-hours-of-work-per-week"> <a class="deep-link" href="#decreasing-hours-of-work-per-week"># </a>Decreasing Hours of Work per Week</h3>
+<p>Productivity increases also entailed decreasing work hours per week, not just per year. This is shown in the following data visualization.</p>
+<h6 id="hours-of-work-per-week-1870-2000-max-roserref"> <a class="deep-link" href="#hours-of-work-per-week-1870-2000-max-roserref"># </a>Hours of work per week, 1870-2000 – Max Roser<a id='ref-3' class='side-matter side-matter-ref' href='#note-3' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='This data is taken from Huberman &amp; Minns (2007) – The times they are not changin’: Days and hours of work in Old and New Worlds, 1870–2000. Explorations in Economic History, 44(4):538–567. Online here. Data refers to full-time production workers (male and female) in non-agricultural activities. Only for 2000 Huberman &amp; Minns give estimates for both genders separately. I have calculated and visualized the average of the two measures. &nbsp; The original sources according to Hubermann &amp; Minns (2007): 1870–1913: Huberman (2004); 1929–1938, ILO (1934–38), except for Canada (Ostry and Zaidi, 1972), U.S. (Jones, 1963 and Owen, 1988), and for Australia (Butlin, 1977); the values for Spain in 1938 are for 1936; 1950–1980: ILO (1950–80), except for U.S. (McGratten and Rogerson, 2004), and Australia ( Butlin, 1977); 1980–2000: ILO (2005), except for U.S. (McGratten and Rogerson, 2004), Canada (Heisz and LaRochelle-Côté, 2003), and Denmark (Eurostat, 1995).'>3</sup></a></p>
+<p><iframe style="border: 0px none;" data-src="http://ourworldindata.org/wp-content/uploads/nvd3/nvd3_lineChart_Roser_CSV_WeeklyWorkHours_HubermannMinns/nvd3_lineChart_Roser_CSV_WeeklyWorkHours_HubermannMinns.html" width="100%" height="540" scrolling="no"></iframe><noscript><iframe style="border: 0px none;" src="http://ourworldindata.org/wp-content/uploads/nvd3/nvd3_lineChart_Roser_CSV_WeeklyWorkHours_HubermannMinns/nvd3_lineChart_Roser_CSV_WeeklyWorkHours_HubermannMinns.html" width="100%" height="540" scrolling="no"></iframe></noscript></p>
+<address><a class="fancybox-iframe" href="http://ourworldindata.org/wp-content/uploads/nvd3/nvd3_lineChart_Roser_CSV_WeeklyWorkHours_HubermannMinns/nvd3_lineChart_Roser_CSV_WeeklyWorkHours_HubermannMinns.html">Full screen view</a>      <a href="http://ourworldindata.org/wp-content/uploads/2013/03/explainingprogress_hours-of-work-per-week-1870%E2%80%932000-max-roser.png">Download as Image</a>      <a href="http://ourworldindata.org/wp-content/uploads/nvd3/nvd3_lineChart_Roser_CSV_WeeklyWorkHours_HubermannMinns/nvd3_lineChart_Roser_CSV_WeeklyWorkHours_HubermannMinns.csv">Download Data</a></address>
+<h3 id="working-hours-in-hunter-gatherer-and-other-premodern-societies"> <a class="deep-link" href="#working-hours-in-hunter-gatherer-and-other-premodern-societies"># </a>Working Hours in Hunter-Gatherer and Other Premodern Societies</h3>
+<p>Anthropologic studies of hunter-gatherer and subsistence cultivation societies show that labor inputs are small. This can be seen from the table below taken from Clark.<a id='ref-4' class='side-matter side-matter-ref' href='#note-4' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='Clark, Gregory (2008). A Farewell to Alms: A Brief Economic History of the World. Princeton University Press.'>4</sup></a></p>
+<p>The author is surprised by the short work days especially because some societies, as the Hiwi from Venezuela often suffer from hunger and although they achieve &#8216;high returns from each hour of work&#8217; they still generally forage for less than 2 hours.</p>
+<p>Generally the work time in hunter-gatherer societies is lower than in agrarian societies.</p>
+<h6 id="male-labor-hours-per-day-in-different-societies-clarkref"> <a class="deep-link" href="#male-labor-hours-per-day-in-different-societies-clarkref"># </a>Male labor hours per day in different societies – Clark<a id='ref-5' class='side-matter side-matter-ref' href='#note-5' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='This data is taken from Clark (2008) who lists the following sources: (a) Lizot, 1977, 514 (food only). (b) Tucker, 2001, 183. (c) Kaplan and Hill, 1992. (d) Scaglion, 1986, 541. (e) Gross, 1984, 526. (f) Johnson, 1975. (g) Werner et al., 1979, 311 (food only). (h) Waddell, 1972, 101. (i) Bergman, 1980, 209. (j) Minge-Klevana, 1980. (k) Hurtado and Hill, 1987, 178–79. (l) Clark and van der Werf, 1998. (m) Clark, 2005, 1322. (n) Voth, 2001. oUnited Kingdom, Office of National Statistics, 2003.'>5</sup></a></p>
+<table id="tablepress-24" class="tablepress tablepress-id-24">
+<thead>
+<tr class="row-1">
+<th class="column-1">Group or location</th><th class="column-2">Group or activity</th><th class="column-3">Hours</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2">
+<td class="column-1">Tatuyo (a)</td><td class="column-2">Shifting cultivation, hunting</td><td class="column-3">7.6</td>
+</tr>
+<tr class="row-3">
+<td class="column-1">Mikea (b)</td><td class="column-2">Shifting cultivation, foraging</td><td class="column-3">7.4</td>
+</tr>
+<tr class="row-4">
+<td class="column-1">Ache (c)</td><td class="column-2">Hunting</td><td class="column-3">6.9</td>
+</tr>
+<tr class="row-5">
+<td class="column-1">Abelam (d)</td><td class="column-2">Subsistence agriculture, hunting</td><td class="column-3">6.5</td>
+</tr>
+<tr class="row-6">
+<td class="column-1">!Kung (e)</td><td class="column-2">Foraging</td><td class="column-3">6.4</td>
+</tr>
+<tr class="row-7">
+<td class="column-1">Machiguenga (f)</td><td class="column-2">Shifting cultivation, foraging, hunting</td><td class="column-3">6.0</td>
+</tr>
+<tr class="row-8">
+<td class="column-1">Xavante (g)</td><td class="column-2">Shifting cultivation, hunting</td><td class="column-3">5.9</td>
+</tr>
+<tr class="row-9">
+<td class="column-1">Aruni (h)</td><td class="column-2">Subsistence agriculture</td><td class="column-3">5.2</td>
+</tr>
+<tr class="row-10">
+<td class="column-1">Mekranoti (g)</td><td class="column-2">Shifting cultivation, foraging, hunting</td><td class="column-3">3.9</td>
+</tr>
+<tr class="row-11">
+<td class="column-1">Shipibo (i)</td><td class="column-2">Subsistence agriculture, fishing</td><td class="column-3">3.4</td>
+</tr>
+<tr class="row-12">
+<td class="column-1">Bemba (j)</td><td class="column-2">Shifting cultivation, hunting</td><td class="column-3">3.4</td>
+</tr>
+<tr class="row-13">
+<td class="column-1">Hiwi (k)</td><td class="column-2">Hunting</td><td class="column-3">3.0</td>
+</tr>
+<tr class="row-14">
+<td class="column-1">Yanomamo (a)</td><td class="column-2">Shifting cultivation, foraging, hunting</td><td class="column-3">2.8</td>
+</tr>
+<tr class="row-15">
+<td class="column-1"></td><td class="column-2"></td><td class="column-3"></td>
+</tr>
+<tr class="row-16">
+<td class="column-1">Britain, 1800 (l,m)</td><td class="column-2">Farm laborers, paid labor</td><td class="column-3">8.2</td>
+</tr>
+<tr class="row-17">
+<td class="column-1"></td><td class="column-2">Building workers, paid labor</td><td class="column-3">8.2</td>
+</tr>
+<tr class="row-18">
+<td class="column-1">London, 1800 (n)</td><td class="column-2">All workers, paid labor</td><td class="column-3">9.1</td>
+</tr>
+<tr class="row-19">
+<td class="column-1">United Kingdom, 2000 (o)</td><td class="column-2">All workers aged 16–64</td><td class="column-3">8.8</td>
+</tr>
+</tbody>
+</table>
+ 
+<p>&nbsp;</p>
+<h3 id="working-hours-in-europe-since-the-middle-ages"> <a class="deep-link" href="#working-hours-in-europe-since-the-middle-ages"># </a>Working Hours in Europe since the Middle Ages</h3>
+<p>Clark (2010)<a id='ref-6' class='side-matter side-matter-ref' href='#note-6' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='Gregory Clark (2010) &#8211; The macroeconomic aggregates for England, 1209–2008. Research in Economic History, 27:51–140.'>6</sup></a> estimated the length of the work week for building workers in England between 1250 and 1629 by calculating the ratio of the weekly wages to their daily wage. This ratio should be equal to the daily hours of work and is remarkably stable over time.</p>
+<h6 id="implied-length-of-the-week-for-building-workers-in-england-1250-1629-clarkref"> <a class="deep-link" href="#implied-length-of-the-week-for-building-workers-in-england-1250-1629-clarkref"># </a>Implied length of the &#8216;week&#8217; for building workers in England, 1250-1629 – Clark<a id='ref-7' class='side-matter side-matter-ref' href='#note-7' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='Gregory Clark (2010) &#8211; The macroeconomic aggregates for England, 1209–2008. Research in Economic History, 27:51–140.'>7</sup></a></p>
+<p><a href="http://ourworldindata.org/wp-content/uploads/2013/03/implied-length-of-the-week-for-building-workers-in-england-1250-1629-png.png"><img class="aligncenter size-full wp-image-427" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//ourworldindata.org/wp-content/uploads/2013/03/implied-length-of-the-week-for-building-workers-in-england-1250-1629-png.png" alt="Implied-length-of-the-“week”-for-building-workers-in-England-1250-1629.png" width="530" height="318" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcset="//ourworldindata.org/wp-content/uploads/2013/03/implied-length-of-the-week-for-building-workers-in-england-1250-1629-png-300x180.png 300w, //ourworldindata.org/wp-content/uploads/2013/03/implied-length-of-the-week-for-building-workers-in-england-1250-1629-png.png 530w" sizes="(max-width: 530px) 100vw, 530px"/><noscript><img class="aligncenter size-full wp-image-427" src="//ourworldindata.org/wp-content/uploads/2013/03/implied-length-of-the-week-for-building-workers-in-england-1250-1629-png.png" alt="Implied-length-of-the-“week”-for-building-workers-in-England-1250-1629.png" width="530" height="318" srcset="//ourworldindata.org/wp-content/uploads/2013/03/implied-length-of-the-week-for-building-workers-in-england-1250-1629-png-300x180.png 300w, //ourworldindata.org/wp-content/uploads/2013/03/implied-length-of-the-week-for-building-workers-in-england-1250-1629-png.png 530w" sizes="(max-width: 530px) 100vw, 530px"/></noscript></a></p>
+<h2 id="data-sources"><span id="-data-sources"> <a class="deep-link" href="#data-sources"># </a>Data Sources</span></h2>
+<h5 id="barro-lee-education-dataset"> <a class="deep-link" href="#barro-lee-education-dataset"># </a>Barro Lee education dataset</h5>
+<ul>
+<li><strong>Data:</strong> Educational attainment for population aged 15 and over for men and women</li>
+<li><strong>Geographical coverage:</strong> Global</li>
+<li><strong>Time span:</strong> 1950-2010</li>
+<li><strong>Available at: </strong>Online <a href="http://www.barrolee.com/data/yrsch.htm">here</a></li>
+</ul>
+<h5 id="unesco"> <a class="deep-link" href="#unesco"># </a>UNESCO</h5>
+<ul>
+<li><strong>Data:</strong> Various indicators in education, technology, culture, communication and demographics</li>
+<li><strong>Geographical coverage:</strong> Global</li>
+<li><strong>Time span:</strong> Predominantly 21st century</li>
+<li><strong>Available at: </strong>Online <a href="http://data.uis.unesco.org">here</a></li>
+</ul>
+<h5 id="world-bank"> <a class="deep-link" href="#world-bank"># </a>World Bank</h5>
+<ul>
+<li><strong>Data:</strong> Various indicators in economics, economics, finance, health and technology</li>
+<li><strong>Geographical coverage:</strong> Global</li>
+<li><strong>Time span:</strong> 1980-2014</li>
+<li><strong>Available at: </strong>Online <a href="http://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG">here</a></li>
+</ul>
+<h5><strong>&#8216;Child Mortality Estimates Info&#8217;</strong> (CME Info)</h5>
+<ul>
+<li><strong>Data: </strong>The latest estimates based on the research of the UN Inter-agency Group for Child Mortality Estimation: Under-five mortality estimates, Infant mortality estimates, Neonatal mortality estimates (for all three rates and deaths) Estimates of: Sex-specific under-five mortality rate, Sex-specific infant mortality rate, Annual rate of reduction of under-five mortality.</li>
+<li><strong>Geographical coverage: </strong>Global – by country.</li>
+<li><strong>Time span: </strong>Data availability varies, but for some countries it goes as far back as the 1930s.</li>
+<li><strong>Available at: </strong>Online at <a href="http://www.childmortality.org">www.childmortality.org</a></li>
+<li class="no-bullet"><em>This very good source is published by UNICEF. It is possible to explore the trends country by country and to visualize the data on a map.</em></li>
+</ul>
+<h5 id="food-and-agriculture-organization-fao-food-supply-database"> <a class="deep-link" href="#food-and-agriculture-organization-fao-food-supply-database"># </a>Food and Agriculture Organization (FAO) Food Supply database</h5>
+<ul>
+<li><strong>Data:</strong> Covers food commodities that have been converted back into primary equivalents (Quantity, Dietary Energy, Proteins, Fats, Totals and per Capita). Also includes &#8216;Per Capita Food Supply Variability&#8217;</li>
+<li><strong>Geographical coverage:</strong> Global – by country and world region</li>
+<li><strong>Time span:</strong> Since 1961</li>
+<li><strong>Available at:</strong> Online at FAOSTAT <a href="http://faostat.fao.org/site/345/default.aspx">here</a></li>
+<li class="no-bullet"><em>Detailed food consumption data is available in the <a href="http://faostat.fao.org/site/368/DesktopDefault.aspx#ancor">FAO Food Balance Sheet data</a>. This data is described in FAO (2001) – &#8216;Food Balance Sheets – A Handbook&#8217; (online <a href="http://www.fao.org/docrep/003/X9892E/X9892E00.HTM">here</a>). </em></li>
+<li class="no-bullet"><em>The FAO data is also available through <a href="http://www.gapminder.org/world/#$majorMode=chart$is;shi=t;ly=2003;lb=f;il=t;fs=11;al=30;stl=t;st=f;nsl=t;se=t$wst;tts=C$ts;sp=6;ti=2007$zpv;v=0$inc_x;mmid=XCOORDS;iid=phAwcNAVuyj1jiMAkmq1iMg;by=ind$inc_y;mmid=YCOORDS;iid=0ArfEDsV3bBwCdGlYVVpXX20tbU13STZyVG0yNkRrZnc;by=ind$inc_s;uniValue=8.21;iid=phAwcNAVuyj0XOoBL_n5tAQ;by=ind$inc_c;uniValue=255;gid=CATID0;by=grp$map_x;scale=log;dataMin=176;dataMax=107100$map_y;scale=lin;dataMin=1220;dataMax=3902$map_s;sma=49;smi=2.65$cd;bd=0$inds=">Gapminder</a> where the data can be plotted against a second variable.</em></li>
+</ul>
+<h5 id="polity-index"> <a class="deep-link" href="#polity-index"># </a>Polity Index</h5>
+<ul>
+<li><strong>Data:</strong> Many different measures – listed <a href="http://www.systemicpeace.org/inscr/p4manualv2012.pdf">here</a>. Most commonly used is the Polity2 measure which measures political systems on a spectrum between autocracy and democracy. <a id='ref-8' class='side-matter side-matter-ref' href='#note-8' style="color: #ff543a"><sup class='side-matter side-matter-sup' title='This measure is criticized by Gleditsch and Ward (1997) – Double Take: A Reexamination of Democracy and Autocracy in Modern Polities, Journal of Conflict Resolution, 41(3): 361-383.'>8</sup></a></li>
+<li><strong>Geographical coverage:</strong> Global – by country.</li>
+<li><strong>Time span:</strong>  Data goes back to 1800 and is yearly updated.</li>
+<li><strong>Available at:</strong> The website is <a href="http://www.systemicpeace.org/polity/polity4.htm">here</a>. Older versions of the POLITY dataset are available at <a href="http://privatewww.essex.ac.uk/~ksg/polity.html">Kristian Gleditsch&#8217;s Polity Data Archive</a>.</li>
+<li class="no-bullet"><em>This data set is <em>compiled at Colorado State University</em>. More comments on the Polity measures can be found at <a href="http://devecondata.blogspot.co.uk/2007/04/polity-iv.html">DevEconData</a>.</em></li>
+</ul>
+<h5 id="history-database-of-the-global-environment-hyde"> <a class="deep-link" href="#history-database-of-the-global-environment-hyde"># </a>History Database of the Global Environment (HYDE)</h5>
+<ul>
+<li><strong>Data:</strong> Population numbers, urban fraction, built-up area and urban density, along with other environmental indicators</li>
+<li><strong>Geographical coverage: </strong>Global and national<strong><br/>
+</strong></li>
+<li><strong>Time span: </strong>Population data from antiquity to present<strong><br/>
+</strong></li>
+<li><strong>Available at:</strong> Population data <a href="http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html">here</a>. Other data available via the side menu</li>
+</ul>
+<hr class="datasources-hr"/>
+</div></article></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar"><section id="side-matter-3" class="widget widget_side_matter side-matter"><div class="widget-wrap"><h4 class="widget-title widgettitle"></h4>
+<ol class='side-matter side-matter-list' style='list-style-type: decimal; color: #ff543a;'>
+<li id='note-1' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>I have taken the data from table E-3 from Maddison (2001) – The World Economy: A Millennial Perspective. (OECD). Information on this book can be found at the OECD <a href="http://www.oecd.org/dev/developmentcentrestudiestheworldeconomyamillennialperspective.htm">here</a>.</p>
+</div>
+</li>
+<li id='note-2' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>Source: Huberman &amp; Minns (2007) &#8211; The times they are not changin’: Days and hours of work in Old and New Worlds, 1870–2000. Explorations in Economic History, 44(4):538–567.</p>
+</div>
+</li>
+<li id='note-3' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>This data is taken from Huberman &amp; Minns (2007) – The times they are not changin’: Days and hours of work in Old and New Worlds, 1870–2000. Explorations in Economic History, 44(4):538–567. Online <a href="http://www.sciencedirect.com/science/article/pii/S0014498307000058">here</a>.</p>
+<p>Data refers to full-time production workers (male and female) in non-agricultural activities.</p>
+<p>Only for 2000 Huberman &amp; Minns give estimates for both genders separately. I have calculated and visualized the average of the two measures.</p>
+<p>&nbsp;</p>
+<p>The original sources according to Hubermann &amp; Minns (2007):</p>
+<p>1870–1913: Huberman (2004); 1929–1938, ILO (1934–38), except for Canada (Ostry and Zaidi, 1972), U.S. (Jones, 1963 and Owen, 1988), and for Australia (Butlin, 1977); the values for Spain in 1938 are for 1936;</p>
+<p>1950–1980: ILO (1950–80), except for U.S. (McGratten and Rogerson, 2004), and Australia ( Butlin, 1977);</p>
+<p>1980–2000: ILO (2005), except for U.S. (McGratten and Rogerson, 2004), Canada (Heisz and LaRochelle-Côté, 2003), and Denmark (Eurostat, 1995).</p>
+</div>
+</li>
+<li id='note-4' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+<p>Clark, Gregory (2008). A Farewell to Alms: A Brief Economic History of the World. Princeton University Press.</p>
+</div>
+</li>
+<li id='note-5' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>This data is taken from Clark (2008) who lists the following sources: (a) Lizot, 1977, 514 (food only). (b) Tucker, 2001, 183. (c) Kaplan and Hill, 1992. (d) Scaglion, 1986, 541. (e) Gross, 1984, 526. (f) Johnson, 1975. (g) Werner et al., 1979, 311 (food only). (h) Waddell, 1972, 101. (i) Bergman, 1980, 209. (j) Minge-Klevana, 1980. (k) Hurtado and Hill, 1987, 178–79. (l) Clark and van der Werf, 1998. (m) Clark, 2005, 1322. (n) Voth, 2001. oUnited Kingdom, Office of National Statistics, 2003.</p>
+</div>
+</li>
+<li id='note-6' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+<p> Gregory Clark (2010) &#8211; The macroeconomic aggregates for England, 1209–2008. Research in Economic History, 27:51–140. </p>
+</div>
+</li>
+<li id='note-7' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+</h6>
+<p>Gregory Clark (2010) &#8211; The macroeconomic aggregates for England, 1209–2008. Research in Economic History, 27:51–140. </p>
+</div>
+</li>
+<li id='note-8' class='side-matter side-matter-note'>
+<div class='side-matter side-matter-text' style='color: #777777;'>
+<p>This measure is criticized by Gleditsch and Ward (1997) – <em>Double Take: A Reexamination of Democracy and Autocracy in Modern Polities</em>, Journal of Conflict Resolution, 41(3): 361-383.</p>
+</div>
+</li>
+</ol>
+</div></section>
+</aside></div></div><div class="footer-widgets"><div class="wrap"><div class="footer-widgets-1 widget-area"><section id="text-11" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Stay up to date by subscribing to the newsletter</h4>
+<div class="textwidget"> 
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">#mc_embed_signup{background:#fff;clear:left;font:14px Helvetica,Arial,sans-serif;}</style>
+<div id="mc_embed_signup">
+<form action="//ourworldindata.us8.list-manage.com/subscribe/post?u=18058af086319ba6afad752ec&amp;id=2e166c1fc1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div id="mc_embed_signup_scroll">
+<div class="mc-field-group">
+<label for="mce-EMAIL">Email Address </label>
+<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div id="mce-responses" class="clear">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</div>  
+<div style="position: absolute; left: -5000px;"><input type="text" name="b_18058af086319ba6afad752ec_2e166c1fc1" tabindex="-1" value=""></div>
+<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+ </div>
+</div></section>
+<section id="text-9" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">and follow here</h4>
+<div class="textwidget"></div>
+</div></section>
+<section id="simple-social-icons-3" class="widget simple-social-icons"><div class="widget-wrap"><ul class="aligncenter"><li class="social-facebook"><a href="https://www.facebook.com/OurWorldinData" target="_blank">&#xe606;</a></li><li class="social-twitter"><a href="https://twitter.com/maxcroser" target="_blank">&#xe607;</a></li></ul></div></section>
+</div></div></div><footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter"><div class="wrap"> <p>More information about this project can be found at the <a href="http://www.ourworldindata.org/about/">About page</a>.<br>
+<p>Click <a href="http://ourworldindata.org/copyrights-disclaimer-of-warranties-and-limitation-of-liability/">here to find the relevant information on copyrights, the disclaimer of warranties and the limitation of liability</a>.<br>
+Max Roser (<a href="http://www.MaxRoser.com">www.MaxRoser.com</a>) is the author of OurWorldInData.org<br>
+<br>
+OurWorldInData is based at the <a href="http://www.oxfordmartin.ox.ac.uk/">Oxford Martin School</a><br>
+<a href="http://www.oxfordmartin.ox.ac.uk"><img class="aligncenter size-large wp-image-4122" alt="OMS" src="//ourworldindata.org/wp-content/uploads/2016/01/ourworldindata_oms_white_verydarkonly-750x398.png" width="450"/></a><br>
+and supported by the <a href="http://www.inet.ox.ac.uk/">Institute for New Economic Thinking at the Oxford Martin School</a><br>
+<a href="http://www.inet.ox.ac.uk/"><img class="aligncenter size-large wp-image-4122" alt="INET_Brand_Final-03" src="//www.ourworldindata.org/wp-content/uploads/2014/03/explainingprogress_inet_brand_final-03-750x177.png" width="450"/></a><br>
+and the <a href="http://www.nuffieldfoundation.org/">Nuffield Foundation</a>:<br>
+<a href="http://www.nuffieldfoundation.org/"><img class="aligncenter size-large wp-image-4122" alt="Nuffield Foundation" src="//ourworldindata.org/wp-content/uploads/2015/01/ourworldindata_nuffield-logo-white-trans_small.png" width="450"/></a><br>
+The Nuffield Foundation is an endowed charitable trust that aims to improve social well-being in the widest sense. It has funded this project, but the views expressed are those of the authors and not necessarily those of the Foundation.<br>
+<br>
+Invited Experts may log in <a href="http://www.ourworldindata.org/wp-login.php">here</a>.<br>
+</p>
+</div></footer></div>
+<div id="show-support-ribbon" style="position:fixed;right:-60px;top:20px;z-index:999999;"><a href="http://ourworldindata.org/support/" title="Donate" style="display:block;width:200px;height:30px;color:#fff;background:rgba(102,153,204,0.9);font-size:12px;line-height:30px;text-align:center;text-decoration:none; border:1px solid rgba(255,255,255,0.7);-webkit-transform:rotate(40deg);-moz-transform:rotate(40deg);-ms-transform:rotate(40deg);-o-transform:rotate(40deg);-webkit-box-shadow:1px 1px 3px 0 rgba(0,0,0,0.3);-moz-box-shadow:1px 1px 3px 0 rgba(0,0,0,0.3);box-shadow:1px 1px 3px 0 rgba(0,0,0,0.3);">Donate</a><div>
+<script>
+var $ = jQuery;
+$("body").css('visibility', 'inherit');
+$("body").hide().fadeIn();
+$(".starred").attr("title", "Starred pages are our best and most complete entries.");
+
+// Don't let user enter empty search query
+$(".search-form").on("submit", function(evt) {
+    if ($(evt.target).find("input[type=search]").val() == '')
+        evt.preventDefault();
+});
+</script><div id="un-thankyou" style="display: none;">
+<h2>Thank you</h2>
+<p>
+Your feedback has been received. </p>
+<a href="#" id="un-feedback-close"><img src="//ourworldindata.org/wp-content/plugins/usernoise/images/ok.png" id="thankyou-image" alt="Close" width="32" height="32"/></a>
+</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var side_matter = {"is_responsive":"1","use_effects":"1","note_adjust":"3","html_class":"side-matter"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/side-matter/js/side-matter.js?ver=1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tocplus = {"smooth_scroll_offset":"57"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/table-of-contents-plus/front.min.js?ver=1509'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/themes/parallax-pro/js/jquery.scrollNav.js'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/themes/parallax-pro/js/scripts.js'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.7.js?ver=1.5.7'></script>
+<script type='text/javascript' src='//ourworldindata.org/wp-content/plugins/easy-fancybox/jquery.mousewheel.min.js?ver=3.1.12'></script>
+<script type="text/javascript">
+jQuery(document).on('ready post-load', easy_fancybox_handler );
+</script>
+</body>
+</html>

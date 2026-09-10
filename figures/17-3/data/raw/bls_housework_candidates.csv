@@ -1,0 +1,91 @@
+year,sex,activity,hours_per_day,source_path,population
+2015,total,Household activities,1.84,figures/17-6/data/raw/bls_a1_2015.pdf,civilian noninstitutional population 15+
+2015,men,Household activities,1.43,figures/17-6/data/raw/bls_a1_2015.pdf,civilian noninstitutional population 15+
+2015,women,Household activities,2.23,figures/17-6/data/raw/bls_a1_2015.pdf,civilian noninstitutional population 15+
+2015,total,Housework,0.57,figures/17-6/data/raw/bls_a1_2015.pdf,civilian noninstitutional population 15+
+2015,men,Housework,0.26,figures/17-6/data/raw/bls_a1_2015.pdf,civilian noninstitutional population 15+
+2015,women,Housework,0.86,figures/17-6/data/raw/bls_a1_2015.pdf,civilian noninstitutional population 15+
+2015,total,Food preparation and cleanup,0.60,figures/17-6/data/raw/bls_a1_2015.pdf,civilian noninstitutional population 15+
+2015,men,Food preparation and cleanup,0.35,figures/17-6/data/raw/bls_a1_2015.pdf,civilian noninstitutional population 15+
+2015,women,Food preparation and cleanup,0.83,figures/17-6/data/raw/bls_a1_2015.pdf,civilian noninstitutional population 15+
+2016,total,Household activities,1.82,figures/17-6/data/raw/bls_a1_2016.pdf,civilian noninstitutional population 15+
+2016,men,Household activities,1.38,figures/17-6/data/raw/bls_a1_2016.pdf,civilian noninstitutional population 15+
+2016,women,Household activities,2.24,figures/17-6/data/raw/bls_a1_2016.pdf,civilian noninstitutional population 15+
+2016,total,Housework,0.57,figures/17-6/data/raw/bls_a1_2016.pdf,civilian noninstitutional population 15+
+2016,men,Housework,0.26,figures/17-6/data/raw/bls_a1_2016.pdf,civilian noninstitutional population 15+
+2016,women,Housework,0.87,figures/17-6/data/raw/bls_a1_2016.pdf,civilian noninstitutional population 15+
+2016,total,Food preparation and cleanup,0.59,figures/17-6/data/raw/bls_a1_2016.pdf,civilian noninstitutional population 15+
+2016,men,Food preparation and cleanup,0.35,figures/17-6/data/raw/bls_a1_2016.pdf,civilian noninstitutional population 15+
+2016,women,Food preparation and cleanup,0.82,figures/17-6/data/raw/bls_a1_2016.pdf,civilian noninstitutional population 15+
+2017,total,Household activities,1.81,figures/17-6/data/raw/bls_a1_2017.pdf,civilian noninstitutional population 15+
+2017,men,Household activities,1.41,figures/17-6/data/raw/bls_a1_2017.pdf,civilian noninstitutional population 15+
+2017,women,Household activities,2.19,figures/17-6/data/raw/bls_a1_2017.pdf,civilian noninstitutional population 15+
+2017,total,Housework,0.55,figures/17-6/data/raw/bls_a1_2017.pdf,civilian noninstitutional population 15+
+2017,men,Housework,0.23,figures/17-6/data/raw/bls_a1_2017.pdf,civilian noninstitutional population 15+
+2017,women,Housework,0.85,figures/17-6/data/raw/bls_a1_2017.pdf,civilian noninstitutional population 15+
+2017,total,Food preparation and cleanup,0.60,figures/17-6/data/raw/bls_a1_2017.pdf,civilian noninstitutional population 15+
+2017,men,Food preparation and cleanup,0.36,figures/17-6/data/raw/bls_a1_2017.pdf,civilian noninstitutional population 15+
+2017,women,Food preparation and cleanup,0.83,figures/17-6/data/raw/bls_a1_2017.pdf,civilian noninstitutional population 15+
+2018,total,Household activities,1.78,figures/17-6/data/raw/bls_a1_2018.pdf,civilian noninstitutional population 15+
+2018,men,Household activities,1.36,figures/17-6/data/raw/bls_a1_2018.pdf,civilian noninstitutional population 15+
+2018,women,Household activities,2.17,figures/17-6/data/raw/bls_a1_2018.pdf,civilian noninstitutional population 15+
+2018,total,Housework,0.55,figures/17-6/data/raw/bls_a1_2018.pdf,civilian noninstitutional population 15+
+2018,men,Housework,0.24,figures/17-6/data/raw/bls_a1_2018.pdf,civilian noninstitutional population 15+
+2018,women,Housework,0.83,figures/17-6/data/raw/bls_a1_2018.pdf,civilian noninstitutional population 15+
+2018,total,Food preparation and cleanup,0.59,figures/17-6/data/raw/bls_a1_2018.pdf,civilian noninstitutional population 15+
+2018,men,Food preparation and cleanup,0.37,figures/17-6/data/raw/bls_a1_2018.pdf,civilian noninstitutional population 15+
+2018,women,Food preparation and cleanup,0.80,figures/17-6/data/raw/bls_a1_2018.pdf,civilian noninstitutional population 15+
+2019,total,Household activities,1.78,figures/17-6/data/raw/bls_a1_2019.pdf,civilian noninstitutional population 15+
+2019,men,Household activities,1.39,figures/17-6/data/raw/bls_a1_2019.pdf,civilian noninstitutional population 15+
+2019,women,Household activities,2.16,figures/17-6/data/raw/bls_a1_2019.pdf,civilian noninstitutional population 15+
+2019,total,Housework,0.53,figures/17-6/data/raw/bls_a1_2019.pdf,civilian noninstitutional population 15+
+2019,men,Housework,0.27,figures/17-6/data/raw/bls_a1_2019.pdf,civilian noninstitutional population 15+
+2019,women,Housework,0.78,figures/17-6/data/raw/bls_a1_2019.pdf,civilian noninstitutional population 15+
+2019,total,Food preparation and cleanup,0.60,figures/17-6/data/raw/bls_a1_2019.pdf,civilian noninstitutional population 15+
+2019,men,Food preparation and cleanup,0.39,figures/17-6/data/raw/bls_a1_2019.pdf,civilian noninstitutional population 15+
+2019,women,Food preparation and cleanup,0.79,figures/17-6/data/raw/bls_a1_2019.pdf,civilian noninstitutional population 15+
+2021,total,Household activities,1.95,figures/17-6/data/raw/bls_a1_2021.pdf,civilian noninstitutional population 15+
+2021,men,Household activities,1.54,figures/17-6/data/raw/bls_a1_2021.pdf,civilian noninstitutional population 15+
+2021,women,Household activities,2.33,figures/17-6/data/raw/bls_a1_2021.pdf,civilian noninstitutional population 15+
+2021,total,Housework,0.58,figures/17-6/data/raw/bls_a1_2021.pdf,civilian noninstitutional population 15+
+2021,men,Housework,0.30,figures/17-6/data/raw/bls_a1_2021.pdf,civilian noninstitutional population 15+
+2021,women,Housework,0.84,figures/17-6/data/raw/bls_a1_2021.pdf,civilian noninstitutional population 15+
+2021,total,Food preparation and cleanup,0.64,figures/17-6/data/raw/bls_a1_2021.pdf,civilian noninstitutional population 15+
+2021,men,Food preparation and cleanup,0.42,figures/17-6/data/raw/bls_a1_2021.pdf,civilian noninstitutional population 15+
+2021,women,Food preparation and cleanup,0.86,figures/17-6/data/raw/bls_a1_2021.pdf,civilian noninstitutional population 15+
+2022,total,Household activities,1.89,figures/17-6/data/raw/bls_a1_2022.pdf,civilian noninstitutional population 15+
+2022,men,Household activities,1.51,figures/17-6/data/raw/bls_a1_2022.pdf,civilian noninstitutional population 15+
+2022,women,Household activities,2.26,figures/17-6/data/raw/bls_a1_2022.pdf,civilian noninstitutional population 15+
+2022,total,Housework,0.57,figures/17-6/data/raw/bls_a1_2022.pdf,civilian noninstitutional population 15+
+2022,men,Housework,0.31,figures/17-6/data/raw/bls_a1_2022.pdf,civilian noninstitutional population 15+
+2022,women,Housework,0.82,figures/17-6/data/raw/bls_a1_2022.pdf,civilian noninstitutional population 15+
+2022,total,Food preparation and cleanup,0.65,figures/17-6/data/raw/bls_a1_2022.pdf,civilian noninstitutional population 15+
+2022,men,Food preparation and cleanup,0.42,figures/17-6/data/raw/bls_a1_2022.pdf,civilian noninstitutional population 15+
+2022,women,Food preparation and cleanup,0.87,figures/17-6/data/raw/bls_a1_2022.pdf,civilian noninstitutional population 15+
+2023,total,Household activities,1.92,figures/17-6/data/raw/bls_a1_2023.pdf,civilian noninstitutional population 15+
+2023,men,Household activities,1.49,figures/17-6/data/raw/bls_a1_2023.pdf,civilian noninstitutional population 15+
+2023,women,Household activities,2.32,figures/17-6/data/raw/bls_a1_2023.pdf,civilian noninstitutional population 15+
+2023,total,Housework,0.61,figures/17-6/data/raw/bls_a1_2023.pdf,civilian noninstitutional population 15+
+2023,men,Housework,0.32,figures/17-6/data/raw/bls_a1_2023.pdf,civilian noninstitutional population 15+
+2023,women,Housework,0.89,figures/17-6/data/raw/bls_a1_2023.pdf,civilian noninstitutional population 15+
+2023,total,Food preparation and cleanup,0.65,figures/17-6/data/raw/bls_a1_2023.pdf,civilian noninstitutional population 15+
+2023,men,Food preparation and cleanup,0.43,figures/17-6/data/raw/bls_a1_2023.pdf,civilian noninstitutional population 15+
+2023,women,Food preparation and cleanup,0.85,figures/17-6/data/raw/bls_a1_2023.pdf,civilian noninstitutional population 15+
+2024,total,Household activities,2.01,figures/17-6/data/raw/bls_a1_2024.pdf,civilian noninstitutional population 15+
+2024,men,Household activities,1.67,figures/17-6/data/raw/bls_a1_2024.pdf,civilian noninstitutional population 15+
+2024,women,Household activities,2.34,figures/17-6/data/raw/bls_a1_2024.pdf,civilian noninstitutional population 15+
+2024,total,Housework,0.62,figures/17-6/data/raw/bls_a1_2024.pdf,civilian noninstitutional population 15+
+2024,men,Housework,0.36,figures/17-6/data/raw/bls_a1_2024.pdf,civilian noninstitutional population 15+
+2024,women,Housework,0.88,figures/17-6/data/raw/bls_a1_2024.pdf,civilian noninstitutional population 15+
+2024,total,Food preparation and cleanup,0.67,figures/17-6/data/raw/bls_a1_2024.pdf,civilian noninstitutional population 15+
+2024,men,Food preparation and cleanup,0.46,figures/17-6/data/raw/bls_a1_2024.pdf,civilian noninstitutional population 15+
+2024,women,Food preparation and cleanup,0.86,figures/17-6/data/raw/bls_a1_2024.pdf,civilian noninstitutional population 15+
+2025,total,Household activities,1.99,figures/17-6/data/raw/bls_a1_2025.pdf,civilian noninstitutional population 15+
+2025,men,Household activities,1.58,figures/17-6/data/raw/bls_a1_2025.pdf,civilian noninstitutional population 15+
+2025,women,Household activities,2.38,figures/17-6/data/raw/bls_a1_2025.pdf,civilian noninstitutional population 15+
+2025,total,Housework,0.56,figures/17-6/data/raw/bls_a1_2025.pdf,civilian noninstitutional population 15+
+2025,men,Housework,0.30,figures/17-6/data/raw/bls_a1_2025.pdf,civilian noninstitutional population 15+
+2025,women,Housework,0.81,figures/17-6/data/raw/bls_a1_2025.pdf,civilian noninstitutional population 15+
+2025,total,Food preparation and cleanup,0.71,figures/17-6/data/raw/bls_a1_2025.pdf,civilian noninstitutional population 15+
+2025,men,Food preparation and cleanup,0.51,figures/17-6/data/raw/bls_a1_2025.pdf,civilian noninstitutional population 15+
+2025,women,Food preparation and cleanup,0.91,figures/17-6/data/raw/bls_a1_2025.pdf,civilian noninstitutional population 15+

@@ -1,0 +1,31 @@
+{
+  "figure_id": "17-3",
+  "book_citation": "Greenwood et al. 2005; Siebens 2013; Roser 2016t; BLS 2016b",
+  "script": "scripts/reconstruct_17_3.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": ["figures/17-3/data/raw/Engines.xls", "figures/17-3/data/raw/census_p70_136.pdf", "figures/17-3/data/raw/census_2013_table3.csv", "figures/17-3/data/raw/housework_published_anchors.csv"],
+      "selection": "8 original utility/appliance series; 2005 and 2011 Census rows; housework 1900/1975 numeric prose anchors only",
+      "transformation": "Workbook column pairs to long format; Census percent/MOE table extraction; separate stove definitions. Housework companion clean file has only two markers, no interpolation.",
+      "clean": "figures/17-3/data/clean/figure_17_3_book_period.csv",
+      "plot": "figures/17-3/plots/book_period/figure_17_3_book_period.png"
+    },
+    {
+      "role": "extended_not_plotted",
+      "raw_inputs": ["figures/17-3/data/raw/Engines.xls", "figures/17-3/data/raw/census_2013_table3.csv", "figures/17-3/data/raw/housework_published_anchors.csv"],
+      "selection": "Same partial historical observations; no identified comparable extension",
+      "transformation": "Repeat historical result with explicit no-extension notice",
+      "clean": "figures/17-3/data/clean/figure_17_3_book_period.csv",
+      "plot": "figures/17-3/plots/extended/figure_17_3_extended.png"
+    },
+    {
+      "role": "diagnostic_only",
+      "raw_inputs": ["figures/17-3/data/raw/bls_housework_candidates.csv", "figures/17-6/data/raw/bls_table_urls.json"],
+      "selection": "BLS original A-1 tables retained in Figure 17-6; 2015-2025 except unavailable 2020, three sex categories",
+      "transformation": "Daily * 7; broad household activity and core housework/food baskets kept separate. Input CSV source_path identifies each underlying original PDF.",
+      "clean": "figures/17-3/data/clean/figure_17_3_bls_candidates.csv",
+      "plot": "figures/17-3/plots/diagnostics/housework_definition_candidates.png"
+    }
+  ]
+}
