@@ -1,36 +1,46 @@
 {
-  "schema_version": 1,
   "figure_id": "12-1",
-  "book": "Enlightenment Now",
-  "chapter": "12",
   "title": "Homicide deaths, Western Europe, US, and Mexico, 1300-2015",
-  "page": "",
-  "year_range": "1300-2015",
-  "source_type_guess": "health_demographic_dataset",
-  "priority": "backlog",
-  "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
-  "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 1); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
-  "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+  "scientific_status": "partial_match",
+  "artifact_kind": "reconstruction",
+  "publication_status": "not_reviewed",
+  "execution_status": "processed",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover Roth 2009 regional series and historical Mexico component.",
+  "notes": "Public European and UNODC components reproduced; original US regional and early Mexico components remain missing.",
+  "extension": {
+    "status": "comparable_successor",
+    "label": "UNODC successor"
   },
   "visual_review": {
-    "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
-    "inspected_artifacts": [],
-    "issues": []
-  },
-  "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
+    "status": "inspected",
+    "reference_basis": "original",
+    "issues": [
+      "Missing Roth regional curves",
+      "Missing pre-1990 Mexico"
+    ],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_12_1.png",
+        "sha256": "4f9420918cfead20c6213dad87cac42dec6e89f6a14ee586b03354ff80d26014"
+      },
+      {
+        "path": "figures/12-1/plots/figure_12_1_book_period.png",
+        "sha256": "a7d4e59f1f8ea3b9b56001708fffdfa903825bb6a9060e05c74548451115c675"
+      },
+      {
+        "path": "figures/12-1/plots/figure_12_1_extended.png",
+        "sha256": "8a4661a3249fdef46757acc65a80525070e66444b221f49185ac50a44577e847"
+      },
+      {
+        "path": "figures/12-1/plots/comparisons/figure_12_1_book_period_review.png",
+        "sha256": "282598c7382a66994f85bb9a2fd4f367adeacb33106f4db4f1aa2dbd4a914b7e"
+      },
+      {
+        "path": "figures/12-1/plots/comparisons/figure_12_1_extended_review.png",
+        "sha256": "712b0d8c02182f55d3ad57f4b31aeaf8146cf9e9f45c1783c55a3b3c4fe9b255"
+      }
+    ]
   },
   "artifacts": {
     "metadata": {
@@ -40,46 +50,62 @@
     "original_reference": {
       "path": "references/figures/figure_12_1.png",
       "sha256": "4f9420918cfead20c6213dad87cac42dec6e89f6a14ee586b03354ff80d26014"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/12-1/plots/figure_12_1_book_period.png",
+      "sha256": "a7d4e59f1f8ea3b9b56001708fffdfa903825bb6a9060e05c74548451115c675"
+    },
+    "extended_reconstruction": {
+      "path": "figures/12-1/plots/figure_12_1_extended.png",
+      "sha256": "8a4661a3249fdef46757acc65a80525070e66444b221f49185ac50a44577e847"
+    },
+    "book_period_clean": {
+      "path": "figures/12-1/data/clean/figure_12_1_book_period.csv",
+      "sha256": "e852dc35de7dbbb1af56d1561efc389468944ba646fadc39d46434af496f36c2"
+    },
+    "successor_clean": {
+      "path": "figures/12-1/data/clean/figure_12_1_successor.csv",
+      "sha256": "46b85047c6b5afee43aa322891b7f3c7eed915cd122075234101ab0209048c42"
+    },
+    "caption": {
+      "path": "figures/12-1/captions/caption.txt",
+      "sha256": "96f5e33a683a397e349d9de746850a5797ef5e9c682d325e02aa73d0cf20d18b"
+    },
+    "provenance": {
+      "path": "figures/12-1/provenance/provenance.md",
+      "sha256": "2b309457178af81aefcd38cd1350e078ac93ed567ef33fc7f51d7624233c1717"
+    },
+    "source_log": {
+      "path": "figures/12-1/source_logs/source_log.md",
+      "sha256": "dda0cb8022278c0edb2cf1bb0d3b9f2f25512e265898b00f2bd32f2b9b9e964e"
+    },
+    "anomaly_review": {
+      "path": "figures/12-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "b10f3faf322d44f0588b1a371f45d576298c5e76b1a5fd3703fe3075bd36d33d"
+    },
+    "discrepancy_log": {
+      "path": "figures/12-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "a64508a9d6d8c7e812ce1c0803eca6919371afba30d95c37a1e52e05c4b9f6df"
+    },
+    "review_checklist": {
+      "path": "figures/12-1/review_checklist.md",
+      "sha256": "533d88b6c8fb91384781b83d6f683a7ccc4c0773a5a63aa8c90403da8564aac0"
+    },
+    "lineage": {
+      "path": "figures/12-1/lineage/lineage.json",
+      "sha256": "ea6fc4daf6ce28278fc71c50d4e45043cb2289ba07d99ce9c6f1efc66d34d6b7"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_12_1.py",
+      "sha256": "998f85f8284e9382e2c45580797637d47a1b923f721a637aa544f3d74a4e321e"
+    },
+    "book_period_comparison": {
+      "path": "figures/12-1/plots/comparisons/figure_12_1_book_period_review.png",
+      "sha256": "282598c7382a66994f85bb9a2fd4f367adeacb33106f4db4f1aa2dbd4a914b7e"
+    },
+    "extended_comparison": {
+      "path": "figures/12-1/plots/comparisons/figure_12_1_extended_review.png",
+      "sha256": "712b0d8c02182f55d3ad57f4b31aeaf8146cf9e9f45c1783c55a3b3c4fe9b255"
     }
-  },
-  "research": {
-    "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
-  },
-  "reference": {
-    "figure_id": "12-1",
-    "registry_title": "Homicide deaths, Western Europe, US, and Mexico, 1300-2015",
-    "pdf_path": "references/enlightenment_now_supplemental_graphics.pdf",
-    "pdf_sha256": "9bf905e3a05a6676828ee74b6cd8989d9baa71b464252f7858c2a43047d8640c",
-    "pdf_page": 18,
-    "panel": 1,
-    "render_dimensions": [
-      1590,
-      2400
-    ],
-    "crop_bounds_pixels": [
-      146,
-      112,
-      1362,
-      1197
-    ],
-    "crop_bounds_pdf_points": [
-      40.494,
-      31.08,
-      377.762,
-      332.168
-    ],
-    "path": "references/figures/figure_12_1.png",
-    "sha256": "4f9420918cfead20c6213dad87cac42dec6e89f6a14ee586b03354ff80d26014",
-    "identity_validation": "ocr_id_confirmed",
-    "caption_ocr": "Figure 12-1: Homicide deaths, Western Europe, US, and Mexico, 1300-2015",
-    "source_note_ocr": "England, Netherlands & Belgium, Italy, 1300-1994: Eisner 2003, plotted in fig. 3-3 of Pinker 2011. England, 2000-2014: UK Office for National Statistics. Italy and Netherlands, 2010-2012: United Nations Office on Drugs and Crime 2014. New England (New England, whites only, 1636-1790, and Vermont and New Hampshire, 1780-1890): Roth 2009, plotted in fig. 3-13 of Pinker 2011; 2006 and 2014 from FBI Uniform Crime Reports. Southwest US (Arizona, Nevada, and New Mexico), 1850 and 1914: Roth 2009, plotted in fig. 3-16 of Pinker 2011; 2006 and 2014 from FBI Uniform Crime Reports. Mexico: Carlos Vilalta, personal communication, originally from Instituto Nacional de Estadistica y Geografia 2016 and Botello 2016, averaged over decades until 2010.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
   }
 }

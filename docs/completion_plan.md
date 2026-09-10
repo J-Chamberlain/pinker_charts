@@ -436,3 +436,13 @@ catalogs 608 files, 127 clean tables, and 59,143 clean rows. Nineteen figures
 remain untouched. Next: continue with 12-1, while retaining the exact PITF
 case-specific estimates and cited population denominator as targeted recovery.
 This checkpoint is not a completion claim.
+
+2026-09-10 homicide-composite checkpoint: Figure 12-1 adds a partial package
+using public OWID Eisner/WHO historical European rates and OWID/UNODC Mexico
+rates. Netherlands and Belgium are transparently averaged from separate public
+rows. Roth's New England/Southwest US curves and Vilalta's pre-1990 Mexico
+series were not recovered and are not fabricated. Both original-PDF comparisons
+were inspected. SQLite now catalogs 614 files, 129 clean tables, and 59,371
+clean rows. Eighteen figures remain untouched. Next: Figure 12-2, with the
+current 12-1 gaps retained as targeted recovery questions. This checkpoint is
+not a completion claim.

@@ -1,0 +1,199 @@
+year,rate,series
+1325,21.4,England
+1375,13.0,England
+1575,5.2,England
+1625,5.8,England
+1675,3.5,England
+1725,2.0,England
+1775,1.4,England
+1825,1.6,England
+1862,1.6,England
+1887,1.3,England
+1912,0.8,England
+1937,0.8,England
+1962,0.8,England
+1987,1.3,England
+2006,1.5,England
+1375,71.7,Italy
+1425,62.0,Italy
+1575,38.7,Italy
+1625,39.1,Italy
+1675,10.2,Italy
+1725,16.9,Italy
+1775,7.1,Italy
+1825,8.0,Italy
+1862,7.0,Italy
+1887,5.7,Italy
+1912,3.9,Italy
+1937,2.0,Italy
+1951,1.4744762,Italy
+1952,1.4475635,Italy
+1953,1.3637302,Italy
+1954,1.3789163,Italy
+1955,1.468145,Italy
+1956,1.539232,Italy
+1957,1.3765422,Italy
+1958,1.3602803,Italy
+1959,1.2341591,Italy
+1960,1.3088275,Italy
+1961,1.138091,Italy
+1962,0.98341566,Italy
+1963,0.95315665,Italy
+1964,0.8759656,Italy
+1965,0.8848349,Italy
+1966,0.8102179,Italy
+1967,0.9170828,Italy
+1968,0.8889023,Italy
+1969,0.84025735,Italy
+1970,0.82555145,Italy
+1971,1.0017666,Italy
+1972,1.0567639,Italy
+1973,1.1565771,Italy
+1974,1.1279002,Italy
+1975,1.2753046,Italy
+1976,1.3726579,Italy
+1977,1.420437,Italy
+1978,1.4334984,Italy
+1979,1.5813388,Italy
+1980,1.8696436,Italy
+1981,1.9022442,Italy
+1982,2.0798206,Italy
+1983,1.928362,Italy
+1984,1.6402099,Italy
+1985,1.471785,Italy
+1986,1.2594678,Italy
+1987,1.618281,Italy
+1988,1.8624275,Italy
+1989,2.2366815,Italy
+1990,2.6482234,Italy
+1991,2.841837,Italy
+1992,2.2457888,Italy
+1993,1.7352663,Italy
+1994,1.5886031,Italy
+1995,1.5146608,Italy
+1996,1.4671682,Italy
+1997,1.2659037,Italy
+1998,1.2863685,Italy
+1999,1.2388175,Italy
+2000,1.052289,Italy
+2001,0.96733373,Italy
+2002,0.9797505,Italy
+2003,1.124909,Italy
+2004,1.0730631,Italy
+2005,0.9280745,Italy
+2006,0.90428644,Italy
+2007,0.9431533,Italy
+2008,0.85572684,Italy
+2009,0.8489402,Italy
+2010,0.77045953,Italy
+2011,0.76289004,Italy
+2012,0.77931166,Italy
+2013,0.7022618,Italy
+2014,0.6234666,Italy
+2015,0.65041363,Italy
+1990,17.499361,Mexico
+1991,17.91768,Mexico
+1992,19.285301,Mexico
+1993,18.299263,Mexico
+1994,17.74495,Mexico
+1995,17.182014,Mexico
+1996,15.689103,Mexico
+1997,14.41377,Mexico
+1998,14.2882185,Mexico
+1999,12.61279,Mexico
+2000,10.886631,Mexico
+2001,10.274817,Mexico
+2002,9.934157,Mexico
+2003,9.795247,Mexico
+2004,8.936326,Mexico
+2005,9.376107,Mexico
+2006,9.745122,Mexico
+2007,8.151737,Mexico
+2008,12.689549,Mexico
+2009,17.681293,Mexico
+2010,22.668648,Mexico
+2011,23.613478,Mexico
+2012,22.228556,Mexico
+2013,19.488173,Mexico
+2014,16.705032,Mexico
+2015,17.14843,Mexico
+1375,18.549999999999997,Netherlands & Belgium
+1425,39.8,Netherlands & Belgium
+1475,22.5,Netherlands & Belgium
+1525,24.549999999999997,Netherlands & Belgium
+1575,8.850000000000001,Netherlands & Belgium
+1625,11.1,Netherlands & Belgium
+1675,4.4,Netherlands & Belgium
+1725,3.8499999999999996,Netherlands & Belgium
+1775,2.15,Netherlands & Belgium
+1825,0.8,Netherlands & Belgium
+1862,1.25,Netherlands & Belgium
+1887,1.35,Netherlands & Belgium
+1912,1.4000000000000001,Netherlands & Belgium
+1937,1.2000000000000002,Netherlands & Belgium
+1950,0.40539873,Netherlands & Belgium
+1951,0.3702152,Netherlands & Belgium
+1952,0.346754,Netherlands & Belgium
+1953,0.2954294,Netherlands & Belgium
+1954,0.47108518,Netherlands & Belgium
+1955,0.48343706000000003,Netherlands & Belgium
+1956,0.43563384499999996,Netherlands & Belgium
+1957,0.485857525,Netherlands & Belgium
+1958,0.45915605000000004,Netherlands & Belgium
+1959,0.485988085,Netherlands & Belgium
+1960,0.47038272000000003,Netherlands & Belgium
+1961,0.52955263,Netherlands & Belgium
+1962,0.40063443499999996,Netherlands & Belgium
+1963,0.511204135,Netherlands & Belgium
+1964,0.48202832500000004,Netherlands & Belgium
+1965,0.526603045,Netherlands & Belgium
+1966,0.57283835,Netherlands & Belgium
+1967,0.594988175,Netherlands & Belgium
+1968,0.6122106199999999,Netherlands & Belgium
+1969,0.6814511999999999,Netherlands & Belgium
+1970,0.7991855,Netherlands & Belgium
+1971,0.78697405,Netherlands & Belgium
+1972,0.882796835,Netherlands & Belgium
+1973,0.8454022750000001,Netherlands & Belgium
+1974,0.919957865,Netherlands & Belgium
+1975,0.805280715,Netherlands & Belgium
+1976,0.86998345,Netherlands & Belgium
+1977,0.8806103000000001,Netherlands & Belgium
+1978,0.9251796999999999,Netherlands & Belgium
+1979,1.22957107,Netherlands & Belgium
+1980,1.14311195,Netherlands & Belgium
+1981,1.1026278999999999,Netherlands & Belgium
+1982,1.1632694,Netherlands & Belgium
+1983,1.36249942,Netherlands & Belgium
+1984,1.3071302,Netherlands & Belgium
+1985,1.4491052500000001,Netherlands & Belgium
+1986,1.5825112,Netherlands & Belgium
+1987,1.25394345,Netherlands & Belgium
+1988,1.22140815,Netherlands & Belgium
+1989,1.174221135,Netherlands & Belgium
+1990,1.1738146,Netherlands & Belgium
+1991,1.2969556,Netherlands & Belgium
+1992,1.47175345,Netherlands & Belgium
+1993,1.624493,Netherlands & Belgium
+1994,1.46530195,Netherlands & Belgium
+1995,1.4578282,Netherlands & Belgium
+1996,1.6769516,Netherlands & Belgium
+1997,1.53640115,Netherlands & Belgium
+1998,1.56975885,Netherlands & Belgium
+1999,1.88522985,Netherlands & Belgium
+2000,1.4152097499999998,Netherlands & Belgium
+2001,1.5626889,Netherlands & Belgium
+2002,1.5618706,Netherlands & Belgium
+2003,1.31946625,Netherlands & Belgium
+2004,1.44672055,Netherlands & Belgium
+2005,1.3169897499999998,Netherlands & Belgium
+2006,1.086663165,Netherlands & Belgium
+2007,1.17523753,Netherlands & Belgium
+2008,1.05666342,Netherlands & Belgium
+2009,1.09243015,Netherlands & Belgium
+2010,0.9880519699999999,Netherlands & Belgium
+2011,1.10090502,Netherlands & Belgium
+2012,1.021549235,Netherlands & Belgium
+2013,0.8669198300000001,Netherlands & Belgium
+2014,0.8723521999999999,Netherlands & Belgium
+2015,0.83806428,Netherlands & Belgium

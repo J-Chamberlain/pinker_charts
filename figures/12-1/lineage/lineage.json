@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "figure_id": "12-1",
+  "book_citation": "Eisner 2003; ONS; UNODC; Roth 2009; Vilalta/INEGI/Botello",
+  "script": "scripts/reconstruct_12_1.py",
+  "mappings": [
+    {
+      "role": "book_period",
+      "raw_inputs": [
+        "figures/12-1/data/raw/owid_homicide_rates_western_europe.csv",
+        "figures/12-1/data/raw/owid_homicide_rate_unodc.csv"
+      ],
+      "selection": "European historical lines and Mexico 1990-2015 public overlap",
+      "transformation": "filter series, average Netherlands/Belgium, retain rates",
+      "clean": "figures/12-1/data/clean/figure_12_1_book_period.csv",
+      "plot": "figures/12-1/plots/figure_12_1_book_period.png"
+    },
+    {
+      "role": "extension",
+      "raw_inputs": [
+        "figures/12-1/data/raw/owid_homicide_rate_unodc.csv"
+      ],
+      "selection": "post-2015 UNODC successor through 2023",
+      "transformation": "filter and average Netherlands/Belgium; dashed styling",
+      "clean": "figures/12-1/data/clean/figure_12_1_successor.csv",
+      "plot": "figures/12-1/plots/figure_12_1_extended.png"
+    }
+  ]
+}

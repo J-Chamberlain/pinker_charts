@@ -88,3 +88,10 @@ and the cited Census/McEvedy denominator is unresolved, so status is
 partial_match. The data library now catalogs 608 files, 127 clean tables, and
 59,143 clean rows. Nineteen figures remain untouched; the next candidate is
 Figure 12-1.
+
+2026-09-10 Figure 12-1 checkpoint: public OWID Eisner/WHO historical European
+rates and OWID/UNODC Mexico rates support a partial reconstruction. The original
+PDF and both comparison pages were inspected. Roth's New England/Southwest US
+components and Mexico before 1990 remain unavailable, so status is partial_match.
+The data library now catalogs 614 files, 129 clean tables, and 59,371 clean rows.
+Eighteen figures remain untouched; the next candidate is Figure 12-2.
