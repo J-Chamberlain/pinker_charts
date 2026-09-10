@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "baseline_commit": "39929dd1f9f232dd637a66c23dfeb19220c0390b",
+  "baseline_commit": "050d92ff254528a9255fa40b2df44465eafec1f4",
   "notice": "Unaccepted visual audit baseline; input/output hashes identify working-tree artifacts beyond baseline_commit.",
-  "figure_count": 45,
-  "comparison_count": 90,
+  "figure_count": 46,
+  "comparison_count": 92,
   "figures": [
     {
       "figure_id": "5-1",
@@ -832,6 +832,40 @@
       ]
     },
     {
+      "figure_id": "11-3",
+      "scientific_status": "partial_match",
+      "comparisons": [
+        {
+          "mode": "book_period",
+          "path": "figures/11-3/plots/comparisons/figure_11_3_book_period_review.png",
+          "sha256": "d88f15c994e20d602908a9ae036771a2427fa1033b1973a6e796ab4848c1ff59",
+          "reference": {
+            "path": "references/figures/figure_11_3.png",
+            "sha256": "ead3ed1cc3ce1b541b904e6b261910d0b55035b7ac378c8cc4d4d0bdaa802e91"
+          },
+          "reconstruction": {
+            "path": "figures/11-3/plots/figure_11_3_book_period.png",
+            "sha256": "34e19a1e31db2103b017fbca83ded2fb1097f4b6785369630aabb59dc8498451"
+          },
+          "display_viewport": null
+        },
+        {
+          "mode": "extended",
+          "path": "figures/11-3/plots/comparisons/figure_11_3_extended_review.png",
+          "sha256": "8607f6f7ce61a03ff1e94f7bf6b82d825f2d6c711bbccfb2b444b8b09250bfdc",
+          "reference": {
+            "path": "references/figures/figure_11_3.png",
+            "sha256": "ead3ed1cc3ce1b541b904e6b261910d0b55035b7ac378c8cc4d4d0bdaa802e91"
+          },
+          "reconstruction": {
+            "path": "figures/11-3/plots/figure_11_3_extended.png",
+            "sha256": "28c2f5452f9f554c5de36f3621083340e69c071fd5aa219ecabcf62da3e68f06"
+          },
+          "display_viewport": null
+        }
+      ]
+    },
+    {
       "figure_id": "12-5",
       "scientific_status": "partial_match",
       "comparisons": [
@@ -1576,10 +1610,6 @@
       "reason": "source_recovery"
     },
     {
-      "figure_id": "11-3",
-      "reason": "not_started"
-    },
-    {
       "figure_id": "12-1",
       "reason": "not_started"
     },
@@ -1669,8 +1699,8 @@
     }
   ],
   "pdf_path": "output/pdf/recreated_figures_review_scroll.pdf",
-  "pdf_sha256": "15666321170fef1e958b03d6e24df6e0e3feecaa9cb2a52148b0ebd0dd2dabdb",
-  "page_count": 90,
+  "pdf_sha256": "b5c30ec6feafb40485821f2a245d70e646279691e6946e279f31a73d06fc65e6",
+  "page_count": 92,
   "pages": [
     {
       "page": 1,
@@ -2452,6 +2482,38 @@
     },
     {
       "page": 49,
+      "figure_id": "11-3",
+      "mode": "book_period",
+      "path": "figures/11-3/plots/comparisons/figure_11_3_book_period_review.png",
+      "sha256": "d88f15c994e20d602908a9ae036771a2427fa1033b1973a6e796ab4848c1ff59",
+      "reference": {
+        "path": "references/figures/figure_11_3.png",
+        "sha256": "ead3ed1cc3ce1b541b904e6b261910d0b55035b7ac378c8cc4d4d0bdaa802e91"
+      },
+      "reconstruction": {
+        "path": "figures/11-3/plots/figure_11_3_book_period.png",
+        "sha256": "34e19a1e31db2103b017fbca83ded2fb1097f4b6785369630aabb59dc8498451"
+      },
+      "display_viewport": null
+    },
+    {
+      "page": 50,
+      "figure_id": "11-3",
+      "mode": "extended",
+      "path": "figures/11-3/plots/comparisons/figure_11_3_extended_review.png",
+      "sha256": "8607f6f7ce61a03ff1e94f7bf6b82d825f2d6c711bbccfb2b444b8b09250bfdc",
+      "reference": {
+        "path": "references/figures/figure_11_3.png",
+        "sha256": "ead3ed1cc3ce1b541b904e6b261910d0b55035b7ac378c8cc4d4d0bdaa802e91"
+      },
+      "reconstruction": {
+        "path": "figures/11-3/plots/figure_11_3_extended.png",
+        "sha256": "28c2f5452f9f554c5de36f3621083340e69c071fd5aa219ecabcf62da3e68f06"
+      },
+      "display_viewport": null
+    },
+    {
+      "page": 51,
       "figure_id": "12-5",
       "mode": "book_period",
       "path": "figures/12-5/plots/comparisons/figure_12_5_book_period_review.png",
@@ -2467,7 +2529,7 @@
       "display_viewport": null
     },
     {
-      "page": 50,
+      "page": 52,
       "figure_id": "12-5",
       "mode": "extended",
       "path": "figures/12-5/plots/comparisons/figure_12_5_extended_review.png",
@@ -2483,7 +2545,7 @@
       "display_viewport": null
     },
     {
-      "page": 51,
+      "page": 53,
       "figure_id": "12-8",
       "mode": "book_period",
       "path": "figures/12-8/plots/comparisons/figure_12_8_book_period_review.png",
@@ -2499,7 +2561,7 @@
       "display_viewport": null
     },
     {
-      "page": 52,
+      "page": 54,
       "figure_id": "12-8",
       "mode": "extended",
       "path": "figures/12-8/plots/comparisons/figure_12_8_extended_review.png",
@@ -2515,7 +2577,7 @@
       "display_viewport": null
     },
     {
-      "page": 53,
+      "page": 55,
       "figure_id": "12-9",
       "mode": "book_period",
       "path": "figures/12-9/plots/comparisons/figure_12_9_book_period_review.png",
@@ -2531,7 +2593,7 @@
       "display_viewport": null
     },
     {
-      "page": 54,
+      "page": 56,
       "figure_id": "12-9",
       "mode": "extended",
       "path": "figures/12-9/plots/comparisons/figure_12_9_extended_review.png",
@@ -2547,7 +2609,7 @@
       "display_viewport": null
     },
     {
-      "page": 55,
+      "page": 57,
       "figure_id": "14-1",
       "mode": "book_period",
       "path": "figures/14-1/plots/comparisons/figure_14_1_book_period_review.png",
@@ -2563,7 +2625,7 @@
       "display_viewport": null
     },
     {
-      "page": 56,
+      "page": 58,
       "figure_id": "14-1",
       "mode": "extended",
       "path": "figures/14-1/plots/comparisons/figure_14_1_extended_review.png",
@@ -2579,7 +2641,7 @@
       "display_viewport": null
     },
     {
-      "page": 57,
+      "page": 59,
       "figure_id": "14-2",
       "mode": "book_period",
       "path": "figures/14-2/plots/comparisons/figure_14_2_book_period_review.png",
@@ -2595,7 +2657,7 @@
       "display_viewport": null
     },
     {
-      "page": 58,
+      "page": 60,
       "figure_id": "14-2",
       "mode": "extended",
       "path": "figures/14-2/plots/comparisons/figure_14_2_extended_review.png",
@@ -2611,7 +2673,7 @@
       "display_viewport": null
     },
     {
-      "page": 59,
+      "page": 61,
       "figure_id": "14-3",
       "mode": "book_period",
       "path": "figures/14-3/plots/comparisons/figure_14_3_book_period_review.png",
@@ -2627,7 +2689,7 @@
       "display_viewport": null
     },
     {
-      "page": 60,
+      "page": 62,
       "figure_id": "14-3",
       "mode": "extended",
       "path": "figures/14-3/plots/comparisons/figure_14_3_extended_review.png",
@@ -2643,7 +2705,7 @@
       "display_viewport": null
     },
     {
-      "page": 61,
+      "page": 63,
       "figure_id": "14-4",
       "mode": "book_period",
       "path": "figures/14-4/plots/comparisons/figure_14_4_book_period_review.png",
@@ -2659,7 +2721,7 @@
       "display_viewport": null
     },
     {
-      "page": 62,
+      "page": 64,
       "figure_id": "14-4",
       "mode": "extended",
       "path": "figures/14-4/plots/comparisons/figure_14_4_extended_review.png",
@@ -2675,7 +2737,7 @@
       "display_viewport": null
     },
     {
-      "page": 63,
+      "page": 65,
       "figure_id": "16-1",
       "mode": "book_period",
       "path": "figures/16-1/plots/comparisons/figure_16_1_book_period_review.png",
@@ -2691,7 +2753,7 @@
       "display_viewport": null
     },
     {
-      "page": 64,
+      "page": 66,
       "figure_id": "16-1",
       "mode": "extended",
       "path": "figures/16-1/plots/comparisons/figure_16_1_extended_review.png",
@@ -2707,7 +2769,7 @@
       "display_viewport": null
     },
     {
-      "page": 65,
+      "page": 67,
       "figure_id": "16-2",
       "mode": "book_period",
       "path": "figures/16-2/plots/comparisons/figure_16_2_book_period_review.png",
@@ -2723,7 +2785,7 @@
       "display_viewport": null
     },
     {
-      "page": 66,
+      "page": 68,
       "figure_id": "16-2",
       "mode": "extended",
       "path": "figures/16-2/plots/comparisons/figure_16_2_extended_review.png",
@@ -2739,7 +2801,7 @@
       "display_viewport": null
     },
     {
-      "page": 67,
+      "page": 69,
       "figure_id": "16-3",
       "mode": "book_period",
       "path": "figures/16-3/plots/comparisons/figure_16_3_book_period_review.png",
@@ -2755,7 +2817,7 @@
       "display_viewport": null
     },
     {
-      "page": 68,
+      "page": 70,
       "figure_id": "16-3",
       "mode": "extended",
       "path": "figures/16-3/plots/comparisons/figure_16_3_extended_review.png",
@@ -2771,7 +2833,7 @@
       "display_viewport": null
     },
     {
-      "page": 69,
+      "page": 71,
       "figure_id": "16-4",
       "mode": "book_period",
       "path": "figures/16-4/plots/comparisons/figure_16_4_book_period_review.png",
@@ -2787,7 +2849,7 @@
       "display_viewport": null
     },
     {
-      "page": 70,
+      "page": 72,
       "figure_id": "16-4",
       "mode": "extended",
       "path": "figures/16-4/plots/comparisons/figure_16_4_extended_review.png",
@@ -2803,7 +2865,7 @@
       "display_viewport": null
     },
     {
-      "page": 71,
+      "page": 73,
       "figure_id": "16-5",
       "mode": "book_period",
       "path": "figures/16-5/plots/comparisons/figure_16_5_book_period_review.png",
@@ -2819,7 +2881,7 @@
       "display_viewport": null
     },
     {
-      "page": 72,
+      "page": 74,
       "figure_id": "16-5",
       "mode": "extended",
       "path": "figures/16-5/plots/comparisons/figure_16_5_extended_review.png",
@@ -2835,7 +2897,7 @@
       "display_viewport": null
     },
     {
-      "page": 73,
+      "page": 75,
       "figure_id": "16-6",
       "mode": "book_period",
       "path": "figures/16-6/plots/comparisons/figure_16_6_book_period_review.png",
@@ -2851,7 +2913,7 @@
       "display_viewport": null
     },
     {
-      "page": 74,
+      "page": 76,
       "figure_id": "16-6",
       "mode": "extended",
       "path": "figures/16-6/plots/comparisons/figure_16_6_extended_review.png",
@@ -2867,7 +2929,7 @@
       "display_viewport": null
     },
     {
-      "page": 75,
+      "page": 77,
       "figure_id": "17-1",
       "mode": "book_period",
       "path": "figures/17-1/plots/comparisons/figure_17_1_book_period_review.png",
@@ -2883,7 +2945,7 @@
       "display_viewport": null
     },
     {
-      "page": 76,
+      "page": 78,
       "figure_id": "17-1",
       "mode": "extended",
       "path": "figures/17-1/plots/comparisons/figure_17_1_extended_review.png",
@@ -2899,7 +2961,7 @@
       "display_viewport": null
     },
     {
-      "page": 77,
+      "page": 79,
       "figure_id": "17-2",
       "mode": "book_period",
       "path": "figures/17-2/plots/comparisons/figure_17_2_book_period_review.png",
@@ -2915,7 +2977,7 @@
       "display_viewport": null
     },
     {
-      "page": 78,
+      "page": 80,
       "figure_id": "17-2",
       "mode": "extended",
       "path": "figures/17-2/plots/comparisons/figure_17_2_extended_review.png",
@@ -2931,7 +2993,7 @@
       "display_viewport": null
     },
     {
-      "page": 79,
+      "page": 81,
       "figure_id": "17-3",
       "mode": "book_period",
       "path": "figures/17-3/plots/comparisons/figure_17_3_book_period_review.png",
@@ -2947,7 +3009,7 @@
       "display_viewport": null
     },
     {
-      "page": 80,
+      "page": 82,
       "figure_id": "17-3",
       "mode": "extended",
       "path": "figures/17-3/plots/comparisons/figure_17_3_extended_review.png",
@@ -2963,7 +3025,7 @@
       "display_viewport": null
     },
     {
-      "page": 81,
+      "page": 83,
       "figure_id": "17-4",
       "mode": "book_period",
       "path": "figures/17-4/plots/comparisons/figure_17_4_book_period_review.png",
@@ -2979,7 +3041,7 @@
       "display_viewport": null
     },
     {
-      "page": 82,
+      "page": 84,
       "figure_id": "17-4",
       "mode": "extended",
       "path": "figures/17-4/plots/comparisons/figure_17_4_extended_review.png",
@@ -2995,7 +3057,7 @@
       "display_viewport": null
     },
     {
-      "page": 83,
+      "page": 85,
       "figure_id": "17-5",
       "mode": "book_period",
       "path": "figures/17-5/plots/comparisons/figure_17_5_book_period_review.png",
@@ -3011,7 +3073,7 @@
       "display_viewport": null
     },
     {
-      "page": 84,
+      "page": 86,
       "figure_id": "17-5",
       "mode": "extended",
       "path": "figures/17-5/plots/comparisons/figure_17_5_extended_review.png",
@@ -3027,7 +3089,7 @@
       "display_viewport": null
     },
     {
-      "page": 85,
+      "page": 87,
       "figure_id": "17-6",
       "mode": "book_period",
       "path": "figures/17-6/plots/comparisons/figure_17_6_book_period_review.png",
@@ -3043,7 +3105,7 @@
       "display_viewport": null
     },
     {
-      "page": 86,
+      "page": 88,
       "figure_id": "17-6",
       "mode": "extended",
       "path": "figures/17-6/plots/comparisons/figure_17_6_extended_review.png",
@@ -3059,7 +3121,7 @@
       "display_viewport": null
     },
     {
-      "page": 87,
+      "page": 89,
       "figure_id": "17-8",
       "mode": "book_period",
       "path": "figures/17-8/plots/comparisons/figure_17_8_book_period_review.png",
@@ -3075,7 +3137,7 @@
       "display_viewport": null
     },
     {
-      "page": 88,
+      "page": 90,
       "figure_id": "17-8",
       "mode": "extended",
       "path": "figures/17-8/plots/comparisons/figure_17_8_extended_review.png",
@@ -3091,7 +3153,7 @@
       "display_viewport": null
     },
     {
-      "page": 89,
+      "page": 91,
       "figure_id": "19-1",
       "mode": "book_period",
       "path": "figures/19-1/plots/comparisons/figure_19_1_book_period_review.png",
@@ -3107,7 +3169,7 @@
       "display_viewport": null
     },
     {
-      "page": 90,
+      "page": 92,
       "figure_id": "19-1",
       "mode": "extended",
       "path": "figures/19-1/plots/comparisons/figure_19_1_extended_review.png",
