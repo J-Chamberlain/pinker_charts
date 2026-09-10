@@ -42,8 +42,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | --- | ---: |
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
-| needs_targeted_source_recovery | 3 |
-| not_started | 5 |
+| needs_targeted_source_recovery | 4 |
+| not_started | 4 |
 | partial_match | 35 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
@@ -123,7 +123,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 17-6 | Leisure time, US, 1965-2015 | partial_match | processed | incomplete |
 | 17-7 | Cost of air travel, US, 1979-2015 | needs_targeted_source_recovery | blocked | incomplete |
 | 17-8 | International tourism, 1995-2015 | partial_match | processed | incomplete |
-| 18-1 | Life satisfaction and income, 2006 | not_started | not_started | incomplete |
+| 18-1 | Life satisfaction and income, 2006 | needs_targeted_source_recovery | blocked | incomplete |
 | 18-2 | Loneliness, US students, 1978-2011 | not_started | not_started | incomplete |
 | 18-3 | Suicide, England, Switzerland, and US, 1860-2014 | not_started | not_started | incomplete |
 | 18-4 | Happiness and excitement, US, 1972-2016 | not_started | not_started | incomplete |
@@ -1565,6 +1565,21 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Book period comparison: [figures/17-8/plots/comparisons/figure_17_8_book_period_review.png](figures/17-8/plots/comparisons/figure_17_8_book_period_review.png)
 - Extended comparison: [figures/17-8/plots/comparisons/figure_17_8_extended_review.png](figures/17-8/plots/comparisons/figure_17_8_extended_review.png)
 - Lineage csv: [figures/17-8/lineage/lineage.csv](figures/17-8/lineage/lineage.csv)
+
+### Figure 18-1 - Life satisfaction and income, 2006
+
+Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
+
+- Metadata: [figures/18-1/figure.json](figures/18-1/figure.json)
+- Original reference: [references/figures/figure_18_1.png](references/figures/figure_18_1.png)
+- Provenance: [figures/18-1/provenance/provenance.md](figures/18-1/provenance/provenance.md)
+- Source log: [figures/18-1/source_logs/source_log.md](figures/18-1/source_logs/source_log.md)
+- Search log: [figures/18-1/search_iterations/search_iterations.md](figures/18-1/search_iterations/search_iterations.md)
+- Anomaly review: [figures/18-1/anomaly_reviews/anomaly_review.md](figures/18-1/anomaly_reviews/anomaly_review.md)
+- Discrepancy log: [figures/18-1/discrepancy_logs/discrepancy_log.md](figures/18-1/discrepancy_logs/discrepancy_log.md)
+- Review checklist: [figures/18-1/review_checklist.md](figures/18-1/review_checklist.md)
+- Caption: [figures/18-1/captions/caption.txt](figures/18-1/captions/caption.txt)
+- Archive evidence: [figures/18-1/data/raw/replication_archive/archive_manifest.txt](figures/18-1/data/raw/replication_archive/archive_manifest.txt)
 
 ### Figure 19-1 - Nuclear weapons, 1945-2015
 

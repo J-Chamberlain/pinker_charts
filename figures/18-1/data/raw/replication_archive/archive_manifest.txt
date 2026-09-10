@@ -1,0 +1,102 @@
+Archive:  /tmp/figure18_1/EasterlinParadox.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  08-12-2008 15:53   Eurobarometer/
+195161529  08-09-2008 20:07   Eurobarometer/04357-0001-data.dta
+    16470  08-09-2008 20:07   Eurobarometer/eurobarometer 2002-2007.dta
+     7865  08-11-2008 17:07   Eurobarometer/Eurobarometer analysis.do
+    16897  08-09-2008 20:28   Eurobarometer/Eurobarometer setup.do
+   398666  08-12-2008 07:13   Eurobarometer/Eurobarometer.log
+        0  08-12-2008 15:53   Figures/
+    58541  08-12-2008 07:27   Figures/fig1.gph
+     9358  08-08-2008 17:54   Figures/fig10.gph
+    16704  08-08-2008 17:54   Figures/fig11.gph
+    16338  08-12-2008 00:19   Figures/fig12.gph
+     9848  08-12-2008 07:25   Figures/fig13.gph
+    69694  08-12-2008 00:20   Figures/fig14.gph
+    70715  08-12-2008 00:20   Figures/fig15.gph
+    92745  08-12-2008 07:13   Figures/fig16.gph
+    37126  08-12-2008 07:13   Figures/fig17.gph
+    26854  08-12-2008 07:26   Figures/fig18.gph
+    45360  08-12-2008 07:26   Figures/fig19.gph
+    53908  08-12-2008 00:20   Figures/fig2.gph
+    35778  08-12-2008 07:26   Figures/fig20.gph
+   149914  08-12-2008 00:21   Figures/fig21.gph
+   106594  08-08-2008 17:54   Figures/fig22.gph
+   107964  08-08-2008 17:54   Figures/fig23.gph
+    12061  08-12-2008 07:16   Figures/fig3.gph
+    15113  08-10-2008 18:07   Figures/fig4.gph
+    33951  08-12-2008 00:20   Figures/fig5.gph
+    63462  08-09-2008 19:53   Figures/fig6.gph
+    29394  08-08-2008 17:54   Figures/fig7.gph
+    49655  08-12-2008 07:25   Figures/fig8.gph
+    37074  08-08-2008 17:54   Figures/fig9.gph
+    33627  08-12-2008 00:25   Figures/figA1.gph
+    13993  08-12-2008 00:25   Figures/figA2.gph
+    50712  08-08-2008 17:54   Figures/figA3.gph
+    55984  08-12-2008 00:42   Figures/figA4.gph
+    54107  08-12-2008 01:40   Figures/figA5.gph
+        0  08-12-2008 15:53   Gallup World Poll/
+    18087  08-11-2008 08:35   Gallup World Poll/Clean_Gallup.pdf
+     7398  08-11-2008 08:34   Gallup World Poll/Gallup.pdf
+    11110  08-11-2008 08:36   Gallup World Poll/Gallup_createmacro.pdf
+    14953  08-11-2008 08:36   Gallup World Poll/Gallup_income.pdf
+    36207  08-11-2008 08:36   Gallup World Poll/Gallup_macro.pdf
+    41169  08-11-2008 08:37   Gallup World Poll/Gallup_micro.pdf
+        0  08-12-2008 15:56   Gallup World Poll/log files/
+      296  08-09-2008 20:07   Gallup World Poll/readme-Gallup.txt
+        0  08-12-2008 15:53   GDP/
+    11524  08-09-2008 20:07   GDP/bls gdp per capita.dta
+     1887  08-12-2008 15:47   GDP/Complete_GDP.do
+     1198  08-09-2008 20:07   GDP/germany.dta
+   424962  08-09-2008 20:07   GDP/pwt.dta
+     4220  08-09-2008 20:07   GDP/us data.dta
+   569093  08-09-2008 20:07   GDP/wdi gdp per capita.dta
+        0  08-12-2008 15:53   GSS/
+284307923  08-09-2008 20:08   GSS/04697-0001-data.dta
+     6372  08-08-2008 17:00   GSS/GSS analysis.do
+     7083  08-11-2008 16:18   GSS/GSS setup.do
+   282507  08-12-2008 07:26   GSS/GSS.log
+        0  08-12-2008 15:53   History/
+     4614  08-09-2008 20:08   History/cantril.dta
+     6556  08-09-2008 20:40   History/Fig1.do
+   526047  03-24-2008 18:28   History/Gallup 1949.pdf
+     2058  08-09-2008 20:08   History/gallup1946.dta
+   727233  03-24-2008 21:21   History/Gallup1946.pdf
+     2122  08-09-2008 20:08   History/gallup1949.dta
+    91165  08-12-2008 07:28   History/History.log
+     4418  08-09-2008 20:08   History/tension 1948.dta
+    12772  03-24-2008 23:18   History/Tension 1948.xlsx
+     2690  08-09-2008 20:08   History/world survey iii.dta
+    19456  03-24-2008 23:23   History/World Survey III.xls
+        0  08-12-2008 15:53   Japan/
+     7567  08-12-2008 09:37   Japan/Japan analysis.do
+    63763  08-12-2008 07:26   Japan/Japan.log
+     6872  08-09-2008 20:08   Japan/japan2.dta
+        0  08-12-2008 15:54   Other surveys/
+        0  08-12-2008 15:53   Other surveys/Eurobarometer 66.1/
+ 19861440  08-09-2008 20:09   Other surveys/Eurobarometer 66.1/21281-0001-data.dta
+        0  08-12-2008 15:53   Other surveys/Eurobarometer 66.3/
+ 28954722  08-09-2008 20:12   Other surveys/Eurobarometer 66.3/21523-0001-data.dta
+        0  08-12-2008 15:54   Other surveys/European Quality of Life/
+ 18297641  08-09-2008 20:14   Other surveys/European Quality of Life/eqls_version_2.dta
+     9386  08-09-2008 22:43   Other surveys/Happiness v Life Sat.do
+        0  08-12-2008 15:54   Other surveys/Kettering/
+     3280  08-09-2008 20:14   Other surveys/Kettering/kettering 1975.dta
+        0  08-12-2008 15:54   Pew/
+     2333  08-11-2008 16:18   Pew/Pew analysis.do
+    44879  08-09-2008 20:28   Pew/Pew setup.do
+   366466  08-12-2008 07:16   Pew/Pew.log
+ 16285257  08-09-2008 20:15   Pew/pew_gap_final_44_country_dataset_1_1sav.dta
+        0  08-12-2008 15:56   Processed files/
+     1446  08-11-2008 22:38   StevensonWolfers(Brookings).do
+        0  08-12-2008 15:55   WVS/
+    21508  08-11-2008 08:27   WVS/WVS appendices.do
+    91246  07-29-2008 14:15   WVS/WVS income coding.do
+    23542  08-11-2008 00:15   WVS/WVS macro analysis.do
+     7530  08-11-2008 22:38   WVS/WVS micro analysis.do
+    11047  08-09-2008 20:25   WVS/WVS setup.do
+  2258636  08-12-2008 02:34   WVS/WVS_results.log
+299253828  08-09-2008 20:22   WVS/xwvsevs_1981_2000_v20060423.dta
+---------                     -------
+869675510                     97 files

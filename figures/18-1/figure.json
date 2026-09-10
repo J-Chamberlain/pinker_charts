@@ -6,50 +6,50 @@
   "title": "Life satisfaction and income, 2006",
   "page": "",
   "year_range": "2006",
-  "source_type_guess": "economic_historical_dataset",
-  "priority": "backlog",
+  "source_type_guess": "survey_and_economic_dataset",
+  "priority": "high",
   "current_owner": "unassigned",
-  "scientific_status": "not_started",
-  "execution_status": "not_started",
+  "scientific_status": "needs_targeted_source_recovery",
+  "execution_status": "blocked",
   "publication_status": "incomplete",
-  "lifecycle_stage": "not_started",
-  "next_action": "Select in a future small batch; confirm source line in Kindle before source recovery.",
-  "notes": "Imported from Kindle List of Figures extraction (List of Figures screen 2); figure page/source not checked.",
-  "artifact_kind": "not_started",
-  "book_citation": "",
+  "lifecycle_stage": "source_recovery",
+  "next_action": "Obtain authorized Gallup World Poll 2006 access or an exact author-provided 131-country aggregate extract, then rerun the archived preparation and regression workflow.",
+  "notes": "Exact Stevenson-Wolfers paper and official replication archive recovered. Gallup respondent data are explicitly absent from the archive because they belong to Gallup. No plotted values were digitized and no proxy reconstruction was drawn.",
+  "artifact_kind": "source_recovery",
+  "book_citation": "Stevenson & Wolfers 2008a, fig. 11, based on data from the Gallup World Poll 2006. Credit: Betsey Stevenson and Justin Wolfers.",
   "status_evidence": {
-    "basis": "imported historical scientific claim; not newly verified",
-    "commit": "84c41f4a6508113ad3fd4a7eb8e33bb03e4217dc",
-    "previous_registry_status": "not_started"
+    "basis": "exact paper and official replication archive recovered; numeric Gallup input unavailable under public redistribution terms",
+    "source_chain": [
+      "Pinker Figure 18-1",
+      "Stevenson and Wolfers (2008), Figure 11",
+      "Gallup World Poll 2006",
+      "authors' GDP construction and regressions",
+      "official EasterlinParadox replication archive"
+    ],
+    "blocker": "The archive readme states that the 2006 Gallup World Poll cannot be shared because the data belong to Gallup. Authorized access or an exact aggregate extract is required."
   },
   "visual_review": {
     "status": "pending",
-    "reference_basis": "original_reference_unconfirmed",
+    "reference_basis": "original",
     "inspected_artifacts": [],
-    "issues": []
+    "issues": [
+      "No legitimate reconstructed data are available",
+      "No book-period comparison can be generated",
+      "No extension can be evaluated"
+    ]
   },
   "extension": {
-    "status": "pending_methodology_review",
-    "notes": "An extended filename alone does not establish an extension."
-  },
-  "artifacts": {
-    "metadata": {
-      "path": "figures/18-1/figure.json",
-      "self": true
-    },
-    "original_reference": {
-      "path": "references/figures/figure_18_1.png",
-      "sha256": "377d590e2639bea09ff1869cb4465b9fe0877c14bb52dee737fb1258815380ac"
-    }
+    "status": "not_attempted",
+    "notes": "Do not add a successor wellbeing series until the Gallup 2006 book-period figure is reconstructed."
   },
   "research": {
     "book_page": "",
-    "claim_summary": "",
-    "original_dataset": "",
-    "dataset_url": "",
-    "archive_url": "",
-    "download_date": "",
-    "confidence_score": ""
+    "claim_summary": "Across 131 countries in the 2006 Gallup World Poll, life satisfaction rises with real GDP per capita on a log scale; country-specific within-country income gradients are shown as arrows.",
+    "original_dataset": "Gallup World Poll 2006 respondent data, with authors' ordered-probit aggregation and household-income gradients; GDP inputs constructed by Stevenson and Wolfers.",
+    "dataset_url": "https://users.nber.org/~jwolfers/data/EasterlinParadox.zip",
+    "archive_url": "https://users.nber.org/~jwolfers/papers/EasterlinParadox.pdf",
+    "download_date": "2026-09-10",
+    "confidence_score": "high for source chain; low for numeric recovery"
   },
   "reference": {
     "figure_id": "18-1",
@@ -79,7 +79,49 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 18-1: Life satisfaction and income, 2006",
     "source_note_ocr": "Stevenson & Wolfers 2008a, fig. 11, based on data from the Gallup World Poll 2006. Credit: Betsey Stevenson and Justin Wolfers.",
-    "source_note_validation": "machine_extracted_pending_source_review",
-    "visual_review": "pending_full_resolution_review"
+    "source_note_validation": "machine_extracted_and_source_reviewed",
+    "visual_review": "original_reference_inspected_no_reconstruction"
+  },
+  "artifacts": {
+    "metadata": {
+      "path": "figures/18-1/figure.json",
+      "self": true
+    },
+    "original_reference": {
+      "path": "references/figures/figure_18_1.png",
+      "sha256": "377d590e2639bea09ff1869cb4465b9fe0877c14bb52dee737fb1258815380ac"
+    },
+    "provenance": {
+      "path": "figures/18-1/provenance/provenance.md",
+      "sha256": "ff7c9c6e955bd374f2af758254d81a938042a596e52292e444c689ee62db7e6a"
+    },
+    "source_log": {
+      "path": "figures/18-1/source_logs/source_log.md",
+      "sha256": "d036d02506db26df2cfe84f0f98361959fe151a9dc474c2383c8050af2dd4a3f"
+    },
+    "search_log": {
+      "path": "figures/18-1/search_iterations/search_iterations.md",
+      "sha256": "f0827358ce5fca1e37e9cf1d22b1d90bd1cdbe0d036179086d405bc2f05f830e"
+    },
+    "anomaly_review": {
+      "path": "figures/18-1/anomaly_reviews/anomaly_review.md",
+      "sha256": "dc238de32a2a60ac72f4863a1710d6dc41a91d770cfa4cf9ed4547d6085c8b0f"
+    },
+    "discrepancy_log": {
+      "path": "figures/18-1/discrepancy_logs/discrepancy_log.md",
+      "sha256": "8d72934f5aa94fc2457d07866a8d215956f1aea9cc5968949d98e7fe7480da40"
+    },
+    "review_checklist": {
+      "path": "figures/18-1/review_checklist.md",
+      "sha256": "54f6aae95cc0efa1bee2484d883cb8e38eab0fb8febe092fc2c1713899bca738"
+    },
+    "caption": {
+      "path": "figures/18-1/captions/caption.txt",
+      "sha256": "6e988563fe5a057a073996cb21416017981110552aa2bd324097167a940f2441"
+    },
+    "archive_evidence": {
+      "path": "figures/18-1/data/raw/replication_archive/archive_manifest.txt",
+      "sha256": "8f9d19147b67f972b19fabb02f288cbc0ee391aa4a4d8eb092a4626047e40fdf"
+    }
   }
 }
