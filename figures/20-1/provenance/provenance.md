@@ -17,3 +17,10 @@ The Lord Ashcroft full tables are retained at `data/raw/lord_ashcroft_eu_referen
 ## Blocker
 
 The essential European series is not locally available. The paper graph is not used as numeric input. An authorized ESS account or an author-provided extract is required before any legitimate plot can be made.
+# Current provenance, September 11
+
+See ../remediation_2026_09_11.md and scripts/reconstruct_20_1.py. Two recovered
+poll tables now generate 10 clean rows and a partial reconstruction. Original
+reference -> source note -> Ashcroft page5/Roper AGE -> parser -> clean CSV ->
+book-period plot -> real comparison. No invented European data or extension.
+The earlier no-reconstruction statement below is historical.

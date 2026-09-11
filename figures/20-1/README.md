@@ -1,12 +1,17 @@
 <!-- canonical-state:start -->
 # Figure 20-1: Populist support across generations, 2016
 
-Scientific status: `source_chain_recovered`. Execution: `blocked`.
-Publication: `incomplete`. Artifact kind: `source_recovery`.
+Scientific status: `partial_match`. Execution: `blocked`.
+Publication: `incomplete`. Artifact kind: `reconstruction`.
 
 This generated summary and [figure.json](figure.json) supersede historical status claims below.
 A historical verified classification is not a fresh publication review.
 
+- Book period clean: [data/clean/figure_20_1_poll_components.csv](data/clean/figure_20_1_poll_components.csv)
+- Book period reconstruction: [plots/book_period/figure_20_1_book_period.png](plots/book_period/figure_20_1_book_period.png)
+- Book period comparison: [plots/comparisons/figure_20_1_book_period_review.png](plots/comparisons/figure_20_1_book_period_review.png)
+- Reconstruction script: [../../scripts/reconstruct_20_1.py](../../scripts/reconstruct_20_1.py)
+- Remediation review: [remediation_2026_09_11.md](remediation_2026_09_11.md)
 - Metadata: [figure.json](figure.json)
 - Original reference: [../../references/figures/figure_20_1.png](../../references/figures/figure_20_1.png)
 - Provenance: [provenance/provenance.md](provenance/provenance.md)

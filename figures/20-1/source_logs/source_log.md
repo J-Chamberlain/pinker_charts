@@ -1,5 +1,9 @@
 # Figure 20-1 source discovery log
 
+September 11 update: [targeted recovery and decisions](../remediation_2026_09_11.md).
+Two components now have clean data and a real comparison. The third remains
+unresolved. Older all-or-nothing recommended sequencing below is superseded.
+
 ## Figure
 
 - Figure: 20-1

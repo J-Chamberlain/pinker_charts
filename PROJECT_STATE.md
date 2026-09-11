@@ -43,8 +43,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
 | needs_targeted_source_recovery | 6 |
-| partial_match | 35 |
-| source_chain_recovered | 3 |
+| partial_match | 36 |
+| source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 11 |
 | verified_reproduction | 14 |
@@ -127,7 +127,7 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 18-3 | Suicide, England, Switzerland, and US, 1860-2014 | needs_targeted_source_recovery | blocked | incomplete |
 | 18-4 | Happiness and excitement, US, 1972-2016 | updated_equivalent | processed | not_reviewed |
 | 19-1 | Nuclear weapons, 1945-2015 | partial_match | blocked | not_reviewed |
-| 20-1 | Populist support across generations, 2016 | source_chain_recovered | blocked | incomplete |
+| 20-1 | Populist support across generations, 2016 | partial_match | blocked | incomplete |
 
 ## Canonical Figure Artifacts
 
@@ -1657,8 +1657,13 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 
 ### Figure 20-1 - Populist support across generations, 2016
 
-Status: `source_chain_recovered`. Artifact kind: `source_recovery`.
+Status: `partial_match`. Artifact kind: `reconstruction`.
 
+- Book period clean: [figures/20-1/data/clean/figure_20_1_poll_components.csv](figures/20-1/data/clean/figure_20_1_poll_components.csv)
+- Book period reconstruction: [figures/20-1/plots/book_period/figure_20_1_book_period.png](figures/20-1/plots/book_period/figure_20_1_book_period.png)
+- Book period comparison: [figures/20-1/plots/comparisons/figure_20_1_book_period_review.png](figures/20-1/plots/comparisons/figure_20_1_book_period_review.png)
+- Reconstruction script: [scripts/reconstruct_20_1.py](scripts/reconstruct_20_1.py)
+- Remediation review: [figures/20-1/remediation_2026_09_11.md](figures/20-1/remediation_2026_09_11.md)
 - Metadata: [figures/20-1/figure.json](figures/20-1/figure.json)
 - Original reference: [references/figures/figure_20_1.png](references/figures/figure_20_1.png)
 - Provenance: [figures/20-1/provenance/provenance.md](figures/20-1/provenance/provenance.md)

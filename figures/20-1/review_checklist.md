@@ -22,3 +22,13 @@ Extension: not applicable until the book-period figure is reconstructed.
 Source provenance: paper and exit-poll routes documented; ESS input requires authorized access.
 Outstanding risk: cohort binning, weighting, and populist classification remain unresolved.
 Recommended next action: obtain the ESS1-6 file and authors' coding, then implement the full three-source reconstruction.
+# September 11 review amendment
+
+- [x] Two saved poll tables parsed; 10 rows retained
+- [x] Original and actual partial comparison visually inspected
+- [x] Undefined open-bin coordinates disclosed
+- [ ] European numeric series and author coding recovered
+- [ ] All critical completeness issues resolved
+- [x] No false time-axis extension produced
+
+Current reviewer challenge and confidence: ../remediation_2026_09_11.md.

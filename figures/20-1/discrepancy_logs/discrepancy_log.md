@@ -6,3 +6,7 @@
 | Authors' populist-party classification not recovered | Major | Preserved the cited paper and source line | Must recover coding or author extract |
 | Trump source has accessible age table through Roper mirror | Minor | Retained the public summary without treating it as exact NYT formatting | Verify against original Edison/NYT release |
 | Brexit full tables recovered | Minor | Retained official poll PDF | Map age bands to the book's birth-cohort midpoints |
+# September 11 discrepancies
+
+Two poll series recovered. ESS line missing, and oldest-bin positions differ
+because its upper age was not documented. See ../remediation_2026_09_11.md.

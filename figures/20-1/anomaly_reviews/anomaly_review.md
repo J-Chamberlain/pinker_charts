@@ -14,3 +14,8 @@ No plotted values were digitized, no placeholder chart was created, and no visua
 - A skeptical reader would notice that the apparent cohort relationship depends on bin midpoint choices.
 
 These are open research tasks, not reasons to substitute the paper image as data.
+# Current review, September 11
+
+See ../remediation_2026_09_11.md. Real comparison inspected. Critical: European
+series missing. Major: undefined 65+ midpoint shown honestly as a boundary.
+Partial recovery is useful but not ready for publication as a complete figure.

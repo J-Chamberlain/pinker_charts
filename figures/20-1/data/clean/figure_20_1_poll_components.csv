@@ -1,0 +1,11 @@
+series,age_group,birth_year_plot,coordinate_method,percent,source_url,source_locator
+Brexit,65+,1951.0,upper birth-year bound; no midpoint for open-ended bin,60.0,https://lordashcroftpolls.com/wp-content/uploads/2016/06/How-the-UK-voted-Full-tables-1.pdf,PDF page 5; Table 2; Leave row
+Brexit,55-64,1956.5,2016 minus age-bin midpoint; approximate birth year,57.0,https://lordashcroftpolls.com/wp-content/uploads/2016/06/How-the-UK-voted-Full-tables-1.pdf,PDF page 5; Table 2; Leave row
+Brexit,45-54,1966.5,2016 minus age-bin midpoint; approximate birth year,56.0,https://lordashcroftpolls.com/wp-content/uploads/2016/06/How-the-UK-voted-Full-tables-1.pdf,PDF page 5; Table 2; Leave row
+Brexit,35-44,1976.5,2016 minus age-bin midpoint; approximate birth year,48.0,https://lordashcroftpolls.com/wp-content/uploads/2016/06/How-the-UK-voted-Full-tables-1.pdf,PDF page 5; Table 2; Leave row
+Brexit,25-34,1986.5,2016 minus age-bin midpoint; approximate birth year,38.0,https://lordashcroftpolls.com/wp-content/uploads/2016/06/How-the-UK-voted-Full-tables-1.pdf,PDF page 5; Table 2; Leave row
+Brexit,18-24,1995.0,2016 minus age-bin midpoint; approximate birth year,27.0,https://lordashcroftpolls.com/wp-content/uploads/2016/06/How-the-UK-voted-Full-tables-1.pdf,PDF page 5; Table 2; Leave row
+Trump,65 & over,1951.0,upper birth-year bound; no midpoint for open-ended bin,52.0,https://ropercenter.cornell.edu/how-groups-voted-2016,AGE table
+Trump,45-64,1961.5,2016 minus age-bin midpoint; approximate birth year,52.0,https://ropercenter.cornell.edu/how-groups-voted-2016,AGE table
+Trump,30-44,1979.0,2016 minus age-bin midpoint; approximate birth year,41.0,https://ropercenter.cornell.edu/how-groups-voted-2016,AGE table
+Trump,18-29,1992.5,2016 minus age-bin midpoint; approximate birth year,36.0,https://ropercenter.cornell.edu/how-groups-voted-2016,AGE table

@@ -9,16 +9,16 @@
   "source_type_guess": "survey_or_governance_dataset",
   "priority": "high",
   "current_owner": "unassigned",
-  "scientific_status": "source_chain_recovered",
+  "scientific_status": "partial_match",
   "execution_status": "blocked",
   "publication_status": "incomplete",
-  "lifecycle_stage": "source_recovery",
+  "lifecycle_stage": "visual_review",
   "next_action": "Obtain authorized ESS1-6 cumulative data and the authors' populist-party coding, then reproduce the European series before combining the exit-poll series.",
-  "notes": "Reference inspected and citation chain recovered. Official Inglehart-Norris working paper, Lord Ashcroft tables, and a public Edison/NEP age-table mirror are retained. ESS1-6 numeric input requires registered access; no plotted values were digitized.",
-  "artifact_kind": "source_recovery",
+  "notes": "September 11: two poll components extracted reproducibly from retained tables and compared visually. European ESS series remains missing; 65+ groups plotted as hollow boundary points because their midpoints are undefined. No extension invented.",
+  "artifact_kind": "reconstruction",
   "book_citation": "Trump: Edison Research exit polls, New York Times 2016. Brexit: Lord Ashcroft Polls, BBC News Magazine, June 24, 2016. European populist parties (2002-2014): Inglehart & Norris 2016, fig. 8. Data for each birth cohort are plotted at the midpoint of their range.",
   "status_evidence": {
-    "basis": "reference and full citation chain inspected; essential ESS numeric input and author coding not recovered",
+    "basis": "10 legitimate age-bin observations recovered from two cited poll families; third ESS series and open-bin plotting convention unresolved",
     "source_chain": [
       "Pinker Figure 20-1",
       "Edison Research/NYT 2016 exit poll",
@@ -29,20 +29,52 @@
     "blocker": "ESS1-6 cumulative data are distributed through a registered-data workflow and are not present in the recovered paper or public build guide."
   },
   "visual_review": {
-    "status": "pending",
+    "status": "inspected",
     "reference_basis": "original",
     "inspected_artifacts": [
-      "references/figures/figure_20_1.png"
+      {
+        "path": "references/figures/figure_20_1.png",
+        "sha256": "e1dcf4c0502eab5903c4a3610223944350fec6c9eb6dac2c1e4c5a23a700c885"
+      },
+      {
+        "path": "figures/20-1/plots/book_period/figure_20_1_book_period.png",
+        "sha256": "b05d8399e7349ad1f540b6fcf600d2711be574846c1ee26b6e7d8aeeb86b6193"
+      },
+      {
+        "path": "figures/20-1/plots/comparisons/figure_20_1_book_period_review.png",
+        "sha256": "0d2950d81a4afc6f1cc3b85222ad4932fc70c22795ea649ad79c3be543a59f04"
+      }
     ],
     "issues": [
-      "no legitimate reconstruction exists while ESS1-6 input is unavailable"
+      "European ESS curve missing; figure incomplete",
+      "65+ groups have no source-defined midpoint; plot at birth-year boundary instead"
     ]
   },
   "extension": {
-    "status": "not_attempted",
-    "notes": "No extension is meaningful until the book-period three-source reconstruction is complete."
+    "status": "unavailable",
+    "notes": "Cross-sectional birth-cohort comparisons of specific 2016 events; later elections are not a time-axis continuation. No misleading duplicate extended plot generated."
   },
   "artifacts": {
+    "book_period_clean": {
+      "path": "figures/20-1/data/clean/figure_20_1_poll_components.csv",
+      "sha256": "27a335b9fcc4907897415a465705cfd48a4296637f4848d66b5d17de3936af22"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/20-1/plots/book_period/figure_20_1_book_period.png",
+      "sha256": "b05d8399e7349ad1f540b6fcf600d2711be574846c1ee26b6e7d8aeeb86b6193"
+    },
+    "book_period_comparison": {
+      "path": "figures/20-1/plots/comparisons/figure_20_1_book_period_review.png",
+      "sha256": "0d2950d81a4afc6f1cc3b85222ad4932fc70c22795ea649ad79c3be543a59f04"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_20_1.py",
+      "sha256": "6b4defaea6990a1646541e82f2f5f75ea9d40ba66632105f39d9a2b7182e9112"
+    },
+    "remediation_review": {
+      "path": "figures/20-1/remediation_2026_09_11.md",
+      "sha256": "8c2e86634dd8c339b53638fe3bc1656617ead8da17e249672d607e5f5cee9f05"
+    },
     "metadata": {
       "path": "figures/20-1/figure.json",
       "self": true
@@ -53,31 +85,31 @@
     },
     "provenance": {
       "path": "figures/20-1/provenance/provenance.md",
-      "sha256": "1ae95cf0a2dbf7e87dee550b3040fbbe667c6a3611ca0f058cdf89fb108583dd"
+      "sha256": "894d4aa473748935473d04fc9ea5fa5c6963479d48c35c3c0b4c9224cdd51610"
     },
     "source_log": {
       "path": "figures/20-1/source_logs/source_log.md",
-      "sha256": "0bc681f928dff3422acfaaadcfcc800b2def1330565d3904b660bd5fca63efd4"
+      "sha256": "3010dce9cbd1692f5a38ba9ea13fffe5415b6d8c8cab78e35d988b053a37ddfb"
     },
     "search_log": {
       "path": "figures/20-1/search_iterations/search_iterations.md",
-      "sha256": "2cffed03abe1c76ea1e9a70ca2052d461b63213ac4691a44879e9b9d8025324c"
+      "sha256": "675ec6977073ee3aee0cb2ae61aa3f81a90a07f7f90483ac526c7da3c072e28e"
     },
     "anomaly_review": {
       "path": "figures/20-1/anomaly_reviews/anomaly_review.md",
-      "sha256": "66496344969fe2ed96472cba106241ffa09f5bcd0d24f763f0fab19ab0846e2f"
+      "sha256": "7cae950c7cefa52d1b969587906dc189a87d4c1a5c259c657e92381f0d0edbe4"
     },
     "discrepancy_log": {
       "path": "figures/20-1/discrepancy_logs/discrepancy_log.md",
-      "sha256": "b92f0fe8e900c803c0ad841a7f1758e1f0e09cb2e835bbcc3adf5cf255eee03d"
+      "sha256": "7e6326e52cefbf9daf4fbd1e5d932b48bab118d5b02e62327da305207fb40035"
     },
     "caption": {
       "path": "figures/20-1/captions/caption.txt",
-      "sha256": "2d3796108e1ce66a357978ac96420f20c4a1188f157abf10b60a90e79cff9861"
+      "sha256": "b5230e3b779ba784678d25f6690f6deba5a205b80670a7882ab707c6645d2581"
     },
     "review_checklist": {
       "path": "figures/20-1/review_checklist.md",
-      "sha256": "2544d34d8cb5a493addee6dcf02fffe472f60184aa44393e518ec45442afa285"
+      "sha256": "85b849b159e4a704ec64dec2ab61485097e59e9bd52ec30d547dc988b83ee448"
     },
     "source_materials": {
       "path": "figures/20-1/data/raw/source_sha256sums.txt",

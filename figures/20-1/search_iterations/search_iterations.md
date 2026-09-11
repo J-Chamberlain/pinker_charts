@@ -7,3 +7,8 @@
 5. Located the authors' public GitHub build guide; it confirms that ESS inputs are downloaded through the registered ESS package route, not included in the repository.
 6. Downloaded Lord Ashcroft's official 2016 full tables and a public Cornell Roper summary of the Edison/NEP Trump age table.
 7. Stopped without plotting because the essential European series would otherwise require digitizing the source graph.
+# September 11 iteration
+
+Recovered two independent poll components. Inspected author data page and
+searched Harvard Dataverse for Cultural Backlash; did not find exact ESS1-6
+author package. See ../remediation_2026_09_11.md for queries and dispositions.
