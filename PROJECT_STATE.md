@@ -1612,6 +1612,12 @@ Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
 
 Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 
+- Weighted successor clean: [figures/18-4/data/clean/figure_18_4_weighted_successor.csv](figures/18-4/data/clean/figure_18_4_weighted_successor.csv)
+- Weighting diagnostic clean: [figures/18-4/data/clean/figure_18_4_weighting_diagnostic.csv](figures/18-4/data/clean/figure_18_4_weighting_diagnostic.csv)
+- Original report tables clean: [figures/18-4/data/clean/figure_18_4_original_report_tables.csv](figures/18-4/data/clean/figure_18_4_original_report_tables.csv)
+- Report diagnostic clean: [figures/18-4/data/clean/figure_18_4_report_diagnostic.csv](figures/18-4/data/clean/figure_18_4_report_diagnostic.csv)
+- Original report: [figures/18-4/data/raw/GSS_PsyWellBeing15_final_formatted.pdf](figures/18-4/data/raw/GSS_PsyWellBeing15_final_formatted.pdf)
+- Remediation review: [figures/18-4/remediation_2026_09_11.md](figures/18-4/remediation_2026_09_11.md)
 - Metadata: [figures/18-4/figure.json](figures/18-4/figure.json)
 - Original reference: [references/figures/figure_18_4.png](references/figures/figure_18_4.png)
 - Book period reconstruction: [figures/18-4/plots/book_period/figure_18_4_book_period.png](figures/18-4/plots/book_period/figure_18_4_book_period.png)

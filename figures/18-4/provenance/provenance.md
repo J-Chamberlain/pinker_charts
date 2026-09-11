@@ -1,5 +1,9 @@
 # Figure 18-4 provenance
 
+Current transformations and report-table extraction are in
+[the September 11 remediation](../remediation_2026_09_11.md), superseding the
+vintage-only explanation below. Book candidate: unweighted. Successor: WTSSPS.
+
 ## Book evidence
 
 - Title: `Happiness and excitement, US, 1972-2016`.

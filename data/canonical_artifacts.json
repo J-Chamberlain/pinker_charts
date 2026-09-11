@@ -4905,6 +4905,30 @@
     "scientific_status": "updated_equivalent",
     "artifact_kind": "reconstruction",
     "artifacts": {
+      "weighted_successor_clean": {
+        "path": "figures/18-4/data/clean/figure_18_4_weighted_successor.csv",
+        "sha256": "81b46626ea58244dc73712cb58c2ec947827daa4b0ee02e17508bc9c401b48ec"
+      },
+      "weighting_diagnostic_clean": {
+        "path": "figures/18-4/data/clean/figure_18_4_weighting_diagnostic.csv",
+        "sha256": "b5705a021b524bc3895f89eb956f66769156939b9cfc9d17c6176f4bc75b3ee6"
+      },
+      "original_report_tables_clean": {
+        "path": "figures/18-4/data/clean/figure_18_4_original_report_tables.csv",
+        "sha256": "e14c0c6ed7d79ac64d69eadf030424a17513c0f16bc2c03ba040b66f46adbb73"
+      },
+      "report_diagnostic_clean": {
+        "path": "figures/18-4/data/clean/figure_18_4_report_diagnostic.csv",
+        "sha256": "dc1e8f23c6786e4f5b49b37da87d31a05ac2ba88e31888f49e22c86254f35f78"
+      },
+      "original_report": {
+        "path": "figures/18-4/data/raw/GSS_PsyWellBeing15_final_formatted.pdf",
+        "sha256": "51a82fdf3e46b19dde98a119c08204b503cb593e72016059459c32e537ae0dd9"
+      },
+      "remediation_review": {
+        "path": "figures/18-4/remediation_2026_09_11.md",
+        "sha256": "5772002a71fe3d77904b762f36e4da96214fd6caa0b0550407c8eee101277865"
+      },
       "metadata": {
         "path": "figures/18-4/figure.json",
         "self": true
@@ -4915,15 +4939,15 @@
       },
       "book_period_reconstruction": {
         "path": "figures/18-4/plots/book_period/figure_18_4_book_period.png",
-        "sha256": "e4d57c7e0291d2bc3b1f59e1993f9936c374e8baba6cb6e450b9d4b158cb6cbd"
+        "sha256": "91138d7eeb047cfd6b4045e137a82c0994c6c42d5aa18ec953879c428470b7c4"
       },
       "extended_reconstruction": {
         "path": "figures/18-4/plots/extended/figure_18_4_extended.png",
-        "sha256": "c5c9dab75cabaee0f14faa308e0c61c97651800de3490fdec8b1d36f64a3f036"
+        "sha256": "01363f8514fc19ea6d4d895dd225e9eae45234b235633014776cb4bc4fcf8a54"
       },
       "book_period_clean": {
         "path": "figures/18-4/data/clean/figure_18_4_gss_summary.csv",
-        "sha256": "72c65d74ff015919e0a22f8242fd57278b566c3041f92f876e54cf35218265a9"
+        "sha256": "4d16c7ac26ed25c7218033e14e018ab2778801461e0db6993b7b9da1d7278b05"
       },
       "raw_source": {
         "path": "figures/18-4/data/raw/GSS_stata.zip",
@@ -4931,39 +4955,39 @@
       },
       "book_period_comparison": {
         "path": "figures/18-4/plots/comparisons/figure_18_4_book_period_review.png",
-        "sha256": "f6883e1853711559224b2f926309ea4bde932030889b404cd3e595ad34801774"
+        "sha256": "58a36f5ccfe31e1acd0c0f0bbdd5ae57f280da037f8b1fc3fb1e25e33552918c"
       },
       "extended_comparison": {
         "path": "figures/18-4/plots/comparisons/figure_18_4_extended_review.png",
-        "sha256": "e144a844d36030a11d1bf232a60530731b4c3b1a37bb042cdba65b261fb9fa75"
+        "sha256": "abf6cd91f40b0e5386db3564ac0800bc50231d27630ee9d562ed9ab8ea755fd1"
       },
       "caption": {
         "path": "figures/18-4/captions/caption.txt",
-        "sha256": "2e6fb6e201735c1ac959f31402f1fb4b09356d327cb97b33c7453ae7cea1d159"
+        "sha256": "613916f669ff71a3cd786123441de316af0a865c8c825b3a511366aca96cf8b9"
       },
       "provenance": {
         "path": "figures/18-4/provenance/provenance.md",
-        "sha256": "76b0f4a9db76610934db8d688b8d8e3d63dc4d609f3123bde1318657ffc1f034"
+        "sha256": "b6952192c4dbfc1aa10af8a3fad6365616af2f247ba420847ae35340e3033b4b"
       },
       "source_log": {
         "path": "figures/18-4/source_logs/source_log.md",
-        "sha256": "bca0ccbf0a40d4674a3998e4e621bbaa7d3348d31c8acfb6ba41b8b1705884b2"
+        "sha256": "b05952fc83f1d5051fe6e7ad0a4ed5082c02d309a424b4fb2e382c67be1ce9b7"
       },
       "search_log": {
         "path": "figures/18-4/search_iterations/search_iterations.md",
-        "sha256": "e25f35362cb6d69ad92cb328c4acf9f6754193bb66f7b821cd1182f73408e88d"
+        "sha256": "805b3ab74bd7661deb35a78da5d0ce55c7831bc100e0cffa1c00826275736d0c"
       },
       "anomaly_review": {
         "path": "figures/18-4/anomaly_reviews/anomaly_review.md",
-        "sha256": "fd79380ec49586a1be270682fedff78be9ef4b114600ff98ed1b342f46333d32"
+        "sha256": "8e1db7df35ec6659713042995dae1985a106a3df10fd00e0a67251adfc5e28cf"
       },
       "discrepancy_log": {
         "path": "figures/18-4/discrepancy_logs/discrepancy_log.md",
-        "sha256": "15c3f3309ac17dab7740f1214573349be5ada228b4bb2de748ddc92906368af5"
+        "sha256": "68464fc27a89bb2eb06cae9005f64d1c61ce5b44e314e99267c0fe9cb34037a4"
       },
       "review_checklist": {
         "path": "figures/18-4/review_checklist.md",
-        "sha256": "0985fd25404d5ecec7dd82ea2c19f29f9208199619e059e8dbd3119b08ebb52a"
+        "sha256": "7c32c0b25dd337f588f02d595dcc294294c549346bb8506079613b2d1ff4a8ff"
       },
       "lineage": {
         "path": "figures/18-4/lineage/lineage.json",
@@ -4971,7 +4995,7 @@
       },
       "reconstruction_script": {
         "path": "scripts/reconstruct_18_4.py",
-        "sha256": "9966365d988339f20b780ca4e0211be18ec128d29392ad2bbd02f1d64354081b"
+        "sha256": "2484f08cd5c666f7789ccbc382c4525a4c58e5de47ce664c1276c973386dec86"
       }
     }
   },

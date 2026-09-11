@@ -6,3 +6,8 @@
 4. Downloaded and hashed the release; inspected the needed `year`, `happy`, and `life` columns.
 5. Compared current-release calculations with the report's indexed tables. The shape matches, but exact values differ modestly.
 6. Did not use chart digitization or plotted values. Exact historical extraction remains a targeted follow-up.
+# September 11 iteration
+
+Recovered original report from documented NORC URL; extracted numeric tables,
+computed three estimator variants, fixed plots and inspected both comparisons.
+Exact export unresolved. Details: ../remediation_2026_09_11.md.

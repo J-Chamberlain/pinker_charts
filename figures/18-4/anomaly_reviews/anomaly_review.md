@@ -1,5 +1,9 @@
 # Figure 18-4 anomaly review
 
+**Superseded September 11:** the historical review below missed clipped later
+years and misexplained artificial gaps. Current review:
+[remediation_2026_09_11.md](../remediation_2026_09_11.md).
+
 ## Editorial and scientific review
 
 - **Critical:** none. The stored reference, reconstruction, and both real comparison images exist.

@@ -7,6 +7,12 @@ Publication: `not_reviewed`. Artifact kind: `reconstruction`.
 This generated summary and [figure.json](figure.json) supersede historical status claims below.
 A historical verified classification is not a fresh publication review.
 
+- Weighted successor clean: [data/clean/figure_18_4_weighted_successor.csv](data/clean/figure_18_4_weighted_successor.csv)
+- Weighting diagnostic clean: [data/clean/figure_18_4_weighting_diagnostic.csv](data/clean/figure_18_4_weighting_diagnostic.csv)
+- Original report tables clean: [data/clean/figure_18_4_original_report_tables.csv](data/clean/figure_18_4_original_report_tables.csv)
+- Report diagnostic clean: [data/clean/figure_18_4_report_diagnostic.csv](data/clean/figure_18_4_report_diagnostic.csv)
+- Original report: [data/raw/GSS_PsyWellBeing15_final_formatted.pdf](data/raw/GSS_PsyWellBeing15_final_formatted.pdf)
+- Remediation review: [remediation_2026_09_11.md](remediation_2026_09_11.md)
 - Metadata: [figure.json](figure.json)
 - Original reference: [../../references/figures/figure_18_4.png](../../references/figures/figure_18_4.png)
 - Book period reconstruction: [plots/book_period/figure_18_4_book_period.png](plots/book_period/figure_18_4_book_period.png)

@@ -35,3 +35,11 @@ The exact weighting, filtering, and project configuration used for the book's 20
 ## Recommended next step
 
 Recover the archived 2015 report data tables or the NORC Data Explorer project export, then compare its exact series with the current cumulative release.
+# September 11 targeted recovery
+
+Downloaded official report from
+https://www.norc.org/content/dam/norc-org/pdfs/GSS_PsyWellBeing15_final_formatted.pdf.
+Accepted tables 1/5 as numerical diagnostic evidence, not proof of book export.
+Compared retained GSS unweighted, WTSSALL and WTSSPS estimates; see
+../remediation_2026_09_11.md. Reviewed https://gss.norc.org/faq.html and
+https://gss.norc.org/get-the-data.html for weights and mode changes.

@@ -1307,8 +1307,8 @@
     "source_type_guess": "survey_or_governance_dataset",
     "priority": "high",
     "current_owner": "unassigned",
-    "next_action": "Recover the exact 2015/2016 GSS release or NORC Data Explorer export and compare point-for-point.",
-    "notes": "Official NORC cumulative GSS Stata release recovered and used for a source-driven reconstruction. Current release is not proven identical to the book's 2015/2016 extract; LIFE is sparse by survey year. Both real reference comparisons were inspected.",
+    "next_action": "Recover original Data Explorer configuration; investigate 1982/1987 report discrepancies before any verified claim.",
+    "notes": "September 11 remediation removed clipped extension and artificial line gaps. Book candidate remains explicitly unweighted; WTSSPS successor is separate, with no bridge across 2018/2021 mode change. Original report numeric tables and weighting diagnostics retained. Prior visual-review account is superseded.",
     "execution_status": "processed",
     "publication_status": "not_reviewed",
     "artifact_kind": "reconstruction"
