@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://eprints.qut.edu.au/124698/1/Clark_decling%20loneliness.pdf",
+    "path": "figures/18-2/data/raw/Clark_declining_loneliness_accepted.pdf",
+    "retrieved_at": "2026-09-11T10:16:29.447673+00:00",
+    "http_status": 200,
+    "final_url": "https://eprints.qut.edu.au/124698/1/Clark_decling%20loneliness.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "21a5bab167485175d888aec7db03c8c58e46ab89ec45b244bec7ea78624037eb",
+    "bytes": 352672
+  },
+  {
+    "url": "https://journals.sagepub.com/doi/suppl/10.1177/0146167214557007/suppl_file/10.1177_0146167214557007_online_supplementary_material_1.pdf",
+    "path": "figures/18-2/data/raw/sage_supplement_1.pdf",
+    "retrieved_at": "2026-09-11T10:20:11.124537+00:00",
+    "http_status": 403,
+    "final_url": "https://journals.sagepub.com/doi/suppl/10.1177/0146167214557007/suppl_file/10.1177_0146167214557007_online_supplementary_material_1.pdf",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/suppl/10.1177/0146167214557007/suppl_file/10.1177_0146167214557007_online_supplementary_material_1.pdf"
+  }
+]

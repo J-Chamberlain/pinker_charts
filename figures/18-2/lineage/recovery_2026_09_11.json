@@ -1,0 +1,34 @@
+[
+  {
+    "figure_id": "18-2",
+    "book_citation": "Clark, Loxton, & Tobin 2015. College students (left axis): Revised UCLA Loneliness Scale, trend line across many samples, taken from their fig. 1. High school students (right axis): Mean rating of six loneliness items from the Monitoring the Future survey, triennial means, taken from their fig. 4.",
+    "source_urls": [
+      "https://eprints.qut.edu.au/124698/1/Clark_decling%20loneliness.pdf"
+    ],
+    "download_evidence": "figures/18-2/data/raw/",
+    "clean_file": "figures/18-2/data/clean/figure_18_2_college_fitted_line.csv",
+    "clean_sha256": "11906d46c0c509ecb6b2793fef291d02ce8f2b517edb3f238d5c48e89aba9606",
+    "transformation_script": "scripts/reconstruct_18_2.py",
+    "script_sha256": "c756899b4d6862c8e76bad88746a4709428841eca6a2c1b968ac57bf0411e081",
+    "output_candidates": [
+      "figures/18-2/plots/book_period/figure_18_2_book_period.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  },
+  {
+    "figure_id": "18-2",
+    "book_citation": "Clark, Loxton, & Tobin 2015. College students (left axis): Revised UCLA Loneliness Scale, trend line across many samples, taken from their fig. 1. High school students (right axis): Mean rating of six loneliness items from the Monitoring the Future survey, triennial means, taken from their fig. 4.",
+    "source_urls": [
+      "https://eprints.qut.edu.au/124698/1/Clark_decling%20loneliness.pdf"
+    ],
+    "download_evidence": "figures/18-2/data/raw/",
+    "clean_file": "figures/18-2/data/clean/figure_18_2_published_coefficients.csv",
+    "clean_sha256": "1befc16ad97438a75a6aa5f344e2b8441865d358d13a10fd98ecff588747c4f2",
+    "transformation_script": "scripts/reconstruct_18_2.py",
+    "script_sha256": "c756899b4d6862c8e76bad88746a4709428841eca6a2c1b968ac57bf0411e081",
+    "output_candidates": [
+      "figures/18-2/plots/book_period/figure_18_2_book_period.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  }
+]

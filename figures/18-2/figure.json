@@ -9,16 +9,16 @@
   "source_type_guess": "academic_meta_analysis_and_survey_dataset",
   "priority": "high",
   "current_owner": "unassigned",
-  "scientific_status": "needs_targeted_source_recovery",
+  "scientific_status": "partial_match",
   "execution_status": "blocked",
   "publication_status": "incomplete",
-  "lifecycle_stage": "source_recovery",
-  "next_action": "Obtain Clark et al. supplementary/author data and recover the MTF public-use item files and codebooks needed to reproduce the six-item triennial high-school series.",
-  "notes": "The paper and official MTF distribution route are resolved. The figure combines a 48-sample Revised UCLA college meta-analysis with a six-item MTF high-school series on separate half-standard-deviation axes. No plotted values were digitized and no proxy reconstruction was drawn.",
-  "artifact_kind": "source_recovery",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover final supplementary tables, then harmonize MTF grade/form files if necessary.",
+  "notes": "Published college regression coefficients recovered; school-grade components still missing.",
+  "artifact_kind": "reconstruction",
   "book_citation": "Clark, Loxton, & Tobin 2015. College students (left axis): Revised UCLA Loneliness Scale, trend line across many samples, taken from their fig. 1. High school students (right axis): Mean rating of six loneliness items from the Monitoring the Future survey, triennial means, taken from their fig. 4.",
   "status_evidence": {
-    "basis": "exact cited paper and official MTF source family identified; both numeric components not yet recovered",
+    "basis": "Published college regression coefficients recovered; school-grade components still missing.",
     "source_chain": [
       "Pinker Figure 18-2",
       "Clark, Loxton, and Tobin (2015), Figures 1 and 4",
@@ -26,21 +26,33 @@
       "Monitoring the Future six loneliness items",
       "ICPSR public-use survey files"
     ],
-    "blocker": "Publisher supplementary files returned HTTP 403 and the exact college data are not exposed in the accessible record. MTF files are public but the six-item form/grade harmonization and triennial aggregation are not yet reconstructed."
+    "blocker": "Recover final supplementary tables, then harmonize MTF grade/form files if necessary."
   },
   "visual_review": {
-    "status": "pending",
+    "status": "inspected",
     "reference_basis": "original",
-    "inspected_artifacts": [],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_18_2.png",
+        "sha256": "7ba9a500e094c2c2e7195ca4d507e7d14821b91901eab1c4c6963fb78eb95090"
+      },
+      {
+        "path": "figures/18-2/plots/book_period/figure_18_2_book_period.png",
+        "sha256": "ee749f5831fa41a43f2606a9605c15e31667c8c304c8a41d41b082c1cccb3d81"
+      },
+      {
+        "path": "figures/18-2/plots/comparisons/figure_18_2_book_period_review.png",
+        "sha256": "eabbfb04cbc621df24c41d3b909ada4540e1b77c526b9985cfbb66a3831d93de"
+      }
+    ],
     "issues": [
-      "No legitimate complete reconstruction exists",
-      "No book-period comparison can be generated",
-      "No extension can be evaluated"
+      "Three school-grade curves absent",
+      "Published rounded fit differs slightly in level/date placement"
     ]
   },
   "extension": {
-    "status": "not_attempted",
-    "notes": "Do not add a successor loneliness series until the two book-period source components are reconstructed."
+    "status": "unavailable",
+    "notes": "No compatible later meta-analysis or six-item school-grade series recovered."
   },
   "research": {
     "book_page": "",
@@ -48,8 +60,8 @@
     "original_dataset": "Clark et al. (2015) college cross-temporal meta-analysis and Monitoring the Future repeated cross-sectional survey data for six loneliness items.",
     "dataset_url": "https://www.icpsr.umich.edu/sites/icpsr/view/collections/35",
     "archive_url": "https://journals.sagepub.com/doi/10.1177/0146167214557007",
-    "download_date": "2026-09-10",
-    "confidence_score": "high for source chain; low for numeric recovery"
+    "download_date": "2026-09-11",
+    "confidence_score": "medium; see September 11 audit"
   },
   "reference": {
     "figure_id": "18-2",
@@ -80,7 +92,7 @@
     "caption_ocr": "Figure 18-2: Loneliness, US students, 1978-2011",
     "source_note_ocr": "Clark, Loxton, & Tobin 2015. College students (left axis): Revised UCLA Loneliness Scale, trend line across many samples, taken from their fig. 1. High school students (right axis): Mean rating of six loneliness items from the Monitoring the Future survey, triennial means, taken from their fig. 4. Each axis spans half a standard deviation, so the slopes of the college and high school curves are commensurable, but their relative heights are not.",
     "source_note_validation": "machine_extracted_and_source_reviewed",
-    "visual_review": "original_reference_inspected_no_reconstruction"
+    "visual_review": "reference_and_comparison_inspected"
   },
   "artifacts": {
     "metadata": {
@@ -93,31 +105,63 @@
     },
     "provenance": {
       "path": "figures/18-2/provenance/provenance.md",
-      "sha256": "44a49c0ae2f0a6e65873916c8b3f5ae1a9c0cbf6f016879f25a7b96880e432cc"
+      "sha256": "4e4d87f55a311b55a667355f7a4438675b01bf3c862ebc4a832681b0947d50d2"
     },
     "source_log": {
       "path": "figures/18-2/source_logs/source_log.md",
-      "sha256": "2cd337c4783ade7144bd10b3134b876d5a00900c42e3fe409ac2348ecb0e5d57"
+      "sha256": "d4febb7437ab1a632f0af7c531f8bc0c69a52218e8c23587f35079cff047eaf6"
     },
     "search_log": {
       "path": "figures/18-2/search_iterations/search_iterations.md",
-      "sha256": "3861265b4285a5636605c585ae97e1554bfb78e814eda65a7b81438be5dbec0b"
+      "sha256": "e3f6ba304c9d8866fb23e45c400e2d0cd824867a92e995b222c62a4181d8f4a5"
     },
     "anomaly_review": {
       "path": "figures/18-2/anomaly_reviews/anomaly_review.md",
-      "sha256": "64b9c4848c3be2abd903b98a1c618ac27def299922227ab125eada51c6cdd214"
+      "sha256": "116e0db02e8b412d8dfb6e4cd72708ee457898c4a0b67f2605eb169b92749646"
     },
     "discrepancy_log": {
       "path": "figures/18-2/discrepancy_logs/discrepancy_log.md",
-      "sha256": "64e779fa4306e9c645beb5c8cfd2e6384772e955fb210e967fbb6a60e5dbef16"
+      "sha256": "91c64b7b98fce04d3571bf6c36e8a6bc80f6ebd2180ad26d1e0bd22d3464714f"
     },
     "review_checklist": {
       "path": "figures/18-2/review_checklist.md",
-      "sha256": "f619dec5044e13dbda87953acc4c4afbfb96c29dc9dd55e95e79f7156d5e1f48"
+      "sha256": "f4708a70d45f62b25afb0b04981f910e75940ece94238a772764c90deadc70f9"
     },
     "caption": {
       "path": "figures/18-2/captions/caption.txt",
-      "sha256": "75176f07dfab7ea5408f73ff9e5ace9ce64f52ca545e8a2269acbcc1592b7a1b"
+      "sha256": "26d96e3f57993f2b97960e010ca33fbe32282ad4a19eac2e7debbc429fc003c5"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_18_2.py",
+      "sha256": "c756899b4d6862c8e76bad88746a4709428841eca6a2c1b968ac57bf0411e081"
+    },
+    "remediation_review": {
+      "path": "figures/18-2/remediation_2026_09_11.md",
+      "sha256": "c0c0bdc218dc39314c4fd32112d72e712c40630113205994eb5c4279ee6e5ce7"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/18-2/plots/book_period/figure_18_2_book_period.png",
+      "sha256": "ee749f5831fa41a43f2606a9605c15e31667c8c304c8a41d41b082c1cccb3d81"
+    },
+    "book_period_comparison": {
+      "path": "figures/18-2/plots/comparisons/figure_18_2_book_period_review.png",
+      "sha256": "eabbfb04cbc621df24c41d3b909ada4540e1b77c526b9985cfbb66a3831d93de"
+    },
+    "clean_figure_18_2_college_fitted_line": {
+      "path": "figures/18-2/data/clean/figure_18_2_college_fitted_line.csv",
+      "sha256": "11906d46c0c509ecb6b2793fef291d02ce8f2b517edb3f238d5c48e89aba9606"
+    },
+    "clean_figure_18_2_published_coefficients": {
+      "path": "figures/18-2/data/clean/figure_18_2_published_coefficients.csv",
+      "sha256": "1befc16ad97438a75a6aa5f344e2b8441865d358d13a10fd98ecff588747c4f2"
+    },
+    "recovery_lineage_json": {
+      "path": "figures/18-2/lineage/recovery_2026_09_11.json",
+      "sha256": "3847094c4f57257ff7ff94bf23424b94ccfd8e5f266b57e61f083352ff721531"
+    },
+    "recovery_lineage_csv": {
+      "path": "figures/18-2/lineage/recovery_2026_09_11.csv",
+      "sha256": "b5f7f4ee16dc14a1b6610013bc5ff9c258e02affe185c2c640fd02dc3fc348dc"
     }
   }
 }
