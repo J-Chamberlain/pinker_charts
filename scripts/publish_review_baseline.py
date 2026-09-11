@@ -1,17 +1,52 @@
 """Package hash-verified comparison pages into a local gallery and review PDF."""
 import html
 import json
+import argparse
+import subprocess
 from pathlib import Path
 
 from PIL import Image
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.lib.utils import ImageReader
 
-from project_state import ROOT, dumps, safe_path, sha
+from project_state import ROOT, dumps, safe_path, sha, read_records
 
 
-def main():
+def collect_existing(root=ROOT):
+    """Refresh the gallery without regenerating already inspected comparisons."""
+    entries, excluded = [], []
+    for record in read_records(root):
+        if record["artifact_kind"] != "reconstruction":
+            excluded.append({"figure_id": record["figure_id"], "reason": record["artifact_kind"]})
+            continue
+        artifacts = record["artifacts"]
+        comparisons = []
+        for mode in ["book_period", "extended"]:
+            comparison = artifacts.get(mode + "_comparison")
+            reconstruction = artifacts.get(mode + "_reconstruction")
+            if not comparison or not reconstruction:
+                continue
+            reference = artifacts["original_reference"]
+            for artifact in [comparison, reconstruction, reference]:
+                if sha(safe_path(root, artifact["path"])) != artifact["sha256"]:
+                    raise ValueError(f"Unreviewed artifact change: {artifact['path']}")
+            comparisons.append({"mode": mode, **comparison, "reference": reference,
+                                "reconstruction": reconstruction,
+                                "display_viewport": record.get("comparison_viewports", {}).get(mode)})
+        if comparisons:
+            entries.append({"figure_id": record["figure_id"],
+                            "scientific_status": record["scientific_status"], "comparisons": comparisons})
+    return {"schema_version": 1,
+            "baseline_commit": subprocess.check_output(["git", "-C", str(root), "rev-parse", "HEAD"], text=True).strip(),
+            "notice": "Existing hash-verified comparisons; not publication approval. Missing extensions omitted, not fabricated.",
+            "figure_count": len(entries), "comparison_count": sum(len(e["comparisons"]) for e in entries),
+            "figures": entries, "excluded": excluded}
+
+
+def main(refresh_manifest=False):
     source = ROOT / "reports/review_baseline/manifest.json"
+    if refresh_manifest:
+        source.write_text(dumps(collect_existing()))
     manifest = json.loads(source.read_text())
     output = ROOT / "output/pdf"
     output.mkdir(parents=True, exist_ok=True)
@@ -49,4 +84,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--refresh-manifest", action="store_true",
+                        help="Use current canonical comparison paths/hashes; do not regenerate images")
+    main(parser.parse_args().refresh_manifest)

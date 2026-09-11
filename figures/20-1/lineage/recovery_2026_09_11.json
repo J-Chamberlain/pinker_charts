@@ -1,0 +1,19 @@
+[
+  {
+    "figure_id": "20-1",
+    "book_citation": "Trump: Edison Research exit polls, New York Times 2016. Brexit: Lord Ashcroft Polls, BBC News Magazine, June 24, 2016. European populist parties (2002-2014): Inglehart & Norris 2016, fig. 8. Data for each birth cohort are plotted at the midpoint of their range.",
+    "source_urls": [
+      "https://lordashcroftpolls.com/wp-content/uploads/2016/06/How-the-UK-voted-Full-tables-1.pdf",
+      "https://ropercenter.cornell.edu/how-groups-voted-2016"
+    ],
+    "download_evidence": "figures/20-1/data/raw/",
+    "clean_file": "figures/20-1/data/clean/figure_20_1_poll_components.csv",
+    "clean_sha256": "27a335b9fcc4907897415a465705cfd48a4296637f4848d66b5d17de3936af22",
+    "transformation_script": "scripts/reconstruct_20_1.py",
+    "script_sha256": "6b4defaea6990a1646541e82f2f5f75ea9d40ba66632105f39d9a2b7182e9112",
+    "output_candidates": [
+      "figures/20-1/plots/book_period/figure_20_1_book_period.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  }
+]

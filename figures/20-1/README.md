@@ -22,6 +22,8 @@ A historical verified classification is not a fresh publication review.
 - Caption: [captions/caption.txt](captions/caption.txt)
 - Review checklist: [review_checklist.md](review_checklist.md)
 - Source materials: [data/raw/source_sha256sums.txt](data/raw/source_sha256sums.txt)
+- Recovery lineage json: [lineage/recovery_2026_09_11.json](lineage/recovery_2026_09_11.json)
+- Recovery lineage csv: [lineage/recovery_2026_09_11.csv](lineage/recovery_2026_09_11.csv)
 
 <!-- canonical-state:end -->
 

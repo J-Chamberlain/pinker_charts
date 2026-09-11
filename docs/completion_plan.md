@@ -4,6 +4,13 @@ Approved direction: 2026-09-09.
 Plan version: 1.0.
 Current checkpoint: owner authorized direct in-task production and set API orchestration aside. Consolidation and the reusable data library are established; complete figures and data lineage directly, retaining scientific and editorial checks.
 
+September 11 targeted-recovery checkpoint: [five-figure recovery report](../reports/targeted_recovery_2026_09_11.md).
+18-1 original numerical cache, 18-2 college fit, 18-3 mortality components and
+20-1 poll components now support partial reconstructions. 18-4's weighted successor
+and mode break are visible. No new verified status or publication acceptance is
+claimed. Seven real comparisons were inspected; remaining data/access/rights work
+is specified per figure. No paid model APIs or outreach were used.
+
 This is the canonical execution plan approved by the project owner. It records
 the route from the fragmented July project state to a reproducible research
 release. Read [PROJECT_STATE.md](../PROJECT_STATE.md) first, then this plan.

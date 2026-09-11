@@ -42,8 +42,8 @@ Update the canonical record and regenerate its views whenever an artifact change
 | --- | ---: |
 | blocked_external_source | 1 |
 | manual_review_needed | 4 |
-| needs_targeted_source_recovery | 6 |
-| partial_match | 36 |
+| needs_targeted_source_recovery | 3 |
+| partial_match | 39 |
 | source_chain_recovered | 2 |
 | source_unavailable | 1 |
 | updated_equivalent | 11 |
@@ -122,9 +122,9 @@ Update the canonical record and regenerate its views whenever an artifact change
 | 17-6 | Leisure time, US, 1965-2015 | partial_match | processed | incomplete |
 | 17-7 | Cost of air travel, US, 1979-2015 | needs_targeted_source_recovery | blocked | incomplete |
 | 17-8 | International tourism, 1995-2015 | partial_match | processed | incomplete |
-| 18-1 | Life satisfaction and income, 2006 | needs_targeted_source_recovery | blocked | incomplete |
-| 18-2 | Loneliness, US students, 1978-2011 | needs_targeted_source_recovery | blocked | incomplete |
-| 18-3 | Suicide, England, Switzerland, and US, 1860-2014 | needs_targeted_source_recovery | blocked | incomplete |
+| 18-1 | Life satisfaction and income, 2006 | partial_match | blocked | incomplete |
+| 18-2 | Loneliness, US students, 1978-2011 | partial_match | blocked | incomplete |
+| 18-3 | Suicide, England, Switzerland, and US, 1860-2014 | partial_match | blocked | incomplete |
 | 18-4 | Happiness and excitement, US, 1972-2016 | updated_equivalent | processed | not_reviewed |
 | 19-1 | Nuclear weapons, 1945-2015 | partial_match | blocked | not_reviewed |
 | 20-1 | Populist support across generations, 2016 | partial_match | blocked | incomplete |
@@ -1567,7 +1567,7 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 
 ### Figure 18-1 - Life satisfaction and income, 2006
 
-Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
+Status: `partial_match`. Artifact kind: `reconstruction`.
 
 - Metadata: [figures/18-1/figure.json](figures/18-1/figure.json)
 - Original reference: [references/figures/figure_18_1.png](references/figures/figure_18_1.png)
@@ -1579,10 +1579,19 @@ Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
 - Review checklist: [figures/18-1/review_checklist.md](figures/18-1/review_checklist.md)
 - Caption: [figures/18-1/captions/caption.txt](figures/18-1/captions/caption.txt)
 - Archive evidence: [figures/18-1/data/raw/replication_archive/archive_manifest.txt](figures/18-1/data/raw/replication_archive/archive_manifest.txt)
+- Reconstruction script: [scripts/reconstruct_18_1.py](scripts/reconstruct_18_1.py)
+- Remediation review: [figures/18-1/remediation_2026_09_11.md](figures/18-1/remediation_2026_09_11.md)
+- Book period reconstruction: [figures/18-1/plots/book_period/figure_18_1_book_period.png](figures/18-1/plots/book_period/figure_18_1_book_period.png)
+- Book period comparison: [figures/18-1/plots/comparisons/figure_18_1_book_period_review.png](figures/18-1/plots/comparisons/figure_18_1_book_period_review.png)
+- Clean figure 18 1 original country inputs: [figures/18-1/data/clean/figure_18_1_original_country_inputs.csv](figures/18-1/data/clean/figure_18_1_original_country_inputs.csv)
+- Clean figure 18 1 original fit: [figures/18-1/data/clean/figure_18_1_original_fit.csv](figures/18-1/data/clean/figure_18_1_original_fit.csv)
+- Original numerical cache: [figures/18-1/data/raw/original_fig11.gph](figures/18-1/data/raw/original_fig11.gph)
+- Recovery lineage json: [figures/18-1/lineage/recovery_2026_09_11.json](figures/18-1/lineage/recovery_2026_09_11.json)
+- Recovery lineage csv: [figures/18-1/lineage/recovery_2026_09_11.csv](figures/18-1/lineage/recovery_2026_09_11.csv)
 
 ### Figure 18-2 - Loneliness, US students, 1978-2011
 
-Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
+Status: `partial_match`. Artifact kind: `reconstruction`.
 
 - Metadata: [figures/18-2/figure.json](figures/18-2/figure.json)
 - Original reference: [references/figures/figure_18_2.png](references/figures/figure_18_2.png)
@@ -1593,10 +1602,18 @@ Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
 - Discrepancy log: [figures/18-2/discrepancy_logs/discrepancy_log.md](figures/18-2/discrepancy_logs/discrepancy_log.md)
 - Review checklist: [figures/18-2/review_checklist.md](figures/18-2/review_checklist.md)
 - Caption: [figures/18-2/captions/caption.txt](figures/18-2/captions/caption.txt)
+- Reconstruction script: [scripts/reconstruct_18_2.py](scripts/reconstruct_18_2.py)
+- Remediation review: [figures/18-2/remediation_2026_09_11.md](figures/18-2/remediation_2026_09_11.md)
+- Book period reconstruction: [figures/18-2/plots/book_period/figure_18_2_book_period.png](figures/18-2/plots/book_period/figure_18_2_book_period.png)
+- Book period comparison: [figures/18-2/plots/comparisons/figure_18_2_book_period_review.png](figures/18-2/plots/comparisons/figure_18_2_book_period_review.png)
+- Clean figure 18 2 college fitted line: [figures/18-2/data/clean/figure_18_2_college_fitted_line.csv](figures/18-2/data/clean/figure_18_2_college_fitted_line.csv)
+- Clean figure 18 2 published coefficients: [figures/18-2/data/clean/figure_18_2_published_coefficients.csv](figures/18-2/data/clean/figure_18_2_published_coefficients.csv)
+- Recovery lineage json: [figures/18-2/lineage/recovery_2026_09_11.json](figures/18-2/lineage/recovery_2026_09_11.json)
+- Recovery lineage csv: [figures/18-2/lineage/recovery_2026_09_11.csv](figures/18-2/lineage/recovery_2026_09_11.csv)
 
 ### Figure 18-3 - Suicide, England, Switzerland, and US, 1860-2014
 
-Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
+Status: `partial_match`. Artifact kind: `reconstruction`.
 
 - Metadata: [figures/18-3/figure.json](figures/18-3/figure.json)
 - Original reference: [references/figures/figure_18_3.png](references/figures/figure_18_3.png)
@@ -1607,6 +1624,19 @@ Status: `needs_targeted_source_recovery`. Artifact kind: `source_recovery`.
 - Discrepancy log: [figures/18-3/discrepancy_logs/discrepancy_log.md](figures/18-3/discrepancy_logs/discrepancy_log.md)
 - Review checklist: [figures/18-3/review_checklist.md](figures/18-3/review_checklist.md)
 - Caption: [figures/18-3/captions/caption.txt](figures/18-3/captions/caption.txt)
+- Reconstruction script: [scripts/reconstruct_18_3.py](scripts/reconstruct_18_3.py)
+- Remediation review: [figures/18-3/remediation_2026_09_11.md](figures/18-3/remediation_2026_09_11.md)
+- Book period reconstruction: [figures/18-3/plots/book_period/figure_18_3_book_period.png](figures/18-3/plots/book_period/figure_18_3_book_period.png)
+- Book period comparison: [figures/18-3/plots/comparisons/figure_18_3_book_period_review.png](figures/18-3/plots/comparisons/figure_18_3_book_period_review.png)
+- Extended reconstruction: [figures/18-3/plots/extended/figure_18_3_extended.png](figures/18-3/plots/extended/figure_18_3_extended.png)
+- Extended comparison: [figures/18-3/plots/comparisons/figure_18_3_extended_review.png](figures/18-3/plots/comparisons/figure_18_3_extended_review.png)
+- Clean figure 18 3 swiss alternative: [figures/18-3/data/clean/figure_18_3_swiss_alternative.csv](figures/18-3/data/clean/figure_18_3_swiss_alternative.csv)
+- Clean figure 18 3 us 1999 2014: [figures/18-3/data/clean/figure_18_3_us_1999_2014.csv](figures/18-3/data/clean/figure_18_3_us_1999_2014.csv)
+- Clean figure 18 3 us historical: [figures/18-3/data/clean/figure_18_3_us_historical.csv](figures/18-3/data/clean/figure_18_3_us_historical.csv)
+- Clean figure 18 3 us revision diagnostic: [figures/18-3/data/clean/figure_18_3_us_revision_diagnostic.csv](figures/18-3/data/clean/figure_18_3_us_revision_diagnostic.csv)
+- Clean figure 18 3 us successor: [figures/18-3/data/clean/figure_18_3_us_successor.csv](figures/18-3/data/clean/figure_18_3_us_successor.csv)
+- Recovery lineage json: [figures/18-3/lineage/recovery_2026_09_11.json](figures/18-3/lineage/recovery_2026_09_11.json)
+- Recovery lineage csv: [figures/18-3/lineage/recovery_2026_09_11.csv](figures/18-3/lineage/recovery_2026_09_11.csv)
 
 ### Figure 18-4 - Happiness and excitement, US, 1972-2016
 
@@ -1635,6 +1665,8 @@ Status: `updated_equivalent`. Artifact kind: `reconstruction`.
 - Review checklist: [figures/18-4/review_checklist.md](figures/18-4/review_checklist.md)
 - Lineage: [figures/18-4/lineage/lineage.json](figures/18-4/lineage/lineage.json)
 - Reconstruction script: [scripts/reconstruct_18_4.py](scripts/reconstruct_18_4.py)
+- Recovery lineage json: [figures/18-4/lineage/recovery_2026_09_11.json](figures/18-4/lineage/recovery_2026_09_11.json)
+- Recovery lineage csv: [figures/18-4/lineage/recovery_2026_09_11.csv](figures/18-4/lineage/recovery_2026_09_11.csv)
 
 ### Figure 19-1 - Nuclear weapons, 1945-2015
 
@@ -1674,4 +1706,6 @@ Status: `partial_match`. Artifact kind: `reconstruction`.
 - Caption: [figures/20-1/captions/caption.txt](figures/20-1/captions/caption.txt)
 - Review checklist: [figures/20-1/review_checklist.md](figures/20-1/review_checklist.md)
 - Source materials: [figures/20-1/data/raw/source_sha256sums.txt](figures/20-1/data/raw/source_sha256sums.txt)
+- Recovery lineage json: [figures/20-1/lineage/recovery_2026_09_11.json](figures/20-1/lineage/recovery_2026_09_11.json)
+- Recovery lineage csv: [figures/20-1/lineage/recovery_2026_09_11.csv](figures/20-1/lineage/recovery_2026_09_11.csv)
 

@@ -30,6 +30,8 @@ A historical verified classification is not a fresh publication review.
 - Review checklist: [review_checklist.md](review_checklist.md)
 - Lineage: [lineage/lineage.json](lineage/lineage.json)
 - Reconstruction script: [../../scripts/reconstruct_18_4.py](../../scripts/reconstruct_18_4.py)
+- Recovery lineage json: [lineage/recovery_2026_09_11.json](lineage/recovery_2026_09_11.json)
+- Recovery lineage csv: [lineage/recovery_2026_09_11.csv](lineage/recovery_2026_09_11.csv)
 
 <!-- canonical-state:end -->
 

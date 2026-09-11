@@ -1,0 +1,87 @@
+[
+  {
+    "figure_id": "18-4",
+    "book_citation": "\u201cGeneral Social Survey,\u201d Smith, Son, & Schapiro 2015, figs. 1 and 5, updated for 2016 from https://gssdataexplorer.norc.org/projects/15157/variables/438/vshow. Data exclude nonresponses.",
+    "source_urls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "download_evidence": "figures/18-4/data/raw/",
+    "clean_file": "figures/18-4/data/clean/figure_18_4_gss_summary.csv",
+    "clean_sha256": "4d16c7ac26ed25c7218033e14e018ab2778801461e0db6993b7b9da1d7278b05",
+    "transformation_script": "scripts/reconstruct_18_4.py",
+    "script_sha256": "2484f08cd5c666f7789ccbc382c4525a4c58e5de47ce664c1276c973386dec86",
+    "output_candidates": [
+      "figures/18-4/plots/book_period/figure_18_4_book_period.png",
+      "figures/18-4/plots/extended/figure_18_4_extended.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  },
+  {
+    "figure_id": "18-4",
+    "book_citation": "\u201cGeneral Social Survey,\u201d Smith, Son, & Schapiro 2015, figs. 1 and 5, updated for 2016 from https://gssdataexplorer.norc.org/projects/15157/variables/438/vshow. Data exclude nonresponses.",
+    "source_urls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "download_evidence": "figures/18-4/data/raw/",
+    "clean_file": "figures/18-4/data/clean/figure_18_4_original_report_tables.csv",
+    "clean_sha256": "e14c0c6ed7d79ac64d69eadf030424a17513c0f16bc2c03ba040b66f46adbb73",
+    "transformation_script": "scripts/reconstruct_18_4.py",
+    "script_sha256": "2484f08cd5c666f7789ccbc382c4525a4c58e5de47ce664c1276c973386dec86",
+    "output_candidates": [
+      "figures/18-4/plots/book_period/figure_18_4_book_period.png",
+      "figures/18-4/plots/extended/figure_18_4_extended.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  },
+  {
+    "figure_id": "18-4",
+    "book_citation": "\u201cGeneral Social Survey,\u201d Smith, Son, & Schapiro 2015, figs. 1 and 5, updated for 2016 from https://gssdataexplorer.norc.org/projects/15157/variables/438/vshow. Data exclude nonresponses.",
+    "source_urls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "download_evidence": "figures/18-4/data/raw/",
+    "clean_file": "figures/18-4/data/clean/figure_18_4_report_diagnostic.csv",
+    "clean_sha256": "dc1e8f23c6786e4f5b49b37da87d31a05ac2ba88e31888f49e22c86254f35f78",
+    "transformation_script": "scripts/reconstruct_18_4.py",
+    "script_sha256": "2484f08cd5c666f7789ccbc382c4525a4c58e5de47ce664c1276c973386dec86",
+    "output_candidates": [
+      "figures/18-4/plots/book_period/figure_18_4_book_period.png",
+      "figures/18-4/plots/extended/figure_18_4_extended.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  },
+  {
+    "figure_id": "18-4",
+    "book_citation": "\u201cGeneral Social Survey,\u201d Smith, Son, & Schapiro 2015, figs. 1 and 5, updated for 2016 from https://gssdataexplorer.norc.org/projects/15157/variables/438/vshow. Data exclude nonresponses.",
+    "source_urls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "download_evidence": "figures/18-4/data/raw/",
+    "clean_file": "figures/18-4/data/clean/figure_18_4_weighted_successor.csv",
+    "clean_sha256": "81b46626ea58244dc73712cb58c2ec947827daa4b0ee02e17508bc9c401b48ec",
+    "transformation_script": "scripts/reconstruct_18_4.py",
+    "script_sha256": "2484f08cd5c666f7789ccbc382c4525a4c58e5de47ce664c1276c973386dec86",
+    "output_candidates": [
+      "figures/18-4/plots/book_period/figure_18_4_book_period.png",
+      "figures/18-4/plots/extended/figure_18_4_extended.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  },
+  {
+    "figure_id": "18-4",
+    "book_citation": "\u201cGeneral Social Survey,\u201d Smith, Son, & Schapiro 2015, figs. 1 and 5, updated for 2016 from https://gssdataexplorer.norc.org/projects/15157/variables/438/vshow. Data exclude nonresponses.",
+    "source_urls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "download_evidence": "figures/18-4/data/raw/",
+    "clean_file": "figures/18-4/data/clean/figure_18_4_weighting_diagnostic.csv",
+    "clean_sha256": "b5705a021b524bc3895f89eb956f66769156939b9cfc9d17c6176f4bc75b3ee6",
+    "transformation_script": "scripts/reconstruct_18_4.py",
+    "script_sha256": "2484f08cd5c666f7789ccbc382c4525a4c58e5de47ce664c1276c973386dec86",
+    "output_candidates": [
+      "figures/18-4/plots/book_period/figure_18_4_book_period.png",
+      "figures/18-4/plots/extended/figure_18_4_extended.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  }
+]

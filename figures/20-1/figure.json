@@ -105,7 +105,7 @@
     },
     "caption": {
       "path": "figures/20-1/captions/caption.txt",
-      "sha256": "b5230e3b779ba784678d25f6690f6deba5a205b80670a7882ab707c6645d2581"
+      "sha256": "afa60a4e3dc4d4be572ce9fc2bea68666c8ee5e220bb32b1d18f724345bcb4b1"
     },
     "review_checklist": {
       "path": "figures/20-1/review_checklist.md",
@@ -114,6 +114,14 @@
     "source_materials": {
       "path": "figures/20-1/data/raw/source_sha256sums.txt",
       "sha256": "e990ddff75e0d443c6c9c648a8b7c4f55225e2c4e3ecf5b18983aa68ed6bcb64"
+    },
+    "recovery_lineage_json": {
+      "path": "figures/20-1/lineage/recovery_2026_09_11.json",
+      "sha256": "f6e0b058eb77c609a1c67fa6fa1f27836f68286e073646d776c28cd7cabcc090"
+    },
+    "recovery_lineage_csv": {
+      "path": "figures/20-1/lineage/recovery_2026_09_11.csv",
+      "sha256": "35115ab868c92899f6e7937343874ea28519d622b86d8c081714ba16b3c9c281"
     }
   },
   "research": {
