@@ -9,16 +9,16 @@
   "source_type_guess": "survey_and_economic_dataset",
   "priority": "high",
   "current_owner": "unassigned",
-  "scientific_status": "needs_targeted_source_recovery",
+  "scientific_status": "partial_match",
   "execution_status": "blocked",
   "publication_status": "incomplete",
-  "lifecycle_stage": "source_recovery",
-  "next_action": "Obtain authorized Gallup World Poll 2006 access or an exact author-provided 131-country aggregate extract, then rerun the archived preparation and regression workflow.",
-  "notes": "Exact Stevenson-Wolfers paper and official replication archive recovered. Gallup respondent data are explicitly absent from the archive because they belong to Gallup. No plotted values were digitized and no proxy reconstruction was drawn.",
-  "artifact_kind": "source_recovery",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Native Stata validation, sample exclusions and aggregate-data reuse clearance; licensed microdata for analytic replication.",
+  "notes": "Original author numerical cache recovered: 132 country records, 129 visible points, 112 arrows; no pixel digitization.",
+  "artifact_kind": "reconstruction",
   "book_citation": "Stevenson & Wolfers 2008a, fig. 11, based on data from the Gallup World Poll 2006. Credit: Betsey Stevenson and Justin Wolfers.",
   "status_evidence": {
-    "basis": "exact paper and official replication archive recovered; numeric Gallup input unavailable under public redistribution terms",
+    "basis": "Original author numerical cache recovered: 132 country records, 129 visible points, 112 arrows; no pixel digitization.",
     "source_chain": [
       "Pinker Figure 18-1",
       "Stevenson and Wolfers (2008), Figure 11",
@@ -26,30 +26,42 @@
       "authors' GDP construction and regressions",
       "official EasterlinParadox replication archive"
     ],
-    "blocker": "The archive readme states that the 2006 Gallup World Poll cannot be shared because the data belong to Gallup. Authorized access or an exact aggregate extract is required."
+    "blocker": "Native Stata validation, sample exclusions and aggregate-data reuse clearance; licensed microdata for analytic replication."
   },
   "visual_review": {
-    "status": "pending",
+    "status": "inspected",
     "reference_basis": "original",
-    "inspected_artifacts": [],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_18_1.png",
+        "sha256": "377d590e2639bea09ff1869cb4465b9fe0877c14bb52dee737fb1258815380ac"
+      },
+      {
+        "path": "figures/18-1/plots/book_period/figure_18_1_book_period.png",
+        "sha256": "ee01220323558e8ff02febf7c638cae2939903fb83b3a3942d5301212a20874c"
+      },
+      {
+        "path": "figures/18-1/plots/comparisons/figure_18_1_book_period_review.png",
+        "sha256": "3e5f34f843ee69879ad06fd1b49b448cd9fbbc3afca0262ff6013ad6c63d5c3a"
+      }
+    ],
     "issues": [
-      "No legitimate reconstructed data are available",
-      "No book-period comparison can be generated",
-      "No extension can be evaluated"
+      "Microdata analysis not rerun",
+      "Independent decoder validation and reuse clearance pending"
     ]
   },
   "extension": {
-    "status": "not_attempted",
-    "notes": "Do not add a successor wellbeing series until the Gallup 2006 book-period figure is reconstructed."
+    "status": "unavailable",
+    "notes": "No comparable later Gallup cross-section recovered; do not extend the GDP axis as time."
   },
   "research": {
     "book_page": "",
     "claim_summary": "Across 131 countries in the 2006 Gallup World Poll, life satisfaction rises with real GDP per capita on a log scale; country-specific within-country income gradients are shown as arrows.",
-    "original_dataset": "Gallup World Poll 2006 respondent data, with authors' ordered-probit aggregation and household-income gradients; GDP inputs constructed by Stevenson and Wolfers.",
+    "original_dataset": "Gallup World Poll 2006 respondent data, with authors' ordered-probit aggregation and household-income gradients; GDP inputs constructed by Stevenson and Wolfers. Original numerical author graph cache recovered separately from restricted respondent data.",
     "dataset_url": "https://users.nber.org/~jwolfers/data/EasterlinParadox.zip",
     "archive_url": "https://users.nber.org/~jwolfers/papers/EasterlinParadox.pdf",
-    "download_date": "2026-09-10",
-    "confidence_score": "high for source chain; low for numeric recovery"
+    "download_date": "2026-09-11",
+    "confidence_score": "medium; see September 11 audit"
   },
   "reference": {
     "figure_id": "18-1",
@@ -80,7 +92,7 @@
     "caption_ocr": "Figure 18-1: Life satisfaction and income, 2006",
     "source_note_ocr": "Stevenson & Wolfers 2008a, fig. 11, based on data from the Gallup World Poll 2006. Credit: Betsey Stevenson and Justin Wolfers.",
     "source_note_validation": "machine_extracted_and_source_reviewed",
-    "visual_review": "original_reference_inspected_no_reconstruction"
+    "visual_review": "reference_and_comparison_inspected"
   },
   "artifacts": {
     "metadata": {
@@ -93,35 +105,71 @@
     },
     "provenance": {
       "path": "figures/18-1/provenance/provenance.md",
-      "sha256": "ff7c9c6e955bd374f2af758254d81a938042a596e52292e444c689ee62db7e6a"
+      "sha256": "0608c1028f0de4b360e13204d051f04688da48aec0d3345f56e91e3f3c43db03"
     },
     "source_log": {
       "path": "figures/18-1/source_logs/source_log.md",
-      "sha256": "d036d02506db26df2cfe84f0f98361959fe151a9dc474c2383c8050af2dd4a3f"
+      "sha256": "64a17841e139ea07e923bc473fe31a7e780f602b6af08bfcc78d9c75695ad2a4"
     },
     "search_log": {
       "path": "figures/18-1/search_iterations/search_iterations.md",
-      "sha256": "f0827358ce5fca1e37e9cf1d22b1d90bd1cdbe0d036179086d405bc2f05f830e"
+      "sha256": "2d1518dfff3f6e750fcef73c4c424e0f79be350a174e5bd0d90e3e6a08e8f326"
     },
     "anomaly_review": {
       "path": "figures/18-1/anomaly_reviews/anomaly_review.md",
-      "sha256": "dc238de32a2a60ac72f4863a1710d6dc41a91d770cfa4cf9ed4547d6085c8b0f"
+      "sha256": "cbc0f0565133f970ef6bc15df6362fa7cd59f7b4b64e0eb112c17dd95474f79d"
     },
     "discrepancy_log": {
       "path": "figures/18-1/discrepancy_logs/discrepancy_log.md",
-      "sha256": "8d72934f5aa94fc2457d07866a8d215956f1aea9cc5968949d98e7fe7480da40"
+      "sha256": "f4d63c54388135b4d89f4472b14a29e7e1658cf06886915d560d5b9d90c18756"
     },
     "review_checklist": {
       "path": "figures/18-1/review_checklist.md",
-      "sha256": "54f6aae95cc0efa1bee2484d883cb8e38eab0fb8febe092fc2c1713899bca738"
+      "sha256": "60a232cfa2a03aacbd7c328c351286e8c79d6a2e3e0acc443328c21ef4512fc1"
     },
     "caption": {
       "path": "figures/18-1/captions/caption.txt",
-      "sha256": "6e988563fe5a057a073996cb21416017981110552aa2bd324097167a940f2441"
+      "sha256": "073d93e2f71aca6df83751732445248491e00d119d75c3572df56b01168580c6"
     },
     "archive_evidence": {
       "path": "figures/18-1/data/raw/replication_archive/archive_manifest.txt",
       "sha256": "8f9d19147b67f972b19fabb02f288cbc0ee391aa4a4d8eb092a4626047e40fdf"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_18_1.py",
+      "sha256": "73ef5c561f022730c227ffc270483ad21f4fe1d4812e55659b084e01345f5c4a"
+    },
+    "remediation_review": {
+      "path": "figures/18-1/remediation_2026_09_11.md",
+      "sha256": "ebb4d3ae42ed32019a59b5c13559394b47f48c6b3e00ece8bc3e385029b83c2a"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/18-1/plots/book_period/figure_18_1_book_period.png",
+      "sha256": "ee01220323558e8ff02febf7c638cae2939903fb83b3a3942d5301212a20874c"
+    },
+    "book_period_comparison": {
+      "path": "figures/18-1/plots/comparisons/figure_18_1_book_period_review.png",
+      "sha256": "3e5f34f843ee69879ad06fd1b49b448cd9fbbc3afca0262ff6013ad6c63d5c3a"
+    },
+    "clean_figure_18_1_original_country_inputs": {
+      "path": "figures/18-1/data/clean/figure_18_1_original_country_inputs.csv",
+      "sha256": "57a7d55a5925509cb1ad35d229c6c4db6aab5816f57a902c2ba1d5eb47e97df4"
+    },
+    "clean_figure_18_1_original_fit": {
+      "path": "figures/18-1/data/clean/figure_18_1_original_fit.csv",
+      "sha256": "bdb0363998708ecfbbda28dea34d97c4ab4017886737e84c7d8d7b7c08fae22e"
+    },
+    "original_numerical_cache": {
+      "path": "figures/18-1/data/raw/original_fig11.gph",
+      "sha256": "2e9c6df2d7618a151b9954605d7e6249682dc8f1465059e1766a4e3ffc8753af"
+    },
+    "recovery_lineage_json": {
+      "path": "figures/18-1/lineage/recovery_2026_09_11.json",
+      "sha256": "f82d6de91f597e9e06d1561476464bde6ca351582b8fb0d4e513a323a5bf46f8"
+    },
+    "recovery_lineage_csv": {
+      "path": "figures/18-1/lineage/recovery_2026_09_11.csv",
+      "sha256": "16d8a8a0c1d0d47df755eaa3cb3ae78b3c9f5c9fdce0874c3e6ddbb465d93c1c"
     }
   }
 }

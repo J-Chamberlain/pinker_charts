@@ -1,0 +1,13 @@
+[
+  {
+    "url": "https://users.nber.org/~jwolfers/data/EasterlinParadox.zip",
+    "path": "figures/18-1/data/raw/EasterlinParadox.zip",
+    "retrieved_at": "2026-09-11T10:22:33.433188+00:00",
+    "http_status": 200,
+    "final_url": "https://users.nber.org/~jwolfers/data/EasterlinParadox.zip",
+    "content_type": "application/zip",
+    "status": "downloaded",
+    "sha256": "ac93214d2c5f50955456f092cc1c3fca0279b8320a8b37726e17d950e43ba868",
+    "bytes": 111325208
+  }
+]

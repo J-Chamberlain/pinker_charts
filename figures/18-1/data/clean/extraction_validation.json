@@ -1,0 +1,10 @@
+{
+  "country_rows": 132,
+  "visible_country_points": 129,
+  "complete_arrows": 112,
+  "cached_fit_log_slope": 0.42277353107184135,
+  "cached_fit_intercept": -3.660073893226904,
+  "maximum_fit_residual": 2.1992049559216298e-07,
+  "validation": "binary lengths/types/names + text and binary extrema + arrow midpoint/log-width identities",
+  "source_gph_sha256": "2e9c6df2d7618a151b9954605d7e6249682dc8f1465059e1766a4e3ffc8753af"
+}

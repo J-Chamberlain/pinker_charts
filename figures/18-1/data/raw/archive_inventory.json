@@ -1,0 +1,491 @@
+{
+  "url": "https://users.nber.org/~jwolfers/data/EasterlinParadox.zip",
+  "sha256": "ac93214d2c5f50955456f092cc1c3fca0279b8320a8b37726e17d950e43ba868",
+  "members": [
+    {
+      "member": "Eurobarometer/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Eurobarometer/04357-0001-data.dta",
+      "bytes": 195161529,
+      "crc32": "5b2223b4"
+    },
+    {
+      "member": "Eurobarometer/eurobarometer 2002-2007.dta",
+      "bytes": 16470,
+      "crc32": "33c0f639"
+    },
+    {
+      "member": "Eurobarometer/Eurobarometer analysis.do",
+      "bytes": 7865,
+      "crc32": "519308cf"
+    },
+    {
+      "member": "Eurobarometer/Eurobarometer setup.do",
+      "bytes": 16897,
+      "crc32": "ed66f3b6"
+    },
+    {
+      "member": "Eurobarometer/Eurobarometer.log",
+      "bytes": 398666,
+      "crc32": "e841dbce"
+    },
+    {
+      "member": "Figures/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Figures/fig1.gph",
+      "bytes": 58541,
+      "crc32": "c0b06ac0"
+    },
+    {
+      "member": "Figures/fig10.gph",
+      "bytes": 9358,
+      "crc32": "7b9593b0"
+    },
+    {
+      "member": "Figures/fig11.gph",
+      "bytes": 16704,
+      "crc32": "508976a8"
+    },
+    {
+      "member": "Figures/fig12.gph",
+      "bytes": 16338,
+      "crc32": "1f2fd9ea"
+    },
+    {
+      "member": "Figures/fig13.gph",
+      "bytes": 9848,
+      "crc32": "72583d3c"
+    },
+    {
+      "member": "Figures/fig14.gph",
+      "bytes": 69694,
+      "crc32": "32f45d79"
+    },
+    {
+      "member": "Figures/fig15.gph",
+      "bytes": 70715,
+      "crc32": "0e9023cd"
+    },
+    {
+      "member": "Figures/fig16.gph",
+      "bytes": 92745,
+      "crc32": "ff3e7a83"
+    },
+    {
+      "member": "Figures/fig17.gph",
+      "bytes": 37126,
+      "crc32": "50b14b00"
+    },
+    {
+      "member": "Figures/fig18.gph",
+      "bytes": 26854,
+      "crc32": "e7e157f0"
+    },
+    {
+      "member": "Figures/fig19.gph",
+      "bytes": 45360,
+      "crc32": "f20dd1d6"
+    },
+    {
+      "member": "Figures/fig2.gph",
+      "bytes": 53908,
+      "crc32": "86a250bb"
+    },
+    {
+      "member": "Figures/fig20.gph",
+      "bytes": 35778,
+      "crc32": "851c64d3"
+    },
+    {
+      "member": "Figures/fig21.gph",
+      "bytes": 149914,
+      "crc32": "514aeab1"
+    },
+    {
+      "member": "Figures/fig22.gph",
+      "bytes": 106594,
+      "crc32": "173c11f1"
+    },
+    {
+      "member": "Figures/fig23.gph",
+      "bytes": 107964,
+      "crc32": "651e8126"
+    },
+    {
+      "member": "Figures/fig3.gph",
+      "bytes": 12061,
+      "crc32": "5aa1e942"
+    },
+    {
+      "member": "Figures/fig4.gph",
+      "bytes": 15113,
+      "crc32": "71e5c170"
+    },
+    {
+      "member": "Figures/fig5.gph",
+      "bytes": 33951,
+      "crc32": "b42e8278"
+    },
+    {
+      "member": "Figures/fig6.gph",
+      "bytes": 63462,
+      "crc32": "7c99f887"
+    },
+    {
+      "member": "Figures/fig7.gph",
+      "bytes": 29394,
+      "crc32": "bb5d13c9"
+    },
+    {
+      "member": "Figures/fig8.gph",
+      "bytes": 49655,
+      "crc32": "d77abcec"
+    },
+    {
+      "member": "Figures/fig9.gph",
+      "bytes": 37074,
+      "crc32": "033fe2ad"
+    },
+    {
+      "member": "Figures/figA1.gph",
+      "bytes": 33627,
+      "crc32": "429199e9"
+    },
+    {
+      "member": "Figures/figA2.gph",
+      "bytes": 13993,
+      "crc32": "aeee5df9"
+    },
+    {
+      "member": "Figures/figA3.gph",
+      "bytes": 50712,
+      "crc32": "2f79c9b1"
+    },
+    {
+      "member": "Figures/figA4.gph",
+      "bytes": 55984,
+      "crc32": "c8c09c08"
+    },
+    {
+      "member": "Figures/figA5.gph",
+      "bytes": 54107,
+      "crc32": "5150afc9"
+    },
+    {
+      "member": "Gallup World Poll/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Gallup World Poll/Clean_Gallup.pdf",
+      "bytes": 18087,
+      "crc32": "55435ec6"
+    },
+    {
+      "member": "Gallup World Poll/Gallup.pdf",
+      "bytes": 7398,
+      "crc32": "c079c9c9"
+    },
+    {
+      "member": "Gallup World Poll/Gallup_createmacro.pdf",
+      "bytes": 11110,
+      "crc32": "e2346d3f"
+    },
+    {
+      "member": "Gallup World Poll/Gallup_income.pdf",
+      "bytes": 14953,
+      "crc32": "1b9c221a"
+    },
+    {
+      "member": "Gallup World Poll/Gallup_macro.pdf",
+      "bytes": 36207,
+      "crc32": "a580c517"
+    },
+    {
+      "member": "Gallup World Poll/Gallup_micro.pdf",
+      "bytes": 41169,
+      "crc32": "9ff514a6"
+    },
+    {
+      "member": "Gallup World Poll/log files/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Gallup World Poll/readme-Gallup.txt",
+      "bytes": 296,
+      "crc32": "bf1de5ec"
+    },
+    {
+      "member": "GDP/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "GDP/bls gdp per capita.dta",
+      "bytes": 11524,
+      "crc32": "f9beea39"
+    },
+    {
+      "member": "GDP/Complete_GDP.do",
+      "bytes": 1887,
+      "crc32": "5e4891cf"
+    },
+    {
+      "member": "GDP/germany.dta",
+      "bytes": 1198,
+      "crc32": "8f220eb8"
+    },
+    {
+      "member": "GDP/pwt.dta",
+      "bytes": 424962,
+      "crc32": "2c7d2f75"
+    },
+    {
+      "member": "GDP/us data.dta",
+      "bytes": 4220,
+      "crc32": "2636f0c9"
+    },
+    {
+      "member": "GDP/wdi gdp per capita.dta",
+      "bytes": 569093,
+      "crc32": "7914999a"
+    },
+    {
+      "member": "GSS/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "GSS/04697-0001-data.dta",
+      "bytes": 284307923,
+      "crc32": "d0198d2e"
+    },
+    {
+      "member": "GSS/GSS analysis.do",
+      "bytes": 6372,
+      "crc32": "7d2eb587"
+    },
+    {
+      "member": "GSS/GSS setup.do",
+      "bytes": 7083,
+      "crc32": "9c2b815d"
+    },
+    {
+      "member": "GSS/GSS.log",
+      "bytes": 282507,
+      "crc32": "d946edd4"
+    },
+    {
+      "member": "History/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "History/cantril.dta",
+      "bytes": 4614,
+      "crc32": "c77de4b6"
+    },
+    {
+      "member": "History/Fig1.do",
+      "bytes": 6556,
+      "crc32": "08259b4b"
+    },
+    {
+      "member": "History/Gallup 1949.pdf",
+      "bytes": 526047,
+      "crc32": "3bbfbcd5"
+    },
+    {
+      "member": "History/gallup1946.dta",
+      "bytes": 2058,
+      "crc32": "5123ddcc"
+    },
+    {
+      "member": "History/Gallup1946.pdf",
+      "bytes": 727233,
+      "crc32": "746ad80d"
+    },
+    {
+      "member": "History/gallup1949.dta",
+      "bytes": 2122,
+      "crc32": "276a30f9"
+    },
+    {
+      "member": "History/History.log",
+      "bytes": 91165,
+      "crc32": "201bb273"
+    },
+    {
+      "member": "History/tension 1948.dta",
+      "bytes": 4418,
+      "crc32": "10aa4fc3"
+    },
+    {
+      "member": "History/Tension 1948.xlsx",
+      "bytes": 12772,
+      "crc32": "61bd2722"
+    },
+    {
+      "member": "History/world survey iii.dta",
+      "bytes": 2690,
+      "crc32": "0d129d03"
+    },
+    {
+      "member": "History/World Survey III.xls",
+      "bytes": 19456,
+      "crc32": "a1918532"
+    },
+    {
+      "member": "Japan/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Japan/Japan analysis.do",
+      "bytes": 7567,
+      "crc32": "3c11f569"
+    },
+    {
+      "member": "Japan/Japan.log",
+      "bytes": 63763,
+      "crc32": "a7496693"
+    },
+    {
+      "member": "Japan/japan2.dta",
+      "bytes": 6872,
+      "crc32": "5c9834ba"
+    },
+    {
+      "member": "Other surveys/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Other surveys/Eurobarometer 66.1/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Other surveys/Eurobarometer 66.1/21281-0001-data.dta",
+      "bytes": 19861440,
+      "crc32": "a9cb141e"
+    },
+    {
+      "member": "Other surveys/Eurobarometer 66.3/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Other surveys/Eurobarometer 66.3/21523-0001-data.dta",
+      "bytes": 28954722,
+      "crc32": "1aa391a0"
+    },
+    {
+      "member": "Other surveys/European Quality of Life/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Other surveys/European Quality of Life/eqls_version_2.dta",
+      "bytes": 18297641,
+      "crc32": "a8aa5be6"
+    },
+    {
+      "member": "Other surveys/Happiness v Life Sat.do",
+      "bytes": 9386,
+      "crc32": "40d95c2c"
+    },
+    {
+      "member": "Other surveys/Kettering/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Other surveys/Kettering/kettering 1975.dta",
+      "bytes": 3280,
+      "crc32": "5be96f74"
+    },
+    {
+      "member": "Pew/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Pew/Pew analysis.do",
+      "bytes": 2333,
+      "crc32": "9880b4f8"
+    },
+    {
+      "member": "Pew/Pew setup.do",
+      "bytes": 44879,
+      "crc32": "ef6fd8e8"
+    },
+    {
+      "member": "Pew/Pew.log",
+      "bytes": 366466,
+      "crc32": "043806b2"
+    },
+    {
+      "member": "Pew/pew_gap_final_44_country_dataset_1_1sav.dta",
+      "bytes": 16285257,
+      "crc32": "30b7c139"
+    },
+    {
+      "member": "Processed files/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "StevensonWolfers(Brookings).do",
+      "bytes": 1446,
+      "crc32": "f55977ba"
+    },
+    {
+      "member": "WVS/",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "WVS/WVS appendices.do",
+      "bytes": 21508,
+      "crc32": "621bb5e7"
+    },
+    {
+      "member": "WVS/WVS income coding.do",
+      "bytes": 91246,
+      "crc32": "1a95dc1e"
+    },
+    {
+      "member": "WVS/WVS macro analysis.do",
+      "bytes": 23542,
+      "crc32": "4ed508d0"
+    },
+    {
+      "member": "WVS/WVS micro analysis.do",
+      "bytes": 7530,
+      "crc32": "81f653e1"
+    },
+    {
+      "member": "WVS/WVS setup.do",
+      "bytes": 11047,
+      "crc32": "58446e1a"
+    },
+    {
+      "member": "WVS/WVS_results.log",
+      "bytes": 2258636,
+      "crc32": "53d90ab7"
+    },
+    {
+      "member": "WVS/xwvsevs_1981_2000_v20060423.dta",
+      "bytes": 299253828,
+      "crc32": "c32bf32e"
+    }
+  ]
+}
