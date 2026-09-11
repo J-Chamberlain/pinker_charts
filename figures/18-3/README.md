@@ -1,8 +1,8 @@
 <!-- canonical-state:start -->
 # Figure 18-3: Suicide, England, Switzerland, and US, 1860-2014
 
-Scientific status: `needs_targeted_source_recovery`. Execution: `blocked`.
-Publication: `incomplete`. Artifact kind: `source_recovery`.
+Scientific status: `partial_match`. Execution: `blocked`.
+Publication: `incomplete`. Artifact kind: `reconstruction`.
 
 This generated summary and [figure.json](figure.json) supersede historical status claims below.
 A historical verified classification is not a fresh publication review.
@@ -16,5 +16,18 @@ A historical verified classification is not a fresh publication review.
 - Discrepancy log: [discrepancy_logs/discrepancy_log.md](discrepancy_logs/discrepancy_log.md)
 - Review checklist: [review_checklist.md](review_checklist.md)
 - Caption: [captions/caption.txt](captions/caption.txt)
+- Reconstruction script: [../../scripts/reconstruct_18_3.py](../../scripts/reconstruct_18_3.py)
+- Remediation review: [remediation_2026_09_11.md](remediation_2026_09_11.md)
+- Book period reconstruction: [plots/book_period/figure_18_3_book_period.png](plots/book_period/figure_18_3_book_period.png)
+- Book period comparison: [plots/comparisons/figure_18_3_book_period_review.png](plots/comparisons/figure_18_3_book_period_review.png)
+- Extended reconstruction: [plots/extended/figure_18_3_extended.png](plots/extended/figure_18_3_extended.png)
+- Extended comparison: [plots/comparisons/figure_18_3_extended_review.png](plots/comparisons/figure_18_3_extended_review.png)
+- Clean figure 18 3 swiss alternative: [data/clean/figure_18_3_swiss_alternative.csv](data/clean/figure_18_3_swiss_alternative.csv)
+- Clean figure 18 3 us 1999 2014: [data/clean/figure_18_3_us_1999_2014.csv](data/clean/figure_18_3_us_1999_2014.csv)
+- Clean figure 18 3 us historical: [data/clean/figure_18_3_us_historical.csv](data/clean/figure_18_3_us_historical.csv)
+- Clean figure 18 3 us revision diagnostic: [data/clean/figure_18_3_us_revision_diagnostic.csv](data/clean/figure_18_3_us_revision_diagnostic.csv)
+- Clean figure 18 3 us successor: [data/clean/figure_18_3_us_successor.csv](data/clean/figure_18_3_us_successor.csv)
+- Recovery lineage json: [lineage/recovery_2026_09_11.json](lineage/recovery_2026_09_11.json)
+- Recovery lineage csv: [lineage/recovery_2026_09_11.csv](lineage/recovery_2026_09_11.csv)
 
 <!-- canonical-state:end -->

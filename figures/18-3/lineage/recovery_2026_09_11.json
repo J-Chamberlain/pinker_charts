@@ -1,0 +1,87 @@
+[
+  {
+    "figure_id": "18-3",
+    "book_citation": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: CDC, Carter et al. 2000, table Ab950. United States, 1999-2014: CDC 2015.",
+    "source_urls": [
+      "https://hsso.ch/get/D.50a.xlsx; https://hsso.ch/get/B.42.xlsx"
+    ],
+    "download_evidence": "figures/18-3/data/raw/",
+    "clean_file": "figures/18-3/data/clean/figure_18_3_swiss_alternative.csv",
+    "clean_sha256": "f899928dbcdd233afffeded551f9b47bfb81e219435775fd3f6194c5df28ab12",
+    "transformation_script": "scripts/reconstruct_18_3.py",
+    "script_sha256": "e6dbd729be806bc8b3a2ee44db331587813f390d285da15e3013e6c87572ac45",
+    "output_candidates": [
+      "figures/18-3/plots/book_period/figure_18_3_book_period.png",
+      "figures/18-3/plots/extended/figure_18_3_extended.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  },
+  {
+    "figure_id": "18-3",
+    "book_citation": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: CDC, Carter et al. 2000, table Ab950. United States, 1999-2014: CDC 2015.",
+    "source_urls": [
+      "https://www.cdc.gov/nchs/products/databriefs/db241.htm"
+    ],
+    "download_evidence": "figures/18-3/data/raw/",
+    "clean_file": "figures/18-3/data/clean/figure_18_3_us_1999_2014.csv",
+    "clean_sha256": "f9e3eef834ea6a559fc26aab6fae0744f493eb52e8da3305e9885e96168dc457",
+    "transformation_script": "scripts/reconstruct_18_3.py",
+    "script_sha256": "e6dbd729be806bc8b3a2ee44db331587813f390d285da15e3013e6c87572ac45",
+    "output_candidates": [
+      "figures/18-3/plots/book_period/figure_18_3_book_period.png",
+      "figures/18-3/plots/extended/figure_18_3_extended.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  },
+  {
+    "figure_id": "18-3",
+    "book_citation": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: CDC, Carter et al. 2000, table Ab950. United States, 1999-2014: CDC 2015.",
+    "source_urls": [
+      "https://www.cdc.gov/nchs/nvss/mortality/hist290.htm"
+    ],
+    "download_evidence": "figures/18-3/data/raw/",
+    "clean_file": "figures/18-3/data/clean/figure_18_3_us_historical.csv",
+    "clean_sha256": "93bba95ef3cb250ea9c52f2de7b1faa17110eaaf44dde1db13d6894b69680e8b",
+    "transformation_script": "scripts/reconstruct_18_3.py",
+    "script_sha256": "e6dbd729be806bc8b3a2ee44db331587813f390d285da15e3013e6c87572ac45",
+    "output_candidates": [
+      "figures/18-3/plots/book_period/figure_18_3_book_period.png",
+      "figures/18-3/plots/extended/figure_18_3_extended.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  },
+  {
+    "figure_id": "18-3",
+    "book_citation": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: CDC, Carter et al. 2000, table Ab950. United States, 1999-2014: CDC 2015.",
+    "source_urls": [
+      "https://www.cdc.gov/nchs/nvss/mortality_historical_data.htm"
+    ],
+    "download_evidence": "figures/18-3/data/raw/",
+    "clean_file": "figures/18-3/data/clean/figure_18_3_us_revision_diagnostic.csv",
+    "clean_sha256": "8e34e11282ec1ea15613e44b3116ffd7be0b655c42abeb5d315b55e88a5bf902",
+    "transformation_script": "scripts/reconstruct_18_3.py",
+    "script_sha256": "e6dbd729be806bc8b3a2ee44db331587813f390d285da15e3013e6c87572ac45",
+    "output_candidates": [
+      "figures/18-3/plots/book_period/figure_18_3_book_period.png",
+      "figures/18-3/plots/extended/figure_18_3_extended.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  },
+  {
+    "figure_id": "18-3",
+    "book_citation": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: CDC, Carter et al. 2000, table Ab950. United States, 1999-2014: CDC 2015.",
+    "source_urls": [
+      "https://www.cdc.gov/nchs/products/databriefs/db541.htm"
+    ],
+    "download_evidence": "figures/18-3/data/raw/",
+    "clean_file": "figures/18-3/data/clean/figure_18_3_us_successor.csv",
+    "clean_sha256": "e32a435b76760ba827324a54725d7fad9640ecb1b3ac7442e1cf927630b18b1f",
+    "transformation_script": "scripts/reconstruct_18_3.py",
+    "script_sha256": "e6dbd729be806bc8b3a2ee44db331587813f390d285da15e3013e6c87572ac45",
+    "output_candidates": [
+      "figures/18-3/plots/book_period/figure_18_3_book_period.png",
+      "figures/18-3/plots/extended/figure_18_3_extended.png"
+    ],
+    "notes": "See script for exact plotted subset; diagnostic and alternate-series tables are not necessarily plotted. Raw download logs contain individual URLs and hashes."
+  }
+]

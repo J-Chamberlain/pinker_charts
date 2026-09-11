@@ -1,0 +1,123 @@
+[
+  {
+    "url": "https://hsso.ch/get/D.50a.xlsx",
+    "path": "figures/18-3/data/raw/hsso_D50a_2012.xlsx",
+    "retrieved_at": "2026-09-11T10:17:35.624855+00:00",
+    "http_status": 200,
+    "final_url": "https://hsso.ch/get/D.50a.xlsx",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "status": "downloaded",
+    "sha256": "f0672a6295ae2646dc44bbf04ed4dba90d593b1d082fccb29a9f830eed8fd88d",
+    "bytes": 27783
+  },
+  {
+    "url": "https://archive.cdc.gov/www_cdc_gov/nchs/data/dvs/lead1900_98.pdf",
+    "path": "figures/18-3/data/raw/cdc_lead1900_98.pdf",
+    "retrieved_at": "2026-09-11T10:20:09.999001+00:00",
+    "http_status": 200,
+    "final_url": "https://archive.cdc.gov/www_cdc_gov/nchs/data/dvs/lead1900_98.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "812245b1131677efbcdd8adf3728b269a89b90c823dd7c4620c78acf05bed268",
+    "bytes": 1020838
+  },
+  {
+    "url": "https://hsso.ch/get/B.42.xlsx",
+    "path": "figures/18-3/data/raw/hsso_B42_2012.xlsx",
+    "retrieved_at": "2026-09-11T10:20:44.928576+00:00",
+    "http_status": 200,
+    "final_url": "https://hsso.ch/get/B.42.xlsx",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "status": "downloaded",
+    "sha256": "47bcd2b114f9baa3723e5cd803bcf695d8051a62b9277d2eff6da66b65ec0493",
+    "bytes": 14972
+  },
+  {
+    "url": "https://www.cdc.gov/nchs/data/databriefs/db241_table.pdf",
+    "path": "figures/18-3/data/raw/cdc_db241_table_2016.pdf",
+    "retrieved_at": "2026-09-11T10:21:02.770834+00:00",
+    "http_status": 200,
+    "final_url": "https://www.cdc.gov/nchs/data/databriefs/db241_table.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "5c2b0c362b70379b2c844a03010fa61238879636dbc48f32f7f8e4d5e2d4a811",
+    "bytes": 153323
+  },
+  {
+    "url": "https://www.cdc.gov/nchs/data/databriefs/db541.pdf",
+    "path": "figures/18-3/data/raw/cdc_db541_2025.pdf",
+    "retrieved_at": "2026-09-11T10:21:25.923507+00:00",
+    "http_status": 200,
+    "final_url": "https://www.cdc.gov/nchs/data/databriefs/db541.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "abe5acfaff5da3dc3ee71710d3ee709d1afbaf3ca6020432e1c9bafa9a27bf3c",
+    "bytes": 516712
+  },
+  {
+    "url": "https://www.cdc.gov/nchs/data/dvs/hist290_0039.pdf",
+    "path": "figures/18-3/data/raw/cdc_hist290_0039.pdf",
+    "retrieved_at": "2026-09-11T10:21:26.539263+00:00",
+    "http_status": 200,
+    "final_url": "https://www.cdc.gov/nchs/data/dvs/hist290_0039.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "4241db67f516d09f765ad454bc8bb63a1dc85ca4528ad35e3bcabe7b6a5c64c5",
+    "bytes": 1443784
+  },
+  {
+    "url": "https://www.cdc.gov/nchs/data/dvs/mx194049.pdf",
+    "path": "figures/18-3/data/raw/cdc_mx194049.pdf",
+    "retrieved_at": "2026-09-11T10:22:28.245295+00:00",
+    "http_status": 200,
+    "final_url": "https://www.cdc.gov/nchs/data/dvs/mx194049.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "47fbaa3345dc8cf26969a584216e1e34d9ce606cac84693f1660de08bc0b2db1",
+    "bytes": 4283644
+  },
+  {
+    "url": "https://www.cdc.gov/nchs/data/dvs/mx1950_59.pdf",
+    "path": "figures/18-3/data/raw/cdc_mx1950_59.pdf",
+    "retrieved_at": "2026-09-11T10:22:29.265518+00:00",
+    "http_status": 200,
+    "final_url": "https://www.cdc.gov/nchs/data/dvs/mx1950_59.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "b8d4b2b17e043818d71deec932ec44ef56f956f86db4810318a2dc3e76c67a9d",
+    "bytes": 7266810
+  },
+  {
+    "url": "https://www.cdc.gov/nchs/data/dvs/mx196067.pdf",
+    "path": "figures/18-3/data/raw/cdc_mx196067.pdf",
+    "retrieved_at": "2026-09-11T10:22:30.778166+00:00",
+    "http_status": 200,
+    "final_url": "https://www.cdc.gov/nchs/data/dvs/mx196067.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "345d55b2c2ceb91765bdbca6d396a7a97b8499124d23f7166d7d0d17c35a6556",
+    "bytes": 450383
+  },
+  {
+    "url": "https://www.cdc.gov/nchs/data/dvs/mx196878.pdf",
+    "path": "figures/18-3/data/raw/cdc_mx196878.pdf",
+    "retrieved_at": "2026-09-11T10:22:31.596216+00:00",
+    "http_status": 200,
+    "final_url": "https://www.cdc.gov/nchs/data/dvs/mx196878.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "4185fdcf5826ff6b55322a52d38ce957b17f932320d1978126eef738279f64c3",
+    "bytes": 773720
+  },
+  {
+    "url": "https://www.cdc.gov/nchs/data/statab/gm290-98.pdf",
+    "path": "figures/18-3/data/raw/cdc_gm290_98.pdf",
+    "retrieved_at": "2026-09-11T10:22:32.655282+00:00",
+    "http_status": 200,
+    "final_url": "https://www.cdc.gov/nchs/data/statab/gm290-98.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "sha256": "8df099a59b4a0456682d173c81d8bf9d5ce48110beb025273319bc9b23076d8a",
+    "bytes": 1131047
+  }
+]

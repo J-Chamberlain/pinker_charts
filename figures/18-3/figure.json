@@ -9,16 +9,16 @@
   "source_type_guess": "historical_mortality_dataset",
   "priority": "high",
   "current_owner": "unassigned",
-  "scientific_status": "needs_targeted_source_recovery",
+  "scientific_status": "partial_match",
   "execution_status": "blocked",
   "publication_status": "incomplete",
-  "lifecycle_stage": "source_recovery",
-  "next_action": "Recover the author/ONS England-Wales series and the historical Swiss table, then version and harmonize the WHO/OECD and CDC segments.",
-  "notes": "Exact source families and date breaks are resolved. Complete numeric inputs for the England/Wales and early Swiss lines were not recovered. No incompatible splice or plotted-value digitization was used.",
-  "artifact_kind": "source_recovery",
-  "book_citation": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: CDC, Carter et al. 2000, table Abg50. United States, 1999-2014: CDC 2015.",
+  "lifecycle_stage": "visual_review",
+  "next_action": "Recover English author table, exact Swiss definition and Carter/CDC book vintage.",
+  "notes": "Official CDC historical and successor rates plus Swiss institutional alternative recovered; England absent.",
+  "artifact_kind": "reconstruction",
+  "book_citation": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: CDC, Carter et al. 2000, table Ab950. United States, 1999-2014: CDC 2015.",
   "status_evidence": {
-    "basis": "source chain resolved across five cited source components; complete definitionally aligned numeric table not recovered",
+    "basis": "Official CDC historical and successor rates plus Swiss institutional alternative recovered; England absent.",
     "source_chain": [
       "Pinker Figure 18-3",
       "Thomas and Gunnell (2010), Figure 1",
@@ -26,21 +26,42 @@
       "WHO Mortality Database / OECD 2015b",
       "CDC historical tables / Carter et al. (2000) / CDC 2015"
     ],
-    "blocker": "The England/Wales series was author-supplied and pre-1911 records were transcribed from paper; the early Swiss series is available through the cited paper rather than a recovered table. A complete reconstruction requires targeted author/archive access."
+    "blocker": "Recover English author table, exact Swiss definition and Carter/CDC book vintage."
   },
   "visual_review": {
-    "status": "pending",
+    "status": "inspected",
     "reference_basis": "original",
-    "inspected_artifacts": [],
+    "inspected_artifacts": [
+      {
+        "path": "references/figures/figure_18_3.png",
+        "sha256": "bbce52a58c68a9a19ce111c28ff43026e65c7cb3ff320ac031f882943e229d90"
+      },
+      {
+        "path": "figures/18-3/plots/book_period/figure_18_3_book_period.png",
+        "sha256": "be3a63c68d99fe94833858328c27363b8aae9e59b904d66c32211068edf8a3a1"
+      },
+      {
+        "path": "figures/18-3/plots/extended/figure_18_3_extended.png",
+        "sha256": "aa29551dbcd4397fdb55aea8ec1e8236da796afc3adcc1f6e8cddaa8ccef7adc"
+      },
+      {
+        "path": "figures/18-3/plots/comparisons/figure_18_3_book_period_review.png",
+        "sha256": "922e83599997249be41192a53436391c723a0a0a229ff57c0d1c8993771b5639"
+      },
+      {
+        "path": "figures/18-3/plots/comparisons/figure_18_3_extended_review.png",
+        "sha256": "76e0c6d9f9cd4da0a62a37f35a362815d4e8f7096261b3506719ea6f8c14bc48"
+      }
+    ],
     "issues": [
-      "No complete reconstructed data are available",
-      "No book-period comparison can be generated",
-      "No extension can be evaluated"
+      "England/Wales missing",
+      "Swiss alternative visibly differs in definition and coverage",
+      "US historical-to-modern rate definition changes"
     ]
   },
   "extension": {
-    "status": "not_attempted",
-    "notes": "England/Wales was explicitly not extended in the source note because current records are not commensurable. Do not add extensions until each country source boundary is documented."
+    "status": "comparable_successor",
+    "notes": "US age-adjusted successor through 2023, dashed after 2014; no English or Swiss extension invented."
   },
   "research": {
     "book_page": "",
@@ -48,8 +69,8 @@
     "original_dataset": "Mixed historical mortality sources: ONS/Thomas-Gunnell, Ajdacic-Gross et al., WHO/OECD, and CDC/Carter et al.",
     "dataset_url": "https://www.cdc.gov/nchs/nvss/mortality_historical_data.htm",
     "archive_url": "https://doi.org/10.1093/ije/dyq094",
-    "download_date": "2026-09-10",
-    "confidence_score": "high for source chain; low for complete numeric recovery"
+    "download_date": "2026-09-11",
+    "confidence_score": "medium; see September 11 audit"
   },
   "reference": {
     "figure_id": "18-3",
@@ -79,8 +100,8 @@
     "identity_validation": "ocr_id_confirmed",
     "caption_ocr": "Figure 18-3: Suicide, England, Switzerland, and US, 1860-2014",
     "source_note_ocr": "England (including Wales): Thomas & Gunnell 2010, fig. 1, average of male and female rates, provided by Kylie Thomas. The series has not been extended because the data are not commensurable with current records. Switzerland, 1880-1959: Ajdacic-Gross et al. 2006, fig. 1. Switzerland, 1960-2013: WHO Mortality Database, OECD 2015b. United States, 1900-1998: Centers for Disease Control, Carter et al. 2000, table Abg50. United States, 1999-2014: Centers for Disease Control 2015.",
-    "source_note_validation": "machine_extracted_and_source_reviewed",
-    "visual_review": "original_reference_inspected_no_reconstruction"
+    "source_note_validation": "visual citation correction: Ab950; raw OCR preserved",
+    "visual_review": "reference_and_comparison_inspected"
   },
   "artifacts": {
     "metadata": {
@@ -93,31 +114,83 @@
     },
     "provenance": {
       "path": "figures/18-3/provenance/provenance.md",
-      "sha256": "0304ed9f985c69ccfeeac1216ee9856c127005f08c34f179d48a1831539c3ded"
+      "sha256": "ca49ff9dd0dcb888a0c656dfcfe9a2f7614a87bed43cf974b22b1dddfd716c4e"
     },
     "source_log": {
       "path": "figures/18-3/source_logs/source_log.md",
-      "sha256": "c44a5544ac06e2bfb95245dee0271d14667e16aaa0a18d98db920bbf8043dd53"
+      "sha256": "7c42b77b3272d508e56033a384ce5d9edd8b1c26397184378d583af535177938"
     },
     "search_log": {
       "path": "figures/18-3/search_iterations/search_iterations.md",
-      "sha256": "51e2ce189839b97267888bb3c8854c7600dd54af384b7d196da3620295dddc7a"
+      "sha256": "e028e29ddf6485193f67b04e7dc2ff364bd88111b69e2778e847bd0b866da6b6"
     },
     "anomaly_review": {
       "path": "figures/18-3/anomaly_reviews/anomaly_review.md",
-      "sha256": "05ee78d4a44627fccccbd94b0deae0a03dd66b9bacf36e248beb79c1b0f501cf"
+      "sha256": "7a28161dd4b3c0cca01a790b36827313c201e3e3ec47b31d7c4685fe5f4b4882"
     },
     "discrepancy_log": {
       "path": "figures/18-3/discrepancy_logs/discrepancy_log.md",
-      "sha256": "fe6867de523bf6d0402e5c0c5eabd8a96e7af70ac7c335fbc507b396d71d58ba"
+      "sha256": "e4c67f9c7a6b39aa7e495489a8342de83d77f54fef4cbe9b3fa0ccd62b1763ea"
     },
     "review_checklist": {
       "path": "figures/18-3/review_checklist.md",
-      "sha256": "f40b1860f3077cb0e134d5b487494536671b67a3edeb4e64fd8ea099bb671314"
+      "sha256": "ab1319f235e5a8e719afbdbb1b4da37cb684aa68dc8a3f5985ddb3e1f3545d5e"
     },
     "caption": {
       "path": "figures/18-3/captions/caption.txt",
-      "sha256": "26120ef194a174124eb0465ba8abee713f575ef712ca8505fa2cec4bf3af016d"
+      "sha256": "2999adfd88b9cf8cc090749dba414144a0cc24a4839a158a988fc07d12028676"
+    },
+    "reconstruction_script": {
+      "path": "scripts/reconstruct_18_3.py",
+      "sha256": "e6dbd729be806bc8b3a2ee44db331587813f390d285da15e3013e6c87572ac45"
+    },
+    "remediation_review": {
+      "path": "figures/18-3/remediation_2026_09_11.md",
+      "sha256": "f430eb727fb5a7a94bbf54d14c609f2bb00dc61fa53f15255fc961baffe8ffc8"
+    },
+    "book_period_reconstruction": {
+      "path": "figures/18-3/plots/book_period/figure_18_3_book_period.png",
+      "sha256": "be3a63c68d99fe94833858328c27363b8aae9e59b904d66c32211068edf8a3a1"
+    },
+    "book_period_comparison": {
+      "path": "figures/18-3/plots/comparisons/figure_18_3_book_period_review.png",
+      "sha256": "922e83599997249be41192a53436391c723a0a0a229ff57c0d1c8993771b5639"
+    },
+    "extended_reconstruction": {
+      "path": "figures/18-3/plots/extended/figure_18_3_extended.png",
+      "sha256": "aa29551dbcd4397fdb55aea8ec1e8236da796afc3adcc1f6e8cddaa8ccef7adc"
+    },
+    "extended_comparison": {
+      "path": "figures/18-3/plots/comparisons/figure_18_3_extended_review.png",
+      "sha256": "76e0c6d9f9cd4da0a62a37f35a362815d4e8f7096261b3506719ea6f8c14bc48"
+    },
+    "clean_figure_18_3_swiss_alternative": {
+      "path": "figures/18-3/data/clean/figure_18_3_swiss_alternative.csv",
+      "sha256": "f899928dbcdd233afffeded551f9b47bfb81e219435775fd3f6194c5df28ab12"
+    },
+    "clean_figure_18_3_us_1999_2014": {
+      "path": "figures/18-3/data/clean/figure_18_3_us_1999_2014.csv",
+      "sha256": "f9e3eef834ea6a559fc26aab6fae0744f493eb52e8da3305e9885e96168dc457"
+    },
+    "clean_figure_18_3_us_historical": {
+      "path": "figures/18-3/data/clean/figure_18_3_us_historical.csv",
+      "sha256": "93bba95ef3cb250ea9c52f2de7b1faa17110eaaf44dde1db13d6894b69680e8b"
+    },
+    "clean_figure_18_3_us_revision_diagnostic": {
+      "path": "figures/18-3/data/clean/figure_18_3_us_revision_diagnostic.csv",
+      "sha256": "8e34e11282ec1ea15613e44b3116ffd7be0b655c42abeb5d315b55e88a5bf902"
+    },
+    "clean_figure_18_3_us_successor": {
+      "path": "figures/18-3/data/clean/figure_18_3_us_successor.csv",
+      "sha256": "e32a435b76760ba827324a54725d7fad9640ecb1b3ac7442e1cf927630b18b1f"
+    },
+    "recovery_lineage_json": {
+      "path": "figures/18-3/lineage/recovery_2026_09_11.json",
+      "sha256": "242bbbfdf04d3a7164644f90a4a9cf45ba07367be3ee5cca6405669a62ca7b48"
+    },
+    "recovery_lineage_csv": {
+      "path": "figures/18-3/lineage/recovery_2026_09_11.csv",
+      "sha256": "2e8d2f4bd953a3d8879d1840f961ad8bb5537f8c72f0690d8286430314675cb6"
     }
   }
 }
